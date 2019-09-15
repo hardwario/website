@@ -1,0 +1,92 @@
+{{ define "main" }}
+
+<section>
+    <div class="container pt-30 pt-md-0">
+        {{ $pages := .Data.Pages }}
+        {{ range where $pages.ByPublishDate.Reverse ".Params.featured" true }}
+          {{ .Render "grid-featured" }}
+        {{ end }}
+        <div class="row">
+
+          {{ $pages := .Data.Pages }}
+          {{ range where $pages.ByPublishDate.Reverse ".Params.featured" false }}
+            {{ .Render "grid-box" }}
+          {{ end }}
+
+        </div>
+        <!--
+        <div class="row">
+            <div class="col">
+                <div class="d-block">
+                    <img loading="eager" src="../_assets/images/casestudiesfirst.jpg" alt="" class="w-100" />
+                </div>
+
+                <div class="px-10 px-md-30 px-xl-120">
+                    <div class="bg-white pt-30 pt-md-70 abs-5 position-relative">
+
+                        <div class="row pb-40">
+                            <div class="col-10 col-md-8 col-lg-5 mx-auto text-center">
+                                <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>Případová studie</span></div>
+                            </div>
+                        </div>
+
+                        <div class="px-xl-100">
+                            <h1 class="font-weight-black font-30 font-md-40 text-center pb-50">
+                                Čtyři moduly pomohly Škodě Auto rychleji reagovat na problémy ve výrobě
+                            </h1>
+                        </div>
+
+                        <div class="text-center pb-100">
+                            <a href="" class="d-block d-md-inline-block text-uppercase font-lnh24 py-15 px-10 px-md-50 d-inline-block font-weight-bold font-font2 font-red bg-white text-decoration-none border-red">read the case study now</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <a href="" class="d-block font-black text-decoration-none mb-40 border-left pl-20">
+                    <div class="font-red font-font2 font-weight-medium text-uppercase pb-25 font-13">Studie</div>
+                    <h2 class="font-19 pb-15">Čtyři moduly pomohly Škodě Auto rychleji reagovat na problémy ve výrobě</h2>
+                    <div class="text-decoration-underline font-13 font-weight-bold text-uppercase">číst celé</div>
+                </a>
+                <a href="" class="d-block font-black text-decoration-none mb-40 border-left pl-20">
+                    <div class="font-red font-font2 font-weight-medium text-uppercase pb-25 font-13">Studie</div>
+                    <h2 class="font-19 pb-15">Čtyři moduly pomohly Škodě Auto rychleji reagovat na problémy ve výrobě</h2>
+                    <div class="text-decoration-underline font-13 font-weight-bold text-uppercase">číst celé</div>
+                </a>
+                <a href="" class="d-block font-black text-decoration-none mb-40 border-left pl-20">
+                    <div class="font-red font-font2 font-weight-medium text-uppercase pb-25 font-13">Studie</div>
+                    <h2 class="font-19 pb-15">Čtyři moduly pomohly Škodě Auto rychleji reagovat na problémy ve výrobě</h2>
+                    <div class="text-decoration-underline font-13 font-weight-bold text-uppercase">číst celé</div>
+                </a>
+            </div>
+            <div class="col-12 col-md-6 pb-30">
+                <a href="" class="d-block font-black text-decoration-none mb-40 border-left pl-20">
+                    <div class="font-red font-font2 font-weight-medium text-uppercase pb-25 font-13">Studie</div>
+                    <h2 class="font-19 pb-15">Čtyři moduly pomohly Škodě Auto rychleji reagovat na problémy ve výrobě</h2>
+                    <div class="text-decoration-underline font-13 font-weight-bold text-uppercase">číst celé</div>
+                </a>
+                <a href="" class="d-block font-black text-decoration-none mb-40 border-left pl-20">
+                    <div class="font-red font-font2 font-weight-medium text-uppercase pb-25 font-13">Studie</div>
+                    <h2 class="font-19 pb-15">Čtyři moduly pomohly Škodě Auto rychleji reagovat na problémy ve výrobě</h2>
+                    <div class="text-decoration-underline font-13 font-weight-bold text-uppercase">číst celé</div>
+                </a>
+                <a href="" class="d-block font-black text-decoration-none mb-40 border-left pl-20">
+                    <div class="font-red font-font2 font-weight-medium text-uppercase pb-25 font-13">Studie</div>
+                    <h2 class="font-19 pb-15">Čtyři moduly pomohly Škodě Auto rychleji reagovat na problémy ve výrobě</h2>
+                    <div class="text-decoration-underline font-13 font-weight-bold text-uppercase">číst celé</div>
+                </a>
+            </div>
+            <div class="col-12">
+                <div class="text-center pb-110 pt-10">
+                    <a href="" class="d-block d-md-inline-block text-uppercase font-lnh24 py-15 px-10 px-md-50 d-inline-block font-weight-bold font-font2 font-red bg-white text-decoration-none border-red">načíst další</a>
+                </div>
+            </div>
+        </div>-->
+    </div>
+
+</section>
+
+{{ end }}

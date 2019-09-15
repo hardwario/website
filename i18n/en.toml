@@ -1,0 +1,44 @@
+[case_study]
+other = "Case study"
+
+[read_case_study_now]
+other = "Read the case study now"
+
+[company]
+other = "Company"
+
+[industry]
+other = "Industry"
+
+[product]
+other = "Product"
+
+[headquarters_sales]
+other = "Headquarters & Sales"
+
+[development_distribution]
+other = "Development & Distribution"
+
+[uk]
+other = "UNITED KINGDOM"
+
+[czechia]
+other = "CZECHIA"
+
+[id]
+other = "Company ID"
+
+[vat_id]
+other = "VAT ID"
+
+[send]
+other = "Send"
+
+[write_us]
+other = "Write us a message"
+
+[trusted_by]
+other = "Trusted by"
+
+[download_specification]
+other = "download<br />specification [.pdf]"

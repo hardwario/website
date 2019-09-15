@@ -1,0 +1,76 @@
+{{ define "main" }}
+
+<section>
+  <img loading="eager" src="../../_assets/images/image2.jpg" alt="" class="w-100" />
+
+  {{ .Content }}
+
+  <div class="container py-50">
+    <div class="row justify-content-center">
+      <div class="col-10">
+        <div class="row">
+          <div class="col-12 col-md-6 mx-auto text-center pb-70">
+            <div class="font-redLined font-red font-font2 font-weight-bold font-10">
+              <span>
+                <div class="icon icon--quote"></div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <blockquote class="font-25 font-md-35 font-gray4 font-weight-bold text-center pb-30">
+          {{ .Params.testimonial_text }}
+        </blockquote>
+        <span class="d-block text-center font-black text-decoration-none">
+          <img loading="lazy" src="/case-studies/{{ .Params.testimonial_image }}" class="rounded-circle mb-30 d-block mx-auto" alt="" />
+          <div class="font-22 font-lnh38 font-weight-bold">
+            <div>{{ .Params.testimonial_author }}</div>
+            <div>{{ .Params.testimonial_company }}</div>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="bg-darkGray font-white text-center pt-70 pb-60 px-15">
+    <h2 class="font-40 font-md-64 font-md-lnh56 pb-30 mb-5 font-weight-black">{{ i18n "read_full_study" | safeHTML }}</h2>
+    <p class="font-24 pb-40">{{ i18n "get_full_content" }}</p>
+    <a href = "#" class="getPdf text-uppercase font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" data-toggle="modal" data-target=".bd-example-modal-lg">{{ i18n "download_pdf" }}</a>
+  </div>
+
+  <div id = "downloadCaseStudy" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style = "padding-top:200px">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-md-8">
+                <h2 class = "font-30 font-md-42 pt-60 pb-30 font-weight-black">{{ i18n "download_case_study" }}</h2>
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                <script>
+                  hbspt.forms.create({
+                    portalId: "5453210",
+                    formId: "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    $('.getPdf').click(function(){
+      $('#downloadCaseStudy').modal({
+        keyboard: false
+      })
+    });
+
+  </script>
+</section>
+
+<footer>
+
+  {{ end }}

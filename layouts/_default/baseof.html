@@ -1,0 +1,9 @@
+{{ partial "_head.html" . }}
+
+<main role="main">
+{{ block "main" . }}
+  {{ .Content }}
+{{ end }}
+</main>
+
+{{ partial "_foot.html" }}

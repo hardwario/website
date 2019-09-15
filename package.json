@@ -1,0 +1,42 @@
+{
+  "name": "website",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp start",
+    "build": "hugo",
+    "build:netlify": "npm run build && ./script/pre-deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigclownlabs/bc-website.git"
+  },
+  "author": "HARDWARIO",
+  "bugs": {
+    "url": "https://github.com/hardwario/website/issues"
+  },
+  "homepage": "https://github.com/hardwario/website#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-hash": "^4.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8",
+    "jquery": "3.3.1",
+    "popper.js": "^1.12.9"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "gulp-purifycss": "^0.2.0",
+    "magnific-popup": "^1.1.0",
+    "netlify-cms": "^2.2.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "peerDependencies": {
+    "jquery": "3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}

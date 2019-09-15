@@ -1,0 +1,159 @@
+{{ define "main" }}
+
+<section>
+    <div class="bg-image1 pt-50 pt-lg-0 d-flex align-items-center mb-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 text-center text-md-left">
+                    <h1 class="font-40 font-md-64 font-md-lnh56 font-weight-black pt-40 pb-40 pb-md-40">{{ .Params.heading | safeHTML }}</h1>
+                    <p class="font-24 font-gray2 font-lnh37 pb-40 mb-md-30 pr-md-100">{{ .Params.perex | safeHTML }}</p>
+                    <div>
+                        <a href="#why_hardwario" class="cta-button font-lnh54 px-70 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "tell_me_more" }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row align-items-center pt-lg-0 pb-30 mb-md-30">
+            <div class="col-12 col-md-8 col-lg-4 mx-auto text-center mb-10">
+                <div class="font-redLined font-red mb-20 font-font2 font-weight-bold font-15"><span>{{ i18n "trusted_by" }}</span></div>
+            </div>
+            <div class="col-12 text-center">
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="95" src="../_assets/images/eon.svg" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-10 mb-md-0 d-inline-block">
+                    <img width="140" src="../_assets/images/microsoft.svg" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-10 mb-md-0 d-inline-block">
+                    <img width="140" src="../_assets/images/skoda.svg" alt="" />
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ $pages := .Data.Pages }}
+{{ range where $pages.ByPublishDate.Reverse ".Params.featured" true }}
+  {{ .Render "grid-home" }}
+{{ end }}
+
+<section>
+    <div class="container pt-50 pb-50" id = "why_hardwario">
+        <div class="row pt-50 mb-80">
+            <div class="col">
+                <div class="row">
+                    <div class="col-12 col-md-4 mx-auto">
+                        <div class="font-redLined text-center font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "why_hardwario" }}</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pb-50 align-items-center">
+            <div class="order-2 order-lg-1 col-12 col-lg-6 text-center text-lg-left">
+                <div class="pb-15 font-red font-font2 font-weight-bold font-15">{{ i18n "prototype_product" }}</div>
+                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-40">{{ i18n "discover_develop_deploy" | safeHTML }}</h2>
+                <p class="font-20 font-lnh30">{{ i18n "we_understand_requirements" }}</p>
+            </div>
+            <div class="order-1 order-lg-2 col-12 col-lg-6">
+                <img loading="lazy" src="../_assets/images/image4.svg" class="w-100" alt="" />
+            </div>
+        </div>
+
+        <div class="row pb-0 align-items-center">
+            <div class="col-12 col-lg">
+                <img loading="lazy" src="../_assets/images/image5.svg" class="w-100" alt="" />
+            </div>
+            <div class="col-12 col-lg-5 text-center text-lg-left">
+                <div class="pb-15 font-red font-font2 font-weight-bold font-15">{{ i18n "minimum_maintanance" }}</div>
+                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-40">{{ i18n "multiyear_battery_life" | safeHTML }}</h2>
+                <p class="font-20 font-lnh30">{{ i18n "our_lowpower_design" }}</p>
+            </div>
+        </div>
+
+        <div class="row pb-0 align-items-center">
+            <div class="order-2 order-lg-1 col-12 col-lg-6 text-center text-lg-left">
+                <div class="pb-15 font-red font-font2 font-weight-bold font-15">{{ i18n "data_integration" }}</div>
+                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-40">{{ i18n "we_help_integrate" }}</h2>
+                <p class="font-20 font-lnh30">{{ i18n "easily_connect" }}</p>
+            </div>
+            <div class="order-1 order-lg-2 col-12 col-lg-6">
+                <img loading="lazy" src="../_assets/images/image6.svg" class="w-100" alt="" />
+            </div>
+        </div>
+
+        <div class="row pb-50 align-items-center">
+            <div class="col-12 col-lg-6 mr-auto">
+                <img loading="lazy" src="../_assets/images/image7.svg" class="w-100" alt="" />
+            </div>
+            <div class="col-12 col-lg-5 text-center text-lg-left">
+                <div class="pb-15 font-red font-font2 font-weight-bold font-15">{{ i18n "branded_cases" }}</div>
+                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-40">{{ i18n "customize_device" }}</h2>
+                <p class="font-20 font-lnh30">{{ i18n "unique_device" }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="bg-gray text-center pt-70 pb-60 px-15">
+        <h2 class="font-40 font-md-64 font-md-lnh56 pb-30 mb-5 font-weight-black">{{ i18n "90_days" | safeHTML }}</h2>
+        <p class="font-24 font-gray mb-30 pb-5 font-lnh38">{{ i18n "3_months" }}</p>
+        <a href="/contact" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-darkGray">{{ i18n "contact_us" }}</a>
+    </div>
+</section>
+
+<section>
+    <div class="container py-50 mb-md-50">
+        <div class="row pt-50 pb-50">
+            <div class="col">
+                <div class="row">
+                    <div class="col-12 col-md-4 mx-auto">
+                        <div class="font-redLined text-center font-red mb-20 font-font2 font-weight-bold font-15"><span>{{ i18n "our_platforms" }}</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+          {{ range where .Pages "Section" "platforms" }}
+            {{ .Render "grid" }}
+          {{ end }}
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container pt-50 pb-50">
+        <div class="row pt-50 pb-50">
+            <div class="col">
+                <div class="row">
+                    <div class="col-12 col-md-4 mx-auto">
+                        <div class="font-redLined text-center text-uppercase font-red mb-20 font-font2 font-weight-bold font-15"><span>HARDWARIO</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray mt-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 mx-auto text-center">
+                    <div class="youtube mb-50 abs-2">
+                        <img src = "../_assets/images/hardwario.jpg" class="img-fluid" />
+                        <!--<iframe loading="lazy" src="https://www.youtube.com/embed/U8i0Afk3XOI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                    </div>
+                    <h2 class="font-40 font-md-64 pb-20 font-weight-black">{{ i18n "our_story" }}</h2>
+                    <p class="font-20 font-lnh30 pb-50 mb-20 px-md-50">{{ i18n "we_believe" }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+
+
+{{ end }}

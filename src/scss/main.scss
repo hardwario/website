@@ -1,0 +1,316 @@
+@import "basic";
+
+@import "../../node_modules/bootstrap/scss/print";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/images";
+//@import "../../node_modules/bootstrap/scss/code";
+@import "../../node_modules/bootstrap/scss/grid";
+//@import "../../node_modules/bootstrap/scss/tables";
+//@import "../../node_modules/bootstrap/scss/forms";
+//@import "../../node_modules/bootstrap/scss/buttons";
+//@import "../../node_modules/bootstrap/scss/transitions";
+//@import "../../node_modules/bootstrap/scss/dropdown";
+//@import "../../node_modules/bootstrap/scss/button-group";
+//@import "../../node_modules/bootstrap/scss/input-group";
+//@import "../../node_modules/bootstrap/scss/custom-forms";
+//@import "../../node_modules/bootstrap/scss/nav";
+//@import "../../node_modules/bootstrap/scss/navbar";
+//@import "../../node_modules/bootstrap/scss/card";
+//@import "../../node_modules/bootstrap/scss/breadcrumb";
+//@import "../../node_modules/bootstrap/scss/pagination";
+//@import "../../node_modules/bootstrap/scss/badge";
+//@import "../../node_modules/bootstrap/scss/jumbotron";
+@import "../../node_modules/bootstrap/scss/alert";
+//@import "../../node_modules/bootstrap/scss/progress";
+//@import "../../node_modules/bootstrap/scss/media";
+//@import "../../node_modules/bootstrap/scss/list-group";
+//@import "../../node_modules/bootstrap/scss/close";
+@import "../../node_modules/bootstrap/scss/modal";
+//@import "../../node_modules/bootstrap/scss/tooltip";
+//@import "../../node_modules/bootstrap/scss/popover";
+//@import "../../node_modules/bootstrap/scss/carousel";
+@import "../../node_modules/bootstrap/scss/utilities";
+
+//@import "../../node_modules/magnific-popup/src/css/main.scss";
+//@import "../../node_modules/slick-carousel/slick/slick.scss";
+//@import "../../node_modules/jquery-form-validator/form-validator/theme-default.min";
+//@import "../../node_modules/jquery-datetimepicker/jquery.datetimepicker";
+//@import "../../node_modules/nouislider/distribute/nouislider.min";
+
+
+//@function vw($target) {
+//  $vw-context: (1440*.01) * 1px;
+//  @return ($target/$vw-context) * 1vw;
+//}
+//
+//@function vh($target) {
+//  $vw-context: (800*.01) * 1px;
+//  @return ($target/$vw-context) * 1vh;
+//}
+
+
+h1,h2,h3,h4,p
+{
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #fff;
+    font-size: em(16);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+  font-size: em(16);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+  font-size: em(16);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+  font-size: em(16);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  @include font1();
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+  color: #252532;
+}
+
+.text-decoration-underline
+{
+  text-decoration: underline;
+
+  &:hover
+  {
+    text-decoration: none;
+  }
+}
+
+h1,h2,h3,h4{
+  margin: 0;
+  padding: 0;
+  //font-family: 'Roboto Condensed', sans-serif;
+}
+
+.rounded
+{
+  &-20
+  {
+    border-radius: 20px;
+  }
+}
+
+hr{
+  margin: 0;
+  padding: 0;
+  height: 2px;
+  background-color: #E4E4E4;
+  border: 0;
+}
+
+.nowrap
+{
+  white-space: nowrap
+}
+
+.hover
+{
+}
+
+.abs
+{
+  &-1
+  {
+    position: relative;
+    bottom: -25px;
+  }
+
+  &-2
+  {
+    position: relative;
+    margin-top: -100px;
+  }
+
+  &-3
+  {
+    margin-top: -350px;
+
+    @media(max-width:1199px)
+    {
+      margin-top: 0px;
+    }
+  }
+
+  &-4
+  {
+    position: absolute;
+    top: -40px;
+    bottom: -40px;
+
+    @media(max-width:1023px)
+    {
+      position: relative;
+      top: 0px;
+      bottom: 0px;
+    }
+  }
+
+  &-5
+  {
+    margin-top: -200px;
+
+    @media(max-width:1199px)
+    {
+      margin-top: -30px;
+    }
+  }
+
+  &-6
+  {
+    margin-top: -110px;
+
+    @media(max-width:1199px)
+    {
+      margin-top: -30px;
+    }
+  }
+}
+
+@media (min-width: 1200px)
+{
+  .container {
+    max-width: 1199px;
+  }
+}
+
+.border
+{
+  &-input
+  {
+    border: 0;
+    border-bottom: 2px solid #15151C;
+  }
+
+  &-textarea
+  {
+    border: 2px solid #15151C;
+  }
+
+  &-red{
+    border:1px solid #E30427;
+  }
+}
+
+.youtube
+{
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+
+  iframe
+  {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+  }
+}
+
+.slick-prev.slick-arrow
+{
+  background: none;
+  border-radius: 0;
+  text-indent: -999999px;
+  width: 36px;
+  height: 72px;
+  position: absolute;
+  border: 0;
+  top:50%;
+  margin-top: -72px;
+  left: -67px;
+
+  @media(max-width:767px)
+  {
+    left: -40px;
+  }
+
+  &:after
+  {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 0;
+    height: 0;
+    content: '';
+    border-style: solid;
+    border-width: 36px 36px 36px 0;
+    border-color: transparent #ffffff transparent transparent;
+  }
+}
+
+.slick-next.slick-arrow
+{
+  background: none;
+  border-radius: 0;
+  text-indent: -999999px;
+  width: 36px;
+  height: 72px;
+  position: absolute;
+  border: 0;
+  top:50%;
+  margin-top: -72px;
+  right: -67px;
+
+  @media(max-width:767px)
+  {
+    right: -40px;
+  }
+
+  &:after
+  {
+    position: absolute;
+    top:0;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 36px 0 36px 36px;
+    border-color: transparent transparent transparent #ffffff;
+  }
+}
+
+.select
+{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("../images/arrow.svg");
+  background-position: right 15px center;
+  background-repeat: no-repeat;
+  border-radius: 0;
+  text-align: center;
+  text-align-last:center;
+
+  &--black
+  {
+    background-image: url("../images/arrow-black.svg");
+  }
+}

@@ -1,0 +1,18 @@
+baseURL = "/"
+homeURL = "/"
+DefaultContentLanguage = "en"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[languages]
+  [languages.en]
+    LanguageName = "ENG"
+    weight = 1
+    [languages.en.params]
+      baseURL = "/"
+  [languages.cs]
+    LanguageName = "CZE"
+    weight = 2
+    [languages.cs.params]
+      baseURL = "/cs/"
+      homeURL = "/cs/"
