@@ -10,27 +10,49 @@
     <link rel="stylesheet" href="/_assets/css/{{ index .Site.Data.css.hash "bg.css" }}" />
     <link rel="stylesheet" href="/_assets/css/{{ index .Site.Data.css.hash "icon.css" }}" />
 
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:500,700|Roboto:400,500,700,900&display=swap&subset=cyrillic-ext" rel="stylesheet">
 
-    <link rel="shortcut icon" href="https://static.wixstatic.com/media/941a28_e2d125f3e6b24feb93db960e9806d2c1%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/941a28_e2d125f3e6b24feb93db960e9806d2c1%7Emv2.png" type="image/png"/>
-    <link rel="apple-touch-icon" href="https://static.wixstatic.com/media/941a28_e2d125f3e6b24feb93db960e9806d2c1%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/941a28_e2d125f3e6b24feb93db960e9806d2c1%7Emv2.png" type="image/png"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
     <script src="/_assets/js/{{ index .Site.Data.js.hash "popper.min.js" }}"></script>
     <script src="/_assets/js/{{ index .Site.Data.js.hash "jquery.min.js" }}"></script>
     <script src="/_assets/js/{{ index .Site.Data.js.hash "bootstrap.min.js" }}"></script>
     <script src="/_assets/js/{{ index .Site.Data.js.hash "main.js" }}"></script>
 
+    {{ if hasPrefix .Permalink .Site.Params.productionURL }}
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M4VSP6S');</script>
+    <!-- End Google Tag Manager -->
+    {{ end }}
 
 </head>
 <body>
-
-  <style>
-  .hubspot-link__container.sproket {
-    visibility: hidden!important;
-    display: none;
-  }
-  </style>
-
+  {{ if hasPrefix .Permalink .Site.Params.productionURL }}
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4VSP6S" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+  {{ end }}
 <header role="banner">
     <div class="container pt-30 pt-md-90 pb-0 pb-md-60">
         <div class="row align-items-center">
@@ -47,7 +69,7 @@
             </div>
 
 
-            <div class="col-12 col-lg pt-20 pt-md-0 d-none d-lg-block js-menu">
+            <div class="col-12 col-lg pt-20 pt-md-0 d-none d-lg-block js-menu menu">
                 <ul class="d-lg-flex text-center text-lg-left mt-20 mt-lg-0 list-unstyled py-0 my-0 font-20 font-md-15 font-weight-medium font-font2 text-uppercase justify-content-center justify-content-md-end">
                   {{ $currentPage := . }}
                   {{ range .Site.Menus.main }}

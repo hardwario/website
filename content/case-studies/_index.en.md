@@ -1,6 +1,6 @@
 ---
 title: Case Studies
-menu: 
+menu: main
 weight: 50
 meta:
     title: HARDWARIO

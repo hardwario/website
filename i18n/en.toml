@@ -42,3 +42,6 @@ other = "Trusted by"
 
 [download_specification]
 other = "download<br />specification [.pdf]"
+
+[learn_more]
+other = "Learn more"

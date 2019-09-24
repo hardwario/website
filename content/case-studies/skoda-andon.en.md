@@ -1,18 +1,20 @@
 ---
 title: Four modules help Škoda Auto respond more quickly to production problems
 heading: Four modules help Škoda Auto respond more quickly to production problems
+image_main: /case-studies/skoda_main.png
+image_grid: /case-studies/skoda_grid.png
 description:
 meta:
   title: Škoda Auto Andon Case Study from HARDWARIO
 company: ŠKODA Auto
 industry: Automotive
-product: BLOX
+product: BLOX IoT Kit
 featured: true
 testimonial_text: "HARDWARIO helped us to swiftly and smoothly enhance our production process with a solution to monitor the current state of production lines and easily check whether any operator needs help."
 testimonial_author: Jan Vlačiha
 testimonial_company: Expert Coordinator – Škoda Auto
 testimonial_image: vlaciha.jpg
-logo: "../../_assets/images/skoda.jpg"
+logo: /case-studies/skoda_logo.jpg
 ---
 
 {{< intro >}}

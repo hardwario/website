@@ -1,11 +1,11 @@
 [read_full_study]
-other = "Read full case study"
+other = "Are you interested<br/> in the whole story?"
 
 [get_full_content]
-other = "Download this and other case studies as PDF documents"
+other = "Download this and other case studies now"
 
 [download_pdf]
-other = "Download PDF now"
+other = "Yes, I'm interested"
 
 [download_case_study]
-other = "Case study to you inbox"
+other = "We'll send you<br/> all case studies<br/> to you inbox"

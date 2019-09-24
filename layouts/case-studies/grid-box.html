@@ -1,11 +1,11 @@
 <div class="col-12 col-md-6 pb-md-100 mb-50">
     <a href="{{ .Permalink }}" class="d-block">
-        <img loading="lazy" src="../_assets/images/casestudiessecond.jpg" alt="" class="w-100" />
+        <img loading="lazy" src="{{ .Params.image_grid }}" alt="" class="w-100" />
     </a>
 
     <div class="px-10 px-md-30">
         <div class="bg-white pt-30 abs-6 position-relative">
-            <div class="font-red font-font2 text-center pb-10 font-weight-bold font-15"><span>Case Study</span></div>
+            <div class="font-red font-font2 text-center pb-10 font-weight-bold font-15"><span>{{ i18n "case_study" }}</span></div>
 
             <div class="px-xl-70">
                 <h2 class="font-weight-black font-27 font-lnh27 text-center pb-25">
@@ -15,7 +15,7 @@
                 </h2>
             </div>
 
-            <a href="{{ .Permalink }}" class="d-block text-decoration-underline text-center font-15 text-uppercase font-red font-weight-bold">přečíst článek</a>
+            <a href="{{ .Permalink }}" class="d-block text-decoration-underline text-center font-15 text-uppercase font-red font-weight-bold">{{ i18n "learn_more"}}</a>
         </div>
     </div>
 </div>

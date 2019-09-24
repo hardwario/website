@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col">
         <div class="d-block">
-            <img loading="eager" src="../_assets/images/casestudiesfirst.jpg" alt="" class="w-100" />
+            <img loading="eager" src="{{ .Params.image_main }}" alt="" class="w-100" />
         </div>
 
         <div class="px-10 px-md-30 px-xl-120">
@@ -9,7 +9,7 @@
 
                 <div class="row pb-40">
                     <div class="col-10 col-md-8 col-lg-5 mx-auto text-center">
-                        <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>Case Study</span></div>
+                        <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "case_study" }}</span></div>
                     </div>
                 </div>
 
@@ -25,22 +25,22 @@
                             <img loading="eager" src="../_assets/images/skoda.jpg" alt="" />
                         </div>
                         <div class="pl-30 pr-md-30 pr-lg-60 border-left py-10 py-md-30">
-                            <div class="font-gray3">Společnost</div>
+                            <div class="font-gray3">{{ i18n "company" }}</div>
                             <div class="font-black">{{ .Params.company }}</div>
                         </div>
                         <div class="pl-30 pr-md-30 pr-lg-60 border-left py-10 py-md-30">
-                            <div class="font-gray3">obor</div>
+                            <div class="font-gray3">{{ i18n "industry" }}</div>
                             <div class="font-black">{{ .Params.industry }}</div>
                         </div>
                         <div class="pl-30 border-left py-10 py-md-30">
-                            <div class="font-gray3">produkt</div>
+                            <div class="font-gray3">{{ i18n "product" }}</div>
                             <div class="font-black">{{ .Params.product }}</div>
                         </div>
                     </div>
                 </div>
 
                 <div class="text-center pb-100">
-                    <a href="{{ .Permalink }}" class="d-block d-md-inline-block text-uppercase font-lnh24 py-15 px-10 px-md-50 d-inline-block font-weight-bold font-font2 font-white bg-red">read the case study now</a>
+                    <a href="{{ .Permalink }}" class="d-block d-md-inline-block font-lnh24 py-15 px-10 px-md-50 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "read_case_study_now" }}</a>
                 </div>
 
             </div>

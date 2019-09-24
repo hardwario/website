@@ -314,3 +314,14 @@ hr{
     background-image: url("../images/arrow-black.svg");
   }
 }
+
+.menu{
+  li:hover a{
+    text-decoration: none;
+    color: $red;
+  }
+
+  li a.active{
+    color: $red;
+  }
+}
