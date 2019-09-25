@@ -15,6 +15,7 @@ testimonial_author:
 testimonial_company:
 testimonial_image:
 logo: /case-studies/iframix_logo.png
+weight: 10
 ---
 
 {{< intro >}}

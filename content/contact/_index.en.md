@@ -3,5 +3,5 @@ title: Contact
 menu: ["main"]
 weight: 100
 meta:
-    title: Contact HARDWARIO
+    title: Get in touch with HARDWARIO
 ---

@@ -14,7 +14,8 @@ testimonial_text: "We contacted HARDWARIO after recommendation by Vodafone to te
 testimonial_author: Dominik Harman
 testimonial_company: Project Manager, E.ON
 testimonial_image: dominik_harman.jpg
-logo: /case-studies/eon_logo.gif
+logo: /case-studies/eon_logo.png
+weight: 20
 ---
 
 {{< intro >}}
