@@ -11,7 +11,7 @@ industry: Agriculture
 product: CHESTER & COOPER
 featured: false
 testimonial_text:
-testimonial_author: 
+testimonial_author:
 testimonial_company:
 testimonial_image:
 logo: /case-studies/iframix_logo.png
@@ -25,7 +25,7 @@ logo: /case-studies/iframix_logo.png
 
 {{% content %}}
 
-FRAMIX, a Czech company and a member of CCPA, a leading French group, is the market leader in animal feed. Their success is based on a long-term research. They are constantly developing new natural products that reduce the amount of medicines used and maintain excellent medical condition of the animals. Prevention of animal stress provoked by for example inappropriate temperature and humidity in farms is one of their current topics. Because of this, farmers sustain great economic loss, especially in the summer period. **IFRAMIX has asked us for a set of mobile sensors to detect this problem.**
+IFRAMIX, a Czech company and a member of CCPA, a leading French group, is the market leader in animal feed. Their success is based on a long-term research. They are constantly developing new natural products that reduce the amount of medicines used and maintain excellent medical condition of the animals. Prevention of animal stress provoked by for example inappropriate temperature and humidity in farms is one of their current topics. Because of this, farmers sustain great economic loss, especially in the summer period. **IFRAMIX has asked us for a set of mobile sensors to detect this problem.**
 
 {{% section "The brief" %}}
 
