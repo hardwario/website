@@ -1,4 +1,11 @@
 # Netlify
 https://hardwario.netlify.com/* https://www.hardwario.com/:splat 301!
+https://hardwario.cz/* https://www.hardwario.com/:splat 302!
+https://www.hardwario.cz/* https://www.hardwario.com/:splat 302!
+http://hardwario.cz/* https://www.hardwario.com/:splat 302!
+http://www.hardwario.cz/* https://www.hardwario.com/:splat 302!
+https://hardwar.io/* https://www.hardwario.com/:splat 301!
+https://www.hardwar.io/* https://www.hardwario.com/:splat 301!
 
 https://www.hardwario.com/skoda-andon* https://www.hardwario.com/case-studies/skoda-andon/:splat 301!
+https://www.hardwario.com/our-events* https://www.eventbrite.co.uk/o/hardwario-23013840041:splat 302!
