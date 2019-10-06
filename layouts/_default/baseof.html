@@ -1,5 +1,12 @@
 {{ partial "_head.html" . }}
 
+{{ block "header" . }}
+
+  {{ partial "toolbar.html" . }}
+
+  {{ partial "header.html" . }}
+
+{{ end }}
 <main role="main">
 {{ block "main" . }}
   {{ .Content }}
