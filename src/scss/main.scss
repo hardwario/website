@@ -467,6 +467,12 @@ hr{
       {
         color:#9fa3a7;
         background: none;
+
+        &:before
+        {
+          content: '-'!important;
+          background: #9fa3a7!important;
+        }
       }
 
       &--gifts
