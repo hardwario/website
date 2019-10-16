@@ -356,6 +356,13 @@ hr{
     padding-bottom: $baseline;
   }
 
+  &__pricelist
+  {
+    span{
+      cursor: pointer;
+    }
+  }
+
   &__item
   {
     margin-top: $baseline*1;
