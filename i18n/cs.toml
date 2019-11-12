@@ -90,3 +90,9 @@ other = "Vybrané stavebnice"
 
 [start_with_kit]
 other = "Vyberte si stavebnicí"
+
+[project]
+other = "Projekt"
+
+[academy]
+other = "Akademie"

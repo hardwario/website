@@ -1,7 +1,7 @@
 ---
 title: Akademie
-mainHeading: Zjisti, jak ten BigClown vlastně funguje...
+mainHeading: Zjisti, jak IoT stavebnice funguje
 slug: akademie
-menu: ["footer"]
-weight: 10
+menu: ["main", "footer"]
+weight: 70
 ---

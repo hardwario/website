@@ -15,6 +15,6 @@ blogHeading: Our IoT Insider
 productsTitle: Recommended kits
 productsHeading: Select best fit kit
 productLeft: "/kits/starter-kit"
-productMiddle: "/kits/starter-kit"
-productRight: "/kits/starter-kit"
+productMiddle: "/kits/chester"
+productRight: "/kits/innovation-kit"
 ---

@@ -1,0 +1,38 @@
+[show_all_projects]
+other = "Show all projects"
+
+[learn_from_other]
+other = "Learn from other makers and their projects"
+
+[share_my_project]
+other = "Share my project"
+
+[thank_you]
+other = "Thank you!"
+
+[get_100]
+other = "Get € 100 by completing this project!"
+
+[complete_project]
+other = "Complete project, make step-by-step tutorial and get €&nbsp;100."
+
+[make_a_deal]
+other = "Contact Us to Make a Deal"
+
+[supported]
+other = "Inspired by"
+
+[supported_extended]
+other = "This project is supported by"
+
+[table_of_contents]
+other = "Table of Contents"
+
+[hackster_heading]
+other = "Do you want to see more projects?"
+
+[hackster_text]
+other = "We and other inventors are publishing many more project to Hackster.io platform."
+
+[hackster_button]
+other = "Show me hackster.io projects"

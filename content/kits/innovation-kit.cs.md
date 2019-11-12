@@ -1,5 +1,5 @@
 ---
-title: Starter Kit Bundle
+title: Kit pro inovační týmy
 id: basic
 description: Starter Kity pro celou třídu!
 isBasic: false
@@ -21,7 +21,7 @@ buyLink: https://obchod.bigclown.cz/starter-kits-bundle/
 modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["usb_dongle","sigfox","lora"]
 contains: []
-eduText: Sada 10 Starter Kitů umožní zábavu se stavebnicí celé třídě
+eduText: Sada připravena pro inovační týmy ve firmách
 included: ["Obsahuje 10 Starter Kitů", "Zdarma HARDWARIO Hub", "100 dní na vyzkoušení","2hodinový webinář zdarma"]
 ---
 

@@ -39,3 +39,6 @@ other = "Navrhneme a vyrobíme váš produkt"
 
 [kit_not_enough]
 other = "Nestačí vám pro váš projekt pouze stavebnice? Dokončili jste pilot vašeho projektu a chcete vytvořit na zařízení na zakázku? Vyvineme IoT zařízení dle vašich potřeb a připravíme na míru vše od technického řešení po design."
+
+[industry_kits]
+other = "Pro piloty průmyslu 4.0 jsme vybrali tyto stavebnice"

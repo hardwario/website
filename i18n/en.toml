@@ -72,3 +72,10 @@ other = "Tell me more"
 
 [read_more]
 other = "Read more"
+
+
+[project]
+other = "Project"
+
+[academy]
+other = "Academy"

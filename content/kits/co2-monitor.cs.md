@@ -1,5 +1,5 @@
 ---
-title: CO2 Monitor Kit
+title: CO2 Monitor Kit + Starter Kit
 id: basic
 description: Udrž hladinu CO2 pod kontrolou!
 isBasic: false
@@ -11,10 +11,10 @@ images:
   main: co2-monitor/main.png
 isStarter: false
 recommended: false
-included: ["Obsahuje Push Button Kit", "Obsahuje Radio Dongle","Skvělý začátek se stavebnicí","100 dní na vyzkoušení"]
+included: ["Obsahuje Starter Kit", "Obsahuje CO2 monitor","100 dní na vyzkoušení","1hodinový webinář zdarma"]
 notIncluded:
 weight: 60
-price: 3 990 Kč
+price: 5 390 Kč
 buyLink: "https://obchod.bigclown.cz/co2-monitor-kit/"
 modules: ["core","battery","co2","humidity","barometer","temperature","cover","enclosures-201"]
 optionalModules: ["usb_dongle","sigfox","lora"]
@@ -31,7 +31,7 @@ techSpecs:
     battery:
         heading: "Výdrž na baterky"
         text: "2 roky při standardním použití"
-eduText: Starter Kit vám pomůže seznámit se se stavebnicí
+eduText: Oblíbená kombinace Starter Kitu a kit pro měření oxidu uhličitého
 ---
 
 Oxid uhličitý (CO2) je bezbarvý plyn bez zápachu, který je důležitý pro život na Zemi. Jeho normální koncetrace je okolo 400 ppm (0.04 %). Vysoký obsah CO2 vede k nezdravému prostředí a různým zdravotním potížím. Proto je velmi důležité kontrolovat koncetraci CO2, a to především v místech, kde trávíme většinu svého času - v obýváku, ložnici, kanceláři, ve třídě. A navíc s našim CO2 Monitor Kitem budeš měřit nejen hodnotu CO2, ale také teplotu, vlhkost a atmosférický tlak.

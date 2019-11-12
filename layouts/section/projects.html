@@ -155,7 +155,6 @@
           <div class="row pb-10 pb-md-30">
               <div class="col-12 col-md-8 mx-auto text-center">
                   <h2 class="text-center pb-20 font-weight-black font-30 font-md-64">{{ .Params.mainHeading }}</h2>
-                  <p class="text-center font-24 font-lnh38">Sufficient amount of correct information reduces risk and reduces waste of time and resources.</p>
               </div>
           </div>
           <div class="articles articles--2">
@@ -186,18 +185,15 @@
     </div>
   </div>
 </section>
+
 <section>
-  <div class="container">
-    <div class="row justify-content-center pb-5">
-      <div class="col-12 col-md-8 text-center">
-        <div class="text">
-          <h2 class="title">{{ i18n "hackster_heading" }}</h2>
-          {{ i18n "hackster_text" | safeHTML }}
-        </div>
-        <a href="https://www.hackster.io/bigclown/projects" class="button button--fullred">{{ i18n "hackster_button" }}</a>
+    <div class="bg-gray text-center pt-70 pb-60 px-15">
+      <div class = "container">
+        <h2 class="font-40 font-md-64 font-md-lnh56 pb-30 mb-5 font-weight-black">{{ i18n "hackster_heading" }}</h2>
+        <p class="font-24 font-gray mb-30 pb-5 font-lnh38">{{ i18n "hackster_text" | safeHTML }}</p>
+        <a href="https://www.hackster.io/bigclown/projects" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-darkGray">{{ i18n "hackster_button" }}</a>
       </div>
     </div>
-  </div>
 </section>
 
 <script>
