@@ -6,7 +6,6 @@
   {
     background: #E30427;
   }
-
   &-contact
   {
     background: url("../images/contact-header.png") left bottom no-repeat;
@@ -304,6 +303,13 @@
   }
 }
 
+a.border-gray,
+button.border-gray,
+span.border-gray
+{
+  border: solid 1px #252532!important;
+}
+
 a.bg-red:hover,
 button.bg-red:hover,
 span.bg-red:hover
@@ -325,6 +331,15 @@ button.border-red:hover,
 span.border-red:hover
 {
   background-color: #E30427!important;
+  color: #fff!important;
+  text-decoration: none;
+}
+
+a.border-gray:hover,
+button.border-gray:hover,
+span.border-gray:hover
+{
+  background-color: #252532!important;
   color: #fff!important;
   text-decoration: none;
 }

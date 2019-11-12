@@ -73,6 +73,17 @@
 </section>
 
 <section>
+    <div class="bg-gray text-center pt-70 pb-60 px-15">
+      <div class = "container">
+        <h2 class="font-40 font-md-64 font-md-lnh56 pb-30 mb-5 font-weight-black">{{ i18n "learn_and_start_making" | safeHTML }}</h2>
+        <p class="font-24 font-gray mb-30 pb-5 font-lnh38">{{ i18n "we_prepared_academy_and_projects" | safeHTML }}</p>
+        <a href="{{ "projects/" | absLangURL }}" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-darkGray">{{ i18n "show_me_projects" }}</a>
+        <a href="{{ "academy/" | absLangURL }}" class="cta-button font-lnh54 px-40 d-inline-block font-weight-bold font-font2 font-gray text-decoration-none border-gray">{{ i18n "show_me_academy" }}</a>
+      </div>
+    </div>
+</section>
+
+<section>
   <div class="">
     <div class="container">
       <div class="row">
@@ -96,7 +107,7 @@
 
             </div>
             <div class="row d-flex align-content-stretch pb-50">
-              <a href="/blog" class="cta-button font-lnh54 px-70 d-inline-block mx-auto font-weight-bold font-font2 font-red bg-white text-decoration-none border-red mt-20">{{ i18n "more_blog" }}</a>
+              <a href="{{ "blog/" | absLangURL }}" class="cta-button font-lnh54 px-70 d-inline-block mx-auto font-weight-bold font-font2 font-red bg-white text-decoration-none border-red mt-20">{{ i18n "more_blog" }}</a>
             </div>
 
           </div>

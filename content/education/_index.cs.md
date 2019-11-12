@@ -17,6 +17,6 @@ blogHeading: We write about IoT in education
 productsTitle: Recommended kits
 productsHeading: Select best fit kit
 productLeft: "/kits/starter-kit"
-productMiddle: "/kits/starter-kit"
-productRight: "/kits/starter-kit"
+productMiddle: "/kits/co2-monitor"
+productRight: "/kits/starter-kit-bundle"
 ---

@@ -125,13 +125,13 @@
                         <div class="col">
                           <div class="row pt-70">
                               <div class="col-12 col-md-4 mx-auto text-center">
-                                  <div class="font-redLined font-redLined-gray font-red mb-40 font-font2 font-weight-bold font-15"><span>{{ .Params.productsTitle }}</span></div>
+                                  <div class="font-redLined font-redLined-gray font-red mb-40 font-font2 font-weight-bold font-15"><span>{{ i18n "selected_kits" }}</span></div>
                               </div>
                           </div>
                           <div class="row">
                               <div class="col-12 col-md-8 mx-auto text-center">
-                                  <h2 class="text-center pb-20 font-weight-black font-30 font-md-64">{{ .Params.productsHeading }}</h2>
-                                  <p class="text-center font-24 font-lnh38">Sufficient amount of correct information reduces risk and reduces waste of time and resources.</p>
+                                  <h2 class="text-center pb-20 font-weight-black font-30 font-md-64">{{ i18n "start_with_kit" }}</h2>
+                                  <p class="text-center font-24 font-lnh38">{{ i18n "education_kits" }}</p>
                               </div>
                           </div>
                             <div class="pricelist pricelist--bottom-3-5 pt-80">
@@ -156,6 +156,18 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="bg-gray text-center pt-70 pb-60 px-15">
+              <div class = "container">
+                <h2 class="font-40 font-md-64 font-md-lnh56 pb-30 mb-5 font-weight-black">{{ i18n "learn_and_start_making" | safeHTML }}</h2>
+                <p class="font-24 font-gray mb-30 pb-5 font-lnh38">{{ i18n "we_prepared_academy_and_projects" | safeHTML }}</p>
+                <a href="{{ "projects/" | absLangURL }}" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-darkGray">{{ i18n "show_me_projects" }}</a>
+                <a href="{{ "academy/" | absLangURL }}" class="cta-button font-lnh54 px-40 d-inline-block font-weight-bold font-font2 font-gray text-decoration-none border-gray">{{ i18n "show_me_academy" }}</a>
+              </div>
             </div>
         </section>
 
@@ -187,7 +199,7 @@
 
             </div>
             <div class="row d-flex align-content-stretch pb-50">
-              <a href="/blog" class="cta-button font-lnh54 px-70 d-inline-block mx-auto font-weight-bold font-font2 font-red bg-white text-decoration-none border-red mt-20">{{ i18n "more_blog" }}</a>
+              <a href="{{ "blog/" | absLangURL }}" class="cta-button font-lnh54 px-70 d-inline-block mx-auto font-weight-bold font-font2 font-red bg-white text-decoration-none border-red mt-20">{{ i18n "more_blog" }}</a>
             </div>
 
           </div>

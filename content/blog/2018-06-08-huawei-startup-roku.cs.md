@@ -5,6 +5,7 @@ description: "V soutěži Vodafone Nápad roku jsme se umístili na 5. místě a
 image_preview: "/blog/2018-06-08-huawei-startup-roku/preview.jpg"
 image_main: "/blog/2018-06-08-huawei-startup-roku/main.jpg"
 author: "lukas_fabik"
+categories: ["education","industry"]
 ---
 
 V letošním roce 2018 jsme se rozhodli zúčastnit soutěže **Vodafone Nápad roku** a v konkurenci 192 přihlášených projektů jsme probojovali až mezi finálních 12 nápadů a celkově jsme obsadili **skvělé 5. místo**.

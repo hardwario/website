@@ -39,3 +39,15 @@ other = "Postavte vlastní detektor záplavy, automatické zavlažování, CO2 m
 
 [more_about_diy]
 other = "Více o DIY projektech"
+
+[learn_and_start_making]
+other = "Naučte se pracovat se stavebnicí a&nbsp;začněte tvořit"
+
+[we_prepared_academy_and_projects]
+other = "První seznámení se stavebnicí pro vás obstará <a href = \"/cs/handbook\">příručka</a>. Pro pochopení všech možností jsme připravili akademii a databázi projektů, které obsahují hry i průmyslové aplikace. Není na co čekat, pusťte se do toho."
+
+[show_me_projects]
+other = "Chci vidět projekty"
+
+[show_me_academy]
+other = "Prohlédnout akademii"

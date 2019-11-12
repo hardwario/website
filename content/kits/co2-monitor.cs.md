@@ -6,12 +6,12 @@ isBasic: false
 isPremium: false
 isUltimate: false
 images:
-  preview: preview.png
-  hover: hover.png
-  main: main.png
+  preview: co2-monitor/preview.png
+  hover: co2-monitor/hover.png
+  main: co2-monitor/main.png
 isStarter: false
 recommended: false
-included:
+included: ["Obsahuje Push Button Kit", "Obsahuje Radio Dongle","Skvělý začátek se stavebnicí","100 dní na vyzkoušení"]
 notIncluded:
 weight: 60
 price: 3 990 Kč
@@ -31,6 +31,7 @@ techSpecs:
     battery:
         heading: "Výdrž na baterky"
         text: "2 roky při standardním použití"
+eduText: Starter Kit vám pomůže seznámit se se stavebnicí
 ---
 
 Oxid uhličitý (CO2) je bezbarvý plyn bez zápachu, který je důležitý pro život na Zemi. Jeho normální koncetrace je okolo 400 ppm (0.04 %). Vysoký obsah CO2 vede k nezdravému prostředí a různým zdravotním potížím. Proto je velmi důležité kontrolovat koncetraci CO2, a to především v místech, kde trávíme většinu svého času - v obýváku, ložnici, kanceláři, ve třídě. A navíc s našim CO2 Monitor Kitem budeš měřit nejen hodnotu CO2, ale také teplotu, vlhkost a atmosférický tlak.

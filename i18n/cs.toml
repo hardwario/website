@@ -84,3 +84,9 @@ other = "Přečíst celé"
 
 [event_detail]
 other = "Informace o události"
+
+[selected_kits]
+other = "Vybrané stavebnice"
+
+[start_with_kit]
+other = "Vyberte si stavebnicí"

@@ -6,12 +6,13 @@ isBasic: false
 isPremium: false
 isUltimate: false
 images:
-  preview: preview.png
-  hover: hover.png
-  main: main.png
-isStarter: true
+  preview: starter-kit-bundle/preview.png
+  hover: starter-kit-bundle/hover.png
+  main: starter-kit-bundle/main.png
+isStarter: false
 isEdu: true
-recommended: true
+isParents: true
+recommended: false
 included:
 notIncluded:
 weight: 500
@@ -21,7 +22,7 @@ modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["usb_dongle","sigfox","lora"]
 contains: []
 eduText: Sada 10 Starter Kitů umožní zábavu s BigClownem celé třídě
-eduBenefits: ["Obsahuje 10 Starter Kitů", "Obsahuje zdarma BigClown Hub", "Vystačí pro celou třídu","BigClown tričko zdarma"]
+included: ["Obsahuje 10 Starter Kitů", "Obsahuje zdarma BigClown Hub", "Vystačí pro celou třídu","BigClown tričko zdarma"]
 ---
 
 Pořiďte Starter Kity pro celou třídu a začněte s vědátorstvím hned! Starter Kit je základní sadou pro začátek. Všichni postavíte své první chytré zařízení a vytvoříte projekty, kterými ohromíte všechny okolo.👌 Kit umožňuje měřit teplotu, pracovat s akcelometrem nebo ovládat cokoli stisknutím tlačítka. Časem jej můžete vylepšit o rozšiřující moduly.
