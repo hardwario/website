@@ -1,0 +1,59 @@
+{{ define "main" }}
+
+<section>
+  <div class="getStarterKit bg">
+  <div class="container">
+    <div class="row justify-content-center pt-5 pb-2">
+      <div class="col-12 col-xl-10">
+        <div class="article__header--smallerPadding">
+          <div class="article__header__button">
+            <img src="/_assets/images/starter-kit/{{ .Params.image }}" alt="BigClown Playground" style = "max-width:100%">
+            <!--<h1 class="article__title">{{ .Params.mainHeading | safeHTML}}</h1>-->
+            <div class="handbook__perex">
+              {{ .Params.perex | safeHTML }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="collapsor handbook">
+
+                                {{ .Content }}
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+<!--<section>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2 class="title title--withoutsubtitle text-center">{{ i18n "projects_to_build" | safeHTML }}</h2>
+        <div class="articles">
+          <div class="row">
+            {{ range first 6 ($.Site.GetPage "section" "projects").Pages }}
+              {{ .Render "grid" }}
+            {{ end }}
+          </div>
+          <div class="text-center">
+            <a href="{{ "projects/" | absLangURL }}" class="button button--redtext button--redtext--2">{{ i18n "show_all_projects"}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>-->
+
+<footer>
+{{ end }}

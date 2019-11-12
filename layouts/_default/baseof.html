@@ -2,7 +2,7 @@
 
 {{ block "header" . }}
 
-  {{ partial "toolbar.html" . }}
+  <!--{{ partial "toolbar.html" . }}-->
 
   {{ partial "header.html" . }}
 
@@ -13,4 +13,8 @@
 {{ end }}
 </main>
 
-{{ partial "_foot.html" }}
+{{ block "additional-scripts" . }}
+
+{{ end }}
+
+{{ partial "_foot.html" . }}

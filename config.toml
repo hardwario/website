@@ -16,3 +16,13 @@ pygmentsUseClasses = true
     [languages.cs.params]
       baseURL = "/cs/"
       homeURL = "/cs/"
+
+[[languages.en.menu.footer]]
+  url    = "https://shop.bigclown.com"
+  name   = "Shop"
+  weight = 500
+
+[[languages.cs.menu.footer]]
+url    = "https://obchod.bigclown.cz"
+name   = "Obchod"
+weight = 500

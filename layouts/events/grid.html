@@ -1,0 +1,18 @@
+<a href="{{ .Params.link }}" class="d-block font-black text-decoration-none mb-40 border-left pl-20">
+    <div>
+      <span class="font-font2 font-weight-medium text-uppercase pb-25 font-13">
+        {{ if eq .Lang "cs" }}
+          {{ .Date.Day }}. {{ index $.Site.Data.mesice (printf "%d" .Date.Month) }} {{ .Date.Year }}
+        {{ else }}
+          {{ .Date.Format "2 January 2006" }}
+        {{ end }}
+      <span>
+        <span class="font-red font-font2 font-weight-medium text-uppercase pb-25 font-13">
+          {{ range .Params.tags }}
+            #{{ .}}
+          {{ end }}
+        <span>
+        </div>
+    <h2 class="font-19 pb-15">{{ .Title }}</h2>
+    <div class="text-decoration-underline font-13 font-weight-bold text-uppercase">{{ i18n "event_detail" }}</div>
+</a>

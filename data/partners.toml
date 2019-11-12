@@ -1,0 +1,14 @@
+[czechitas]
+name = "Czechitas"
+image = "czechitas.png"
+weight = 1
+
+[unicorn]
+name = "Unicorn College"
+image = "unicorn.png"
+weight = 3
+
+[nodered]
+name = "Knightsbridge School"
+image = "ks_logo.png"
+weight = 2

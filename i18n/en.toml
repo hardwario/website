@@ -45,3 +45,30 @@ other = "download<br />specification [.pdf]"
 
 [learn_more]
 other = "Learn more"
+
+[min_read]
+other = "min read"
+
+[buy_it_now]
+other = "Add to cart"
+
+[recommended]
+other = "Most popular"
+
+[get_document]
+other = "Get the document"
+
+[navigation]
+other = "Navigation"
+
+[from_iot_blog]
+other = "From IoT blog"
+
+[more_blog]
+other = "Read more from IoT blog"
+
+[tell_me_more]
+other = "Tell me more"
+
+[read_more]
+other = "Read more"

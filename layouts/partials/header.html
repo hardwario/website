@@ -19,7 +19,7 @@
                   {{ $currentPage := . }}
                   {{ range .Site.Menus.main }}
                     <li>
-                      <a href="{{ .URL }}" target = "{{ .Post }}" class="font-gray d-block pb-10 pb-lg-0 pr-lg-30 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} active {{ end }}">{{ .Name }}</a>
+                      <a href="{{ .URL }}" target = "{{ .Post }}" class="font-gray d-block pb-10 pb-lg-0 pr-lg-30 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} active {{ end }}">{{ .Name | safeHTML }}</a>
                     </li>
                   {{ end }}
                 </ul>

@@ -6,7 +6,7 @@
 @import "../../node_modules/bootstrap/scss/images";
 //@import "../../node_modules/bootstrap/scss/code";
 @import "../../node_modules/bootstrap/scss/grid";
-//@import "../../node_modules/bootstrap/scss/tables";
+@import "../../node_modules/bootstrap/scss/tables";
 //@import "../../node_modules/bootstrap/scss/forms";
 //@import "../../node_modules/bootstrap/scss/buttons";
 //@import "../../node_modules/bootstrap/scss/transitions";
@@ -432,7 +432,7 @@ hr{
     line-height: 2*$baseline;
     font-size: em(24);
     font-weight: 700;
-    margin-bottom: $baseline*0.75;
+    margin-bottom: $baseline*1.5;
     padding-bottom: $baseline*0.25;
     border-bottom: 1px solid #f2f2f2;
     position: relative;
@@ -572,3 +572,35 @@ hr{
     }
   }
 }
+
+.footernav{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+  li{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+    a{
+      border-bottom: solid 1px white;
+      padding-bottom: 2px;
+    }
+    a:hover{
+      border-bottom: none;
+      padding-bottom: 3px;
+    }
+  }
+}
+@import "article";
+@import "articles";
+@import "text";
+@import "project";
+@import "tableofcontent";
+@import "intro";
+@import "handbook";
+@import "collapsor";
+@import "checklist";
+@import "kit";
+@import "product";
+@import "modules";

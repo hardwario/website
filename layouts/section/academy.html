@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<section>
+  <div class="bg bg--gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="row pb-10 pb-md-30">
+              <div class="col-12 col-md-8 mx-auto text-center">
+                  <h2 class="text-center pb-20 font-weight-black font-30 font-md-64">{{ .Params.mainHeading }}</h2>
+                  <p class="text-center font-24 font-lnh38">Sufficient amount of correct information reduces risk and reduces waste of time and resources.</p>
+              </div>
+          </div>
+          <div class="articles articles--2">
+            <div class="row d-flex align-content-stretch">
+
+              {{ range .Data.Pages.ByWeight }}
+
+              {{ .Render "grid" }}
+
+              {{ end }}
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+{{ end }}

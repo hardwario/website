@@ -227,7 +227,8 @@
     {
       list-style: none;
       position: relative;
-      padding-left: 60px;
+      padding-left: 45px;
+      padding-top: 5px;
 
       &:before
       {
@@ -235,7 +236,8 @@
         color:white;
         width: 32px;
         height: 32px;
-        line-height: 32px;
+        line-height: 31px;
+        font-size: 24px;
         background: #e04935;
         border-radius: 50%;
         display: block;

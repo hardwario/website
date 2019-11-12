@@ -25,8 +25,17 @@
                         {{ i18n "vat_id" }}: CZ04998511<br />
                         {{ i18n "id" }}: 04998511
                     </div>
+
                 </div>
                 <div class="col-12 col-md pb-xl-50">
+                    <div class="font-font2 font-18 pb-25 font-weight-medium">{{ i18n "navigation"}}</div>
+                    <div class="font-18">
+                        <ul class = "footernav">
+                        {{ range .Site.Menus.footer }}
+                          <li><a href="{{ .URL }}" target = "{{ .Post }}" class = "font-weight-medium font-white">{{ .Name }}</a></li>
+                        {{ end }}
+                        </ul>
+                    </div>
                     <a href="mailto:ask@hardwario.com" class="d-block font-font2 font-18 pb-25 font-weight-medium font-white">ask@hardwario.com</a>
                     <div class="d-flex justify-content-center justify-content-md-start">
                         <a href="https://twitter.com/hardwar_io" target="_blank" class="icon icon--twitter mr-20 text-hide">Twitter</a>
@@ -40,11 +49,11 @@
 </footer>
 
 <script>
-  $(document).ready(function(){
+  /*$(document).ready(function(){
     $("main ul").each(function() {
       $( this ).addClass( "font-list" );
     });
-  });
+  });*/
 
   $("a[href^=\\#]").click(function(e) {
     e.preventDefault();

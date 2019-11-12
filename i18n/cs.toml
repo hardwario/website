@@ -1,0 +1,86 @@
+[case_study]
+other = "Případová studie"
+
+[read_case_study_now]
+other = "Chci si přečíst případovku"
+
+[company]
+other = "Společnosti"
+
+[industry]
+other = "Industry"
+
+[product]
+other = "Produkt"
+
+[headquarters_sales]
+other = "Headquarters & Sales"
+
+[development_distribution]
+other = "Development & Distribution"
+
+[uk]
+other = "SPOJENÉ KRÁLOVSTVÍ"
+
+[czechia]
+other = "ČESKO"
+
+[id]
+other = "IČO"
+
+[vat_id]
+other = "DIČ"
+
+[send]
+other = "Odeslat"
+
+[write_us]
+other = "Napište nám"
+
+[trusted_by]
+other = "Důvěřují nám"
+
+[download_specification]
+other = "stáhnout<br />specifikaci [.pdf]"
+
+[learn_more]
+other = "Chci vědět více"
+
+[min_read]
+other = "min. čtení"
+
+[buy_it_now]
+other = "Do košíku"
+
+[recommended]
+other = "Nejpopulárnější"
+
+[get_document]
+other = "Chci si přečist dokument"
+
+[navigation]
+other = "Navigace"
+
+[from_iot_blog]
+other = "Z IoT blogu"
+
+[more_blog]
+other = "Chci číst další IoT blogy"
+
+[read_about_iot]
+other = "Přečtěte si o&nbsp;internetu&nbsp;věcí"
+
+[we_share_knowledge]
+other = "Sdílíme naše zkušenosti, případové studie a inspiraci ze světa IoT, chytrých řešení a vzdělávání."
+
+[tell_me_more]
+other = "Chci vědět více"
+
+[events]
+other = "Akce a události"
+
+[read_more]
+other = "Přečíst celé"
+
+[event_detail]
+other = "Informace o události"

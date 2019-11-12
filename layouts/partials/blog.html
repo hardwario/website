@@ -1,0 +1,30 @@
+<section>
+  <div class="">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+            <div class="row pt-70 pb-10 pb-md-30">
+                <div class="col-12 col-md-4 mx-auto text-center">
+                    <div class="font-redLined font-redLined-gray font-red mb-40 font-font2 font-weight-bold font-15"><span>We write about Education</span></div>
+
+                    <!--<h2 class="text-center pb-20 font-weight-black font-30 font-md-64">Independent</h2>
+                    <p class="text-center font-24 font-lnh38">Sufficient amount of correct information reduces risk and reduces waste of time and resources.</p>-->
+                </div>
+            </div>
+          <div class="articles articles--2">
+            <div class="row d-flex align-content-stretch">
+              {{ $categories := .Params.categories }}
+              {{ $blogs := where (where .Site.Pages "Section" "blog" ) "Params.categories" "intersect" $categories}}
+              {{ with $blogs }}
+                {{ range first 2 $blogs }}
+                  {{ .Render "grid-box" }}
+                {{ end }}
+              {{ end }}
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

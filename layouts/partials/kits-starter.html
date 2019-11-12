@@ -1,0 +1,31 @@
+<section>
+  <div class="bg bg--gray bg--bubbles bg--borderedBottom">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="title title--2 text-center">{{ i18n "get_more" | safeHTML }}</h2>
+
+          <div class="pricelist">
+            <div class="row no-gutters">
+              {{ range first 3 ($.Site.GetPage "section" "kits").Pages }}
+                {{ if .Params.isStarter }}
+                  {{ if eq $.Section "kits" }}
+                    {{ .Render "grid-starter-withprice" }}
+                  {{ else}}
+                    {{ .Render "grid-starter" }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            </div>
+          </div>
+
+          {{ if ne .Section "kits" }}
+            <div class="text-center">
+              <a href="{{ "kits/" | absLangURL }}" class="button button--redtext">{{ i18n "show_all_kits" }}</a>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

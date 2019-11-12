@@ -1,0 +1,32 @@
+<section>
+  <div class="bg bg--gray bg--borderedTop">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="title text-center"><!-- --></h2>
+          <div class="row d-none d-lg-flex">
+            {{ range sort ($.Site.GetPage "section" "kits").Pages ".Weight" }}
+              {{ if not .Params.isStarter }}
+                {{ if eq $.Section "kits" }}
+                  {{ .Render "grid-withprice" }}
+                {{ else}}
+                  {{ .Render "grid" }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          </div>
+
+          <div class="slick d-block d-lg-none">
+            {{ range sort ($.Site.GetPage "section" "kits").Pages ".Weight" }}
+              {{ if not .Params.isStarter }}
+                {{ .Render "grid-carousel" }}
+              {{ end }}
+            {{ end }}
+          </div>
+
+          <div class="or d-flex justify-content-center align-items-center">{{ i18n "or" }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

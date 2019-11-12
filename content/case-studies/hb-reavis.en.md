@@ -39,7 +39,8 @@ According to the research pursued by Harvard Medical, the level of **CO2** (carb
 At HB REAVIS, they are aware of this, so they asked us for a **device to be placed in the interior to measure**:
 
 * CO2 (carbon dioxide)
-* VOC (volatile organic compounds) air temperature
+* VOC (volatile organic compounds)
+* air temperature
 * and air humidity
 
 {{% /content %}}
