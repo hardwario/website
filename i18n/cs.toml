@@ -65,13 +65,13 @@ other = "Navigace"
 other = "Z IoT blogu"
 
 [more_blog]
-other = "Chci číst další IoT blogy"
+other = "Další články"
 
 [read_about_iot]
 other = "Přečtěte si o&nbsp;internetu&nbsp;věcí"
 
 [we_share_knowledge]
-other = "Sdílíme naše zkušenosti, případové studie a inspiraci ze světa IoT, chytrých řešení a vzdělávání."
+other = "Sdílíme naše zkušenosti, případové studie a inspiraci ze světa IoT, průmyslu 4.0, DIY, chytrých řešení a vzdělávání."
 
 [tell_me_more]
 other = "Chci vědět více"
@@ -86,10 +86,10 @@ other = "Přečíst celé"
 other = "Informace o události"
 
 [selected_kits]
-other = "Vybrané stavebnice"
+other = "IoT stavebnice HARDWARIO"
 
 [start_with_kit]
-other = "Vyberte si stavebnicí"
+other = "Vyberte si vaši první stavebnici"
 
 [project]
 other = "Projekt"

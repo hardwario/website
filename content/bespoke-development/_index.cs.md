@@ -3,8 +3,8 @@ title: Na&nbsp;míru
 menu: ["main"]
 weight: 50
 meta:
-    title: Get your bespoke IoT solution within the next 90 days with HARDWARIO
-    description: We develop IoT devices to fit your needs and customise everything from the technical solution to the branded product casing. Get ready to connect your world.
-heading: Get your bespoke IoT solution within the next 90 days
-perex: We develop IoT devices to fit your needs and customise everything from the technical solution to the branded product casing. Get ready to connect your world.
+    title: Získejte IoT řešení podle vašich představ do 3 měsíců
+    description: Sestavíme IoT zařízení na míru vaší firmy – od kompletního technického řešení až po design krabičky s vaším logem.
+heading: Získejte IoT řešení podle vašich představ do 3&nbsp;měsíců
+perex: Sestavíme IoT zařízení na míru vaší firmy – od kompletního technického řešení až po design krabičky s vaším logem.
 ---
