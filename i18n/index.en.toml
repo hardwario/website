@@ -1,0 +1,50 @@
+[build_smart_product]
+other = "Build your own smart product"
+
+[its_easy_with_iot_kit]
+other = "It’s easy with <strong>Plug&Make IoT kit</strong>. Start to invent, innovate, discover and learn in a few minutes on real projects."
+
+[solutions]
+other = "Solutions"
+
+[one_kit_for_all_projects]
+other = "One kit for all your projects"
+
+[active_stem_education]
+other = "Active<br/> STEM learning"
+
+[use_kit_for_edutaction]
+other = "Use kit with the pedagogical framework, lesson plans, academy and database of real projects for engaging active STEM learning at school and home."
+
+[more_about_education]
+other = "More about education"
+
+[industry40_pilots]
+other = "Industry 4.0<br/> pilots"
+
+[start_iot_innovations]
+other = "Rock the IoT innovation to the fullest. Build a device for predictive maintenance, production line monitoring or monitor the comfort of the working environment."
+
+[more_about_pilots]
+other = "More about pilots 4.0"
+
+[smart_diy_projects]
+other = "Smart<br/> DIY projects"
+
+[build_own_device]
+other = "Build your own flood detector, automatic irrigation, CO2 monitor, thermostat or game. Guides, documentation and ready integration will help you."
+
+[more_about_diy]
+other = "More about DIY projects"
+
+[learn_and_start_making]
+other = "Learn how to work with a kit and start making"
+
+[we_prepared_academy_and_projects]
+other = "Get to know the kit with our <a href = \"/handbook\">handbook</a> and academy. You can find inspiration for your STEM and industrial projects in the project database. Go ahead."
+
+[show_me_projects]
+other = "Show projects"
+
+[show_me_academy]
+other = "Go to academy"

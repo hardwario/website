@@ -62,10 +62,16 @@ other = "Get the document"
 other = "Navigation"
 
 [from_iot_blog]
-other = "From IoT blog"
+other = "From the IoT blog"
 
 [more_blog]
-other = "Read more from IoT blog"
+other = "Read next"
+
+[read_about_iot]
+other = "Read about the internet of things"
+
+[we_share_knowledge]
+other = "We share our experience, case studies and inspiration from the world of IoT, industry 4.0, smart solutions and education."
 
 [tell_me_more]
 other = "Tell me more"
@@ -73,6 +79,17 @@ other = "Tell me more"
 [read_more]
 other = "Read more"
 
+[events]
+other = "Events"
+
+[event_detail]
+other = "More about event"
+
+[selected_kits]
+other = "IoT kit HARDWARIO"
+
+[start_with_kit]
+other = "Pick you first kit"
 
 [project]
 other = "Project"

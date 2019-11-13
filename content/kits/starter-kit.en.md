@@ -7,15 +7,15 @@ isBasic: false
 isPremium: false
 isUltimate: true
 images:
-  preview: preview.png
-  hover: hover.png
-  main: main.png
+  preview: starter-kit/preview.png
+  hover: starter-kit/hover.png
+  main: starter-kit/main.png
 isStarter: false
 isEdu: true
 isParents: true
 recommended: false
-included: ["Contains Push Button Kit", "Contains Radio Dongle", "The perfect start with BigClown", "100 days risk free"]
-notIncluded: ["Personal online webinar"]
+included: ["Contains Push Button Kit", "Contains Radio Dongle", "The perfect start with the kit", "100 days risk free"]
+notIncluded: []
 weight: 0
 price: 59€
 buyLink: https://shop.bigclown.com/starter-kit/

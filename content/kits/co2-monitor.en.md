@@ -6,15 +6,15 @@ isBasic: false
 isPremium: false
 isUltimate: false
 images:
-  preview: preview.png
-  hover: hover.png
-  main: main.png
+  preview: co2-monitor/preview.png
+  hover: co2-monitor/hover.png
+  main: co2-monitor/main.png
 isStarter: false
 recommended: false
-included:
+included: ["Contains Starter Kit", "Contains CO2 Monitor Kit","100 days risk free","1 hour of free webinar"]
 notIncluded:
 weight: 60
-price: €159
+price: €210
 buyLink: "https://shop.bigclown.com/co2-monitor-kit/?currency=EUR"
 modules: ["core","battery","co2","humidity","barometer","temperature","cover","enclosures-201"]
 optionalModules: ["usb_dongle","sigfox","lora"]
@@ -31,6 +31,7 @@ techSpecs:
     battery:
         heading: "Battery life-time"
         text: "2 years for standard use"
+eduText: A popular combination of Starter Kit and Carbon Dioxide Kit
 ---
 
 Carbon dioxide (or CO2) is a colorless and odorless gas that is vital to life on Earth. Its nominal concentration is about 400 ppm (0.04 %). High level of CO2 leads to acidity and various health-related problems. That's why it's so essential to control CO2 concentration, especially in areas where you are spending most of your time - living room, bedroom, office, classroom. With CO2 Monitor Kit you will measure not only CO2 level but also temperature, humidity, and atmospheric pressure.

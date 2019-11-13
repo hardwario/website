@@ -6,13 +6,13 @@ isBasic: false
 isPremium: false
 isUltimate: false
 images:
-  preview: preview.png
-  hover: hover.png
-  main: main.png
+  preview: starter-kit-bundle/preview.png
+  hover: starter-kit-bundle/hover.png
+  main: starter-kit-bundle/main.png
 isStarter: true
 isEdu: true
-recommended: true
-included:
+recommended: false
+included: ["Contains 10 Starter Kits", "HARDWARIO Hub for free", "100 days risk free","2 hours of free webinar"]
 notIncluded:
 weight: 500
 price: 590€
