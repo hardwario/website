@@ -6,13 +6,7 @@ draft: false
 date: 2019-09-23
 description: Instructions on how to make an IoT button from the BigClown Starter Kit for your mum to call you to dinner when you are in the middle of playing games.
 tags:
-  - Starter Project
-levels:
-  - Beginner
-places:
-  - Home
-devices:
-  - Starter Kit
+  - Home project
 idea: false
 image_preview: /projects/button-for-mum/1-ilustrace-devce-pari-hru-ma-pauzu.png
 image_main: /projects/button-for-mum/1-ilustrace-devce-pari-hru-ma-pauzu.png

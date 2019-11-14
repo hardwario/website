@@ -7,13 +7,7 @@ draft: false
 date: 2019-08-12
 description: Vytvoř si ze Starter Kitu od BigClown IoT detektor změny pohybu s tímhle jednoduchým návodem. A nezapomeň ho s kámoši otestovat v cool hře.
 tags:
-  - Starter Project
-levels:
-  - Beginner
-places:
-  - Home
-devices:
-  - Starter Kit
+  - Projekt na doma
 image_preview: /upload/ilustrace-notifikace-tlacitkem-ze-jsem-doma.png
 image_main: /upload/ilustrace-notifikace-tlacitkem-ze-jsem-doma.png
 author: lukas_fabik

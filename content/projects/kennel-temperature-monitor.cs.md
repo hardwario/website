@@ -7,13 +7,7 @@ draft: false
 date: 2019-08-12
 description: Jeden z IoT projektů na rozšíření digitálních dovedností. Sestav se Starter Kitem od BigClownu zařízení, se kterým uvidíš, jakou má tvůj pes v boudě teplotu.
 tags:
-  - Starter Project
-levels:
-  - Beginner
-places:
-  - Home
-devices:
-  - Starter Kit
+  - Projekt na doma
 idea: false
 image_preview: /upload/ilustrace-ma-pes-v-boude-dostatek-tepla.png
 image_main: /upload/ilustrace-ma-pes-v-boude-dostatek-tepla.png

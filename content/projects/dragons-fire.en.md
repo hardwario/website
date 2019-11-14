@@ -7,13 +7,7 @@ draft: false
 date: 2019-08-12
 description: This is an IoT project which focuses on enhancing your digital skills. With the BigClown Starter Kit, you can set up a device to measure the temperature of your breath and that of your friends. What do you need to do to win?
 tags:
-  - Starter Project
-levels:
-  - Beginner
-places:
-  - Home
-devices:
-  - Starter Kit
+  - The game
 image_preview: /upload/soutez-s-kamarady-o-nejteplejsi-vydech.png
 image_main: /upload/soutez-s-kamarady-o-nejteplejsi-vydech.png
 featured: true

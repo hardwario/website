@@ -13,17 +13,11 @@ meta_description: >-
   With the BigClown Starter Kit, create an IoT button that will draw a random
   member of your group of friends.
 image_preview: >-
-  https://res.cloudinary.com/lukasfabik/image/upload/v1568964869/academy/how-to-flash-firmware/project_placeholder.jpg
+  https://res.cloudinary.com/lukasfabik/image/upload/v1573640047/projects/project_placeholder.jpg
 image_main: >-
-  https://res.cloudinary.com/lukasfabik/image/upload/v1566149309/projects/bottle-party-game/image4.png
+  https://res.cloudinary.com/lukasfabik/image/upload/v1573640047/projects/project_placeholder.jpg
 tags:
-  - Indoor
-levels:
-  - Beginner
-places:
-  - Home
-devices:
-  - Starter Kit
+  - The game
 ---
 ## Introduction
 

@@ -13,13 +13,7 @@ image_preview: >-
 image_main: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1569520617/projects/highest-centrifugal-force/5-ilustrace-hra-s-kamarady-o-nejvetsi-odstredivou-silu.png
 tags:
-  - Indoor
-levels:
-  - Beginner
-places:
-  - Home
-devices:
-  - Starter Kit
+  - The game
 ---
 ## Introduction
 

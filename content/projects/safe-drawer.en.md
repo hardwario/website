@@ -6,13 +6,7 @@ draft: false
 date: 2019-08-12
 description: Turn your Starter Kit from BigClown IoT into a drawer monitor and get alerts on your mobile phone. We have prepared a simple guide for you.
 tags:
-  - Starter Project
-levels:
-  - Beginner
-places:
-  - Home
-devices:
-  - Starter Kit
+  - Home project
 idea: false
 image_preview: /upload/12-ilustrace-ohlidej-si-svuj-tajny-suplik.png
 image_main: /upload/12-ilustrace-ohlidej-si-svuj-tajny-suplik.png

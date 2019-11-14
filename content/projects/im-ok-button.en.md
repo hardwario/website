@@ -17,13 +17,7 @@ image_preview: >-
 image_main: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1569523883/projects/button-for-mum/9-ilustrace-notifikace-tlacitkem-ze-jsem-doma.png
 tags:
-  - Indoor
-levels:
-  - Beginner
-places:
-  - Home
-devices:
-  - Starter Kit
+  - Home project
 ---
 ## Introduction
 

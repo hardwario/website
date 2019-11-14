@@ -7,13 +7,7 @@ draft: false
 date: 2019-08-12
 description: Jeden z IoT projektů na rozšíření tvých digitálních dovedností. Sestav se Starter Kitem od BigClownu zařízení, se kterým si s kamarády změříte teplotu dechu. Jak si pomůžeš, abys vyhrál?
 tags:
-  - Starter Project
-levels:
-  - Beginner
-places:
-  - Home
-devices:
-  - Starter Kit
+  - Hra
 idea: false
 image_preview: /upload/soutez-s-kamarady-o-nejteplejsi-vydech.png
 image_main: /upload/soutez-s-kamarady-o-nejteplejsi-vydech.png

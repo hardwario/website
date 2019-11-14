@@ -19,13 +19,8 @@ image_preview: >-
 image_main: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1570982870/projects/wormest-coldest-place/7-ilustrace-zmer-nejteplejsi-misto-ve-skole.png
 tags:
-  - Indoor
-levels:
-  - Beginner
-places:
-  - Home
-devices:
-  - Starter Kit
+  - School project
+  - The game
 modules: ["core","button","mini_battery","usb_dongle"]
 ---
 ## Introduction

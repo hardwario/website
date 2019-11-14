@@ -17,13 +17,7 @@ image_preview: >-
 image_main: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1571601962/projects/smart-washing-machine/hardwario-ilustrace-ochytri-pracku.png
 tags:
-  - Indoor
-levels:
-  - Beginner
-places:
-  - Home
-devices:
-  - Starter Kit
+  - Home project
 modules: ["core","button","mini_battery","usb_dongle"]
 kit: ["starter-kit","button-kit"]
 ---

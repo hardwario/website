@@ -7,13 +7,7 @@ draft: false
 date: 2019-08-19
 description: Návod na to, jak si ze Starter Kitu od BigClown vytvoříš IoT tlačítko, se kterým tě rodiče zavolají k večeři, když zrovna paříš.
 tags:
-  - Starter Project
-levels:
-  - Beginner
-places:
-  - Home
-devices:
-  - Starter Kit
+  - Projekt na doma
 idea: false
 image_preview: /projects/button-for-mum/1-ilustrace-devce-pari-hru-ma-pauzu.png
 image_main: /projects/button-for-mum/1-ilustrace-devce-pari-hru-ma-pauzu.png

@@ -4,13 +4,7 @@ draft: false
 date: 2019-08-12T00:00:00.000Z
 description: "Poměř pak s kámoši, kdo z vás je odstředivě nejsilnější! \U0001F4AA Návod na to, jak si ze Starter Kitu od BigClown postavíš chytrou káču."
 tags:
-  - Starter Project
-levels:
-  - Beginner
-places:
-  - Home
-devices:
-  - Starter Kit
+  - Hra
 idea: false
 image_preview: /upload/ilustrace-hra-s-kamarady-o-nejvetsi-odstredivou-silu.png
 image_main: /upload/ilustrace-hra-s-kamarady-o-nejvetsi-odstredivou-silu.png

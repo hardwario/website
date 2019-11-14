@@ -1,8 +1,16 @@
 baseURL = "/"
 homeURL = "/"
 DefaultContentLanguage = "en"
+pygmentsUseClassic = false
 pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
 pygmentsUseClasses = true
+
+[params]
+  menuNames = ["main","doc","support"]
+  homeURL = "/"
+  shopURL = "https://shop.bigclown.com/"
+  productionURL = "https://www.bigclown.com"
 
 [languages]
   [languages.en]
@@ -26,3 +34,19 @@ pygmentsUseClasses = true
 url    = "https://obchod.bigclown.cz"
 name   = "Obchod"
 weight = 500
+
+[blackfriday]
+smartypants = false
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[taxonomies]
+  tag = "tags"
+  category= "categories"
+
+[outputs]
+        home = [ "HTML", "JSON"]
+        page = [ "HTML"]

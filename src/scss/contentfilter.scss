@@ -1,0 +1,57 @@
+.contentFilter{
+
+  .btn-group{
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+
+    .btn{
+      width: 100%;
+      overflow-x: hidden;
+      height: 50px;
+
+      em{
+        font-style: normal;
+        font-size: 1.1rem;
+      }
+    }
+    .types{
+      background: #252532;
+      border-color: #0e788a;
+
+      &:hover{
+        background: #6B6A6A;
+      }
+    }
+
+    a{
+      color: white;
+
+      em{
+        padding: 0 20px;
+        font-size: 12px;
+        line-height: 50px;
+      }
+    }
+    a:hover{
+      text-decoration: none;
+    }
+  }
+  .dropdown-item{
+    span{
+      display: none;
+    }
+    em{
+      font-style: normal;
+    }
+  }
+
+}
+
+.tf-filter-item {
+  display: none;
+}
+
+.show-item {
+  display: block;
+}

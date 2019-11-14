@@ -7,13 +7,7 @@ draft: false
 date: 2019-08-12
 description: Vytvoř si ze Starter Kitu od BigClown IoT hlídač svého šuplíku a nechej si posílat upozornění do mobilu. Připravili jsme pro tebe jednoduchý návod.
 tags:
-  - Starter Project
-levels:
-  - Beginner
-places:
-  - Home
-devices:
-  - Starter Kit
+  - Projekt na doma
 idea: false
 image_preview: /upload/12-ilustrace-ohlidej-si-svuj-tajny-suplik.png
 image_main: /upload/12-ilustrace-ohlidej-si-svuj-tajny-suplik.png

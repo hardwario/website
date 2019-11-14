@@ -20,13 +20,7 @@ image_preview: >-
 image_main: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1569525812/academy/what-is-dashboard/10-ilustrace-ma-pes-v-boude-dostatek-tepla.png
 tags:
-  - Indoor
-levels:
-  - Beginner
-places:
-  - Home
-devices:
-  - Starter Kit
+  - Home project
 kit: ["starter-kit","button-kit"]
 ---
 ## Introduction

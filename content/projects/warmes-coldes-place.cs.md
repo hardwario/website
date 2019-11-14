@@ -7,13 +7,8 @@ draft: false
 date: 2019-08-12
 description: Jeden z IoT projektů na rozšíření digitálních dovedností. Sestavte se Starter Kitem od BigClownu zařízení, se kterým najdete nejchladnější a nejžhavější místo ve škole.
 tags:
-  - Starter Project
-levels:
-  - Beginner
-places:
-  - Home
-devices:
-  - Starter Kit
+  - Školní projekt
+  - Hra
 idea: false
 image_preview: /upload/ilustrace-zmer-nejteplejsi-misto-ve-skole.png
 image_main: /upload/ilustrace-zmer-nejteplejsi-misto-ve-skole.png

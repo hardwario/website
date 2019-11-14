@@ -18,7 +18,7 @@ included: ["NB-IoT, LoRa or Sigfox","Run on a battery for up to 5 years","Expand
 notIncluded:
 weight: 0
 price: od 2 000 Kč
-buyLink: https://obchod.bigclown.cz/starter-kit/
+buyLink: /chester/
 modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["sigfox","lora"]
 techSpecs:

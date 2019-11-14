@@ -7,15 +7,9 @@ draft: false
 date: 2019-08-12
 description: Nauč se jeden z IoT projektů na rozšíření digitálních dovedností. Sestav se Starter Kitem od BigClownu zařízení, se kterým změříš, jak moc je u vás v mrazáku zima.
 tags:
-  - Starter Project
-levels:
-  - Beginner
-places:
-  - Home
-devices:
-  - Starter Kit
-image_preview: /upload/ilustrace-zjisttim-jak-velka-zima-je-v-lednici.png
-image_main: /upload/ilustrace-zjisttim-jak-velka-zima-je-v-lednici.png
+  - Projekt na doma
+image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1573639788/projects/fridge-monitoring/3-fridge-monitoring.jpg
+image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1573639788/projects/fridge-monitoring/3-fridge-monitoring.jpg
 featured: true
 modules: ["core","button","mini_battery","usb_dongle"]
 handbook:

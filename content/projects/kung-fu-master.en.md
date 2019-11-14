@@ -17,13 +17,7 @@ image_preview: >-
 image_main: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1571520683/projects/kung-fu-master/11-ilustrace-chlapec-v-pozici-stromu.png
 tags:
-  - Indoor
-levels:
-  - Beginner
-places:
-  - Home
-devices:
-  - Starter Kit
+  - The game
 modules: ["core","button","mini_battery","usb_dongle"]
 kit: ["starter-kit","button-kit"]
 ---
