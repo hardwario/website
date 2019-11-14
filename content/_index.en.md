@@ -3,7 +3,6 @@ title: Home
 url: /
 menu: ["main"]
 weight: 1
-meta:
-    title: Get your bespoke IoT solution within the next 90 days with HARDWARIO
-    description: We develop IoT devices to fit your needs and customise everything from the technical solution to the branded product casing. Get ready to connect your world.
+meta_title: Build your own smart product with HARDWARIO IoT Kits
+meta_description: It’s easy with Plug&Make IoT kit. Start to invent, innovate, discover and learn in a few minutes on real projects.
 ---

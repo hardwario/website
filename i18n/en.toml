@@ -68,7 +68,7 @@ other = "From the IoT blog"
 other = "Read next"
 
 [read_about_iot]
-other = "Read about the internet of things"
+other = "Read about the&nbsp;internet&nbsp;of&nbsp;things"
 
 [we_share_knowledge]
 other = "We share our experience, case studies and inspiration from the world of IoT, industry 4.0, smart solutions and education."

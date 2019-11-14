@@ -1,0 +1,66 @@
+{{ if eq .Section "blog" }}
+
+  {{ if .IsPage }}
+  <title>{{ .Page.Title }} | HARDWARIO IoT Blog</title>
+  <meta name="description" content="{{ .Page.Summary }}">
+  <meta property="og:url" content="{{ .URL | absURL }}" />
+  <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO IoT Blog">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{ .URL | absURL }}{{ .Params.images.main }}">
+
+  {{ else }}
+  <title>{{ .Page.Title }} | HARDWARIO</title>
+  <meta name="description" content="{{ .Page.Summary }}">
+  <meta property="og:url" content="{{ .URL | absURL }}" />
+  <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta/blog.jpg">
+  {{ end }}
+
+{{ else if eq .Section "projects" }}
+
+  {{ if .IsPage }}
+  <title>{{ .Page.Title }} | HARDWARIO Projects</title>
+  <meta name="description" content="{{ .Page.Summary }}">
+  <meta property="og:url" content="{{ .URL | absURL }}" />
+  <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO Projects">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image_main }}">
+
+  {{ else }}
+  <title>{{ .Page.Title }} | HARDWARIO</title>
+  <meta name="description" content="{{ .Page.Summary }}">
+  <meta property="og:url" content="{{ .URL | absURL }}" />
+  <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta/projects.jpg">
+  {{ end }}
+
+{{ else if eq .Section "academy" }}
+
+    {{ if .IsPage }}
+    <title>{{ .Page.Title }} | HARDWARIO Academy</title>
+    <meta name="description" content="{{ .Page.Summary }}">
+    <meta property="og:url" content="{{ .URL | absURL }}" />
+    <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO Academy">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image_main }}">
+
+    {{ else }}
+    <title>{{ .Page.Title }} | HARDWARIO</title>
+    <meta name="description" content="{{ .Page.Summary }}">
+    <meta property="og:url" content="{{ .URL | absURL }}" />
+    <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta/projects.jpg">
+    {{ end }}
+
+{{ else }}
+
+<title>{{ $.Page.Params.meta_title }}</title>
+<meta name="description" content="{{ .Params.meta_description }}">
+<meta property="og:url" content="{{ .URL | absURL }}" />
+<meta property='og:title' content="{{ $.Page.Params.meta_title }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta/home.jpg">
+{{ end }}

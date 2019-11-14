@@ -3,9 +3,8 @@ title: Education
 menu: ["main"]
 weight: 20
 categories: ["education"]
-meta:
-    title: Get your bespoke IoT solution within the next 90 days with HARDWARIO
-    description: We develop IoT devices to fit your needs and customise everything from the technical solution to the branded product casing. Get ready to connect your world.
+meta_title: Engaging STEM Learning & Education with HARDWARIO IoT Kits
+meta_description: IoT Kit is a complete STEM solution to teach engagingly through the creation of real projects with which students discover the world around them.
 productLeft: "/kits/starter-kit"
 productMiddle: "/kits/co2-monitor"
 productRight: "/kits/starter-kit-bundle"

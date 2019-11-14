@@ -3,9 +3,8 @@ title: Průmysl
 menu: ["main"]
 weight: 30
 categories: ["industry"]
-meta:
-    title: Get your bespoke IoT solution within the next 90 days with HARDWARIO
-    description: We develop IoT devices to fit your needs and customise everything from the technical solution to the branded product casing. Get ready to connect your world.
+meta_title: Rychlé a efektivní IoT piloty průmyslu 4.0 se stavebnicí HARDWARIO
+meta_description: Ekosystém Plug&Make stavebnice vám umožní rychle postavit, připojit a integrovat vaše IoT zařízení nejen pro prediktivní údržbu, monitoring výrobní linky nebo sledování komfortu pracovního prostředí.
 productLeft: "/kits/starter-kit"
 productMiddle: "/kits/chester"
 productRight: "/kits/innovation-kit"
