@@ -100,8 +100,10 @@
             </div>
           <div class="articles articles--2">
             <div class="row d-flex align-content-stretch">
-              {{ range first 2 (where (where .Pages "Section" "blog" ) "Kind" "==" "page") }}
-                {{ .Render "grid-box" }}
+              {{ range first 3 (where (where .Pages "Section" "blog" ) "Kind" "==" "page") }}
+              <div  class="col-12 col-md-6 col-lg-4 tf-filter-item tf-item show-item">
+                {{ .Render "grid" }}
+              </div>
               {{ end }}
 
             </div>
