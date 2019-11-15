@@ -16,7 +16,7 @@ image_preview: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1573639907/projects/poslani-e-mailu-uciteli-s-omluvenkou-z-vyucovani/Nocni-lampa.jpg
 image_main: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1573639907/projects/poslani-e-mailu-uciteli-s-omluvenkou-z-vyucovani/Nocni-lampa.jpg
-categories:
+tags:
   - Školní projekt
 modules: ["core","pir","mini_battery","usb_dongle"]
 ---

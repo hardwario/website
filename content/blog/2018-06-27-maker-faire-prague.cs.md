@@ -5,6 +5,7 @@ description: "Víkend 23. a 24. června jsme strávili na výstavišti v Praze. 
 image_preview: "/blog/2018-06-27-maker-faire-prague/preview.jpg"
 image_main: "/blog/2018-06-27-maker-faire-prague/main.jpg"
 author: "lukas_fabik"
+categories: ["industry"]
 ---
 
 O víkendu 23. a 24. června proběhl v Praze na výstavišti v Holešovicích historicky první Maker Faire v České republice. Po zkušenostech z Berlínského Maker Fairu 2017 a 2018 jsme byli zvědaví, jaký bude ten český. A byl ultra grandiózně skvělý!

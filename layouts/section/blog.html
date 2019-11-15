@@ -1,5 +1,16 @@
 {{ define "main" }}
 
+{{ $pages := .Data.Pages }}
+
+{{ $categories := $.Site.Taxonomies.categories.ByCount }}
+
+
+{{ $.Scratch.Set "uncategorized" 0 }}
+{{ range $pages }}
+  {{ with .Params.categories }}{{ else }}{{ $.Scratch.Add "uncategorized" 1 }}{{ end }}
+{{ end }}
+
+
 <section>
   <div class="bg bg--gray">
     <div class="container">
@@ -11,11 +22,45 @@
                   <p class="text-center font-24 font-lnh38">{{ i18n "we_share_knowledge" | safeHTML }}</p>
               </div>
           </div>
+          <div class = "row contentFilter pb-30">
+            <div class = "col">
+              <div class="dropdown row">
+
+              <div class = "btn-group col-12 col-md-6 mx-auto" id = "environments">
+                  <a class="btn btn-secondary dropdown-toggle types font-font2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <em data-default = "Any Category">Any Category</em>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <span class="dropdown-item active" id="selectAllCategories" onclick="htf.showAll('categories')">
+                      Any Category
+                    </span>
+                    {{ range $categories }}
+                      {{ if .Term }}
+                        <span class="category-button dropdown-item" id="category-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'category-')">
+                          <em>{{.Term | humanize | title }}</em>
+                          <span id="scategories-{{ .Term | urlize }}"> -count- </span> <span id="ccategories-{{ .Term | urlize }}"> -count-</span>
+                        </span>
+                      {{ end }}
+                    {{ end }}
+                    {{ if gt ( $.Scratch.Get "uncategorized") 0 }}
+                    <span class="category-button dropdown-item" id="category-tfuncategorized" onclick="htf.checkFilter('tfuncategorized', 'category-')">
+                      Undefined
+                      <span id="scategories-tfuncategorized"> -count- </span> <span id="ccategories-tfuncategorized"> -count-</span>
+                    </span>
+                    {{ end }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="articles articles--2">
             <div class="row d-flex align-content-stretch">
 
-              {{ range where .Paginator.Pages "Section" "in" (slice "blog" "case-studies") }}
-                {{ .Render "grid-box" }}
+              {{ range $pages.ByPublishDate.Reverse }}
+              <div  class="col-12 col-md-6 col-lg-4 tf-filter-item tf-item"
+                    data-categories="{{ with .Params.categories }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} tfuncategorized{{ end }}">
+                {{ .Render "grid" }}
+              </div>
               {{ end }}
 
             </div>
@@ -29,5 +74,60 @@
 
 <footer>
 
+  <script>
+  var htfConfig = {
+    filters: [
+      {
+        name: 'categories',
+        prefix: 'category-',
+        buttonClass: 'category-button',
+        allSelector: '#selectAllCategories',
+        attrName: 'data-categories',
+        selectedPrefix: 'scategories-',
+        countPrefix: 'ccategories-'
+      }
+    ],
+    showItemClass: "show-item",
+    filterItemClass: "tf-filter-item",
+    activeButtonClass: "active",
+    counterSelector: "selectedItemCount",
+    populateCount: true,
+    setDisabledButtonClass: "disable-button"
+  }
+  var htf = new HugoTagsFilter(htfConfig);
+  </script>
+  <script>
 
-{{ end }}
+  function toggleAcc(el) {
+    el.classList.toggle("active")
+    var panel = el.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  }
+
+
+  $('.btn-group').on('hide.bs.dropdown', function () {
+    var id = $(this).attr('id');
+    var elements = $("#" + id + " .dropdown-item.active em");
+    var selected = "";
+    $(elements).each(function(index){
+      if(index == 0){
+        selected = $.trim($( this ).text());
+      }
+      else{
+        selected = selected + ", " + $.trim($( this ).text());
+      }
+    })
+    if(selected.length == 0)
+    {
+      selected = $("#" + id + " .btn em").attr("data-default");
+    }
+    console.log(selected);
+    $("#" + id + " .btn em").html(selected);
+  })
+  </script>
+
+  {{ end }}

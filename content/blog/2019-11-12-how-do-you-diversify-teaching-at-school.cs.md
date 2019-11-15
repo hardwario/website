@@ -10,6 +10,7 @@ image_preview: >-
 image_main: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1572007998/blog/iot-course_full.png
 author: lukas_fabik
+categories: ["education"]
 ---
 
 {{< perex >}}

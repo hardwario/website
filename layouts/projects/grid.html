@@ -1,20 +1,13 @@
 
-              <a href="{{ .Permalink }}" class="d-block articles__image">
-                  <img loading="lazy" src="{{ .Params.image_preview }}" alt="" class="w-100" />
-              </a>
-
-              <div class="px-10 px-md-30">
-                  <div class="bg-white pt-30 abs-6 position-relative">
-                      <div class="font-red font-font2 text-center pb-10 font-weight-bold font-15"><span>{{ i18n "project" }}</span></div>
-
-                      <div class="px-xl-70">
-                          <h2 class="font-weight-black font-27 font-lnh27 text-center pb-25">
-                              <a href="{{ .Permalink }}" class="font-black text-decoration-none">
-                                  {{ .Title }}
-                              </a>
-                          </h2>
-                      </div>
-
-                      <a href="{{ .Permalink }}" class="d-block text-decoration-underline text-center font-15 text-uppercase font-red font-weight-bold">{{ i18n "learn_more"}}</a>
-                  </div>
-              </div>
+                  <a href="{{ .Permalink }}" class="articles__item articles__item--2">
+                    <div class="articles__item__image">
+                      <img src="{{ .Params.image_preview }}" alt="{{ .Title }}" />
+                    </div>
+                    <div class="articles__content articles__content--2">
+                      <h3 class="articles__title articles__title--2">{{ .Title }}</h3>
+                      <p class="articles__text articles__text--2">{{ .Params.description }}</p>
+                    </div>
+                    <div class="articles__author d-flex align-items-center">
+                        <span class = "font-16 font-weight-bold font-font2 font-red">{{ i18n "learn_more"}}</span>
+                    </div>
+                  </a>

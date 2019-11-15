@@ -54,17 +54,17 @@
           <div class="articles articles--2">
             <div class="row">
               {{ range where $pages.ByPublishDate.Reverse ".Params.featured" true }}
-                <div  class="col-12 col-md-6 pb-md-100 mb-50 tf-filter-item tf-item"
-                      data-tags="{{ with .Params.tags }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} tfuntagged{{ end }}">
-                  {{ .Render "grid" }}
-                </div>
+              <div  class="col-12 col-md-6 col-lg-4 tf-filter-item tf-item"
+                    data-tags="{{ with .Params.tags }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} tfuntagged{{ end }}">
+                {{ .Render "grid" }}
+              </div>
               {{ end }}
 
               {{ range where $pages.ByPublishDate.Reverse ".Params.featured" "!=" true }}
-                <div  class="col-12 col-md-6 pb-md-100 mb-50 tf-filter-item tf-item"
-                      data-tags="{{ with .Params.tags }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} tfuntagged{{ end }}">
-                  {{ .Render "grid" }}
-                </div>
+              <div  class="col-12 col-md-6 col-lg-4 tf-filter-item tf-item"
+                    data-tags="{{ with .Params.tags }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} tfuntagged{{ end }}">
+                {{ .Render "grid" }}
+              </div>
               {{ end }}
             </div>
           </div>

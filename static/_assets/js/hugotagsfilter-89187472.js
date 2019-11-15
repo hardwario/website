@@ -1,9 +1,9 @@
 /**
  * @name 'Hugo Tags Filter'
  * @version 1.2.2
- * @license MIT
- * @author PointyFar
- */
+ * @license MIT  
+ * @author PointyFar 
+ */ 
 
 class HugoTagsFilter {
   constructor(config) {
@@ -23,32 +23,32 @@ class HugoTagsFilter {
         attrName: 'data-section'
       }
     ]
-
+    
     this.FILTERS = (config && config.filters) ? config.filters : defaultFilters;
     this.showItemClass = (config && config.showItemClass) ? config.showItemClass : "tf-show";
     this.activeButtonClass = (config && config.activeButtonClass) ? config.activeButtonClass : "active";
     this.filterItemClass = (config && config.filterItemClass) ? config.filterItemClass : "tf-filter-item";
     this.counterSelector = (config && config.counterSelector) ? config.counterSelector : "selectedItemCount";
-
+    
     this.populateCount = (config && config.populateCount) ? config.populateCount : false;
     this.setDisabledButtonClass = (config && config.setDisabledButtonClass) ? config.setDisabledButtonClass : false;
-
-
+    
+    
     this.filterItems = document.getElementsByClassName(this.filterItemClass);
     this.selectedItemCount = 0;
-
+    
     this.filterValues = {};
-
+    
     for( var i = 0; i < this.FILTERS.length; i++) {
       this.FILTERS[i]['buttonTotal'] = document.getElementsByClassName(this.FILTERS[i]['buttonClass']).length;
       this.FILTERS[i]['selected'] = [];
       this.FILTERS[i]['values'] = [];
       var fv = document.getElementsByClassName(this.FILTERS[i]['buttonClass']);
-
-      /**
-      * Build index of all filter values and their counts
-      */
-      this.filterValues[this.FILTERS[i]['name']] = [];
+      
+      /**      
+      * Build index of all filter values and their counts      
+      */       
+      this.filterValues[this.FILTERS[i]['name']] = []; 
       for( var j = 0; j < fv.length; j++ ){
         var v = fv[j].id.replace(this.FILTERS[i]["prefix"], '');
         this.filterValues[this.FILTERS[i]['name']][v] = {count:0, selected:0};
@@ -58,12 +58,12 @@ class HugoTagsFilter {
 
 
   }
-
+  
   initFilterCount(fvc, isInitial){
-
-    /**
+    
+    /**    
      * Initialise count = selected
-     */
+     */     
     if(isInitial) {
       for( var k in fvc ) {
         for( var x = 0; x < this.filterItems.length; x++) {
@@ -93,7 +93,7 @@ class HugoTagsFilter {
 
     return fvc;
   }
-
+  
   populateCounters(fvc){
 
     if(this.populateCount) {
@@ -101,7 +101,7 @@ class HugoTagsFilter {
         var fname = this.FILTERS[i]['name'];
         var cp = this.FILTERS[i]['countPrefix'];
         var sp = this.FILTERS[i]['selectedPrefix'];
-
+        
         if( cp || sp ) {
           for( var k in fvc[fname] ){
             if(cp) {
@@ -124,11 +124,11 @@ class HugoTagsFilter {
       }
     }
   }
-
-
-  /**
+  
+  
+  /**  
    * getAttrs - returns an array of data-attr attributes of an element elem
-   */
+   */   
   getAttrs(attr, elem) {
     return elem.getAttribute('data-'+ attr )
               .split(" ")
@@ -136,7 +136,7 @@ class HugoTagsFilter {
                 return el.length > 0
               });
   }
-
+  
   showAll(filter) {
     for( var i = 0; i < this.FILTERS.length; i++) {
       if(filter) {
@@ -149,55 +149,55 @@ class HugoTagsFilter {
     }
     this.showCheck(filter)
   }
-
+  
   checkFilter(tag, tagType) {
-
-    /* Selects clicked button.*/
+    
+    /* Selects clicked button.*/   
     var selectedBtn = document.querySelector(`#${tagType}${tag}`);
-
+    
     for ( var i = 0; i < this.FILTERS.length; i++ ) {
       if ( this.FILTERS[i]['prefix'] === tagType ) {
-        if ( this.FILTERS[i]['selected'].indexOf(tag) >= 0 ) {
+        if ( this.FILTERS[i]['selected'].indexOf(tag) >= 0 ) { 
           /* already selected, deselect tag */
           this.FILTERS[i]['selected'].splice(tag,1);
           this.delClassIfPresent(selectedBtn, this.activeButtonClass);
-        } else {
+        } else { 
           /* add tag to selected list */
           this.FILTERS[i]['selected'].push(tag);
           this.addClassIfMissing(selectedBtn, this.activeButtonClass);
-        }
+        } 
         this.delClassIfPresent(document.querySelector(this.FILTERS[i]['allSelector']), this.activeButtonClass);
         this.showCheck(this.FILTERS[i]['name']);
       }
     }
   }
-
+  
   /**
   * showCheck - Applies "show" class to items containing selected tags
-  */
+  */ 
   showCheck(filter, isInitial) {
-
-    /* If no tags/licenses selected, or all tags selected, SHOW ALL and DESELECT ALL BUTTONS. */
+  
+    /* If no tags/licenses selected, or all tags selected, SHOW ALL and DESELECT ALL BUTTONS. */   
     for ( var i = 0; i < this.FILTERS.length; i++ ) {
       if( this.FILTERS[i]['name'] === filter ) {
-        if( (this.FILTERS[i]['selected'].length === 0) ||
-            (this.FILTERS[i]['selected'].length === this.FILTERS[i]['buttonTotal']) )
-        {
+        if( (this.FILTERS[i]['selected'].length === 0) || 
+            (this.FILTERS[i]['selected'].length === this.FILTERS[i]['buttonTotal']) ) 
+        {  
           var iBtns = document.getElementsByClassName(this.FILTERS[i]['buttonClass']);
           for ( var j = 0; j < iBtns.length; j++ ) {
             this.delClassIfPresent(iBtns[j], this.activeButtonClass)
           }
           this.addClassIfMissing(document.querySelector(this.FILTERS[i]['allSelector']), this.activeButtonClass)
         }
-      }
+      } 
     }
-
+    
     this.selectedItemCount=0;
-
+    
     for ( var i = 0; i < this.filterItems.length; i++ ) {
       /* First remove "show" class */
       this.delClassIfPresent(this.filterItems[i], this.showItemClass);
-
+      
       var visibility = 0;
       /* show item only if visibility is true for all filters */
       for ( var j = 0; j < this.FILTERS.length; j++ ) {
@@ -213,27 +213,27 @@ class HugoTagsFilter {
         }
       }
     }
-
+    
     if(document.getElementById(this.counterSelector)) {
       document.getElementById(this.counterSelector).textContent=`${this.selectedItemCount}`;
     }
-
+    
     this.checkButtonCounts(isInitial)
-
+    
   }
-
+  
   checkButtonCounts(isInitial){
     this.filterValues = this.initFilterCount(this.filterValues, isInitial);
     this.populateCounters(this.filterValues);
 
   }
-
-
+  
+  
   /**
   * checkVisibility - Tests if attribute is included in list.
-  */
+  */ 
   checkVisibility(list, dataAttr) {
-    /* Returns TRUE if list is empty or attribute is in list */
+    /* Returns TRUE if list is empty or attribute is in list */   
     if (list.length > 0) {
       for(var v = 0; v < list.length; v++){
         var arr = dataAttr.split(" ")
@@ -244,20 +244,20 @@ class HugoTagsFilter {
       }
       return false
     } else {
-      return true
+      return true 
     }
   }
-
+  
   addClassIfMissing(el, cn) {
     if(!el.classList.contains(cn)) {
       el.classList.add(cn);
-    }
+    } 
   }
-
+  
   delClassIfPresent(el, cn) {
     if(el.classList.contains(cn)) {
       el.classList.remove(cn)
-    }
+    } 
   }
 }
 

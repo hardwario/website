@@ -189,11 +189,14 @@
             </div>
           <div class="articles articles--2">
             <div class="row d-flex align-content-stretch">
+
               {{ $categories := .Params.categories }}
               {{ $blogs := where (where .Site.Pages "Section" "blog" ) "Params.categories" "intersect" $categories}}
-              {{ with $blogs }}
-                {{ range first 2 $blogs }}
-                  {{ .Render "grid-box" }}
+              {{ with $blogs.ByPublishDate.Reverse }}
+                {{ range first 3 $blogs }}
+                <div  class="col-12 col-md-6 col-lg-4 tf-filter-item tf-item show-item">
+                  {{ .Render "grid" }}
+                </div>
                 {{ end }}
               {{ end }}
 

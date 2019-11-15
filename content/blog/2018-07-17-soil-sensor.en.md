@@ -5,6 +5,7 @@ description: "New modern sensor to monitor soil moisture and temperature in your
 image_preview: "/blog/2018-07-17-soil-sensor/preview.png"
 image_main: "/blog/2018-07-17-soil-sensor/main.jpg"
 author: "pavel_hubner"
+categories: ["industry"]
 ---
 
 
