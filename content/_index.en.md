@@ -1,5 +1,5 @@
 ---
-title: Home
+title: IoT Kit
 url: /
 menu: ["main"]
 weight: 1

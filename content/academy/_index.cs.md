@@ -2,6 +2,6 @@
 title: Akademie
 mainHeading: Zjisti, jak IoT stavebnice funguje
 slug: akademie
-menu: ["main", "footer"]
+menu: ["secondary", "footer"]
 weight: 70
 ---

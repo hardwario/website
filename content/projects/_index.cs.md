@@ -2,6 +2,6 @@
 title: Projekty
 mainHeading: Tak co, jakým projektem ovládneš svět dnes?
 slug: projects
-menu: ["main","footer"]
+menu: ["secondary","footer"]
 weight: 60
 ---

@@ -1,6 +1,6 @@
 ---
 title: Academy
 mainHeading: Find out how IoT Kit works
-menu: ["main", "footer"]
+menu: ["secondary", "footer"]
 weight: 70
 ---
