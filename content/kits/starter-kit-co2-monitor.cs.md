@@ -11,7 +11,7 @@ images:
   main: co2-monitor/main.png
 isStarter: false
 recommended: false
-included: ["Obsahuje Starter Kit", "Obsahuje CO2 Monitor Kit","100 dní na vyzkoušení","Hodinový webinář zdarma"]
+included: ["Obsahuje Starter Kit", "Obsahuje CO2 Monitor Kit","100 dní na vyzkoušení","Hodinový webinář zdarma","Záruka 3 roky"]
 notIncluded:
 weight: 60
 price: 5 390 Kč

@@ -4,44 +4,56 @@ other = "Učte poutavě a&nbsp;na&nbsp;reálných projektech"
 [iot_kit_is_complex]
 other = "IoT stavebnice je komplexní STEM řešení, jak učit poutavě prostřednictvím tvorby reálných projektů, se kterými studenti objevují svět okolo sebe."
 
-[comprehensive_solution]
-other = "Ucelené řešení"
+[comprehensive_solution_edu]
+other = "Ucelený systém výuky"
 
 [based_on_three_pilars]
-other = "Náš přístup stojí na 3&nbsp;hlavních pilířích"
+other = "Naše aktivní STEM výuka stojí na 3&nbsp;hlavních pilířích"
 
 [plug_and_make_kits]
 other = "Plug&Make IoT stavebnice"
 
 [open_souce_system]
-other = "Open-source systém Plug&Make IoT stavebnice vám umožní postavit a připojit k internetu jakékoli zařízení pro STEM výuku."
+other = "Naše IoT stavebnice vám umožní postavit a připojit k internetu jakékoli IoT zařízení pro vaše aktivní STEM lekce."
 
 [pedagogical_framework]
 other = "Pedagogický<br/> rámec"
 
 [with_experts]
-other = "Společně s pedagogickými experty z&nbsp;EDvisor Finland jsme na základě výzkumu připravili detailní STEM lekce a pedagogický rámec."
+other = "Společně s pedagogickými experty z&nbsp;EDvisor Finland jsme připravili detailní STEM lekce využívající na&nbsp;výzkumu založený pedagogický rámec UVĚDOM SI-EXPERIMENTUJ-APLIKUJ-PŘEMÝŠLEJ."
 
 [personal_support]
-other = "Osobní<br/> podpora"
+other = "Technická<br/>podpora"
 
 [our_edu_package]
-other = "Náš vzdělávací balíček je také vybaven jedinečnou podporou pro pedagogy a studenty formou chatu, fóra a dokumentace."
+other = "Učitelům, vzdělávacím organizacím i&nbsp;studentům poskytujeme profesionální technickou podporu ve&nbsp;formě webinářů, seminářů, podrobných návodů a online chatu."
 
 [whitepaper]
-other = "Whitepaper"
+other = "STEM výuka s HARDWARIO"
 
 [engaging_and_active_stem]
-other = "Poutavé a aktivní STEM učení založené na skutečných IoT projektech"
+other = "Připravili jsme pro vás stručný popis našeho přístupu k výuce STEM včetně pedagogického rámce"
+
+[stem_events]
+other = "Naše akce ke STEM výuce"
 
 [show_how_to_start_stem]
-other = "Ukážeme vám, jak začít s&nbsp;aktivní STEM výukou"
+other = "Potkejte se s námi a&nbsp;diskutujte své nápady jak lépe učit STEM"
+
+[from_stem_blog]
+other = "Co se děje ve světě STEM&nbsp;výuky"
 
 [iot_in_education]
-other = "Přečtěte si o IoT ve&nbsp;vzdělávání"
+other = "Pravidelná dávka novinek o STEM výuce"
+
+[stem_blog]
+other = "Sdílíme naše zkušenosti, případové studie a inspiraci ze světa STEM výuky a internetu věcí"
 
 [come_to_event]
-other = "Přijďte na akce pořádané námi a našimi partnery. Dozvíte se, jak můžete začít s poutavou STEM výukou na skutečných projektech."
+other = "Přijďte na akce pořádané námi nebo našimi partnery. Sdílíme na nich naše znalosti o STEM výuce, aktivním učení, IoT technologiích a&nbsp;představujeme výsledky škol používajících naši stavebnici."
 
 [education_kits]
-other = "Na základě zkušeností a referencí z jiných škol doporučujeme tyto:"
+other = "Na základě zkušeností a referencí z jiných škol doporučujeme tyto stavebnice:"
+
+[education_kit]
+other = "IoT stavebnice pro aktivní STEM výuku"

@@ -14,7 +14,7 @@ isStarter: false
 isEdu: true
 isParents: true
 recommended: false
-included: ["NB-IoT, LoRa nebo Sigfox","Životnost na baterie až 5 let","Rozšiřitelný až o 5 expanderů", "Hodinový webinář zdarma"]
+included: ["NB-IoT, LoRa nebo Sigfox","Životnost na baterie až 5 let","Rozšiřitelný až o 5 expanderů", "Hodinový webinář zdarma","Záruka 3 roky"]
 notIncluded:
 weight: 0
 price: od 2 000 Kč

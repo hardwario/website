@@ -14,7 +14,7 @@ isStarter: false
 isEdu: true
 isParents: true
 recommended: false
-included: ["Contains Push Button Kit", "Contains Radio Dongle", "The perfect start with the kit", "100 days risk free"]
+included: ["Contains Push Button Kit", "Contains Radio Dongle", "The perfect start with the kit", "100 days risk free","3 year warranty"]
 notIncluded: []
 weight: 0
 price: 59€

@@ -1,44 +1,56 @@
 [improve_company]
-other = "Zlepšete vaši firmu rychle a efektivně s&nbsp;IoT piloty průmyslu&nbsp;4.0"
+other = "Ověřte rychle a&nbsp;neinvazivně vaše&nbsp;koncepty průmyslu&nbsp;4.0"
 
 [fast_and_affordable_solution]
-other = "Ekosystém Plug&Make stavebnice vám umožní rychle postavit, připojit a integrovat vaše IoT zařízení nejen pro prediktivní údržbu, monitoring výrobní linky nebo sledování komfortu pracovního prostředí."
+other = "Ekosystém naší stavebnice vám umožní rychle a s nízkými náklady zrealizovat pilotní projekty průmyslu 4.0 v oblastech prediktivní údržby, monitoringu výroby nebo například sledování komfortu pracovního prostředí."
+
+[comprehensive_solution]
+other = "Ucelené řešení"
 
 [iot_kit_industry]
-other = "Open-source systém Plug&Make IoT stavebnice vám umožní postavit a připojit k internetu jakékoli zařízení pro průmysl 4.0 a další řešení."
+other = "Snadné sestavení, nízká spotřeba, vysoký stupeň zabezpečení, průmyslová kvalita, propojitelné s&nbsp;jinými analogovými i&nbsp;digitálními zařízeními a různé možnosti připojení k internetu."
 
 [ready_to_use_integrations]
-other = "Integrace připravené k&nbsp;použití"
+other = "Snadná<br/> integrace "
 
 [integration_manuals]
-other = "Integrace s Google Apps, Microsoft Office 365, Amazon Alexa, Google Home, Apple HomeKit (Siri), Blynk a dalšími je jednoduchá a rychlá."
-
-[support_docs_code]
-other = "Dokumentace, zdrojové kódy"
+other = "Předpřipravené integrace s Google Apps, Microsoft Office 365, Amazon Alexa, Google Home, Apple HomeKit (Siri), Blynk a dalšími IoT platformami."
 
 [support_docs]
-other = "K dispozici vám je osobní podpora, desítky ukázkových projektů a kompletní dokumentace včetně zdrojových kódů."
+other = "Profesionální technická podpora, rozšířená záruka, desítky ukázkových projektů a kompletní dokumentace včetně zdrojových kódů."
 
 [soaked_from_start_to_finish]
-other = "Promakané od začátku do&nbsp;konce"
+other = "Promyšlené od začátku do&nbsp;konce"
 
 [iot_in_industry]
-other = "Přečtěte si o IoT a&nbsp;průmyslu&nbsp;4.0"
+other = "Pravidelná dávka IoT novinek"
+
+[events_industry]
+other = "Naše akce k průmyslu 4.0"
 
 [get_familiar_with_iot]
-other = "Zorientujte se ve světě IoT a&nbsp;průmyslu&nbsp;4.0"
+other = "Potkejte se s námi a diskutujte své IoT nápady"
 
 [come_to_industy_event]
-other = "Přijďte na akce pořádané námi nebo našimi partnery. Dozvíte se vše o&nbsp;IoT, LPWAN technologiích, případových studiích a další užitečné informace."
+other = "Přijďte na akce pořádané námi nebo našimi partnery. Sdílíme na nich naše znalosti o IoT, LPWAN technologiích, a představujeme realizované projekty."
 
 [bespoke_development]
-other = "Vývoj řešení na míru"
+other = "Zakázkový vývoj IoT zařízení"
 
 [we_develop_your_product]
-other = "Navrhneme a vyrobíme váš produkt"
+other = "Navrhneme a vyrobíme vám IoT zařízení na míru"
 
 [kit_not_enough]
-other = "Nestačí vám pro váš projekt pouze stavebnice? Dokončili jste pilot vašeho projektu a chcete vytvořit produkt na zakázku? Vyvineme IoT zařízení dle vašich potřeb a připravíme na míru vše od technického řešení po design."
+other = "Nestačí vám pro váš projekt pouze stavebnice? Dokončili jste pilot vašeho projektu a potřebujete zařízení na míru? Dodáme IoT zařízení dle vašich potřeb od návrhu až po výrobu."
 
 [industry_kits]
 other = "Na základě zkušeností našich zákazníků doporučujeme pro piloty průmyslu 4.0 tyto stavebnice:"
+
+[kits_for_industry]
+other = "Stavebnice pro IoT piloty"
+
+[from_industry_blog]
+other = "Co se děje ve světě průmyslu 4.0"
+
+[we_share_industry]
+other = "Sdílíme naše zkušenosti, případové studie a inspiraci ze světa IoT a&nbsp;průmyslu 4.0."

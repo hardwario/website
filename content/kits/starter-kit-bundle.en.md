@@ -12,7 +12,7 @@ images:
 isStarter: true
 isEdu: true
 recommended: false
-included: ["Contains 10 Starter Kits", "HARDWARIO Hub for free", "100 days risk free","2 hours of free webinar"]
+included: ["Contains 10 Starter Kits", "HARDWARIO Hub for free", "100 days risk free","2 hours of free webinar","3 year warranty"]
 notIncluded:
 weight: 500
 price: 590€

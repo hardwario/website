@@ -14,7 +14,7 @@ isStarter: false
 isEdu: true
 isParents: true
 recommended: false
-included: ["Obsahuje Push Button Kit", "Obsahuje Radio Dongle","Skvělý začátek se stavebnicí","100 dní na vyzkoušení"]
+included: ["Obsahuje Push Button Kit", "Obsahuje Radio Dongle","Skvělý začátek se stavebnicí","100 dní na vyzkoušení","Záruka 3 roky"]
 notIncluded:
 weight: 0
 price: 1 490 Kč

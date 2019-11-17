@@ -13,7 +13,7 @@ isStarter: false
 isEdu: true
 isParents: true
 recommended: false
-included: ["Obsahuje 10 Starter Kitů", "Zdarma HARDWARIO Hub", "100 dní na vyzkoušení","2hodinový webinář zdarma"]
+included: ["Obsahuje 10 Starter Kitů", "Zdarma HARDWARIO Hub", "100 dní na vyzkoušení","2hodinový webinář zdarma","Záruka 3 roky"]
 notIncluded:
 weight: 500
 price: 14 900 Kč
