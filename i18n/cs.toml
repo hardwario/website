@@ -62,13 +62,13 @@ other = "Chci si přečíst dokument"
 other = "Navigace"
 
 [from_iot_blog]
-other = "Co se děje ve světě IoT"
+other = "IoT novinky"
 
 [more_blog]
-other = "Chci číst další blogy"
+other = "Chci číst další články"
 
 [read_about_iot]
-other = "Pravidelná dávka IoT&nbsp;novinek"
+other = "Přečtěte si co se dějě ve&nbsp;světě&nbsp;IoT"
 
 [we_share_knowledge]
 other = "Sdílíme naše zkušenosti, případové studie a inspiraci ze světa IoT, průmyslu 4.0, STEM výuky a chytrých řešení pro domácnosti."
@@ -77,7 +77,7 @@ other = "Sdílíme naše zkušenosti, případové studie a inspiraci ze světa 
 other = "Chci vědět více"
 
 [events]
-other = "Akce a události"
+other = "Naše akce k IoT a STEM výuce"
 
 [read_more]
 other = "Přečíst celé"

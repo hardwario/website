@@ -29,10 +29,7 @@ other = "This project is supported by"
 other = "Table of Contents"
 
 [hackster_heading]
-other = "Do you want to see more projects?"
-
-[hackster_text]
-other = "We share many more project on Hackster.io platform."
+other = "We share more projects on Hackster.io"
 
 [hackster_button]
 other = "Show me hackster.io projects"

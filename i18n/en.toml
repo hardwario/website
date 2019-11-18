@@ -62,13 +62,13 @@ other = "Read the document"
 other = "Navigation"
 
 [from_iot_blog]
-other = "Read about what’s happening in the world&nbsp;of&nbsp;IoT"
+other = "IoT News"
 
 [more_blog]
-other = "Read next IoT articles"
+other = "Read more IoT articles"
 
 [read_about_iot]
-other = "A regular dose of IoT&nbsp;news"
+other = "Read about what's happening in the IoT world"
 
 [we_share_knowledge]
 other = "We share our experience, case studies and inspiration from the world of IoT, industry 4.0, STEM education and DIY smart home solutions."
@@ -80,7 +80,7 @@ other = "Tell me more"
 other = "Read more"
 
 [events]
-other = "Events"
+other = "Our Events with IoT and STEM content"
 
 [event_detail]
 other = "More about event"

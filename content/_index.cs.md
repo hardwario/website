@@ -1,5 +1,5 @@
 ---
-title: IoT stavebnice
+title: Domů
 url: /
 menu: ["main"]
 weight: 1

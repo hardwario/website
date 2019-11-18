@@ -1,8 +1,8 @@
 [build_smart_product]
-other = "Multifunkční Plug&Make IoT stavebnice"
+other = "Multifunkční Plug&Make IoT&nbsp;stavebnice"
 
 [its_easy_with_iot_kit]
-other = "Nekonečné množství variant pro vaše originální IoT projekty. Snadné sestavení, nízká spotřeba a různé možnosti připojení k internetu."
+other = "Stovky variant pro vaše originální IoT projekty. Snadné sestavení, nízká spotřeba a různé možnosti připojení k&nbsp;internetu."
 
 [solutions]
 other = "Využití stavebnice"
@@ -38,10 +38,31 @@ other = "Postavte vlastní detektor záplavy, automatické zavlažování, monit
 other = "Více o DIY chytré domácnosti"
 
 [learn_and_start_making]
-other = "Naučte se pracovat se stavebnicí a&nbsp;začněte tvořit"
+other = "Poznejte naši IoT&nbsp;stavebnici"
 
 [we_prepared_academy_and_projects]
 other = "Poznejte stavebnici díky naší <a href = \"/cs/handbook\">příručce</a> a&nbsp;akademii. Inspiraci pro své STEM i průmyslové projekty najdete v&nbsp;databázi projektů. Pusťte se do toho."
+
+[handbook]
+other = "Příručka"
+
+[guide_for_starter]
+other = "Průvodce našeho Starter Kitu"
+
+[projects]
+other = "Projekty"
+
+[find_an_inspiration]
+other = "Najděte inspiraci"
+
+[academy]
+other = "Akademie"
+
+[get_to_know]
+other = "Poznej jak to funguje"
+
+[get_handbook]
+other = "Projít přiručku"
 
 [show_me_projects]
 other = "Chci vidět projekty"
@@ -50,4 +71,7 @@ other = "Chci vidět projekty"
 other = "Prohlédnout akademii"
 
 [iot_events]
-other = "Ukážeme vám cestu ve&nbsp;světě internetu věcí"
+other = "Poznejme se osobně"
+
+[come_to_event]
+other = "Přijďte na akce pořádané námi nebo našimi partnery. Sdílíme na nich naše znalosti o IoT a STEM výuce."

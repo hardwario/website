@@ -1,11 +1,11 @@
 [build_smart_product]
-other = "Multifunctional Plug&Make IoT Kits"
+other = "Multifunctional Plug&Make IoT&nbsp;Kits"
 
 [its_easy_with_iot_kit]
-other = "The endless number of variants for your original IoT projects. Easy to build, low-power and several options of connections to the internet."
+other = "Hundreds of variants for your original IoT projects. Easy to build, low-power and with several options of IoT connectivity."
 
 [solutions]
-other = "Usage"
+other = "Usage of the kit"
 
 [one_kit_for_all_projects]
 other = "One kit for all your IoT&nbsp;projects"
@@ -32,22 +32,46 @@ other = "More about IoT pilots"
 other = "DIY<br/> Smart Home"
 
 [build_own_device]
-other = "Build your own flood detector, automatic irrigation, CO2 monitor, thermostat or game. Use our academy, tutorials and inspirational projects."
+other = "Build your flood detector, automatic irrigation, CO2 monitor, thermostat or game. Use our academy, tutorials and inspirational projects."
 
 [more_about_diy]
 other = "More about DIY smart home"
 
 [learn_and_start_making]
-other = "Learn how to work with a kit and start making"
+other = "Learn about our IoT kits"
 
 [we_prepared_academy_and_projects]
 other = "Get to know the kit with our <a href = \"/handbook\">handbook</a> and academy. You can find inspiration for your STEM and industrial projects in the project database. Go ahead."
+
+[handbook]
+other = "Handbook"
+
+[guide_for_starter]
+other = "Guide for our Starter Kit"
+
+[projects]
+other = "Projects"
+
+[find_an_inspiration]
+other = "Find an inspiration"
+
+[academy]
+other = "Academy"
+
+[get_to_know]
+other = "Get to know our system"
+
+[get_handbook]
+other = "Get handbook"
 
 [show_me_projects]
 other = "Show projects"
 
 [show_me_academy]
-other = "Go to academy"
+other = "Visit academy"
 
 [iot_events]
-other = "Orientate yourself in the&nbsp;Internet of Things"
+other = "Meet us in person"
+
+[come_to_event]
+other = "Come to events organized by us and our partners. We share our knowledge of IoT technologies and STEM education."

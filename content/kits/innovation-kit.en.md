@@ -22,5 +22,5 @@ modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["usb_dongle","sigfox","lora"]
 contains: []
 eduText: Package ready for innovation teams in companies
-included: ["Contains all kit modules", "8 Core Modules, LoRa & Sigfox", "100 days risk-free","2 hours of free webinar","3-year warranty"]
+included: ["Contains all kit modules", "8 Core Modules, LoRa & Sigfox", "100 day risk-free trial","Free 2-hour webinar","3-year Warranty"]
 ---

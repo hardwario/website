@@ -1,5 +1,5 @@
 [teach_engaging_way]
-other = "Teach STEM engagingly and on real IoT projects"
+other = "Engaging active STEM learning based on real IoT&nbsp;projects"
 
 [iot_kit_is_complex]
 other = "A complete solution of STEM education using its research-based pedagogical framework, which attractiveness is based on work with real IoT projects."
@@ -49,11 +49,11 @@ other = "Read about STEM education and active learning"
 [stem_blog]
 other = "We share our experiences, case studies and inspiration from the world of STEM education and IoT."
 
-[come_to_event]
-other = "Come to events organized by us and our partners. We share our knowledge of STEM education, active learning, IoT technologies and present schools using our IoT kits."
+[come_to_event_edu]
+other = "Come to events organized by us and our partners. We share our knowledge of IoT technologies and STEM education."
 
 [education_kits]
-other = "Based on experience and references from other schools we recommend these kits:"
+other = "Best picks of IoT kits for STEM education"
 
 [education_kit]
-other = "IoT Kits for active STEM learning"
+other = "IoT Kits for education"
