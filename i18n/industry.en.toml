@@ -1,23 +1,26 @@
 [improve_company]
-other = "Improve your business with fast and affordable IoT pilots of industry 4.0"
+other = "Verify Industry 4.0 concepts fast and non-invasively"
 
 [fast_and_affordable_solution]
-other = "The Plug&Make kit ecosystem allows you to quickly build, connect, and integrate your IoT device not only for predictive maintenance, production line monitoring or work environment comfort monitoring."
+other = "Our IoT Kit ecosystem allows you to quickly and affordably realise Industry 4.0 pilot projects in areas of predictive maintenance, production monitoring or work environment comfort monitoring."
+
+[comprehensive_solution]
+other = "Comprehensive solution"
 
 [iot_kit_industry]
-other = "The open-source system of Plug&Make IoT kit allows you to build and connect to the Internet any device for industry 4.0 and other projects."
+other = "Easy to build, low-power, secure, industry quality, able to connect with other analog and digital devices and several options of connection to the internet."
 
 [ready_to_use_integrations]
-other = "Ready to use integrations"
+other = "Easy<br/> to integrate"
 
 [integration_manuals]
-other = "Integration with Google Apps, Microsoft Office 365, Amazon Alexa, Google Home, Apple HomeKit (Siri), Blynk and others is simple and fast."
+other = "Ready-made integrations with Google Apps, Microsoft Office 365, Amazon Alexa, Google Home, Apple HomeKit (Siri), Blynk and other IoT platforms."
 
 [support_docs_code]
 other = "Documentation, source codes"
 
 [support_docs]
-other = "Personal support, dozens of sample projects and complete documentation including source codes are at your disposal."
+other = "Professional technical support, extended warranty, dozens of sample projects and complete documentation including source codes at your disposal."
 
 [soaked_from_start_to_finish]
 other = "Soaked from start to&nbsp;finish"
@@ -25,20 +28,32 @@ other = "Soaked from start to&nbsp;finish"
 [iot_in_industry]
 other = "Read about IoT and Industry 4.0"
 
+[events_industry]
+other = "Our Events with Industry 4.0 content"
+
 [get_familiar_with_iot]
-other = "Orientate yourself in IoT and Industry 4.0"
+other = "Meet us and discuss your IoT ideas"
 
 [come_to_industy_event]
-other = "Come to events organized by us and our partners. Learn more about IoT, LPWAN technologies, case studies and other useful information."
+other = "Come to events organized by us and our partners. We share our knowledge of IoT, LPWAN technologies, and present real case studies."
 
 [bespoke_development]
-other = "Bespoke solution"
+other = "Bespoke development"
 
 [we_develop_your_product]
-other = "We design and produce your product"
+other = "We will design and produce your IoT&nbsp;device"
 
 [kit_not_enough]
-other = "Is not just a kit for your project? Have you completed the pilot of your project and you would like to produce custom made device? We develop IoT devices according to your needs and tailor everything from technical solutions to the design."
+other = "Our IoT Kit is just not enough for your project? Have you completed your pilot and you need tailor-made solution? We will supply IoT devices according to your needs from design to manufacturing."
 
 [industry_kits]
-other = "Based on our customers' experience, we recommend the following kits for pilots of industry 4.0:"
+other = "Based on our customer experience, we recommend the following kits for Industry 4.0 pilots:"
+
+[industry_kit]
+other = "IoT Kits for IoT Pilots"
+
+[from_industry_blog]
+other = "What’s happening in Industry 4.0"
+
+[we_share_industry]
+other = "We share our experience, case studies and inspiration from the world of IoT and industry 4.0."

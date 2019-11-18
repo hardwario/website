@@ -1,47 +1,59 @@
 [teach_engaging_way]
-other = "Engaging active learning on real projects"
+other = "Teach STEM engagingly and on real IoT projects"
 
 [iot_kit_is_complex]
-other = "IoT Kit is a complete STEM solution to teach engagingly through the creation of real projects with which students discover the world around them."
+other = "A complete solution of STEM education using its research-based pedagogical framework, which attractiveness is based on work with real IoT projects."
 
-[comprehensive_solution]
-other = "Compete solution"
+[comprehensive_solution_edu]
+other = "Comprehensive system of active learning"
 
 [based_on_three_pilars]
-other = "Our approach stands on 3&nbsp;main pillars"
+other = "Our active STEM learning stands on 3&nbsp;main pillars"
 
 [plug_and_make_kits]
-other = "Plug&Make<br/> IoT kit"
+other = "Plug&Make<br/> IoT kits"
 
 [open_souce_system]
-other = "The open-source system of Plug&Make IoT kits allows you to build and connect to the internet any desired device for your STEM learning projects."
+other = "Our IoT kits enable you to build and connect to the internet any desired device for your active STEM learning lessons."
 
 [pedagogical_framework]
 other = "Pedagogical<br/> framework"
 
 [with_experts]
-other = "In cooperation with pedagogical experts from EDvisor Finland, we offer detailed STEM lessons using its research-based pedagogical framework."
+other = "In cooperation with pedagogical experts from EDvisor Finland, we offer detailed STEM lessons using its research-based REALISE-EXPERIMENT-APPLY-REFLECT pedagogical framework."
 
 [personal_support]
-other = "Personal<br/> support"
+other = "Technical<br/> support"
 
 [our_edu_package]
-other = "Our education package is also equipped with unique support for educators and learners in the form of chat, forum and documentation."
+other = "We offer professional technical support for teachers, educational organisations and students in the form of webinars, seminars, detailed tutorials and online chat."
 
 [whitepaper]
-other = "The whitepaper"
+other = "Active STEM learning with HARDWARIO IoT kits"
 
 [engaging_and_active_stem]
-other = "Engaging active STEM learning based on real IoT projects"
+other = "We have prepared a short description of our approach to STEM education with our pedagogical framework included"
+
+[stem_events]
+other = "Our Events with STEM education content"
 
 [show_how_to_start_stem]
-other = "We will show you how to start with active STEM education"
+other = "Meet us and discuss your ideas how to teach and learn STEM better"
+
+[from_stem_blog]
+other = "What’s happening in STEM&nbsp;education"
 
 [iot_in_education]
-other = "Read about IoT in education"
+other = "Read about STEM education and active learning"
+
+[stem_blog]
+other = "We share our experience, case studies and inspiration from the world of STEM education and IoT."
 
 [come_to_event]
-other = "Come to events organized by us and our partners. Learn how to get started with engaging STEM learning on real projects."
+other = "Come to events organized by us and our partners. We share our knowledge of STEM education, active learning, IoT technologies and present schools using our IoT kits."
 
 [education_kits]
-other = "Based on experience and references from other schools we recommend these:"
+other = "Based on experience and references from other schools we recommend these kits:"
+
+[education_kit]
+other = "IoT Kits for active STEM learning"

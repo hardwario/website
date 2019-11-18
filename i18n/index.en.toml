@@ -1,8 +1,8 @@
 [build_smart_product]
-other = "Build your own smart product"
+other = "Multifunctional Plug&Make IoT Kits"
 
 [its_easy_with_iot_kit]
-other = "It’s easy with <strong>Plug&Make IoT kit</strong>. Start to invent, innovate, discover and learn in a few minutes on real projects."
+other = "Endless number of variants for your original IoT projects. Easy to build, low-power and several options of connections to the internet."
 
 [solutions]
 other = "Usage"
@@ -23,19 +23,19 @@ other = "More about education"
 other = "Industry 4.0<br/> pilots"
 
 [start_iot_innovations]
-other = "Rock the IoT innovation to the fullest. Build a device for predictive maintenance, production line monitoring or monitor the comfort of the working environment."
+other = "Fast and affordable boosting of your IoT innovations. Build devices for predictive maintenance, production monitoring and monitoring of working environment comfort."
 
 [more_about_pilots]
-other = "More about pilots 4.0"
+other = "More about IoT pilots"
 
 [smart_diy_projects]
-other = "Smart<br/> DIY projects"
+other = "DIY<br/> Smart Home"
 
 [build_own_device]
-other = "Build your own flood detector, automatic irrigation, CO2 monitor, thermostat or game. Guides, documentation and ready integration will help you."
+other = "Build your own flood detector, automatic irrigation, CO2 monitor, thermostat or game. Use our academy, tutorials and inspirational projects."
 
 [more_about_diy]
-other = "More about DIY projects"
+other = "More about DIY smart home"
 
 [learn_and_start_making]
 other = "Learn how to work with a kit and start making"

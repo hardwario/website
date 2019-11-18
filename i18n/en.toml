@@ -56,22 +56,22 @@ other = "Add to cart"
 other = "Most popular"
 
 [get_document]
-other = "Get the document"
+other = "Read the document"
 
 [navigation]
 other = "Navigation"
 
 [from_iot_blog]
-other = "From the IoT blog"
+other = "Read about what’s happening in the world&nbsp;of&nbsp;IoT"
 
 [more_blog]
-other = "Read next"
+other = "Read next IoT articles"
 
 [read_about_iot]
-other = "Read about the&nbsp;internet&nbsp;of&nbsp;things"
+other = "Regular dose of IoT&nbsp;news"
 
 [we_share_knowledge]
-other = "We share our experience, case studies and inspiration from the world of IoT, industry 4.0, smart solutions and education."
+other = "We share our experience, case studies and inspiration from the world of IoT, industry 4.0, STEM education and DIY smart home solutions."
 
 [tell_me_more]
 other = "Tell me more"
@@ -89,7 +89,7 @@ other = "More about event"
 other = "IoT kit HARDWARIO"
 
 [start_with_kit]
-other = "Pick you first kit"
+other = "Choose your first kit"
 
 [project]
 other = "Project"
