@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <section>
-    <div class="bg-image9 pt-50 pt-lg-0 d-flex align-items-center mb-50">
+    <div class="bg-image9 pt-50 pt-lg-0 d-flex align-items-center mb-20 mb-md-50">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6 text-center text-md-left">
@@ -23,39 +23,39 @@
             <div class="row">
                 <div class="col">
                     <div class="row">
-                        <div class="col-12 col-md-4 mx-auto text-center">
+                        <div class="col-12 col-md-6 mx-auto text-center">
                             <div class="font-redLined font-redLined-gray font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "solutions" }}</span></div>
                         </div>
                     </div>
                     <div class="row pb-10 pb-md-30">
-                        <div class="col-12 col-md-8 mx-auto text-center">
+                        <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
                             <h2 class="text-center pb-20 font-weight-black font-30 font-md-64">{{ i18n "one_kit_for_all_projects" | safeHTML }}</h2>
                         </div>
                     </div>
                     <div class="row text-center align-items-center">
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4 d-none d-sm-block">
                             <img src="../_assets/images/education.svg" alt="" class="mb-30" width="183" />
                         </div>
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4 d-none d-sm-block">
                             <img src="../_assets/images/manufacturing.svg" alt="" class="mb-30" width="183" />
                         </div>
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4 d-none d-sm-block">
                             <img src="../_assets/images/home.svg" alt="" class="mb-30" width="260" />
                         </div>
                     </div>
                     <div class="row text-center pb-10 mb-0 mb-md-100">
-                        <div class="col-12 col-lg-4 pb-10 pb-lg-0">
-                            <h3 class="font-40 font-lnh44 font-weight-black pb-10">{{ i18n "active_stem_education" | safeHTML }}</h3>
+                        <div class="col-12 col-lg-4 pb-40 pb-lg-0">
+                            <h3 class="font-26 font-md-40 font-lnh38 font-weight-black pb-10">{{ i18n "active_stem_education" | safeHTML }}</h3>
                             <p class="font-21 font-lnh34 px-15">{{ i18n "use_kit_for_edutaction" | safeHTML }}</p>
                             <a href="{{ "education/" | absLangURL }}" class="cta-button font-lnh54 px-70 d-inline-block font-weight-bold font-font2 font-red bg-white text-decoration-none border-red mt-20">{{ i18n "more_about_education" }}</a>
                         </div>
-                        <div class="col-12 col-lg-4 pb-10 pb-lg-0">
-                            <h3 class="font-40 font-lnh44 font-weight-black pb-10">{{ i18n "industry40_pilots" | safeHTML }}</h3>
+                        <div class="col-12 col-lg-4 pb-40 pb-lg-0">
+                            <h3 class="font-26 font-md-40 font-lnh38 font-weight-black pb-10">{{ i18n "industry40_pilots" | safeHTML }}</h3>
                             <p class="font-21 font-lnh34 px-15">{{ i18n "start_iot_innovations" | safeHTML }}</p>
                             <a href="{{ "industry/" | absLangURL }}" class="cta-button font-lnh54 px-70 d-inline-block font-weight-bold font-font2 font-red bg-white text-decoration-none border-red mt-20">{{ i18n "more_about_pilots" }}</a>
                         </div>
                         <div class="col-12 col-lg-4">
-                            <h3 class="font-40 font-lnh44 font-weight-black pb-10">{{ i18n "smart_diy_projects" | safeHTML }}</h3>
+                            <h3 class="font-26 font-md-40 font-lnh38 font-weight-black pb-10">{{ i18n "smart_diy_projects" | safeHTML }}</h3>
                             <p class="font-21 font-lnh34 px-15">{{ i18n "build_own_device" | safeHTML }}</p>
                             <!--<a href="#why_hardwario" class="cta-button font-lnh54 px-70 d-inline-block font-weight-bold font-font2 font-red bg-white text-decoration-none border-red mt-20">{{ i18n "more_about_diy" }}</a>-->
                         </div>
@@ -71,21 +71,21 @@
       <div class = "container">
         <h2 class="font-40 font-md-64 font-md-lnh56 pb-30 mb-5 font-weight-black">{{ i18n "learn_and_start_making" | safeHTML }}</h2>
         <div class = "row">
-        <div class = "col">
-          <h3 class="font-40 font-lnh44 font-weight-black pb-10">{{ i18n "handbook" }}</h3>
-          <p class="font-21 font-lnh34 px-15 pb-15">{{ i18n "guide_for_starter" }}</p>
-          <a href="{{ "handbook/" | absLangURL }}" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-darkGray">{{ i18n "get_handbook" }}</a>
+        <div class = "col-12 col-md-4 pb-40 pb-md-0">
+          <h3 class="font-26 font-md-40 font-lnh38 font-md-lnh44 font-weight-black pb-0 pb-md-10">{{ i18n "handbook" }}</h3>
+          <p class="font-21 font-lnh24 px-15 pb-15">{{ i18n "guide_for_starter" }}</p>
+          <a href="{{ "handbook/" | absLangURL }}" class="cta-button font-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "get_handbook" }}</a>
         </div>
 
-        <div class = "col">
-          <h3 class="font-40 font-lnh44 font-weight-black pb-10">{{ i18n "projects" }}</h3>
-          <p class="font-21 font-lnh34 px-15 pb-15">{{ i18n "find_an_inspiration" }}</p>
+      <div class = "col-12 col-md-4 pb-40 pb-md-0">
+          <h3 class="font-26 font-md-40 font-lnh38 font-md-lnh44 font-weight-black pb-0 pb-md-10">{{ i18n "projects" }}</h3>
+          <p class="font-21 font-lnh24 px-15 pb-15">{{ i18n "find_an_inspiration" }}</p>
           <a href="{{ "projects/" | absLangURL }}" class="cta-button font-lnh54 px-40 d-inline-block font-weight-bold font-font2 font-gray text-decoration-none border-gray">{{ i18n "show_me_projects" }}</a>
         </div>
 
-        <div class = "col">
-          <h3 class="font-40 font-lnh44 font-weight-black pb-10">{{ i18n "academy" }}</h3>
-          <p class="font-21 font-lnh34 px-15 pb-15">{{ i18n "get_to_know" }}</p>
+      <div class = "col-12 col-md-4">
+          <h3 class="font-26 font-md-40 font-lnh38 font-md-lnh44 font-weight-black pb-0 pb-md-10">{{ i18n "academy" }}</h3>
+          <p class="font-21 font-lnh24 px-15 pb-15">{{ i18n "get_to_know" }}</p>
           <a href="{{ "academy/" | absLangURL }}" class="cta-button font-lnh54 px-40 d-inline-block font-weight-bold font-font2 font-gray text-decoration-none border-gray">{{ i18n "show_me_academy" }}</a>
         </div>
         </div>
@@ -139,7 +139,7 @@
                 </div>
             </div>
             <div class="row pb-10 pb-md-30">
-                <div class="col-12 col-md-8 mx-auto text-center">
+                <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
                     <h2 class="text-center pb-20 font-weight-black font-30 font-md-64">{{ i18n "read_about_iot" |safeHTML }}</h2>
                     <p class="text-center font-24 font-lnh38">{{ i18n "we_share_knowledge" | safeHTML }}</p>
                 </div>

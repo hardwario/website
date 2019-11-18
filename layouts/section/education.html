@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <section>
-    <div class="bg-image10 pt-50 pt-lg-0 d-flex align-items-center mb-50">
+    <div class="bg-image10 pt-50 pt-lg-0 d-flex align-items-center mb-20 mb-md-50">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6 text-center text-md-left">
@@ -22,38 +22,38 @@
             <div class="row">
                 <div class="col">
                     <div class="row">
-                        <div class="col-12 col-md-6 mx-auto text-center">
-                            <div class="font-redLined font-redLined-gray font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "comprehensive_solution_edu" }}</span></div>
+                        <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
+                            <div class="font-redLined font-redLined-gray font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "comprehensive_solution_edu" | safeHTML }}</span></div>
                         </div>
                     </div>
                     <div class="row pb-10 pb-md-30">
-                        <div class="col-12 col-md-8 mx-auto text-center">
+                        <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
                             <h2 class="text-center pb-20 font-weight-black font-30 font-md-64">{{ i18n "based_on_three_pilars" | safeHTML }}</h2>
                             <!--<p class="text-center font-24 font-lnh38">Sufficient amount of correct information reduces risk and reduces waste of time and resources.</p>-->
                         </div>
                     </div>
                     <div class="row text-center align-items-center">
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4 d-none d-sm-block">
                             <img src="/_assets/images/kit.svg" alt="" class="mb-70" width="163" />
                         </div>
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4 d-none d-sm-block">
                             <img src="/_assets/images/framework.svg" alt="" class="mb-70" width="163" />
                         </div>
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4 d-none d-sm-block">
                             <img src="/_assets/images/support.svg" alt="" class="mb-70" width="260" />
                         </div>
                     </div>
                     <div class="row text-center pb-10 mb-0 mb-md-100">
-                        <div class="col-12 col-lg-4 pb-10 pb-lg-0">
-                            <h3 class="font-40 font-lnh44 font-weight-black pb-10">{{ i18n "plug_and_make_kits" | safeHTML }}</h3>
+                        <div class="col-12 col-lg-4 pb-40 pb-lg-0">
+                            <h3 class="font-26 font-md-40 font-lnh38 font-weight-black pb-10">{{ i18n "plug_and_make_kits" | safeHTML }}</h3>
                             <p class="font-21 font-lnh34 px-15">{{ i18n "open_souce_system" }}</p>
                         </div>
-                        <div class="col-12 col-lg-4 pb-10 pb-lg-0">
-                            <h3 class="font-40 font-lnh44 font-weight-black pb-10">{{ i18n "pedagogical_framework" | safeHTML }}</h3>
+                        <div class="col-12 col-lg-4 pb-40 pb-lg-0">
+                            <h3 class="font-26 font-md-40 font-lnh38 font-weight-black pb-10">{{ i18n "pedagogical_framework" | safeHTML }}</h3>
                             <p class="font-21 font-lnh34 px-15">{{ i18n "with_experts" | safeHTML }}</p>
                         </div>
                         <div class="col-12 col-lg-4">
-                            <h3 class="font-40 font-lnh44 font-weight-black pb-10">{{ i18n "personal_support" | safeHTML }}</h3>
+                            <h3 class="font-26 font-md-40 font-lnh38 font-weight-black pb-10">{{ i18n "personal_support" | safeHTML }}</h3>
                             <p class="font-21 font-lnh34 px-15">{{ i18n "our_edu_package" | safeHTML }}</p>
                         </div>
                     </div>
@@ -122,16 +122,16 @@
                     <div class="row">
                         <div class="col">
                           <div class="row">
-                              <div class="col-12 col-md-6 mx-auto pt-60 text-center">
+                              <div class="col-12 col-md-8 col-lg-6 mx-auto pt-60 text-center">
                                   <div class="font-redLined font-redLined-gray font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "education_kit" }}</span></div>
                               </div>
                           </div>
                           <div class="row">
-                              <div class="col-12 col-md-8 mx-auto text-center">
+                              <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
                                   <h2 class="text-center pb-20 font-weight-black font-30 font-md-64">{{ i18n "education_kits" }}</h2>
                               </div>
                           </div>
-                            <div class="pricelist pricelist--bottom-3-5 pt-80">
+                            <div class="pricelist pricelist--bottom-3-5 pt-0 pt-md-40">
                                 <div class="row no-gutters">
                                   {{ $pleft := .Params.productLeft }}
                                   {{ with .Site.GetPage (string $pleft) }}
@@ -162,21 +162,21 @@
               <div class = "container">
                 <h2 class="font-40 font-md-64 font-md-lnh56 pb-30 mb-5 font-weight-black">{{ i18n "learn_and_start_making" | safeHTML }}</h2>
                 <div class = "row">
-                <div class = "col">
-                  <h3 class="font-40 font-lnh44 font-weight-black pb-10">{{ i18n "handbook" }}</h3>
-                  <p class="font-21 font-lnh34 px-15 pb-15">{{ i18n "guide_for_starter" }}</p>
-                  <a href="{{ "handbook/" | absLangURL }}" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-darkGray">{{ i18n "get_handbook" }}</a>
+                <div class = "col-12 col-md-4 pb-40 pb-md-0">
+                  <h3 class="font-26 font-md-40 font-lnh38 font-md-lnh44 font-weight-black pb-0 pb-md-10">{{ i18n "handbook" }}</h3>
+                  <p class="font-21 font-lnh24 px-15 pb-15">{{ i18n "guide_for_starter" }}</p>
+                  <a href="{{ "handbook/" | absLangURL }}" class="cta-button font-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "get_handbook" }}</a>
                 </div>
 
-                <div class = "col">
-                  <h3 class="font-40 font-lnh44 font-weight-black pb-10">{{ i18n "projects" }}</h3>
-                  <p class="font-21 font-lnh34 px-15 pb-15">{{ i18n "find_an_inspiration" }}</p>
+              <div class = "col-12 col-md-4 pb-40 pb-md-0">
+                  <h3 class="font-26 font-md-40 font-lnh38 font-md-lnh44 font-weight-black pb-0 pb-md-10">{{ i18n "projects" }}</h3>
+                  <p class="font-21 font-lnh24 px-15 pb-15">{{ i18n "find_an_inspiration" }}</p>
                   <a href="{{ "projects/" | absLangURL }}" class="cta-button font-lnh54 px-40 d-inline-block font-weight-bold font-font2 font-gray text-decoration-none border-gray">{{ i18n "show_me_projects" }}</a>
                 </div>
 
-                <div class = "col">
-                  <h3 class="font-40 font-lnh44 font-weight-black pb-10">{{ i18n "academy" }}</h3>
-                  <p class="font-21 font-lnh34 px-15 pb-15">{{ i18n "get_to_know" }}</p>
+              <div class = "col-12 col-md-4">
+                  <h3 class="font-26 font-md-40 font-lnh38 font-md-lnh44 font-weight-black pb-0 pb-md-10">{{ i18n "academy" }}</h3>
+                  <p class="font-21 font-lnh24 px-15 pb-15">{{ i18n "get_to_know" }}</p>
                   <a href="{{ "academy/" | absLangURL }}" class="cta-button font-lnh54 px-40 d-inline-block font-weight-bold font-font2 font-gray text-decoration-none border-gray">{{ i18n "show_me_academy" }}</a>
                 </div>
                 </div>
