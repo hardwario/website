@@ -88,6 +88,8 @@
   {{ .Render "grid-home" }}
 {{ end }}
 
+{{ $events := ($.Site.GetPage "section" "events").Pages }}
+{{ with $events }}
 <section>
     <div class="container">
         <div class="row pt-70">
@@ -102,30 +104,22 @@
             </div>
         </div>
         <div class="row align-items-center pb-30 mb-md-30 pt-30">
-          <div class="col-12 col-md-6 pb-30">
-
-
-            {{ $events := ($.Site.GetPage "section" "events").Pages }}
-            {{ range where $events "Params.category" "industry" }}
+            {{ range where $events.ByPublishDate "Params.category" "industry" }}
+            <div class="col-12 col-md-4 pb-30">
                 {{ .Render "grid" }}
+            </div>
             {{end}}
-
-
-          </div>
-          <div class="col-12 col-md-6 pb-30">
-
-          </div>
 </div>
 </div>
 </section>
-
+{{ end }}
 <section>
     <div class="">
         <div class="container">
             <div class="row">
                 <div class="col">
                   <div class="row">
-                      <div class="col-12 col-md-4 mx-auto text-center">
+                      <div class="col-12 col-md-4 mx-auto pt-60 text-center">
                           <div class="font-redLined font-redLined-gray font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "kits_for_industry" }}</span></div>
                       </div>
                   </div>
@@ -174,7 +168,7 @@
     </div>
 </section>
 
-<section>
+<!--<section>
   <div class="">
     <div class="container">
       <div class="row">
@@ -215,7 +209,7 @@
       </div>
     </div>
   </div>
-</section>
+</section>-->
 
 <footer>
 {{ end }}

@@ -95,6 +95,10 @@
     </div>
 </section>
 
+
+{{ $events := ($.Site.GetPage "section" "events").Pages }}
+{{ with $events }}
+
 <section>
     <div class="container">
         <div class="row pt-70">
@@ -109,22 +113,20 @@
             </div>
         </div>
         <div class="row align-items-center pb-30 mb-md-30 pt-30">
-          <div class="col-12 col-md-6 pb-30">
 
-
-            {{ $events := ($.Site.GetPage "section" "events").Pages }}
-            {{ range $events }}
+            {{ range $events.ByPublishDate }}
+            <div class="col-12 col-md-4 pb-30">
                 {{ .Render "grid" }}
+            </div>
             {{end}}
 
-
-          </div>
           <div class="col-12 col-md-6 pb-30">
 
           </div>
 </div>
 </div>
 </section>
+{{ end }}
 
 <section>
   <div class="">

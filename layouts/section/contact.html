@@ -1,15 +1,40 @@
 {{ define "main" }}
 
 <section>
-    <div class="mb-30 mt-30 mt-md-0">
-        <div class="bg-red mb-100">
+  <div class="bg bg--gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="row pb-10 pb-md-30">
+              <div class="col-12 col-md-10 mx-auto text-center">
+                  <h2 class="text-center pb-30 font-weight-black font-20 font-md-64">{{ .Params.mainHeading | safeHTML }}</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+    <div class="mt-30 mt-md-0">
+        <div>
             <div class="container">
                 <div class="row no-gutters align-items-center">
-                    <div class="col">
+                    <div class = "col-6">
+                      <div class="placeholder-black pt-70">
+                          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                          <script>
+                          hbspt.forms.create({
+                          portalId: "5453210",
+                          formId: "39c2f6d9-e437-4e94-9a97-89d4596faa34"
+                          });
+                          </script>
+                      </div>
+                    </div>
+                    <div class="col-6">
                         <div class="bg-contact d-block d-lg-flex align-items-lg-center">
                             <div class="text-center text-lg-right ml-auto pt-40 pt-lg-0">
-                                <h1><a href="mailto:ask@hardwario.com" class="d-block font-md-lnh65 font-25 font-md-40 font-xl-66 font-weight-black pb-10 pb-md-40 font-white pt-20 pt-md-40">ask@hardwario.com</a></h1>
-                                <a href="#contact" class="bg-darkGray font-lnh24 py-15 d-block d-md-inline-block font-white font-font2 font-weight-bold px-md-80 mb-lg-40">{{ i18n "write_us" }}</a>
+                                <h1><a href="mailto:ask@hardwario.com" class="d-block font-red font-md-lnh65 font-25 font-md-40 font-xl-66 font-weight-black pb-10 pb-md-40">ask@hardwario.com</a></h1>
                             </div>
                         </div>
                     </div>
@@ -18,7 +43,7 @@
         </div>
     </div>
 </section>
-<section>
+<!--<section>
     <div class="container" id = "contact">
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4">
@@ -60,7 +85,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <footer>
 
