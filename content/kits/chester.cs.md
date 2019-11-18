@@ -34,7 +34,5 @@ techSpecs:
     battery:
         heading: "Výdrž na baterky"
         text: "2 roky při standardním použití"
-eduText: Nejvšestranější IoT Gateway. Přenese jakákoli data prostřednictvím LPWAN.
+eduText: Nejvšestrannější IoT Gateway. Přenese jakákoli data prostřednictvím LPWAN.
 ---
-
-Základní sadou pro začátek s BigClownem je Starter Kit a užiješ si s ním spoustu skvělých projektů. Postav své první chytré zařízení a vytvoř projekty, kterými ohromíš kámoše, rodinu i nás.👌 Kit ti umožní měřit teplotu, pracovat s akcelerometrem nebo ovládat cokoli stisknutím tlačítka. Časem ho můžeš vylepšit o rozšiřující moduly.

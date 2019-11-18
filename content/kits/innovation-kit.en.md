@@ -22,9 +22,5 @@ modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["usb_dongle","sigfox","lora"]
 contains: []
 eduText: Package ready for innovation teams in companies
-included: ["Obsahuje 10 Starter Kitů", "Zdarma HARDWARIO Hub", "100 dní na vyzkoušení","2hodinový webinář zdarma","3 year warranty"]
+included: ["Contains all kit modules", "8 Core Modules, LoRa & Sigfox", "100 days risk-free","2 hours of free webinar","3-year warranty"]
 ---
-
-Pořiďte Starter Kity pro celou třídu a začněte s vědátorstvím hned! Starter Kit je základní sadou pro začátek. Všichni postavíte své první chytré zařízení a vytvoříte projekty, kterými ohromíte všechny okolo.👌 Kit umožňuje měřit teplotu, pracovat s akcelometrem nebo ovládat cokoli stisknutím tlačítka. Časem jej můžete vylepšit o rozšiřující moduly.
-
-Součástí sady je zdarma BigClown tričko a BigClown Hub.

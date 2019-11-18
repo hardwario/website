@@ -56,7 +56,7 @@ other = "Do košíku"
 other = "Nejpopulárnější"
 
 [get_document]
-other = "Chci si přečist dokument"
+other = "Chci si přečíst dokument"
 
 [navigation]
 other = "Navigace"

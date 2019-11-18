@@ -12,7 +12,7 @@ images:
 isStarter: true
 isEdu: true
 recommended: false
-included: ["Contains 10 Starter Kits", "HARDWARIO Hub for free", "100 days risk free","2 hours of free webinar","3 year warranty"]
+included: ["Contains 10 Starter Kits", "HARDWARIO Hub for free", "100 days risk-free","2 hours of free webinar","3-year warranty"]
 notIncluded:
 weight: 500
 price: 590€
@@ -20,7 +20,7 @@ buyLink: https://shop.bigclown.com/starter-kits-bundle/
 modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["usb_dongle","sigfox","lora"]
 contains: []
-eduText: Set of 10 Starter Kits brings fun with BigClown to the entire class
+eduText: Set of 10 Starter Kits brings the fun with BigClown to the entire class
 eduBenefits: ["Contains 10 Starter Kits", "Contains BigClown Hub for free", "Enough for the whole class","BigClown T-Shirt as a gift"]
 ---
 
