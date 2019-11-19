@@ -6,7 +6,7 @@
   <meta property="og:url" content="{{ .URL | absURL }}" />
   <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO IoT Blog">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="{{ .URL | absURL }}{{ .Params.images.main }}">
+  <meta property="og:image" content="{{ .URL | absURL }}{{ .Params.image_main }}">
 
   {{ else }}
   <title>{{ .Page.Title }} | HARDWARIO</title>
@@ -14,7 +14,7 @@
   <meta property="og:url" content="{{ .URL | absURL }}" />
   <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta/blog.jpg">
+  <meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta.jpg">
   {{ end }}
 
 {{ else if eq .Section "projects" }}
@@ -33,7 +33,7 @@
   <meta property="og:url" content="{{ .URL | absURL }}" />
   <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta/projects.jpg">
+  <meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta.jpg">
   {{ end }}
 
 {{ else if eq .Section "academy" }}
@@ -52,7 +52,7 @@
     <meta property="og:url" content="{{ .URL | absURL }}" />
     <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta/projects.jpg">
+    <meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta.jpg">
     {{ end }}
 
 {{ else }}
@@ -62,5 +62,5 @@
 <meta property="og:url" content="{{ .URL | absURL }}" />
 <meta property='og:title' content="{{ $.Page.Params.meta_title }}">
 <meta property="og:type" content="website">
-<meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta/home.jpg">
+<meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta.jpg">
 {{ end }}
