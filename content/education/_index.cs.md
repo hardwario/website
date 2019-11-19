@@ -8,4 +8,5 @@ meta_description: IoT stavebnice je komplexní STEM řešení, jak učit poutav�
 productLeft: "/kits/starter-kit"
 productMiddle: "/kits/starter-kit-co2-monitor"
 productRight: "/kits/starter-kit-bundle"
+whitepaper_form: 15fbb7ef-9008-495c-90a4-eeca9d4dd2fa
 ---

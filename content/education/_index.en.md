@@ -8,4 +8,5 @@ meta_description: IoT Kit is a complete STEM solution to teach engagingly throug
 productLeft: "/kits/starter-kit"
 productMiddle: "/kits/starter-kit-co2-monitor"
 productRight: "/kits/starter-kit-bundle"
+whitepaper_form: 94ea07fb-5b00-4647-aead-583aba169b00
 ---

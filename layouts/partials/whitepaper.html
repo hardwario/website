@@ -1,0 +1,57 @@
+<section>
+    <div class="d-flex justify-content-center bg-image2 py-50 py-xl-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8 mx-auto">
+                    <div class="slick1">
+                        <div class="bg-white text-center px-30 px-md-50 pt-50 mb-30">
+                            <div class="row">
+                                <div class="col-12 col-md-12 mx-auto">
+                                    <div class="font-redLined font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "whitepaper" }}</span></div>
+                                </div>
+                            </div>
+                            <h2 class="font-weight-black font-30 font-md-52 font-md-lnh73 pb-md-20">{{ i18n "engaging_and_active_stem" }}</h2>
+                            <div>
+                                <a href="#" class="getPdf abs-1 font-lnh24 py-15 px-10 px-md-90 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "get_document" }}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div id = "downloadWhitepaper" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-md-10">
+              <h2 class = "font-30 font-md-42 pt-50 pb-50 font-weight-black text-center">{{ i18n "get_document" | safeHTML }}</h2>
+            </div>
+            <div class="col-md-8 text-center">
+              <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+              <script>
+                hbspt.forms.create({
+                  portalId: "5453210",
+                  formId: "{{ .Params.whitepaper_form }}"
+                });
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  $('.getPdf').click(function(){
+    $('#downloadWhitepaper').modal({
+      keyboard: false
+    })
+  });
+
+</script>

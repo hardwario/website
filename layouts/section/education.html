@@ -63,29 +63,7 @@
     </div>
 </section>
 
-<section>
-    <div class="d-flex justify-content-center bg-image2 py-50 py-xl-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-8 mx-auto">
-                    <div class="slick1">
-                        <div class="bg-white text-center px-30 px-md-50 pt-50 mb-30">
-                            <div class="row">
-                                <div class="col-12 col-md-12 mx-auto">
-                                    <div class="font-redLined font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "whitepaper" }}</span></div>
-                                </div>
-                            </div>
-                            <h2 class="font-weight-black font-30 font-md-52 font-md-lnh73 pb-md-20">{{ i18n "engaging_and_active_stem" }}</h2>
-                            <div>
-                                <a href="{{ .Permalink }}" class="abs-1 font-lnh24 py-15 px-10 px-md-90 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "get_document" }}</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+{{ partial "whitepaper" . }}
 
 {{ $events := ($.Site.GetPage "section" "events").Pages }}
 {{ with $events }}
