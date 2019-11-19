@@ -3,8 +3,8 @@ title: Vzdělávání
 menu: ["main"]
 weight: 20
 categories: ["education"]
-meta_title: Poutavé STEAM učení s IoT stavebnicí HARDWARIO
-meta_description: IoT stavebnice je komplexní STEM řešení, jak učit poutavě prostřednictvím tvorby reálných projektů, se kterými studenti objevují svět okolo sebe.
+meta_title: Poutavá aktivní STEM výuka postavená na reálných IoT projektech s HARDWARIO
+meta_description: Ucelený systém aktivní STEM výuky využívající výzkumem ověřený pedagogický rámec, jehož atraktivita je založena na práci s reálnými projekty internetu věcí.
 productLeft: "/kits/starter-kit"
 productMiddle: "/kits/starter-kit-co2-monitor"
 productRight: "/kits/starter-kit-bundle"

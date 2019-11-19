@@ -3,6 +3,6 @@ title: Home
 url: /
 menu: ["main"]
 weight: 1
-meta_title: Build your own smart product with HARDWARIO IoT Kits
-meta_description: It’s easy with Plug&Make IoT kit. Start to invent, innovate, discover and learn in a few minutes on real projects.
+meta_title: Multifunctional Plug&Make IoT Kits HARDWARIO
+meta_description: Hundreds of variants for your original IoT projects. Easy to build, low-power and with several options of IoT connectivity.
 ---

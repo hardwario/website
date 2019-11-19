@@ -3,8 +3,8 @@ title: Industry
 menu: ["main"]
 weight: 30
 categories: ["industry"]
-meta_title: Fast and affordable IoT pilots of industry 4.0 with HARDWARIO IoT Kit
-meta_description: The Plug&Make kit ecosystem allows you to quickly build, connect, and integrate your IoT device not only for predictive maintenance, production line monitoring or work environment comfort monitoring.
+meta_title: Fast non-invasive industry 4.0 proof of concepts with HARDWARIO
+meta_description: Our IoT Kit ecosystem allows you to quickly and affordably realise Industry 4.0 pilot projects in areas of predictive maintenance, production monitoring or work environment comfort monitoring.
 productLeft: "/kits/starter-kit"
 productMiddle: "/kits/chester"
 productRight: "/kits/innovation-kit"

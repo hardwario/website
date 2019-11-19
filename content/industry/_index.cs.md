@@ -3,8 +3,8 @@ title: Průmysl
 menu: ["main"]
 weight: 30
 categories: ["industry"]
-meta_title: Rychlé a efektivní IoT piloty průmyslu 4.0 se stavebnicí HARDWARIO
-meta_description: Ekosystém Plug&Make stavebnice vám umožní rychle postavit, připojit a integrovat vaše IoT zařízení nejen pro prediktivní údržbu, monitoring výrobní linky nebo sledování komfortu pracovního prostředí.
+meta_title: Rychlé neinvazivní ověřování konceptů průmyslu 4.0 s HARDWARIO
+meta_description: Ekosystém naší stavebnice vám umožní rychle a s nízkými náklady zrealizovat pilotní projekty průmyslu 4.0 v oblastech prediktivní údržby, monitoringu výroby nebo například sledování komfortu pracovního prostředí.
 productLeft: "/kits/starter-kit"
 productMiddle: "/kits/chester"
 productRight: "/kits/innovation-kit"
