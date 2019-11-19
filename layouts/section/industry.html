@@ -104,7 +104,7 @@
             </div>
         </div>
         <div class="row align-items-center pb-30 mb-md-30 pt-30">
-            {{ range where $events.ByPublishDate "Params.category" "industry" }}
+            {{ range where $events.ByDate "Params.category" "industry" }}
             <div class="col-12 col-md-4 pb-30">
                 {{ .Render "grid" }}
             </div>

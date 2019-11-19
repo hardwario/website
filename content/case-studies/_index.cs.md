@@ -1,7 +1,7 @@
 ---
 title: Případové studie
-menu: 
-weight: 50
+menu: secondary
+weight: 80
 meta:
     title: Případové studie HARDWARIO
 ---
