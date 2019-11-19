@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     {{ partial "_meta.html" . }}
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="canonical" href="{{ .Permalink }}">
     <link rel="stylesheet" href="/_assets/css/{{ index .Site.Data.css.hash "main.css" }}" />
     <link rel="stylesheet" href="/_assets/css/{{ index .Site.Data.css.hash "font.css" }}" />
     <link rel="stylesheet" href="/_assets/css/{{ index .Site.Data.css.hash "bg.css" }}" />

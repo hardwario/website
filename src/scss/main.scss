@@ -438,6 +438,16 @@ hr{
     position: relative;
     z-index: 1;
     margin-top: -0.25*$baseline;
+
+    @media(max-width:991px)
+    {
+      line-height: 1*$baseline;
+    }
+
+    @media(max-width:767px)
+    {
+      line-height: 2*$baseline;
+    }
   }
 
   &__title2
@@ -462,6 +472,11 @@ hr{
     font-size: em(18);
     text-align: left;
 
+    @media(max-width:991px)
+    {
+      padding-left: 0px!important;
+    }
+
     &__item
     {
       line-height: $baseline;
@@ -469,6 +484,11 @@ hr{
       padding-left: 33px;
       display: block;
       background: url("../svg/check.svg") no-repeat left top 8px;
+
+      @media(max-width:991px)
+      {
+        padding-left: 22px;
+      }
 
       &--disabled
       {

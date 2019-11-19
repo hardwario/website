@@ -176,12 +176,49 @@
   }
 
   @for $i from 12 through 73 {
+
     &-lnh#{$i} {
       line-height: #{$i}px;
 
       p,li
       {
         padding-bottom:#{$i}px;
+      }
+    }
+
+    &-xl-lnh#{$i} {
+      @media (min-width:1200px)
+      {
+        line-height: #{$i}px!important;
+
+        p,li
+        {
+          padding-bottom:#{$i}px!important;
+        }
+      }
+    }
+
+    &-lg-lnh#{$i} {
+      @media (min-width:992px)
+      {
+        line-height: #{$i}px!important;
+
+        p,li
+        {
+          padding-bottom:#{$i}px!important;
+        }
+      }
+    }
+
+    &-md-lnh#{$i} {
+      @media (min-width:768px)
+      {
+        line-height: #{$i}px!important;
+
+        p,li
+        {
+          padding-bottom:#{$i}px!important;
+        }
       }
     }
   }
