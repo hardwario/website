@@ -10,7 +10,7 @@ pygmentsUseClasses = true
   menuNames = ["main","footer","secondary"]
   homeURL = "/"
   shopURL = "https://shop.bigclown.com/"
-  productionURL = "https://www.bigclown.com"
+  productionURL = "https://www.hardwario.com"
 
 [languages]
   [languages.en]
@@ -35,16 +35,6 @@ pygmentsUseClasses = true
   url    = "https://developers.bigclown.com"
   name   = "Dokumentace"
   weight = 0
-
-[[languages.en.menu.footer]]
-    url    = "https://forum.bigclown.com"
-    name   = "Forum"
-    weight = 0
-
-[[languages.cs.menu.footer]]
-    url    = "https://forum.bigclown.com"
-    name   = "Fórum"
-    weight = 0
 
 [[languages.en.menu.footer]]
   url    = "https://github.com/bigclownlabs"
