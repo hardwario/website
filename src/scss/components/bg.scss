@@ -280,6 +280,26 @@
     min-height: 2280px
   }
 
+  &-image12
+  {
+    background: url("../images/image12.jpg") center center no-repeat;
+    background-size: cover;
+    //padding-top: 150px;
+    //padding-bottom: 250px;
+    //height: auto;
+
+    //@media(max-width:1199px)
+    //{
+    //  padding-top: 50px;
+    //  height: auto;
+    //}
+    //
+    //@media(max-width:767px)
+    //{
+    //  padding-top: 50px;
+    //  //padding-bottom: 50px;
+    //}
+  }
   &-gray
   {
     background: #F9F9F9;
