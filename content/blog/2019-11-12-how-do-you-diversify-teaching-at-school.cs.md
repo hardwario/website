@@ -44,7 +44,7 @@ A jakmile přijde řeč na **odstředivou sílu**, žáci si pomocí [našeho n�
 
 ## IoT technologie ve výuce biologie
 
-Vysvětlit žákům princip oxidu uhličitého tak, aby neskončil jen jako pár nudných řádků v sešitě, může být fuška. Pokud si ale na pomoc přizvete stavebnici [CO2 Monitor Kit](/cs/kits/co2-monitor/), **ukážete jim, jak se oxid uhličitý projevuje v praxi**. Po připojení k počítači zobrazí krabička aktuální míru CO2 v okolí. Jako učitel tak dětem snadno ukážete, jak se míra oxidu uhličitého **mění například po otevření oken** ve vydýchané třídě nebo venku před školou oproti interiéru.
+Vysvětlit žákům princip oxidu uhličitého tak, aby neskončil jen jako pár nudných řádků v sešitě, může být fuška. Pokud si ale na pomoc přizvete stavebnici [CO2 Monitor Kit](https://obchod.bigclown.cz/co2-monitor-kit/), **ukážete jim, jak se oxid uhličitý projevuje v praxi**. Po připojení k počítači zobrazí krabička aktuální míru CO2 v okolí. Jako učitel tak dětem snadno ukážete, jak se míra oxidu uhličitého **mění například po otevření oken** ve vydýchané třídě nebo venku před školou oproti interiéru.
 
 S CO2 Monitor Kitem žáci změří také **teplotu, vlhkost vzduchu a atmosférický tlak**, takže kromě biologie přijde vhod i ve fyzice. A mimo hodiny ho využijete čistě jako **detektor hladiny CO2**, abyste zjistili, zda mají děti pro studium ideální prostředí a kdy potřebují více čistého vzduchu. Díky tomu se budou na hodinách lépe soustředit.
 
