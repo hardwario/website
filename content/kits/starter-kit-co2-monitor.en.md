@@ -11,7 +11,7 @@ images:
   main: co2-monitor/main.png
 isStarter: false
 recommended: false
-included: ["Contains Starter Kit", "Contains CO2 Monitor Kit","100 day risk-free trial","Free 1-hour webinar","3-year Warranty"]
+included: ["Contains Starter Kit", "Contains CO2 Monitor Kit","100-day risk-free trial","Free 1-hour webinar","3-year Warranty"]
 notIncluded:
 weight: 60
 price: €210
