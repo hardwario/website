@@ -44,7 +44,7 @@ Budeš potřebovat **krabičku s tlačítkem** a **USB dongle**. Proto si vysta�
 
 ## Nastav si notifikaci
 
-1. Nastav si flow pro notifikaci podobně jako u [základní verze tohohle projektu](https://www.bigclown.com/cs/projects/tlacitko-pro-rodice/).
+1. Nastav si flow pro notifikaci podobně jako u [základní verze tohohle projektu](/cs/projects/tlacitko-pro-rodice/).
 
 Na plochu polož **MQTT node** ze sekce Input, který má v Topicu počítání kliknutí. Vedle něj hoď **notifikaci na mobil** propojenou s Blynkem.
 

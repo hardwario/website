@@ -28,7 +28,7 @@ Are you up for the task? Build one project in which you run two types of your fa
 
 With this project you will learn **to save the highest measured value and set up several types of contest in one project and switch between them**.
 
-You'll find the basic version of this project here: [IoT party game: is there dragon fire or icy breath inside of you?](https://www.bigclown.com/projects/dragons-fire/)
+You'll find the basic version of this project here: [IoT party game: is there dragon fire or icy breath inside of you?](/projects/dragons-fire/)
 
 Střední obtížnost zase tady:
 

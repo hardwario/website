@@ -54,7 +54,7 @@ Cheers, Pavel
 ## References
 
 * [**Core Module in E-shop**](https://shop.bigclown.com/core-module/)
-* [**Core Module Differences**](https://www.bigclown.com/doc/hardware/core-module-1-and-2-comparison/)
-* [**BigClown Firmware Tool**](https://www.bigclown.com/doc/tools/bcf/)
+* [**Core Module Differences**](https://developers.bigclown.com/hardware/core-module-1-and-2-comparison/)
+* [**BigClown Firmware Tool**](https://developers.bigclown.com/tools/bcf/)
 * [**BigClown Firmware SDK**](http://sdk.bigclown.com/group__bc__log.html)
 * [**FTDI FT321X**](http://www.ftdichip.com/Products/ICs/FT231X.html)

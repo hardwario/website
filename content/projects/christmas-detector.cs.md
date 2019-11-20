@@ -31,7 +31,7 @@ Pokud máš Starter Kit, budeš k němu potřebovat ještě [PIR Module](https:/
 
 ## Připrav si krabičku
 
-1. Sestav svůj kit. Na Core Module potřebuješ firmware **bcf-radio-motion-detector**. Pokud nevíš, jak si firmware stáhnout nebo co to je, [zjistíš to tady.](https://www.bigclown.com/cs/academy/jak-nahrat-firmware/)
+1. Sestav svůj kit. Na Core Module potřebuješ firmware **bcf-radio-motion-detector**. Pokud nevíš, jak si firmware stáhnout nebo co to je, [zjistíš to tady.](/cs/academy/jak-nahrat-firmware/)
 ![radio motion detector](https://res.cloudinary.com/lukasfabik/image/upload/v1572976427/projects/detektor-jeziska/image12.png)
 
 2. Při správně nainstalovaném firmware uvidíš v Playgroundu na záložce Devices Alias jako **motion-detector**.
@@ -95,7 +95,7 @@ Potvrď tlačítkem **Done**.
 
 ## Nastav si upozornění na mobil
 
-1. Vezmi smartphone a zapni appku Blynk. Pokud ji zapínáš poprvé, všechno potřebné se dozvíš v našem [návodu na Blynk](https://www.bigclown.com/cs/academy/jak-pripojit-blynk/).
+1. Vezmi smartphone a zapni appku Blynk. Pokud ji zapínáš poprvé, všechno potřebné se dozvíš v našem [návodu na Blynk](/cs/academy/jak-pripojit-blynk/).
 
 2. Vytvoř nový projekt, na e-mail se ti pošle token. V Blynku si na plochu postav **Notification** skrze malé plus v kolečku.
 

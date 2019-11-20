@@ -62,7 +62,7 @@ Pro začínající programátory jsme jako inspiraci připravili spoustu projekt
 
 ## IoT technologie ve výuce tělocviku
 
-BigClown IoT kit využijí učitelé nejen v technických a přírodovědných předmětech, ale například i v tělocviku. Chcete-li dětem hodinu tělocviku zpestřit a **probudit v nich soutěživého ducha**, podívejte se na [tenhle projekt](https://www.bigclown.com/cs/projects/kung-fu-mastr/).
+BigClown IoT kit využijí učitelé nejen v technických a přírodovědných předmětech, ale například i v tělocviku. Chcete-li dětem hodinu tělocviku zpestřit a **probudit v nich soutěživého ducha**, podívejte se na [tenhle projekt](/cs/projects/kung-fu-mastr/).
 
 Žáci krabičku podle návodu naprogramují a pak mohou soutěžit, jak dlouho **vydrží nehnutě v jedné poloze**. Můžete jim například v kliku nebo planku položit krabičku na záda a na počítači se zobrazí počet vteřin bez pohnutí. Postupně pak soupeří o to, **kdo překoná rekord**.
 

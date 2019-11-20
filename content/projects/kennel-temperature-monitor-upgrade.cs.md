@@ -59,7 +59,7 @@ Drž si cylindr, jedeme dál. 🎩
 
 ## Nastav si Blynk
 
-1. Nejdřív si vem do ruky mobil a otevři si [Blynk. Nevíš, co to je nebo jak se to používá? Checkni náš návod](https://www.bigclown.com/cs/academy/jak-pripojit-blynk/).
+1. Nejdřív si vem do ruky mobil a otevři si [Blynk. Nevíš, co to je nebo jak se to používá? Checkni náš návod](/cs/academy/jak-pripojit-blynk/).
 
 2. V Blynku nahoď všechno potřebné. Na plochu nového projektu nastav nejdřív **Notification**.
 

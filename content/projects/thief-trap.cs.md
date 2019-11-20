@@ -28,7 +28,7 @@ Leze ti mladší brácha do pokoje? Jedeš na dovolenou a bojíš se, že ti ně
 
 V tomhle projektu se naučíš vytvořit **detektor cizí přítomnosti, který ti pošle upozornění na mobil**. 👁️
 
-Pokud máš Starter Kit, budeš k němu potřebovat ještě [**PIR Module**](https://obchod.bigclown.cz/pir-module/). Kompletní výbavu najdeš v sadě [Motion Detector Kit](https://www.bigclown.com/kits/motion-detector/).
+Pokud máš Starter Kit, budeš k němu potřebovat ještě [**PIR Module**](https://obchod.bigclown.cz/pir-module/). Kompletní výbavu najdeš v sadě [Motion Detector Kit](/kits/motion-detector/).
 
 {{< modules >}}
 
@@ -39,7 +39,7 @@ Pokud máš Starter Kit, budeš k němu potřebovat ještě [**PIR Module**](htt
 
 ![sestavení motion detektor kitu](https://res.cloudinary.com/lukasfabik/image/upload/v1573157109/projects/pohlidej-si-kdyz-nejsi-doma-jestli-ti-nekdo-neleze-do-pokoje/image20.png)
 
-**Náš tip**: Nevíš, jak si firmware stáhnout nebo co to je? [Zjistíš to tady](https://www.bigclown.com/cs/academy/jak-nahrat-firmware/).
+**Náš tip**: Nevíš, jak si firmware stáhnout nebo co to je? [Zjistíš to tady](/cs/academy/jak-nahrat-firmware/).
 
 3. Core Module spáruj s USB Donglem. Hned po spárování uvidíš, že tvůj Core Module změnil Alias na **Burglar alarm**.
 
@@ -49,7 +49,7 @@ Pokud máš Starter Kit, budeš k němu potřebovat ještě [**PIR Module**](htt
 
 ## Rozjeď appku na mobilu
 
-1. **Pokračuj na svém mobilu**. Krabička se propojí se smartphonem díky **appce Blynk**. 📱 [Zjisti, jak na Blynk](https://www.bigclown.com/cs/academy/jak-pripojit-blynk/).
+1. **Pokračuj na svém mobilu**. Krabička se propojí se smartphonem díky **appce Blynk**. 📱 [Zjisti, jak na Blynk](/cs/academy/jak-pripojit-blynk/).
 2. Z nabídky zvol **Styled button** (vyšperkované tlačítko). 🚨 Tlačítko se ti umístí na plochu projektu a bude sloužit k vypínání a zapínání detektoru pohybu.
 
 {{< middle >}}
@@ -86,7 +86,7 @@ Až všechno budeš mít, **vrať se na plochu** skrz šipku vlevo nahoře.
 
 ## Nastav si v Node Red přepínací tlačítko
 
-1. V Playgroundu klikni na **záložku Functions**, kde je programovací plocha [Node-RED](https://www.bigclown.com/cs/academy/co-je-node-red/). 🤖
+1. V Playgroundu klikni na **záložku Functions**, kde je programovací plocha [Node-RED](/cs/academy/co-je-node-red/). 🤖
 2. Začni programovat a rovnou do toho skoč po hlavě. První node bude totiž obsahovat malý javascriptík. Na plochu ho vložíš pomocí nodu **Function** ze stejnojmenné sekce.
 
 Dvakrát na něj klikni a do pole Label napiš název nodu: Int parser.

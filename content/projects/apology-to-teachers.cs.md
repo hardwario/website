@@ -69,7 +69,7 @@ Potvrď to tlačítkem **Done**. 👏
 
 ## Rozjeď appku na mobilu
 
-1. **Pokračuj na svém mobilu**. E-mail se totiž učiteli po stisknutí tlačítka odešle prostřednictvím appky **Blynk**. 📱 Pokud Blynk ještě neznáš z jiných projektů, [zjisti, jak ho rozjet](https://www.bigclown.com/cs/academy/jak-pripojit-blynk/).
+1. **Pokračuj na svém mobilu**. E-mail se totiž učiteli po stisknutí tlačítka odešle prostřednictvím appky **Blynk**. 📱 Pokud Blynk ještě neznáš z jiných projektů, [zjisti, jak ho rozjet](/cs/academy/jak-pripojit-blynk/).
 2. Z nabídky zvol **E-mail**. ✉️ Tlačítko se ti umístí na plochu projektu.
 
 {{< middle >}}

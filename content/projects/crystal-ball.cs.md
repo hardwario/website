@@ -34,7 +34,7 @@ Budeš potřebovat **krabičku s tlačítkem a USB dongle**. Vystačíš si tedy
 
 ## Rozjeď to v Node-RED
 
-1. Starter Kit[ sestav a spáruj](https://www.bigclown.com/cs/handbook/). Na Core Module potřebuješ firmware **radio-8-ball**. Pokud nevíš, jak si firmware stáhnout nebo co to je, [zjistíš to tady](https://www.bigclown.com/cs/academy/jak-nahrat-firmware/).
+1. Starter Kit[ sestav a spáruj](/cs/handbook/). Na Core Module potřebuješ firmware **radio-8-ball**. Pokud nevíš, jak si firmware stáhnout nebo co to je, [zjistíš to tady](/cs/academy/jak-nahrat-firmware/).
 
 Po nahrání firmware uvidíš, že se Alias tvého přístroje na záložce Devices změnilo na **Future teller**.
 

@@ -34,7 +34,7 @@ Součástí BigClown krabičky je **akcelerometr** – snímač, který rozpozn�
 
 Potom si sednou do kolečka, postupně krabičku roztáčí a na displeji počítače jim hned vyskakují údaje o tom, **jestli padl rekord**. Parta tak vzájemně soupeří, kdo dokáže krabičku **pomocí odstředivé síly nejdéle roztočit**.
 
-[Podívejte se na přesný návod, jak si děti chytrou káču naprogramují.](https://www.bigclown.com/cs/projects/highest-centrifugal-force/)
+[Podívejte se na přesný návod, jak si děti chytrou káču naprogramují.](/cs/projects/highest-centrifugal-force/)
 
 ## Hra č. 2: Dračí válka aneb souboj o nejžhavější a nejmrazivější dech
 
@@ -44,7 +44,7 @@ Další jednoduchou hrou, kterou si děti samy naprogramují, je souboj dračíc
 
 Po jednoduchém naprogramování si děti sednou okolo stolu a postupně na krabičku dýchají. Ukazatel na displeji počítače jim **hned ukáže, jakou teplotu jejich dech má**. Děti tak **soupeří o dva tituly** – mistra nejžhavějšího a nejmrazivějšího dechu. Mohou navíc zkoušet, co s teplotou dechu udělá kostka ledu nebo třeba pálivá paprička.
 
-[Hru o nejžhavější dech si děti naprogramují podle tohoto jednoduchého návodu.](https://www.bigclown.com/cs/projects/draci-dech/)
+[Hru o nejžhavější dech si děti naprogramují podle tohoto jednoduchého návodu.](/cs/projects/draci-dech/)
 
 ## Hra č. 3: Turnaj kung-fu mistrů aneb kdo krabičku nejdéle udrží v klidu
 
@@ -54,7 +54,7 @@ S krabičkou si děti vytvoří i hry, které **otestují jejich svaly** – tř
 
 Děti pak mezi sebou soupeří v různých polohách, například na jedné noze, v planku nebo jen krabičku drží v napřažené ruce před sebou. Výsledky jejich zenových výkonů se jim **hned zobrazí na počítači**. Máte-li doma malého aleta, bude pro něj tato hra novou výzvou.
 
-[Soutěž o zenového mistra si děti naprogramují pomocí tohoto jednoduchého návodu.](https://www.bigclown.com/cs/projects/kung-fu-mastr/)
+[Soutěž o zenového mistra si děti naprogramují pomocí tohoto jednoduchého návodu.](/cs/projects/kung-fu-mastr/)
 
 ## Hra č. 4: Chytrý teploměr aneb hledání nejteplejšího místa v okolí
 
@@ -64,7 +64,7 @@ A do čtveřice hra pro malé dobrodruhy – opět s pomocí teploměru. Děti c
 
 Hru také mohou navrhnout učiteli fyziky a zahrát si ji s celou třídou – dozví se toho během ní spoustu **o teplotě a dalších fyzikálních veličinách**.
 
-[S programováním této dobrodružné hry pomůže dětem jednoduchý návod.](https://www.bigclown.com/cs/projects/nejteplejsi-nejchladnejsi-misto/)
+[S programováním této dobrodružné hry pomůže dětem jednoduchý návod.](/cs/projects/nejteplejsi-nejchladnejsi-misto/)
 
 ## Další hry si děti vytvoří samy
 
