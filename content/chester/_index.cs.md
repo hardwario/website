@@ -1,7 +1,6 @@
 ---
 title: CHESTER
-menu: 
+menu:
 weight: 100
-meta:
-    title: Get in touch with HARDWARIO
+meta_title: Nejvšestrannější NB-IoT zařízení - CHESTER by HARDWARIO
 ---
