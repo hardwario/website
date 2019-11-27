@@ -65,7 +65,7 @@
 
 {{ partial "whitepaper" . }}
 
-{{ $events := ($.Site.GetPage "section" "events").Pages }}
+{{ $events := (where ($.Site.GetPage "section" "events").Pages "Params.category" "education") }}
 {{ with $events }}
 <section>
     <div class="container">
@@ -82,7 +82,7 @@
         </div>
         <div class="row align-items-center pb-30 mb-md-30 pt-30">
 
-            {{ range where $events.ByDate "Params.category" "education" }}
+            {{ range $events.ByDate }}
             <div class="col-12 col-md-4 pb-30">
                 {{ .Render "grid" }}
             </div>

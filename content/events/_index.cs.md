@@ -1,6 +1,6 @@
 ---
-title: Events
+title: Akce a události
 mainHeading: Co je u nás nového?
-menu:
-weight:
+menu: footer
+weight: 400
 ---

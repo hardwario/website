@@ -1,6 +1,6 @@
 ---
 title: Events
 mainHeading: Read Our Latest News
-menu:
-weight: 
+menu: footer
+weight: 400
 ---

@@ -5,12 +5,21 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <div class="articles articles--2">
-            <div class="row d-flex align-content-stretch">
+          <div class="row pb-10 pb-md-30">
+              <div class="col-12 col-md-10 mx-auto text-center pt-30 pt-md-0">
+                  <h2 class="text-center pb-30 font-weight-black font-36 font-md-64">{{ i18n "iot_events" | safeHTML }}</h2>
+                  <p class="text-center font-24 font-lnh38">{{ i18n "come_to_event" }}</p>
+              </div>
+          </div>
+          <div class="row align-items-center pb-30 mb-md-30 pt-30">
+            {{ $events := ($.Site.GetPage "section" "events").Pages }}
+              {{ range $events.ByDate }}
+              <div class="col-12 col-md-4 pb-30">
+                  {{ .Render "grid" }}
+              </div>
+              {{end}}
 
-              {{ range .Data.Pages }}
-              {{ .Render "grid-box" }}
-              {{ end }}
+            <div class="col-12 col-md-6 pb-30">
 
             </div>
           </div>
@@ -22,6 +31,4 @@
 </section>
 
 <footer>
-
-
 {{ end }}
