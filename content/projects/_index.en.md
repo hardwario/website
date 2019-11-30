@@ -1,7 +1,7 @@
 ---
 title: Projects
 mainHeading: Real projects<br/> for your inspiration
-description: Get inspired by our users. The projects in our database are described in detail, but don't be shy to hack and improve. Don't forget to <a href = "mailto:ask@hardwario.com" target="_blank">share them with others</a>!
+description: Widen your imagination and gain inspiration from our thriving community. Our database of&nbsp;projects are ready and waiting for you to use so we invite you to get creative, hack and improve every single one. Of course, don’t forget to <a href = "mailto:ask@hardwario.com" target="_blank">share your ideas with the rest of the community too</a>!
 slug: projects
 menu: ["secondary","footer"]
 weight: 60

@@ -1,5 +1,5 @@
 [case_study]
-other = "Case study"
+other = "Case Study"
 
 [read_case_study_now]
 other = "Read the case study now"
@@ -53,7 +53,7 @@ other = "min read"
 other = "Add to cart"
 
 [recommended]
-other = "Most popular"
+other = "Most Popular"
 
 [get_document]
 other = "Read the document"
@@ -62,16 +62,16 @@ other = "Read the document"
 other = "Navigation"
 
 [from_iot_blog]
-other = "IoT News"
+other = "IoT Blog"
 
 [more_blog]
 other = "Read more IoT articles"
 
 [read_about_iot]
-other = "Read about what's happening in the IoT world"
+other = "News and Insights from the world of IoT"
 
 [we_share_knowledge]
-other = "We share our experience, case studies and inspiration from the world of IoT, industry 4.0, STEM education and DIY smart home solutions."
+other = "We share our experience, case studies and inspiration from the world of IoT, Industry 4.0, STEM education and DIY smart home solutions."
 
 [tell_me_more]
 other = "Tell me more"
@@ -80,7 +80,7 @@ other = "Tell me more"
 other = "Read more"
 
 [events]
-other = "Our Events with IoT and STEM content"
+other = "Our IoT and STEM Events"
 
 [event_detail]
 other = "More about event"

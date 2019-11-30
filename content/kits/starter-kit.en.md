@@ -14,7 +14,7 @@ isStarter: false
 isEdu: true
 isParents: true
 recommended: false
-included: ["Contains Push Button Kit", "Contains Radio Dongle", "The perfect start with the kit", "100-day risk-free trial","3-year Warranty"]
+included: ["Push Button Kit", "Radio Dongle", "A great way to begin", "100-day risk-free trial","3-year Warranty"]
 notIncluded: []
 weight: 0
 price: 59€
@@ -34,7 +34,7 @@ techSpecs:
     battery:
         heading: "Battery life-time"
         text: "2 years for standard use"
-eduText: Starter Kit helps you to become familiar with the kit
+eduText: Discovery the fundamentals with this handy kit.
 ---
 
 The basic set for start with BigClown is Starter Kit, in future you can upgrade it with more modules. Build your first smart device and create projects to amaze friends, family and us.👌 Kit enables you to measure temperature, work with accelerometer or control anything with a button.

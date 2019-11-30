@@ -1,5 +1,5 @@
 ---
-title: Kit for innovation teams
+title: The Innovation Team Suitcase
 id: basic
 description: Starter Kity pro celou třídu!
 isBasic: false
@@ -21,6 +21,6 @@ buyLink: https://shop.bigclown.com/edu-innovation-multi-kit/
 modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["usb_dongle","sigfox","lora"]
 contains: []
-eduText: Package ready for innovation teams in companies
-included: ["Contains all modules", "8 Core Modules, LoRa & Sigfox", "100-day risk-free trial","Free 2-hour webinar","3-year Warranty"]
+eduText: This package is ideal for innovation teams within companies
+included: ["Contains all modules", "8 Core Modules, LoRa & Sigfox", "100-day risk-free trial","A free 2-hour webinar","3-year Warranty"]
 ---

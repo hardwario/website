@@ -1,5 +1,5 @@
 ---
-title: Create your own dashboard for the BigClown
+title: Create your own dashboard for BigClown
 draft: false
 date: 2019-09-26T18:53:49.915Z
 weight: 60
