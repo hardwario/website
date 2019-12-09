@@ -99,3 +99,9 @@ other = "Academy"
 
 [go_home]
 other = "Go to homepage"
+
+[page_not_found]
+other = "Page not found"
+
+[404_message]
+other = "We're sorry. It looks like the page you're looking for is probably on vacation or doesn't exist. Don't worry, our kit watches it, and if the page should exist, it will be back soon. Please try again later."
