@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<section>
+    <div class="bg-image13 pt-50 pt-lg-0 d-flex align-items-center mb-20 mb-md-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 text-center text-md-left">
+                    <h1 class="font-40 font-md-64 font-md-lnh68 font-weight-black pb-40 pb-md-40">{{ i18n "page_not_found" }}</h1>
+                    <p class="font-24 font-gray2 font-lnh37 pb-40 mb-md-30 pr-md-100">{{ i18n "404_message" | safeHTML }}</p>
+                    <div>
+                        <a href="{{ .Site.Params.baseURL }}" class="cta-button font-lnh54 px-70 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "go_home" }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}

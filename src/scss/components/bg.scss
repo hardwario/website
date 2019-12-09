@@ -189,6 +189,32 @@
       padding-bottom: 300px;
     }
   }
+  &-image13
+  {
+    background: url("../images/image13.svg") right top 0px no-repeat;
+    background-size: 45% auto;
+    min-height: 600px;
+
+    @media(max-width:1199px)
+    {
+      background-size: 60% auto;
+      background-position: center right -50px;
+    }
+
+    @media(max-width:991px)
+    {
+      min-height: 0;
+      background-position: bottom right;
+      background-size: 55% auto;
+      padding-bottom: 200px;
+    }
+
+    @media(max-width:767px)
+    {
+      background-size: 90% auto;
+      padding-bottom: 300px;
+    }
+  }
 
   &-image4 {
     background: url("../images/single.svg") right center no-repeat;

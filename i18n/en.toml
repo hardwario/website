@@ -96,3 +96,6 @@ other = "Project"
 
 [academy]
 other = "Academy"
+
+[go_home]
+other = "Go to homepage"
