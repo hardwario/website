@@ -1,9 +1,9 @@
 # Netlify
 https://hardwario.netlify.com/* https://www.hardwario.com/:splat 301!
-https://hardwario.cz/* https://www.hardwario.com/cs/:splat 302!
-https://www.hardwario.cz/* https://www.hardwario.com/:splat 302!
-http://hardwario.cz/* https://www.hardwario.com/:splat 302!
-http://www.hardwario.cz/* https://www.hardwario.com/:splat 302!
+https://hardwario.cz/* https://www.hardwario.com/cs/:splat 301!
+https://www.hardwario.cz/* https://www.hardwario.com/:splat 301!
+http://hardwario.cz/* https://www.hardwario.com/cs/:splat 301!
+http://www.hardwario.cz/* https://www.hardwario.com/cs/:splat 301!
 
 https://www.hardwar.io/skoda* https://www.hardwario.com/case-studies/skoda-andon/:splat 301!
 https://www.hardwar.io/eon* https://www.hardwario.com/case-studies/eon/:splat 301!
@@ -15,17 +15,14 @@ https://hardwar.io/* https://www.hardwario.com/:splat 301!
 https://www.hardwar.io/* https://www.hardwario.com/:splat 301!
 
 https://www.hardwario.com/skoda-andon* https://www.hardwario.com/case-studies/skoda-andon/:splat 301!
-https://www.hardwario.com/our-events* https://www.eventbrite.co.uk/o/hardwario-23013840041:splat 302!
+https://www.hardwario.com/our-events* https://www.hardwario.com/events/:splat 301!
 
 https://www.hardwario.com/edu https://www.hardwario.com/education?utm_source=banner&utm_medium=print&utm_campaign=edu:splat 301!
 https://www.hardwario.cz/edu https://www.hardwario.com/cs/education?utm_source=banner&utm_medium=print&utm_campaign=edu:splat 301!
 
 
 # BigClown Redirects
-
-# Netlify
 https://bigclown.netlify.com/* https://www.hardwario.com/:splat 301!
-
 http://bigclown.cz/webinar* https://www.eventbrite.co.uk/e/jak-deti-nadchnout-k-objevovani-a-ucit-digitalne-jakykoli-predmet-tickets-72591799025:splat 301!
 
 # Handbook EN
@@ -286,36 +283,36 @@ https://www.bigclown.com/doc/tools/bcf/* https://developers.bigclown.com/tools/b
 https://www.bigclown.com/doc/tools/bcg/* https://developers.bigclown.com/tools/bigclown-gateway:splat 301!
 https://www.bigclown.com/doc/tools/bch/* https://developers.bigclown.com/tools/bigclown-host-tool:splat 301!
 
-https://www.bigclown.com/cs/doc/ https://developers.bigclown.com/ 301!
-https://www.bigclown.com/doc/ https://developers.bigclown.com/ 301!
+https://www.bigclown.com/cs/doc/* https://developers.bigclown.com/:splat 301!
+https://www.bigclown.com/doc/* https://developers.bigclown.com/:splat 301!
 
-https://www.bigclown.com/kits/ https://shop.hardwario.com/ 301!
-https://www.bigclown.com/kits/starter-kit/ https://shop.hardwario.com/starter-kit/ 301!
-https://www.bigclown.com/kits/push-button/ https://shop.hardwario.com/push-button-kit/ 301!
-https://www.bigclown.com/kits/climate-monitor/ https://shop.hardwario.com/climate-monitor-kit/ 301!
-https://www.bigclown.com/kits/motion-detector/ https://shop.hardwario.com/flood-detector-kit/ 301!
-https://www.bigclown.com/kits/flood-detector/ https://shop.hardwario.com/flood-detector-kit/ 301!
-https://www.bigclown.com/kits/lcd-thermostat/ https://shop.hardwario.com/lcd-thermostat-kit/ 301!
-https://www.bigclown.com/kits/co2-monitor/ https://shop.hardwario.com/co2-monitor-kit/ 301!
-https://www.bigclown.com/kits/multi-kit-basic/ https://shop.hardwario.com/basic-multi-kit/ 301!
-https://www.bigclown.com/kits/multi-kit-premium/ https://shop.hardwario.com/premium-multi-kit/ 301!
-https://www.bigclown.com/kits/multi-kit-ultimate/ https://shop.hardwario.com/ultimate-multi-kit/ 301!
-https://www.bigclown.com/kits/starter-kit-bundle/ https://shop.hardwario.com/starter-kits-bundle/ 301!
-https://www.bigclown.com/kits/school-kit/ https://shop.hardwario.com/edu-innovation-multi-kit/ 301!
+https://www.bigclown.com/kits/* https://shop.hardwario.com/ 301!
+https://www.bigclown.com/kits/starter-kit/* https://shop.hardwario.com/starter-kit/:splat 301!
+https://www.bigclown.com/kits/push-button/* https://shop.hardwario.com/push-button-kit/:splat 301!
+https://www.bigclown.com/kits/climate-monitor/* https://shop.hardwario.com/climate-monitor-kit/:splat 301!
+https://www.bigclown.com/kits/motion-detector/* https://shop.hardwario.com/flood-detector-kit/:splat 301!
+https://www.bigclown.com/kits/flood-detector/* https://shop.hardwario.com/flood-detector-kit/:splat 301!
+https://www.bigclown.com/kits/lcd-thermostat/* https://shop.hardwario.com/lcd-thermostat-kit/:splat 301!
+https://www.bigclown.com/kits/co2-monitor/* https://shop.hardwario.com/co2-monitor-kit/:splat 301!
+https://www.bigclown.com/kits/multi-kit-basic/* https://shop.hardwario.com/basic-multi-kit/:splat 301!
+https://www.bigclown.com/kits/multi-kit-premium/* https://shop.hardwario.com/premium-multi-kit/:splat 301!
+https://www.bigclown.com/kits/multi-kit-ultimate/* https://shop.hardwario.com/ultimate-multi-kit/:splat 301!
+https://www.bigclown.com/kits/starter-kit-bundle/* https://shop.hardwario.com/starter-kits-bundle/:splat 301!
+https://www.bigclown.com/kits/school-kit/* https://shop.hardwario.com/edu-kit/:splat 301!
 
-https://www.bigclown.com/cs/kits/ https://obchod.hardwario.cz/ 301!
-https://www.bigclown.com/cs/kits/starter-kit/ https://obchod.hardwario.cz/starter-kit/ 301!
-https://www.bigclown.com/cs/kits/push-button/ https://obchod.hardwario.cz/push-button-kit/ 301!
-https://www.bigclown.com/cs/kits/climate-monitor/ https://obchod.hardwario.cz/climate-monitor-kit/ 301!
-https://www.bigclown.com/cs/kits/motion-detector/ https://obchod.hardwario.cz/flood-detector-kit/ 301!
-https://www.bigclown.com/cs/kits/flood-detector/ https://obchod.hardwario.cz/flood-detector-kit/ 301!
-https://www.bigclown.com/cs/kits/lcd-thermostat/ https://obchod.hardwario.cz/lcd-thermostat-kit/ 301!
-https://www.bigclown.com/cs/kits/co2-monitor/ https://obchod.hardwario.cz/co2-monitor-kit/ 301!
-https://www.bigclown.com/cs/kits/multi-kit-basic/ https://obchod.hardwario.cz/basic-multi-kit/ 301!
-https://www.bigclown.com/cs/kits/multi-kit-premium/ https://obchod.hardwario.cz/premium-multi-kit/ 301!
-https://www.bigclown.com/cs/kits/multi-kit-ultimate/ https://obchod.hardwario.cz/ultimate-multi-kit/ 301!
-https://www.bigclown.com/cs/kits/starter-kit-bundle/ https://obchod.hardwario.cz/starter-kits-bundle/ 301!
-https://www.bigclown.com/cs/kits/school-kit/ https://obchod.hardwario.cz/edu-innovation-multi-kit/ 301!
+https://www.bigclown.com/cs/kits/* https://obchod.hardwario.cz/stavebnice/:splat 301!
+https://www.bigclown.com/cs/kits/starter-kit/* https://obchod.hardwario.cz/starter-kit/:splat 301!
+https://www.bigclown.com/cs/kits/push-button/* https://obchod.hardwario.cz/push-button-kit/:splat 301!
+https://www.bigclown.com/cs/kits/climate-monitor/* https://obchod.hardwario.cz/climate-monitor-kit/:splat 301!
+https://www.bigclown.com/cs/kits/motion-detector/* https://obchod.hardwario.cz/flood-detector-kit/:splat 301!
+https://www.bigclown.com/cs/kits/flood-detector/* https://obchod.hardwario.cz/flood-detector-kit/:splat 301!
+https://www.bigclown.com/cs/kits/lcd-thermostat/* https://obchod.hardwario.cz/lcd-thermostat-kit/:splat 301!
+https://www.bigclown.com/cs/kits/co2-monitor/* https://obchod.hardwario.cz/co2-monitor-kit/:splat 301!
+https://www.bigclown.com/cs/kits/multi-kit-basic/* https://obchod.hardwario.cz/basic-multi-kit/:splat 301!
+https://www.bigclown.com/cs/kits/multi-kit-premium/* https://obchod.hardwario.cz/premium-multi-kit/:splat 301!
+https://www.bigclown.com/cs/kits/multi-kit-ultimate/* https://obchod.hardwario.cz/ultimate-multi-kit/:splat 301!
+https://www.bigclown.com/cs/kits/starter-kit-bundle/* https://obchod.hardwario.cz/starter-kits-bundle/:splat 301!
+https://www.bigclown.com/cs/kits/school-kit/* https://obchod.hardwario.cz/edu-kit/:splat 301!
 
 https://www.bigclown.com/* https://www.hardwario.com/:splat 301!
 
