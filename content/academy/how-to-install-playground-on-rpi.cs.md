@@ -21,7 +21,7 @@ image_main: >-
 
 Vytvořil sis cool projekty, ale mrzí tě, že když vypneš notebook, krabička přestane fungovat? Pomůže ti chytrý minipočítač Raspberry Pi, na kterém Playground pofrčí nonstop. 🌃 Povíme ti, co je to Raspberry Pi a jak na něj Playground nainstalovat.
 
-Jestli zatím Raspberry Pi doma nebo ve škole nemáš, [pořiď si ho z e-shopu HARDWARIO](https://obchod.hardwario.cz/raspberry-pi-3-set/) a můžeš celý tenhle návod přeskočit a rovnou se pustit do programování. Do rukou ti totiž dorazí předem nastavený, vyladěný a s nainstalovaným Playgroundem.
+Jestli zatím Raspberry Pi doma nebo ve škole nemáš, [pořiď si ho z e-shopu HARDWARIO](https://obchod.hardwario.cz/raspberry-pi-4b-4gb-set/) a můžeš celý tenhle návod přeskočit a rovnou se pustit do programování. Do rukou ti totiž dorazí předem nastavený, vyladěný a s nainstalovaným Playgroundem.
 
 ## Co je to Raspberry Pi
 
@@ -39,7 +39,7 @@ Takže pokud sis v Playgroundu naprogramoval třeba [hlídače ledničkových zl
 
 Teď už víš, k čemu Raspberry Pi slouží, tak do něj **pojďme nainstalovat** [HARDWARIO Playground](/cs/academy/co-je-to-bigclown-playground/). 💪 Vzhledem k tomu, že nejde o klasický počítač, bude postup trochu odlišný, než když instaluješ na svůj počítač třeba videohru.
 
-Jestli už máš vlastní Raspberry Pi, pokračuj dál podle návodu. Pokud ho ale ještě nemáš, můžeš si Raspberry Pi koupit z [klauního e-shopu](https://obchod.hardwario.cz/raspberry-pi-3-set/) a celý tento návod přeskočit – pošleme ti ho totiž **kompletně nastavený a vyladěný**.
+Jestli už máš vlastní Raspberry Pi, pokračuj dál podle návodu. Pokud ho ale ještě nemáš, můžeš si Raspberry Pi koupit z [klauního e-shopu](https://obchod.hardwario.cz/raspberry-pi-4b-4gb-set/) a celý tento návod přeskočit – pošleme ti ho totiž **kompletně nastavený a vyladěný**.
 
 ## K instalaci Playgroundu na Raspberry Pi budeš potřebovat:
 

@@ -5,6 +5,7 @@ https://www.hardwario.cz/* https://www.hardwario.com/:splat 301!
 http://hardwario.cz/* https://www.hardwario.com/cs/:splat 301!
 http://www.hardwario.cz/* https://www.hardwario.com/cs/:splat 301!
 
+# io shortcuts
 https://www.hardwar.io/skoda* https://www.hardwario.com/case-studies/skoda-andon/:splat 301!
 https://www.hardwar.io/eon* https://www.hardwario.com/case-studies/eon/:splat 301!
 https://www.hardwar.io/hbreavis* https://www.hardwario.com/case-studies/hbreavis/:splat 301!
@@ -14,6 +15,7 @@ https://www.hardwar.io/iframix* https://www.hardwario.com/case-studies/iframix/:
 https://hardwar.io/* https://www.hardwario.com/:splat 301!
 https://www.hardwar.io/* https://www.hardwario.com/:splat 301!
 
+
 https://www.hardwario.com/skoda-andon* https://www.hardwario.com/case-studies/skoda-andon/:splat 301!
 https://www.hardwario.com/our-events* https://www.hardwario.com/events/:splat 301!
 
@@ -22,17 +24,16 @@ https://www.hardwario.cz/edu https://www.hardwario.com/cs/education?utm_source=b
 
 
 # BigClown Redirects
-https://bigclown.netlify.com/* https://www.hardwario.com/:splat 301!
 http://bigclown.cz/webinar* https://www.eventbrite.co.uk/e/jak-deti-nadchnout-k-objevovani-a-ucit-digitalne-jakykoli-predmet-tickets-72591799025:splat 301!
 
 # Handbook EN
 http://bigclown.com/playground* https://www.hardwario.com/download/?utm_source=handbook&utm_medium=print&utm_campaign=starter-kit-handbook&utm_content=en:splat 301!
 http://bigclown.com/fw* https://www.hardwario.com/academy/how-to-flash-firmware/?utm_source=handbook&utm_medium=print&utm_campaign=starter-kit-handbook&utm_content=en:splat 301!
-http://bigclown.com/statue* https://www.hardwario.com/cs/projects/kung-fu-mastr/?utm_source=handbook&utm_medium=print&utm_campaign=starter-kit-handbook&utm_content=en:splat 301!
-http://bigclown.com/carousel* https://www.hardwario.com/cs/projects/nejvetsi-odstrediva-sila/?utm_source=handbook&utm_medium=print&utm_campaign=starter-kit-handbook&utm_content=en:splat 301!
-http://bigclown.com/sweet-tooth* https://www.hardwario.com/cs/projects/chyt-mlsouna/?utm_source=handbook&utm_medium=print&utm_campaign=starter-kit-handbook&utm_content=en:splat 301!
-http://bigclown.com/temperature-game* https://www.hardwario.com/cs/projects/nejteplejsi-nejchladnejsi-misto/?utm_source=handbook&utm_medium=print&utm_campaign=starter-kit-handbook&utm_content=en:splat 301!
-http://bigclown.com/washing-machine* https://www.hardwario.com/cs/projects/chytra-pracka/?utm_source=handbook&utm_medium=print&utm_campaign=starter-kit-handbook&utm_content=en:splat 301!
+http://bigclown.com/statue* https://www.hardwario.com/projects/zen-kung-fu-master//?utm_source=handbook&utm_medium=print&utm_campaign=starter-kit-handbook&utm_content=en:splat 301!
+http://bigclown.com/carousel* https://www.hardwario.com/projects/highest-centrifugal-force/?utm_source=handbook&utm_medium=print&utm_campaign=starter-kit-handbook&utm_content=en:splat 301!
+http://bigclown.com/sweet-tooth* https://www.hardwario.com/projects/catch-the-mist/?utm_source=handbook&utm_medium=print&utm_campaign=starter-kit-handbook&utm_content=en:splat 301!
+http://bigclown.com/temperature-game* https://www.hardwario.com/projects/the-coolest-and-the-hottest-place/?utm_source=handbook&utm_medium=print&utm_campaign=starter-kit-handbook&utm_content=en:splat 301!
+http://bigclown.com/washing-machine* https://www.hardwario.com/projects/smart-washing-machine/?utm_source=handbook&utm_medium=print&utm_campaign=starter-kit-handbook&utm_content=en:splat 301!
 
 # Handbook CZ
 http://bigclown.cz/playground* https://www.hardwario.com/cs/download/?utm_source=handbook&utm_medium=print&utm_campaign=starter-kit-handbook&utm_content=cz:splat 301!
@@ -43,12 +44,6 @@ http://bigclown.cz/mlsoun* https://www.hardwario.com/cs/projects/chyt-mlsouna/?u
 http://bigclown.cz/hra-teplota* https://www.hardwario.com/cs/projects/nejteplejsi-nejchladnejsi-misto/?utm_source=handbook&utm_medium=print&utm_campaign=starter-kit-handbook&utm_content=cz:splat 301!
 http://bigclown.cz/chytra-pracka* https://www.hardwario.com/cs/projects/chytra-pracka/?utm_source=handbook&utm_medium=print&utm_campaign=starter-kit-handbook&utm_content=cz:splat 301!
 http://bigclown.cz/prirucka-starter* https://www.hardwario.com/cs/handbook/?utm_source=handbook&utm_medium=print&utm_campaign=starter-kit-handbook&utm_content=cz:splat 301!
-
-# CZ domain
-http://bigclown.cz/* https://www.hardwario.com/cs/:splat 301!
-http://www.bigclown.cz/* https://www.hardwario.com/cs/:splat 301!
-https://bigclown.cz/* https://www.hardwario.com/cs/:splat 301!
-https://www.bigclown.cz/* https://www.hardwario.com/cs/:splat 301!
 
 # Documentation
 https://doc.bigclown.com/* https://developers.bigclown.com/:splat 301!
@@ -67,16 +62,16 @@ https://shop.bigclown.cz/* https://obchod.hardwario.cz/:splat 301!
 https://obchod.bigclown.com/* https://shop.hardwario.com/:splat 301!
 
 # Social media
-https://facebook.bigclown.com/* https://www.facebook.com/bigclownlabs/ 301!
-https://facebook.bigclown.cz/* https://www.facebook.com/bigclownlabs/ 301!
-https://twitter.bigclown.com/* https://twitter.com/BigClownLabs/ 301!
-https://twitter.bigclown.cz/* https://twitter.com/BigClownLabs/ 301!
-https://instagram.bigclown.com/* https://www.instagram.com/bigclownlabs/ 301!
-https://instagram.bigclown.cz/* https://www.instagram.com/bigclownlabs/ 301!
-https://linkedin.bigclown.com/* https://www.linkedin.com/company/bigclown-labs-s.r.o./ 301!
-https://linkedin.bigclown.cz/* https://www.linkedin.com/company/bigclown-labs-s.r.o./ 301!
-https://youtube.bigclown.com/* https://www.youtube.com/channel/UCf1CdGt1XBwAAT_Qh__bEhQ 301!
-https://youtube.bigclown.cz/* https://www.youtube.com/channel/UCf1CdGt1XBwAAT_Qh__bEhQ 301!
+https://facebook.hardwario.com/* https://www.facebook.com/bigclownlabs/ 301!
+https://facebook.hardwario.cz/* https://www.facebook.com/bigclownlabs/ 301!
+https://twitter.hardwario.com/* https://twitter.com/BigClownLabs/ 301!
+https://twitter.hardwario.cz/* https://twitter.com/BigClownLabs/ 301!
+https://instagram.hardwario.com/* https://www.instagram.com/bigclownlabs/ 301!
+https://instagram.hardwario.cz/* https://www.instagram.com/bigclownlabs/ 301!
+https://linkedin.hardwario.com/* https://www.linkedin.com/company/bigclown-labs-s.r.o./ 301!
+https://linkedin.hardwario.cz/* https://www.linkedin.com/company/bigclown-labs-s.r.o./ 301!
+https://youtube.hardwario.com/* https://www.youtube.com/channel/UCf1CdGt1XBwAAT_Qh__bEhQ 301!
+https://youtube.hardwario.cz/* https://www.youtube.com/channel/UCf1CdGt1XBwAAT_Qh__bEhQ 301!
 
 
 # Compatibility
@@ -159,7 +154,6 @@ https://www.bigclown.com/doc/projects/wireless-voc-sensor/* https://www.hardwari
 https://www.bigclown.com/doc/projects/wireless-soil-sensor/* https://www.hardwario.com/doc/projects/radio-soil-sensor/:splat 301!
 
 # Doc to Developers redirects
-
 https://www.bigclown.com/doc/basics/quick-start-guide/* https://developers.bigclown.com/basics/quick-start-guide:splat 301!
 https://www.bigclown.com/doc/basics/getting-started/* https://developers.bigclown.com/basics/about-bigclown:splat 301!
 https://www.bigclown.com/doc/basics/module-overview/* https://developers.bigclown.com/basics/module-overview:splat 301!
@@ -286,7 +280,6 @@ https://www.bigclown.com/doc/tools/bch/* https://developers.bigclown.com/tools/b
 https://www.bigclown.com/cs/doc/* https://developers.bigclown.com/:splat 301!
 https://www.bigclown.com/doc/* https://developers.bigclown.com/:splat 301!
 
-https://www.bigclown.com/kits/* https://shop.hardwario.com/ 301!
 https://www.bigclown.com/kits/starter-kit/* https://shop.hardwario.com/starter-kit/:splat 301!
 https://www.bigclown.com/kits/push-button/* https://shop.hardwario.com/push-button-kit/:splat 301!
 https://www.bigclown.com/kits/climate-monitor/* https://shop.hardwario.com/climate-monitor-kit/:splat 301!
@@ -299,8 +292,8 @@ https://www.bigclown.com/kits/multi-kit-premium/* https://shop.hardwario.com/pre
 https://www.bigclown.com/kits/multi-kit-ultimate/* https://shop.hardwario.com/ultimate-multi-kit/:splat 301!
 https://www.bigclown.com/kits/starter-kit-bundle/* https://shop.hardwario.com/starter-kits-bundle/:splat 301!
 https://www.bigclown.com/kits/school-kit/* https://shop.hardwario.com/edu-kit/:splat 301!
+https://www.bigclown.com/kits/* https://shop.hardwario.com/kits/:splat 301!
 
-https://www.bigclown.com/cs/kits/* https://obchod.hardwario.cz/stavebnice/:splat 301!
 https://www.bigclown.com/cs/kits/starter-kit/* https://obchod.hardwario.cz/starter-kit/:splat 301!
 https://www.bigclown.com/cs/kits/push-button/* https://obchod.hardwario.cz/push-button-kit/:splat 301!
 https://www.bigclown.com/cs/kits/climate-monitor/* https://obchod.hardwario.cz/climate-monitor-kit/:splat 301!
@@ -313,7 +306,13 @@ https://www.bigclown.com/cs/kits/multi-kit-premium/* https://obchod.hardwario.cz
 https://www.bigclown.com/cs/kits/multi-kit-ultimate/* https://obchod.hardwario.cz/ultimate-multi-kit/:splat 301!
 https://www.bigclown.com/cs/kits/starter-kit-bundle/* https://obchod.hardwario.cz/starter-kits-bundle/:splat 301!
 https://www.bigclown.com/cs/kits/school-kit/* https://obchod.hardwario.cz/edu-kit/:splat 301!
+https://www.bigclown.com/cs/kits/* https://obchod.hardwario.cz/stavebnice/:splat 301!
 
+# BigClown domain
+http://bigclown.cz/* https://www.hardwario.com/cs/:splat 301!
+http://www.bigclown.cz/* https://www.hardwario.com/cs/:splat 301!
+https://bigclown.cz/* https://www.hardwario.com/cs/:splat 301!
+https://www.bigclown.cz/* https://www.hardwario.com/cs/:splat 301!
 https://www.bigclown.com/* https://www.hardwario.com/:splat 301!
 
 /* /404.html
