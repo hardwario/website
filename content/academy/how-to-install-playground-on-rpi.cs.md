@@ -7,7 +7,7 @@ description: >-
   Aby tvé projekty běžely, i když budeš mít vypnutý notebook, potřebuješ pomoc
   Raspberry Pi. Tenhle článek ti poradí, jak do něj BigClown Playground
   nainstaluješ.
-slug: starter-kit
+slug: jak-nainstalovat-playground-na-rpi
 meta_title: Jak nainstalovat BigClown Playground na Raspberry Pi
 meta_description: >-
   Aby tvé projekty běžely, i když budeš mít vypnutý notebook, potřebuješ pomoc
@@ -43,7 +43,7 @@ Jestli už máš vlastní Raspberry Pi, pokračuj dál podle návodu. Pokud ho a
 
 ## K instalaci Playgroundu na Raspberry Pi budeš potřebovat:
 
-* [Raspberry Pi 3 (Model B)](https://obchod.hardwario.cz/bigclown-hub/)
+* Raspberry Pi
 * MicroSD kartu s kapacitou minimálně 4 GB
 * Síťový kabel k připojení do Wi-Fi routeru (stačí ten, co máte doma)
 * Stolní počítač nebo notebook s operačním systémem Windows, macOS nebo Ubuntu (prostě tvůj počítač)
