@@ -40,7 +40,7 @@ When it comes to **centrifugal force**, pupils can create a smart spinning top b
 
 ## IoT technology in teaching biology
 
-Explaining the principle of carbon dioxide to pupils in such a way that it doesn’t end up as just a few boring lines in their workbooks can be a chore. However, if you use the [CO2 Monitor Kit](https://shop.hardwarío.com/co2-monitor-kit/) to help, **you can show them how carbon dioxide works in practice**. When connected to a computer, the box displays the current CO2 level in the area. As a teacher, you can easily show your pupils how the level of carbon dioxide **changes when you open windows** in an airless classroom or outside in front of school, for example, compared to the interior.
+Explaining the principle of carbon dioxide to pupils in such a way that it doesn’t end up as just a few boring lines in their workbooks can be a chore. However, if you use the [CO2 Monitor Kit](https://shop.hardwario.com/co2-monitor-kit/) to help, **you can show them how carbon dioxide works in practice**. When connected to a computer, the box displays the current CO2 level in the area. As a teacher, you can easily show your pupils how the level of carbon dioxide **changes when you open windows** in an airless classroom or outside in front of school, for example, compared to the interior.
 
 With the CO2 Monitor Kit, pupils can also measure **temperature, air humidity and atmospheric pressure**, which, in addition to biology, is also useful in physics. Beyond the classes, you can also use it purely as a **CO2 detector** to see if the kids are studying in an ideal environment or whether they need more fresh air. This will improve their concentration levels in class.
 

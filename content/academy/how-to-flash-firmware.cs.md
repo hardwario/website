@@ -23,7 +23,7 @@ Firmware si představ jako **„mozek” věcí**. 🤖 Je to program, který za
 
 Programátor může firmware **nastavit podle své potřeby**. Třeba může změnit rychlost, s jakou na přechodu blikne zelená. K práci a nastavení firmware slouží počítačový program (software). U našich kitů je to program [Playground]({{< ref "/download/_index.cs.md" >}}). 🤡
 
-Na Core module ze svého kitu máš **předinstalovaný firmware**, ať už používáš [Starter Kit]({{< ref "/kits/push-button.cs.md" >}}), [Climate Monitor Kit]({{< ref "/kits/climate-monitor.cs.md" >}}), [Motion Detector Kit]({{< ref "/kits/motion-detector.cs.md" >}}) nebo [další kity]({{< ref "/kits/_index.cs.md" >}}). Díky firmware krabička ví, jestli má měřit teplotu, monitorovat polohu nebo cokoliv dalšího.
+Na Core module ze svého kitu máš **předinstalovaný firmware**, ať už používáš [Starter Kit](https://obchod.hardwario.cz/push-button-kit/), [Climate Monitor Kit](https://obchod.hardwario.cz/climate-monitor-kit/), [Motion Detector Kit]({{< ref "/kits/motion-detector.cs.md" >}}) nebo [další kity](https://obchod.hardwario.cz/motion-detector-kit/). Díky firmware krabička ví, jestli má měřit teplotu, monitorovat polohu nebo cokoliv dalšího.
 👉 **Na každý typ projektu proto potřebuješ jiný firmware.** 👈
 
 **Firmware vždy potřebuje svůj hardware**. Nemůžeš čekat, že zařízení začne měřit polohu, když nemáš GPS module. To prostě nejde. Krabičce totiž chybí nástroj, se kterým by mohla polohu měřit. 🤷

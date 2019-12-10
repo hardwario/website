@@ -17,7 +17,7 @@ included:
 notIncluded:
 weight: 500
 price: 990€
-buyLink: https://shop.hardwario.com/edu-innovation-multi-kit/
+buyLink: https://shop.hardwario.com/edu-kit/
 modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["usb_dongle","sigfox","lora"]
 contains: []

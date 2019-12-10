@@ -28,7 +28,7 @@ Leze ti mladší brácha do pokoje? Jedeš na dovolenou a bojíš se, že ti ně
 
 V tomhle projektu se naučíš vytvořit **detektor cizí přítomnosti, který ti pošle upozornění na mobil**. 👁️
 
-Pokud máš Starter Kit, budeš k němu potřebovat ještě [**PIR Module**](https://obchod.hardwario.cz/pir-module/). Kompletní výbavu najdeš v sadě [Motion Detector Kit](/kits/motion-detector/).
+Pokud máš Starter Kit, budeš k němu potřebovat ještě [**PIR Module**](https://obchod.hardwario.cz/pir-module/). Kompletní výbavu najdeš v sadě [Motion Detector Kit](https://obchod.hardwario.cz/motion-detector-kit/).
 
 {{< modules >}}
 

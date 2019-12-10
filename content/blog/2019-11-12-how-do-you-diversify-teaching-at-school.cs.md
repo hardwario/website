@@ -32,9 +32,9 @@ Stavebnice HARDWARIO umožňuje komukoliv sestrojit chytré zařízení pro **m�
 * světlo
 * nebo odstředivá síla.
 
-Každý [HARDWARIO Iot Kit](/cs/kits/) má v sobě modul pro měření teploty. Krabičku propojíte s počítačem a ve volně dostupném programu [HARDWARIO Playground](/cs/academy/co-je-to-bigclown-playground/) **se okamžitě zobrazí teplota ve třídě a její změny**. Vaši svěřenci tak mohou s teplotou experimentovat a v praxi si ověřit, jak funguje. Zjistí, co se stane, když krabičku vloží do mrazáku, fouknou do ní nebo ji postaví pod svítící žárovku.
+Každý [HARDWARIO Iot Kit](https://obchod.hardwario.cz/stavebnice/) má v sobě modul pro měření teploty. Krabičku propojíte s počítačem a ve volně dostupném programu [HARDWARIO Playground](/cs/academy/co-je-to-bigclown-playground/) **se okamžitě zobrazí teplota ve třídě a její změny**. Vaši svěřenci tak mohou s teplotou experimentovat a v praxi si ověřit, jak funguje. Zjistí, co se stane, když krabičku vloží do mrazáku, fouknou do ní nebo ji postaví pod svítící žárovku.
 
-Pomocí [Climate Monitor kitu](/cs/kits/climate-monitor/) studenti stejným principem změří například i **světelnost nebo atmosferický tlak**. S krabičkou tak můžete v hodině fyziky zajít ven nebo do laboratoře a měřit veličiny v různých podmínkách.
+Pomocí [Climate Monitor kitu](https://obchod.hardwario.cz/climate-monitor-kit/) studenti stejným principem změří například i **světelnost nebo atmosferický tlak**. S krabičkou tak můžete v hodině fyziky zajít ven nebo do laboratoře a měřit veličiny v různých podmínkách.
 
 A jakmile přijde řeč na **odstředivou sílu**, žáci si pomocí [našeho návodu](/cs/projects/highest-centrifugal-force/) vytvoří inteligentní káču. Jednoduchý program promění krabičku ve hru, při které děti soupeří, kdo krabičku roztočí po nejdelší dobu. Čas točení krabička zaznamená pomocí **vestavěného akcelerometru** a na počítači se zobrazí rekord, který musí další soutěžící překonat. Prostě nefalšovaná škola hrou.
 

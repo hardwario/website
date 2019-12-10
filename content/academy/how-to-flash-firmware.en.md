@@ -28,7 +28,7 @@ Imagine firmware as a “brain” of things. 🤖 It’s a programme that contro
 
 A programmer can set up firmware according to their needs. For example, it can change the speed at which the green light blinks at a crossing. For work and firmware settings there is a computer programme (a software). In our kits, its the [Playground]({{< ref "/download/_index.en.md" >}}) programme. 🤡
 
-Whether you are using [Starter Kit]({{< ref "/kits/starter-kit.en.md" >}}), [Climate Monitor Kit]({{< ref "/kits/climate-monitor.en.md" >}}), [Motion Detector Kit]({{< ref "/kits/motion-detector.en.md" >}}) or [other kits]({{< ref "/kits/_index.en.md" >}}), there is **pre-installed firmware** in the Core module in your kit. Thanks to the firmware, the box knows whether to measure temperature, monitor location or anything else.
+Whether you are using [Starter Kit](https://shop.hardwario.com/starter-kit/), [Climate Monitor Kit](https://shop.hardwario.com/climate-monitor-kit/), [Motion Detector Kit](https://shop.hardwario.com/motion-detector-kit/) or [other kits](https://shop.hardwario.com/kits/), there is **pre-installed firmware** in the Core module in your kit. Thanks to the firmware, the box knows whether to measure temperature, monitor location or anything else.
 
 **👉 That’s why you need different firmware for different projects. 👈**
 
