@@ -12,59 +12,61 @@ meta_description: >-
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1571563534/projects/hardcore-upgrade-of-iot-party-game/4-soutez-s-kamarady-o-nejteplejsi-vydech-se-stickerem.png
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1571563534/projects/hardcore-upgrade-of-iot-party-game/4-soutez-s-kamarady-o-nejteplejsi-vydech-se-stickerem.png
 tags:
-  - Indoor
-levels:
-  - Beginner
-places:
-  - Home
-devices:
-  - Starter Kit
+  - Game
 modules: ["core","button","mini_battery","usb_dongle"]
 ---
 ## Introduction
 
-{{< perex >}} Do you dare? Create two of your favorite competitions by building just one project, switching between them as you like! Everyone will have fun at your party. 🕺 {{< /perex >}}
+{{< perex >}}
+Do you dare? Create two of your favorite competitions by building just one project, switching between them as you like! Everyone will have fun at your party. 🕺
+{{< /perex >}}
 
 Under this project, you will learn how to **save the highest measured value and determine different competitions in one project and switch between them**.
 
-The basic version of this project can be found here: [IoT party game: Do you have a dragon´s fire or freezing breath in you?](/cs/projects/draci-dech/)
+The basic version of this project can be found here: [IoT party game: Do you have a dragon´s fire or freezing breath in you?](/projects/dragons-fire/)
 
-All you need is the basic BigClown [**Starter Kit**](https://obchod.bigclown.cz/starter-kit/).
+All you need is the basic BigClown [**Starter Kit**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 
 ## Prepare Node-RED
 
 1. Put the Starter Kit together and pair it. On the Core Module you will need the familiar **bcf-radio-push-button** firmware again.
-
 ![Firmware to the Core Module](https://res.cloudinary.com/lukasfabik/image/upload/v1571551047/projects/hardcore-upgrade-of-iot-party-game/image6.png)
 
 ## Measure the hottest breath
 
 Build this flow to detect which of your party buddies has the **hottest dragon´s breath**. 🐉 To start measuring the highest temperature, **briefly press and release the button**.
-
 ![Measure the hottest breath](https://res.cloudinary.com/lukasfabik/image/upload/v1571551047/projects/hardcore-upgrade-of-iot-party-game/image9.png)
 
 **Do you need advice on how to do this?**
 
 - The **MQTT node** under the Input section hides Topic with a short press of the button:
 
-``` node/push-button:0/push-button/-/event-count ```
+```
+node/push-button:0/push-button/-/event-count
+```
 
 - The javascript code under the **Function node** looks like this
 
-\`\`\` var hottestTemp = flow.get("hottestTemp"); var pressed = flow.get("pressed") || false;
+```
+var hottestTemp = flow.get("hottestTemp");
+var pressed = flow.get("pressed") || false;
 
-flow.set("holded", false);flow.set("pressed", !pressed);
+flow.set("holded", false);
+flow.set("pressed", !pressed);
 
-if(!flow.get("pressed")) { if(flow.get("contestantTemp") > hottestTemp) { flow.set("hottestTemp", flow.get("contestantTemp")); msg.payload = flow.get("hottestTemp"); return msg; } } \`\`\`
-
+if(!flow.get("pressed")) {
+  if(flow.get("contestantTemp") > hottestTemp) {
+    flow.set("hottestTemp", flow.get("contestantTemp"));
+    msg.payload = flow.get("hottestTemp");
+    return msg;
+  }
+}
+```
 - The highest temperature is recorded under the **Text node**. Do not forget to enter the value {{msg.payload}}°C in the Value format line.
-
 - The **Change node** lists the participant with the hottest breath; you have to set the flow in it. contestantName
-
 The ![Change node](https://res.cloudinary.com/lukasfabik/image/upload/v1571551047/projects/hardcore-upgrade-of-iot-party-game/image8.png)
-
 - flow closes the ordinary **Text node**.
 
 ## Measure the coldest breath
@@ -79,19 +81,28 @@ Place the next flow below the previous one. With this, you'll be able to measure
 
 - Under Topic in the **MQTT node** there is a press and hold button:
 
-``` node/push-button:0/push-button/-/hold-count ```
+```
+node/push-button:0/push-button/-/hold-count
+```
 
 - The javascript code under the **Function node** looks like this:
 
-\`\`\` var coldestTemp = flow.get("coldestTemp"); var holded = flow.get("holded") || false;
+```
+var coldestTemp = flow.get("coldestTemp");
+var holded = flow.get("holded") || false;
 
 flow.set("pressed", false);
 
 flow.set("holded", !holded);
 
-if(!flow.get("holded")) { if(flow.get("contestantTemp") < coldestTemp) { flow.set("coldestTemp", flow.get("contestantTemp"));
+if(!flow.get("holded")) {
+  if(flow.get("contestantTemp") < coldestTemp) {
+    flow.set("coldestTemp", flow.get("contestantTemp"));
+    msg.payload = flow.get("coldestTemp"); return msg;
+  }
+}
 
-  msg.payload = flow.get("coldestTemp"); return msg; } } \`\`\`
+```
 
 - **Both Text nodes are the same as in the previous flow**, with the only change that needs to be made being that the hottest is changed to the coldest.
 
@@ -109,13 +120,27 @@ Create a new flow and place it under both previous ones. With this flow, you mea
 
 - The temperature measurement is under Topic in the **MQTT node**:
 
-``` node/push-button:0/thermometer/0:1/temperature ```
+```
+node/push-button:0/thermometer/0:1/temperature
+```
 
 - The javascript code under the **Function node** looks like this:
 
-\`\`\` var temp = msg.payload;
+```
+var temp = msg.payload;
 
-if(flow.get("pressed")) { if(flow.get("contestantTemp") < temp) { flow.set("contestantTemp", temp); return msg; } } else if(flow.get("holded")) { if(flow.get("contestantTemp") > temp) { flow.set("contestantTemp", temp); return msg; } } \`\`\`
+if(flow.get("pressed")) {
+  if(flow.get("contestantTemp") < temp) {
+    flow.set("contestantTemp", temp); return msg;
+  }
+}
+else if(flow.get("holded")) {
+  if(flow.get("contestantTemp") > temp) {
+    flow.set("contestantTemp", temp);
+    return msg;
+  }
+}
+```
 
 - The dark blue **Text node** shows the temperature measured by the box for the current competitor in degrees Celsius: {{msg.payload}}°C
 
@@ -127,7 +152,10 @@ if(flow.get("pressed")) { if(flow.get("contestantTemp") < temp) { flow.set("cont
 
 - Under the **Function node**, the javascript code for storing names looks like this:
 
-``` flow.set("contestantName", msg.payload); return msg; ```
+```
+flow.set("contestantName", msg.payload);
+return msg;
+```
 
 - The last **Text node ** is simply a text node that announces the current competitor. Voilà!
 
@@ -184,7 +212,12 @@ The ![Inject node](https://res.cloudinary.com/lukasfabik/image/upload/v157155104
 
 -  and the **Function node** contain javascript code that sets the default values.
 
-``` flow.set("contestantTemp", 30); flow.set("hottestTemp", 0); flow.set("coldestTemp", 100); return msg; ```
+```
+flow.set("contestantTemp", 30);
+flow.set("hottestTemp", 0);
+flow.set("coldestTemp", 100);
+return msg;
+```
 
 ## Look at the result.
 
@@ -194,18 +227,15 @@ That's how sexy your desktop looks now. Enjoy it, just like when you saw the sea
 
 ## Let's compete!
 
-1. As you may have noticed, the box reacts to a short press of the button: which starts the **hottest breath competition**, and press and hold: which starts the **coldest breath competition**.
-
+As you may have noticed, the box reacts to a short press of the button: which starts the **hottest breath competition**, and press and hold: which starts the **coldest breath competition**.
 
 ### How to compete?
-
 - Open the **Dashboard** tab in Playground.
 - First write the name of the competitor
 - and confirm it with **Enter**.
 - Subsequently, **briefly press or press and hold** to select the type of competition. 👇
 - When the first competitor has tried their luck, **briefly press or press and hold the button** to end the current competition and save the results.
 - For the next competitors follow the same procedure, one at a time.
-
 ![Competitors](https://res.cloudinary.com/lukasfabik/image/upload/v1571551048/projects/hardcore-upgrade-of-iot-party-game/image16.png)
 
-2. At this difficulty level, **all help is permitted**! Try what makes your breath hotter or colder. May the best Dragon or Night King win! Fingers crossed it´s you! 💪
+At this difficulty level, **all help is permitted**! Try what makes your breath hotter or colder. May the best Dragon or Night King win! Fingers crossed it´s you! 💪

@@ -43,7 +43,7 @@ Jestli už máš vlastní Raspberry Pi, pokračuj dál podle návodu. Pokud ho a
 
 ## K instalaci Playgroundu na Raspberry Pi budeš potřebovat:
 
-* [Raspberry Pi 3 (Model B)](https://obchod.bigclown.cz/bigclown-hub/)
+* Raspberry Pi
 * MicroSD kartu s kapacitou minimálně 4 GB
 * Síťový kabel k připojení do Wi-Fi routeru (stačí ten, co máte doma)
 * Stolní počítač nebo notebook s operačním systémem Windows, macOS nebo Ubuntu (prostě tvůj počítač)

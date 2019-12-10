@@ -12,7 +12,7 @@ image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1573641721/acade
 
 You've created cool projects, but are annoyed that when you switch off your notebook the box stops working? The smart Raspberry Pi mini-computer, which can run Playground 24/7, will help you. 🌃 We'll explain what a Raspberry Pi is and how to install Playground on it.
 
-If you don't have a Raspberry Pi at home or at school yet, [acquire it through the BigClown e-shop](https://obchod.bigclown.cz/raspberry-pi-3-set/) and skip this tutorial and get programming right away. You will receive it pre-set, tuned and with Playground already installed on it.
+If you don't have a Raspberry Pi at home or at school yet, [acquire it through the BigClown e-shop](https://shop.bigclown.com/raspberry-pi-4b-4gb-set/) and skip this tutorial and get programming right away. You will receive it pre-set, tuned and with Playground already installed on it.
 
 ## What is a Raspberry Pi?
 
@@ -26,15 +26,15 @@ In addition to households and businesses where Raspberry Pi´s control IoT netwo
 
 This powerful little machine does not enable you to surf the Internet or play games, but to control smart devices **all day and night**.
 
-So, if you have programmed the [Fridge Thieve Guard](/cs/projects/chyt-mlsouna/) in Playground, it will run non-stop on a Raspberry Pi without you having to have your personal computer switched on to catch thieves - after all, fridge raiders are the most active at night. 🎂
+So, if you have programmed the [Fridge Thieve Guard](/projects/catch-the-mist/) in Playground, it will run non-stop on a Raspberry Pi without you having to have your personal computer switched on to catch thieves - after all, fridge raiders are the most active at night. 🎂
 
-Now that you know what a Raspberry Pi is used for, **let's install** [BigClown Playground](/cs/academy/co-je-to-bigclown-playground/) onto it. 💪 Since it's not a classic computer, the procedure is slightly different to installing a video game on your computer.
+Now that you know what a Raspberry Pi is used for, **let's install** [BigClown Playground](/academy/what-is-bigclown-playground/) onto it. 💪 Since it's not a classic computer, the procedure is slightly different to installing a video game on your computer.
 
-If you already have your own Raspberry Pi, follow the instructions below. If you don't have one yet, you can purchase a Raspberry Pi through the [clown’s e-shop ](https://obchod.bigclown.cz/raspberry-pi-3-set/)and skip this tutorial - we'll send it to you **completely pre-set and tuned**.
+If you already have your own Raspberry Pi, follow the instructions below. If you don't have one yet, you can purchase a Raspberry Pi through the [clown’s e-shop ](https://shop.bigclown.com/raspberry-pi-4b-4gb-set/)and skip this tutorial - we'll send it to you **completely pre-set and tuned**.
 
 ## To install Playground on a Raspberry Pi you will need:
 
-* [Raspberry Pi 3 (Model B)](https://obchod.bigclown.cz/bigclown-hub/)
+* Raspberry Pi
 * MicroSD card with a minimum capacity of 4 GB
 * Network cable to connect to a Wi-Fi router (the one you have at home will do)
 * Desktop or notebook computer running Windows, macOS or Ubuntu (simply put, your computer)
@@ -69,11 +69,11 @@ Connect the **Radio Dongle** from your BigClown Kit to the Raspberry Pi's USB po
 
 ## And with that, it´s installed!
 
-Whenever you want to work on your Raspberry Pi, just type **hub.local** into your web browser. This will open an interface that looks just like Playground, but doesn't have a Firmware tab (therefore always upload [firmware](/cs/academy/jak-nahrat-firmware/) to Core Module or Dongle on your computer).
+Whenever you want to work on your Raspberry Pi, just type **hub.local** into your web browser. This will open an interface that looks just like Playground, but doesn't have a Firmware tab (therefore always upload [firmware](/academy/how-to-flash-firmware/) to Core Module or Dongle on your computer).
 
 ![Firmware](https://res.cloudinary.com/lukasfabik/image/upload/v1573304484/academy/jak-nainstalovat-playground-na-raspberry-pi/image2.png)
 
-On a Raspberry Pi you program **exactly as you would do on your computer.** 🤓 Open [Node-RED](/cs/academy/co-je-node-red/) and go for it.
+On a Raspberry Pi you program **exactly as you would do on your computer.** 🤓 Open [Node-RED](/academy/what-is-node-red/) and go for it.
 
 When you want to start a project on your Raspberry Pi, don't forget to **connect it to the USB Dongle** from your BigClown Kit. Simply plug it into any USB port.
 

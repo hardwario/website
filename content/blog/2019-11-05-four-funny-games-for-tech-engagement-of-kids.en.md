@@ -16,7 +16,7 @@ The legendary words ‘learning through play’ are as valid today as they were 
 
 Every professional in a given field **had to start somewhere**. Today's chefs used to roll dough with their moms, graphic artists drew unicorns with color wax crayons and businessmen bought fictional hotels on the Monopoly gameboard. Likewise, today's **programmers and technology innovators** made simple computer games at the turn of the century or assembled circuits so that a light bulb would come on. When the light bulb came on, there was a whoop of joy and enthusiasm.
 
-Today, future programmers have it easier than ever. With the [Big Clown IoT Kit](https://obchod.bigclown.cz/starter-kit/) they can easily assemble and program hardware to create **impressive smart home projects**, even when they're only in primary school. That's why BigClown is an ideal gift for boys and girls of around 12 years of age.
+Today, future programmers have it easier than ever. With the [Big Clown IoT Kit](https://shop.hardwario.com/starter-kit/) they can easily assemble and program hardware to create **impressive smart home projects**, even when they're only in primary school. That's why BigClown is an ideal gift for boys and girls of around 12 years of age.
 
 In BigClown, in addition to useful household appliances, such as a kennel thermometer, burglar alarm or doorbell, they can also create purely **fun games** to entertain themselves and friends. We will introduce **four of them**.
 
@@ -30,7 +30,7 @@ The BigClown Box includes an ** accelerometer** \- a sensor that detects the box
 
 They then sit down in a circle and one by one spin the box, looking at the computer data pop up to see whether a new **record has been established**. The members of the group compete with one another to determine who can spin the box the longest using **centrifugal force**.
 
-[See the precise instructions on how kids can program their smart spinning top.](https://www.bigclown.com/cs/projects/highest-centrifugal-force/)
+[See the precise instructions on how kids can program their smart spinning top.](/projects/highest-centrifugal-force/)
 
 ## Game 2: Dragon War, or the battle for the hottest and coldest breath
 
@@ -40,7 +40,7 @@ Dragon War is another simple game that children can program themselves. The BigC
 
 After simple programming, kids sit around a table and take turns breathing onto the box. The computer display will immediately show **what temperature their breath is**. The kids can **compete for two titles** \- the champion of the hottest and coldest breath. They can also try what effect an ice cube or a hot chili pepper has on the temperature of their breath.
 
-[Kids can program the Dragon War game by following this simple tutorial.](https://www.bigclown.com/cs/projects/draci-dech/)
+[Kids can program the Dragon War game by following this simple tutorial.](/projects/dragons-fire/)
 
 ## Game 3: Zen Kung Fu Master, or who can keep the box still the longest
 
@@ -50,7 +50,7 @@ With the box, kids can even create games that **test their muscles** \- like thi
 
 Kids then compete with each other while maintaining different positions, for example, standing on one leg, in the plank position or just holding the box in their outstretched arm in front of them. The results of their Zen performances are **immediately displayed on the computer**. If you have little athletes at home, this game will be a new challenge for them.
 
-[Kids can program the Zen Kung Fu Master game by following this simple tutorial.](https://www.bigclown.com/cs/projects/kung-fu-mastr/)
+[Kids can program the Zen Kung Fu Master game by following this simple tutorial.](/projects/kung-fu-master/)
 
 ## Game 4: Smart thermometer, or searching for the hottest place in the area
 
@@ -60,7 +60,7 @@ A game for small adventurers - again with the help of the thermometer. Kids walk
 
 They can also suggest the game to their physics teacher and play it with the whole class - they will learn a lot about**temperature and other physical variables**.
 
-[A simple tutorial helps kids to program this adventurous game.](https://www.bigclown.com/cs/projects/nejteplejsi-nejchladnejsi-misto/)
+[A simple tutorial helps kids to program this adventurous game.](/projects/warmes-coldes-place/)
 
 ## Kids can also create other games themselves.
 
@@ -68,4 +68,4 @@ These four games are just a few of the games kids can create with the IoT Kit, t
 
 For all the games mentioned above, kids only need the **BigClown Starter Kit**. Purchase this kit and put them well on the path to becoming future programmers and technology gurus.
 
-[\\>> You can purchase the BigClown Starter Kit through our e-shop. <<](https://obchod.bigclown.cz/starter-kit/)
+[>> You can purchase the BigClown Starter Kit through our e-shop. <<](https://shop.hardwario.com/starter-kit/)

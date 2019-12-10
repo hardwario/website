@@ -12,33 +12,30 @@ meta_description: >-
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1573640189/projects/pohlidej-si-kdyz-nejsi-doma-jestli-ti-nekdo-neleze-do-pokoje/2-domaci-alarm.jpg
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1573640189/projects/pohlidej-si-kdyz-nejsi-doma-jestli-ti-nekdo-neleze-do-pokoje/2-domaci-alarm.jpg
 tags:
-  - Indoor
-levels:
-  - Beginner
-places:
-  - Home
-devices:
-  - Starter Kit
+  - Smart Home
 modules: ["core","pir","mini_battery","usb_dongle"]
 ---
 ## Introduction
 
-{{< perex >}} Is your younger brother entering your room? Are you going on holiday and afraid someone will steal your treasure? Set up an alarm against all thieves. 👮 {{< /perex >}}
+{{< perex >}}
+Is your younger brother entering your room? Are you going on holiday and afraid someone will steal your treasure? Set up an alarm against all thieves. 👮
+{{< /perex >}}
 
 Under this project, you will learn how to create a **detector that sends notifications to your mobile if someone else is in your room**. 👁️
 
-If you already have the Starter Kit, you will only need the [**PIR Module**](https://obchod.bigclown.cz/pir-module/). Alternatively, the [Motion Detector Kit](https://www.bigclown.com/kits/motion-detector/) contains all the equipment you need.
+If you already have the Starter Kit, you will only need the [**PIR Module**](https://shop.hardwario.com/pir-module/). Alternatively, the [Motion Detector Kit](https://shop.hardwario.com/motion-detector-kit/) contains all the equipment you need.
 
 {{< modules >}}
 
 ## Download the new firmware
 
 1. If you haven´t done so yet, put the Motion Detector Kit together.
+
 2. Load special firmware onto the Core Module, namely bcf-radio-burglar-alarm (you will find it among the other firmware in Playground). With this firmware the box will reveal intruders and burglars.👂
 
 ![Assembling the Motion Detector Kit](https://res.cloudinary.com/lukasfabik/image/upload/v1573157109/projects/pohlidej-si-kdyz-nejsi-doma-jestli-ti-nekdo-neleze-do-pokoje/image20.png)
 
-**Our tip**: You don’t know how to download the firmware or what is it? [You'll find out here](https://www.bigclown.com/cs/academy/jak-nahrat-firmware/).
+**Our tip**: You don’t know how to download the firmware or what is it? [You'll find out here](/academy/how-to-flash-firmware/).
 
 3. Pair the Core Module with a USB Dongle. Right after pairing, you will see that your Core Module has changed the Alias to **Burglar alarm**.
 
@@ -48,10 +45,13 @@ If you already have the Starter Kit, you will only need the [**PIR Module**](htt
 
 ## Start the app on your mobile
 
-1. **Continue on your mobile.**. The box connects to your smartphone thanks to the **Blynk app**. 📱 [Find out how Blynk works.](https://www.bigclown.com/cs/academy/jak-pripojit-blynk/)
+1. **Continue on your mobile.**. The box connects to your smartphone thanks to the **Blynk app**. 📱 [Find out how Blynk works.](/academy/how-to-connect-blynk/)
+
 2. Select the embellished **Styled button** from the menu. 🚨 The button is placed on the project desktop and switches the motion detector on and off.
 
-{{< middle >}} {{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1573157119/projects/pohlidej-si-kdyz-nejsi-doma-jestli-ti-nekdo-neleze-do-pokoje/image22.png" alt = "spuštění aplikace" >}} {{< /middle >}}
+{{< middle >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1573157119/projects/pohlidej-si-kdyz-nejsi-doma-jestli-ti-nekdo-neleze-do-pokoje/image22.png" alt = "spuštění aplikace" >}}
+{{< /middle >}}
 
 3. Clicking on the button takes you to settings.
 
@@ -63,28 +63,36 @@ The rest is up to your artistic talents. 🎨 You can choose the color of the bu
 
 When you have completed everything,<b> </b>**return to the desktop** by clicking on the arrow in the top left.
 
-{{< middle >}} {{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1573157108/projects/pohlidej-si-kdyz-nejsi-doma-jestli-ti-nekdo-neleze-do-pokoje/image18.png" alt = "virtuální tlačítko" >}} {{< /middle >}}
+{{< middle >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1573157108/projects/pohlidej-si-kdyz-nejsi-doma-jestli-ti-nekdo-neleze-do-pokoje/image18.png" alt = "virtuální tlačítko" >}}
+{{< /middle >}}
 
 4. Click on the desktop to add another feature. In this case, it concerns the **notification**.
 
-{{< middle >}} {{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1573157088/projects/pohlidej-si-kdyz-nejsi-doma-jestli-ti-nekdo-neleze-do-pokoje/image4.png" alt = "notifikace" >}} {{< /middle >}}
+{{< middle >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1573157088/projects/pohlidej-si-kdyz-nejsi-doma-jestli-ti-nekdo-neleze-do-pokoje/image4.png" alt = "notifikace" >}}
+{{< /middle >}}
 
 5. Your desktop now looks like this. Start the project with the **Play** button in the top right. ▶️
 
-{{< middle >}} {{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1573157116/projects/pohlidej-si-kdyz-nejsi-doma-jestli-ti-nekdo-neleze-do-pokoje/image25.png" alt = "spuštění projektu" >}} {{< /middle >}}
+{{< middle >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1573157116/projects/pohlidej-si-kdyz-nejsi-doma-jestli-ti-nekdo-neleze-do-pokoje/image25.png" alt = "spuštění projektu" >}}
+{{< /middle >}}
 
 6. **Tap the button**, it should switch from ON mode to OFF mode.
 
 ## Set the switching button in Node-RED
 
-1. In Playground, click the **Functions tab** where the [Node-RED](https://www.bigclown.com/cs/academy/co-je-node-red/) programming desktop is.🤖
+1. In Playground, click the **Functions tab** where the [Node-RED](/academy/what-is-node-red/) programming desktop is.🤖
 2. Start programming and jump right in. The first node will contain a small javascript code. Place it on the desktop using the ** Function node** from under the section of the same name.
 
 Double-click on it and type the node name in the Label field: Int parser.
 
 Subsequently, copy the following simple javascript code into the Function field:
 
-``` msg.payload = parseInt(msg.payload); return msg; ```
+```
+msg.payload = parseInt(msg.payload); return msg;
+```
 
 ![Node-RED programming desktop](https://res.cloudinary.com/lukasfabik/image/upload/v1573157099/projects/pohlidej-si-kdyz-nejsi-doma-jestli-ti-nekdo-neleze-do-pokoje/image12.png)
 
@@ -126,7 +134,9 @@ Confirm everything and return to the programming desktop.
 
 In the **Name** line, fill in the Notification setting status and copy the following code into the **Function** field:
 
-``` if(msg.payload == "1") { flow.set("alarmOn", 1); } else { flow.set("alarmOn", 0); } return msg; ```
+```
+if(msg.payload == "1") { flow.set("alarmOn", 1); } else { flow.set("alarmOn", 0); } return msg;
+```
 
 ![Setting the notification](https://res.cloudinary.com/lukasfabik/image/upload/v1573157103/projects/pohlidej-si-kdyz-nejsi-doma-jestli-ti-nekdo-neleze-do-pokoje/image11.png)
 
@@ -142,14 +152,18 @@ By measuring the ambient temperature, the alarm can change its status to keep it
 
 In the next flow, start with the good old **MQTT node** from under the Input section. In the node, set the temperature measurement as **Topic**:
 
-``` node/burglar-alarm:0/thermometer/0:1/temperature ```
+```
+node/burglar-alarm:0/thermometer/0:1/temperature
+```
 
 ![Temperature measurement](https://res.cloudinary.com/lukasfabik/image/upload/v1573157098/projects/pohlidej-si-kdyz-nejsi-doma-jestli-ti-nekdo-neleze-do-pokoje/image7.png)
 
 2. Place another Function node right behind it. In the Name field, write the Alarm Status and use the following code:
 
 
-``` msg.payload = flow.get("alarmOn"); return msg; ```
+```
+msg.payload = flow.get("alarmOn"); return msg;
+```
 
 Due to this node, the sensor will only be active if you trigger it by a button in Blynk or on a computer.
 
@@ -175,16 +189,17 @@ Place the **MQTT node from under the Input section** onto your desktop. In the n
 
 ![MQTT Node](https://res.cloudinary.com/lukasfabik/image/upload/v1573157123/projects/pohlidej-si-kdyz-nejsi-doma-jestli-ti-nekdo-neleze-do-pokoje/image26.png)
 
-1. A short javascript code should follow it, namely a **Function node**. As the **Name** set _Message_ with this code right here:
+2. A short javascript code should follow it, namely a **Function node**. As the **Name** set _Message_ with this code right here:
 
-
-``` msg.payload = "Someone's in your room" return msg; ```
+```
+msg.payload = "Someone's in your room" return msg;
+```
 
 **Our tip**: Feel free to rewrite the message in the code, but remember that Blynk does not read hooks (háčky) and accent marks (čárky). Otherwise it´s double Dutch! 🤷
 
 ![Message](https://res.cloudinary.com/lukasfabik/image/upload/v1573157116/projects/pohlidej-si-kdyz-nejsi-doma-jestli-ti-nekdo-neleze-do-pokoje/image16.png)
 
-1. Finally, place here the **Notify node** from under the Blynk ws section. This communicates with the mobile app notification. You'll find a Token filled in. Just make sure it matches the one that Blynk sent to your e-mail.
+3. Finally, place here the **Notify node** from under the Blynk ws section. This communicates with the mobile app notification. You'll find a Token filled in. Just make sure it matches the one that Blynk sent to your e-mail.
 
 ![Notify node](https://res.cloudinary.com/lukasfabik/image/upload/v1573157090/projects/pohlidej-si-kdyz-nejsi-doma-jestli-ti-nekdo-neleze-do-pokoje/image6.png)
 
@@ -200,6 +215,8 @@ Place the **MQTT node from under the Input section** onto your desktop. In the n
 
 2. Place your box near the door. When the box detects movement, **it will send a notification to your mobile**.
 
-{{< middle >}} {{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1573157092/projects/pohlidej-si-kdyz-nejsi-doma-jestli-ti-nekdo-neleze-do-pokoje/image9.png" alt = "upozornění v mobilu" >}} {{< /middle >}}
+{{< middle >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1573157092/projects/pohlidej-si-kdyz-nejsi-doma-jestli-ti-nekdo-neleze-do-pokoje/image9.png" alt = "upozornění v mobilu" >}}
+{{< /middle >}}
 
 Thieves beware! The law is here! 😱

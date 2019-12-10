@@ -23,13 +23,15 @@ modules: ["core","button","mini_battery","usb_dongle"]
 ---
 ## Introduction
 
-{{< perex >}} Do you already have a basic version of the button that enables your mom to call you for dinner? Congratulations. 👍 With this enhancement, you can move the project even further forward - the message changes according to the time of day. You can even respond to it. {{< /perex >}}
+{{< perex >}}
+Do you already have a basic version of the button that enables your mom to call you for dinner? Congratulations. 👍 With this enhancement, you can move the project even further forward - the message changes according to the time of day. You can even respond to it.
+{{< /perex >}}
 
 Under this project, you will learn how to **set up a different message for different times of day**, send a special notification **by holding the button** and program a simple **response** option. 👌
 
-The basic version of this project can be found here: [Create an IoT button that enables your mom to call you for dinner](/cs/projects/tlacitko-pro-rodice/).
+The basic version of this project can be found here: [Create an IoT button that enables your mom to call you for dinner](/projects/button-for-parents/).
 
-You will need the **box with button** and a **USB Dongle**. The basic BigClown [**Starter Kit**](https://shop.bigclown.com/starter-kit/) is sufficient for this.
+You will need the **box with button** and a **USB Dongle**. The basic BigClown [**Starter Kit**](https://shop.hardwario.com/starter-kit/) is sufficient for this.
 
 {{< modules >}}
 
@@ -41,8 +43,7 @@ You will need the **box with button** and a **USB Dongle**. The basic BigClown [
 
 ## Set up notification
 
-1. Set up the flow of the notification in the same way as the [basic version of this project](https://www.bigclown.com/cs/projects/tlacitko-pro-rodice/).
-
+1. Set up the flow of the notification in the same way as the [basic version of this project](/projects/button-for-parents/).
 Place the **MQTT node**, which has click counting in Topic, from the Input section onto the desktop. Next to it, place **mobile notification** connected to Blynk.
 
 ❗ **Skip the change node for now**, you'll soon find out why.
@@ -59,30 +60,27 @@ So far it looks like this:
 
 Copy the following code into the **Function** line in the node setting. If you look at the code, you will see that some parts are highlighted in color. In them, you set the **meal time** and **your own message**. Customize the colored parts of the code, bearing in mind that accent marks (čárky) and hooks (háčky) won't work.
 
-\`\`\` var date = new Date(); var hour = date.getHours();
-
-if(hour >= 8 && hour < 11) { msg.payload = "Pojd na snidani, ospalce"; return msg; } else if(hour >= 11 && hour < 17) { msg.payload = "Obidek na tebe uz ceka"; return msg; } else if(hour >= 17 && hour < 21) { msg.payload = "Podava se vrchol dne, vecere"; return msg; } \`\`\`
+```
+var date = new Date(); var hour = date.getHours();
+if(hour >= 8 && hour < 11) { msg.payload = "Pojd na snidani, ospalce"; return msg; } else if(hour >= 11 && hour < 17) { msg.payload = "Obidek na tebe uz ceka"; return msg; } else if(hour >= 17 && hour < 21) { msg.payload = "Podava se vrchol dne, vecere"; return msg; }
+```
 
 ![Setting the message itself](https://res.cloudinary.com/lukasfabik/image/upload/v1573301764/projects/dalsi-level-projekt-tlacitko-pro-mamku/image8.png)
 
 4. Name this node in the same window in the **Name** line. For example _Time & Message Setting_.
-
 ![ Setting time and message](https://res.cloudinary.com/lukasfabik/image/upload/v1573301764/projects/dalsi-level-projekt-tlacitko-pro-mamku/image6.png)
-
 Confirm with the **Done** button.
 
 ## Set up press and hold button.
 
 1. Let's quickly move on. Now it´s time to set up what the button does when your parents **hold it for a long time**. That can be controlled too. 👌
-
 Place another **MQTT node** from the Input section onto the desktop.
-
 ![MQTT](https://res.cloudinary.com/lukasfabik/image/upload/v1573301764/projects/dalsi-level-projekt-tlacitko-pro-mamku/image7.png)
 
 2. Set there a different **Topic** that causes the reaction of the button when you press it for a long time.
-
-``` node/push-button:0/push-button/-/hold-count ```
-
+```
+node/push-button:0/push-button/-/hold-count
+```
 ![Topic](https://res.cloudinary.com/lukasfabik/image/upload/v1573301763/projects/dalsi-level-projekt-tlacitko-pro-mamku/image4.png)
 
 3. Behind this, place the **Change node** that you already used in the basic version. In it, set your own message, which is sent when your parents hold the button for a long time. It can be used for different messages other than for eating 🙂. For example: _Come downstairs, you lazy so and so!_
@@ -106,12 +104,17 @@ You can do this through the **Notification node** under the Dashboard section.
 ## Ready, steady... go!
 
 1. Like before, put the improved box ** in the hands of your mom and dad**.
+
 2. Instruct them to **short press** the button to call you to come and eat…
 
-{{< middle >}} {{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1573301764/projects/dalsi-level-projekt-tlacitko-pro-mamku/image12.png" alt = "vylepšená krabička" >}} {{< /middle >}}
+{{< middle >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1573301764/projects/dalsi-level-projekt-tlacitko-pro-mamku/image12.png" alt = "vylepšená krabička" >}}
+{{< /middle >}}
 
 3. ... and to **press and hold** 👇 the button if they want to call you for anything else.
 
-{{< middle >}} {{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1573301765/projects/dalsi-level-projekt-tlacitko-pro-mamku/image13.png" alt = "zmáčknutí tlačítka" >}} {{< /middle >}}
+{{< middle >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1573301765/projects/dalsi-level-projekt-tlacitko-pro-mamku/image13.png" alt = "zmáčknutí tlačítka" >}}
+{{< /middle >}}
 
 At least you won't be disappointed when, instead of eating, there is a family discussion on the plate. Ugh, another menu, please!
