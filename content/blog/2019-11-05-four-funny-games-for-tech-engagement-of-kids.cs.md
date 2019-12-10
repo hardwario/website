@@ -20,7 +20,7 @@ Legendární heslo „škola hrou” dnes platí stejně dobře, jako když ho K
 
 Každý profesionál ve svém oboru **musel někde začít**. Dnešní šéfkuchaři kdysi s mámou váleli těsto, grafici kreslili voskovkami jednorožce a byznysmeni kupovali fiktivní hotely na herní ploše Monopoly. Dnešní **programátoři a technologičtí inovátoři** si zase na přelomu století tvořili jednoduché počítačové hry nebo skládali obvody tak, aby se na jejich konci rozsvítila žárovka. A jakmile se úspěšně rozsvítila, následoval výbuch radosti a nadšení.
 
-Dnes to mají budoucí programátoři a programátorky jednodušší než kdy dřív. Díky [IoT kitu BigClown](https://obchod.bigclown.cz/starter-kit/) si snadno poskládají a naprogramují hardware, se kterým vytvoří **působivé projekty na principu chytré domácnosti**, i když jsou teprve na základní škole. I proto představuje BigClown ideální dárek pro kluky a holky okolo 12 let.
+Dnes to mají budoucí programátoři a programátorky jednodušší než kdy dřív. Díky [IoT kitu BigClown](https://obchod.hardwario.cz/starter-kit/) si snadno poskládají a naprogramují hardware, se kterým vytvoří **působivé projekty na principu chytré domácnosti**, i když jsou teprve na základní škole. I proto představuje BigClown ideální dárek pro kluky a holky okolo 12 let.
 
 V BigClownu však kromě užitečných přístrojů do domácnosti, jako je teploměr do psí boudy, alarm proti zlodějům nebo domovní zvonek, vytvoří i ryze **zábavné hry**, u kterých se s kamarády pobaví. Představíme vám **čtyři z nich**.
 
@@ -72,4 +72,4 @@ Představili jsme vám čtyři možné hry s IoT kitem, ale v reálu jich mohou 
 
 Na všechny zmíněné hry stačí dětem **BigClown Starter Kit**. Pořiďte jim ho a nasměrujte je na dráhu budoucích programátorů a technologických guru.
 
-[\>> BigClown Starter Kit pořídíte dětem v našem e-shopu. <<](https://obchod.bigclown.cz/starter-kit/)
+[\>> BigClown Starter Kit pořídíte dětem v našem e-shopu. <<](https://obchod.hardwario.cz/starter-kit/)

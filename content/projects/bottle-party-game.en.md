@@ -27,7 +27,7 @@ Why play Spin the Bottle with a bottle if all you need is a smart box?  Set your
 
 In this project, you will learn how to set up the box so it **draws a random member** of your group. 😱
 
-You will need **the box with the button** and the **USB dongle**. All you need is a basic BigClown kit, the [**Starter Kit**](https://shop.bigclown.com/starter-kit/).
+You will need **the box with the button** and the **USB dongle**. All you need is a basic BigClown kit, the [**Starter Kit**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

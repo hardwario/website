@@ -23,7 +23,7 @@ You know this for sure. In the fridge, you keep the last piece of cake from your
 
 In this project, you will learn to make a **fridge opening detector.** 👈
 
-All you need is the box with button and the USB dongle in the basic BigClown [Starter Kit](https://shop.bigclown.com/starter-kit/).
+All you need is the box with button and the USB dongle in the basic BigClown [Starter Kit](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

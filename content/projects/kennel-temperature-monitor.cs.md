@@ -23,7 +23,7 @@ handbook:
 Zima, že bys ani psa nevyhnal? Hlídej teplotní komfort svého nejlepšího kámoše a sleduj teplotu v jeho boudě. 🐶
 {{< /perex >}}
 
-S tímhle projektem se naučíš **měřit teplotu s IoT a zobrazit ji na grafu**. Postačí ti základní BigClown sada, tedy [**Starter Kit**](https://shop.bigclown.com/starter-kit/). Uvidíš, že ti hafan poděkuje. Třeba míň bobky. Nebo tak něco. 🐩
+S tímhle projektem se naučíš **měřit teplotu s IoT a zobrazit ji na grafu**. Postačí ti základní BigClown sada, tedy [**Starter Kit**](https://shop.hardwario.com/starter-kit/). Uvidíš, že ti hafan poděkuje. Třeba míň bobky. Nebo tak něco. 🐩
 
 {{< modules >}}
 

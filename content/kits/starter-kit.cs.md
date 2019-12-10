@@ -18,7 +18,7 @@ included: ["Obsahuje Push Button Kit", "Obsahuje Radio Dongle","Skvělý začát
 notIncluded:
 weight: 0
 price: 1 490 Kč
-buyLink: https://obchod.bigclown.cz/starter-kit/
+buyLink: https://obchod.hardwario.cz/starter-kit/
 modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["sigfox","lora"]
 techSpecs:

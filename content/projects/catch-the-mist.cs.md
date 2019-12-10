@@ -25,7 +25,7 @@ Určitě to znáš. V lednici si necháváš poslední kousek dortu ze svojí os
 
 V tomhle projektu se naučíš vytvořit **detektor otevírání ledničky**. 👈
 
-Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vystačíš se základní BigClown sadou – [**Starter Kitem**](https://shop.bigclown.com/starter-kit/).
+Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vystačíš se základní BigClown sadou – [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

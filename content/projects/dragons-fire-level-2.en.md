@@ -32,7 +32,7 @@ You'll find the basic version of this project here: [IoT party game: is there dr
 
 Střední obtížnost zase tady:
 
-I tentokrát ti postačí základní BigClown sada, tedy [**Starter Kit**](https://shop.bigclown.com/starter-kit/).
+I tentokrát ti postačí základní BigClown sada, tedy [**Starter Kit**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

@@ -17,7 +17,7 @@ included: ["Obsahuje 10 Starter Kitů", "Zdarma HARDWARIO Hub", "100 dní na vyz
 notIncluded:
 weight: 500
 price: 14 900 Kč
-buyLink: https://obchod.bigclown.cz/starter-kits-bundle/
+buyLink: https://obchod.hardwario.cz/starter-kits-bundle/
 modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["usb_dongle","sigfox","lora"]
 contains: []

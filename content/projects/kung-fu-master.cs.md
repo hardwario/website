@@ -26,7 +26,7 @@ S touhle hrou se s kámoši nudit nebudete. Nastav si svůj Starter Kit tak, aby
 
 V tomhle projektu se naučíš vytvořit takzvaný **still position detector**, tedy **detektor pohybu**. 👈
 
-Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vystačíš se základní BigClown sadou – [**Starter Kitem**](https://shop.bigclown.com/starter-kit/).
+Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vystačíš se základní BigClown sadou – [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

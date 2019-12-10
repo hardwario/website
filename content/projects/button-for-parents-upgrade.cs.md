@@ -32,7 +32,7 @@ V tomhle projektu se naučíš **nastavit jinou zprávu na jiný čas**, odeslat
 
 Základní verzi tohohle projektu najdeš tady: [Vyrob si IoT tlačítko, se kterým tě máma zavolá k večeři](/cs/projects/tlacitko-pro-rodice/).
 
-Budeš potřebovat **krabičku s tlačítkem** a **USB dongle**. Proto si vystačíš se základní BigClown sadou, tedy [**Starter Kitem**](https://shop.bigclown.com/starter-kit/).
+Budeš potřebovat **krabičku s tlačítkem** a **USB dongle**. Proto si vystačíš se základní BigClown sadou, tedy [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

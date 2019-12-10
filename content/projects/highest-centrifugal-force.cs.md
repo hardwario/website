@@ -21,7 +21,7 @@ Pamatuješ si ještě káču? Asi jsi měl dřevěnou nebo plastovou, ale vsadí
 
 V tomhle projektu se naučíš vytvořit **změřit rychlé točení krabičky**. 👈
 
-Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vystačíš se základní BigClown sadou – [**Starter Kitem**](https://shop.bigclown.com/starter-kit/).
+Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vystačíš se základní BigClown sadou – [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

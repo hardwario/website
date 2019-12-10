@@ -29,7 +29,7 @@ Ať už máš doma leguána, želvu, hada nebo gekona, určitě chceš, aby byl 
 
 S tímhle projektem se naučíš **měřit čtyři klimatické hodnoty a zobrazit je v grafech** – teplotu, vlhkost, světelnost a tlak vzduchu. Za odměnu ti tvoji zelení kámoši třeba povypráví historky svých dinosauřích předků. 🦖 Nebo něco na ten způsob.
 
-Pokud máš Starter Kit, budeš k němu potřebovat ještě [Climate Module](https://obchod.bigclown.cz/climate-module/). **Kompletní** výbavu najdeš v sadě [Climate Monitor Kit](https://obchod.bigclown.cz/climate-monitor-kit/).
+Pokud máš Starter Kit, budeš k němu potřebovat ještě [Climate Module](https://obchod.hardwario.cz/climate-module/). **Kompletní** výbavu najdeš v sadě [Climate Monitor Kit](https://obchod.hardwario.cz/climate-monitor-kit/).
 
 {{< modules >}}
 

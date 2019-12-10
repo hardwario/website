@@ -24,7 +24,7 @@ Rodiče ti každý den volají, jestli jsi ze školy dorazil domů? Je to sice o
 
 V tomhle projektu se naučíš, **jak tlačítkem poslat zprávu do mobilu svých rodičů**. 👩👱
 
-Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Vystačíš si se základní BigClown sadou, tedy [**Starter Kitem**](https://shop.bigclown.com/starter-kit/).
+Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Vystačíš si se základní BigClown sadou, tedy [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

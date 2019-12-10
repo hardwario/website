@@ -15,7 +15,7 @@ included: ["Starter Kit", "CO2 Monitor Kit","100-day risk-free trial","Free 1-ho
 notIncluded:
 weight: 60
 price: 210€
-buyLink: "https://shop.bigclown.com/co2-kit-starter-kit-bundle/"
+buyLink: "https://shop.hardwario.com/co2-kit-starter-kit-bundle/"
 modules: ["core","battery","co2","humidity","barometer","temperature","cover","enclosures-201"]
 optionalModules: ["usb_dongle","sigfox","lora"]
 techSpecs:

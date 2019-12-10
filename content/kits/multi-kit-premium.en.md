@@ -17,7 +17,7 @@ gifts: ["Clown's nose", "Clown's suitcase"]
 weight: 1
 price: €359
 save: €34
-buyLink: "https://shop.bigclown.com/big-kit-premium/?currency=EUR"
+buyLink: "https://shop.hardwario.com/big-kit-premium/?currency=EUR"
 modules: ["usb_dongle","core-5","mini_battery-4","climate","pir","sensor","flood","power","lcd","enclosures-101-3","enclosures-301","enclosures-501","suitcase"]
 optionalModules: ["sigfox","lora"]
 ---

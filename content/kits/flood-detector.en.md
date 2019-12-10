@@ -15,7 +15,7 @@ included:
 notIncluded:
 weight: 40
 price: €65
-buyLink: "https://shop.bigclown.com/flood-detector-kit/?currency=EUR"
+buyLink: "https://shop.hardwario.com/flood-detector-kit/?currency=EUR"
 modules: ["core","mini_battery","sensor","flood","enclosures-501"]
 optionalModules: ["usb_dongle","sigfox","lora"]
 techSpecs:

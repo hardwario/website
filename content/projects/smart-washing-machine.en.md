@@ -30,7 +30,7 @@ Raise the IQ of your family washing machine. 🤖 Using the IoT box, programme a
 
 In this project, you will learn to set up the box so that it recognizes when the washing machine is finished and sends a notification to the mobile. 📱 👈
 
-All you need is the box with the button and the USB dongle. You will be all set with the basic BigClown kit - the [Starter Kit](https://shop.bigclown.com/starter-kit/).
+All you need is the box with the button and the USB dongle. You will be all set with the basic BigClown kit - the [Starter Kit](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

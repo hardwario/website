@@ -23,7 +23,7 @@ Do you have a diary, poems or a top secret government-issued document in your dr
 
 This project teaches you how to create a **drawer monitor that sends alerts to your mobile phone when some opens your drawer**. 👈
 
-You only need a **box with a button** and a **Radio dongle**. That's why the basic BigClown [**Starter Kit**](https://shop.bigclown.com/starter-kit/) is perfect.
+You only need a **box with a button** and a **Radio dongle**. That's why the basic BigClown [**Starter Kit**](https://shop.hardwario.com/starter-kit/) is perfect.
 
 {{< modules >}}
 

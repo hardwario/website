@@ -26,7 +26,7 @@ kit: ["starter-kit","button-kit"]
 Do you think it's the same temperature in different places in your fridge or freezer? And how's the freezer functioning, is it freezing properly? Discover the answers to these questions through our IoT project. Using the BigClown Starter Kit, the temperature will be displayed on your mobile phone. ❄
 {{< /perex >}}
 
-This project will teach you how to **measure temperature using IoT**. All you need is the basic BigClown [Starter Kit](https://shop.bigclown.com/starter-kit/).
+This project will teach you how to **measure temperature using IoT**. All you need is the basic BigClown [Starter Kit](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

@@ -17,7 +17,7 @@ gifts: ["Klaunský nos", "Klaunský kufr"]
 weight: 1
 price: 9 190 Kč
 save: 850 Kč
-buyLink: "https://obchod.bigclown.cz/big-kit-premium/"
+buyLink: "https://obchod.hardwario.cz/big-kit-premium/"
 modules: ["usb_dongle","core-5","mini_battery-4","climate","pir","sensor","flood","power","lcd","enclosures-101-3","enclosures-301","enclosures-501","suitcase"]
 optionalModules: ["sigfox","lora"]
 ---

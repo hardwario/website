@@ -30,7 +30,7 @@ S tímhle projektem se naučíš **ukládat nejvyšší naměřenou hodnotu a na
 
 Základní verzi tohohle projektu najdeš tady: [IoT párty hra: máš v sobě dračí oheň, nebo mrazivý dech?](/cs/projects/draci-dech/)
 
-I tentokrát ti postačí základní BigClown sada, tedy [**Starter Kit**](https://obchod.bigclown.cz/starter-kit/).
+I tentokrát ti postačí základní BigClown sada, tedy [**Starter Kit**](https://obchod.hardwario.cz/starter-kit/).
 
 {{< modules >}}
 

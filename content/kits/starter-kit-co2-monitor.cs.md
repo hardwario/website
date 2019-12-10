@@ -15,7 +15,7 @@ included: ["Obsahuje Starter Kit", "Obsahuje CO2 Monitor Kit","100 dní na vyzko
 notIncluded:
 weight: 60
 price: 5 390 Kč
-buyLink: "https://obchod.bigclown.cz/co2-kit-starter-kit-bundle/"
+buyLink: "https://obchod.hardwario.cz/co2-kit-starter-kit-bundle/"
 modules: ["core","battery","co2","humidity","barometer","temperature","cover","enclosures-201"]
 optionalModules: ["usb_dongle","sigfox","lora"]
 techSpecs:

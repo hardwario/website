@@ -17,7 +17,7 @@ included:
 notIncluded:
 weight: 500
 price: 24 990 Kč
-buyLink: https://obchod.bigclown.cz/edu-innovation-multi-kit/
+buyLink: https://obchod.hardwario.cz/edu-innovation-multi-kit/
 modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["usb_dongle","sigfox","lora"]
 contains: []

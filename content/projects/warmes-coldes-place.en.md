@@ -29,7 +29,7 @@ modules: ["core","button","mini_battery","usb_dongle"]
  This project will reveal all the secrets of your school, whether someone hunts ghosts or just wants to find a hot place for their next date. Measure the temperature at different spots of your school with your classmates and try to be the one to discover the biggest extreme. 😱
 {{< /perex >}}
 
-With this project you will learn to **measure temperature with IoT and display it on your mobile**. All you need is the basic Big Clown kit, the [Starter Kit](https://shop.bigclown.com/starter-kit/).
+With this project you will learn to **measure temperature with IoT and display it on your mobile**. All you need is the basic Big Clown kit, the [Starter Kit](https://shop.hardwario.com/starter-kit/).
 
 **Suggest the game to a physics teacher** to add some excitement to the lesson or go for it with your friends after school.
 

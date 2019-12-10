@@ -28,7 +28,7 @@ I mladí programátoři chtějí znát svůj osud. Vyvěšti si ho s krabičkou.
 
 V tomhle projektu se naučíš udělat z krabičky věšteckou kouli neboli **magic 8-ball**. ️🎱 Nastavíš ji tak, aby při zatřepání náhodně zvolila jednu z možností.
 
-Budeš potřebovat **krabičku s tlačítkem a USB dongle**. Vystačíš si tedy se základní BigClown sadou, [**Starter Kitem**](https://shop.bigclown.com/starter-kit/).
+Budeš potřebovat **krabičku s tlačítkem a USB dongle**. Vystačíš si tedy se základní BigClown sadou, [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

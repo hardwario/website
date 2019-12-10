@@ -9,7 +9,7 @@ pygmentsUseClasses = true
 [params]
   menuNames = ["main","footer","secondary"]
   homeURL = "/"
-  shopURL = "https://shop.bigclown.com/"
+  shopURL = "https://shop.hardwario.com/"
   productionURL = "https://www.hardwario.com"
 
 [languages]
@@ -47,22 +47,22 @@ pygmentsUseClasses = true
   weight = 800
 
 [[languages.en.menu.footer]]
-  url    = "https://shop.bigclown.com"
+  url    = "https://shop.hardwario.com"
   name   = "Shop"
   weight = 500
 
 [[languages.cs.menu.footer]]
-  url    = "https://obchod.bigclown.cz"
+  url    = "https://obchod.hardwario.cz"
   name   = "Obchod"
   weight = 500
 
 [[languages.en.menu.secondary]]
-  url    = "https://shop.bigclown.com"
+  url    = "https://shop.hardwario.com"
   name   = "Shop"
   weight = 500
 
 [[languages.cs.menu.secondary]]
-  url    = "https://obchod.bigclown.cz"
+  url    = "https://obchod.hardwario.cz"
   name   = "Obchod"
   weight = 500
 

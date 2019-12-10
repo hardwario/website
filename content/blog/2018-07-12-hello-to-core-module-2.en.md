@@ -53,7 +53,7 @@ Cheers, Pavel
 
 ## References
 
-* [**Core Module in E-shop**](https://shop.bigclown.com/core-module/)
+* [**Core Module in E-shop**](https://shop.hardwario.com/core-module/)
 * [**Core Module Differences**](https://developers.bigclown.com/hardware/core-module-1-and-2-comparison/)
 * [**BigClown Firmware Tool**](https://developers.bigclown.com/tools/bcf/)
 * [**BigClown Firmware SDK**](http://sdk.bigclown.com/group__bc__log.html)

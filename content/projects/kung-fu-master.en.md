@@ -29,7 +29,7 @@ With this game, there's no way you and your friends will get bored! Adjust your 
 
 This project will teach you how to create a so-called **still position detector**, i.e. motion **detector**. 👈
 
-You only need a **box with a button** and a **USB dongle**.  That's why the basic BigClown [**Starter Kit**](https://shop.bigclown.com/starter-kit/) is perfect.
+You only need a **box with a button** and a **USB dongle**.  That's why the basic BigClown [**Starter Kit**](https://shop.hardwario.com/starter-kit/) is perfect.
 
 {{< modules >}}
 

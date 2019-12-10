@@ -27,7 +27,7 @@ Do your parents call you every day, asking if you got home from school? It’s a
 
 In this project, you will learn how **to use the button to send a message to your parents’ mobile**. 👩👱
 
-You will need the **box with the button** and the **USB dongle**. You can do with the basic BigClown set, the [Starter Kit](https://shop.bigclown.com/starter-kit/).
+You will need the **box with the button** and the **USB dongle**. You can do with the basic BigClown set, the [Starter Kit](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

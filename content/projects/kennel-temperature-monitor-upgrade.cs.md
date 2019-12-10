@@ -33,7 +33,7 @@ S tímhle projektem se naučíš nastavit krabičku tak, aby ti **poslala zpráv
 
 Základní verzi tohohle projektu najdeš tady: [Hlídač teploty pro chlupatého hlídače: kontroluj teplotu v boudě svého psa](/cs/projects/hlidac-teploty-psi-boudy/).
 
-Tentokrát ti taky postačí základní BigClown sada, tedy [**Starter Kit**](https://shop.bigclown.com/starter-kit/).
+Tentokrát ti taky postačí základní BigClown sada, tedy [**Starter Kit**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

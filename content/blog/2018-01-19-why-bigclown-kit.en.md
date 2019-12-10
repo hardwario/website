@@ -103,7 +103,7 @@ Arduino is great for many purposes and have the biggest maker community, but hav
 
 * Arduino UNO has a lack of MCU resources (flash and RAM, [TRNG](https://en.wikipedia.org/wiki/Hardware_random_number_generator), [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) hw acceleration).
 
-* The Size of the [standardized BigClown Module format](https://cdn.myshoptet.com/usr/shop.bigclown.com/user/shop/big/117-1.png?5a1af104) is defined by 2 AAA batteries.
+* The Size of the [standardized BigClown Module format](https://cdn.myshoptet.com/usr/shop.hardwario.com/user/shop/big/117-1.png?5a1af104) is defined by 2 AAA batteries.
 
 * Arduino suffers from schizophrenia of 5V / 3.3V power.
 
@@ -125,7 +125,7 @@ There are several levels for extensions, you can:
 
 * Use a breadboard or wires and I/O brought to the [HEADER](https://developers.bigclown.com/hardware/headers-and-signals/#module-drawing-standard) with GPIO, I2C, UART, SPI, PWM, ADC, DAC etc ([Beadboard Module](https://developers.bigclown.com/hardware/about-breadboard-module/) may help you).
 
-* Use [SMT](https://en.wikipedia.org/wiki/Surface-mount_technology) prototyping area on [Battery Module](https://cdn.myshoptet.com/usr/shop.bigclown.com/user/shop/big/42.png?5a1ae639).
+* Use [SMT](https://en.wikipedia.org/wiki/Surface-mount_technology) prototyping area on [Battery Module](https://cdn.myshoptet.com/usr/shop.hardwario.com/user/shop/big/42.png?5a1ae639).
 
 * Design your own Module - just use the Module size and HEADER signals on your PCB.
 
@@ -157,9 +157,9 @@ We love to see all the new open-source kits with similar features. We will be ha
 
 ### Platforms Comparison
 
-|  | [Arduino Uno R3](https://store.arduino.cc/arduino-uno-rev3) | [BigClown Core Module](https://shop.bigclown.com/core-module/) | [WEMOS D1 mini Lite](https://www.aliexpress.com/store/product/WEMOS-D1-mini-Lite-V1-0-0-WIFI-Internet-of-Things-development-board-based-ESP8285-1MB/1331105_32795857574.html) | [Raspberry Pi 3 + MicroSD](http://cpc.farnell.com/mksp2-raspberry-pi3) |
+|  | [Arduino Uno R3](https://store.arduino.cc/arduino-uno-rev3) | [BigClown Core Module](https://shop.hardwario.com/core-module/) | [WEMOS D1 mini Lite](https://www.aliexpress.com/store/product/WEMOS-D1-mini-Lite-V1-0-0-WIFI-Internet-of-Things-development-board-based-ESP8285-1MB/1331105_32795857574.html) | [Raspberry Pi 3 + MicroSD](http://cpc.farnell.com/mksp2-raspberry-pi3) |
 |--------------------|----------------|----------------------|--------------------|--------------------------|
-| Price in USD       | [US $25](https://www.sparkfun.com/products/11021) | [US $28](https://shop.bigclown.com/modules/core-module/?currency=USD) | [US $3](https://www.aliexpress.com/store/product/WEMOS-D1-mini-Lite-V1-0-0-WIFI-Internet-of-Things-development-board-based-ESP8285-1MB/1331105_32795857574.html) | [US $35 + $16](http://www.newark.com/buy-raspberry-pi) |
+| Price in USD       | [US $25](https://www.sparkfun.com/products/11021) | [US $28](https://shop.hardwario.com/modules/core-module/?currency=USD) | [US $3](https://www.aliexpress.com/store/product/WEMOS-D1-mini-Lite-V1-0-0-WIFI-Internet-of-Things-development-board-based-ESP8285-1MB/1331105_32795857574.html) | [US $35 + $16](http://www.newark.com/buy-raspberry-pi) |
 | Warranty | 1 year | **3 years** | 2 months | 1 year |
 | Operating temperature | Not specified | -20 to +70 °C | Not specified | Not specified |
 | CPU architecture | 8-bit AVR<br>Microchip | 32-bit ARM<br>Cortex-M0+ | 32-bit<br>Tensilica L106 | 64-bit ARM<br>Cortex-A53 (4x) |

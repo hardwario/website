@@ -22,7 +22,7 @@ kit: ["starter-kit","button-kit"]
 Myslíš si, že je v celé lednici stejná zima? A jak je na tom mrazák, mrazí dobře? Odhal to s IoT projektem pro Starter Kit – teplotu uvidíš přímo ve svém mobilu. ❄
 {{< /perex >}}
 
-S tímhle projektem se naučíš **měřit teplotu s IoT**. Postačí ti základní BigClown sada, tedy [**Starter Kit**](https://shop.bigclown.com/starter-kit/).
+S tímhle projektem se naučíš **měřit teplotu s IoT**. Postačí ti základní BigClown sada, tedy [**Starter Kit**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

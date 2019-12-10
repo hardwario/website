@@ -16,7 +16,7 @@ notIncluded: ["Flood Detector", "LCD Thermostat", "Controller", "Push Button", "
 gifts: ["Clown's nose"]
 weight: 1
 price: €149
-buyLink: "https://shop.bigclown.com/basic-multi-kit/"
+buyLink: "https://shop.hardwario.com/basic-multi-kit/"
 modules: ["usb_dongle","core-2","mini_battery-2","climate","pir","enclosures-101-2"]
 optionalModules: ["sigfox","lora"]
 ---

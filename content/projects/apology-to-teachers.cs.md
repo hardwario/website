@@ -28,7 +28,7 @@ Ani mobil není neomylný. Občas tě třeba zapomene vzbudit. Když se ti to n�
 
 V tomhle projektu se naučíš, **jak tlačítkem odeslat e-mail**. 📩
 
-Vystačíš si přitom se základní BigClown sadou, tedy [**Starter Kitem**](https://shop.bigclown.com/starter-kit/).
+Vystačíš si přitom se základní BigClown sadou, tedy [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

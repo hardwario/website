@@ -16,7 +16,7 @@ included: ["Contains 10 Starter Kits", "Free HARDWARIO Hub", "100-day risk-free 
 notIncluded:
 weight: 500
 price: 590€
-buyLink: https://shop.bigclown.com/starter-kits-bundle/
+buyLink: https://shop.hardwario.com/starter-kits-bundle/
 modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["usb_dongle","sigfox","lora"]
 contains: []

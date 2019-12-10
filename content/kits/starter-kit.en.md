@@ -18,7 +18,7 @@ included: ["Push Button Kit", "Radio Dongle", "A great way to begin", "100-day r
 notIncluded: []
 weight: 0
 price: 59€
-buyLink: https://shop.bigclown.com/starter-kit/
+buyLink: https://shop.hardwario.com/starter-kit/
 modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["sigfox","lora"]
 techSpecs:

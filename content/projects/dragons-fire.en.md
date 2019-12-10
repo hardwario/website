@@ -20,7 +20,7 @@ kit: "starter-kit"
 Have fun with your friends with IoT. Which of you has the hottest or coldest breath? You decide what will help you win. As they say, anything goes!😱
 {{< /perex >}}
 
-This project teaches you how to **measure temperature with IoT**. All you need is the basic BigClown [Starter Kit](https://shop.bigclown.com/starter-kit/).
+This project teaches you how to **measure temperature with IoT**. All you need is the basic BigClown [Starter Kit](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 
