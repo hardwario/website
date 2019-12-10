@@ -1,11 +1,11 @@
 ---
 title: Chyť zvědavce, co ti leze do šuplíku
 meta_title:  Chyť zvědavce, co ti leze do šuplíku
-meta_description: Vytvoř si ze Starter Kitu od BigClown IoT hlídač svého šuplíku a nechej si posílat upozornění do mobilu. Připravili jsme pro tebe jednoduchý návod.
+meta_description: Vytvoř si ze Starter Kitu od HARDWARIO IoT hlídač svého šuplíku a nechej si posílat upozornění do mobilu. Připravili jsme pro tebe jednoduchý návod.
 slug: ohlidej-tajny-suplik
 draft: false
 date: 2019-08-12
-description: Vytvoř si ze Starter Kitu od BigClown IoT hlídač svého šuplíku a nechej si posílat upozornění do mobilu. Připravili jsme pro tebe jednoduchý návod.
+description: Vytvoř si ze Starter Kitu od HARDWARIO IoT hlídač svého šuplíku a nechej si posílat upozornění do mobilu. Připravili jsme pro tebe jednoduchý návod.
 tags:
   - Projekt na doma
 idea: false
@@ -25,7 +25,7 @@ Máš v šuplíku deníček, básničky nebo tajný vládní dokument? Pokud je 
 
 V tomhle projektu se naučíš vytvořit **detektor otevírání šuplíku, který ti pošle upozornění na mobil**. 👈
 
-Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vystačíš se základní BigClown sadou – [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
+Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vystačíš se základní HARDWARIO sadou – [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 
@@ -38,7 +38,7 @@ Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vy
 
 3. [Core Module spáruj s USB Donglem]({{< ref "/academy/how-to-pair-kit.cs.md" >}}). Hned po spárování uvidíš, že tvůj Core Module změnil Alias na **x-axis-detector**.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566364970/projects/safe-drawer/image26.png" alt = "BigClown Playground - devices" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566364970/projects/safe-drawer/image26.png" alt = "HARDWARIO Playground - devices" >}}
 
 ## Rozjeď appku na mobilu
 
@@ -169,7 +169,7 @@ Na řádku **Connection** pak vyber projekt, který jsi pojmenoval u nodu Notify
 
 5. Teď tyhle dva hezouny **spoj**. Nezapomeň taky kliknout na tlačítko **Deploy** vpravo nahoře, aby se všechno zprovoznilo.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566364975/projects/safe-drawer/image24.png" alt = "Deploy your flow in Node-RED | BigClown Playground" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566364975/projects/safe-drawer/image24.png" alt = "Deploy your flow in Node-RED | HARDWARIO Playground" >}}
 
 ## Spusť pastičku
 

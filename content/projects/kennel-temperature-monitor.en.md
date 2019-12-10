@@ -7,13 +7,13 @@ modules: ["core","button","mini_battery","usb_dongle"]
 date: 2019-09-26T19:09:23.404Z
 description: >-
   This is an IoT project which focuses on enhancing your digital skills. With
-  the BigClown Starter Kit, you can set up a device that measures the
+  the HARDWARIO Starter Kit, you can set up a device that measures the
   temperature inside your dog´s kennel.
 slug: Temperature-monitor-for-your-dog-s-kennel
 meta_title: Temperature monitor for your dog’s kennel
 meta_description: >-
   This is an IoT project which focuses on enhancing your digital skills. With
-  the BigClown Starter Kit, you can set up a device that measures the
+  the HARDWARIO Starter Kit, you can set up a device that measures the
   temperature inside your dog´s kennel.
 image_preview: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1569525812/academy/what-is-dashboard/10-ilustrace-ma-pes-v-boude-dostatek-tepla.png
@@ -29,7 +29,7 @@ kit: ["starter-kit","button-kit"]
 Is it so cold that you can’t even get the dog out? Want to find out what temperature is the most comfortable for your best friend? Then why not monitor the temperature in their kennel? 🐶
 {{< /perex >}}
 
-This project teaches you how to **measure temperature with IoT and display it on a chart**. All you need is the basic BigClown [Starter Kit](https://shop.hardwario.com/starter-kit/). Hopefully your dog will reward you for your efforts with less unsightly mess, or something like that. 🐩
+This project teaches you how to **measure temperature with IoT and display it on a chart**. All you need is the basic HARDWARIO [Starter Kit](https://shop.hardwario.com/starter-kit/). Hopefully your dog will reward you for your efforts with less unsightly mess, or something like that. 🐩
 
 {{< modules >}}
 

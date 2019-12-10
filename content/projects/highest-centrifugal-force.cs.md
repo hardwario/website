@@ -2,7 +2,7 @@
 title: Kdo má největší odstředivou sílu? Vytvoř si IoT káču a změř to
 draft: false
 date: 2019-08-12T00:00:00.000Z
-description: "Poměř pak s kámoši, kdo z vás je odstředivě nejsilnější! \U0001F4AA Návod na to, jak si ze Starter Kitu od BigClown postavíš chytrou káču."
+description: "Poměř pak s kámoši, kdo z vás je odstředivě nejsilnější! \U0001F4AA Návod na to, jak si ze Starter Kitu od HARDWARIO postavíš chytrou káču."
 tags:
   - Hra
 idea: false
@@ -21,7 +21,7 @@ Pamatuješ si ještě káču? Asi jsi měl dřevěnou nebo plastovou, ale vsadí
 
 V tomhle projektu se naučíš vytvořit **změřit rychlé točení krabičky**. 👈
 
-Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vystačíš se základní BigClown sadou – [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
+Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vystačíš se základní HARDWARIO sadou – [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 
@@ -34,7 +34,7 @@ Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vy
 
 3. [Core Module spáruj s USB Donglem]({{< ref "/academy/how-to-pair-kit.cs.md" >}}). Hned po spárování uvidíš, že tvůj Core Module změnil Alias na **rotation-g-meter**.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566292682/projects/highest-centrifugal-force/image11.png" alt = "BigClown devices list" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566292682/projects/highest-centrifugal-force/image11.png" alt = "HARDWARIO devices list" >}}
 
 ## Stavěj v Node-RED
 
@@ -100,7 +100,7 @@ if(lastSpinTime > flow.get("timeRecord"))
 
 V řádku **Name** nod pojmenuj jako _Uložení rekordu_.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566292681/projects/highest-centrifugal-force/image3.png" alt = "Javascript Funciton BigClown Kit" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566292681/projects/highest-centrifugal-force/image3.png" alt = "Javascript Funciton HARDWARIO Kit" >}}
 
 Potvrď tlačítkem **Done**.
 
@@ -130,7 +130,7 @@ V něm pojmenuješ, jak se bude zobrazovat délka nejnovější rotace: _Doba po
 
 10. Za obě úrovně umísti po jednom textovém **nodu Text** ze sekce Dashboard. Ty ovlivní, jak v grafu uvidíš zapsaný rekordní čas. Nastav v nich proto postupně Label **Rekord** a **Rekordní čas**.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566292682/projects/highest-centrifugal-force/image4.png" alt = "BigClown playground text nodes" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566292682/projects/highest-centrifugal-force/image4.png" alt = "HARDWARIO playground text nodes" >}}
 
 11. A pak to všechno **propoj** podle obrázku. Na ploše ti tak vyjdou dvě samostatné flow. Nezapomeň nakonec zmáčknout tlačítko **Deploy**, kterým to celé zprovozníš. 🚨
 

@@ -1,7 +1,7 @@
 ---
 title: ULTIMATE Multi Kit
 id: ultimate
-description: Become a real BigClown maker!
+description: Become a real HARDWARIO maker!
 isBasic: false
 isPremium: false
 isUltimate: false
@@ -22,4 +22,4 @@ modules: ["usb_dongle","core-7","mini_battery-5","battery","button","climate","p
 optionalModules: ["sigfox","lora"]
 ---
 
-Become a real BigClown maker! With this kit, you’ll be able to build all BigClown projects including the CO2 Monitor. The kit also includes the Radio Dongle that will create a gateway for the devices you build.
+Become a real HARDWARIO maker! With this kit, you’ll be able to build all HARDWARIO projects including the CO2 Monitor. The kit also includes the Radio Dongle that will create a gateway for the devices you build.

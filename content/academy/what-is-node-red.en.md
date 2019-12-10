@@ -4,13 +4,13 @@ draft: false
 date: 2019-10-13T07:07:42.950Z
 weight: 40
 description: >-
-  You will give your BigClown kit commands in the Node-RED programming tool. It
+  You will give your HARDWARIO kit commands in the Node-RED programming tool. It
   is amazingly intuitive and you will learn to work in it in just a few minutes.
   See for yourself.
 slug: what-is-node-red
 meta_title: Learn how to programme in Node-RED
 meta_description: >-
-  You will give your BigClown kit commands in the Node-RED programming tool. It
+  You will give your HARDWARIO kit commands in the Node-RED programming tool. It
   is amazingly intuitive and you will learn to work in it in just a few minutes.
   See for yourself.
 image_preview: >-
@@ -18,7 +18,7 @@ image_preview: >-
 image_main: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1566159446/academy/what-is-node-red/image4.png
 ---
-In order for the box to obey your commands, you have to speak its language. And the BigClown box speaks the Node-RED programming language. But don’t worry, dictionaries and textbooks aren’t necessary here - you’ll learn to use it in just a few minutes. 💪
+In order for the box to obey your commands, you have to speak its language. And the HARDWARIO box speaks the Node-RED programming language. But don’t worry, dictionaries and textbooks aren’t necessary here - you’ll learn to use it in just a few minutes. 💪
 
 ## What is Node-RED?
 

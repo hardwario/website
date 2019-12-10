@@ -5,11 +5,11 @@ featured: true
 handbook: Make an IoT button to send mom a message to her mobile
 date: 2019-09-26T18:35:32.430Z
 description: >-
-  How to make a smart button out of the BigClown Starter Kit. It will send a
+  How to make a smart button out of the HARDWARIO Starter Kit. It will send a
   message to your mom that you have just arrived home, safe and sound.
 meta_title: Make an IoT button to send mom a message to her mobile
 meta_description: >-
-  How to make a smart button out of the BigClown Starter Kit. It will send a
+  How to make a smart button out of the HARDWARIO Starter Kit. It will send a
   message to your mom that you have just arrived home, safe and sound.
 modules: ["core","button","mini_battery","usb_dongle"]
 image_preview: >-
@@ -27,7 +27,7 @@ Do your parents call you every day, asking if you got home from school? It’s a
 
 In this project, you will learn how **to use the button to send a message to your parents’ mobile**. 👩👱
 
-You will need the **box with the button** and the **USB dongle**. You can do with the basic BigClown set, the [Starter Kit](https://shop.hardwario.com/starter-kit/).
+You will need the **box with the button** and the **USB dongle**. You can do with the basic HARDWARIO set, the [Starter Kit](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 
@@ -56,14 +56,14 @@ Confirm it with the **Done** button.
 
 1. You can set up your message also here in the Node-RED. Drag the **yellow node from the Functions section called Change** anywhere next to the light purple MQTT input.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155397/projects/im-ok-button/image7.png" alt = "Change Node BigClown Playground" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155397/projects/im-ok-button/image7.png" alt = "Change Node HARDWARIO Playground" >}}
 
 2. Double-click on the node and write the message for your parents into the **Rules** field. Just be careful, Blynk doesn’t display any diacritics. Little inspiration:
    *  _Easy. I’m home and safe._
    * _A celebrity came to visit….just kidding, it’s me._
    * _I was bitten by dogs, kidnapped by a UFO, but I made it home._
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155396/projects/im-ok-button/image6.png" alt = "BigClown Playground MQTT messages" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155396/projects/im-ok-button/image6.png" alt = "HARDWARIO Playground MQTT messages" >}}
 
 Confirm it with the **Done** button and link both nodes by dragging the mouse from one bubble to the other. 🐁
 
@@ -89,7 +89,7 @@ Confirm the settings by pressing the **Add** and **Done** buttons.
 
 3. **Connect the node and Blynk with the yellow node where you have set the message**. Now you have programmed the device so that pressing the button on the box ➡️ turns into a message ➡️ that goes all the way to your parents’ mobile. **👾**
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155396/projects/im-ok-button/image5.png" alt = "Connect nodes in BigClown Playground" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155396/projects/im-ok-button/image5.png" alt = "Connect nodes in HARDWARIO Playground" >}}
 
 ❗ Start and confirm the entire flow with the red **Deploy** button on the top right. 🚨
 

@@ -2,14 +2,14 @@
 title: Handbook
 meta:
     title:  The Handbook for Big Clown Maker Kits | A box that helps you take control of your world
-    description: Get ahead of the game. Build the kit from BigClown products and create your own IoT project. Use the handbook and our advice for your future digital masterpieces.
-mainHeading: Handbook for BigClown Kit
+    description: Get ahead of the game. Build the kit from HARDWARIO products and create your own IoT project. Use the handbook and our advice for your future digital masterpieces.
+mainHeading: Handbook for HARDWARIO Kit
 mainParagraph: A device that helps you control your world
 kit: ["starter-kit"]
 menu: []
 weight: 5
 image: intro_EN.png
-perex: <p>Get ahead of the game. <strong>BigClown</strong> is an entertaining device that will help you understand and create the <strong>Internet of Things</strong> (IoT). It means that everything around you, even your chair, can become a smart device <strong>connected with your computer or mobile phone</strong>. Thanks to this connection, you can start to improve your home, classroom or even the entire city and the world in a digital way.</p><p>The <strong>Starter Kit</strong> is the fundamental kit to get you started, however, you can later upgrade it with our extensive range of kits. See how you can build your first smart device and how to create projects that will amaze your friends, family and us as well. 👌</p>
+perex: <p>Get ahead of the game. <strong>HARDWARIO</strong> is an entertaining device that will help you understand and create the <strong>Internet of Things</strong> (IoT). It means that everything around you, even your chair, can become a smart device <strong>connected with your computer or mobile phone</strong>. Thanks to this connection, you can start to improve your home, classroom or even the entire city and the world in a digital way.</p><p>The <strong>Starter Kit</strong> is the fundamental kit to get you started, however, you can later upgrade it with our extensive range of kits. See how you can build your first smart device and how to create projects that will amaze your friends, family and us as well. 👌</p>
 ---
 
 <div class="collapsor__item">
@@ -20,7 +20,7 @@ perex: <p>Get ahead of the game. <strong>BigClown</strong> is an entertaining de
 <span class = "font-red font-font2 font-weight-bold font-15 text-decoration-underline">Let's do it</span>
 </div>
 <div class = "col-md-6 align-self-center">
-<img src="/_assets/images/starter-kit/2-ilustrace-devce-sestavuje-KIT-korektura.png" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/2-ilustrace-devce-sestavuje-KIT-korektura.png" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 </div>
@@ -34,7 +34,7 @@ perex: <p>Get ahead of the game. <strong>BigClown</strong> is an entertaining de
 <p>These parts are collectively called <strong>hardware</strong>, which means a fixed part of any device. Also, these few elements will be enough for many of your projects.</p>
 </div>
 <div class = "col-md-6 align-self-center">
-<img src="/_assets/images/starter-kit/3-infografika-dily-kitu-en.png" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/3-infografika-dily-kitu-en.png" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 
@@ -69,14 +69,14 @@ perex: <p>Get ahead of the game. <strong>BigClown</strong> is an entertaining de
 </ul>
 </div>
 <div class = "col-md-6 align-self-center">
-<img src="/_assets/images/starter-kit/skladacka.gif" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/skladacka.gif" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 
 <div class = "col-md-6 align-self-center">
-<img src="/_assets/images/starter-kit/mas-to-dobre-1.jpg" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/mas-to-dobre-1.jpg" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 <div class = "col-md-6 align-self-center">
-<img src="/_assets/images/starter-kit/mas-to-dobre-2.jpg" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/mas-to-dobre-2.jpg" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 </div>
@@ -94,7 +94,7 @@ perex: <p>Get ahead of the game. <strong>BigClown</strong> is an entertaining de
 <span class = "font-red font-font2 font-weight-bold font-15 text-decoration-underline">Let's do it</span>
 </div>
 <div class = "col-md-6 align-self-center">
-<img src="/_assets/images/starter-kit/4-ilustrace-kluk-u-PC-s-KITem.png" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/4-ilustrace-kluk-u-PC-s-KITem.png" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 
@@ -112,7 +112,7 @@ perex: <p>Get ahead of the game. <strong>BigClown</strong> is an entertaining de
 </ol>
 </div>
 <div class = "col-md-6 align-self-center text-center">
-<img src="/_assets/images/starter-kit/gif-ikonka-playground.gif" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/gif-ikonka-playground.gif" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 <div class = "col-md-8 text-left">
 {{< playground-download >}}
@@ -132,7 +132,7 @@ perex: <p>Get ahead of the game. <strong>BigClown</strong> is an entertaining de
 <span class = "font-red font-font2 font-weight-bold font-15 text-decoration-underline">Let's do it</span>
 </div>
 <div class = "col-md-6 align-self-center">
-<img src="/_assets/images/starter-kit/5-ilustrace-kluk-zapojuje-Dongle.png" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/5-ilustrace-kluk-zapojuje-Dongle.png" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 
@@ -159,7 +159,7 @@ perex: <p>Get ahead of the game. <strong>BigClown</strong> is an entertaining de
 </ol>
 </div>
 <div class = "col-md-6">
-<img src="/_assets/images/starter-kit/connect-gif.gif" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/connect-gif.gif" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 <div class="row">
@@ -208,7 +208,7 @@ Click on the <strong>Devices</strong> tab: do you see “push-button:0” in the
 <span class = "font-red font-font2 font-weight-bold font-15 text-decoration-underline">Let's do it</span>
 </div>
 <div class = "col-md-6 align-self-center">
-<img src="/_assets/images/starter-kit/6-ilustrace-devce-meri-teplotu.png" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/6-ilustrace-devce-meri-teplotu.png" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 
@@ -236,7 +236,7 @@ Click on the <strong>Devices</strong> tab: do you see “push-button:0” in the
 
 </div>
 <div class = "col-md-6">
-<img src="/_assets/images/starter-kit/mereni-dechu.png" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/mereni-dechu.png" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 
@@ -255,7 +255,7 @@ Click on the <strong>Devices</strong> tab: do you see “push-button:0” in the
 <p><strong>Our tip:</strong> Use the box as a smart throwing cube. Maybe for the game, Ludo.</p>
 </div>
 <div class = "col-md-6">
-<img src="/_assets/images/starter-kit/zmena-polohy.png" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/zmena-polohy.png" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 
@@ -275,7 +275,7 @@ Click on the <strong>Devices</strong> tab: do you see “push-button:0” in the
 
 </div>
 <div class = "col-md-6">
-<img src="/_assets/images/starter-kit/pocitani-akce.png" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/pocitani-akce.png" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 </div>
@@ -291,7 +291,7 @@ Click on the <strong>Devices</strong> tab: do you see “push-button:0” in the
 <span class = "font-red font-font2 font-weight-bold font-15 text-decoration-underline">Let's do it</span>
 </div>
 <div class = "col-md-6 align-self-center">
-<img src="/_assets/images/starter-kit/7-ilustrace-kluk-sestavuje-zvonek.png" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/7-ilustrace-kluk-sestavuje-zvonek.png" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 

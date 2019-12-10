@@ -4,9 +4,9 @@ draft: false
 featured: true
 handbook: Who has the strongest centrifugal force? Create an IoT spintop and measure it
 date: 2019-09-26T17:27:58.808Z
-description: "Measure it against your friends to see who is centrifugally the strongest one! \U0001F4AA Instructions on how to build a smart spintop from the BigClown Starter Kit. "
+description: "Measure it against your friends to see who is centrifugally the strongest one! \U0001F4AA Instructions on how to build a smart spintop from the HARDWARIO Starter Kit. "
 meta_title: Who has the strongest centrifugal force? Create an IoT spintop and measure it
-meta_description: "Measure it against your friends to see who is centrifugally the strongest one! \U0001F4AA Instructions on how to build a smart spintop from the BigClown Starter Kit. "
+meta_description: "Measure it against your friends to see who is centrifugally the strongest one! \U0001F4AA Instructions on how to build a smart spintop from the HARDWARIO Starter Kit. "
 modules: ["core","button","mini_battery","usb_dongle"]
 image_preview: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1569520617/projects/highest-centrifugal-force/5-ilustrace-hra-s-kamarady-o-nejvetsi-odstredivou-silu.png
@@ -23,7 +23,7 @@ Do you remember the spintop? You might have had a wooden or plastic one, but we 
 
 In this project, you will learn **to measure the fast spinning of the box**.  👈
 
-All you need is the **box with button** and the **USB dongle** in the basic BigClown [Starter Kit](https://shop.hardwario.com/starter-kit/).
+All you need is the **box with button** and the **USB dongle** in the basic HARDWARIO [Starter Kit](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 
@@ -36,7 +36,7 @@ All you need is the **box with button** and the **USB dongle** in the basic BigC
 
 3. [Pair the Core Module with the USB Dongle]({{< ref "/academy/how-to-pair-kit.en.md" >}}). Right after pairing it, you will notice that your Core Module has changed Alias to **rotation-g-meter**.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566292682/projects/highest-centrifugal-force/image11.png" alt = "BigClown devices list" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566292682/projects/highest-centrifugal-force/image11.png" alt = "HARDWARIO devices list" >}}
 
 ## Build in the Node-RED
 
@@ -102,7 +102,7 @@ if(lastSpinTime > flow.get("timeRecord"))
 
 In the **Name** field, name the node as _Save the record_.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566292681/projects/highest-centrifugal-force/image3.png" alt = "Javascript Funciton BigClown Kit" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566292681/projects/highest-centrifugal-force/image3.png" alt = "Javascript Funciton HARDWARIO Kit" >}}
 
 Confirm it with the **Done** button.
 
@@ -132,7 +132,7 @@ You will determine in it how the length of the latest rotation is displayed: _Ti
 
 10. Next to each level, place one **Text node** from the Dashboard section. Those will affect the way you see the record time registered in the graph.  Set up the **Record label** and **Record** **time**, respectively.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566292682/projects/highest-centrifugal-force/image4.png" alt = "BigClown playground text nodes" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566292682/projects/highest-centrifugal-force/image4.png" alt = "HARDWARIO playground text nodes" >}}
 
 11. And then **connect** it all as shown in the picture. You will have two separate flows on the desktop. In the end, don’t forget to press the **Deploy** button to make it all work. 🚨
 

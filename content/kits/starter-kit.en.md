@@ -2,7 +2,7 @@
 title: Starter Kit
 id: basic
 kit: ["starter-kit"]
-description: The best start with BigClown Kit!
+description: The best start with HARDWARIO Kit!
 isBasic: false
 isPremium: false
 isUltimate: true
@@ -37,4 +37,4 @@ techSpecs:
 eduText: Discovery the fundamentals with this handy kit.
 ---
 
-The basic set for start with BigClown is Starter Kit, in future you can upgrade it with more modules. Build your first smart device and create projects to amaze friends, family and us.👌 Kit enables you to measure temperature, work with accelerometer or control anything with a button.
+The basic set for start with HARDWARIO is Starter Kit, in future you can upgrade it with more modules. Build your first smart device and create projects to amaze friends, family and us.👌 Kit enables you to measure temperature, work with accelerometer or control anything with a button.

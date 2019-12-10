@@ -1,11 +1,11 @@
 ---
 title: Pošli mámě do mobilu zprávu, že jsi v pohodě přišel domů
 meta_title: Vyrob si IoT tlačítko, se kterým pošleš mámě zprávu do mobilu
-meta_description: Návod na to, jak si ze Starter Kitu od BigClown vytvoříš chytré tlačítko. To pošle do mobilu zprávu tvojí mámě, že jsi v pohodě dorazil domů.
+meta_description: Návod na to, jak si ze Starter Kitu od HARDWARIO vytvoříš chytré tlačítko. To pošle do mobilu zprávu tvojí mámě, že jsi v pohodě dorazil domů.
 slug: jsem-ok-tlacitko
 draft: false
 date: 2019-08-12
-description: Vytvoř si ze Starter Kitu od BigClown IoT detektor změny pohybu s tímhle jednoduchým návodem. A nezapomeň ho s kámoši otestovat v cool hře.
+description: Vytvoř si ze Starter Kitu od HARDWARIO IoT detektor změny pohybu s tímhle jednoduchým návodem. A nezapomeň ho s kámoši otestovat v cool hře.
 tags:
   - Projekt na doma
 image_preview: /upload/ilustrace-notifikace-tlacitkem-ze-jsem-doma.png
@@ -24,7 +24,7 @@ Rodiče ti každý den volají, jestli jsi ze školy dorazil domů? Je to sice o
 
 V tomhle projektu se naučíš, **jak tlačítkem poslat zprávu do mobilu svých rodičů**. 👩👱
 
-Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Vystačíš si se základní BigClown sadou, tedy [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
+Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Vystačíš si se základní HARDWARIO sadou, tedy [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 
@@ -55,14 +55,14 @@ Potvrď pomocí tlačítka **Done**.
 
 1. Zprávu si nastavíš taky tady v Node-RED. Kamkoli vedle světle fialového inputu MQTT přetáhni **žlutý node ze sekce Functions s názvem Change**.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155397/projects/im-ok-button/image7.png" alt = "Change Node BigClown Playground" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155397/projects/im-ok-button/image7.png" alt = "Change Node HARDWARIO Playground" >}}
 
 2. Na node dvakrát klikni a do pole **Rules** (pravidla) napiš svou zprávu pro rodiče. Jenom pozor, na Blynku se nezobrazují háčky a čárky. Malá inspirace:
 	- *Klidek. Jsem doma a v bezpeci.*
 	- *Mame doma celebritu… Delam si srandu. To jsem ja.*
 	- *Pokousali me psi, uneslo me UFO, ale uz jsem doma.*
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155396/projects/im-ok-button/image6.png" alt = "BigClown Playground MQTT messages" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155396/projects/im-ok-button/image6.png" alt = "HARDWARIO Playground MQTT messages" >}}
 
 Potvrď tlačítkem **Done** a oba nody propoj táhnutím myší od jedné bubliny k druhé. 🐁
 
@@ -92,7 +92,7 @@ Nastavení potvrď postupně tlačítky **Add** a **Done**.
 
 3. **Node s Blynkem propoj se žlutým nodem, do kterého jsi nastavil zprávu.** Teď jsi zařízení naprogramoval tak, aby se stisknutí tlačítka na krabičce ➡️ proměnilo ve zprávu, ➡️ která doputuje až do mobilu tvých rodičů. 👾
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155396/projects/im-ok-button/image5.png" alt = "Connect nodes in BigClown Playground" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155396/projects/im-ok-button/image5.png" alt = "Connect nodes in HARDWARIO Playground" >}}
 
 ❗ Celý flow odstartuj a potvrď červeným tlačítkem **Deploy** vpravo nahoře. 🚨
 

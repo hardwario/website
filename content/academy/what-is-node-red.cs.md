@@ -3,14 +3,14 @@ date: "2019-08-12"
 title: "Co je to Node-RED a jak se v něm programuje"
 slug: co-je-node-red
 meta_title: Nauč se programovat v Node-RED
-meta_description: Svému BigClown kitu zadáš příkazy v programovacím nástroji Node-RED. Ten je úžasně intuitivní a pracovat se v něm naučíš za pár minut. Přesvědč se sám.
-description: Svému BigClown kitu zadáš příkazy v programovacím nástroji Node-RED. Ten je úžasně intuitivní a pracovat se v něm naučíš za pár minut. Přesvědč se sám.
+meta_description: Svému HARDWARIO kitu zadáš příkazy v programovacím nástroji Node-RED. Ten je úžasně intuitivní a pracovat se v něm naučíš za pár minut. Přesvědč se sám.
+description: Svému HARDWARIO kitu zadáš příkazy v programovacím nástroji Node-RED. Ten je úžasně intuitivní a pracovat se v něm naučíš za pár minut. Přesvědč se sám.
 image_preview: /upload/pouzivani-bigclown-playground.jpg
 image_main: /upload/pouzivani-bigclown-playground.jpg
 weight: 40
 ---
 
-Aby krabička poslouchala tvoje příkazy, musíš mluvit jejím jazykem. A krabička BigClown mluví programovacím jazykem Node-RED. Ale neboj, slovníky a učebnice nejsou potřeba – naučíš se ho používat za pár minut. 💪
+Aby krabička poslouchala tvoje příkazy, musíš mluvit jejím jazykem. A krabička HARDWARIO mluví programovacím jazykem Node-RED. Ale neboj, slovníky a učebnice nejsou potřeba – naučíš se ho používat za pár minut. 💪
 
 
 ## Co je to Node-RED?

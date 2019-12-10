@@ -21,7 +21,7 @@ buyLink: https://shop.hardwario.com/school-multi-kit/
 modules: ["core","mini_battery","button","enclosures-button"]
 optionalModules: ["usb_dongle","sigfox","lora"]
 eduText: Inspire the entire classroom, set contains favourite modules
-eduBenefits: ["Special kit for schools","60 modules and accessories", "Contains BigClown Hub", "You can build any BigClown project"]
+eduBenefits: ["Special kit for schools","60 modules and accessories", "Contains HARDWARIO Hub", "You can build any HARDWARIO project"]
 ---
 
-Teacher's set is speacialized for teachers. It enables you and kids to build all BigClown projects. Set contains all BigClown modules and also BigClown Hub with Raspberry Pi.
+Teacher's set is speacialized for teachers. It enables you and kids to build all HARDWARIO projects. Set contains all HARDWARIO modules and also HARDWARIO Hub with Raspberry Pi.

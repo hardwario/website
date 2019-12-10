@@ -2,9 +2,9 @@
 date: "2019-08-12"
 title: "Jak propojíš Blynk s krabičkou"
 slug: jak-pripojit-blynk
-meta_title: Jak propojit BigClown s aplikací Blynk
-meta_description: Aby ti tvůj IoT vynález od BigClowna posílal notifikace na mobil, potřebuješ ho spárovat s Blynkem. Koukni na náš jednoduchý návod.
-description: Aby ti tvůj IoT vynález od BigClowna posílal notifikace na mobil, potřebuješ ho spárovat s Blynkem. Koukni na náš jednoduchý návod.
+meta_title: Jak propojit HARDWARIO s aplikací Blynk
+meta_description: Aby ti tvůj IoT vynález od HARDWARIO posílal notifikace na mobil, potřebuješ ho spárovat s Blynkem. Koukni na náš jednoduchý návod.
+description: Aby ti tvůj IoT vynález od  posílal notifikace na mobil, potřebuješ ho spárovat s Blynkem. Koukni na náš jednoduchý návod.
 image_preview: /upload/mobile-phone.jpg
 image_main: /upload/mobile-phone.jpg
 weight: 60
@@ -26,7 +26,7 @@ Jak krabičku propojit s Blynkem ti ukážeme na nodu **Notify**, ale neboj, pos
 
 1. **Appku Blynk** si na mobil stáhneš z [App store](https://apps.apple.com/us/app/blynk-iot-for-arduino-esp32/id808760481), nebo [Google Play](https://play.google.com/store/apps/details?id=cc.blynk&hl=en). Přihlas se do ní, nebo si vytvoř účet. Je to stejné, jako když se třeba registruješ do on-line hry.
 2. Vytvoř v appce nový projekt: klikni na **New project**.
-3. Pod Choose device vyber hardware **BigClown IoT Kit**.
+3. Pod Choose device vyber hardware **HARDWARIO IoT Kit**.
 4. Potvrď kliknutím na tlačítko **Create**. Teď se ti na mail odeslal token (neboli elektronický klíč) k projektu, pomocí kterého se pak k mobilu připojíš z počítače. Prozatím ještě ale zůstaň v appce. 📱
 
 ❓ **Co když mi token nepřišel?** Zkontroluj si složku se spamem. Ani sem e-mail nezapadl? Pošli si ho znovu. V Blynku na záložce Project settings uvidíš svůj auth token, pod ním je tlačítko E-Mail. Klikni na něj a checkni svou schránku znovu. 👋

@@ -1,7 +1,7 @@
 ---
 title: ULTIMATE Multi Kit
 id: ultimate
-description: Staň se opravdovým BigClowním mejkrem!
+description: Staň se opravdovým HARDWARIOím mejkrem!
 isBasic: false
 isPremium: false
 isUltimate: false
@@ -22,4 +22,4 @@ modules: ["usb_dongle","core-7","mini_battery-5","battery","button","climate","p
 optionalModules: ["sigfox","lora"]
 ---
 
-Staňte se skutečným BigClown makerem! S touto sadou si můžete postavit všechny BigClown projekty včetně CO2 Monitor. Sada obsahuje Radio Dongle, který bude sloužit jako gateway k zařízením, která postavíte.
+Staňte se skutečným HARDWARIO makerem! S touto sadou si můžete postavit všechny HARDWARIO projekty včetně CO2 Monitor. Sada obsahuje Radio Dongle, který bude sloužit jako gateway k zařízením, která postavíte.

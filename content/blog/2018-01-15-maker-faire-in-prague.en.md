@@ -13,7 +13,7 @@ we are thrilled to experience the first **Maker Faire** event in Prague in the h
 
 These are the roles we are going to take our part in:
 
-* We will organize the so-called **Clownference** - a series of practical workshops about hardware design, firmware development and building great projects with the **BigClown IoT Kit**.
+* We will organize the so-called **Clownference** - a series of practical workshops about hardware design, firmware development and building great projects with the **HARDWARIO IoT Kit**.
 
 * Networking is a part of our DNA. That's why we are approaching some of the **greatest influencers** to make this event epic.
 
@@ -21,13 +21,13 @@ These are the roles we are going to take our part in:
 
 * We will do the on-site **printing of our enclosures** on 3D printers from Prusa (i3 MK3). We will be printing them for you for free!
 
-* There will be a live demonstration of two **BigClown integrations**:
+* There will be a live demonstration of two **HARDWARIO integrations**:
 
     * Secure router **Turris Omnia** (CZ.NIC)
 
     * Cloud platform **Anemone** (Juicymo)
 
-Don't forget to **sign up your project** and exhibit and share it with other people for free. It does not matter whether it is built on Raspberry Pi, Arduino or BigClown... just **show what you achieved**.
+Don't forget to **sign up your project** and exhibit and share it with other people for free. It does not matter whether it is built on Raspberry Pi, Arduino or HARDWARIO... just **show what you achieved**.
 
 We appreciate a generous donation from **Prusa Research** which makes this amazing event possible.
 

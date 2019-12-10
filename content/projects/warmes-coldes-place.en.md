@@ -5,13 +5,13 @@ featured: true
 handbook: starter-kit
 date: 2019-10-13T15:25:02.143Z
 description: >-
-  One of the IoT projects to enhance digital skills. With the BigClown Starter
+  One of the IoT projects to enhance digital skills. With the HARDWARIO Starter
   Kit, build a device that will help you find the coolest and hottest place in
   your school.
 slug: the-coolest-and-the-hottest-place
 meta_title: 'IoT game for the whole class: Measure the temperature in your school'
 meta_description: >-
-  One of the IoT projects to enhance digital skills. With the BigClown Starter
+  One of the IoT projects to enhance digital skills. With the HARDWARIO Starter
   Kit, build a device that will help you find the coolest and hottest place in
   your school.
 image_preview: >-
@@ -42,7 +42,7 @@ With this project you will learn to **measure temperature with IoT and display i
 1. Put together the Starter Kit and pair it: if you are doing it for the first time, [we have prepared a simple guide here]({{< ref "/handbook/_index.en.md" >}}). For the Core Module, you need the **radio push button** firmware. If you don’t know how to download the firmware or what it is, [you will find out here]({{< ref "/academy/how-to-flash-firmware.en.md" >}}).
 2. You can see the temperature changes in the **Messages** tab in the Playground.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566156994/projects/wormest-coldest-place/image10.png" alt = "MQTT messages in BigClown Playground" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566156994/projects/wormest-coldest-place/image10.png" alt = "MQTT messages in HARDWARIO Playground" >}}
 
 ## Set up the Node-RED
 

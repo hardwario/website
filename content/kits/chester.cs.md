@@ -2,7 +2,7 @@
 title: CHESTER
 id: basic
 kit: ["starter-kit"]
-description: Perfektní začátek se stavebnicí BigClown!
+description: Perfektní začátek se stavebnicí HARDWARIO!
 isBasic: false
 isPremium: false
 isUltimate: true

@@ -1,11 +1,11 @@
 ---
 title: Vyrob si IoT tlačítko, se kterým tě rodiče zavolají k večeři
 meta_title: Vyrob si IoT tlačítko, které ti pošle zprávu do mobilu
-meta_description: Návod na to, jak si ze Starter Kitu od BigClown vytvoříš IoT tlačítko, se kterým tě rodiče zavolají k večeři, když zrovna paříš.
+meta_description: Návod na to, jak si ze Starter Kitu od HARDWARIO vytvoříš IoT tlačítko, se kterým tě rodiče zavolají k večeři, když zrovna paříš.
 slug: tlacitko-pro-rodice
 draft: false
 date: 2019-08-19
-description: Návod na to, jak si ze Starter Kitu od BigClown vytvoříš IoT tlačítko, se kterým tě rodiče zavolají k večeři, když zrovna paříš.
+description: Návod na to, jak si ze Starter Kitu od HARDWARIO vytvoříš IoT tlačítko, se kterým tě rodiče zavolají k večeři, když zrovna paříš.
 tags:
   - Projekt na doma
 idea: false
@@ -26,7 +26,7 @@ Znáš to? Paříš jak drak nebo posloucháš hudbu na plné pecky, a když tě
 
 V tomhle projektu se naučíš, **jak tlačítkem poslat zprávu do mobilu** odkudkoli v domě. 👌
 
-Budeš potřebovat krabičku s **tlačítkem** a **USB dongle**. Proto si vystačíš se základní BigClown sadou, tedy [**Starter Kitem**](https://shop.hardwario.com/starter-kit/). Pokud máš v ruce krabičku Starter Kit poprvé, [nejdřív se s ní dobře seznam]({{< ref "/handbook/_index.cs.md" >}}).
+Budeš potřebovat krabičku s **tlačítkem** a **USB dongle**. Proto si vystačíš se základní HARDWARIO sadou, tedy [**Starter Kitem**](https://shop.hardwario.com/starter-kit/). Pokud máš v ruce krabičku Starter Kit poprvé, [nejdřív se s ní dobře seznam]({{< ref "/handbook/_index.cs.md" >}}).
 
 {{< modules >}}
 
@@ -83,7 +83,7 @@ Zkus si to. **Oba nody propoj** táhnutím myší od jedné bubliny k druhé. Ea
 
 1. Tvoje krabička s tlačítkem se propojí se smartphonem díky appce Blynk. A to je cool. 😎 Stáhni si na mobil **appku Blynk** z [App Store](https://apps.apple.com/us/app/blynk-iot-for-arduino-esp32/id808760481), nebo [Google Play](https://play.google.com/store/apps/details?id=cc.blynk&hl=en). Přihlas se do ní, nebo si vytvoř účet.
 2. Vytvoř v appce nový projekt: klikni na **New project**.
-3. Pod “Choose device” vyber hardware **BigClown IoT Kit**.
+3. Pod “Choose device” vyber hardware **HARDWARIO IoT Kit**.
 4. Potvrď kliknutím na tlačítko Create. Teď se ti na mail odeslal **token** (neboli elektronický klíč) k projektu, pomocí kterého se pak k mobilu připojíš z počítače. Prozatím ještě ale zůstaň v appce. 📱<br/><br/>
 ❓ **Co když mi token nepřišel?** Zkontroluj si složku se spamem. E-mail není ani tu? Pošli si ho znovu. V Blynku na záložce Project settings uvidíš svůj auth token, pod ním je tlačítko **E-Mail**. Klikni na něj a checkni svou schránku ještě jednou. 👋
 

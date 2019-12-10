@@ -5,9 +5,9 @@ featured: true
 modules: ["core","button","mini_battery","usb_dongle"]
 handbook:
 date: 2019-09-22T19:29:41.283Z
-description: Using Starter Kit by BigClown, build an IoT guard to watch over your food in the fridge. We have prepared an easy-to-follow instructions to do that.
+description: Using Starter Kit by HARDWARIO, build an IoT guard to watch over your food in the fridge. We have prepared an easy-to-follow instructions to do that.
 meta_title: Catch the greedy snack thief in the act
-meta_description: Using Starter Kit by BigClown, build an IoT guard to watch over your food in the fridge. We have prepared an easy-to-follow instructions to do that.
+meta_description: Using Starter Kit by HARDWARIO, build an IoT guard to watch over your food in the fridge. We have prepared an easy-to-follow instructions to do that.
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1573639706/projects/Catch-the-greedy-snack-thief-in-the-act/hardwario-ilustrace-zjisttim-jak-velka-zima-je-v-lednici.png
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1573639706/projects/Catch-the-greedy-snack-thief-in-the-act/hardwario-ilustrace-zjisttim-jak-velka-zima-je-v-lednici.png
 tags:
@@ -23,7 +23,7 @@ You know this for sure. In the fridge, you keep the last piece of cake from your
 
 In this project, you will learn to make a **fridge opening detector.** 👈
 
-All you need is the box with button and the USB dongle in the basic BigClown [Starter Kit](https://shop.hardwario.com/starter-kit/).
+All you need is the box with button and the USB dongle in the basic HARDWARIO [Starter Kit](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 
@@ -34,7 +34,7 @@ All you need is the box with button and the USB dongle in the basic BigClown [St
    **Our tip:** You don't know how to download firmware or what it even is? [You can find out here]({{< ref "/academy/how-to-flash-firmware.en.md" >}}).
 3. [Pair the Core Module with the USB Dongle]({{< ref "/academy/how-to-pair-kit.en.md" >}}). Right after pairing it, you will notice that your Core Module has changed Alias to **x-axis-detector**.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566154098/projects/catch-the-mist/image8.png" alt = "BigClown Playground - devices" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566154098/projects/catch-the-mist/image8.png" alt = "HARDWARIO Playground - devices" >}}
 
 ## Get it started in the Node-RED
 

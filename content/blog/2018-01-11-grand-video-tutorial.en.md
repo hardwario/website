@@ -9,7 +9,7 @@ author: "pavel_hubner"
 
 Hey guys,
 
-our friend **Martin Hubáček** has created a wonderful **video tutorial** that will help you to get started with the **BigClown IoT Kit**. You will get a grasp how to control relay, smart LED strip and work with **Node-RED** flow-based programming. I hope you will enjoy watching it as much as I did.
+our friend **Martin Hubáček** has created a wonderful **video tutorial** that will help you to get started with the **HARDWARIO IoT Kit**. You will get a grasp how to control relay, smart LED strip and work with **Node-RED** flow-based programming. I hope you will enjoy watching it as much as I did.
 
 You will find the **YouTube video** below or start watching it here right away:
 

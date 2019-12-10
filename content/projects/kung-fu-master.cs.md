@@ -1,11 +1,11 @@
 ---
 title: Který z tvých kámošů je zenový kung-fu mástr? 🐉
 meta_title: Který z tvých kámošů je zenový kung-fu mástr? 🐉
-meta_description: Vytvoř si ze Starter Kitu od BigClown IoT detektor změny pohybu s tímhle jednoduchým návodem. A nezapomeň ho s kámoši otestovat v cool hře.
+meta_description: Vytvoř si ze Starter Kitu od HARDWARIO IoT detektor změny pohybu s tímhle jednoduchým návodem. A nezapomeň ho s kámoši otestovat v cool hře.
 slug: kung-fu-mastr
 draft: false
 date: 2019-08-12
-description: Vytvoř si ze Starter Kitu od BigClown IoT detektor změny pohybu s tímhle jednoduchým návodem. A nezapomeň ho s kámoši otestovat v cool hře.
+description: Vytvoř si ze Starter Kitu od HARDWARIO IoT detektor změny pohybu s tímhle jednoduchým návodem. A nezapomeň ho s kámoši otestovat v cool hře.
 tags:
   - Hra
 idea: false
@@ -26,7 +26,7 @@ S touhle hrou se s kámoši nudit nebudete. Nastav si svůj Starter Kit tak, aby
 
 V tomhle projektu se naučíš vytvořit takzvaný **still position detector**, tedy **detektor pohybu**. 👈
 
-Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vystačíš se základní BigClown sadou – [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
+Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vystačíš se základní HARDWARIO sadou – [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

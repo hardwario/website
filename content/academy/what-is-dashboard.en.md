@@ -1,15 +1,15 @@
 ---
-title: Create your own dashboard for BigClown
+title: Create your own dashboard for HARDWARIO
 draft: false
 date: 2019-09-26T18:53:49.915Z
 weight: 60
 description: >-
-  Do you want to see data from your BigClown box in colour charts and
+  Do you want to see data from your HARDWARIO box in colour charts and
   indicators? Create a handy dashboard, we’ll tell you how.
 slug: Create-your-own-dashboard
-meta_title: Create your own dashboard for the BigClown
+meta_title: Create your own dashboard for the HARDWARIO
 meta_description: >-
-  Do you want to see data from your BigClown box in colour charts and
+  Do you want to see data from your HARDWARIO box in colour charts and
   indicators? Create a handy dashboard, we’ll tell you how.
 image_preview: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1566160234/academy/what-is-dashboard/image6.png

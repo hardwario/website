@@ -3,12 +3,12 @@ title: Co je to dashboard a jak ho vytvoříš
 date: '2019-08-13'
 weight: 50
 description: >-
-  Chceš vidět data ze své BigClown krabičky v barevných grafech a ukazatelích?
+  Chceš vidět data ze své HARDWARIO krabičky v barevných grafech a ukazatelích?
   Vytvoř pro ni šikovný dashboard. Poradíme ti, jak na to.
 slug: co-je-dashboard
-meta_title: Vytvoř si pro BigClown vlastní dashboard
+meta_title: Vytvoř si pro HARDWARIO vlastní dashboard
 meta_description: >-
-  Chceš vidět data ze své BigClown krabičky v barevných grafech a ukazatelích?
+  Chceš vidět data ze své HARDWARIO krabičky v barevných grafech a ukazatelích?
   Vytvoř pro ni šikovný dashboard. Poradíme ti, jak na to.
 image_preview: /upload/dashboard.jpg
 image_main: /upload/dashboard.jpg

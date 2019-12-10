@@ -7,7 +7,7 @@ image_main: "/blog/2018-08-30-pwm-support/main.png"
 author: "martin_hubacek"
 ---
 
-Hello, we have published [**PWM library**](http://sdk.bigclown.com/group__bc__pwm.html) and [**servo motor library**](http://sdk.bigclown.com/group__bc__servo.html) in the latest **BigClown SDK**.
+Hello, we have published [**PWM library**](http://sdk.bigclown.com/group__bc__pwm.html) and [**servo motor library**](http://sdk.bigclown.com/group__bc__servo.html) in the latest **HARDWARIO SDK**.
 
 Pulse Width Modulation (PWM) is a method to create analog-like signal from the microcontroller digital output. It will achieve that by fast toggling of the pin with different ratio of logic **HIGH** and **LOW**. This ratio is called **duty cycle**.
 

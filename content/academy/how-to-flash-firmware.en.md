@@ -8,7 +8,7 @@ description: >-
   will understand what is firmware for and you will learn to set it up
   correctly.
 slug: how-to-flash-firmware
-meta_title: How to instal firmware in your BigClown
+meta_title: How to instal firmware in your HARDWARIO
 meta_description: >-
   Without firmware, your IoT box won’t work properly. Thanks to this article you
   will understand what is firmware for and you will learn to set it up
@@ -47,26 +47,26 @@ You can update both the **USB Dongle** and the **Core module** from your kit.
 1. Insert the **USB Dongle** into your computer and open the **Playground** programme. How else? 😅
 2. In the Devices tab, you can see in the top field what your dongle is doing. Based on this, you will be able to tell if you have the right firmware or not. Now we want the **Radio Dongle** there.
 
-![BigClown Playground USB dongle](https://res.cloudinary.com/lukasfabik/image/upload/v1566161114/academy/how-to-flash-firmware/image1.png "BigClown Playground USB dongle")
+![HARDWARIO Playground USB dongle](https://res.cloudinary.com/lukasfabik/image/upload/v1566161114/academy/how-to-flash-firmware/image1.png "HARDWARIO Playground USB dongle")
 
 3. The green Connect button next to the field is lit but **don’t press it**. You don’t want to connect yet. If necessary, disconnect.
 4. Now, you will be interested in the **Firmware** tab. Here you will find lots of firmware for various projects that you can upload to your device. 🕵️
 5. Type “dongle” in the field and click on the **gateway usb dongle**. On the right, select “latest version”. You also update the firmware in the same way.
-   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161115/academy/how-to-flash-firmware/image7.png" alt = "BigClown Playground USB dongle firmware" >}}
+   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161115/academy/how-to-flash-firmware/image7.png" alt = "HARDWARIO Playground USB dongle firmware" >}}
 6. A little lower, you can select **the right device** in the Device section. It’s the field that contains the bc-usb-dongle.
-   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161115/academy/how-to-flash-firmware/image4.png" alt = "BigClown Playground USB dongle flash firmware" >}}
+   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161115/academy/how-to-flash-firmware/image4.png" alt = "HARDWARIO Playground USB dongle flash firmware" >}}
 7. Now click on the red **Flash firmware** button. This will download your programme. It will take a while, but then the sign _Done_ appears on the screen, and it’s done.
-   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161115/academy/how-to-flash-firmware/image2.png" alt = "BigClown Playground USB dongle firmware flashed" >}}
+   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161115/academy/how-to-flash-firmware/image2.png" alt = "HARDWARIO Playground USB dongle firmware flashed" >}}
 
 ## Download firmware for your project to the Core module
 
 1. Take your kit. For the update, you will need only the heart of the box, the **Core Module** board. It’s the red board with “Core module” written on it. 🙂
 2. The Core module has a **Micro USB** connector at its end. Using a cable (such as the mobile phone charger one), **connect it to your computer’s USB port**.
-   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161114/academy/how-to-flash-firmware/image3.jpg" alt = "BigClown Kit with Core Module" >}}
+   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161114/academy/how-to-flash-firmware/image3.jpg" alt = "HARDWARIO Kit with Core Module" >}}
 3. In the Firmware tab, select the right programme. For example, for the basic use of the Starter Kit you need the **radio push button**, for other projects, upload what is necessary.
-   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161115/academy/how-to-flash-firmware/image6.png" alt = "BigClown Playground Core Module firmware" >}}
+   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161115/academy/how-to-flash-firmware/image6.png" alt = "HARDWARIO Playground Core Module firmware" >}}
 4. Below that, **select the right device** in the Device section, the right field is the one containing bc-core-module.
-   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161114/academy/how-to-flash-firmware/image5.png" alt = "BigClown Playground Core Module choose firmware" >}}
+   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161114/academy/how-to-flash-firmware/image5.png" alt = "HARDWARIO Playground Core Module choose firmware" >}}
 5. Download the programme by clicking the **Flash firmware** button.
 6. Disconnect the cable.
 

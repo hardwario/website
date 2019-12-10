@@ -1,5 +1,5 @@
 ---
-title: Learn to debug messages in BigClown
+title: Learn to debug messages in HARDWARIO
 draft: false
 date: 2019-09-21T08:02:23.137Z
 weight: 60
@@ -8,7 +8,7 @@ description: >-
   debugger that will get the kinks out. We will give you advice on how to set it
   up and get it started.
 slug: learn-to-debug
-meta_title: Learn to debug messages in BigClown
+meta_title: Learn to debug messages in HARDWARIO
 meta_description: >-
   To tune up your IoT box programme to perfection, you can use the simple
   debugger that will get the kinks out. We will give you advice on how to set it
@@ -18,7 +18,7 @@ image_preview: >-
 image_main: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1569052768/academy/learn-to-debug-mesagges-in-bigclown/image2.png
 ---
-A spider enjoys having a juicy fly or other insect in its web. But there is no place for a bug in your little programme. Work out all the bugs, or glitches in the code, from your BigClown projects. 🐞 We will show you how to do that.
+A spider enjoys having a juicy fly or other insect in its web. But there is no place for a bug in your little programme. Work out all the bugs, or glitches in the code, from your HARDWARIO projects. 🐞 We will show you how to do that.
 
 ## What is a debug?
 

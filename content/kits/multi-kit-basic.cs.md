@@ -1,7 +1,7 @@
 ---
 title: BASIC Multi Kit
 id: basic
-description: Jednoduchý start, jak začít stavět IoT zařízení s BigClown!
+description: Jednoduchý start, jak začít stavět IoT zařízení s HARDWARIO!
 isBasic: false
 isPremium: false
 isUltimate: false

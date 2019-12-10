@@ -16,7 +16,7 @@ Internet věcí je zatím stále poměrně mladým pojmem. Přesto je něčím, 
 
 Připravili jsme ve spolupráci se společností ACCON **akreditovaný kurz _"Jak učit internet věcí"_ **pro **učitele a pedagogické pracovníky.**
 
-Účastníky během kurzu seznámíme s internetem věcí, jeho dopady na společnost i jednotlivce a na praktických příkladech se stavebnicí BigClown ukážeme, jak internet věcí učit.
+Účastníky během kurzu seznámíme s internetem věcí, jeho dopady na společnost i jednotlivce a na praktických příkladech se stavebnicí HARDWARIO ukážeme, jak internet věcí učit.
 
 **Cena školení je 2 500 Kč** za 1 účastníka. V případ registrace více účastníků je sleva 300 Kč za každého dalšího účastníka.
 

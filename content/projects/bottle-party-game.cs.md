@@ -5,12 +5,12 @@ featured: false
 handbook:
 date: 2019-08-12T00:00:00.000Z
 description: >-
-  Vytvoř si ze Starter Kitu od BigClown IoT tlačítko, se kterým vylosuješ
+  Vytvoř si ze Starter Kitu od HARDWARIO IoT tlačítko, se kterým vylosuješ
   náhodného člena vaší party.
 slug: party-hra-flaska
 meta_title: Hraj párty hru „flaška” elektronicky díky IoT
 meta_description: >-
-  Vytvoř si ze Starter Kitu od BigClown IoT tlačítko, se kterým vylosuješ
+  Vytvoř si ze Starter Kitu od HARDWARIO IoT tlačítko, se kterým vylosuješ
   náhodného člena vaší party.
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1573640047/projects/project_placeholder.jpg
 image_main: >-
@@ -28,7 +28,7 @@ Proč hrát flašku s flaškou, když ti na to stačí chytrá krabička? Nastav
 
 V tomhle projektu se naučíš, jak nastavit krabičku tak, aby **vylosovala náhodného člena** z vaší skupiny. 😱
 
-Budeš potřebovat **krabičku s tlačítkem** a **USB dongle**. Vystačíš si tedy se základní BigClown sadou, [**Starter Kitem**](https://obchod.bigclown.com/starter-kit/).
+Budeš potřebovat **krabičku s tlačítkem** a **USB dongle**. Vystačíš si tedy se základní HARDWARIO sadou, [**Starter Kitem**](https://obchod.bigclown.com/starter-kit/).
 
 {{< modules >}}
 
@@ -83,7 +83,7 @@ Potvrď tlačítkem **Done**.
 
 6. Dvojklikem node otevři a napiš sem svoji **hlášku**. Třeba _Vybírám…_
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149309/projects/bottle-party-game/image4.png" alt = "Node-RED - BigClown playground" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149309/projects/bottle-party-game/image4.png" alt = "Node-RED - HARDWARIO playground" >}}
 
 ## Nastav účastníky
 
@@ -93,7 +93,7 @@ Potvrď tlačítkem **Done**.
 
 2. Na node dvakrát klikni a v řádku **Label** ho pojmenuj jako _Reset_.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149308/projects/bottle-party-game/image13.png" alt = "BigClown Playground dashboard button" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149308/projects/bottle-party-game/image13.png" alt = "HARDWARIO Playground dashboard button" >}}
 
 Potvrď tlačítkem **Done**.
 
@@ -106,13 +106,13 @@ Potvrď tlačítkem **Done**.
    Zaškrtnuté okno hned pod tím **odškrtni**, aby se po resetu pole opravdu resetovala.
    Všechno tohle udělej u všech nodů s účastníky.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149306/projects/bottle-party-game/image6.png" alt = "BigClown Playground function" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149306/projects/bottle-party-game/image6.png" alt = "HARDWARIO Playground function" >}}
 
 Potvrď tlačítkem **Done**.
 
 5. Vedle účastníků nastav další javascript. Tenhle javascript přiřazuje jména účastníků na odpovídající místo. I tentokrát ho vložíš jako node **Function**.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149306/projects/bottle-party-game/image19.png" alt = "BigClown Playground function" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149306/projects/bottle-party-game/image19.png" alt = "HARDWARIO Playground function" >}}
 
 6. Dvojklikem na node otevřeš jeho nastavení. Do řádku **Label** vyplň jméno nodu a do pole **Function** zkopíruj tenhle kód:
 
@@ -161,7 +161,7 @@ Potvrď tlačítkem **Done**.
 
 3. A pak to všechno takhle krásně **spoj**. V horní části pospojuješ všechny nody, které zajišťují losování, ve spodní části pak nody, které vytvářejí losovací tabulku.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149307/projects/bottle-party-game/image15.png" alt = "BigClown Playground connect nodes in Node-RED" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149307/projects/bottle-party-game/image15.png" alt = "HARDWARIO Playground connect nodes in Node-RED" >}}
 
 4. Nezapomeň zmáčknout tlačítko **Deploy** v pravém horním rohu! 🚨
 
@@ -169,7 +169,7 @@ Potvrď tlačítkem **Done**.
 
 1. A teď už to rozjeďte! V záložce **Dashboard** vyplň všechny účastníky. Pokud sis v nodech pro jednotlivé účastníky nevolil dobu pro automatické obnovení, nezapomeň za každým jménem zmáčknout **Enter**. 👈
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149306/projects/bottle-party-game/image8.png" alt = "show dashboard Node-RED / BigClown Playground" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149306/projects/bottle-party-game/image8.png" alt = "show dashboard Node-RED / HARDWARIO Playground" >}}
 
 2. **Koho osud zvolí?** A na co? To je teď jenom na tobě. 😈
    Takhle můžeš třeba:

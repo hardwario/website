@@ -5,12 +5,12 @@ featured: false
 handbook: Starter Kit
 date: 2019-11-09T14:36:10.628Z
 description: >-
-  Vytvoř si ze Starter Kitu od BigClown IoT věšteckou kostku neboli magic
+  Vytvoř si ze Starter Kitu od HARDWARIO IoT věšteckou kostku neboli magic
   8-ball. Po zatřepání ti dá odpověď na všechno, co chceš vědět.
 slug: vestecka-koule
 meta_title: Vyvěšti si svůj osud s IoT
 meta_description: >-
-  Vytvoř si ze Starter Kitu od BigClown IoT věšteckou kostku neboli magic
+  Vytvoř si ze Starter Kitu od HARDWARIO IoT věšteckou kostku neboli magic
   8-ball. Po zatřepání ti dá odpověď na všechno, co chceš vědět.
 image_preview: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1573640047/projects/project_placeholder.jpg
@@ -28,7 +28,7 @@ I mladí programátoři chtějí znát svůj osud. Vyvěšti si ho s krabičkou.
 
 V tomhle projektu se naučíš udělat z krabičky věšteckou kouli neboli **magic 8-ball**. ️🎱 Nastavíš ji tak, aby při zatřepání náhodně zvolila jednu z možností.
 
-Budeš potřebovat **krabičku s tlačítkem a USB dongle**. Vystačíš si tedy se základní BigClown sadou, [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
+Budeš potřebovat **krabičku s tlačítkem a USB dongle**. Vystačíš si tedy se základní HARDWARIO sadou, [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

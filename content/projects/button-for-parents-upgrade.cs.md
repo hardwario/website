@@ -5,13 +5,13 @@ featured: false
 handbook: Starter Kit
 date: 2019-11-09T12:09:03.400Z
 description: >-
-  Vytvoř si ze Starter Kitu od BigClown IoT tlačítko, kterým tě rodiče přivolají
+  Vytvoř si ze Starter Kitu od HARDWARIO IoT tlačítko, kterým tě rodiče přivolají
   k snídani, obědu nebo večeři podle denní doby. Vyšší level pro všechny, kdo se
   nebojí!
 slug: vylepsene-tlacitko-pro-rodice
 meta_title: 'Upgrade tlačítka, kterým tě rodiče zavolají k jídlu'
 meta_description: >-
-  Vytvoř si ze Starter Kitu od BigClown IoT tlačítko, kterým tě rodiče přivolají
+  Vytvoř si ze Starter Kitu od HARDWARIO IoT tlačítko, kterým tě rodiče přivolají
   k snídani, obědu nebo večeři podle denní doby. Vyšší level pro všechny, kdo se
   nebojí!
 image_preview: >-
@@ -32,7 +32,7 @@ V tomhle projektu se naučíš **nastavit jinou zprávu na jiný čas**, odeslat
 
 Základní verzi tohohle projektu najdeš tady: [Vyrob si IoT tlačítko, se kterým tě máma zavolá k večeři](/cs/projects/tlacitko-pro-rodice/).
 
-Budeš potřebovat **krabičku s tlačítkem** a **USB dongle**. Proto si vystačíš se základní BigClown sadou, tedy [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
+Budeš potřebovat **krabičku s tlačítkem** a **USB dongle**. Proto si vystačíš se základní HARDWARIO sadou, tedy [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

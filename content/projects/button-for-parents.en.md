@@ -1,10 +1,10 @@
 ---
 title: Make an IoT button for your parents to call you to dinner
 meta_title: Make an IoT button that will send a message to your mobile
-meta_description: Instructions on how to make an IoT button from the BigClown Starter Kit for your mum to call you to dinner when you are in the middle of playing games.
+meta_description: Instructions on how to make an IoT button from the HARDWARIO Starter Kit for your mum to call you to dinner when you are in the middle of playing games.
 draft: false
 date: 2019-09-23
-description: Instructions on how to make an IoT button from the BigClown Starter Kit for your mum to call you to dinner when you are in the middle of playing games.
+description: Instructions on how to make an IoT button from the HARDWARIO Starter Kit for your mum to call you to dinner when you are in the middle of playing games.
 tags:
   - Home project
 idea: false
@@ -25,7 +25,7 @@ You know the feeling. You are deep into playing games or listening to music at f
 
 In this project you will learn **how to use the button to send a message to a mobile** from anywhere in the house. 👌
 
-You will need the **box with a button** and the **USB dongle**. So you will be fine with just the basic BigClown kit, the [**Starter Kit**](https://shop.hardwario.com/starter-kit/). If it´s the first time you are holding the Starter Kit box in your hands, [get familiar with it first]({{< ref "/handbook/_index.en.md" >}}).
+You will need the **box with a button** and the **USB dongle**. So you will be fine with just the basic HARDWARIO kit, the [**Starter Kit**](https://shop.hardwario.com/starter-kit/). If it´s the first time you are holding the Starter Kit box in your hands, [get familiar with it first]({{< ref "/handbook/_index.en.md" >}}).
 
 {{< modules >}}
 
@@ -83,7 +83,7 @@ Try it out. **Connect both nodes** by dragging the mouse from one cell to the ot
 
 1. Your box with the button will be connected with a smartphone thanks to the Blynk app. And that´s pretty cool. 😎 Download **the Blynk app** from [App Store](https://apps.apple.com/us/app/blynk-iot-for-arduino-esp32/id808760481) or [Google Play](https://play.google.com/store/apps/details?id=cc.blynk&hl=en). Sign in or create an account.
 2. Create a new project in the app: click on **New project**.
-3. In  “Choose device”, choose the **BigClown IoT Kit**.
+3. In  “Choose device”, choose the **HARDWARIO IoT Kit**.
 4. Confirm with clicking on the **Create** button. Now **a token** has been sent to your email. It's an electronic key to a project with which you can later connect to your phone from the computer.  For now though, stay in the app.  📱<br/><br/>
 ❓ **What if I didn´t get the token?** Check the spam folder. The email is not even there? Send it again. In the Blynk app, in the Project settings tab, you will see your auth token, and the **E-mail** button right under it. Click on it and check your mailbox one more time. 👋
 

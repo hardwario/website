@@ -28,7 +28,7 @@ modules: ["core","pir","mini_battery","usb_dongle"]
 
 Under this project, you will learn **how to send an e-mail using a smart button**. 📩
 
-All you need for this is the basic BigClown [**Starter Kit**](https://shop.hardwario.com/starter-kit/).
+All you need for this is the basic HARDWARIO [**Starter Kit**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

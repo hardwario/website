@@ -5,12 +5,12 @@ featured: true
 handbook: starter-kit
 date: 2019-10-19T21:10:07.445Z
 description: >-
-  Turn your Starter Kit from BigClown IoT into a motion detector using this
+  Turn your Starter Kit from HARDWARIO IoT into a motion detector using this
   simple guide. Don't forget to test it with your friends!
 slug: Zen-Kung-Fu-Master
 meta_title: Which of your friends is a Zen Kung Fu Master?
 meta_description: >-
-  Turn your Starter Kit from BigClown IoT into a motion detector using this
+  Turn your Starter Kit from HARDWARIO IoT into a motion detector using this
   simple guide. Don't forget to test it with your friends!
 image_preview: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1571520683/projects/kung-fu-master/11-ilustrace-chlapec-v-pozici-stromu.png
@@ -29,7 +29,7 @@ With this game, there's no way you and your friends will get bored! Adjust your 
 
 This project will teach you how to create a so-called **still position detector**, i.e. motion **detector**. 👈
 
-You only need a **box with a button** and a **USB dongle**.  That's why the basic BigClown [**Starter Kit**](https://shop.hardwario.com/starter-kit/) is perfect.
+You only need a **box with a button** and a **USB dongle**.  That's why the basic HARDWARIO [**Starter Kit**](https://shop.hardwario.com/starter-kit/) is perfect.
 
 {{< modules >}}
 

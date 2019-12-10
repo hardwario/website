@@ -21,14 +21,14 @@ The IoT Kit is therefore a powerful tool for teachers. They no longer have to wo
 
 ## IoT technology in teaching physics
 
-The BigClown Kit allows anyone to build a smart device to **measure physical quantities**. For example, you can show pupils how to measure:
+The HARDWARIO Kit allows anyone to build a smart device to **measure physical quantities**. For example, you can show pupils how to measure:
 
 * air temperature;
 * atmospheric pressure;
 * light; or
 * centrifugal force.
 
-Every [BigClown IoT Kit](https://shop.hardwario.com/kits/) has a built-in temperature measuring module. Connect the box to the computer and the **classroom temperature and its changes** are immediately displayed in the freely available [BigClown Playground](/academy/what-is-bigclown-playground/) software. This allows your pupils to experiment with temperature and in practice check how it works. They will find out what happens when they put the box in a freezer, blow into it, or put it under a shining bulb.
+Every [HARDWARIO IoT Kit](https://shop.hardwario.com/kits/) has a built-in temperature measuring module. Connect the box to the computer and the **classroom temperature and its changes** are immediately displayed in the freely available [HARDWARIO Playground](/academy/what-is-bigclown-playground/) software. This allows your pupils to experiment with temperature and in practice check how it works. They will find out what happens when they put the box in a freezer, blow into it, or put it under a shining bulb.
 
 With the [Climate Monitor Kit](https://shop.hardwario.com/climate-monitor-kit/), pupils use the same principle to measure, for example, **luminosity or atmospheric pressure**. You can take the box outside or take it to the laboratory for a physics class and measure quantities under different conditions.
 
@@ -46,7 +46,7 @@ With the CO2 Monitor Kit, pupils can also measure **temperature, air humidity an
 
 ## IoT technology in teaching IT
 
-The fastest way to get your pupils interested in programming is to let them **create their own project.** This could be a website, a computer game, or, thanks to the BigClown IoT Kit, their own smart device. They **build hardware with their own hands and program its functions**. They do this in the BigClown Playground software, which uses the simple programming language [Node-RED](/academy/what-is-node-red/).
+The fastest way to get your pupils interested in programming is to let them **create their own project.** This could be a website, a computer game, or, thanks to the HARDWARIO IoT Kit, their own smart device. They **build hardware with their own hands and program its functions**. They do this in the HARDWARIO Playground software, which uses the simple programming language [Node-RED](/academy/what-is-node-red/).
 
 It works on the **flow-based principle**. Kids drag nodes (with commands) to an open desktop in the middle of the screen and connect them to each other (they do not have to write the code by hand). Thanks to this, they learn the basic principles of programming in practice, and **create real everyday devices**, such as a doorbell or motion detector, from the box right away.
 
@@ -58,7 +58,7 @@ As inspiration for beginner programmers, we have prepared a lot of projects with
 
 ## IoT technology in teaching PE
 
-In addition to teachers of technical and natural sciences, the BigClown IoT Kit can also be used by teachers of physical education. If you want to liven up the physical education of pupils and **awaken their competitive spirit**, then check out [this project](/projects/kung-fu-master/).
+In addition to teachers of technical and natural sciences, the HARDWARIO IoT Kit can also be used by teachers of physical education. If you want to liven up the physical education of pupils and **awaken their competitive spirit**, then check out [this project](/projects/kung-fu-master/).
 
 Pupils program the box according to the instructions and then compete to determine how long **they can stay still in one position**. When in a push-up position or doing a plank, place the box on their back and the computer displays the number of seconds they can hold the position without moving. One by one they compete to see **who can break the record**.
 
@@ -66,4 +66,4 @@ You can also program other **gym games and competitions** into the IoT Kit. For 
 
 Become a teacher of the future and encourage kids to take an interest in new technologies.
 
-[Purchase the BigClown IoT Kit for your school ](/education/)
+[Purchase the HARDWARIO IoT Kit for your school ](/education/)

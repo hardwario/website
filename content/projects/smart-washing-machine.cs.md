@@ -1,11 +1,11 @@
 ---
 title: Přeměň vaši starou pračku na chytrou
 meta_title: Proměň vaši starou pračku na chytrou
-meta_description: Nechej rodiče žasnout. Postav ze Starter Kitu od BigClown IoT detektor, který upozorní, až pračka dopere.
+meta_description: Nechej rodiče žasnout. Postav ze Starter Kitu od HARDWARIO IoT detektor, který upozorní, až pračka dopere.
 slug: chytra-pracka
 draft: false
 date: 2019-08-12
-description: Nechej rodiče žasnout. Postav ze Starter Kitu od BigClown IoT detektor, který upozorní, až pračka dopere.
+description: Nechej rodiče žasnout. Postav ze Starter Kitu od HARDWARIO IoT detektor, který upozorní, až pračka dopere.
 tags:
   - Projekt na doma
 idea: false
@@ -28,7 +28,7 @@ Zvedni rodinné pračce IQ. 🤖 Naprogramuj pomocí krabičky IoT upozornění,
 
 V tomhle projektu se naučíš **nastavit krabičku tak, že pozná, až pračka dopere**, a pošle o tom **upozornění na mobil**.📱 👈
 
-Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vystačíš se základní BigClown sadou – [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
+Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vystačíš se základní HARDWARIO sadou – [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 
@@ -42,7 +42,7 @@ Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vy
 
 3. [Core Module spáruj s USB Donglem]({{< ref "/academy/how-to-pair-kit.cs.md" >}}). Hned po spárování uvidíš, že tvůj Core Module změnil Alias na **washing-machine-detector**. 👌
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566368246/projects/smart-washing-machine/image4.png" alt = "BigClown Playground devices list" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566368246/projects/smart-washing-machine/image4.png" alt = "HARDWARIO Playground devices list" >}}
 
 ## Rozjeď to v Node-RED
 
@@ -55,7 +55,7 @@ Dvakrát na něj klikni a do řádku zkopíruj **Topic**, se kterým krabička z
 node/washing-machine-detector:0/washing/finished
 ```
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566368245/projects/smart-washing-machine/image2.png" alt = "Check alias of BigClown kit" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566368245/projects/smart-washing-machine/image2.png" alt = "Check alias of HARDWARIO kit" >}}
 
 Potvrď tlačítkem **Done**.
 

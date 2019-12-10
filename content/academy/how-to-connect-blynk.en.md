@@ -1,13 +1,13 @@
 ---
-title: How to connect BigClown with Blynk app
+title: How to connect HARDWARIO with Blynk app
 draft: false
 date: 2019-09-20T19:08:04.789Z
 weight: 59
 description: >-
-  In order for your IoT invention from BigClown to send you notifications to
+  In order for your IoT invention from HARDWARIO to send you notifications to
   your mobile, you need to pair it with Blynk. Check out our simple guide.
 slug: how-to-connect-blynk
-meta_title: How to connect BigClown with Blynk app
+meta_title: How to connect HARDWARIO with Blynk app
 meta_description: >-
   To tune up your IoT box programme to perfection, you can use the simple
   debugger that will get the kinks out. We will give you advice on how to set it
@@ -31,7 +31,7 @@ We will show you how to connect the box with Blynk on the **Notify** node exampl
 
 1. You can download the **Blynk App** on your mobile from the [App store](https://apps.apple.com/us/app/blynk-iot-for-arduino-esp32/id808760481), or [Google Play](https://play.google.com/store/apps/details?id=cc.blynk&hl=en). Log in or set up an account. It’s the same as when you register for online games.
 2. Create a new project in the app: click on **New project**.
-3. Under Choose device, select the **BigClown IoT Kit** hardware.
+3. Under Choose device, select the **HARDWARIO IoT Kit** hardware.
 4. Click on the **Create** button to confirm. Now you have been sent a token (or electronic key) to a project, which you can use to connect to your mobile from your computer. For now, however, stay in the app.📱
 
 ❓**What if I haven’t received the token?** Check your spam folder. You haven’t found it there either? Just send it again. In Blynk, in the Project settings tab, you will see your auth token and the **E-Mail** button bellow it. Click on it and check your mailbox again. 👋

@@ -37,9 +37,9 @@ The answer is simple: Use the **capacitive method**. It is a similiar principle 
 
 Until this point, there are no new discoveries. We have been using the same principles for years. And there are lots for capacitance soil sensors we have been using for years too! So why shouldn't we integrate the existing solution? It was tempting, but we actually could not find anything that would fit our price expectations, mechanical design and/or output interface. Regarding the last point - the vast majority of the sensors come with analog output. So you need a positive rail, ground and the signal wire. That is fine if you have just one sensor. But what about if you want to have **multiple** of these? Where will you connect all these analog channels? And what about if you want to get more than just moisture, but the e.g. the never boring temperature?
 
-Welcome to the world of the **BigClown {{< shop "Soil Moisture Sensor" >}}**. It is a fully digital sensor with a wide power supply range from 2.8 V to 5.5 V (yes, it is Arduino-compatible). It uses industry-standard **1-Wire** bus and it allows to connect multiple sensors in parallel (number of sensors are virtually unlimited). Not only **capacitance** (well, moisture), it also reports **temperature** from the on-board digital temperature sensor. And it is **fully sealed** in silicone and can be immersed in the water, of course.
+Welcome to the world of the **HARDWARIO {{< shop "Soil Moisture Sensor" >}}**. It is a fully digital sensor with a wide power supply range from 2.8 V to 5.5 V (yes, it is Arduino-compatible). It uses industry-standard **1-Wire** bus and it allows to connect multiple sensors in parallel (number of sensors are virtually unlimited). Not only **capacitance** (well, moisture), it also reports **temperature** from the on-board digital temperature sensor. And it is **fully sealed** in silicone and can be immersed in the water, of course.
 
-There are a few key components the **BigClown {{< shop "Soil Moisture Sensor" >}}** integrates:
+There are a few key components the **HARDWARIO {{< shop "Soil Moisture Sensor" >}}** integrates:
 
 * 1-Wire to I2C bridge DS28E17
 * Low quiescent current LDO TLV73330
@@ -60,4 +60,4 @@ Cheers, Pavel.
 
 * **{{< shop "Soil Moisture Sensor" >}}**
 * [**Wireless Soil Sensor**](https://developers.bigclown.com/projects/radio-soil-sensor)
-* **BigClown {{< shop "Sensor Module" >}}**
+* **HARDWARIO {{< shop "Sensor Module" >}}**

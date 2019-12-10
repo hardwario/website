@@ -21,7 +21,7 @@ buyLink: "https://obchod.hardwario.cz/school-multi-kit/"
 modules: ["core","mini_battery","button","enclosures-button"]
 optionalModules: ["usb_dongle","sigfox","lora"]
 eduText: Inspirujte celou třídu, sada obsahuje oblíbené moduly
-eduBenefits: ["Speciální sada pro školy", "Obsahuje 60 modulů a příslušenství", "Obsahuje BigClown Hub","Postavíte libovolný BigClown projekt"]
+eduBenefits: ["Speciální sada pro školy", "Obsahuje 60 modulů a příslušenství", "Obsahuje HARDWARIO Hub","Postavíte libovolný HARDWARIO projekt"]
 ---
 
-Teacher's set je speciální sada pro učitele a učitelky. Umožní vám s třídou postavit jakýkoli BigClown projekt. Sada obsahuje všechny BigClown moduly a BigClown Hub s Raspberry Pi.
+Teacher's set je speciální sada pro učitele a učitelky. Umožní vám s třídou postavit jakýkoli HARDWARIO projekt. Sada obsahuje všechny HARDWARIO moduly a HARDWARIO Hub s Raspberry Pi.

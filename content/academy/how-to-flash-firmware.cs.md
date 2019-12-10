@@ -6,7 +6,7 @@ description: >-
   Bez firmware ti IoT krabička nebude fungovat správně. Díky tomuhle článku
   pochopíš, na co firmware slouží a správně si ho nastavíš.
 slug: jak-nahrat-firmware
-meta_title: Jak si do BigClownu nainstaluješ firmware
+meta_title: Jak si do HARDWARIO nainstaluješ firmware
 meta_description: >-
   Bez firmware ti IoT krabička nebude fungovat správně. Díky tomuhle článku
   pochopíš, na co firmware slouží a správně si ho nastavíš.
@@ -41,26 +41,26 @@ Stáhni si firmware na USB Dongle
 1. Vlož **USB Dongle** do počítače a otevři program **Playground**. Jak jinak 😅
 2. V záložce Devices vidíš v horním řádku, co tvůj dongle dělá. Z toho poznáš, jestli máš správný firmware, nebo ne. Teď tam chceme mít **Radio Dongle**.
 
-{{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161114/academy/how-to-flash-firmware/image1.png" alt = "BigClown Playground USB dongle" >}}
+{{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161114/academy/how-to-flash-firmware/image1.png" alt = "HARDWARIO Playground USB dongle" >}}
 
 3. Vedle řádku svítí zelené tlačítko Connect, ale **nemačkej ho**. Zatím se připojovat nechceš. Případně se odpoj (Disconnect).
 4. Teď tě bude zajímat záložka **Firmware**. Tady najdeš spoustu firmwarů na různé projekty, které můžeš do zařízení nahrát. 🕵️
 5. Do řádku napiš dongle a klikni na **gateway usb dongle**. Vpravo si zvol “latest version”, tedy nejnovější verzi. Stejným způsobem si taky firmware aktualizuješ.
-   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161115/academy/how-to-flash-firmware/image7.png" alt = "BigClown Playground USB dongle firmware" >}}
+   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161115/academy/how-to-flash-firmware/image7.png" alt = "HARDWARIO Playground USB dongle firmware" >}}
 6. O kousek níž si v sekci Device zvolíš **správné zařízení**. Je to řádek, který obsahuje bc-usb-dongle.
-   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161115/academy/how-to-flash-firmware/image4.png" alt = "BigClown Playground USB dongle flash firmware" >}}
+   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161115/academy/how-to-flash-firmware/image4.png" alt = "HARDWARIO Playground USB dongle flash firmware" >}}
 7. Teď klikni na červené tlačítko **Flash firmware**. Tím se ti program stáhne. Chvíli to potrvá, ale pak se na obrazovce objeví nápis _Done_, tedy hotovo.
-   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161115/academy/how-to-flash-firmware/image2.png" alt = "BigClown Playground USB dongle firmware flashed" >}}
+   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161115/academy/how-to-flash-firmware/image2.png" alt = "HARDWARIO Playground USB dongle firmware flashed" >}}
 
 ## Stáhni si firmware na svůj projekt do Core module
 
 1. Vezmi si svůj kit. Na aktualizaci ti bude stačit jenom srdce krabičky, tedy destička **Core Module**. Poznáš ji tak, že je červená a je to na ní napsané. 🙂
 2. Core module má na svém konci **microUSB konektor**. Kabelem (třeba od nabíječky na mobil) ji **propoj s USB portem** svého počítače.
-   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161114/academy/how-to-flash-firmware/image3.jpg" alt = "BigClown Kit with Core Module" >}}
+   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161114/academy/how-to-flash-firmware/image3.jpg" alt = "HARDWARIO Kit with Core Module" >}}
 3. V záložce Firmware vyber ten správný program. Třeba pro základní použití Starter Kitu potřebuješ **radio push button**, pro jiný projekt nahraj, co je potřeba.
-   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161115/academy/how-to-flash-firmware/image6.png" alt = "BigClown Playground Core Module firmware" >}}
+   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161115/academy/how-to-flash-firmware/image6.png" alt = "HARDWARIO Playground Core Module firmware" >}}
 4. Pod tím si v sekci Device **zvol správné zařízení**, tedy řádek, který obsahuje bc-core-module.
-   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161114/academy/how-to-flash-firmware/image5.png" alt = "BigClown Playground Core Module choose firmware" >}}
+   {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566161114/academy/how-to-flash-firmware/image5.png" alt = "HARDWARIO Playground Core Module choose firmware" >}}
 5. Stažení programu provedeš kliknutím na tlačítko **Flash firmware**. Tím se ti program stáhne. Chvíli to potrvá, ale pak se na obrazovce objeví nápis _Done_, tedy hotovo.
 6. Kabel odpoj.
 

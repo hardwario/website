@@ -5,12 +5,12 @@ featured: false
 handbook:
 date: 2019-10-20T05:51:56.151Z
 description: >-
-  IoT hra se Starter Kitem od BigClown. Vytvoř dva typy soutěže v jednom
+  IoT hra se Starter Kitem od HARDWARIO. Vytvoř dva typy soutěže v jednom
   projektu a přepínej mezi nimi. Nejvyšší level pro všechny, kteří se nebojí!
 slug: upgrade-iot-party-draci-ohen-mrazivy-dech
 meta_title: 'Upgrade IoT párty hry: máš v sobě dračí oheň, nebo mrazivý dech?'
 meta_description: >-
-  IoT hra se Starter Kitem od BigClown. Vytvoř dva typy soutěže v jednom
+  IoT hra se Starter Kitem od HARDWARIO. Vytvoř dva typy soutěže v jednom
   projektu a přepínej mezi nimi. Nejvyšší level pro všechny, kteří se nebojí!
 image_preview: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1571563534/projects/hardcore-upgrade-of-iot-party-game/4-soutez-s-kamarady-o-nejteplejsi-vydech-se-stickerem.png
@@ -30,7 +30,7 @@ S tímhle projektem se naučíš **ukládat nejvyšší naměřenou hodnotu a na
 
 Základní verzi tohohle projektu najdeš tady: [IoT párty hra: máš v sobě dračí oheň, nebo mrazivý dech?](/cs/projects/draci-dech/)
 
-I tentokrát ti postačí základní BigClown sada, tedy [**Starter Kit**](https://obchod.hardwario.cz/starter-kit/).
+I tentokrát ti postačí základní HARDWARIO sada, tedy [**Starter Kit**](https://obchod.hardwario.cz/starter-kit/).
 
 {{< modules >}}
 

@@ -1,7 +1,7 @@
 ---
 title: PREMIUM Multi Kit
 id: premium
-description: A perfect start of making your IoT devices with BigClown!
+description: A perfect start of making your IoT devices with HARDWARIO!
 isBasic: false
 isPremium: false
 isUltimate: false

@@ -11,11 +11,11 @@ categories: ["industry"]
 O víkendu 23. a 24. června proběhl v Praze na výstavišti v Holešovicích historicky první Maker Faire v České republice. Po zkušenostech z Berlínského Maker Fairu 2017 a 2018 jsme byli zvědaví, jaký bude ten český. A byl ultra grandiózně skvělý!
 
 Celkem přišlo na **10 a půl tisíce návštěvníků** a my měli možnost poznat spousty mejkrů osobně a ukázat jim naši stavebnici.
-{{% b-image src="team.jpg" alt="návštěvníci Maker Faire u stánku BigClown" %}}
+{{% b-image src="team.jpg" alt="návštěvníci Maker Faire u stánku HARDWARIO" %}}
 
 ### 2 workshopy, 1 přednáška a #CLOWNFIE
 
-Pro návštěvníky jsme připravili 2 workshopy na téma **Postav si domácí alarm**, Alan měl přednášku o světě IoT projektů, na které své projekty ukázali taky Martin a [Denis](https://medium.com/@denis.v/build-your-own-smart-thermometer-and-more-with-bigclown-and-actions-on-google-a142826ee90d), student přerovského gymnázia, který propojil BigClown a Google Asistenta.
+Pro návštěvníky jsme připravili 2 workshopy na téma **Postav si domácí alarm**, Alan měl přednášku o světě IoT projektů, na které své projekty ukázali taky Martin a [Denis](https://medium.com/@denis.v/build-your-own-smart-thermometer-and-more-with-bigclown-and-actions-on-google-a142826ee90d), student přerovského gymnázia, který propojil HARDWARIO a Google Asistenta.
 
 {{< tweet 1011856061651980290 >}}
 

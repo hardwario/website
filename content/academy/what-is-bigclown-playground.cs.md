@@ -2,19 +2,19 @@
 date: "2019-08-12"
 title: "Co je to Playground a kde ho najdeš"
 slug: co-je-to-bigclown-playground
-meta_title: Co je to BigClown Playground a kde ho stáhneš
-meta_description: Tvá BigClown krabička dokáže úžasné věci, ale musíš jí povědět, co má dělat. A právě k tomu slouží software BigClown Playground. Mrkni na něj.
-description: Tvá BigClown krabička dokáže úžasné věci, ale musíš jí povědět, co má dělat. A právě k tomu slouží software BigClown Playground. Mrkni na něj.
+meta_title: Co je to HARDWARIO Playground a kde ho stáhneš
+meta_description: Tvá HARDWARIO krabička dokáže úžasné věci, ale musíš jí povědět, co má dělat. A právě k tomu slouží software HARDWARIO Playground. Mrkni na něj.
+description: Tvá HARDWARIO krabička dokáže úžasné věci, ale musíš jí povědět, co má dělat. A právě k tomu slouží software HARDWARIO Playground. Mrkni na něj.
 image_preview: /upload/what-is-playground.jpg
 image_main: /upload/what-is-playground.jpg
 weight: 10
 ---
 
-Bájné místo, kde vznikají nové vynálezy – legendy praví, že se mu říká BigClown Playground. 🏯 V tomhle šikovném programu řekneš své krabičce, jak má pracovat.
+Bájné místo, kde vznikají nové vynálezy – legendy praví, že se mu říká HARDWARIO Playground. 🏯 V tomhle šikovném programu řekneš své krabičce, jak má pracovat.
 
-Aby tě složená BigClown krabička poslouchala na slovo, musíš si do počítače nainstalovat program BigClown Playground. V něm si nastavíš, jak má krabička reagovat na stisknutí tlačítka nebo třeba na otočení vzhůru nohama.
+Aby tě složená HARDWARIO krabička poslouchala na slovo, musíš si do počítače nainstalovat program HARDWARIO Playground. V něm si nastavíš, jak má krabička reagovat na stisknutí tlačítka nebo třeba na otočení vzhůru nohama.
 
-**BigClown Playground** je software, se kterým můžeš:
+**HARDWARIO Playground** je software, se kterým můžeš:
 
 * připojit svou krabičku k počítači,
 * upravovat a nastavovat funkce své krabičky,
@@ -22,12 +22,12 @@ Aby tě složená BigClown krabička poslouchala na slovo, musíš si do počít
 * nebo sledovat, co tvá krabička dělá v přehledných grafech a vizualizacích.
 
 ## Takhle to v něm vypadá:
-{{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566160726/academy/what-is-playground/image1.png" alt = "BigClown Playground" >}}
+{{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566160726/academy/what-is-playground/image1.png" alt = "HARDWARIO Playground" >}}
 
 A k čemu je těch **šest záložek** vlevo? Pojďme se na ně postupně mrknout.
 
 
-1. **Home** je taková uvítací brána. Najdeš tu novinky z BigClownu a trochu zajímavého povídání.
+1. **Home** je taková uvítací brána. Najdeš tu novinky z HARDWARIO a trochu zajímavého povídání.
 
 2. **Devices** má úplně nejdůležitější roli ze všech záložek. Spáruješ tam svou krabičku s USB Donglem a tím pádem i s počítačem a pak už můžeš vesele tvořit. Jestli jsi zatím pároval jen ponožky, a ne krabičku s Donglem, mrkni na [tenhle návod]({{< ref "/academy/how-to-pair-kit.cs.md" >}}).
 
@@ -39,7 +39,7 @@ A k čemu je těch **šest záložek** vlevo? Pojďme se na ně postupně mrknou
 
 6. A nakonec tu máme záložku **Firmware**. Tady si do svého Core Modulu na pár kliknutí nahraješ firmware, tedy program, který zařízení řídí. Víc o firmwaru se dozvíš [tadyhle]({{< relref "/academy/how-to-flash-firmware.cs.md" >}}).
 
-## Stáhni si BigClown Playground
+## Stáhni si HARDWARIO Playground
 1. Skoč do sekce [Ke stažení]({{< ref "/download/_index.cs.md" >}}).
 2. Stránka ti automaticky vybere aktuální verzi Playgroundu **podle tvého operačního systému**. Klikni na ni a zahájíš stahování.
 3. Program spusť a… **to je všechno!** 🎉 Teď už jen tvoř zázraky.

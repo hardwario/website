@@ -1,7 +1,7 @@
 ---
 title: PREMIUM Multi Kit
 id: premium
-description: Skvělý start, jak začít stavět IoT zařízení s BigClown!
+description: Skvělý start, jak začít stavět IoT zařízení s HARDWARIO!
 isBasic: false
 isPremium: false
 isUltimate: false

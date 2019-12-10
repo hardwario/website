@@ -6,11 +6,11 @@ modules: ["core","button","mini_battery","usb_dongle"]
 handbook:
 date: 2019-09-26T13:58:29.753Z
 description: >-
-  This is an IoT project which focuses on enhancing your digital skills. With the BigClown Starter Kit, you can set up a device that measures how cold it is in your freezer.
+  This is an IoT project which focuses on enhancing your digital skills. With the HARDWARIO Starter Kit, you can set up a device that measures how cold it is in your freezer.
 slug: fridge-temperature
 meta_title: Temperature monitor for your fridge or freezer
 meta_description: >-
-  This is an IoT project which focuses on enhancing your digital skills. With the BigClown Starter Kit, you can set up a device that measures how cold it is in your freezer.
+  This is an IoT project which focuses on enhancing your digital skills. With the HARDWARIO Starter Kit, you can set up a device that measures how cold it is in your freezer.
 image_preview: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1573639788/projects/fridge-monitoring/3-fridge-monitoring.jpg
 image_main: >-
@@ -23,10 +23,10 @@ kit: ["starter-kit","button-kit"]
 ## Introduction
 
 {{< perex >}}
-Do you think it's the same temperature in different places in your fridge or freezer? And how's the freezer functioning, is it freezing properly? Discover the answers to these questions through our IoT project. Using the BigClown Starter Kit, the temperature will be displayed on your mobile phone. ❄
+Do you think it's the same temperature in different places in your fridge or freezer? And how's the freezer functioning, is it freezing properly? Discover the answers to these questions through our IoT project. Using the HARDWARIO Starter Kit, the temperature will be displayed on your mobile phone. ❄
 {{< /perex >}}
 
-This project will teach you how to **measure temperature using IoT**. All you need is the basic BigClown [Starter Kit](https://shop.hardwario.com/starter-kit/).
+This project will teach you how to **measure temperature using IoT**. All you need is the basic HARDWARIO [Starter Kit](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 
@@ -35,7 +35,7 @@ This project will teach you how to **measure temperature using IoT**. All you ne
 1. Put the Starter Kit together and pair it. If you are doing this for the first time, [we’ve prepared a simple guide for you]({{< ref "/handbook/_index.en.md" >}}). You need the **radio-push-button** firmware for the Core Module. If you don't know how to download the firmware or what it is, you can  [find out more here]({{< ref "/academy/how-to-flash-firmware.en.md" >}}).
 2. The temperature changes are displayed in the **Messages** tab in Playground.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155066/projects/fridge-monitoring/image4.png" alt = "BigClown Playground MQTT messages" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155066/projects/fridge-monitoring/image4.png" alt = "HARDWARIO Playground MQTT messages" >}}
 
 ## Set up Node-RED
 
@@ -54,12 +54,12 @@ Confirm by clicking the **Done** button.
 
 4. Next to the MQTT node place a second one, this time a blue **Chart** node. This node can be found in the Dashboard section. This node is used to determine how the measured temperature is displayed on screen. Link both nodes together. 👌
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155066/projects/fridge-monitoring/image5.png" alt = "Node-RED chart settings in BigClown Playground" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155066/projects/fridge-monitoring/image5.png" alt = "Node-RED chart settings in HARDWARIO Playground" >}}
 
 5. Double-click on the Chart node. In the **X-axis** line, you can set the period of time the data in the chart will be displayed. This might be, for example, for the duration of your classes.
    In the Label line, give your chart a name.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155066/projects/fridge-monitoring/image1.png" alt = "Chart in BigClown Playground" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155066/projects/fridge-monitoring/image1.png" alt = "Chart in HARDWARIO Playground" >}}
 
 Confirm by clicking the **Done** button.
 

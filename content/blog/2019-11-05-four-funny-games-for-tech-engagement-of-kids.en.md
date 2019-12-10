@@ -3,22 +3,22 @@ title: 'Four funny games for engaging kids in technology'
 draft: false
 date: 2019-11-05T16:58:20.200Z
 description: >-
-  With the BigClown Kit, kids program simple games to keep them entertained for long afternoons. Read four tips for fun activities for young and older kids.
+  With the HARDWARIO Kit, kids program simple games to keep them entertained for long afternoons. Read four tips for fun activities for young and older kids.
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1572973839/blog/Gift-for12-year-old-boy/image4.png
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1572007998/blog/iot-course_full.png
 author: lukas_fabik
 ---
 {{< perex >}}
 
-The legendary words ‘learning through play’ are as valid today as they were when Comenius first released them into the world. Games are by far the easiest way to arouse the interest of kids in tomorrow’s technologies, programming and disciplines. We will introduce four simple games through which kids can have fun with the BigClown IoT Kit - a smart box that enables them to gain control of the world around them.
+The legendary words ‘learning through play’ are as valid today as they were when Comenius first released them into the world. Games are by far the easiest way to arouse the interest of kids in tomorrow’s technologies, programming and disciplines. We will introduce four simple games through which kids can have fun with the HARDWARIO IoT Kit - a smart box that enables them to gain control of the world around them.
 
 {{< /perex >}}
 
 Every professional in a given field **had to start somewhere**. Today's chefs used to roll dough with their moms, graphic artists drew unicorns with color wax crayons and businessmen bought fictional hotels on the Monopoly gameboard. Likewise, today's **programmers and technology innovators** made simple computer games at the turn of the century or assembled circuits so that a light bulb would come on. When the light bulb came on, there was a whoop of joy and enthusiasm.
 
-Today, future programmers have it easier than ever. With the [Big Clown IoT Kit](https://shop.hardwario.com/starter-kit/) they can easily assemble and program hardware to create **impressive smart home projects**, even when they're only in primary school. That's why BigClown is an ideal gift for boys and girls of around 12 years of age.
+Today, future programmers have it easier than ever. With the [Big Clown IoT Kit](https://shop.hardwario.com/starter-kit/) they can easily assemble and program hardware to create **impressive smart home projects**, even when they're only in primary school. That's why HARDWARIO is an ideal gift for boys and girls of around 12 years of age.
 
-In BigClown, in addition to useful household appliances, such as a kennel thermometer, burglar alarm or doorbell, they can also create purely **fun games** to entertain themselves and friends. We will introduce **four of them**.
+In HARDWARIO, in addition to useful household appliances, such as a kennel thermometer, burglar alarm or doorbell, they can also create purely **fun games** to entertain themselves and friends. We will introduce **four of them**.
 
 ## Game 1: Smart spinning top, or who has the strongest centrifugal force
 
@@ -26,7 +26,7 @@ In BigClown, in addition to useful household appliances, such as a kennel thermo
 
 Who doesn´t know spinning tops? A simple wooden toy for young children that keeps on **spinning in one place** for a surprisingly long time. What happens though when you combine a spinning top with 21<sup>st</sup> century technologies?
 
-The BigClown Box includes an ** accelerometer** \- a sensor that detects the box's position or how long it has been in motion. Kids program the box to show them on their computer for how many seconds **it spun around its axis**.
+The HARDWARIO Box includes an ** accelerometer** \- a sensor that detects the box's position or how long it has been in motion. Kids program the box to show them on their computer for how many seconds **it spun around its axis**.
 
 They then sit down in a circle and one by one spin the box, looking at the computer data pop up to see whether a new **record has been established**. The members of the group compete with one another to determine who can spin the box the longest using **centrifugal force**.
 
@@ -36,7 +36,7 @@ They then sit down in a circle and one by one spin the box, looking at the compu
 
 ![Dragon War](https://res.cloudinary.com/lukasfabik/image/upload/v1572973839/blog/Gift-for12-year-old-boy/image3.png)
 
-Dragon War is another simple game that children can program themselves. The BigClown Box also contains a **thermometer** that sends ambient temperature data** to a computer or mobile phone**.
+Dragon War is another simple game that children can program themselves. The HARDWARIO Box also contains a **thermometer** that sends ambient temperature data** to a computer or mobile phone**.
 
 After simple programming, kids sit around a table and take turns breathing onto the box. The computer display will immediately show **what temperature their breath is**. The kids can **compete for two titles** \- the champion of the hottest and coldest breath. They can also try what effect an ice cube or a hot chili pepper has on the temperature of their breath.
 
@@ -64,8 +64,8 @@ They can also suggest the game to their physics teacher and play it with the who
 
 ## Kids can also create other games themselves.
 
-These four games are just a few of the games kids can create with the IoT Kit, the possibilities are **infinite**. It purely depends on their **creativity and skills**, which they gradually acquire and hone while playing with BigClown.
+These four games are just a few of the games kids can create with the IoT Kit, the possibilities are **infinite**. It purely depends on their **creativity and skills**, which they gradually acquire and hone while playing with HARDWARIO.
 
-For all the games mentioned above, kids only need the **BigClown Starter Kit**. Purchase this kit and put them well on the path to becoming future programmers and technology gurus.
+For all the games mentioned above, kids only need the **HARDWARIO Starter Kit**. Purchase this kit and put them well on the path to becoming future programmers and technology gurus.
 
-[>> You can purchase the BigClown Starter Kit through our e-shop. <<](https://shop.hardwario.com/starter-kit/)
+[>> You can purchase the HARDWARIO Starter Kit through our e-shop. <<](https://shop.hardwario.com/starter-kit/)

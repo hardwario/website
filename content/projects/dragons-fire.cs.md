@@ -1,11 +1,11 @@
 ---
 title: IoT párty hra, máš v sobě dračí oheň, nebo mrazivý dech?
 meta_title: IoT párty hra, máš v sobě dračí oheň, nebo mrazivý dech?
-meta_description: Jeden z IoT projektů na rozšíření tvých digitálních dovedností. Sestav se Starter Kitem od BigClownu zařízení, se kterým si s kamarády změříte teplotu dechu. Jak si pomůžeš, abys vyhrál?
+meta_description: Jeden z IoT projektů na rozšíření tvých digitálních dovedností. Sestav se Starter Kitem od HARDWARIOu zařízení, se kterým si s kamarády změříte teplotu dechu. Jak si pomůžeš, abys vyhrál?
 slug: draci-dech
 draft: false
 date: 2019-08-12
-description: Jeden z IoT projektů na rozšíření tvých digitálních dovedností. Sestav se Starter Kitem od BigClownu zařízení, se kterým si s kamarády změříte teplotu dechu. Jak si pomůžeš, abys vyhrál?
+description: Jeden z IoT projektů na rozšíření tvých digitálních dovedností. Sestav se Starter Kitem od HARDWARIOu zařízení, se kterým si s kamarády změříte teplotu dechu. Jak si pomůžeš, abys vyhrál?
 tags:
   - Hra
 idea: false
@@ -23,7 +23,7 @@ handbook: "starter-kit"
 Bav se s kámoši díky IoT. Kdo z vás bude mít nejžhavější, nebo nejchladnější dech? Je na tobě, čím si k vítězství pomůžeš. Smí se všechno. 😱
 {{< /perex >}}
 
-S tímhle projektem se naučíš **měřit teplotu s IoT**. Postačí ti základní BigClown sada, tedy [**Starter Kit**](https://obchod.hardwario.cz/starter-kit/).
+S tímhle projektem se naučíš **měřit teplotu s IoT**. Postačí ti základní HARDWARIO sada, tedy [**Starter Kit**](https://obchod.hardwario.cz/starter-kit/).
 
 {{< modules >}}
 
@@ -33,7 +33,7 @@ S tímhle projektem se naučíš **měřit teplotu s IoT**. Postačí ti základ
 
 2. Otevři v Playgroundu záložku **Messages**. Tady uvidíš změny teploty. Teplota se měří automaticky, a to buď pravidelně po 15 sekundách, nebo když dojde k větší změně. A právě toho využijeme.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566154531/projects/dragon-fire/image4.png" alt = "BigClown Playground messages" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566154531/projects/dragon-fire/image4.png" alt = "HARDWARIO Playground messages" >}}
 
 ## Nastav si Node-RED
 

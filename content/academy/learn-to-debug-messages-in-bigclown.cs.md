@@ -1,5 +1,5 @@
 ---
-title: Nauč se v BigClownu debugovat zprávy
+title: Nauč se v HARDWARIOu debugovat zprávy
 draft: false
 date: 2019-09-21T07:16:22.362Z
 weight: 60
@@ -7,7 +7,7 @@ description: >-
   Abys svůj program pro IoT krabičku vyladil k dokonalosti, pomůže ti jednoduchý
   debugger, se kterým vychytáš mouchy. Poradíme ti, jak ho nastavíš a rozjedeš.
 slug: jak-debugovat
-meta_title: Nauč se v BigClownu debugovat zprávy
+meta_title: Nauč se v HARDWARIOu debugovat zprávy
 meta_description: >-
   Abys svůj program pro IoT krabičku vyladil k dokonalosti, pomůže ti jednoduchý
   debugger, se kterým vychytáš mouchy. Poradíme ti, jak ho nastavíš a rozjedeš.
@@ -16,7 +16,7 @@ image_preview: >-
 image_main: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1572800473/academy/learn-to-debug-mesagges-in-bigclown/2E73DFEE-13B1-4CB1-9D3A-1B190D94C8FC.jpg
 ---
-Pavouk je rád, když má v síti šťavnatou mouchu nebo jiný hmyz. Do prográmku ale brouci (bugy) nepatří. Vychytej všechny bugy (tak se v angličtině označují hmyzáci i chyby v kódu) ze svých BigClowních projektů. 🐞 Ukážeme ti, jak na to.
+Pavouk je rád, když má v síti šťavnatou mouchu nebo jiný hmyz. Do prográmku ale brouci (bugy) nepatří. Vychytej všechny bugy (tak se v angličtině označují hmyzáci i chyby v kódu) ze svých HARDWARIOích projektů. 🐞 Ukážeme ti, jak na to.
 
 ## Co je to debug?
 

@@ -4,10 +4,10 @@ draft: false
 featured: false
 handbook: starter-kit
 date: 2019-11-05T17:45:58.874Z
-description: Načapej Ježíška pomocí PIR Modulu od BigClown. Ten bude koukat!
+description: Načapej Ježíška pomocí PIR Modulu od HARDWARIO. Ten bude koukat!
 slug: detektor-jeziska
 meta_title: 'IoT projekt: vytvoř si detektor Ježíška'
-meta_description: Načapej Ježíška pomocí PIR Modulu od BigClown. Ten bude koukat!
+meta_description: Načapej Ježíška pomocí PIR Modulu od HARDWARIO. Ten bude koukat!
 image_preview: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1572976435/projects/detektor-jeziska/image15.png
 image_main: >-

@@ -1,11 +1,11 @@
 ---
 title: Hra pro celou třídu, Najděte nejchladnější a nejžhavější místo ve vaší škole
 meta_title: IoT hra pro celou třídu, Změřte teplotu ve vaší škole
-meta_description: Jeden z IoT projektů na rozšíření digitálních dovedností. Sestavte se Starter Kitem od BigClownu zařízení, se kterým najdete nejchladnější a nejžhavější místo ve škole.
+meta_description: Jeden z IoT projektů na rozšíření digitálních dovedností. Sestavte se Starter Kitem od HARDWARIOu zařízení, se kterým najdete nejchladnější a nejžhavější místo ve škole.
 slug: nejteplejsi-nejchladnejsi-misto
 draft: false
 date: 2019-08-12
-description: Jeden z IoT projektů na rozšíření digitálních dovedností. Sestavte se Starter Kitem od BigClownu zařízení, se kterým najdete nejchladnější a nejžhavější místo ve škole.
+description: Jeden z IoT projektů na rozšíření digitálních dovedností. Sestavte se Starter Kitem od HARDWARIOu zařízení, se kterým najdete nejchladnější a nejžhavější místo ve škole.
 tags:
   - Školní projekt
   - Hra
@@ -24,7 +24,7 @@ handbook:
 Tenhle projekt odhalí všechna tajemství tvojí školy, ať už někdo loví duchy nebo chce najít žhavé místo pro svoje příští rande. Změř se svojí třídou teplotu v různých koutech školy a zkus být ten, kdo objeví ten největší extrém. 😱
 {{< /perex >}}
 
-S tímhle projektem se naučíš měřit teplotu s IoT a zobrazit ji na svém mobilu. Postačí ti základní BigClown sada, tedy [**Starter Kit**](https://obchod.bigclown.com/starter-kit/).
+S tímhle projektem se naučíš měřit teplotu s IoT a zobrazit ji na svém mobilu. Postačí ti základní HARDWARIO sada, tedy [**Starter Kit**](https://obchod.bigclown.com/starter-kit/).
 
 Hru **navrhni učiteli fyziky** jako super zpestření hodiny, nebo ji s kamarády podnikni jenom tak, po škole.
 
@@ -38,7 +38,7 @@ Hru **navrhni učiteli fyziky** jako super zpestření hodiny, nebo ji s kamará
 
 2. Změny teploty uvidíš v Playgroundu v záložce **Messages**.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566156994/projects/wormest-coldest-place/image10.png" alt = "MQTT messages in BigClown Playground" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566156994/projects/wormest-coldest-place/image10.png" alt = "MQTT messages in HARDWARIO Playground" >}}
 
 ## Nastav si Node-RED
 

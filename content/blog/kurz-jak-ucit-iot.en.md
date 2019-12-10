@@ -17,7 +17,7 @@ Internet of Things is still a relatively young age. Nevertheless, it is somethin
 
 We have prepared an **accredited course** in association with ACCON Academy, **"How to teach the Internet of Things, for teachers".**
 
-In this course, participants will learn about the Internet of Things, its impact on society and individuals, with the BigClown kit, we will show how to teach the Internet of Things on practical examples.
+In this course, participants will learn about the Internet of Things, its impact on society and individuals, with the HARDWARIO kit, we will show how to teach the Internet of Things on practical examples.
 
 **The price of the training is CZK 2,500 per participant**. In case of registration of more participants, the discount is 300 CZK for each additional participant.
 

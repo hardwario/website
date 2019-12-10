@@ -1,11 +1,11 @@
 ---
 title: Do you have a dragon's fire or an arctic wind in you?
 meta_title: Do you have a dragon's fire or an arctic wind in you?
-meta_description: This is an IoT project which focuses on enhancing your digital skills. With the BigClown Starter Kit, you can set up a device to measure the temperature of your breath and that of your friends. What do you need to do to win?
+meta_description: This is an IoT project which focuses on enhancing your digital skills. With the HARDWARIO Starter Kit, you can set up a device to measure the temperature of your breath and that of your friends. What do you need to do to win?
 slug: dragons-fire
 draft: false
 date: 2019-08-12
-description: This is an IoT project which focuses on enhancing your digital skills. With the BigClown Starter Kit, you can set up a device to measure the temperature of your breath and that of your friends. What do you need to do to win?
+description: This is an IoT project which focuses on enhancing your digital skills. With the HARDWARIO Starter Kit, you can set up a device to measure the temperature of your breath and that of your friends. What do you need to do to win?
 tags:
   - The game
 image_preview: /upload/soutez-s-kamarady-o-nejteplejsi-vydech.png
@@ -20,7 +20,7 @@ kit: "starter-kit"
 Have fun with your friends with IoT. Which of you has the hottest or coldest breath? You decide what will help you win. As they say, anything goes!😱
 {{< /perex >}}
 
-This project teaches you how to **measure temperature with IoT**. All you need is the basic BigClown [Starter Kit](https://shop.hardwario.com/starter-kit/).
+This project teaches you how to **measure temperature with IoT**. All you need is the basic HARDWARIO [Starter Kit](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 
@@ -29,7 +29,7 @@ This project teaches you how to **measure temperature with IoT**. All you need i
 1. Put the Starter Kit together and pair it: If you are doing this for the first time,  we’ve prepared a [simple guide for you]({{< ref "/handbook/_index.en.md" >}}). You need the **radio push button** firmware for the Core Module. If you don't know how to download the firmware or what it is, [you can find out more here]({{< ref "/academy/how-to-flash-firmware.en.md" >}}).
 2. In Playground, open the **Messages** tab. Here you will see temperature changes. The temperature is measured automatically, either regularly after 15 seconds, or when there is a major change. And that is what we will use.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566154531/projects/dragon-fire/image4.png" alt = "BigClown Playground messages" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566154531/projects/dragon-fire/image4.png" alt = "HARDWARIO Playground messages" >}}
 
 ## Set up Node-RED
 

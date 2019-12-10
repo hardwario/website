@@ -1,33 +1,33 @@
 ---
 date: "2018-01-19"
-title: "Why BigClown Kit"
-description: "Why Did We Create BigClown?"
+title: "Why HARDWARIO Kit"
+description: "Why Did We Create HARDWARIO?"
 image_preview: "/blog/2018-01-19-why-bigclown-kit/preview.jpg"
 image_main: "/blog/2018-01-19-why-bigclown-kit/main.jpg"
 author: "michal_muhlpachr"
 ---
 
-Reading some discussions under the articles about the BigClown IoT Kit inspired me to write about reasons why we started and keep developing the BigClown IoT Kit. I would like to use this article for future references  to avoid repeating myself. Just as many others - this contribution is driven by a laziness ;-)
+Reading some discussions under the articles about the HARDWARIO IoT Kit inspired me to write about reasons why we started and keep developing the HARDWARIO IoT Kit. I would like to use this article for future references  to avoid repeating myself. Just as many others - this contribution is driven by a laziness ;-)
 
 ## Build Electronics, Start Smoothly
 
 People who want to build their own electronic devices discover that they have to "invest" dozens or hundreds of hours of their time to start and build a  useful device. Our mission is to lower this starting barrier and allow them to make a ready-to-use home automation electronics in less a few hours even for newcomers.
 
-There are plenty of [STEM](https://en.wikipedia.org/wiki/Science,_technology,_engineering,_and_mathematics) kits focused on education but they usually do not allow to make the final device easily (e.g. they do not have a suitable enclosure, they do not feature wireless communication or they are not powered from batteries). The primary focus of BigClown  is to make such things easily, have fun, and - if you like - educate yourself.
+There are plenty of [STEM](https://en.wikipedia.org/wiki/Science,_technology,_engineering,_and_mathematics) kits focused on education but they usually do not allow to make the final device easily (e.g. they do not have a suitable enclosure, they do not feature wireless communication or they are not powered from batteries). The primary focus of HARDWARIO  is to make such things easily, have fun, and - if you like - educate yourself.
 
-Try to find 5 differences - just Google how an [Arduino PIR motion detector](https://www.google.com/search?q=Arduino+PIR&tbm=isch) looks like and compare it with the one made using [BigClown PIR Kit](https://www.google.com/search?q=BigClown+PIR&tbm=isch).
+Try to find 5 differences - just Google how an [Arduino PIR motion detector](https://www.google.com/search?q=Arduino+PIR&tbm=isch) looks like and compare it with the one made using [HARDWARIO PIR Kit](https://www.google.com/search?q=HARDWARIO+PIR&tbm=isch).
 
 Let me give you some hints: the presence of the enclosure, radio communication and battery operation for years (well, the last one is not really obvious from the picture ;-)
 
-That's right, BigClown PIR motion detector does not have any wires and no soldering is required - we have pluggable modules:
+That's right, HARDWARIO PIR motion detector does not have any wires and no soldering is required - we have pluggable modules:
 
 {{< youtube "ophRx1tAmfA" >}}
 
-You do not need to write the code or copy/paste the examples and compile the firmware. We maintain the pre-prepared firmware images who can be programmed to BigClown products directly from GitHub repositories using the BigClown Firmware Tool.
+You do not need to write the code or copy/paste the examples and compile the firmware. We maintain the pre-prepared firmware images who can be programmed to HARDWARIO products directly from GitHub repositories using the HARDWARIO Firmware Tool.
 
-For quick start at client/user interface side we provide either various local (offline) integrations as well as those connected to cloud solutions - just look into the [BigClown documentation](https://developers.bigclown.com).
+For quick start at client/user interface side we provide either various local (offline) integrations as well as those connected to cloud solutions - just look into the [HARDWARIO documentation](https://developers.bigclown.com).
 
-We also want to allow the maker to dig as deep as he/she wants to and discover how the hardware and software works under the hood. That's why BigClown hardware and software is open, coming with documentation, tutorials and personal support (and you bet we are really good at this).
+We also want to allow the maker to dig as deep as he/she wants to and discover how the hardware and software works under the hood. That's why HARDWARIO hardware and software is open, coming with documentation, tutorials and personal support (and you bet we are really good at this).
 
 ## Best Kit for Our Own Stuff
 
@@ -37,7 +37,7 @@ I am very much biased by collecting and exploring various development boards, ki
 
 {{% b-image src="desk.jpg" alt="1024" %}}
 
-The selection of following properties are based on the "experience" with the other kits. To be more specific, these are the features that are not available "together" (till BigClown ;-):
+The selection of following properties are based on the "experience" with the other kits. To be more specific, these are the features that are not available "together" (till HARDWARIO ;-):
 
 * Extensibility - MQTT publish/subscribe message bus.
 
@@ -55,39 +55,39 @@ The selection of following properties are based on the "experience" with the oth
 
 There is not any other kit with all the above defined properties AFAIK.
 
-### Why BigClown hardware is not as cheap as clones?
+### Why HARDWARIO hardware is not as cheap as clones?
 
 * We are focused for hardware long life and low 10 years [TCO](https://en.wikipedia.org/wiki/Total_cost_of_ownership) - including total batteries used, minimized operation troubleshooting and low hardware fix/replace/renew rate.
 
-* BigClown products are not optimized for low initial hardware purchase price that leads to hardware instability and malfunctions (especially when they are operated outside the work desk) caused by scrap components, cloned chips, low quality designs with obvious flaws, failures to comply with the chip maker recommendations, etc.
+* HARDWARIO products are not optimized for low initial hardware purchase price that leads to hardware instability and malfunctions (especially when they are operated outside the work desk) caused by scrap components, cloned chips, low quality designs with obvious flaws, failures to comply with the chip maker recommendations, etc.
 
 * We do provide individual technical support.
 
 * We do provide 3 years of warranty on the hardware.
 
-* BigClown products are made from genuine industrial-grade components.
+* HARDWARIO products are made from genuine industrial-grade components.
 
-* BigClown products are manufactured in the EU.
+* HARDWARIO products are manufactured in the EU.
 
 * We invest almost everything to [R&D](https://en.wikipedia.org/wiki/Research_and_development) - new features and products are coming on regular basis.
 
 * We maintain documentation, tools, pre-built firmware images, GitHub repositories, etc.
 
-### Why BigClown hardware is not as cheap as single-purpose products?
+### Why HARDWARIO hardware is not as cheap as single-purpose products?
 
 * Have a look at reasons for previous question.
 
 * Quality has higher priority than quantity for us.
 
-* BigClown is not manufactured in million series yet.
+* HARDWARIO is not manufactured in million series yet.
 
-* BigClown uses top low-power sensors and prevents communication technology with high power consumption (e.g. WiFi)
+* HARDWARIO uses top low-power sensors and prevents communication technology with high power consumption (e.g. WiFi)
 
-* BigClown is transparent (open sourced, documented) - you can get to know and learn.
+* HARDWARIO is transparent (open sourced, documented) - you can get to know and learn.
 
-* BigClown is modular (e.g. by swapping top module you can change from PIR motion sensor to climate monitor) and extensible - both hardware and software. You are free to modify, add features, use in unintended ways.
+* HARDWARIO is modular (e.g. by swapping top module you can change from PIR motion sensor to climate monitor) and extensible - both hardware and software. You are free to modify, add features, use in unintended ways.
 
-### Why BigClown is not Arduino compatible?
+### Why HARDWARIO is not Arduino compatible?
 
 Arduino is great for many purposes and have the biggest maker community, but have some issues also:
 
@@ -103,7 +103,7 @@ Arduino is great for many purposes and have the biggest maker community, but hav
 
 * Arduino UNO has a lack of MCU resources (flash and RAM, [TRNG](https://en.wikipedia.org/wiki/Hardware_random_number_generator), [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) hw acceleration).
 
-* The Size of the [standardized BigClown Module format](https://cdn.myshoptet.com/usr/shop.hardwario.com/user/shop/big/117-1.png?5a1af104) is defined by 2 AAA batteries.
+* The Size of the [standardized HARDWARIO Module format](https://cdn.myshoptet.com/usr/shop.hardwario.com/user/shop/big/117-1.png?5a1af104) is defined by 2 AAA batteries.
 
 * Arduino suffers from schizophrenia of 5V / 3.3V power.
 
@@ -111,13 +111,13 @@ Arduino is great for many purposes and have the biggest maker community, but hav
 
 ### Why WiFi is not used for wireless communication?
 
-Low-power 868 MHz radio allows BigClown better signal penetration through the walls and 2 years of battery life from 2 AAA Alkaline cells. With WiFi and the same communication requirements the battery operation life would shrink to a month or less.
+Low-power 868 MHz radio allows HARDWARIO better signal penetration through the walls and 2 years of battery life from 2 AAA Alkaline cells. With WiFi and the same communication requirements the battery operation life would shrink to a month or less.
 
 ### Why some network standard is not used for wireless communication?
 
-There is not open, secure (authentication & encryption, automatic encyption key update), license fees free and simple (no mesh/routing, no IPv6, no >100 pages protocol specification) communication protocol standard available AFAIK. BigClown use [hub and spoke](https://en.wikipedia.org/wiki/Spoke%E2%80%93hub_distribution_paradigm) network topology.
+There is not open, secure (authentication & encryption, automatic encyption key update), license fees free and simple (no mesh/routing, no IPv6, no >100 pages protocol specification) communication protocol standard available AFAIK. HARDWARIO use [hub and spoke](https://en.wikipedia.org/wiki/Spoke%E2%80%93hub_distribution_paradigm) network topology.
 
-### How BigClown hardware can be extended?
+### How HARDWARIO hardware can be extended?
 
 There are several levels for extensions, you can:
 
@@ -135,13 +135,13 @@ Or you can discover other ways unintended by us, we will be really excited! Ther
 
 ### How can I extend integration or add software features ?
 
-On firmware level you can implement your application or features in ANSI C with help of BigClown SDK (have a look at [SDK examples](https://github.com/bigclownlabs/bcf-sdk/tree/master/_examples)) and pre-prepared [BigClown Toolchain](https://developers.bigclown.com/firmware/toolchain-guide/).
+On firmware level you can implement your application or features in ANSI C with help of HARDWARIO SDK (have a look at [SDK examples](https://github.com/bigclownlabs/bcf-sdk/tree/master/_examples)) and pre-prepared [HARDWARIO Toolchain](https://developers.bigclown.com/firmware/toolchain-guide/).
 
 On PC/Server/Cloud interoperability have several levels:
 
-* For minimum software/services dependency use BigClown Gateway text protocol (topic, JSON message pairs) over USB CDC (UART) to receive states, measurements and send actuator state updates.
+* For minimum software/services dependency use HARDWARIO Gateway text protocol (topic, JSON message pairs) over USB CDC (UART) to receive states, measurements and send actuator state updates.
 
-* For generic integration use MQTT publish/subscribe API. Use your favourite language and communicate with BigClown components through the MQTT client API. We do provide examples in Python and JavaScript.
+* For generic integration use MQTT publish/subscribe API. Use your favourite language and communicate with HARDWARIO components through the MQTT client API. We do provide examples in Python and JavaScript.
 
 * [Node-RED](https://nodered.org/) orchestration. Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.
 
@@ -151,13 +151,13 @@ On PC/Server/Cloud interoperability have several levels:
 
 Self motivation based on above mentioned targets provide us passion. Try it yourself and contribute! Some ingredients are available. You can start with shared projects, feedback, continue with issues reporting and get the most of endorphins from documentation, software, hardware contributions.
 
-### I would do it in 2 weeks (or 2 months) why I would use BigClown Kit?
+### I would do it in 2 weeks (or 2 months) why I would use HARDWARIO Kit?
 
-We love to see all the new open-source kits with similar features. We will be happy to learn from other designs also. Go on - share your solution with the world, please! Maybe you can even join our team. We did it in 2 years of hard work, we are 12+ people team now and we are committed to&nbsp;continue to develop the BigClown IoT Kit. You can use effort already invested by us and future enhancements from community or us to save your time and resources.
+We love to see all the new open-source kits with similar features. We will be happy to learn from other designs also. Go on - share your solution with the world, please! Maybe you can even join our team. We did it in 2 years of hard work, we are 12+ people team now and we are committed to&nbsp;continue to develop the HARDWARIO IoT Kit. You can use effort already invested by us and future enhancements from community or us to save your time and resources.
 
 ### Platforms Comparison
 
-|  | [Arduino Uno R3](https://store.arduino.cc/arduino-uno-rev3) | [BigClown Core Module](https://shop.hardwario.com/core-module/) | [WEMOS D1 mini Lite](https://www.aliexpress.com/store/product/WEMOS-D1-mini-Lite-V1-0-0-WIFI-Internet-of-Things-development-board-based-ESP8285-1MB/1331105_32795857574.html) | [Raspberry Pi 3 + MicroSD](http://cpc.farnell.com/mksp2-raspberry-pi3) |
+|  | [Arduino Uno R3](https://store.arduino.cc/arduino-uno-rev3) | [HARDWARIO Core Module](https://shop.hardwario.com/core-module/) | [WEMOS D1 mini Lite](https://www.aliexpress.com/store/product/WEMOS-D1-mini-Lite-V1-0-0-WIFI-Internet-of-Things-development-board-based-ESP8285-1MB/1331105_32795857574.html) | [Raspberry Pi 3 + MicroSD](http://cpc.farnell.com/mksp2-raspberry-pi3) |
 |--------------------|----------------|----------------------|--------------------|--------------------------|
 | Price in USD       | [US $25](https://www.sparkfun.com/products/11021) | [US $28](https://shop.hardwario.com/modules/core-module/?currency=USD) | [US $3](https://www.aliexpress.com/store/product/WEMOS-D1-mini-Lite-V1-0-0-WIFI-Internet-of-Things-development-board-based-ESP8285-1MB/1331105_32795857574.html) | [US $35 + $16](http://www.newark.com/buy-raspberry-pi) |
 | Warranty | 1 year | **3 years** | 2 months | 1 year |

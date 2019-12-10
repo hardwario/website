@@ -1,7 +1,7 @@
 ---
 date: "2017-12-05"
 title: "Reasons Behind Indiegogo"
-description: "The explanation what makes us to promote BigClown in a crowdfunding campaign"
+description: "The explanation what makes us to promote HARDWARIO in a crowdfunding campaign"
 image_preview: "/blog/2017-12-05-reasons-behind-indiegogo/preview.jpg"
 image_main: "/blog/2017-12-05-reasons-behind-indiegogo/main.jpg"
 author: "alan_fabik"
@@ -18,11 +18,11 @@ Our goals are straightforward:
 
 2. ### Scale up our production.
 
-3. ### Find the new BigClown makers.
+3. ### Find the new HARDWARIO makers.
 
 4. ### Receive more feedback on our products.
 
-There are many ways how we could achieve all of these goals, but we have chosen to crowdfund because it can help us with all of them in one package. From the definition, crowdfunding allows projects to raise enough funds by small contributions from the crowd. It is all about community, which is an integral part of the BigClown project, so it fits our mindset even better.
+There are many ways how we could achieve all of these goals, but we have chosen to crowdfund because it can help us with all of them in one package. From the definition, crowdfunding allows projects to raise enough funds by small contributions from the crowd. It is all about community, which is an integral part of the HARDWARIO project, so it fits our mindset even better.
 
 Speaking the crowdfunding platform itself, we are going with Indiegogo. There are many reasons for this decision, but the core reason is the trust in our project we are getting from inside the Indiegogo team and the amount of extensive support and mentoring from them.
 

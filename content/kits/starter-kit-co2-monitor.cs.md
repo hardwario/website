@@ -34,6 +34,6 @@ techSpecs:
 eduText: Oblíbená kombinace Starter Kitu a kitu pro měření oxidu uhličitého
 ---
 
-Starter Kit je nejlepší způsob, jak se začít se stavebnicí BigClown. Umožní vám bezdrátově spouštět akce, používat akcelerometr a posílat teplotu. Komunikuje bezdrátově a na standardní alkalické baterie vydrží až 2 roky.
+Starter Kit je nejlepší způsob, jak se začít se stavebnicí HARDWARIO. Umožní vám bezdrátově spouštět akce, používat akcelerometr a posílat teplotu. Komunikuje bezdrátově a na standardní alkalické baterie vydrží až 2 roky.
 
 Oxid uhličitý (CO2) je bezbarvý plyn bez zápachu, který je důležitý pro život na Zemi. Jeho normální koncetrace je okolo 400 ppm (0.04 %). Vysoký obsah CO2 vede k nezdravému prostředí a různým zdravotním potížím. Proto je velmi důležité kontrolovat koncetraci CO2, a to především v místech, kde trávíme většinu svého času - v obýváku, ložnici, kanceláři, ve třídě. A navíc s našim CO2 Monitor Kitem budeš měřit nejen hodnotu CO2, ale také teplotu, vlhkost a atmosférický tlak.

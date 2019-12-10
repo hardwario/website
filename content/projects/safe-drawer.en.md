@@ -1,10 +1,10 @@
 ---
 title: Catch the nosy parker who's snooping in your drawer!
 meta_title:  Catch the nosy parker who's snooping in your drawer!
-meta_description: Turn your Starter Kit from BigClown IoT into a drawer monitor and get alerts on your mobile phone. We have prepared a simple guide for you.
+meta_description: Turn your Starter Kit from HARDWARIO IoT into a drawer monitor and get alerts on your mobile phone. We have prepared a simple guide for you.
 draft: false
 date: 2019-08-12
-description: Turn your Starter Kit from BigClown IoT into a drawer monitor and get alerts on your mobile phone. We have prepared a simple guide for you.
+description: Turn your Starter Kit from HARDWARIO IoT into a drawer monitor and get alerts on your mobile phone. We have prepared a simple guide for you.
 tags:
   - Home project
 idea: false
@@ -23,7 +23,7 @@ Do you have a diary, poems or a top secret government-issued document in your dr
 
 This project teaches you how to create a **drawer monitor that sends alerts to your mobile phone when some opens your drawer**. 👈
 
-You only need a **box with a button** and a **Radio dongle**. That's why the basic BigClown [**Starter Kit**](https://shop.hardwario.com/starter-kit/) is perfect.
+You only need a **box with a button** and a **Radio dongle**. That's why the basic HARDWARIO [**Starter Kit**](https://shop.hardwario.com/starter-kit/) is perfect.
 
 {{< modules >}}
 
@@ -36,7 +36,7 @@ You only need a **box with a button** and a **Radio dongle**. That's why the bas
 
 3. [Core Module spáruj s USB Donglem]({{< ref "/academy/how-to-pair-kit.en.md" >}}). Hned po spárování uvidíš, že tvůj Core Module změnil Alias na **x-axis-detector**.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566364970/projects/safe-drawer/image26.png" alt = "BigClown Playground - devices" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566364970/projects/safe-drawer/image26.png" alt = "HARDWARIO Playground - devices" >}}
 
 ## Rozjeď appku na mobilu
 
@@ -167,7 +167,7 @@ Na řádku **Connection** pak vyber projekt, který jsi pojmenoval u nodu Notify
 
 5. Teď tyhle dva hezouny **spoj**. Nezapomeň taky kliknout na tlačítko **Deploy** vpravo nahoře, aby se všechno zprovoznilo.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566364975/projects/safe-drawer/image24.png" alt = "Deploy your flow in Node-RED | BigClown Playground" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566364975/projects/safe-drawer/image24.png" alt = "Deploy your flow in Node-RED | HARDWARIO Playground" >}}
 
 ## Spusť pastičku
 

@@ -1,11 +1,11 @@
 ---
 title: Hlídač teploty pro chlupatého hlídače, kontroluj teplotu v boudě svého psa
 meta_title: IoT projekt, hlídač teploty do psí boudy
-meta_description: Jeden z IoT projektů na rozšíření digitálních dovedností. Sestav se Starter Kitem od BigClownu zařízení, se kterým uvidíš, jakou má tvůj pes v boudě teplotu.
+meta_description: Jeden z IoT projektů na rozšíření digitálních dovedností. Sestav se Starter Kitem od HARDWARIOu zařízení, se kterým uvidíš, jakou má tvůj pes v boudě teplotu.
 slug: hlidac-teploty-psi-boudy
 draft: false
 date: 2019-08-12
-description: Jeden z IoT projektů na rozšíření digitálních dovedností. Sestav se Starter Kitem od BigClownu zařízení, se kterým uvidíš, jakou má tvůj pes v boudě teplotu.
+description: Jeden z IoT projektů na rozšíření digitálních dovedností. Sestav se Starter Kitem od HARDWARIOu zařízení, se kterým uvidíš, jakou má tvůj pes v boudě teplotu.
 tags:
   - Projekt na doma
 idea: false
@@ -23,7 +23,7 @@ handbook:
 Zima, že bys ani psa nevyhnal? Hlídej teplotní komfort svého nejlepšího kámoše a sleduj teplotu v jeho boudě. 🐶
 {{< /perex >}}
 
-S tímhle projektem se naučíš **měřit teplotu s IoT a zobrazit ji na grafu**. Postačí ti základní BigClown sada, tedy [**Starter Kit**](https://shop.hardwario.com/starter-kit/). Uvidíš, že ti hafan poděkuje. Třeba míň bobky. Nebo tak něco. 🐩
+S tímhle projektem se naučíš **měřit teplotu s IoT a zobrazit ji na grafu**. Postačí ti základní HARDWARIO sada, tedy [**Starter Kit**](https://shop.hardwario.com/starter-kit/). Uvidíš, že ti hafan poděkuje. Třeba míň bobky. Nebo tak něco. 🐩
 
 {{< modules >}}
 

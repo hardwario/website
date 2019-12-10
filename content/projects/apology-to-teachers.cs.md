@@ -5,12 +5,12 @@ featured: false
 handbook: Starter Kit
 date: 2019-11-09T15:06:49.642Z
 description: >-
-  Návod na to, jak si ze Starter Kitu od BigClown vytvoříš chytré tlačítko.
+  Návod na to, jak si ze Starter Kitu od HARDWARIO vytvoříš chytré tlačítko.
   Pošle tvému učiteli omluvenku, když tě náhodou zradí budík.
 slug: omluvenka-uciteli
 meta_title: Zaspal jsi? Pošli učiteli omluvenku stisknutím tlačítka
 meta_description: >-
-  Návod na to, jak si ze Starter Kitu od BigClown vytvoříš chytré tlačítko.
+  Návod na to, jak si ze Starter Kitu od HARDWARIO vytvoříš chytré tlačítko.
   Pošle tvému učiteli omluvenku, když tě náhodou zradí budík.
 image_preview: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1573639907/projects/poslani-e-mailu-uciteli-s-omluvenkou-z-vyucovani/Nocni-lampa.jpg
@@ -28,7 +28,7 @@ Ani mobil není neomylný. Občas tě třeba zapomene vzbudit. Když se ti to n�
 
 V tomhle projektu se naučíš, **jak tlačítkem odeslat e-mail**. 📩
 
-Vystačíš si přitom se základní BigClown sadou, tedy [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
+Vystačíš si přitom se základní HARDWARIO sadou, tedy [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

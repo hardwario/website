@@ -5,12 +5,12 @@ featured: true
 handbook:
 date: 2019-10-19T09:47:39.764Z
 description: >-
-  With the BigClown Starter Kit, create an IoT button that will draw a random
+  With the HARDWARIO Starter Kit, create an IoT button that will draw a random
   member of your group of friends.
 slug: play-spin-the-bottle-electronically
 meta_title: Play Spin the Bottle electronically with IoT
 meta_description: >-
-  With the BigClown Starter Kit, create an IoT button that will draw a random
+  With the HARDWARIO Starter Kit, create an IoT button that will draw a random
   member of your group of friends.
 image_preview: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1573640047/projects/project_placeholder.jpg
@@ -27,7 +27,7 @@ Why play Spin the Bottle with a bottle if all you need is a smart box?  Set your
 
 In this project, you will learn how to set up the box so it **draws a random member** of your group. 😱
 
-You will need **the box with the button** and the **USB dongle**. All you need is a basic BigClown kit, the [**Starter Kit**](https://shop.hardwario.com/starter-kit/).
+You will need **the box with the button** and the **USB dongle**. All you need is a basic HARDWARIO kit, the [**Starter Kit**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 
@@ -82,7 +82,7 @@ Confirm it with the **Done** button.
 
 6. Open the node with a double-click and type here your message. For example, _Picking_...
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149309/projects/bottle-party-game/image4.png" alt = "Node-RED - BigClown playground" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149309/projects/bottle-party-game/image4.png" alt = "Node-RED - HARDWARIO playground" >}}
 
 ## Set the participants
 
@@ -92,7 +92,7 @@ Confirm it with the **Done** button.
 
 2. Double click on the node and in the **Label** line, name it _Reset_.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149308/projects/bottle-party-game/image13.png" alt = "BigClown Playground dashboard button" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149308/projects/bottle-party-game/image13.png" alt = "HARDWARIO Playground dashboard button" >}}
 
 Confirm it with the **Done** button.
 
@@ -105,13 +105,13 @@ Confirm it with the **Done** button.
    **Uncheck** the box just bellow it to really reset the fields after the reset.
    Do all this with all nodes with participants.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149306/projects/bottle-party-game/image6.png" alt = "BigClown Playground function" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149306/projects/bottle-party-game/image6.png" alt = "HARDWARIO Playground function" >}}
 
 Confirm it with the **Done** button.
 
 5. Set up another javascript next to the participants. This javascript assigns the names of the participants to the corresponding place. Again, you will insert it as a **Function** node.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149306/projects/bottle-party-game/image19.png" alt = "BigClown Playground function" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149306/projects/bottle-party-game/image19.png" alt = "HARDWARIO Playground function" >}}
 
 6. Double-click on the node to open its settings. In the **Label** line, fill in the name of the node and copy this code into the **Function** field:
 
@@ -160,7 +160,7 @@ Confirm it with the **Done** button.
 
 3. And then **put it all beautifully together**. In the upper part, connect all the nodes that ensure the draw, in the lower part, connect the ones that form the draw table.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149307/projects/bottle-party-game/image15.png" alt = "BigClown Playground connect nodes in Node-RED" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149307/projects/bottle-party-game/image15.png" alt = "HARDWARIO Playground connect nodes in Node-RED" >}}
 
 4. Don’t forget to click on the **Deploy** button in the top right corner! 🚨
 
@@ -168,7 +168,7 @@ Confirm it with the **Done** button.
 
 1. And now, let’s get down to business! In the **Dashboard** tab, enter the names of all participants. If you haven’t selected the auto-refresh time period in the nodes for each participant, be sure to press **Enter** after each name. 👈
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149306/projects/bottle-party-game/image8.png" alt = "show dashboard Node-RED / BigClown Playground" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566149306/projects/bottle-party-game/image8.png" alt = "show dashboard Node-RED / HARDWARIO Playground" >}}
 
 2. **Who was chosen by fate**? And what for? It’s only up to you now. 😈
    You can, for example:

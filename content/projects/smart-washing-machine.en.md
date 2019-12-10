@@ -5,12 +5,12 @@ featured: true
 handbook:
 date: 2019-10-19T09:09:28.576Z
 description: >-
-  Let your parents marvel. With the BigClown Starter Kit, build a detector to
+  Let your parents marvel. With the HARDWARIO Starter Kit, build a detector to
   alert you when the washing is finished.
 slug: smart-washing-machine
 meta_title: Turn your old washing machine into a smart one
 meta_description: >-
-  Let your parents marvel. With the BigClown Starter Kit, build a detector to
+  Let your parents marvel. With the HARDWARIO Starter Kit, build a detector to
   alert you when the washing is finished.
 image_preview: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1571601962/projects/smart-washing-machine/hardwario-ilustrace-ochytri-pracku.png
@@ -30,7 +30,7 @@ Raise the IQ of your family washing machine. 🤖 Using the IoT box, programme a
 
 In this project, you will learn to set up the box so that it recognizes when the washing machine is finished and sends a notification to the mobile. 📱 👈
 
-All you need is the box with the button and the USB dongle. You will be all set with the basic BigClown kit - the [Starter Kit](https://shop.hardwario.com/starter-kit/).
+All you need is the box with the button and the USB dongle. You will be all set with the basic HARDWARIO kit - the [Starter Kit](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 
@@ -43,7 +43,7 @@ All you need is the box with the button and the USB dongle. You will be all set 
 
 3. [Pair the Core Module with the USB Dongle]({{< ref "/academy/how-to-pair-kit.en.md" >}}). Right after pairing it, you will see that your Core Module changed Alias to **washing-machine-detector**. 👌
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566368246/projects/smart-washing-machine/image4.png" alt = "BigClown Playground devices list" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566368246/projects/smart-washing-machine/image4.png" alt = "HARDWARIO Playground devices list" >}}
 
 ## Get it started in the Node-RED
 
@@ -56,7 +56,7 @@ Double-click on it and copy **Topic** in the field. With this, the box will know
 node/washing-machine-detector:0/washing/finished
 ```
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566368245/projects/smart-washing-machine/image2.png" alt = "Check alias of BigClown kit" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566368245/projects/smart-washing-machine/image2.png" alt = "Check alias of HARDWARIO kit" >}}
 
 Confirm it with the **Done** button.
 

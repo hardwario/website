@@ -1,7 +1,7 @@
 ---
 title: BASIC Multi Kit
 id: basic
-description: A smooth start to making your IoT devices with BigClown!
+description: A smooth start to making your IoT devices with HARDWARIO!
 isBasic: false
 isPremium: false
 isUltimate: false

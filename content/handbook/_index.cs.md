@@ -1,15 +1,15 @@
 ---
 title: Příručka
 meta:
-    title: Příručka k BigClown kitu | Krabička, se kterou ovládneš svět
-    description: Získej náskok před ostatními. Sestav si kit od BigClown a vytvoř svůj vlastní IoT projekt. Máme příručku a rady pro budoucí digitální borce.
-mainHeading: Příručka k BigClown kitu
+    title: Příručka k HARDWARIO kitu | Krabička, se kterou ovládneš svět
+    description: Získej náskok před ostatními. Sestav si kit od HARDWARIO a vytvoř svůj vlastní IoT projekt. Máme příručku a rady pro budoucí digitální borce.
+mainHeading: Příručka k HARDWARIO kitu
 mainParagraph: Krabička, se kterou ovládneš svět
 kit: ["starter-kit"]
 menu: []
 weight: 5
 image: intro_CZ.png
-perex: <p>Získej náskok před ostatními. <strong>BigClown</strong> je zábavný nástroj, se kterým pochopíš a navrhneš <strong>internet věcí</strong> (IoT). To znamená, že ze všeho, třeba i ze svojí židle, vytvoříš chytré zařízení a <strong>propojíš ho se svým počítačem nebo mobilem</strong>. Díky tomu začneš digitálně vylepšovat svůj domov, třídu a klidně i celé město a svět.</p><p>Základní sadou pro začátek je <strong>Starter Kit</strong>, ale časem ho můžeš vylepšit o rozšiřující kity. Podívej se, jak postavíš své první chytré zařízení a jak vytvoříš projekty, kterými ohromíš kámoše, rodinu i nás. 👌</p>
+perex: <p>Získej náskok před ostatními. <strong>HARDWARIO</strong> je zábavný nástroj, se kterým pochopíš a navrhneš <strong>internet věcí</strong> (IoT). To znamená, že ze všeho, třeba i ze svojí židle, vytvoříš chytré zařízení a <strong>propojíš ho se svým počítačem nebo mobilem</strong>. Díky tomu začneš digitálně vylepšovat svůj domov, třídu a klidně i celé město a svět.</p><p>Základní sadou pro začátek je <strong>Starter Kit</strong>, ale časem ho můžeš vylepšit o rozšiřující kity. Podívej se, jak postavíš své první chytré zařízení a jak vytvoříš projekty, kterými ohromíš kámoše, rodinu i nás. 👌</p>
 ---
 <div class="collapsor__item">
 <div class="collapsor__header">
@@ -19,7 +19,7 @@ perex: <p>Získej náskok před ostatními. <strong>BigClown</strong> je zábavn
 <span class = "font-red font-font2 font-weight-bold font-15 text-decoration-underline">Jdu na to</span>
 </div>
 <div class = "col-md-6 align-self-center">
-<img src="/_assets/images/starter-kit/2-ilustrace-devce-sestavuje-KIT-korektura.png" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/2-ilustrace-devce-sestavuje-KIT-korektura.png" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 </div>
@@ -34,7 +34,7 @@ perex: <p>Získej náskok před ostatními. <strong>BigClown</strong> je zábavn
 <p><small><strong>Věděl jsi?</strong> Hardware znamená v angličtině „nářadí”.</small></p>
 </div>
 <div class = "col-md-6 align-self-center">
-<img src="/_assets/images/starter-kit/3-infografika-dily-kitu.png" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/3-infografika-dily-kitu.png" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 
@@ -67,14 +67,14 @@ perex: <p>Získej náskok před ostatními. <strong>BigClown</strong> je zábavn
 </ul>
 </div>
 <div class = "col-md-6 align-self-center">
-<img src="/_assets/images/starter-kit/skladacka.gif" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/skladacka.gif" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 
 <div class = "col-md-6 align-self-center">
-<img src="/_assets/images/starter-kit/mas-to-dobre-1.jpg" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/mas-to-dobre-1.jpg" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 <div class = "col-md-6 align-self-center">
-<img src="/_assets/images/starter-kit/mas-to-dobre-2.jpg" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/mas-to-dobre-2.jpg" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 </div>
@@ -89,7 +89,7 @@ perex: <p>Získej náskok před ostatními. <strong>BigClown</strong> je zábavn
 <span class = "font-red font-font2 font-weight-bold font-15 text-decoration-underline">Jdu na to</span>
 </div>
 <div class = "col-md-6 align-self-center">
-<img src="/_assets/images/starter-kit/4-ilustrace-kluk-u-PC-s-KITem.png" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/4-ilustrace-kluk-u-PC-s-KITem.png" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 
@@ -107,7 +107,7 @@ perex: <p>Získej náskok před ostatními. <strong>BigClown</strong> je zábavn
 </ol>
 </div>
 <div class = "col-md-6 align-self-center text-center">
-<img src="/_assets/images/starter-kit/gif-ikonka-playground.gif" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/gif-ikonka-playground.gif" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 <div class = "col-md-8 text-left">
 {{< playground-download >}}
@@ -125,7 +125,7 @@ perex: <p>Získej náskok před ostatními. <strong>BigClown</strong> je zábavn
 <span class = "font-red font-font2 font-weight-bold font-15 text-decoration-underline">Jdu na to</span>
 </div>
 <div class = "col-md-6 align-self-center">
-<img src="/_assets/images/starter-kit/5-ilustrace-kluk-zapojuje-Dongle.png" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/5-ilustrace-kluk-zapojuje-Dongle.png" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 
@@ -153,7 +153,7 @@ perex: <p>Získej náskok před ostatními. <strong>BigClown</strong> je zábavn
 </ol>
 </div>
 <div class = "col-md-6">
-<img src="/_assets/images/starter-kit/connect-gif.gif" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/connect-gif.gif" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 <div class="row">
@@ -200,7 +200,7 @@ Pokud krabičku používal někdo před tebou, může se stát, že do krabičky
 <span class = "font-red font-font2 font-weight-bold font-15 text-decoration-underline">Jdu na to</span>
 </div>
 <div class = "col-md-6 align-self-center">
-<img src="/_assets/images/starter-kit/6-ilustrace-devce-meri-teplotu.png" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/6-ilustrace-devce-meri-teplotu.png" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 
@@ -228,7 +228,7 @@ Pokud krabičku používal někdo před tebou, může se stát, že do krabičky
 
 </div>
 <div class = "col-md-6">
-<img src="/_assets/images/starter-kit/mereni-dechu.png" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/mereni-dechu.png" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 
@@ -247,7 +247,7 @@ Pokud krabičku používal někdo před tebou, může se stát, že do krabičky
 <p><strong>Náš tip:</strong> Použij krabičku jako chytrou házecí kostku. Třeba na Člověče, nezlob se.</p>
 </div>
 <div class = "col-md-6">
-<img src="/_assets/images/starter-kit/zmena-polohy.png" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/zmena-polohy.png" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 
@@ -267,13 +267,13 @@ Pokud krabičku používal někdo před tebou, může se stát, že do krabičky
 
 </div>
 <div class = "col-md-6">
-<img src="/_assets/images/starter-kit/pocitani-akce.png" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/pocitani-akce.png" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 
 <div class="row justify-content-center">
 <div class = "col-md-8">
-<img src="/_assets/images/starter-kit/9-komiks.png" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/9-komiks.png" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 </div>
@@ -287,7 +287,7 @@ Pokud krabičku používal někdo před tebou, může se stát, že do krabičky
 <span class = "font-red font-font2 font-weight-bold font-15 text-decoration-underline">Jdu na to</span>
 </div>
 <div class = "col-md-6 align-self-center">
-<img src="/_assets/images/starter-kit/7-ilustrace-kluk-sestavuje-zvonek.png" alt="BigClown Playground" style = "max-width:100%">
+<img src="/_assets/images/starter-kit/7-ilustrace-kluk-sestavuje-zvonek.png" alt="HARDWARIO Playground" style = "max-width:100%">
 </div>
 </div>
 

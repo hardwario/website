@@ -1,11 +1,11 @@
 ---
 title: Změř teplotu ve vaší lednici nebo mrazáku
 meta_title: IoT projekt, hlídač teploty pro domácí lednici
-meta_description: Nauč se jeden z IoT projektů na rozšíření digitálních dovedností. Sestav se Starter Kitem od BigClownu zařízení, se kterým změříš, jak moc je u vás v mrazáku zima.
+meta_description: Nauč se jeden z IoT projektů na rozšíření digitálních dovedností. Sestav se Starter Kitem od HARDWARIOu zařízení, se kterým změříš, jak moc je u vás v mrazáku zima.
 slug: teplota-v-lednici
 draft: false
 date: 2019-08-12
-description: Nauč se jeden z IoT projektů na rozšíření digitálních dovedností. Sestav se Starter Kitem od BigClownu zařízení, se kterým změříš, jak moc je u vás v mrazáku zima.
+description: Nauč se jeden z IoT projektů na rozšíření digitálních dovedností. Sestav se Starter Kitem od HARDWARIOu zařízení, se kterým změříš, jak moc je u vás v mrazáku zima.
 tags:
   - Projekt na doma
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1573639788/projects/fridge-monitoring/3-fridge-monitoring.jpg
@@ -22,7 +22,7 @@ kit: ["starter-kit","button-kit"]
 Myslíš si, že je v celé lednici stejná zima? A jak je na tom mrazák, mrazí dobře? Odhal to s IoT projektem pro Starter Kit – teplotu uvidíš přímo ve svém mobilu. ❄
 {{< /perex >}}
 
-S tímhle projektem se naučíš **měřit teplotu s IoT**. Postačí ti základní BigClown sada, tedy [**Starter Kit**](https://shop.hardwario.com/starter-kit/).
+S tímhle projektem se naučíš **měřit teplotu s IoT**. Postačí ti základní HARDWARIO sada, tedy [**Starter Kit**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 
@@ -32,7 +32,7 @@ S tímhle projektem se naučíš **měřit teplotu s IoT**. Postačí ti základ
 
 2. Změny teploty uvidíš v Playgroundu v záložce **Messages**.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155066/projects/fridge-monitoring/image4.png" alt = "BigClown Playground MQTT messages" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155066/projects/fridge-monitoring/image4.png" alt = "HARDWARIO Playground MQTT messages" >}}
 
 ## Nastav si Node-RED
 
@@ -52,12 +52,12 @@ Potvrď tlačítkem **Done**.
 
 4. Vedle nodu postav druhý, světle modrý s názvem **Chart** (graf). Najdeš ho v sekci Dashboard. Tímhle nodem určíš, jak bude naměřená teplota znázorněná na obrazovce. Oba nody propoj. 👌
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155066/projects/fridge-monitoring/image5.png" alt = "Node-RED chart settings in BigClown Playground" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155066/projects/fridge-monitoring/image5.png" alt = "Node-RED chart settings in HARDWARIO Playground" >}}
 
 5. Na node Chart dvakrát klikni. V řádku **X-axis** nastavíš, za jakou dobu data v grafu uvidíš. Napiš sem, kolik potřebuješ, třeba délku celého vyučování.
 V řádku Label svůj graf libovolně pojmenuj.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155066/projects/fridge-monitoring/image1.png" alt = "Chart in BigClown Playground" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566155066/projects/fridge-monitoring/image1.png" alt = "Chart in HARDWARIO Playground" >}}
 
 Potvrď tlačítkem **Done**.
 

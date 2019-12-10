@@ -34,6 +34,6 @@ techSpecs:
 eduText: A popular combination of Starter Kit and Carbon Dioxide Kit
 ---
 
-The Starter Kit is the best way how to get started learning digital skills with BigClown. It allows you to wirelessly trigger actions, control various appliances, send temperature and position of the kit. It communicates wirelessly and operates up to 2 years from the standard Alkaline batteries.
+The Starter Kit is the best way how to get started learning digital skills with HARDWARIO. It allows you to wirelessly trigger actions, control various appliances, send temperature and position of the kit. It communicates wirelessly and operates up to 2 years from the standard Alkaline batteries.
 
 Carbon dioxide (or CO2) is a colorless and odorless gas that is vital to life on Earth. Its nominal concentration is about 400 ppm (0.04 %). High level of CO2 leads to acidity and various health-related problems. That's why it's so essential to control CO2 concentration, especially in areas where you are spending most of your time - living room, bedroom, office, classroom. With CO2 Monitor Kit you will measure not only CO2 level but also temperature, humidity, and atmospheric pressure.

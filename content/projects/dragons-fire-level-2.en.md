@@ -5,10 +5,10 @@ featured: false
 handbook:
 date: 2019-10-20T05:51:56.151Z
 description: >-
-  IoT game with BigClown Starter Kit. Create two competitions under one project and switch between them. The highest level - only for those who have no fear!
+  IoT game with HARDWARIO Starter Kit. Create two competitions under one project and switch between them. The highest level - only for those who have no fear!
 meta_title: 'Upgrade IoT party games: Do you have a dragon´s fire or freezing breath in you?'
 meta_description: >-
-  IoT hra se Starter Kitem od BigClown. Create two competitions under one project and switch between them. The highest level - only for those who have no fear!
+  IoT hra se Starter Kitem od HARDWARIO. Create two competitions under one project and switch between them. The highest level - only for those who have no fear!
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1571563534/projects/hardcore-upgrade-of-iot-party-game/4-soutez-s-kamarady-o-nejteplejsi-vydech-se-stickerem.png
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1571563534/projects/hardcore-upgrade-of-iot-party-game/4-soutez-s-kamarady-o-nejteplejsi-vydech-se-stickerem.png
 tags:
@@ -25,7 +25,7 @@ Under this project, you will learn how to **save the highest measured value and 
 
 The basic version of this project can be found here: [IoT party game: Do you have a dragon´s fire or freezing breath in you?](/projects/dragons-fire/)
 
-All you need is the basic BigClown [**Starter Kit**](https://shop.hardwario.com/starter-kit/).
+All you need is the basic HARDWARIO [**Starter Kit**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

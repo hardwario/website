@@ -5,10 +5,10 @@ featured: false
 handbook: Starter Kit
 date: 2019-11-09T14:36:10.628Z
 description: >-
-  Create an IoT fortune-telling cube or magic 8-ball with the BigClown Starter Kit. When you shake it, it gives you an answer to everything you want to know.
+  Create an IoT fortune-telling cube or magic 8-ball with the HARDWARIO Starter Kit. When you shake it, it gives you an answer to everything you want to know.
 meta_title: Tell your fortune with IoT
 meta_description: >-
-  Create an IoT fortune-telling cube or magic 8-ball with the BigClown Starter Kit. When you shake it, it gives you an answer to everything you want to know.
+  Create an IoT fortune-telling cube or magic 8-ball with the HARDWARIO Starter Kit. When you shake it, it gives you an answer to everything you want to know.
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1573640047/projects/project_placeholder.jpg
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1573640047/projects/project_placeholder.jpg
 tags:
@@ -29,7 +29,7 @@ Even young programmers want to know what their future holds. The box will tell y
 
 Under this project, you will learn to turn the box into an oracle or **magic 8-ball**. ️🎱 Set it to randomly choose one of a number of options when it is shaken.
 
-You will need the **box with button and a USB Dongle**. The basic BigClown [**Starter Kit**](https://shop.hardwario.com/starter-kit/) is sufficient for this.
+You will need the **box with button and a USB Dongle**. The basic HARDWARIO [**Starter Kit**](https://shop.hardwario.com/starter-kit/) is sufficient for this.
 
 {{< modules >}}
 

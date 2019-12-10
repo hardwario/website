@@ -5,10 +5,10 @@ featured: false
 handbook:
 date: 2019-11-09T13:28:45.860Z
 description: >-
-  Enhance your digital skills with this IoT project from BigClown. Make an upgraded dog kennel temperature monitor with the BigClown Starter Kit. Higher level - only for those who have no fear!
+  Enhance your digital skills with this IoT project from HARDWARIO. Make an upgraded dog kennel temperature monitor with the HARDWARIO Starter Kit. Higher level - only for those who have no fear!
 meta_title: Make an upgraded dog kennel temperature monitor
 meta_description: >-
-  Enhance your digital skills with this IoT project from BigClown. Make an upgraded dog kennel temperature monitor with the BigClown Starter Kit. Higher level - only for those who have no fear!
+  Enhance your digital skills with this IoT project from HARDWARIO. Make an upgraded dog kennel temperature monitor with the HARDWARIO Starter Kit. Higher level - only for those who have no fear!
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1573306280/projects/upgrade-hlidac-teploty-pro-chlupateho-hlidace/10-ilustrace-ma-pes-v-boude-dostatek-tepla-se-stickerem.png
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1573306280/projects/upgrade-hlidac-teploty-pro-chlupateho-hlidace/10-ilustrace-ma-pes-v-boude-dostatek-tepla-se-stickerem.png
 tags:
@@ -26,7 +26,7 @@ Under this project, you will learn how to set the box to **send you a message wh
 
 The basic version of this project can be found here: [Temperature monitor for your hairy watchman: check the temperature in your dog's kennel](/projects/kennel-temperature-monitor/).
 
-All you need is the basic BigClown [**Starter Kit**](https://shop.hardwario.com/starter-kit/).
+All you need is the basic HARDWARIO [**Starter Kit**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 

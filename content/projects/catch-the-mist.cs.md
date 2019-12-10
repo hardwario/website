@@ -1,11 +1,11 @@
 ---
 title: Chyť nenasytného vykradače ledniček
 meta_title: Chyť nenasytného vykradače ledniček
-meta_description: Vytvoř si ze Starter Kitu od BigClown IoT hlídač svého jídla v lednici. Připravili jsme pro tebe jednoduchý návod.
+meta_description: Vytvoř si ze Starter Kitu od HARDWARIO IoT hlídač svého jídla v lednici. Připravili jsme pro tebe jednoduchý návod.
 slug: chyt-mlsouna
 draft: false
 date: 2019-08-12
-description: Vytvoř si ze Starter Kitu od BigClown IoT hlídač svého jídla v lednici. Připravili jsme pro tebe jednoduchý návod.
+description: Vytvoř si ze Starter Kitu od HARDWARIO IoT hlídač svého jídla v lednici. Připravili jsme pro tebe jednoduchý návod.
 tags:
   - Projekt na doma
 idea: false
@@ -25,7 +25,7 @@ Určitě to znáš. V lednici si necháváš poslední kousek dortu ze svojí os
 
 V tomhle projektu se naučíš vytvořit **detektor otevírání ledničky**. 👈
 
-Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vystačíš se základní BigClown sadou – [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
+Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vystačíš se základní HARDWARIO sadou – [**Starter Kitem**](https://shop.hardwario.com/starter-kit/).
 
 {{< modules >}}
 
@@ -36,7 +36,7 @@ Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vy
 **Náš tip:** Nevíš, jak si firmware stáhnout nebo co to je? [Zjistíš to tady]({{< ref "/academy/how-to-flash-firmware.cs.md" >}}).
 3. [Core Module spáruj s USB Donglem]({{< ref "/academy/how-to-pair-kit.cs.md" >}}). Hned po spárování uvidíš, že tvůj Core Module změnil Alias na **x-axis-detector**.
 
-{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566154098/projects/catch-the-mist/image8.png" alt = "BigClown Playground - devices" >}}
+{{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566154098/projects/catch-the-mist/image8.png" alt = "HARDWARIO Playground - devices" >}}
 
 ## Rozjeď to v Node-RED
 
