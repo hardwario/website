@@ -18,7 +18,7 @@ included: ["NB-IoT, LoRa nebo Sigfox","Životnost na baterie až 5 let","Rozši�
 notIncluded:
 weight: 0
 price: od 2 000 Kč
-buyLink: /cs/chester/
+buyLink: "/cs/chester/"
 modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["sigfox","lora"]
 techSpecs:

@@ -18,6 +18,6 @@ included: ["NB-IoT, LoRa or Sigfox","Runs on a battery for up to 5 years","Expan
 notIncluded:
 weight: 0
 price: from 79€
-buyLink: /chester/
+buyLink: "/chester/"
 eduText: The most versatile IoT Gateway. Able to transfer any data through LPWAN
 ---
