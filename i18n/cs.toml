@@ -105,3 +105,6 @@ other = "Stránka nenalezena"
 
 [404_message]
 other = "Omlouváme se. Zdá se, že stránka, kterou hledáte je pravděpodobně na dovolené nebo neexistuje. Nebojte, naše stabebnice to sleduje a pokud má stránka existovat, brzy bude zpět. Zkuste to prosím později."
+
+[twitter]
+other = "https://twitter.com/hardwario_cz"
