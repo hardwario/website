@@ -71,12 +71,12 @@ cs = "https://obchod.hardwario.cz/core-module"
 [[products]]
 title = "Denkovi 1-Wire Relay"
 en = "https://shop.hardwario.com/1-wire-8-channel-relay-module-with-din-rail-box/"
-cs = "https://obchod.bigclown.com/1-wire-8-channel-relay-module-with-din-rail-box/"
+cs = "https://obchod.hardwario.cz/1-wire-8-channel-relay-module-with-din-rail-box/"
 
 [[products]]
 title = "DS18B20 Temperature Sensor"
 en = "https://shop.hardwario.com/ds18b20-temperature-sensor/"
-cs = "https://obchod.bigclown.com/ds18b20-temperature-sensor/"
+cs = "https://obchod.hardwario.cz/ds18b20-temperature-sensor/"
 
 [[products]]
 title = "Encoder Module"

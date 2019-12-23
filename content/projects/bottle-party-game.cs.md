@@ -28,7 +28,7 @@ Proč hrát flašku s flaškou, když ti na to stačí chytrá krabička? Nastav
 
 V tomhle projektu se naučíš, jak nastavit krabičku tak, aby **vylosovala náhodného člena** z vaší skupiny. 😱
 
-Budeš potřebovat **krabičku s tlačítkem** a **USB dongle**. Vystačíš si tedy se základní HARDWARIO sadou, [**Starter Kitem**](https://obchod.bigclown.com/starter-kit/).
+Budeš potřebovat **krabičku s tlačítkem** a **USB dongle**. Vystačíš si tedy se základní HARDWARIO sadou, [**Starter Kitem**](https://obchod.hardwario.cz/starter-kit/).
 
 {{< modules >}}
 
