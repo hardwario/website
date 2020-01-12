@@ -108,3 +108,9 @@ other = "We're sorry. It looks like the page you're looking for is probably on v
 
 [twitter]
 other = "https://twitter.com/hardwario_en"
+
+[toolbar_text]
+other = "Meet us at the Bett Show in London!"
+
+[toolbar_link]
+other = "/blog/2020-01-12-meet-us-at-bett-show/"

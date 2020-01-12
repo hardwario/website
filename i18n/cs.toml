@@ -80,7 +80,7 @@ other = "Chci vědět více"
 other = "Naše akce k IoT a STEM výuce"
 
 [read_more]
-other = "Přečíst celé"
+other = "Přečíst více"
 
 [event_detail]
 other = "Informace o události"
@@ -108,3 +108,9 @@ other = "Omlouváme se. Zdá se, že stránka, kterou hledáte je pravděpodobn�
 
 [twitter]
 other = "https://twitter.com/hardwario_cz"
+
+[toolbar_text]
+other = "Potkejme se na Bett Show v Londýně!"
+
+[toolbar_link]
+other = "/cs/blog/potkejme-se-na-bett-show/"
