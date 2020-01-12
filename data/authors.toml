@@ -6,13 +6,13 @@ image = "martin.jpg"
 
 [pavel_hubner]
 name = "Pavel Hübner"
-post = "CTO & Co-Founder"
+post = "CTO & Co-founder"
 email = "pavel.hubner@hardwario.com"
 image = "pavel.jpg"
 
 [alan_fabik]
 name = "Alan Fabik"
-post = "CEO & Co-Founder"
+post = "CEO & Co-founder"
 email = "alan.fabik@hardwario.com"
 image = "alan.jpg"
 
@@ -24,7 +24,7 @@ image = "michal.jpg"
 
 [lukas_fabik]
 name = "Lukas Fabik"
-post = "Digital Clown"
+post = "CMO & Co-founder"
 email = "lukas.fabik@hardwario.com"
 image = "lukas.jpg"
 
