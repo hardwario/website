@@ -1,5 +1,5 @@
 ---
-title: CO2 Monitor Kit
+title: CO2 Kit + Starter Bundle
 id: basic
 description: Keep the CO2 level under control!
 isBasic: false
@@ -11,10 +11,10 @@ images:
   main: co2-monitor/main.png
 isStarter: false
 recommended: false
-included: ["Starter Kit", "CO2 Monitor Kit","100-day risk-free trial","Free 1-hour webinar","3-year Warranty"]
+included: ["Starter Bundle", "CO2 Monitor Kit","100-day risk-free trial","Free 1-hour webinar","3-year Warranty"]
 notIncluded:
 weight: 60
-price: 210€
+price: €287.8
 buyLink: "https://shop.hardwario.com/co2-kit-starter-kit-bundle/"
 modules: ["core","battery","co2","humidity","barometer","temperature","cover","enclosures-201"]
 optionalModules: ["usb_dongle","sigfox","lora"]

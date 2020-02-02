@@ -1,5 +1,5 @@
 ---
-title: CO2 Monitor Kit + Starter Kit
+title: CO2 Kit + Starter Bundle
 id: basic
 description: Udrž hladinu CO2 pod kontrolou!
 isBasic: false
@@ -11,10 +11,10 @@ images:
   main: co2-monitor/main.png
 isStarter: false
 recommended: false
-included: ["Obsahuje Starter Kit", "Obsahuje CO2 Monitor Kit","100 dní na vyzkoušení","Hodinový webinář zdarma","Záruka 3 roky"]
+included: ["Obsahuje Starter Bundle", "Obsahuje CO2 Monitor Kit","100 dní na vyzkoušení","Hodinový webinář zdarma","Záruka 3 roky"]
 notIncluded:
 weight: 60
-price: 5 390 Kč
+price: 7 195 Kč
 buyLink: "https://obchod.hardwario.cz/co2-kit-starter-kit-bundle/"
 modules: ["core","battery","co2","humidity","barometer","temperature","cover","enclosures-201"]
 optionalModules: ["usb_dongle","sigfox","lora"]

@@ -1,5 +1,5 @@
 ---
-title: Kit pro inovační týmy
+title: STEM Education Bundle
 id: basic
 description: Starter Kity pro celou třídu!
 isBasic: false
@@ -16,7 +16,7 @@ recommended: false
 included:
 notIncluded:
 weight: 500
-price: 24 990 Kč
+price: 33 737 Kč
 buyLink: https://obchod.hardwario.cz/edu-kit/
 modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["usb_dongle","sigfox","lora"]

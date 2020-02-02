@@ -1,5 +1,5 @@
 ---
-title: Starter Kit Bundle
+title: 10 Starter Kits Bundle
 id: basic
 description: Starter Kity pro celou třídu!
 isBasic: false
@@ -16,7 +16,7 @@ recommended: false
 included: ["10 Starter Kitů", "Zdarma HARDWARIO Hub", "100 dní na vyzkoušení","2hodinový webinář zdarma","Záruka 3 roky"]
 notIncluded:
 weight: 500
-price: 14 900 Kč
+price: 26 711 Kč
 buyLink: https://obchod.hardwario.cz/starter-kits-bundle/
 modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["usb_dongle","sigfox","lora"]

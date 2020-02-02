@@ -1,5 +1,5 @@
 ---
-title: CHESTER
+title: NB-IoT Tester
 id: basic
 kit: ["starter-kit"]
 description: Perfektní začátek se stavebnicí HARDWARIO!
@@ -14,11 +14,11 @@ isStarter: false
 isEdu: true
 isParents: true
 recommended: false
-included: ["NB-IoT, LoRa nebo Sigfox","Životnost na baterie až 5 let","Rozšiřitelný až o 5 expanderů", "Hodinový webinář zdarma","Záruka 3 roky"]
+included: ["NB-IoT","Životnost na baterie až 5 let","Rozšiřitelný až o 5 expanderů", "Hodinový webinář zdarma","Záruka 3 roky"]
 notIncluded:
 weight: 0
-price: od 2 000 Kč
-buyLink: "/cs/chester/"
+price: 3 639 Kč
+buyLink: "https://obchod.hardwario.cz/nb-iot-tester/"
 modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["sigfox","lora"]
 techSpecs:

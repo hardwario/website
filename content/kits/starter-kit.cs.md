@@ -1,5 +1,5 @@
 ---
-title: Starter Kit
+title: Starter Bundle
 id: basic
 kit: ["starter-kit"]
 description: Perfektní začátek se stavebnicí HARDWARIO!
@@ -17,7 +17,7 @@ recommended: false
 included: ["Obsahuje Push Button Kit", "Obsahuje Radio Dongle","Skvělý začátek se stavebnicí","100 dní na vyzkoušení","Záruka 3 roky"]
 notIncluded:
 weight: 0
-price: 1 490 Kč
+price: 2 671 Kč
 buyLink: https://obchod.hardwario.cz/starter-kit/
 modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["sigfox","lora"]

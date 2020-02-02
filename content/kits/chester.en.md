@@ -1,5 +1,5 @@
 ---
-title: CHESTER
+title: NB-IoT Tester
 id: basic
 kit: ["starter-kit"]
 description: Perfektní začátek se stavebnicí HARDWARIO!
@@ -14,10 +14,10 @@ isStarter: false
 isEdu: true
 isParents: true
 recommended: false
-included: ["NB-IoT, LoRa or Sigfox","Runs on a battery for up to 5 years","Expandable by up to 5 expanders", "Free 1-hour webinar","3-year Warranty"]
+included: ["NB-IoT","Runs on a battery for up to 5 years","Expandable by up to 5 expanders", "Free 1-hour webinar","3-year Warranty"]
 notIncluded:
 weight: 0
-price: from 79€
-buyLink: "/chester/"
+price: €145.6
+buyLink: "https://shop.hardwario.com/nb-iot-tester/"
 eduText: The most versatile IoT Gateway. Able to transfer any data through LPWAN
 ---

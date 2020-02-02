@@ -1,5 +1,5 @@
 ---
-title: Starter Kit
+title: Starter Bundle
 id: basic
 kit: ["starter-kit"]
 description: The best start with HARDWARIO Kit!
@@ -17,7 +17,7 @@ recommended: false
 included: ["Push Button Kit", "Radio Dongle", "A great way to begin", "100-day risk-free trial","3-year Warranty"]
 notIncluded: []
 weight: 0
-price: 59€
+price: €106.8
 buyLink: https://shop.hardwario.com/starter-kit/
 modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["sigfox","lora"]

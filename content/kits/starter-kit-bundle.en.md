@@ -1,5 +1,5 @@
 ---
-title: Starter Kit Bundle
+title: 10 Starter Kits Bundle
 id: basic
 description: Starter Kits for the entire class!
 isBasic: false
@@ -15,7 +15,7 @@ recommended: false
 included: ["10 Starter Kits", "Free HARDWARIO Hub", "100-day risk-free trial","Free 2-hour webinar","3-year Warranty"]
 notIncluded:
 weight: 500
-price: 590€
+price: €1068.4
 buyLink: https://shop.hardwario.com/starter-kits-bundle/
 modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["usb_dongle","sigfox","lora"]

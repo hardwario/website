@@ -1,5 +1,5 @@
 ---
-title: The Innovation Team Suitcase
+title: STEM Education Bundle
 id: basic
 description: Starter Kity pro celou třídu!
 isBasic: false
@@ -16,7 +16,7 @@ recommended: false
 included:
 notIncluded:
 weight: 500
-price: 990€
+price: €1349.5
 buyLink: https://shop.hardwario.com/edu-kit/
 modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["usb_dongle","sigfox","lora"]
