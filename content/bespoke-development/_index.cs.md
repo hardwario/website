@@ -1,5 +1,5 @@
 ---
-title: Vývoj na&nbsp;míru
+title: Vývoj&nbsp;na&nbsp;míru
 menu: ["main"]
 weight: 50
 meta_title: Získejte IoT řešení podle vašich představ do 3 měsíců s HARDWARIO

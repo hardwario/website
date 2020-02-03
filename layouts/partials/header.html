@@ -19,7 +19,7 @@
         {{ else }}
           {{ range .Site.Languages }}
             {{ if ne .Lang $.Page.Lang }}
-              <a class="font-gray d-block pb-10 pb-lg-0 pr-lg-30" href="/{{ .Lang }}">{{ .Params.LanguageName }}</a>
+            <li class = "d-inline-block"><a class="font-gray d-block pb-10 pb-lg-0 pr-lg-30" href="/{{ .Lang }}">{{ .Params.LanguageName }}</a></li>
             {{ end }}
           {{ end }}
         {{ end }}
