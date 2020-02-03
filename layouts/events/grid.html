@@ -1,4 +1,8 @@
-<a href="{{ .Params.link }}" class="d-block font-black text-decoration-none mb-40 border-left pl-20">
+{{ if .Params.link }}
+  <a href="{{ .Params.link }}" class="d-block font-black text-decoration-none mb-40 border-left pl-20">
+{{ else }}
+  <a href="{{ .Permalink }}" class="d-block font-black text-decoration-none mb-40 border-left pl-20">
+{{ end }}
     <div>
       <span class="font-font2 font-weight-medium text-uppercase pb-25 font-13">
         {{ if eq .Lang "cs" }}

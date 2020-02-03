@@ -1,0 +1,8 @@
+[when]
+other = "When"
+
+[type]
+other = "Type"
+
+[category]
+other = "Category"
