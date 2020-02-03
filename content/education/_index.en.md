@@ -1,7 +1,7 @@
 ---
 title: Education
 menu: ["main"]
-weight: 20
+weight: 30
 categories: ["education"]
 meta_title: Engaging active STEM learning based on real IoT projects with HARDWARIO
 meta_description: A complete solution of STEM education using its research-based pedagogical framework, which attractiveness is based on work with real IoT projects.

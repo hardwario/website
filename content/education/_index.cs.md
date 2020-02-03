@@ -1,7 +1,7 @@
 ---
 title: Vzdělávání
 menu: ["main"]
-weight: 20
+weight: 30
 categories: ["education"]
 meta_title: Poutavá aktivní STEM výuka postavená na reálných IoT projektech s HARDWARIO
 meta_description: Ucelený systém aktivní STEM výuky využívající výzkumem ověřený pedagogický rámec, jehož atraktivita je založena na práci s reálnými projekty internetu věcí.

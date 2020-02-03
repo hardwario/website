@@ -1,5 +1,5 @@
 ---
-title: Bespoke
+title: Bespoke development
 menu: ["main"]
 weight: 50
 meta_title: Get your bespoke IoT solution within the next 90 days with HARDWARIO
