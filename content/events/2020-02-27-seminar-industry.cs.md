@@ -8,7 +8,8 @@ title: "Neinvazivní IoT projekty do průmyslu i domácností prakticky - hardwa
 hashtags: ["seminar","praha"]
 category: industry
 image_main: /events/industry.png
-event_type: "Praha"
+event_type: "Seminář"
+place: "Praha"
 ---
 
 Přihlaste se na **HARDWARIO seminář** na téma **Neinvazivní IoT projekty v průmyslu i&nbsp;domácnostech**.

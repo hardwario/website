@@ -9,6 +9,7 @@ hashtags: ["webinar","zdarma"]
 category: industry
 image_main: /events/industry.png
 event_type: "Webinář"
+place: "Online"
 ---
 
 Přihlaste se na **bezplatný HARDWARIO webinář** na téma **Neinvazivní IoT projekty v průmyslu i&nbsp;domácnostech**.
