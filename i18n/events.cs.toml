@@ -6,3 +6,6 @@ other = "Misto"
 
 [category]
 other = "Kategorie"
+
+[price]
+other = "Cena"

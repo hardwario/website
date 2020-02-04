@@ -6,3 +6,6 @@ other = "Place"
 
 [category]
 other = "Category"
+
+[price]
+other = "Price"
