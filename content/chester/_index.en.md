@@ -2,6 +2,6 @@
 title: CHESTER
 menu:
 weight: 100
-meta_title: The most versatile NB-IoT gateway - CHESTER by HARDWARIO
-meta_description: A multi-purpose IoT gateway CHESTER can measure and transfer any data from various sources and interfaces through the fastest growing LPWAN Narrowband IoT and can run on a battery for up to 5 years.
+meta_title: Multipurpose IoT LPWAN (NB-IoT/LoRa) Hub - CHESTER by HARDWARIO
+meta_description: The platform features position tracking module, LPWAN connectivity and robust operation in te harsh environmental conditions. The platform is extensible with external sensors and interfaces. Full customization of the device is possible. The battery life-span is up to 5 years.
 ---
