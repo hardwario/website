@@ -1,12 +1,12 @@
 ---
-title: Příručka
+title: Příručka stavebnice
 meta:
     title: Příručka k HARDWARIO kitu | Krabička, se kterou ovládneš svět
     description: Získej náskok před ostatními. Sestav si kit od HARDWARIO a vytvoř svůj vlastní IoT projekt. Máme příručku a rady pro budoucí digitální borce.
 mainHeading: Příručka k HARDWARIO kitu
 mainParagraph: Krabička, se kterou ovládneš svět
 kit: ["starter-kit"]
-menu: []
+menu: ["footer"]
 weight: 5
 image: intro_CZ.png
 perex: <p>Získej náskok před ostatními. <strong>HARDWARIO</strong> je zábavný nástroj, se kterým pochopíš a navrhneš <strong>internet věcí</strong> (IoT). To znamená, že ze všeho, třeba i ze svojí židle, vytvoříš chytré zařízení a <strong>propojíš ho se svým počítačem nebo mobilem</strong>. Díky tomu začneš digitálně vylepšovat svůj domov, třídu a klidně i celé město a svět.</p><p>Základní sadou pro začátek je <strong>Starter Kit</strong>, ale časem ho můžeš vylepšit o rozšiřující kity. Podívej se, jak postavíš své první chytré zařízení a jak vytvoříš projekty, kterými ohromíš kámoše, rodinu i nás. 👌</p>

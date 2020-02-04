@@ -53,18 +53,18 @@ pygmentsUseClasses = true
 
 [[languages.cs.menu.footer]]
   url    = "https://obchod.hardwario.cz"
-  name   = "Obchod"
+  name   = "E-shop"
   weight = 500
 
-[[languages.en.menu.secondary]]
+[[languages.en.menu.main]]
   url    = "https://shop.hardwario.com"
   name   = "Shop"
-  weight = 500
+  weight = 95
 
-[[languages.cs.menu.secondary]]
+[[languages.cs.menu.main]]
   url    = "https://obchod.hardwario.cz"
-  name   = "Obchod"
-  weight = 500
+  name   = "Eshop"
+  weight = 95
 
 [blackfriday]
 smartypants = false
