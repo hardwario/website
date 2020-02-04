@@ -11,7 +11,7 @@ image_main: /events/industry.png
 event_type: "Praha"
 ---
 
-Přihlaste se na **HARDWARIO seminář** na téma **Neinvazivní IoT projekty v průmyslu i domácnostech**.
+Přihlaste se na **HARDWARIO seminář** na téma **Neinvazivní IoT projekty v průmyslu i&nbsp;domácnostech**.
 
 Na praktických případových studiích si ukážeme, jak nastavit hardware, konektivitu i integrační platformy. Nebudou chybět informace o časovém rozsahu těchto projektů, jejich celkových nákladech a výhodách partnerství s HARDWARIO.
 

@@ -8,10 +8,10 @@ title: "Neinvazivní IoT projekty do průmyslu i domácností prakticky - hardwa
 hashtags: ["webinar","zdarma"]
 category: industry
 image_main: /events/industry.png
-event_type: "Webinář online"
+event_type: "Webinář"
 ---
 
-Přihlaste se na **bezplatný HARDWARIO webinář** na téma **Neinvazivní IoT projekty v průmyslu i domácnostech**.
+Přihlaste se na **bezplatný HARDWARIO webinář** na téma **Neinvazivní IoT projekty v průmyslu i&nbsp;domácnostech**.
 
 Na praktických případových studiích si ukážeme, jak nastavit hardware, konektivitu i integrační platformy. Nebudou chybět informace o časovém rozsahu těchto projektů, jejich celkových nákladech a výhodách partnerství s HARDWARIO.
 
