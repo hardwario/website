@@ -7,7 +7,7 @@ expirydate: "2020-02-14"
 title: "Neinvazivní IoT projekty do průmyslu i domácností prakticky - hardware, konektivita, platformy, případovky, náklady"
 hashtags: ["webinar","zdarma"]
 category: industry
-image_main: /events/industry.png
+image_main: /events/webinar.jpg
 event_type: "Webinář"
 place: "Online"
 ---
