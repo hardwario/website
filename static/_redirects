@@ -23,6 +23,7 @@ https://www.hardwario.com/edu https://www.hardwario.com/education?utm_source=ban
 https://www.hardwario.cz/edu https://www.hardwario.com/cs/education?utm_source=banner&utm_medium=print&utm_campaign=edu:splat 301!
 
 # BigClown Developers redirects
+http://developers.bigclown.com/* https://developers.hardwario.com/:splat 301!
 https://developers.bigclown.com/* https://developers.hardwario.com/:splat 301!
 
 # BigClown Redirects
