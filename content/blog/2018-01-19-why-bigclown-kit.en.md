@@ -25,7 +25,7 @@ That's right, HARDWARIO PIR motion detector does not have any wires and no solde
 
 You do not need to write the code or copy/paste the examples and compile the firmware. We maintain the pre-prepared firmware images who can be programmed to HARDWARIO products directly from GitHub repositories using the HARDWARIO Firmware Tool.
 
-For quick start at client/user interface side we provide either various local (offline) integrations as well as those connected to cloud solutions - just look into the [HARDWARIO documentation](https://developers.bigclown.com).
+For quick start at client/user interface side we provide either various local (offline) integrations as well as those connected to cloud solutions - just look into the [HARDWARIO documentation](https://developers.hardwario.com).
 
 We also want to allow the maker to dig as deep as he/she wants to and discover how the hardware and software works under the hood. That's why HARDWARIO hardware and software is open, coming with documentation, tutorials and personal support (and you bet we are really good at this).
 
@@ -121,21 +121,21 @@ There is not open, secure (authentication & encryption, automatic encyption key 
 
 There are several levels for extensions, you can:
 
-* Connect simple sensors and actuators through the connector on [Sensor Module](https://developers.bigclown.com/hardware/about-sensor-module/).
+* Connect simple sensors and actuators through the connector on [Sensor Module](https://developers.hardwario.com/hardware/about-sensor-module/).
 
-* Use a breadboard or wires and I/O brought to the [HEADER](https://developers.bigclown.com/hardware/headers-and-signals/#module-drawing-standard) with GPIO, I2C, UART, SPI, PWM, ADC, DAC etc ([Beadboard Module](https://developers.bigclown.com/hardware/about-breadboard-module/) may help you).
+* Use a breadboard or wires and I/O brought to the [HEADER](https://developers.hardwario.com/hardware/headers-and-signals/#module-drawing-standard) with GPIO, I2C, UART, SPI, PWM, ADC, DAC etc ([Beadboard Module](https://developers.hardwario.com/hardware/about-breadboard-module/) may help you).
 
 * Use [SMT](https://en.wikipedia.org/wiki/Surface-mount_technology) prototyping area on [Battery Module](https://cdn.myshoptet.com/usr/shop.hardwario.com/user/shop/big/42.png?5a1ae639).
 
 * Design your own Module - just use the Module size and HEADER signals on your PCB.
 
-* Design your own product using [Cloony](https://developers.bigclown.com/hardware/about-cloony/).
+* Design your own product using [Cloony](https://developers.hardwario.com/hardware/about-cloony/).
 
 Or you can discover other ways unintended by us, we will be really excited! There are not any obstacles in hardware and software licenses.
 
 ### How can I extend integration or add software features ?
 
-On firmware level you can implement your application or features in ANSI C with help of HARDWARIO SDK (have a look at [SDK examples](https://github.com/bigclownlabs/bcf-sdk/tree/master/_examples)) and pre-prepared [HARDWARIO Toolchain](https://developers.bigclown.com/firmware/toolchain-guide/).
+On firmware level you can implement your application or features in ANSI C with help of HARDWARIO SDK (have a look at [SDK examples](https://github.com/bigclownlabs/bcf-sdk/tree/master/_examples)) and pre-prepared [HARDWARIO Toolchain](https://developers.hardwario.com/firmware/toolchain-guide/).
 
 On PC/Server/Cloud interoperability have several levels:
 
