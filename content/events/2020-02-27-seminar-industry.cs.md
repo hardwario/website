@@ -19,13 +19,13 @@ Absolvováním semináře navíc **získáte certifikát** pro instalaci IoT za�
 **Témata, na která se můžete těšit:**
 
 <ul class = "font-list">
-<li>Úvod do IoT a Průmyslu 4.0. Představení stavebnice HARDWARIO a IoT Hubu CHESTER. LPWAN - praktické představení sítí internet věcí (LoRa, NB-IoT, Sigfox) a integračních a vizualizačních platforem.</li>
-<li>Prediktivní údržba výrobní firmy, Neinvazivní sledování produktivity strojů a lidí, Monitoring stavu výrobní linky.</li>
+<li>Úvod do IoT a Průmyslu 4.0. Představení stavebnice HARDWARIO a IoT Hubu CHESTER. LPWAN - praktické představení sítí internetu věcí (LoRa, NB-IoT, Sigfox) a integračních a vizualizačních platforem.</li>
+<li>Prediktivní údržba výrobní firmy, neinvazivní sledování produktivity strojů a lidí, monitoring stavu výrobní linky.</li>
 <li>Bezpečnost a ochrana zdraví (BOZP), audity kvality a environmentální monitoring kanceláří, výrobních prostor a skladů.</li>
 <li>Optimalizace v logistice a nákupu.</li>
 </ul>
 
-Na praktických případových studiích si ukážeme, jak nastavit hardware, konektivitu i integrační a vizualizační platformy. Nebudou chybět informace o časovém rozsahu těchto projektů, jejich celkových nákladech a výhodách partnerství s HARDWARIO. **Po celou dobu konání semináře bude pro vás připraveno občerstvení**.
+Na praktických případových studiích si ukážeme, jak nastavit hardware, konektivitu i integrační a vizualizační platformy. Nebudou chybět informace o časovém rozsahu těchto projektů, jejich **celkových nákladech** a výhodách partnerství s HARDWARIO. **Po celou dobu konání semináře bude pro vás připraveno občerstvení**.
 
 {{% section "Registrace" %}}
 
