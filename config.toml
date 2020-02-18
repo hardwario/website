@@ -5,6 +5,7 @@ pygmentsUseClassic = false
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 pygmentsUseClasses = true
+csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
 
 [params]
   menuNames = ["main","footer","secondary"]
@@ -18,12 +19,16 @@ pygmentsUseClasses = true
     weight = 1
     [languages.en.params]
       baseURL = "/"
+      csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
+      contactFormId = "39c2f6d9-e437-4e94-9a97-89d4596faa34"
   [languages.cs]
     LanguageName = "Česky"
     weight = 2
     [languages.cs.params]
       baseURL = "/cs/"
       homeURL = "/cs/"
+      csFormId = "5f6b17c0-98bb-45e6-af13-923c07e38916"
+      contactFormId = "a6663021-661c-442f-af7c-a4e29f21f305"
 
 
 [[languages.en.menu.footer]]

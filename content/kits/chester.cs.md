@@ -17,7 +17,7 @@ recommended: false
 included: ["NB-IoT","Životnost na baterie až 5 let","Rozšiřitelný až o 5 expanderů", "Hodinový webinář zdarma","Záruka 3 roky"]
 notIncluded:
 weight: 0
-price: 3 639 Kč
+price: 3 657 Kč
 buyLink: "https://obchod.hardwario.cz/nb-iot-tester/"
 modules: ["core","mini_battery","button","usb_dongle"]
 optionalModules: ["sigfox","lora"]
