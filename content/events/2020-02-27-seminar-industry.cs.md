@@ -5,7 +5,7 @@ price: "900&nbsp;Kč"
 publishdate: "2020-02-04"
 expirydate: "2020-02-27"
 title: "Neinvazivní IoT projekty do průmyslu i domácností prakticky - hardware, konektivita, platformy, případovky, náklady"
-hashtags: ["seminar","praha","obsazeno"]
+hashtags: ["seminar","praha"]
 category: industry
 image_main: /events/seminar.jpg
 event_type: "Seminář"
