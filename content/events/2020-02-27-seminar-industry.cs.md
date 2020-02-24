@@ -12,8 +12,6 @@ event_type: "Seminář"
 place: "Praha, Václavské náměstí&nbsp;11"
 ---
 
-**Kapacita naplněna**
-
 Chcete si prakticky vyzkoušet postavit IoT pilot pro Průmysl 4.0? Přihlaste se na **HARDWARIO seminář** na téma **Neinvazivní IoT projekty v průmyslu i&nbsp;domácnostech**. Strávíme 4 hodiny praktickými ukázkami projektů průmyslu 4.0 a případovými studiemi. Vybrané projekty si během semináře zkusíte postavit od A do Z - sestavíte hardware, nastavíte jeho fungování, připojíte zařízení k internetu a data budete zpracovávat některou z vizualizačních platforem.
 
 Absolvováním semináře navíc **získáte certifikát** pro instalaci IoT zařízení HARDWARIO a budete se moct stát **oficiálním HARDWARIO partnerem**.
@@ -35,8 +33,12 @@ Seminář proběhne 27. února od 14 do 18 hodin v pražském Czechitas House ([
 
 {{% section "Registrace" %}}
 
-Jen nám to líto, ale na tomto semináři už nezbývá žádné volné místo. Přijít můžete na některý z dalších termínů:
+Pro registraci na seminář stačí vyplnit formulář níže. Následně se s vámi domluvíme na způsobu uhrazení a fakturaci. Celková cena je 900 Kč včetně DPH. Těšíme se!
 
-- [26. března v Brně](/cs/events/2020-03-26-seminar-industry/)
-- [30. dubna v Praze](/cs/events/2020-04-30-seminar-industry/)
-- [28. května v Brně](/cs/events/2020-05-28-seminar-industry/)
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+<script>
+  hbspt.forms.create({
+	portalId: "5453210",
+	formId: "62194456-acb8-4215-b660-2b625f9ea77b"
+});
+</script>
