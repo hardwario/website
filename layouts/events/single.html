@@ -17,24 +17,24 @@
                           <div class="font-gray3">{{ i18n "when" }}</div>
                           <span class="font-black" href="">
                             {{ if eq .Lang "cs" }}
-                              {{ .Date.Day }}. {{ index $.Site.Data.mesice (printf "%d" .Date.Month) }} {{ .Date.Year }}
+                              {{ .Date.Day }}. {{ index $.Site.Data.mesice (printf "%d" .Date.Month) }} {{ .Date.Year }},
                             {{ else }}
-                              {{ .Date.Format "2 January 2006" }}
+                              {{ .Date.Format "2 January 2006" }},
                             {{ end }}
-                            , {{ .Params.time }}
+                            {{ .Params.time  | safeHTML}}
                           </span>
                       </div>
                       <div class="pl-30 pr-md-30 pr-lg-60 border-left py-10 py-md-30">
                           <div class="font-gray3">{{ i18n "type" }}</div>
-                          <span class="font-black" href="">{{ .Params.place }}</span>
+                          <span class="font-black" href="">{{ .Params.place | safeHTML }}</span>
                       </div>
                       <div class="pl-30 pr-xl-100 border-left py-10 py-md-30">
                           <div class="font-gray3">{{ i18n "category" }}</div>
-                          <span class="font-black" href="">{{ .Params.category}}</span>
+                          <span class="font-black" href="">{{ .Params.category | safeHTML}}</span>
                       </div>
                       <div class="pl-30 pr-xl-100 border-left py-10 py-md-30">
                           <div class="font-gray3">{{ i18n "price" }}</div>
-                          <span class="font-black" href="">{{ .Params.price }}</span>
+                          <span class="font-black" href="">{{ .Params.price | safeHTML }}</span>
                       </div>
                   </div>
 
