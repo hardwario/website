@@ -1,7 +1,7 @@
 ---
 title: Partneři
-menu:
-weight: 50
+menu: ["secondary","footer"]
+weight: 450
 slug: partneri
 meta_title: Buďte expertem na IoT a LPWAN technologie. Staňte se partnerem HARDWARIO
 meta_description: Staňte se naším partnerem a nabízejte technologicky vyspělá řešení pod vlastní značkou.
