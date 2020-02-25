@@ -109,6 +109,33 @@
     }
   }
 
+  &-image15
+  {
+    background: url("../images/image15.svg") right top no-repeat;
+    background-size: 45% auto;
+    min-height: 600px;
+
+    @media(max-width:1199px)
+    {
+      background-size: 60% auto;
+      background-position: center right -50px;
+    }
+
+    @media(max-width:991px)
+    {
+      min-height: 0;
+      background-position: bottom right;
+      background-size: 55% auto;
+      padding-bottom: 200px;
+    }
+
+    @media(max-width:767px)
+    {
+      background-size: 90% auto;
+      padding-bottom: 300px;
+    }
+  }
+
   &-image9
   {
     background: url("../images/image9.svg") right top 0px no-repeat;
@@ -309,6 +336,26 @@
   &-image12
   {
     background: url("../images/image12.jpg") center center no-repeat;
+    background-size: cover;
+    //padding-top: 150px;
+    //padding-bottom: 250px;
+    //height: auto;
+
+    //@media(max-width:1199px)
+    //{
+    //  padding-top: 50px;
+    //  height: auto;
+    //}
+    //
+    //@media(max-width:767px)
+    //{
+    //  padding-top: 50px;
+    //  //padding-bottom: 50px;
+    //}
+  }
+  &-image14
+  {
+    background: url("../images/image14.jpg") center center no-repeat;
     background-size: cover;
     //padding-top: 150px;
     //padding-bottom: 250px;

@@ -1,0 +1,247 @@
+{{ define "main" }}
+
+<section>
+    <div class="bg-image15 pt-50 pt-lg-0 d-flex align-items-center mb-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 text-center text-md-left">
+                    <h1 class="font-40 font-md-64 font-md-lnh68 font-weight-black pb-40 pb-md-40">{{ .Params.heading | safeHTML }}</h1>
+                    <p class="font-24 font-gray2 font-lnh37 pb-40 mb-md-30 pr-md-100">{{ .Params.perex | safeHTML }}</p>
+                    <div>
+                        <a href="#pilars" class="cta-button font-lnh54 px-70 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "tell_me_more" }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="" id = "pilars">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-12 col-md-8 col-lg-6 col-xl-4 mx-auto text-center">
+                            <div class="font-redLined font-redLined-gray font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "partnerships_reasons" | safeHTML }}</span></div>
+                        </div>
+                    </div>
+                    <div class="row pb-10 pb-md-30">
+                        <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
+                            <h2 class="text-center pb-20 font-weight-black font-30 font-md-64 font-md-lnh68">{{ i18n "why_became_partners" | safeHTML }}</h2>
+                            <!--<p class="text-center font-24 font-lnh38">Sufficient amount of correct information reduces risk and reduces waste of time and resources.</p>-->
+                        </div>
+                    </div>
+                    <div class="row text-center align-items-center">
+                        <div class="col-12 col-md-4 d-none d-sm-block">
+                            <img src="/_assets/images/education.svg" alt="" class="mb-70" width="163" />
+                        </div>
+                        <div class="col-12 col-md-4 d-none d-sm-block">
+                            <img src="/_assets/images/support.svg" alt="" class="mb-70" width="260" />
+                        </div>
+                        <div class="col-12 col-md-4 d-none d-sm-block">
+                            <img src="/_assets/images/margin.svg" alt="" class="mb-70" width="163" />
+                        </div>
+                    </div>
+                    <div class="row text-center pb-10 mb-0 mb-md-100">
+                        <div class="col-12 col-lg-4 pb-40 pb-lg-0">
+                            <h3 class="font-26 font-md-40 font-lnh38 font-weight-black pb-10">{{ i18n "inovative_products" | safeHTML }}</h3>
+                            <p class="font-21 font-lnh34 px-15">{{ i18n "work_with_hitech_products" }}</p>
+                        </div>
+                        <div class="col-12 col-lg-4 pb-40 pb-lg-0">
+                            <h3 class="font-26 font-md-40 font-lnh38 font-weight-black pb-10">{{ i18n "full_support" | safeHTML }}</h3>
+                            <p class="font-21 font-lnh34 px-15">{{ i18n "help_with_tech_marketing_sales" | safeHTML }}</p>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <h3 class="font-26 font-md-40 font-lnh38 font-weight-black pb-10">{{ i18n "guaranteed_reward" | safeHTML }}</h3>
+                            <p class="font-21 font-lnh34 px-15">{{ i18n "agreed_margin" | safeHTML }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container" id = "products">
+        <div class="row pt-50">
+            <div class="col">
+              <!--<div class="row">
+                  <div class="col-12 col-md-8 col-lg-6 col-xl-4 mx-auto text-center">
+                      <div class="font-redLined font-redLined-gray font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "partnerships_reasons" | safeHTML }}</span></div>
+                  </div>
+              </div>-->
+              <div class="row pb-10 pb-md-30">
+                  <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
+                      <h2 class="text-center pb-20 font-weight-black font-30 font-md-64 font-md-lnh68">{{ i18n "your_products_your_projects" | safeHTML }}</h2>
+                      <p class="text-center font-24 font-lnh38">{{ i18n "custom_solutions" | safeHTML }}</p>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class = "row">
+            <div class="col pt-60">
+                <div class="row justify-content-center pb-50 pb-md-100">
+                    <div class="col-12 col-lg-6">
+                        <span href="" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                            <h3 class="font-26 font-weight-medium pt-30 pb-30">{{ i18n "predictive_maintenance" | safeHTML }}</h3>
+                        </span>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <span href="" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                            <h3 class="font-26 font-weight-medium pt-30 pb-30">{{ i18n "machine_people_productivity" | safeHTML }}</h3>
+                        </span>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <span href="" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                            <h3 class="font-26 font-weight-medium pt-30 pb-30">{{ i18n "work_security_health" | safeHTML }}</h3>
+                        </span>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <span href="" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                            <h3 class="font-26 font-weight-medium pt-30 pb-30">{{ i18n "logistics_purchasing" | safeHTML }}</h3>
+                        </span>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <span href="" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                            <h3 class="font-26 font-weight-medium pt-30 pb-30">{{ i18n "environmental_monitoring" | safeHTML }}</h3>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container pb-50 mb-md-50">
+        <div class="row pb-50">
+            <div class="col">
+                <div class="row">
+                    <div class="col-12 col-md-6 mx-auto">
+                        <div class="font-redLined text-center font-red mb-20 font-font2 font-weight-bold font-15"><span>Produkty a technologie HARDWARIO</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-12 col-md-4 col-lg-4 ml-auto pb-50 pb-md-0">
+                <div class="d-block mb-40">
+                    <img loading="lazy" src="/_assets/images/products/kits.svg" alt="" width="240" />
+                </div>
+                <h2 class="font-40 pb-30 font-weight-black">{{ i18n "multifunctional_kits" | safeHTML }}</h2>
+                <div class="row">
+                    <div class="col-10 col-lg-9 mx-auto pb-20">
+                        <p class="font-19 font-gray2">{{ i18n "easy_to_build_devices" | safeHTML }}</p>
+                    </div>
+                </div>
+                <!--<a href="" class="d-block text-uppercase text-decoration-underline font-font2 font-weight-bold font-20 font-black">download<br />specification</a>-->
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 mr-auto">
+                <div class="d-block mb-40">
+                    <img loading="lazy" src="/_assets/images/products/chester.svg" alt="" width="220" />
+                </div>
+                <h2 class="font-40 pb-30 font-weight-black">{{ i18n "multipurpose_hub" | safeHTML }}</h2>
+                <div class="row">
+                    <div class="col-12 col-lg-11 mx-auto pb-20">
+                        <p class="font-19 font-gray2">{{ i18n "process_transfer" | safeHTML }}</p>
+                    </div>
+                </div>
+                <a href="/chester/" class="d-block text-decoration-underline font-font2 font-weight-bold font-20 font-black">Chci vědět více</a>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 mr-auto">
+                <div class="d-block mb-40">
+                    <img loading="lazy" src="/_assets/images/products/cloud.svg" alt="" width="220" />
+                </div>
+                <h2 class="font-40 pb-30 font-weight-black">{{ i18n "cloud_services" | safeHTML }}</h2>
+                <div class="row">
+                    <div class="col-12 col-lg-11 mx-auto pb-20">
+                        <p class="font-19 font-gray2">{{ i18n "connect_integrate" | safeHTML }}</p>
+                    </div>
+
+
+                </div>
+                <!--<a href="" class="d-block text-uppercase text-decoration-underline font-font2 font-weight-bold font-20 font-black">download<br />specification</a>-->
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="d-flex justify-content-center bg-image14 py-50 py-xl-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8 mx-auto">
+                    <div class="slick1">
+                        <div class="bg-white text-center px-30 px-md-50 pt-50 mb-30">
+                            <div class="row">
+                                <div class="col-12 col-md-8 mx-auto">
+                                    <div class="font-redLined font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "hardwario_academy" | safeHTML }}</span></div>
+                                </div>
+                            </div>
+                            <h2 class="font-weight-black font-20 font-md-32 pb-md-20">{{ i18n "educating_partners" | safeHTML }}</h2>
+                            <div>
+                                <a href="{{ "events/" | absLangURL }}" class="abs-1 font-lnh24 py-15 px-10 px-md-90 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "events_offer" | safeHTML }}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+  <div class="container py-50">
+    <div class="row justify-content-center">
+      <div class="col-10">
+        <div class="row">
+          <div class="col-12 col-md-6 mx-auto text-center pb-70">
+            <div class="font-redLined font-red font-font2 font-weight-bold font-10">
+              <span>
+                <div class="icon icon--quote"></div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <blockquote class="font-25 font-md-35 font-gray4 font-weight-bold text-center pb-10">
+          {{ i18n "partner_testimonial" | safeHTML }}
+        </blockquote>
+        <span class="d-block text-center font-black text-decoration-none">
+          <img loading="lazy" src="/case-studies/{{ .Params.testimonial_image }}" class="rounded-circle mb-30 d-block mx-auto" alt="" />
+          <div class="font-22 font-lnh38 font-weight-bold">
+            <div>Jan Havel</div>
+            <div>{{ i18n "partner_customer" }}</div>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+    <div class="bg-gray text-center pt-70 pb-60 px-15">
+      <div class = "container">
+        <div class="row">
+          <div class="col-12 col-md-8 mx-auto text-center">
+            <h2 class="font-40 font-md-64 font-md-lnh64 pb-30 mb-5 font-weight-black">{{ i18n "be_an_expert" | safeHTML }}</h2>
+            <p class="font-24 font-gray mb-30 pb-5 font-lnh38">{{ i18n "fill_partners_form" }}</p>
+          </div>
+      </div>
+      <div class = "row justify-content-center">
+        <div class = "col-12 col-md-8">
+          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+          <script>
+            hbspt.forms.create({
+            portalId: "5453210",
+            formId: "b30a6980-d777-4cfc-883e-b4e983e3a0c4"
+          });
+          </script>
+        </div>
+      </div>
+    </div>
+</section>
+
+<footer>
+
+
+{{ end }}
