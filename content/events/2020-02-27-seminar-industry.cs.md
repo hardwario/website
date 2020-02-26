@@ -5,7 +5,7 @@ price: "900&nbsp;Kč"
 publishdate: "2020-02-04"
 expirydate: "2020-02-27"
 title: "Neinvazivní IoT projekty do průmyslu i domácností prakticky - hardware, konektivita, platformy, případovky, náklady"
-hashtags: ["seminar","praha"]
+hashtags: ["seminar","praha","obsazeno"]
 category: industry
 image_main: /events/seminar.jpg
 event_type: "Seminář"
@@ -33,12 +33,8 @@ Seminář proběhne 27. února od 14 do 18 hodin v pražském Czechitas House ([
 
 {{% section "Registrace" %}}
 
-Pro registraci na seminář stačí vyplnit formulář níže. Následně se s vámi domluvíme na způsobu uhrazení a fakturaci. Celková cena je 900 Kč včetně DPH. Těšíme se!
+Jen nám to líto, ale na tomto semináři už nezbývá žádné volné místo. Přijít můžete na některý z dalších termínů:
 
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-<script>
-  hbspt.forms.create({
-	portalId: "5453210",
-	formId: "62194456-acb8-4215-b660-2b625f9ea77b"
-});
-</script>
+- [26. března v Brně](/cs/events/2020-03-26-seminar-industry/)
+- [30. dubna v Praze](/cs/events/2020-04-30-seminar-industry/)
+- [28. května v Brně](/cs/events/2020-05-28-seminar-industry/)
