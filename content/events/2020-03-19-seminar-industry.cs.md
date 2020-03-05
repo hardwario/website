@@ -1,9 +1,9 @@
 ---
-date: "2020-03-26"
+date: "2020-03-19"
 time: "14:00 - 18:00"
 price: "900 Kč"
 publishdate: "2020-02-11"
-expirydate: "2020-03-27"
+expirydate: "2020-03-20"
 title: "Neinvazivní IoT projekty do průmyslu i domácností prakticky - hardware, konektivita, platformy, případovky, náklady"
 hashtags: ["seminar","brno"]
 category: industry
