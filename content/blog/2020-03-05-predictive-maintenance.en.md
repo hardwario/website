@@ -53,6 +53,8 @@ You can try piloting predictive maintenance on just a couple of machines without
 6. Set limit alerts.
 7. Evaluate a project and decide on its success.
 
+<br/>
+
 After verifying the pilot, you can choose to expand measuring to other machines or measure different units and eventually cover all critical production parts. You can also use advanced data evaluation tools such as BitSwan, which can evaluate data in real time and search for patterns in performance and deviations from normal operation.
 
 ## We Will Help You with the Pilots

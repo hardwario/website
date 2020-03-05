@@ -54,6 +54,8 @@ Pro pilot prediktivní údržby můžete začít na několika málo strojích ve
 6. Nastavte si upozornění pro limitní hodnoty.
 7. Vyhodnoťte projekt a rozhodněte o jeho úspěšnosti.
 
+<br/>
+
 Po ověření pilotu můžete následně rozšířit měření na další stroje a jiné veličiny a postupně tak pokrýt všechny kritické části výroby. Využít můžete i pokročilých nástrojů pro vyhodnocování dat - například BitSwan, který dokáže data vyhodnocovat v reálném čase a hledat vzorce chování a odchylky od normálního chování.
 
 ## Pomůžeme vám s pilotem
