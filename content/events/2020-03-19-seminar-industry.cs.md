@@ -30,6 +30,7 @@ Na praktických případových studiích si ukážeme, jak nastavit hardware, ko
 {{% section "Registrace" %}}
 
 Pro registraci na seminář stačí vyplnit formulář níže. Následně se s vámi domluvíme na způsobu uhrazení a fakturaci. Celková cena je 900 Kč včetně DPH. Těšíme se!
+
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
   hbspt.forms.create({
