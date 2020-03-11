@@ -14,7 +14,7 @@ place: "Online"
 
 Přihlaste se na **bezplatný HARDWARIO webinář** na téma **Tvoříme IoT piloty neinvazivního měření efektivnosti výrobních zařízení**.
 
-Na praktických příkladech si ukážeme, jak připravit celý projekt monitoringu výkonu výrobní firmy - výběr hardware, konektivity, integrace. Nebudou chybět informace o časovém rozsahu těchto projektů a jejich celkových nákladech. Webonář proběhne společně s HARDWARIO partnerem IQ HUBS.
+Na praktických příkladech si ukážeme, jak připravit celý projekt monitoringu výkonu výrobní firmy - výběr hardware, konektivity, integrace. Nebudou chybět informace o časovém rozsahu těchto projektů a jejich celkových nákladech. 
 
 {{% section "Registrace" %}}
 
