@@ -1,10 +1,10 @@
 ---
 date: "2020-03-19"
-time: "14:00"
+time: "14:00 - 15:00"
 price: "Zdarma"
 publishdate: "2020-03-10"
 expirydate: "2020-03-20"
-title: "Neinvazivní měření výkonu výrobní firmy - postup, případové studie, náklady"
+title: "Tvoříme IoT piloty neinvazivního měření efektivnosti výrobních zařízení - postupy, případové studie, náklady"
 hashtags: ["webinar","zdarma"]
 category: industry
 image_main: /events/webinar.jpg
@@ -12,7 +12,7 @@ event_type: "Webinář"
 place: "Online"
 ---
 
-Přihlaste se na **bezplatný HARDWARIO webinář** na téma **Neinvazivní měření výkonu výrobní firmy**.
+Přihlaste se na **bezplatný HARDWARIO webinář** na téma **Tvoříme IoT piloty neinvazivního měření efektivnosti výrobních zařízení**.
 
 Na praktických příkladech si ukážeme, jak připravit celý projekt monitoringu výkonu výrobní firmy - výběr hardware, konektivity, integrace. Nebudou chybět informace o časovém rozsahu těchto projektů a jejich celkových nákladech. Webonář proběhne společně s HARDWARIO partnerem IQ HUBS.
 
