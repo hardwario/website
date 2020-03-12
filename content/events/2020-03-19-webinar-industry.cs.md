@@ -14,7 +14,17 @@ place: "Online"
 
 Přihlaste se na **bezplatný HARDWARIO webinář** na téma **Tvoříme IoT piloty neinvazivního měření efektivnosti výrobních zařízení**.
 
-Na praktických příkladech si ukážeme, jak připravit celý projekt monitoringu výkonu výrobní firmy - výběr hardware, konektivity, integrace. Nebudou chybět informace o časovém rozsahu těchto projektů a jejich celkových nákladech. 
+Na praktických příkladech si ukážeme, jak připravit celý projekt monitoringu výkonu výrobní firmy - výběr hardware, konektivity, integrace. Nebudou chybět informace o časovém rozsahu těchto projektů a jejich celkových nákladech.
+
+## Obsah webináře
+
+<ul class = "font-list mt-10 mb-0 pb-0">
+<li>Co je to celková efektivnost zařízení (tzv. OEE) a jak se měří.</li>
+<li>Jaké projekty je možné zrealizovat s produkty HARDWARIO.</li>
+<li>Jak vybrat hardware, konektivitu a integrace.</li>
+<li>Jak postupovat při implementaci.</li>
+<li class = "font-list mb-0 pb-0">Jaké jsou celkové náklady.</li>
+</ul>
 
 {{% section "Registrace" %}}
 
