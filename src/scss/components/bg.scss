@@ -315,7 +315,7 @@
     animation-name: fadeIn;
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
-    animation-duration: 1s;
+    animation-duration: 3s;
     animation-fill-mode:forwards;
 
     @media(max-width: 1367px)
@@ -352,7 +352,11 @@
   @keyframes fadeIn {
     0% {
         //background-position: 50% -100%;
-        opacity: 0.5;
+        opacity: 0;
+    }
+    30% {
+        //background-position: 50% -100%;
+        opacity: 0;
     }
     100% {
         //background-position: 50% 100%;
