@@ -1,0 +1,86 @@
+[multipurpose_hub]
+other = "Víceúčelový IoT&nbsp;Hub"
+
+[hub_description]
+other = "CHESTER je zařízení pro internet věcí."
+
+[learn_more]
+other = "Learn more"
+
+[low_power_consumption]
+other = "Nízká spotřeba"
+
+[10years_from_batteries]
+other = "Zařízení vyniká velmi nízkou spotřebou, díky které spolehlivě pracuje z baterie po dobu až 10 let. Může být provozováno ve&nbsp;venkovním i&nbsp;prašném prostředí."
+
+[multipurpose_use]
+other = "Víceúčelové využití"
+
+[one_device_many_applications]
+other = "CHESTER je modulární zařízení pokrývající mnoho IoT aplikací. Slouží k telemetrii dat z&nbsp;připojených systémů, monitoringu fyzikálních veličin, vzdálenému ovládání a/nebo sledování polohy."
+
+[lpwan_connectivity]
+other = "LPWAN konektivita"
+
+[economical_internet_communication]
+other = "Úsporná komunikace do internetu i ze vzdálených míst. CHESTER komunikuje prostřednictvím LPWAN technologií jako je NB-IoT, LTE Cat M1 nebo LoRaWAN, a to i z míst, kde není dostupné běžné připojení k internetu."
+
+[applications]
+other = "Aplikace"
+
+[about_chester]
+other = "About CHESTER"
+
+[monitoring_quantities]
+other = "Monitoring veličin"
+
+[telemetry]
+other = "Datová telemetrie"
+
+[tracking]
+other = "Sledování polohy"
+
+[remote_control]
+other = "Vzdálené ovládání"
+
+[smart_home]
+other = "Chytrá domácnost"
+
+[lpwan_tester]
+other = "Tester<br/>LPWAN"
+
+[power_voltage]
+other = "Napájecí napětí"
+
+[sleep_consumption]
+other = "Klidová spotřeba"
+
+[maximum_consumption]
+other = "Maximální spotřeba"
+
+[battery_capacity]
+other = "Kapacita baterie"
+
+[temperature_accuracy]
+other = "Přesnost měření teploty"
+
+[humidity_accuracy]
+other = "Přesnost měření vlhkosti"
+
+[working_temperature_range]
+other = "Pracovní teplotní rozsah"
+
+[storage_temperature_range]
+other = "Skladovací teplotní rozsah"
+
+[degree_protection]
+other = "Stupeň krytí"
+
+[overview]
+other = "Představení"
+
+[tech_specs]
+other = "Specifikace"
+
+[order]
+other = "Chci CHESTER"

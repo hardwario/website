@@ -1,5 +1,5 @@
 ---
-title:  Pomohli jsme E.ONu kontrolovat kabelové skříně
+title:  CHESTER pomáhá E.ONu kontrolovat kabelové skříně
 heading: Pomohli jsme E.ONu kontrolovat kabelové skříně
 image_main: /case-studies/eon_main.png
 image_grid: /case-studies/eon_grid.png

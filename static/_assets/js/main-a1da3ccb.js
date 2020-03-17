@@ -94,15 +94,26 @@ $(function(){
                     $('.submenu__link--overview').removeClass('active');
                 }
 
-                var hMin = $('#applications').offset().top-100;
-                var hMax = parseInt($('#applications').offset().top)+parseInt($('#applications').outerHeight())-100;
+                var hMin = $('#kit').offset().top-100;
+                var hMax = parseInt($('#kit').offset().top)+parseInt($('#kit').outerHeight())-100;
                 if($(window).scrollTop()>=hMin && $(window).scrollTop()<=hMax)
                 {
-                    $('.submenu__link--applications').addClass('active');
+                    $('.submenu__link--kit').addClass('active');
                 }
                 else
                 {
-                    $('.submenu__link--applications').removeClass('active');
+                    $('.submenu__link--kit').removeClass('active');
+                }
+
+                var hMin = $('#integration').offset().top-100;
+                var hMax = parseInt($('#integration').offset().top)+parseInt($('#integration').outerHeight())-100;
+                if($(window).scrollTop()>=hMin && $(window).scrollTop()<=hMax)
+                {
+                    $('.submenu__link--integration').addClass('active');
+                }
+                else
+                {
+                    $('.submenu__link--integration').removeClass('active');
                 }
 
                 var hMin = $('#specification').offset().top-100;
@@ -116,17 +127,16 @@ $(function(){
                     $('.submenu__link--specification').removeClass('active');
                 }
 
-                var hMin = $('#order').offset().top-100;
-                var hMax = parseInt($('#order').offset().top)+parseInt($('#order').outerHeight())-100;
+                var hMin = $('#support').offset().top-100;
+                var hMax = parseInt($('#support').offset().top)+parseInt($('#support').outerHeight())-100;
                 if($(window).scrollTop()>=hMin && $(window).scrollTop()<=hMax)
                 {
-                    $('.submenu__link--order').addClass('active');
+                    $('.submenu__link--support').addClass('active');
                 }
                 else
                 {
-                    $('.submenu__link--order').removeClass('active');
+                    $('.submenu__link--support').removeClass('active');
                 }
-
 
             }).scroll();
         }

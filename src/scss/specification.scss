@@ -1,0 +1,29 @@
+.specification
+{
+  padding-left: 75px;
+  table
+  {
+    font-size: 18px;
+    width: 100%;
+    color:#2e343c;
+
+    tr
+    {
+      td
+      {
+        border-top: 1px solid #e5e5e5;
+        padding-top: $baseline*0.65;
+        padding-bottom: $baseline*0.65;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+    }
+
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  strong
+  {
+    font-weight: 600;
+  }
+}

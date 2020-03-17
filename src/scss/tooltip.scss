@@ -1,0 +1,79 @@
+.redhotspot{
+  width: 30px;
+  height: 30px;
+  background: #cc0000;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  box-shadow: 0 0 0 3px #e78267;
+  position: absolute;
+  z-index: 101;
+
+  animation-name: spots;
+  animation-iteration-count: 1000;
+  animation-timing-function: ease-in-out;
+  animation-duration: 3s;
+  animation-fill-mode:forwards;
+}
+
+@keyframes spots {
+  0% {
+      opacity: 1;
+      //transform: scale(1);
+      box-shadow: 0 0 0 3px #e78267;
+  }
+  50% {
+      opacity: 0.6;
+      //transform: scale(1.1);
+      box-shadow: 0 0 0 6px #e78267;
+  }
+  100% {
+      opacity: 1;
+      //transform: scale(1);
+      box-shadow: 0 0 0 3px #e78267;
+  }
+}
+  #tooltip
+{
+    text-align: center;
+    color: #fff;
+    background: #252532;
+    position: absolute;
+    z-index: 101;
+    padding: 15px;
+}
+
+    #tooltip:after /* triangle decoration */
+    {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #252532;
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -10px;
+        margin-left: -10px;
+    }
+
+        #tooltip.top:after
+        {
+            border-top-color: transparent;
+            border-bottom: 10px solid #252532;
+            top: -20px;
+            bottom: auto;
+        }
+
+        #tooltip.left:after
+        {
+            left: 10px;
+            margin: 0;
+        }
+
+        #tooltip.right:after
+        {
+            right: 10px;
+            left: auto;
+            margin: 0;
+        }

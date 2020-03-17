@@ -629,6 +629,44 @@ hr{
     box-shadow:none !important
 }
 
+.movingObject{
+  animation-name: moving;
+  animation-iteration-count: 1000;
+  animation-timing-function: ease-in-out;
+  animation-duration: 5s;
+  animation-fill-mode:forwards;
+
+  background-image: url("../images/shadow.svg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+
+  &--noShadow{
+    background: transparent;
+  }
+}
+
+@keyframes moving {
+  0% {
+      padding-top: 10px;
+      padding-bottom: 0px;
+      background-size: 50%;
+  }
+
+  50% {
+      padding-top: 0px;
+      padding-bottom: 10px;
+      background-size: 130%;
+  }
+
+  100% {
+      padding-top: 10px;
+      padding-bottom: 0px;
+      background-size: 50%;
+  }
+}
+
+
+
 @import "article";
 @import "articles";
 @import "text";
@@ -642,3 +680,8 @@ hr{
 @import "product";
 @import "modules";
 @import "contentfilter";
+@import "submenu";
+@import "specification";
+@import "tooltip";
+@import "buttons";
+@import "contactbox";

@@ -116,17 +116,6 @@ $(function(){
                     $('.submenu__link--specification').removeClass('active');
                 }
 
-                var hMin = $('#order').offset().top-100;
-                var hMax = parseInt($('#order').offset().top)+parseInt($('#order').outerHeight())-100;
-                if($(window).scrollTop()>=hMin && $(window).scrollTop()<=hMax)
-                {
-                    $('.submenu__link--order').addClass('active');
-                }
-                else
-                {
-                    $('.submenu__link--order').removeClass('active');
-                }
-
 
             }).scroll();
         }

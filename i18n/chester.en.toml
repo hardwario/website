@@ -1,0 +1,59 @@
+[multipurpose_hub]
+other = "Multipurpose IoT&nbsp;Hub"
+
+[hub_description]
+other = "CHESTER is a device for the Internet of Things. It can be operated in outdoor and dusty environments."
+
+[learn_more]
+other = "Learn more"
+
+[low_power_consumption]
+other = "Low power consumption"
+
+[10years_from_batteries]
+other = "The device excels in very low power consumption, thanks to which it reliably operates from the battery for up to 10 years."
+
+[multipurpose_use]
+other = "Multipurpose<br/> use"
+
+[one_device_many_applications]
+other = "One modular device covering many IoT applications. CHESTER is used to telemetry data connected systems, physical quantity monitoring, remote control and / or position monitoring."
+
+[lpwan_connectivity]
+other = "LPWAN connectivity"
+
+[economical_internet_communication]
+other = "Economical communication to the Internet even from distant places. CHESTER communicates via LPWAN technologies such as NB-IoT, LTE M or LoRaWAN, even from places where normal Internet access is not available."
+
+[applications]
+other = "Applications"
+
+[about_chester]
+other = "About CHESTER"
+
+[monitoring_quantities]
+other = "Monitoring of&nbsp;quantities"
+
+[telemetry]
+other = "Data telemetry"
+
+[tracking]
+other = "Location tracking"
+
+[remote_control]
+other = "Remote control"
+
+[smart_home]
+other = "Smart<br/> home"
+
+[lpwan_tester]
+other = "LPWAN tester"
+
+[overview]
+other = "Overview"
+
+[tech_specs]
+other = "Tech Specs"
+
+[order]
+other = "Get CHESTER"

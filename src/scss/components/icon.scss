@@ -86,6 +86,42 @@
     height: 45px;	width: 54px;
   }
 
+  &--monitoring
+  {
+    background-image: url("../images/icons/monitoring.svg");
+    height: 55px;	width: 64px;
+  }
+
+  &--telemetry
+  {
+    background-image: url("../images/icons/data_telemetry.svg");
+    height: 55px;	width: 64px;
+  }
+
+  &--lpwan
+  {
+    background-image: url("../images/icons/lpwan.svg");
+    height: 55px;	width: 64px;
+  }
+
+  &--control
+  {
+    background-image: url("../images/icons/remote_control.svg");
+    height: 55px;	width: 64px;
+  }
+
+  &--home
+  {
+    background-image: url("../images/icons/smart_home.svg");
+    height: 55px;	width: 64px;
+  }
+
+  &--tracking
+  {
+    background-image: url("../images/icons/tracking.svg");
+    height: 55px;	width: 64px;
+  }
+
   &--manufacturing
   {
     background-image: url("../images/manufacturing.svg");

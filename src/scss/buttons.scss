@@ -1,0 +1,11 @@
+.button{
+
+  &__link{
+      border-bottom: solid 2px #E30427;
+      margin: 0 10px;
+      &:hover{
+        text-decoration: none;
+        border-bottom: none;
+      }
+  }
+}
