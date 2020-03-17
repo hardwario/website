@@ -5,31 +5,11 @@
 
 {{ define "main" }}
 
-<!--<section>
-    <div class="bg-image4 pt-lg-0 d-flex align-items-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6 text-center text-md-left">
-
-                    <div class="row">
-                        <div class="col-12 col-md-5 col-lg-7 col-xl-6">
-                            <div class="font-redLinedRight font-red mb-10 font-font2 font-weight-bold font-15"><span>CHESTER</span></div>
-                        </div>
-                    </div>
-
-                    <h1 class="font-40 font-md-64 font-weight-black pb-40 font-md-lnh64">{{ i18n "multipurpose_hub" | safeHTML }}</h1>
-                    <p class="font-24 font-lnh37 pb-20 mb-md-20">{{ i18n "hub_description" | safeHTML }}</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>-->
-
 <section>
-    <div class="bg-image16 pt-lg-0 d-flex">
+    <div class="bg-image16 d-flex">
         <div class="container">
               <div class="row">
-                  <div class="col-12 col-md-10 col-lg-6 col-xl-3 mx-auto text-center">
+                  <div class="col-8 col-md-6 col-lg-4 col-xl-3 mx-auto text-center">
                       <div class="font-redLined font-redLined-gray font-red mb-10 font-font2 font-weight-bold font-15"><span>CHESTER</span></div>
                   </div>
               </div>
@@ -64,7 +44,7 @@
         <div class="row mb-40">
             <div class="col">
                 <div class="row">
-                    <div class="col-12 col-md-6 col-lg-6  col-xl-4 mx-auto">
+                    <div class="col-8 col-md-6 col-lg-4 col-xl-3 mx-auto text-center">
                         <div class="font-redLined text-center font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "about_chester" }}</span></div>
                     </div>
                 </div>
@@ -74,7 +54,7 @@
         <div class="row pb-50 align-items-center">
             <div class="order-2 order-lg-1 col-12 col-lg-6 text-center text-lg-left">
                 <!--<div class="pb-15 font-red font-font2 font-weight-bold font-15">{{ i18n "prototype_product" }}</div>-->
-                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-40">{{ i18n "multipurpose_use" | safeHTML }}</h2>
+                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-10 pb-md-30">{{ i18n "multipurpose_use" | safeHTML }}</h2>
                 <p class="font-20 font-lnh30">{{ i18n "one_device_many_applications" | safeHTML }}</p>
             </div>
             <div class="order-1 order-lg-2 col-12 col-lg-6 text-center">
@@ -87,7 +67,7 @@
                 <img loading="lazy" src="/_assets/images/cloud.svg" class="w-50 movingObject movingObject--noShadow" alt="" />
             </div>
             <div class="col-12 col-lg-6 text-center text-lg-left">
-                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-40">{{ i18n "lpwan_connectivity" | safeHTML }}</h2>
+                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-30">{{ i18n "lpwan_connectivity" | safeHTML }}</h2>
                 <p class="font-20 font-lnh30">{{ i18n "economical_internet_communication" | safeHTML }}</p>
                 <img loading="lazy" src="/_assets/images/lpwan_brands.png" class="pt-30 w-100" alt="" />
             </div>
@@ -96,7 +76,7 @@
         <div class="row pb-0 align-items-center">
             <div class="order-2 order-lg-1 col-12 col-lg-6 text-center text-lg-left">
                 <!--<div class="pb-15 font-red font-font2 font-weight-bold font-15">{{ i18n "low_power_consumption" | safeHTML }}</div>-->
-                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-40">{{ i18n "low_power_consumption" | safeHTML }}</h2>
+                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-30">{{ i18n "low_power_consumption" | safeHTML }}</h2>
                 <p class="font-20 font-lnh30">{{ i18n "10years_from_batteries" | safeHTML }}</p>
             </div>
             <div class="order-1 order-lg-2 col-12 col-lg-6 text-center">
@@ -158,7 +138,7 @@
     <div class="bg pt-40">
         <div class="container pt-10">
           <div class="row justify-content-center">
-            <div class="pt-70 pb-60 px-15 col-12 col-md-6 text-center">
+            <div class="pt-10 pt-md-60 pb-10 pt-md-40 px-15 col-12 col-md-6 text-center">
               <h2 class="font-40 font-md-64 font-md-lnh56 pb-30 mb-5 font-weight-black">
                 Hardware
               </h2>
@@ -244,8 +224,16 @@
                     <div class="row pb-50">
 
                         <div class="col-12 pb-40 pb-md-0 specification">
-
-                          <table>
+                          <div class = "table-responsive">
+                          <table class = "table">
+                            <thead class="thead-default">
+                            <tr>
+                            <th>Modul</th>
+                            <th>Rozhraní</th>
+                            <th>Popis / Příklady využití</th>
+                            </tr>
+                            </thead>
+                            <tbody>
                               <tr>
                                   <td><strong>CHESTER-X0A</strong></td>
                                   <td>Externí I2C periferie</td>
@@ -301,7 +289,11 @@
                                   <td>4x tenzometr</td>
                                   <td>Rozhraní pro přesné měření váhy</td>
                               </tr>
+                              </tbody>
                           </table>
+                          </div>
+
+
                         </div>
                     </div>
                 </div>
@@ -314,7 +306,7 @@
         <section>
           <div class = "container" id = "order">
           <div class="row justify-content-center">
-            <div class="pt-80 col-12 col-md-6 text-center">
+            <div class="pt-10 pt-md-60 col-12 col-md-7 text-center">
               <h2 class="font-32 font-md-54 font-md-lnh56 font-weight-black">
                 Získejte CHESTER
               </h2>
@@ -324,10 +316,15 @@
               <a href = "#" class = "font-lnh24 font-weight-bold font-font2 font-red button__link getPricelist">Chci kompletní ceník</a>
               <a href = "https://obchod.hardwario.cz/nb-iot-tester/" class = "font-lnh24 font-weight-bold font-font2 font-red button__link">Koupit tester ihned</a>
               <!--<a href = "#" class="getOffer font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" data-toggle="modal" data-target=".bd-example-modal-lg">Send me materials</a>-->
+            </div>
+            <div class=" col-12 col-md-6 text-center">
               <img loading="lazy" src="/_assets/images/chester-device.svg" class="w-50 mt-20 movingObject" alt="" />
             </div>
           </div>
           </div>
+
+
+
           <div id = "offerModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered">
               <div class="modal-content">
