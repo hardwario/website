@@ -1,6 +1,28 @@
+.frame{
+  position: relative;
+  z-index: 80;
+  overflow:
+  hidden;
+  margin: 0 auto;
+  width: 100%;
+  height:auto;
+
+  &__inner{
+    position: relative;
+    height: 0px;
+    padding-bottom: 110%;
+  }
+
+  &__image{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 90;
+  }
+}
 .redhotspot{
-  width: 30px;
-  height: 30px;
+  width: 6%;
+  height: 5.8%;
   background: #cc0000;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
