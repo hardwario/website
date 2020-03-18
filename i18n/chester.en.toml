@@ -193,6 +193,9 @@ other = "Battery holder"
 [accelerometer]
 other = "Accelerometer"
 
+[cryptochip]
+other = "Cryptochip"
+
 [thermometer]
 other = "Thermometer"
 

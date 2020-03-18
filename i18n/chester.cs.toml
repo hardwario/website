@@ -193,6 +193,9 @@ other = "Držák baterie"
 [accelerometer]
 other = "Akcelerometr"
 
+[cryptochip]
+other = "Kryptočip"
+
 [thermometer]
 other = "Teploměr"
 
