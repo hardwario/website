@@ -7,9 +7,8 @@ http://www.hardwario.cz/* https://www.hardwario.com/cs/:splat 301!
 
 https://www.hardwario.com/cs/events/2020-02-27-seminar-industry/* https://www.hardwario.com/cs/events/2020-03-19-webinar-industry/:splat 301!
 
-
-https://www.hardwario.com/cs/chester/* https://www.hardwario.com/cs/chester-v2/:splat 302!
-https://www.hardwario.com/chester-v2/* https://www.hardwario.com/chester/:splat 302!
+https://www.hardwario.com/chester-v2/* https://www.hardwario.com/chester/:splat 301!
+https://www.hardwario.com/cs/chester-v2/* https://www.hardwario.com/cs/chester/:splat 301!
 
 # io shortcuts
 https://www.hardwar.io/skoda* https://www.hardwario.com/case-studies/skoda-andon/:splat 301!
@@ -20,7 +19,6 @@ https://www.hardwar.io/iframix* https://www.hardwario.com/case-studies/iframix/:
 
 https://hardwar.io/* https://www.hardwario.com/:splat 301!
 https://www.hardwar.io/* https://www.hardwario.com/:splat 301!
-
 
 https://www.hardwario.com/skoda-andon* https://www.hardwario.com/case-studies/skoda-andon/:splat 301!
 https://www.hardwario.com/our-events* https://www.hardwario.com/events/:splat 301!

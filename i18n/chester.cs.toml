@@ -1,9 +1,6 @@
 [multipurpose_hub]
 other = "Víceúčelový IoT&nbsp;Hub"
 
-[hub_description]
-other = "CHESTER je zařízení pro internet věcí."
-
 [learn_more]
 other = "Learn more"
 
@@ -23,7 +20,7 @@ other = "CHESTER je modulární zařízení pokrývající mnoho IoT aplikací. 
 other = "LPWAN konektivita"
 
 [economical_internet_communication]
-other = "Úsporná komunikace do internetu i ze vzdálených míst. CHESTER komunikuje prostřednictvím LPWAN technologií jako je NB-IoT, LTE Cat M1 nebo LoRaWAN, a to i z míst, kde není dostupné běžné připojení k internetu."
+other = "Úsporná komunikace do internetu i ze vzdálených míst. CHESTER komunikuje prostřednictvím LPWAN technologií jako je NB-IoT nebo LoRaWAN, a to i z míst, kde není dostupné běžné připojení k internetu."
 
 [applications]
 other = "Aplikace"
@@ -84,3 +81,123 @@ other = "Specifikace"
 
 [order]
 other = "Chci CHESTER"
+
+[module]
+other = "Modul"
+
+[interface]
+other = "Rozhraní"
+
+[description_examples]
+other = "Popis / Příklady využití"
+
+[i2c]
+other = "Externí I2C periferie"
+
+[ext_temp_hum]
+other = "Externí teploměry a vlhkoměry"
+
+[ultrasound]
+other = "Ultrazvukový senzor"
+
+[level_measurement]
+other = "Měření hladiny vodní jímky"
+
+[4_ext_input]
+other = "4x externí vstup"
+
+[analog_digital]
+other = "Analogový/digitální; rozsah 0 až 28 V"
+
+[1_wire]
+other = "1-Wire sběrnice"
+
+[temp_soil]
+other = "Teplotní senzor nebo vlhkost půdy"
+
+[reading_data_devices]
+other = "Vyčítání dat z různých přístrojů"
+
+[rs_485]
+other = "Rozhraní RS-485"
+
+[modbus]
+other = "Komunikace Modbus protokolem"
+
+[pt1000]
+other = "Rozhraní pro Pt1000"
+
+[rtd_temp]
+other = "Připojení průmyslových RTD teploměrů"
+
+[dc_dc]
+other = "DC/DC měnič"
+
+[ext_supply]
+other = "Napájení z externího zdroje 5 až 28 V"
+
+[connect_industry_sensors]
+other = "Připojení průmyslových senzorů"
+
+[analog_input]
+other = "Analogový vstup"
+
+[tension_accurate_measurement]
+other = "Přesné měření napětí -30 až +30 V"
+
+[strain_gauge]
+other = "4x tenzometr"
+
+[accurate_weight_measurement]
+other = "Rozhraní pro přesné měření váhy"
+
+[get_chester]
+other = "Získejte CHESTER"
+
+[chester_price]
+other = "Cena začíná na 2 488 Kč a závisí na konfiguraci a&nbsp;počtu kusů."
+
+[get_chester_pricelist]
+other = "Chci&nbsp;kompletní&nbsp;ceník"
+
+[buy_chester_tester]
+other = "Koupit&nbsp;tester&nbsp;ihned"
+
+[buy_chester_tester_link]
+other = "https://obchod.hardwario.cz/nb-iot-tester/"
+
+[interested_in_chester]
+other = "Mám zájem o CHESTER"
+
+[modification_integration]
+other = "Modifikace, integrace a branding dle přání zákazníka"
+
+[extended_warranty]
+other = "Prodloužená záruka 3 roky a&nbsp;100&nbsp;dní na vyzkoušení"
+
+[personal_tech_support]
+other = "Osobní technická podpora při&nbsp;nasazení a integraci"
+
+[extension_options]
+other = "Možnosti rozšíření"
+
+[antenna_connector]
+other = "anténní konektor"
+
+[embedded]
+other = "Vestavěný"
+
+[battery_holder]
+other = "Držák baterie"
+
+[accelerometer]
+other = "Akcelerometr"
+
+[thermometer]
+other = "Teploměr"
+
+[humidity_meter]
+other = "Vlhkoměr"
+
+[therminal_blocks]
+other = "Svorkovnice pro externí periferie"

@@ -1,5 +1,5 @@
 ---
-title:   We helped E.ON to assess cable boxes online
+title:   CHESTER helps E.ON to assess cable boxes online
 heading: We helped E.ON to assess cable boxes online
 image_main: /case-studies/eon_main.png
 image_grid: /case-studies/eon_grid.png

@@ -24,30 +24,6 @@
       margin-bottom: $baseline;
     }
 
-    &:after
-    {
-      height: 100%;
-      width:1px;
-      background: #edf2f6;
-      content: '';
-      position: absolute;
-      top:0;
-      right:-15px;
-
-      @media(max-width:767px)
-      {
-        display: none;
-      }
-    }
-
-    &--noborder
-    {
-      &:after
-      {
-        display: none;
-      }
-    }
-
     &:hover
     {
       .contactbox__title

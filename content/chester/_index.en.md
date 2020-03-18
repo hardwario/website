@@ -2,6 +2,6 @@
 title: CHESTER
 menu:
 weight: 100
-meta_title: Multipurpose IoT LPWAN (NB-IoT/LoRa) Hub - CHESTER by HARDWARIO
-meta_description: A multipurpose IoT LPWAN Hub CHESTER can measure and transfer any data from various sources and interfaces through the Narrowband IoT or LoRA and can run on a battery for up to 5 years.
+meta_title: Multipurpose IoT Hub CHESTER| NB-IoT Hub | LoRaWAN Hub | by HARDWARIO
+meta_description: CHESTER is modular device covering a wide range of IoT applications, communicates through LPWAN technologies, such as NB-IoT or LoRaWAN, even from places where regular internet connectivity is not available. The device features low power consumption and offers a reliable operation from a battery for up to 10 years.
 ---
