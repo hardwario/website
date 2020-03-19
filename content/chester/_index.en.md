@@ -1,5 +1,6 @@
 ---
-title: CHESTER
+title: Multipurpose IoT Hub CHESTER
+description: Modular device covering a wide range of IoT applications, communicates through LPWAN technologies. The device offers a reliable operation from a battery for up to&nbsp;10&nbsp;years.
 menu:
 weight: 100
 meta_title: Multipurpose IoT Hub CHESTER| NB-IoT Hub | LoRaWAN Hub | by HARDWARIO
