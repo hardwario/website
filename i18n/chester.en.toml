@@ -22,6 +22,12 @@ other = "LPWAN connectivity"
 [economical_internet_communication]
 other = "Communication to the internet from most distant places. CHESTER communicates through LPWAN technologies, such as&nbsp;NB-IoT or LoRaWAN, even from places where regular internet connectivity is not available."
 
+[integrate_device]
+other = "Ready for integration"
+
+[hundreds_of_services]
+other = "CHESTER can by easy connected to the cloud, mobile applications and other services, such as Azure IoT Hub, Grafana, Ubidots or Blynk as well as it can be integrated with your endpoint through the REST API and Webhooks."
+
 [applications]
 other = "Applications"
 
