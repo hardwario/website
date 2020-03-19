@@ -10,7 +10,7 @@
   &__inner{
     position: relative;
     height: 0px;
-    padding-bottom: 110%;
+    padding-bottom: 100%;
   }
 
   &__image{
@@ -18,6 +18,10 @@
     top: 0px;
     left: 0px;
     z-index: 90;
+
+    &--center{
+      margin-left: 25%;
+    }
   }
 }
 .redhotspot{
