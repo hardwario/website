@@ -21,6 +21,19 @@
     }
   }
 
+  &--logo2
+  {
+    background-image: url("../images/zmacknito.svg");
+    height: 70px;
+    width: 300px;
+
+    @media(max-width:767px)
+    {
+      width: 200px;
+      background-size: 100% auto;
+    }
+  }
+
   &--fb
   {
     background-image: url("../images/facebook.svg");

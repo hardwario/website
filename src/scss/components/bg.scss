@@ -393,6 +393,50 @@
     }
   }
 
+  &-image18 {
+    background-image: url("../images/image18.svg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 42.5% auto;
+    min-height: 701px;
+
+    animation-name: fadeIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+
+    @media(max-width: 1367px)
+    {
+      min-height: 600px;
+    }
+
+    @media(max-width: 1199px)
+    {
+      min-height: 400px;
+    }
+
+    @media(max-width:991px)
+    {
+      min-height: 0;
+      background-position: bottom right;
+      background-size: 60% auto;
+      padding-bottom: 300px;
+    }
+
+    @media(max-width:767px)
+    {
+      background-size: 90% auto;
+      background-position: bottom center;
+      padding-bottom: 350px;
+    }
+
+    @media(max-width:365px)
+    {
+      padding-bottom: 230px;
+    }
+  }
+
   @keyframes fadeIn {
     0% {
         //background-position: 50% -100%;
