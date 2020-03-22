@@ -340,10 +340,22 @@ https://www.bigclown.com/cs/kits/* https://obchod.hardwario.cz/stavebnice/:splat
 
 # BigClown domain
 http://bigclown.cz/* https://www.hardwario.com/cs/:splat 301!
+http://bigclown.com/* https://www.hardwario.com/:splat 301!
 http://www.bigclown.cz/* https://www.hardwario.com/cs/:splat 301!
 https://bigclown.cz/* https://www.hardwario.com/cs/:splat 301!
 https://www.bigclown.cz/* https://www.hardwario.com/cs/:splat 301!
 https://www.bigclown.com/* https://www.hardwario.com/:splat 301!
 https://forum.bigclown.com/* https://forum.hardwario.com/:splat 301!
+
+# Zmackni to
+http://zmackni.to/* https://www.hardwario.com/cs/zmackni-to/:splat 301!
+https://zmackni.to/* https://www.hardwario.com/cs/zmackni-to/:splat 301!
+
+http://zmacknito.cz/* https://www.hardwario.com/cs/zmackni-to/:splat 301!
+https://zmacknito.cz/* https://www.hardwario.com/cs/zmackni-to/:splat 301!
+
+http://zmackni.cz/* https://www.hardwario.com/cs/zmackni-to/:splat 301!
+https://zmackni.cz/* https://www.hardwario.com/cs/zmackni-to/:splat 301!
+
 
 /* /404.html
