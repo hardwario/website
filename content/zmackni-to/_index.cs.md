@@ -1,9 +1,8 @@
 ---
 type: "project"
-title: Zmáčkni mě
-description: Modulární zařízení, které komunikuje prostřednictvím LPWAN technologií a vyniká velmi nízkou spotřebou. Spolehlivě pracuje z baterie po dobu až&nbsp;10&nbsp;let.
+title: Zmáčkni To
 menu:
 weight: 100
-meta_title: Víceúčelový IoT Hub CHESTER | NB-IoT Hub | LoRaWAN Hub | by HARDWARIO
-meta_description: CHESTER je modulární zařízení pokrývající mnoho IoT aplikací, komunikuje prostřednictvím LPWAN technologií jako je NB-IoT nebo LoRaWAN, a to i z míst, kde není dostupné běžné připojení k internetu. Vyniká velmi nízkou spotřebou, díky které spolehlivě pracuje z baterie po dobu až 10 let.
+meta_title: Zmáčkni.To - Bezplatná služba<br/> přivolání pomoci tlačítkem od HARDWARIO
+meta_description: Bezplatně vám zapůjčíme fyzické tlačítko, kterým si jeho uživatel může kdykoliv přivolat pomoc. Tlačítko je bezdrátové, je napájeno z&nbsp;baterií, nepotřebuje vaše připojení k&nbsp;internetu a&nbsp;díky tomu se snadno používá a přenáší. Stisknutím tlačítka se odešle přednastavená zpráva na určená telefonní čísla.
 ---
