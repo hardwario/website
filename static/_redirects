@@ -341,6 +341,7 @@ https://www.bigclown.com/cs/kits/* https://obchod.hardwario.cz/stavebnice/:splat
 # BigClown domain
 http://bigclown.cz/* https://www.hardwario.com/cs/:splat 301!
 http://bigclown.com/* https://www.hardwario.com/:splat 301!
+https://bigclown.com/* https://www.hardwario.com/:splat 301!
 http://www.bigclown.cz/* https://www.hardwario.com/cs/:splat 301!
 https://bigclown.cz/* https://www.hardwario.com/cs/:splat 301!
 https://www.bigclown.cz/* https://www.hardwario.com/cs/:splat 301!
