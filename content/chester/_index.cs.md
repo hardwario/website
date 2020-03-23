@@ -5,4 +5,6 @@ menu:
 weight: 100
 meta_title: Víceúčelový IoT Hub CHESTER | NB-IoT Hub | LoRaWAN Hub | by HARDWARIO
 meta_description: CHESTER je modulární zařízení pokrývající mnoho IoT aplikací, komunikuje prostřednictvím LPWAN technologií jako je NB-IoT nebo LoRaWAN, a to i z míst, kde není dostupné běžné připojení k internetu. Vyniká velmi nízkou spotřebou, díky které spolehlivě pracuje z baterie po dobu až 10 let.
+form_id: eb8f3452-6c8d-4067-8348-84879abcd81d
+cherster_pricelist_form_id: f21bc865-c728-4485-9e90-00e8230360aa
 ---

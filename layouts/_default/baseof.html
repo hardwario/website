@@ -2,7 +2,10 @@
 
 {{ block "header" . }}
 
-  <!--{{ partial "toolbar.html" . }}-->
+{{ $currentLang := .Site.Language.Lang }}
+{{ if eq $currentLang "cs" }}
+  {{ partial "toolbar.html" . }}
+{{ end }}
 
   {{ partial "header.html" . }}
 

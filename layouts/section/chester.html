@@ -347,12 +347,12 @@
                       <div class="col-md-10">
                         <h2 class = "font-30 font-md-42 pt-50 pb-50 font-weight-black text-center">{{ i18n "interested_in_chester" }}</h2>
                       </div>
-                      <div class="col-md-8 text-center">
+                      <div class="col-md-8 text-center" style = "margin-right: -4px;">
                         <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
                         <script>
                           hbspt.forms.create({
                         	portalId: "5453210",
-                        	formId: "68e0201e-eb86-49e8-8170-2d68345ad148"
+                        	formId: "{{ .Params.form_id }}"
                         });
                         </script>
                       </div>
@@ -404,12 +404,12 @@
                       <div class="col-md-10">
                         <h2 class = "font-30 font-md-42 pt-50 pb-50 font-weight-black text-center">{{ i18n "get_chester_pricelist" | safeHTML }}</h2>
                       </div>
-                      <div class="col-md-8 text-center">
+                      <div class="col-md-8 text-center" style = "margin-right: -4px;">
                         <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
                         <script>
                           hbspt.forms.create({
                         	portalId: "5453210",
-                        	formId: "ac1f84ad-0918-452b-8d44-926c39a9d2aa"
+                        	formId: "{{ .Params.cherster_pricelist_form_id }}"
                         });
                         </script>
                       </div>

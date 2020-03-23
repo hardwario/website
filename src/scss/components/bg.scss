@@ -318,6 +318,21 @@
     animation-duration: 3s;
     animation-fill-mode:forwards;
 
+    @media(min-width: 2300px)
+    {
+      min-height: 950px;
+    }
+
+    @media(min-width: 2100px)
+    {
+      min-height: 850px;
+    }
+
+    @media(min-width: 1800px)
+    {
+      min-height: 770px;
+    }
+
     @media(max-width: 1367px)
     {
       min-height: 600px;
@@ -361,6 +376,21 @@
     animation-timing-function: ease-in-out;
     animation-duration: 3s;
     animation-fill-mode:forwards;
+
+    @media(min-width: 2300px)
+    {
+      min-height: 950px;
+    }
+
+    @media(min-width: 2100px)
+    {
+      min-height: 850px;
+    }
+
+    @media(min-width: 1800px)
+    {
+      min-height: 770px;
+    }
 
     @media(max-width: 1367px)
     {
@@ -406,6 +436,21 @@
     animation-duration: 3s;
     animation-fill-mode:forwards;
 
+    @media(min-width: 2300px)
+    {
+      min-height: 950px;
+    }
+
+    @media(min-width: 2100px)
+    {
+      min-height: 850px;
+    }
+
+    @media(min-width: 1800px)
+    {
+      min-height: 770px;
+    }
+
     @media(max-width: 1367px)
     {
       min-height: 600px;
@@ -449,6 +494,21 @@
     animation-timing-function: ease-in-out;
     animation-duration: 3s;
     animation-fill-mode:forwards;
+
+    @media(min-width: 2300px)
+    {
+      min-height: 950px;
+    }
+
+    @media(min-width: 2100px)
+    {
+      min-height: 850px;
+    }
+
+    @media(min-width: 1800px)
+    {
+      min-height: 770px;
+    }
 
     @media(max-width: 1367px)
     {
