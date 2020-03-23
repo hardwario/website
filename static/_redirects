@@ -60,6 +60,9 @@ https://docs.bigclown.cz/* https://developers.hardwario.com/:splat 301!
 https://learn.bigclown.com/* https://developers.hardwario.com/:splat 301!
 https://learn.bigclown.cz/* https://developers.hardwario.com/:splat 301!
 
+https://www.hardwario.com/doc/basics/quick-start-guide/* https://developers.hardwario.com/basics/bigclown-playground:splat 301;
+
+
 # Blog
 https://blog.bigclown.com/* https://www.hardwario.com/blog/:splat 301!
 https://blog.bigclown.cz/* https://www.hardwario.com/cs/blog/:splat 301!
