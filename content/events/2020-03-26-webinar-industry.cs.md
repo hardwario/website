@@ -18,12 +18,4 @@ Na praktických příkladech si ukážeme, jaká uplatnění najdou bezdrátová
 
 {{% section "Registrace" %}}
 
-Pro bezplatnou registraci na webinář stačí vyplnit formulář níže. Den před konáním webinářem vám na e-mail přijde odkaz s instrukcemi pro připojení. Těšíme se!
-
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-<script>
-  hbspt.forms.create({
-	portalId: "5453210",
-	formId: "0f59b093-130b-42cf-82e9-3236a5f3da4a"
-});
-</script>
+Registrace byla ukončena. Link na webinář pro registrované: [https://zoom.us/j/973935090](https://zoom.us/j/973935090)
