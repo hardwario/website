@@ -14,7 +14,7 @@ place: "Online"
 
 Přihlaste se na **bezplatný HARDWARIO webinář** na téma **ANDON a jiná uplatnění univerzálních bezdrátových tlačítek**.
 
-Na praktických příkladech si ukážeme, jaká uplatnění najdou bezdrátová tlačítka v průmyslu. Příkladem takového projektu je i ANDON, který pomáhá rychleji reagovat na problémy ve výrobě. Podíváme se, jak sestavit hardware, jak postupovat při integraci i výběr konektivity. Nebudou chybět informace o celkových nákladech a případové studie.
+Na praktických příkladech si ukážeme, jaká uplatnění najdou bezdrátová tlačítka v průmyslu. Příkladem takového projektu je i ANDON, který pomáhá rychleji reagovat na problémy ve výrobě. Podíváme se, jak sestavit hardware, jak postupovat při integraci i výběru konektivity. Nebudou chybět informace o celkových nákladech a případové studie.
 
 {{% section "Registrace" %}}
 
