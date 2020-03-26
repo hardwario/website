@@ -20,10 +20,10 @@ other = "Sestavená zařízení mohou komunikovat lokálně pomocí Sub‑GHZ r�
 other = "Vytvořené senzory, detektory a ovladače mají nízkou spotřebu a&nbsp;z&nbsp;baterií dokáží pracovat i několik let. V případě uzavření do průmyslové krabičky může být provozována i ve&nbsp;venkovním a&nbsp;prašném prostředí."
 
 [open_source_integarion]
-other = "Open‑source znamená snadnou integraci"
+other = "Open‑source"
 
 [open_integration]
-other = "Celá stavebnice je open-source a&nbsp;podporuje integrace s&nbsp;populárními platformami jako jsou Node-RED, Microsoft Azure, AWS, Ubidots, Blynk, IFTTT, Amazon Alexa, Google Home nebo Apple HomeKit. Stejně tak může být integrována s vašim endpointem prostřednictvím REST API a Webhooků."
+other = "Celá stavebnice je open-source a&nbsp;podporuje integrace s&nbsp;populárními platformami jako jsou Node-RED, Microsoft Azure, AWS, Ubidots, Blynk, IFTTT, Amazon Alexa, Google Home nebo Apple HomeKit. Stejně tak může být integrována s vašim endpointem prostřednictvím REST API a webhooků."
 
 [get_kit]
 other = "Koupit stavebnici"
@@ -32,13 +32,16 @@ other = "Koupit stavebnici"
 other = "Koupit"
 
 [pilots]
-other = "IoT<br/>Piloty"
+other = "Rychlé IoT<br/>piloty"
 
 [concepts]
 other = "Ověřování&nbsp;konceptů průmyslu&nbsp;4.0"
 
 [stem_edu]
 other = "Aktivní STEM výuka"
+
+[radio_communication]
+other = "Radio communication"
 
 [memory]
 other = "Paměť"

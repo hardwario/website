@@ -152,25 +152,25 @@
               <h2 class="font-40 font-md-64 font-md-lnh56 pb-5 font-weight-black">
                 Core Module
               </h2>
-              <p class="font-18 pt-5 pb-20">
+              <!--<p class="font-18 pt-5 pb-20">
                 {{ i18n "brain_of_kit" | safeHTML }}
-              </p>
+              </p>-->
             </div>
             </div>
             <div class="row justify-content-center align-items-center">
               <div class="col-12 col-md-6 frame">
                 <div class="frame__inner">
-                  <img class="frame__image frame__image--center pt-50 w-50" alt="" src="/_assets/images/core-module.svg">
-                  <div class="redhotspot" id="fhotspot2" rel="tooltip" style="top: 17%; left: 47.2%;" title="Radio {{ i18n "module" }}"></div>
-                  <div class="redhotspot" id="fhotspot10" title="{{ i18n "cryptochip"}}" rel="tooltip" style="top: 30%;left: 36.5%;"></div>
-                  <div class="redhotspot" id="fhotspot1" rel="tooltip" style="top: 36%; left: 47.2%;" title="MCU"></div>
-                  <div class="redhotspot" id="fhotspot11" title="{{ i18n "thermometer" }}" rel="tooltip" style="top: 40%; left: 35%;"></div>
-                  <div class="redhotspot" id="fhotspot10" title="{{ i18n "accelerometer"}}" rel="tooltip" style="top: 51%;left: 37.5%;"></div>
-                  <div class="redhotspot" id="fhotspot10" title="{{ i18n "swd_connector"}}" rel="tooltip" style="top: 51%;left: 47.2%;"></div>
-                  <div class="redhotspot" id="fhotspot10" title="{{ i18n "red_LED"}}" rel="tooltip" style="top: 58%;left: 47.2%;"></div>
-                  <div class="redhotspot" id="fhotspot10" title="{{ i18n "hardwario_tag"}}" rel="tooltip" style="top: 73%;left: 66%;"></div>
-                  <div class="redhotspot" id="fhotspot10" title="{{ i18n "button"}}" rel="tooltip" style="top: 74%;left: 47.2%;"></div>
-                  <div class="redhotspot" id="fhotspot10" title="{{ i18n "micro_usb"}}" rel="tooltip" style="top: 86%;left: 47.2%;"></div>
+                  <img class="frame__image frame__image--center pt-60 w-50" alt="" src="/_assets/images/core-module.svg">
+                  <div class="redhotspot" id="fhotspot1" rel="tooltip" style="top: 14%; left: 47.2%;" title="Radio {{ i18n "module" }}"></div>
+                  <div class="redhotspot" id="fhotspot2" title="{{ i18n "cryptochip"}}" rel="tooltip" style="top: 28%;left: 36.5%;"></div>
+                  <div class="redhotspot" id="fhotspot3" rel="tooltip" style="top: 35%; left: 47.2%;" title="MCU"></div>
+                  <div class="redhotspot" id="fhotspot4" title="{{ i18n "thermometer" }}" rel="tooltip" style="top: 38%; left: 35%;"></div>
+                  <div class="redhotspot" id="fhotspot5" title="{{ i18n "accelerometer"}}" rel="tooltip" style="top: 47.5%;left: 37.5%;"></div>
+                  <div class="redhotspot" id="fhotspot6" title="{{ i18n "swd_connector"}}" rel="tooltip" style="top: 48%;left: 47.2%;"></div>
+                  <div class="redhotspot" id="fhotspot7" title="{{ i18n "red_LED"}}" rel="tooltip" style="top: 53%;left: 47.2%;"></div>
+                  <div class="redhotspot" id="fhotspot8" title="{{ i18n "hardwario_tag"}}" rel="tooltip" style="top: 66%;left: 66%;"></div>
+                  <div class="redhotspot" id="fhotspot9" title="{{ i18n "button"}}" rel="tooltip" style="top: 68%;left: 47.2%;"></div>
+                  <div class="redhotspot" id="fhotspot10" title="{{ i18n "micro_usb"}}" rel="tooltip" style="top: 80%;left: 47.2%;"></div>
               </div>
             </div>
 
@@ -181,6 +181,10 @@
                                       <tr>
                                           <td><strong>MCU</strong></td>
                                           <td>32-bit ARM Cortex M0+ STM32L083CZ</td>
+                                      </tr>
+                                      <tr>
+                                          <td><strong>{{ i18n "radio_communication" }}</strong></td>
+                                          <td>SPIRIT1 868 nebo 915 MHz</td>
                                       </tr>
                                       <tr>
                                           <td><strong>{{ i18n "memory" }}</strong></td>
