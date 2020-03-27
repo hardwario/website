@@ -62,8 +62,10 @@ https://learn.bigclown.cz/* https://developers.hardwario.com/:splat 301!
 
 https://www.hardwario.com/doc/basics/quick-start-guide/* https://developers.hardwario.com/basics/bigclown-playground:splat 301;
 
+http://hardwar.io/stem* https://www.hardwario.com/cs/stem:splat 302!
+http://www.hardwar.io/stem* https://www.hardwario.com/cs/stem:splat 302!
 https://hardwar.io/stem* https://www.hardwario.com/cs/stem:splat 302!
-
+https://www.hardwar.io/stem* https://www.hardwario.com/cs/stem:splat 302!
 
 # Blog
 https://blog.bigclown.com/* https://www.hardwario.com/blog/:splat 301!
