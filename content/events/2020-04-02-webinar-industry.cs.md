@@ -18,12 +18,12 @@ Na praktických příkladech si ukážeme, jak a proč monitorovat vnitřní pro
 
 {{% section "Registrace" %}}
 
-Pro bezplatnou registraci na webinář stačí vyplnit formulář níže. Den před konáním webinářem vám na e-mail přijde odkaz s instrukcemi pro připojení. Těšíme se!
+Omlouváme se, ale na tomto webináři už máme plno. Když nám ale tady necháte na sebe kontakt, pošleme vám hned v pátek jeho záznam na váš e-mail.
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
   hbspt.forms.create({
 	portalId: "5453210",
-	formId: "7b0f7130-4b8e-49a7-a4de-770781456b6e"
+	formId: "fd1b0056-e953-472b-8b6b-bf5af44ee20e"
 });
 </script>
