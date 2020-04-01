@@ -34,6 +34,19 @@
     }
   }
 
+  &--logo3
+  {
+    background-image: url("../images/vyvetrej_si.svg");
+    height: 77px;
+    width: 330px;
+
+    @media(max-width:767px)
+    {
+      width: 200px;
+      background-size: 100% auto;
+    }
+  }
+
   &--fb
   {
     background-image: url("../images/facebook.svg");
