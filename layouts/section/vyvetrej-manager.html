@@ -1,0 +1,117 @@
+{{ define "header" }}
+  {{ partial "header-vyvetrej.html" . }}
+{{ end }}
+
+
+{{ define "main" }}
+
+<style>
+  .graph_item{
+    height: auto;
+    background: #fff;
+    -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05);
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.05);
+  }
+</style>
+
+<section class = "">
+    <div class="container pt-80 pb-50" id = "specification">
+
+        <div class="row pb-50">
+
+          <div class="graph_item col-3 py-30 item-id">
+
+            <div class="graph_item_value font-30 font-font2 font-red">
+              <span class = "font-20 font-lnh66">--</span>
+            </div>
+
+            <div class="graph_item_description">
+              <h3>Id zařízení</h3>
+              <!--<p>kdy</p>-->
+            </div>
+          </div>
+
+          <div class="graph_item col-3 py-30 item-temperature">
+
+            <div class="graph_item_value font-30 font-font2 font-red">
+              <span class = "font-64 font-lnh64">--</span>°C
+            </div>
+
+            <div class="graph_item_description">
+              <h3>Teplota</h3>
+              <!--<p>kdy</p>-->
+            </div>
+          </div>
+
+          <div class="graph_item col-3 py-30 item-voc">
+
+            <div class="graph_item_value font-30 font-font2 font-red">
+              <span class = "font-64 font-lnh64">--</span>ppm
+            </div>
+
+            <div class="graph_item_description">
+              <h3>VOC</h3>
+              <!--<p>kdy</p>-->
+            </div>
+          </div>
+
+          <div class="graph_item col-3 py-30 item-time">
+
+            <div class="graph_item_value font-30 font-font2 font-red">
+              <span class = "font-20 font-lnh66">--</span>
+            </div>
+
+            <div class="graph_item_description">
+              <h3>Poslední větrání</h3>
+              <!--<p>kdy</p>-->
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+
+          <script type="text/javascript">
+            var getUrlParameter = function getUrlParameter(sParam) {
+                var sPageURL = window.location.search.substring(1),
+                    sURLVariables = sPageURL.split('&'),
+                    sParameterName,
+                    i;
+
+                for (i = 0; i < sURLVariables.length; i++) {
+                    sParameterName = sURLVariables[i].split('=');
+
+                    if (sParameterName[0] === sParam) {
+                        return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+                    }
+                }
+            };
+
+            var device = getUrlParameter('id');
+
+            setInterval(function () {
+            $.getJSON( "http://www.befirst.cz/test.json", function( data ) {
+              var temp = data.temperature;
+              var voc = data.voc;
+
+              //from
+              dateObj = new Date(data.ventilation_from);
+              utcString = dateObj.toUTCString();
+              v_start = utcString.slice(-11, -4);
+
+              //to
+              dateObj = new Date(data.ventilation_to);
+              utcString = dateObj.toUTCString();
+              v_end = utcString.slice(-11, -4);
+              $(".item-id .graph_item_value span").text(device);
+              $(".item-temperature .graph_item_value span").text(temp);
+              $(".item-voc .graph_item_value span").text(voc);
+              $(".item-time .graph_item_value span").text(v_start + " - " + v_end);
+            });
+          }, (1000*60)*0.1 );
+          </script>
+
+
+        <footer>
+
+{{ end }}
