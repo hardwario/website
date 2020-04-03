@@ -100,7 +100,7 @@
               v_start = utcString.slice(-11, -4);
 
               //to
-              dateObj = new Date(data.time-6000);
+              dateObj = new Date(data.time);
               utcString = dateObj.toUTCString();
               v_end = utcString.slice(-11, -4);
               $(".item-id .graph_item_value span").text(device);
