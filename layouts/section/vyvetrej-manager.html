@@ -89,13 +89,12 @@
 
             var device = getUrlParameter('id');
 
-            setInterval(function () {
             $.getJSON( "https://b2346228.ngrok.io/v1/laststatus/id=123456789", function( data ) {
               var temp = data.temperature;
               var voc = data.voc;
 
               //from
-              dateObj = new Date(data.time);
+              dateObj = new Date(data.time-300000);
               utcString = dateObj.toUTCString();
               v_start = utcString.slice(-11, -4);
 
@@ -108,7 +107,27 @@
               $(".item-voc .graph_item_value span").text(voc);
               $(".item-time .graph_item_value span").text(v_start + " - " + v_end);
             });
-          }, (1000*60)*1 );
+
+            setInterval(function () {
+            $.getJSON( "https://b2346228.ngrok.io/v1/laststatus/id=123456789", function( data ) {
+              var temp = data.temperature;
+              var voc = data.voc;
+
+              //from
+              dateObj = new Date(data.time-300000);
+              utcString = dateObj.toUTCString();
+              v_start = utcString.slice(-11, -4);
+
+              //to
+              dateObj = new Date(data.time);
+              utcString = dateObj.toUTCString();
+              v_end = utcString.slice(-11, -4);
+              $(".item-id .graph_item_value span").text(device);
+              $(".item-temperature .graph_item_value span").text(temp);
+              $(".item-voc .graph_item_value span").text(voc);
+              $(".item-time .graph_item_value span").text(v_start + " - " + v_end);
+            });
+          }, (1000*60)*2 );
           </script>
 
 
