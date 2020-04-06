@@ -19,6 +19,7 @@ csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
     weight = 1
     [languages.en.params]
       baseURL = "/"
+      shopURL = "https://shop.hardwario.com"
       csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
       contactFormId = "39c2f6d9-e437-4e94-9a97-89d4596faa34"
   [languages.cs]
@@ -27,6 +28,7 @@ csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
     [languages.cs.params]
       baseURL = "/cs/"
       homeURL = "/cs/"
+      shopURL = "https://obchod.hardwario.cz"
       csFormId = "5f6b17c0-98bb-45e6-af13-923c07e38916"
       contactFormId = "a6663021-661c-442f-af7c-a4e29f21f305"
 

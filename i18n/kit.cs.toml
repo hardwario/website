@@ -17,7 +17,7 @@ other = "Široká nabídka IoT&nbsp;konektivity"
 other = "Sestavená zařízení mohou komunikovat lokálně pomocí Sub‑GHZ rádia i LPWAN technologiemi, jako jsou LoRaWAN, Sigfox a&nbsp;prostřednictvím <a href = '/cs/chester/'>IoT Hubu CHESTER</a> i&nbsp;NB-IoT. Díky tomu komunikuje stavebnice i z míst, kde není dostupné běžné připojení k internetu."
 
 [works_from_batteries_for_years]
-other = "Vytvořené senzory, detektory a ovladače mají nízkou spotřebu a&nbsp;z&nbsp;baterií dokáží pracovat i několik let. V případě uzavření do průmyslové krabičky může být provozována i ve&nbsp;venkovním a&nbsp;prašném prostředí."
+other = "Sestavené senzory, detektory a ovladače mají nízkou spotřebu a&nbsp;z&nbsp;baterií dokáží pracovat i několik let. V případě uzavření do průmyslové krabičky může být provozována i ve&nbsp;venkovním a&nbsp;prašném prostředí."
 
 [open_source_integarion]
 other = "Open‑source"

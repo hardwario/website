@@ -184,7 +184,7 @@
                                       </tr>
                                       <tr>
                                           <td><strong>{{ i18n "radio_communication" }}</strong></td>
-                                          <td>SPIRIT1 868 nebo 915 MHz</td>
+                                          <td>SPIRIT1 868 {{ i18n "or"  }} 915 MHz</td>
                                       </tr>
                                       <tr>
                                           <td><strong>{{ i18n "memory" }}</strong></td>
@@ -196,7 +196,7 @@
                                         </tr>
                                         <tr>
                                             <td><strong>{{ i18n "sleep_consumption" }}</strong></td>
-                                            <td>< 50 μA</td>
+                                            <td>< 30 μA</td>
                                         </tr>
                                         <tr>
                                             <td><strong>{{ i18n "working_temperature_range" }}</strong></td>
@@ -317,7 +317,7 @@
             <div class=" col-12 col-md-6 text-center">
               <img loading="lazy" src="/_assets/images/iot-kit.svg" class="w-50 mt-20 movingObject" alt="" />
               <div class = "pb-20">
-                <a href="https://obchod.hardwario.com" class="font-lnh24 py-15 px-20 px-md-40 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "go_to_shop" }}</a>
+                <a href="{{ .Site.Params.shopURL }}" class="font-lnh24 py-15 px-20 px-md-40 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "go_to_shop" }}</a>
               </div>
             </div>
           </div>

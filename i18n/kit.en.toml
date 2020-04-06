@@ -1,0 +1,134 @@
+[industrial_iot_kit]
+other = "Industrial IoT&nbsp;Kit"
+
+[about_kit]
+other = "Description"
+
+[high_quality_security]
+other = "Robustness and&nbsp;security"
+
+[industry_applications]
+other = "Industrial kit you can use to build Internet of Things projects effortlessly. Kit contains over 40 different modules and the core use-cases are Industry 4.0 pilots, active STEM education, as&nbsp;well as&nbsp;smart home DIY projects."
+
+[wide_range_connectivity]
+other = "Broad IoT connectivity"
+
+[radio_lpwan]
+other = "Built devices can communicate locally with proprietary sub-GHz radio and also with LPWAN technologies, such as LoRaWAN, Sigfox or NB-IoT (if you use <a href = '/chester/'>IoT Hub CHESTER</a>) . Thanks to this it can even communicate from places where regular internet connectivity is not available."
+
+[works_from_batteries_for_years]
+other = "Built sensors, detectors and controllers have low power consumption and can run on primary cell batteries for years. In&nbsp;case of&nbsp;sealing into an&nbsp;industrial box it can also operate in&nbsp;outdoor and dusty environments."
+
+[open_source_integarion]
+other = "Open‑source"
+
+[open_integration]
+other = "The whole kit is open-source and supports integration with popular platforms such as Node-RED, Microsoft Azure, Amazon AWS, Ubidots, Blynk, IFTTT, Amazon Alexa, Google Home, or&nbsp;Apple HomeKit. It&nbsp;can also be integrated with your endpoint thanks to&nbsp;REST API and webhooks."
+
+[get_kit]
+other = "Buy Industrial Kit"
+
+[buy]
+other = "Buy online"
+
+[pilots]
+other = "Rapid IoT prototyping"
+
+[concepts]
+other = "Proofs&nbsp;of&nbsp;concepts for&nbsp;Industry&nbsp;4.0"
+
+[stem_edu]
+other = "Active STEM education"
+
+[radio_communication]
+other = "Radio communication"
+
+[memory]
+other = "Memory"
+
+[power_voltage_range]
+other = "Voltage range"
+
+[dimensions]
+other = "Dimensions"
+
+[interfaces]
+other = "Interfaces"
+
+[to]
+other = "to"
+
+[or]
+other = "nebo"
+
+[width]
+other = "width"
+
+[height]
+other = "height"
+
+[10pin_swd_connector]
+other = "10-pin SWD connector for debugging"
+
+[swd_connector]
+other = "SWD connector"
+
+[red_LED]
+other = "Red LED"
+
+[hardwario_tag]
+other = "HARDWARIO tag position"
+
+[button]
+other = "Push button"
+
+[micro_usb]
+other = "Micro-USB for communication, firmware upload and/or power"
+
+[go_to_shop]
+other = "Go to shop"
+
+[climate]
+other = "Temperature, humidity, illuminance, and barometric sensor"
+
+[co2]
+other = "Carbon dioxide monitoring in offices, schools, and homes"
+
+[voc]
+other = "Volatile organic compounds (VOC) sensing"
+
+[gps]
+other = "Satellite position monitoring (GPS / Galileo / GLONASS)"
+
+[pir]
+other = "Motion detection, independent burglar alarm"
+
+[infra_grid]
+other = "Passive infrared low-resolution thermo camera"
+
+[lcd]
+other = "Display for data visualization"
+
+[button_module]
+other = "Programmable push button"
+
+[rfid]
+other = "RFID contactless identification"
+
+[relay]
+other = "LED strip, ventilation fan, garage door remote control"
+
+[sensor]
+other = "Up to 4 universal inputs/outputs, e.g. external thermometer"
+
+[buy_kit]
+other = "You can buy Kit online in&nbsp;ur&nbsp;shop. We publish tutorials and&nbsp;projects online."
+
+[view_docs]
+other = "View documentation"
+
+[inspiration]
+other = "Example projects"
+
+[and_many_more]
+other = "+ many more modules and wireable sensors"
