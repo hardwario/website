@@ -115,6 +115,12 @@ other = "4x external input"
 [analog_digital]
 other = "Analog/digital; voltage range 0 to 28 V"
 
+[4_switch]
+other = "4x external switch"
+
+[buttons_etc]
+other = "Buttons, reed contacts, energy meters, etc."
+
 [1_wire]
 other = "1-Wire bus"
 
@@ -135,6 +141,12 @@ other = "2x Pt1000 interface"
 
 [rtd_temp]
 other = "Wiring to industrial RTD themometers"
+
+[thermocouples]
+other = "Support for thermocouples"
+
+[extrem_temp]
+other = "Extreme temperature measurement"
 
 [dc_dc]
 other = "DC/DC converter"

@@ -115,6 +115,12 @@ other = "4x externí vstup"
 [analog_digital]
 other = "Analogový/digitální; rozsah 0 až 28 V"
 
+[4_switch]
+other = "4× spínací kontakt"
+
+[buttons_etc]
+other = "lačítka, jazýčkové kontakty, meřiče spotřeby energií, atd."
+
 [1_wire]
 other = "1-Wire sběrnice"
 
@@ -135,6 +141,12 @@ other = "Rozhraní pro Pt1000"
 
 [rtd_temp]
 other = "Připojení průmyslových RTD teploměrů"
+
+[thermocouples]
+other = "Podpora pro termočlánky"
+
+[extrem_temp]
+other = "Měření extrémních teplot"
 
 [dc_dc]
 other = "DC/DC měnič"
