@@ -18,12 +18,12 @@ Věnovat se budeme tomu co je to MQTT, jak funguje a proč má ve světě intern
 
 {{% section "Registrace" %}}
 
-Pro bezplatnou registraci na webinář stačí vyplnit formulář níže. Jako potvrzení vám přijde na e-mail odkaz s instrukcemi pro připojení. Těšíme se!
+Omlouváme se, ale na tomto webináři už máme plno. Když nám ale tady necháte na sebe kontakt, pošleme vám hned v pátek jeho záznam na váš e-mail.
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
   hbspt.forms.create({
 	portalId: "5453210",
-	formId: "a0786b35-2be6-491c-83cc-05c80b177871"
+	formId: "29af7d91-bedd-4ebc-bfbf-8f587ec8c1cf"
 });
 </script>
