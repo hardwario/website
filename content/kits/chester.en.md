@@ -17,7 +17,7 @@ recommended: false
 included: ["NB-IoT","Runs on a battery for up to 5 years","Expandable by up to 5 expanders", "Free 1-hour webinar","3-year Warranty"]
 notIncluded:
 weight: 0
-price: €145.6
+price: €169.4
 buyLink: "https://shop.hardwario.com/nb-iot-tester/"
 eduText: The most versatile IoT Gateway. Able to transfer any data through LPWAN
 ---

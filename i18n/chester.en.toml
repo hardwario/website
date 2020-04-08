@@ -173,7 +173,7 @@ other = "Accurate weight scale monitoring"
 other = "Get CHESTER"
 
 [chester_price]
-other = "The price starts at €96.60 and depends on the configuration and quantity."
+other = "The price starts at €132 without VAT and depends on the configuration and quantity."
 
 [get_chester_pricelist]
 other = "Send&nbsp;me&nbsp;pricelist"

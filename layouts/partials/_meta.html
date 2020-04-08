@@ -1,8 +1,8 @@
 {{ if eq .Section "blog" }}
 
   {{ if .IsPage }}
-  <title>{{ .Page.Title }} | HARDWARIO IoT Blog</title>
-  <meta name="description" content="{{ .Page.Summary }}">
+  <title>{{ $.Page.Params.meta_title }} | HARDWARIO IoT Blog</title>
+  <meta name="description" content="{{ $.Page.Params.meta_description }}">
   <meta property="og:url" content="{{ .URL | absURL }}" />
   <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO IoT Blog">
   <meta property="og:type" content="website">
@@ -73,7 +73,7 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta.jpg">
     {{ end }}
-    
+
 {{ else if eq .Section "case-studies" }}
 
     {{ if .IsPage }}
