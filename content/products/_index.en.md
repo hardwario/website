@@ -1,6 +1,7 @@
 ---
 title: Products
 mainHeading: HARDWARIO Products
+menu: main
 description:
-weight: 60
+weight: 10
 ---

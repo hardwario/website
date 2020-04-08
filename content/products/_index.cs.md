@@ -1,6 +1,7 @@
 ---
 title: Produkty
 mainHeading: Produkty HARDWARIO
-description: 
-weight: 60
+menu: main
+description:
+weight: 10
 ---
