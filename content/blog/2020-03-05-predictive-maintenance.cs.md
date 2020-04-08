@@ -1,5 +1,7 @@
 ---
 title: 'Piloty Průmyslu 4.0: Neinvazivní prediktivní údržba'
+meta_title: Neinvazivní prediktivní údržba s IoT
+meta_description: Není horší situace ve výrobním podniku, než když dojde k neočekávanému výpadku výrobní linky či jiného stroje. Ekonomický dopad takové poruchy bývá většinou obrovský, zejména ve chvíli, kdy nedokážete okamžitě reagovat.
 draft: false
 date: 2020-03-05
 description: Není horší situace ve výrobním podniku, než když dojde k neočekávanému výpadku výrobní linky či jiného stroje. Ekonomický dopad takové poruchy bývá většinou obrovský, zejména ve chvíli, kdy nedokážete okamžitě reagovat.

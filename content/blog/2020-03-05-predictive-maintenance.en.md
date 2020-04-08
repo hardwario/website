@@ -1,5 +1,7 @@
 ---
 title: 'Industry 4.0 Pilots: Noninvasive predictive maintenance'
+meta_title: Noninvasive predictive maintenance with IoT
+meta_description: The biggest nightmare in production operation is having an unexpected production line outage or other machine outage. Such outage usually has enormous economic impact.
 draft: false
 date: 2020-03-05
 description: The biggest nightmare in production operation is having an unexpected production line outage or other machine outage. Such outage usually has enormous economic impact.
