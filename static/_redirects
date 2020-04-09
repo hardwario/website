@@ -10,11 +10,13 @@ https://www.hardwario.com/cs/events/2020-02-27-seminar-industry/* https://www.ha
 https://www.hardwario.com/chester-v2/* https://www.hardwario.com/chester/:splat 301!
 https://www.hardwario.com/cs/chester-v2/* https://www.hardwario.com/cs/chester/:splat 301!
 
-# start page
-https://www.hardwario.com/start* https://www.hardwario.com/en/handbook/:splat 301!
-http://www.hardwario.com/start* https://www.hardwario.com/en/handbook/:splat 301!
-https://hardwario.com/start* https://www.hardwario.com/en/handbook/:splat 301!
-http://hardwario.com/start* https://www.hardwario.com/en/handbook/:splat 301!
+
+https://www.hardwario.com/cs/chester-v2/* https://www.hardwario.com/cs/chester/:splat 301!
+
+https://www.hardwario.com/start* https://www.hardwario.com/handbook/:splat 302!
+http://www.hardwario.com/start* https://www.hardwario.com/handbook/:splat 302!
+https://hardwario.com/start* https://www.hardwario.com/handbook/:splat 302!
+http://hardwario.com/start* https://www.hardwario.com/handbook/:splat 302!
 
 # io shortcuts
 https://www.hardwar.io/skoda* https://www.hardwario.com/case-studies/skoda-andon/:splat 301!
@@ -68,10 +70,10 @@ https://learn.bigclown.cz/* https://developers.hardwario.com/:splat 301!
 
 https://www.hardwario.com/doc/basics/quick-start-guide/* https://developers.hardwario.com/basics/bigclown-playground:splat 301;
 
-http://hardwar.io/stem* https://www.hardwario.com/cs/stem:splat 301!
-http://www.hardwar.io/stem* https://www.hardwario.com/cs/stem:splat 301!
-https://hardwar.io/stem* https://www.hardwario.com/cs/stem:splat 301!
-https://www.hardwar.io/stem* https://www.hardwario.com/cs/stem:splat 301!
+http://hardwar.io/stem* https://www.hardwario.com/cs/stem/:splat 302!
+http://www.hardwar.io/stem* https://www.hardwario.com/cs/stem/:splat 302!
+https://hardwar.io/stem* https://www.hardwario.com/cs/stem/:splat 302!
+https://www.hardwar.io/stem* https://www.hardwario.com/cs/stem/:splat 302!
 
 # Blog
 https://blog.bigclown.com/* https://www.hardwario.com/blog/:splat 301!
