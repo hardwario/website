@@ -1,9 +1,9 @@
 ---
-date: "2020-04-16"
+date: "2020-04-23"
 time: "14:00 - 15:00"
 price: "Zdarma"
 publishdate: "2020-04-08"
-expirydate: "2020-04-17"
+expirydate: "2020-04-24"
 title: "Tvoříme firmware pro stavebnici HARDWARIO prakticky"
 hashtags: ["webinar","zdarma"]
 category: industry
