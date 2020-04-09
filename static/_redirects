@@ -10,6 +10,9 @@ https://www.hardwario.com/cs/events/2020-02-27-seminar-industry/* https://www.ha
 https://www.hardwario.com/chester-v2/* https://www.hardwario.com/chester/:splat 301!
 https://www.hardwario.com/cs/chester-v2/* https://www.hardwario.com/cs/chester/:splat 301!
 
+# start page
+https://www.hardwario.com/start* https://www.hardwario.com/en/handbook/:splat 302!
+
 # io shortcuts
 https://www.hardwar.io/skoda* https://www.hardwario.com/case-studies/skoda-andon/:splat 301!
 https://www.hardwar.io/eon* https://www.hardwario.com/case-studies/eon/:splat 301!
