@@ -1,5 +1,5 @@
 ---
-title: What is HARDWARIO Playground and where to download it
+title: What is HARDWARIO Playground
 draft: false
 date: 2019-10-13T16:22:32.843Z
 weight: 10
@@ -11,10 +11,8 @@ meta_title: What is HARDWARIO Playground and where to download it
 meta_description: >-
   Your HARDWARIO box can do amazing things but you have to tell it what to do.
   And that’s what the HARDWARIO Playground software is for. Check it out.
-image_preview: >-
-  https://res.cloudinary.com/lukasfabik/image/upload/v1566160726/academy/what-is-playground/image1.png
-image_main: >-
-  https://res.cloudinary.com/lukasfabik/image/upload/v1566160726/academy/what-is-playground/image1.png
+image_preview: /upload/what-is-playground.jpg
+image_main: /upload/what-is-playground.jpg
 ---
 A mythical place where new inventions arise - a legend has it that it’s called HARDWARIO Playground. 🏯 In this nifty programme, you can tell your box how to function.
 

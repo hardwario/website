@@ -1,5 +1,5 @@
 ---
-title: Learn to debug messages in HARDWARIO
+title: Debugging messages in Node-RED
 draft: false
 date: 2019-09-21T08:02:23.137Z
 weight: 60
@@ -14,9 +14,9 @@ meta_description: >-
   debugger that will get the kinks out. We will give you advice on how to set it
   up and get it started.
 image_preview: >-
-  https://res.cloudinary.com/lukasfabik/image/upload/v1569052768/academy/learn-to-debug-mesagges-in-bigclown/image1.png
+  https://res.cloudinary.com/lukasfabik/image/upload/v1572800473/academy/learn-to-debug-mesagges-in-bigclown/2E73DFEE-13B1-4CB1-9D3A-1B190D94C8FC.jpg
 image_main: >-
-  https://res.cloudinary.com/lukasfabik/image/upload/v1569052768/academy/learn-to-debug-mesagges-in-bigclown/image2.png
+  https://res.cloudinary.com/lukasfabik/image/upload/v1572800473/academy/learn-to-debug-mesagges-in-bigclown/2E73DFEE-13B1-4CB1-9D3A-1B190D94C8FC.jpg
 ---
 A spider enjoys having a juicy fly or other insect in its web. But there is no place for a bug in your little programme. Work out all the bugs, or glitches in the code, from your HARDWARIO projects. 🐞 We will show you how to do that.
 

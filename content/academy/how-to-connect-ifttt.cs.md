@@ -1,5 +1,5 @@
 ---
-title: Napoj IFTTT na svůj projekt v Playgroundu
+title: Připojení IFTTT s Node-RED
 draft: false
 date: 2019-10-13T16:42:19.844Z
 weight: 100

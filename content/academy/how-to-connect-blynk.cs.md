@@ -1,6 +1,6 @@
 ---
 date: "2019-08-12"
-title: "Jak propojíš Blynk s krabičkou"
+title: "Jak připojit mobilní aplikaci Blynk"
 slug: jak-pripojit-blynk
 meta_title: Jak propojit HARDWARIO s aplikací Blynk
 meta_description: Aby ti tvůj IoT vynález od HARDWARIO posílal notifikace na mobil, potřebuješ ho spárovat s Blynkem. Koukni na náš jednoduchý návod.

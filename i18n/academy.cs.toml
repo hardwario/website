@@ -1,0 +1,35 @@
+[documentation]
+other = "Dokumentace"
+
+[documentation_info]
+other = "Vývojářská dokumentace ke všem našim modulům a integracím."
+
+[show_docs]
+other = "Otevřít dokumentaci"
+
+[sdk]
+other = "SDK knihovna"
+
+[sdk_info]
+other = "Chcete si napsat vlastní firmware? Budete potřebovat SDK knihovnu."
+
+[show_sdk]
+other = "Otevřít SKD knihovnu"
+
+[find_an_inspiration_projects]
+other = "Najděte inspiraci v ukázkových projektech s&nbsp;návodem."
+
+[other_resources]
+other = "Další užitečné materiály"
+
+[events_list]
+other = "Akce"
+
+[learning_materials]
+other = "Výukové materiály"
+
+[materials_description]
+other = "Naučte se, jak pracovat se stavebnicí HARDWARIO, Playgroundem, aplikací Node-RED a dalšími užitečnými integracemi."
+
+[come_to_event]
+other = "Pořádáme osobní i online setkání, připojte se k nám."

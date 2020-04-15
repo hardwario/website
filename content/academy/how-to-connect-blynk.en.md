@@ -1,8 +1,8 @@
 ---
-title: How to connect HARDWARIO with Blynk app
+title: Connecting with Blynk mobile app
 draft: false
 date: 2019-09-20T19:08:04.789Z
-weight: 59
+weight: 60
 description: >-
   In order for your IoT invention from HARDWARIO to send you notifications to
   your mobile, you need to pair it with Blynk. Check out our simple guide.

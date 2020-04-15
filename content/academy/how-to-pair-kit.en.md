@@ -1,8 +1,8 @@
 ---
-title: How to pair the HARDWARIO IoT Dongle with the box
+title: Pairing devices with Playground
 draft: false
 date: 2019-09-22T20:00:49.432Z
-weight: 60
+weight: 20
 description: To make the USB Dongle get along with the Core module, you have to pair the Dongle with the box. The devices will then create a connection with each other. Check out how to do it.
 meta_title: How to pair the HARDWARIO IoT Dongle with the box
 meta_description: To make the USB Dongle get along with the Core module, you have to pair the Dongle with the box. The devices will then create a connection with each other. Check out how to do it.

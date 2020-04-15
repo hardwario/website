@@ -1,5 +1,5 @@
 ---
-title: Nauč se v HARDWARIOu debugovat zprávy
+title: Debugovování zpráv v Node-RED
 draft: false
 date: 2019-09-21T07:16:22.362Z
 weight: 60

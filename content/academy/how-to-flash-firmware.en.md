@@ -1,5 +1,5 @@
 ---
-title: 'Install the right firmware, or “brain”, to your box'
+title: Installing firmware to Code Module
 draft: false
 date: 2019-09-20T07:29:12.756Z
 weight: 30
@@ -13,10 +13,8 @@ meta_description: >-
   Without firmware, your IoT box won’t work properly. Thanks to this article you
   will understand what is firmware for and you will learn to set it up
   correctly.
-image_preview: >-
-  https://res.cloudinary.com/lukasfabik/image/upload/v1568964869/academy/how-to-flash-firmware/project_placeholder.jpg
-image_main: >-
-  https://res.cloudinary.com/lukasfabik/image/upload/v1568964869/academy/how-to-flash-firmware/project_placeholder.jpg
+image_preview: /upload/project_placeholder.jpg
+image_main: /upload/project_placeholder.jpg
 ---
 Without firmware, your box won’t work properly. For different projects, you need different firmware, though. See how you can set up the box correctly.
 

@@ -1,0 +1,16 @@
+
+      <a href="{{ .Permalink }}" class="articles__item articles__item--2">
+
+            <div class="articles__item__image">
+              <img src="{{ .Params.image_preview }}" alt="{{ .Title }}" />
+            </div>
+
+            <div class="articles__content articles__content--2">
+              <h3 class="articles__title articles__title--2">{{ .Title }}</h3>
+              <p class="articles__text articles__text--2">{{ .Params.description }}</p>
+            </div>
+            <div class="articles__author d-flex align-items-center">
+                <span class = "font-16 font-weight-bold font-font2 font-red">{{ i18n "play_video"}}</span>
+            </div>
+            <div class="cta-button font-12 font-lnh24 px-15 d-inline-block font-weight-bold font-font2 text-uppercase text-decoration-none font-white bg-darkGray articles__button">{{ .Params.video_type }}</div>
+          </a>

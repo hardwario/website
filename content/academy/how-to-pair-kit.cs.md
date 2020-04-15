@@ -1,6 +1,6 @@
 ---
 date: "2019-08-12"
-title: "Jak spáruješ Dongle s krabičkou"
+title: Jak spárovat zařízení s Playgroundem
 slug: jak-sparovat-kit
 meta_title: Jak spáruješ HARDWARIO IoT Dongle s krabičkou
 meta_description: Aby si USB Dongle rozuměl s Core modulem, musíš Dongle s krabičkou spárovat. Ti si pak mezi sebou vytvoří spojení. Mrkni, jak na to.

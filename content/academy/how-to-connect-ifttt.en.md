@@ -1,5 +1,5 @@
 ---
-title: Connect IFTTT with your project in the Playground
+title: Connect IFTTT with Node-RED
 draft: false
 date: 2019-10-15T16:01:55.617Z
 weight: 100

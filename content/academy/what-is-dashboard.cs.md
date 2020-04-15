@@ -1,5 +1,5 @@
 ---
-title: Co je to dashboard a jak ho vytvoříš
+title: Jak vytvořit Node-RED dashboard
 date: '2019-08-13'
 weight: 50
 description: >-

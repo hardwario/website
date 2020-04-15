@@ -1,7 +1,7 @@
 ---
 title: Akademie
-mainHeading: Výukové materiály<br/> k naší IoT stavebnici
-description: Nikdy není pozdě se něco nového naučit. Neváhejte využít naše výukové materiály pro rychlejší pochopení světa IoT a naší stavebnice.
+mainHeading: Akademie HARDWARIO
+description: Nikdy není pozdě se něco nového naučit. Neváhejte využít naše videa, výukové materiály a&nbsp;další obsah pro rychlejší pochopení světa IoT, průmyslu 4.0 a zařízení HARDWARIO.
 slug: akademie
 menu: ["secondary", "footer"]
 weight: 70

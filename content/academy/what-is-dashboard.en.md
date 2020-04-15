@@ -1,8 +1,8 @@
 ---
-title: Create your own dashboard for HARDWARIO
+title: How to make Node-RED dashboards
 draft: false
 date: 2019-09-26T18:53:49.915Z
-weight: 60
+weight: 50
 description: >-
   Do you want to see data from your HARDWARIO box in colour charts and
   indicators? Create a handy dashboard, we’ll tell you how.
@@ -11,10 +11,8 @@ meta_title: Create your own dashboard for the HARDWARIO
 meta_description: >-
   Do you want to see data from your HARDWARIO box in colour charts and
   indicators? Create a handy dashboard, we’ll tell you how.
-image_preview: >-
-  https://res.cloudinary.com/lukasfabik/image/upload/v1566160234/academy/what-is-dashboard/image6.png
-image_main: >-
-  https://res.cloudinary.com/lukasfabik/image/upload/v1566160234/academy/what-is-dashboard/image6.png
+image_preview: /upload/dashboard.jpg
+image_main: /upload/dashboard.jpg
 ---
 Do you want to follow colour charts of changing temperature in your room? Or to see a pop-up window on your computer every time someone presses a button? 🤓 This and much more can be done by a smart interface called Dashboard. We’ll tell you how to make it happen.
 

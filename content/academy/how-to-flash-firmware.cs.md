@@ -1,5 +1,5 @@
 ---
-title: 'Nainstaluj si do krabičky správný firmware, tedy „mozek”'
+title: Instalace firmware do Core Module
 date: '2019-08-12'
 weight: 30
 description: >-

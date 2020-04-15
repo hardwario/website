@@ -1,5 +1,5 @@
 ---
-title: Jak nainstalovat HARDWARIO Playground na Raspberry Pi
+title: Instalace HARDWARIO Hub na Raspberry Pi
 draft: false
 date: 2019-11-09T12:57:09.976Z
 weight: 90
