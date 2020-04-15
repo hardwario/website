@@ -7,7 +7,6 @@ description: Learn how to build devices from HARDWARIO Kit, download Playground 
 mainHeading: Handbook for HARDWARIO Kit
 mainParagraph: A device that helps you control your world
 kit: ["starter-kit"]
-menu: ["footer"]
 weight: 1
 image: intro_EN.png
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1576055326/blog/bigclown-renamed-hardwario/hardwario.jpg
