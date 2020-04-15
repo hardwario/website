@@ -26,6 +26,6 @@ Pro bezplatnou registraci na webinář stačí vyplnit formulář níže. Jako p
 <script>
   hbspt.forms.create({
 	portalId: "5453210",
-	formId: "c86864ec-9d39-4d79-89ec-1c592a3da97b"
+	formId: "db19aa4f-5c26-4095-96b9-91f186af533d"
 });
 </script>

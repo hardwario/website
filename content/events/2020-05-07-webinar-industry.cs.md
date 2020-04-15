@@ -14,7 +14,7 @@ place: "Online"
 
 Přihlaste se na **bezplatný HARDWARIO webinář** na téma **Práce s InfluxDB a Grafanou - představení a praktické příklady**.
 
-InfluxDB je open-source time series databáze, Grafana je skvělým nástrojem pro vizualizaci dat. Pojďme se spolu na oba nástroje podívat na našem webináři. Ukážeme si, jak je nainstalovat a prakticky využívat. Nebudou chybět praktické příklady z projektů v průmyslu i domácnosti.
+InfluxDB je open-source time series databáze, Grafana je skvělým nástrojem pro vizualizaci dat. Pojďme se spolu na oba nástroje podívat společně na našem webináři. Ukážeme si, jak je nainstalovat, nastavit a používat. Nebudou chybět praktické příklady z projektů v průmyslu i domácnosti.
 
 {{% section "Registrace" %}}
 
@@ -24,6 +24,6 @@ Pro bezplatnou registraci na webinář stačí vyplnit formulář níže. Jako p
 <script>
   hbspt.forms.create({
 	portalId: "5453210",
-	formId: "c86864ec-9d39-4d79-89ec-1c592a3da97b"
+	formId: "0142108d-c4d9-4a95-8568-c1626a9b3593"
 });
 </script>
