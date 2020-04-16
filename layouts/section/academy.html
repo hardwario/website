@@ -8,7 +8,7 @@
         <div class="col-12">
           <div class="row pb-10 pb-md-30">
               <div class="col-12 col-md-10 mx-auto text-center pt-30 pt-md-0">
-                  <h1 class="text-center pb-30 font-weight-black font-36 font-md-64">{{ .Params.mainHeading | safeHTML }}</h1>
+                  <h1 class="text-center pb-30 font-weight-black font-42 font-md-64">{{ .Params.mainHeading | safeHTML }}</h1>
                   <p class="text-center font-24 font-lnh38">{{ .Params.description | safeHTML }}</p>
               </div>
           </div>
@@ -40,14 +40,14 @@
         </section>
 
 <section>
-    <div class="container pt-60" id = "overview">
+    <div class="container pt-60 pt-md-90" id = "overview">
         <div class="row">
-            <div class="text-center col-12 pt-60">
-                <h2 class="pb-10 font-weight-black font-40 font-md-48 font-md-lnh56">{{ i18n "iot_events" | safeHTML }}</h2>
+            <div class="text-center col-12">
+                <h2 class="pb-10 font-weight-black font-36 font-md-48 font-md-lnh56">{{ i18n "iot_events" | safeHTML }}</h2>
                 <p class="font-18 font-lnh24">{{ i18n "come_to_event" | safeHTML }}</p>
             </div>
         </div>
-        <div class="row align-items-start pb-30 pt-30">
+        <div class="row align-items-start pb-md-30 pt-30">
 
             {{ range $events.ByDate }}
             <div class="col-12 col-md-4 pb-30">
@@ -66,17 +66,17 @@
 {{ $videos := where .Site.RegularPages "Section" "video" }}
 {{ with $videos }}
 <section>
-  <div class="bg-darkGray font-white pt-60 pb-30 mb-50" id = "specification">
+  <div class="bg-darkGray font-white pt-60 pb-10 pb-md-30" id="specification">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <div class="row">
-              <div class=" text-center col-12 mx-auto pt-60 pt-md-0">
-                  <h2 class="pb-10 font-weight-black font-40 font-md-48 font-md-lnh56">HARDWARIO TV</h2>
+              <div class=" text-center col-12 mx-auto">
+                  <h2 class="pb-10 font-weight-black font-36 font-md-48 font-md-lnh56">HARDWARIO TV</h2>
                   <p class="font-18 font-lnh24">Natáčíme instruktážní videa a sdílíme záznamy webinářů.</p>
               </div>
           </div>
-          <div class="articles articles--2">
+          <div class="articles articles--2 pt-30 pt-md-50 pb-30 pb-md-50">
             <div class="row d-flex align-content-stretch">
 
               {{ range first 3 $videos }}
@@ -105,10 +105,10 @@
   <div class="bg">
     <div class="container">
       <div class="row">
-        <div class="col-12 pt-60 pb-50" id = "applications">
+        <div class="col-12 pt-30 pt-md-60 pb-50" id = "applications">
           <div class="row pb-10 pb-md-30 justify-content-center">
               <div class="col-12 col-md-8 text-center">
-                  <h2 class="pb-10 font-weight-black font-40 font-md-48 font-md-lnh56">{{ i18n "learning_materials" }}</h2>
+                  <h2 class="pb-10 font-weight-black font-36 font-md-48 font-md-lnh56">{{ i18n "learning_materials" }}</h2>
                   <p class="font-18 font-lnh24">{{ i18n "materials_description" | safeHTML }}</p>
               </div>
           </div>
@@ -138,9 +138,9 @@
   </div>
 </section>-->
 <section>
-    <div class="bg-gray text-center pt-60 pb-100 px-15" id = "order">
+    <div class="bg-gray text-center pt-60 pb-40 pb-md-100 px-15" id = "order">
       <div class = "container">
-        <h2 class="font-40 font-md-48 font-md-lnh56 pb-30 mb-5 font-weight-black">{{ i18n "other_resources" | safeHTML }}</h2>
+        <h2 class="font-36 font-md-48 font-md-lnh56 pb-30 mb-5 font-weight-black">{{ i18n "other_resources" | safeHTML }}</h2>
         <div class = "row">
           <div class = "col-12 col-md-4 pb-40 pb-md-0">
             <h3 class="font-26 font-md-36 font-lnh38 font-md-lnh44 font-weight-black pb-0 pb-md-10">{{ i18n "projects" }}</h3>
