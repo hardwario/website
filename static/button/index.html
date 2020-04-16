@@ -14,7 +14,7 @@
       <div class="field">
         <label class="label">Identifikátor</label>
         <div class="control">
-          <input id="id" class="input" type="text" placeholder="Identifikátor" value="5e81f00619da930013eafbf3">
+          <input id="id" class="input" type="text" placeholder="Identifikátor">
         </div>
       </div>
       <div class="field">
@@ -85,6 +85,10 @@
         $('#text1').val('');
         $('#text2').val('');
         $('#text3').val('');
+        if ($('#id').val() == '') {
+          alert('Musíte zadat identifikátor zařízení');
+          return;
+        }
         $.get('https://us-central1-hardwario-button.cloudfunctions.net/config?id=' + $('#id').val())
           .done(function(data) {
             data = JSON.parse(data);
@@ -123,6 +127,10 @@
           });
       });
       $('#save').click(function() {
+        if ($('#id').val() == '') {
+          alert('Musíte zadat identifikátor zařízení');
+          return;
+        }
         var data = {
           id: $('#id').val(),
           phone: [
@@ -146,7 +154,6 @@
             alert('Ukládání nastavení selhalo');
           });
       });
-      $('#load').click();
     });
   </script>
 </body>
