@@ -48,18 +48,15 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     extension: "en.md"
     format: 'frontmatter'
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Draft", name: "draft", widget: "boolean", required: false}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Weight", name: "weight", widget: "number"}
-      - {label: "Perex", name: "description", widget: "string"}
-      - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "MetaTitle", name: "meta_title", widget: "string"}
-      - {label: "MetaDesc", name: "meta_description", widget: "string"}
-      - {label: "Preview Image", name: "image_preview", widget: "image"}
-      - {label: "Main Image", name: "image_main", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Meta title', name: 'meta_title', widget: 'string' }
+      - { label: 'Meta description', name: 'meta_description', widget: 'string' }
+      - { label: 'Weight', name: 'weight', widget: 'number', valueType: "int" }
+      - { label: 'Preview image', name: 'image_preview', widget: 'image' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: "academy-cs" # Used in routes, e.g., /admin/collections/blog
     label: "Academy CS" # Used in the UI
     folder: "content/academy" # The path to the folder where the documents are stored
@@ -67,18 +64,15 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     extension: "cs.md"
     format: 'frontmatter'
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Draft", name: "draft", widget: "boolean", required: false}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Weight", name: "weight", widget: "number"}
-      - {label: "Perex", name: "description", widget: "string"}
-      - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "MetaTitle", name: "meta_title", widget: "string"}
-      - {label: "MetaDesc", name: "meta_description", widget: "string"}
-      - {label: "Preview Image", name: "image_preview", widget: "image"}
-      - {label: "Main Image", name: "image_main", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Meta title', name: 'meta_title', widget: 'string' }
+      - { label: 'Meta description', name: 'meta_description', widget: 'string' }
+      - { label: 'Weight', name: 'weight', widget: 'number', valueType: "int" }
+      - { label: 'Preview image', name: 'image_preview', widget: 'image' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: "projects-en" # Used in routes, e.g., /admin/collections/blog
     label: "Projects EN" # Used in the UI
     folder: "content/projects" # The path to the folder where the documents are stored
