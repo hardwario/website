@@ -1,6 +1,6 @@
 ---
 date: "2019-08-12"
-title: Neinvazivního měření efektivnosti výrobních zařízení
+title: Neinvazivní měření efektivnosti výrobních zařízení
 slug: vyuziti-oee-v-prumyslu
 meta_title:
 meta_description:
