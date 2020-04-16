@@ -76,11 +76,6 @@
   </section>
   <script>
     $(document).ready(function() {
-      var urlParams = new URLSearchParams(window.location.search);
-      var id = urlParams.get('id');
-      if (id) {
-        $('#id').val(id);
-      }
       $('#load').click(function() {
         $('#phone0').val('');
         $('#phone1').val('');
@@ -159,6 +154,12 @@
             alert('Ukládání nastavení selhalo');
           });
       });
+      var urlParams = new URLSearchParams(window.location.search);
+      var id = urlParams.get('id');
+      if (id) {
+        $('#id').val(id);
+        $('#load').click();
+      }
     });
   </script>
 </body>
