@@ -33,7 +33,7 @@
 @import "../../node_modules/bootstrap/scss/utilities";
 
 //@import "../../node_modules/magnific-popup/src/css/main.scss";
-//@import "../../node_modules/slick-carousel/slick/slick.scss";
+@import "../../node_modules/slick-carousel/slick/slick.scss";
 //@import "../../node_modules/jquery-form-validator/form-validator/theme-default.min";
 //@import "../../node_modules/jquery-datetimepicker/jquery.datetimepicker";
 //@import "../../node_modules/nouislider/distribute/nouislider.min";
@@ -233,69 +233,7 @@ hr{
   }
 }
 
-.slick-prev.slick-arrow
-{
-  background: none;
-  border-radius: 0;
-  text-indent: -999999px;
-  width: 36px;
-  height: 72px;
-  position: absolute;
-  border: 0;
-  top:50%;
-  margin-top: -72px;
-  left: -67px;
 
-  @media(max-width:767px)
-  {
-    left: -40px;
-  }
-
-  &:after
-  {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 0;
-    height: 0;
-    content: '';
-    border-style: solid;
-    border-width: 36px 36px 36px 0;
-    border-color: transparent #ffffff transparent transparent;
-  }
-}
-
-.slick-next.slick-arrow
-{
-  background: none;
-  border-radius: 0;
-  text-indent: -999999px;
-  width: 36px;
-  height: 72px;
-  position: absolute;
-  border: 0;
-  top:50%;
-  margin-top: -72px;
-  right: -67px;
-
-  @media(max-width:767px)
-  {
-    right: -40px;
-  }
-
-  &:after
-  {
-    position: absolute;
-    top:0;
-    left: 0;
-    content: '';
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 36px 0 36px 36px;
-    border-color: transparent transparent transparent #ffffff;
-  }
-}
 
 .select
 {
@@ -685,3 +623,4 @@ hr{
 @import "tooltip";
 @import "buttons";
 @import "contactbox";
+@import "slick";

@@ -39,6 +39,7 @@
     <script src="/_assets/js/{{ index .Site.Data.js.hash "jquery.min.js" }}"></script>
     <script src="/_assets/js/{{ index .Site.Data.js.hash "bootstrap.min.js" }}"></script>
     <script src="/_assets/js/{{ index .Site.Data.js.hash "highlight.pack.js" }}"></script>
+    <script src="/_assets/js/{{ index .Site.Data.js.hash "slick.js" }}"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
     {{ if hasPrefix .Permalink .Site.Params.productionURL }}
@@ -50,7 +51,7 @@
     })(window,document,'script','dataLayer','GTM-KG9F3R');</script>
     <!-- End Google Tag Manager -->
     {{ end }}
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <!--<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>-->
 </head>
 <body>
   {{ if hasPrefix .Permalink .Site.Params.productionURL }}

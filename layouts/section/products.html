@@ -16,9 +16,9 @@
 
               {{ with .Site.GetPage "/kit" }}
                 <div class="col-12 col-md-6 col-lg-5 ml-auto pb-50 pb-md-0">
-                    <div class="d-block mb-10">
+                    <a href="{{ .Permalink }}" class="d-block mb-10">
                         <img loading="lazy" src="/_assets/images/iot-kit.svg" class="mt-20 movingObject" height = "340" alt="" />
-                    </div>
+                    </a>
                     <h2 class="font-40 pb-30 font-weight-black">{{ .Title | safeHTML }}</h2>
                     <div class="row">
                         <div class="col-10 col-lg-9 mx-auto pb-50">
@@ -30,9 +30,9 @@
               {{ end }}
               {{ with .Site.GetPage "/chester" }}
                 <div class="col-12 col-md-6 col-lg-5 mr-auto">
-                    <div class="d-block mb-10">
+                    <a href="{{ .Permalink }}" class="d-block mb-10">
                         <img loading="lazy" src="/_assets/images/chester-device.svg" class="movingObject" height = "360" alt="" />
-                    </div>
+                    </a>
                     <h2 class="font-40 pb-30 font-weight-black">{{ .Title | safeHTML }}</h2>
                     <div class="row">
                         <div class="col-12 col-lg-11 mx-auto pb-50">
