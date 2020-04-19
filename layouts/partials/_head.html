@@ -51,7 +51,11 @@
     })(window,document,'script','dataLayer','GTM-KG9F3R');</script>
     <!-- End Google Tag Manager -->
     {{ end }}
-    <!--<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>-->
+
+    {{ if .IsHome }}
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    {{end}}
+
 </head>
 <body>
   {{ if hasPrefix .Permalink .Site.Params.productionURL }}
