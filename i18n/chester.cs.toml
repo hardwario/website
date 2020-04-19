@@ -119,7 +119,7 @@ other = "Analogový/digitální; rozsah 0 až 28 V"
 other = "4× spínací kontakt"
 
 [buttons_etc]
-other = "lačítka, jazýčkové kontakty, meřiče spotřeby energií, atd."
+other = "Tlačítka, jazýčkové kontakty, meřiče spotřeby energií, atd."
 
 [1_wire]
 other = "1-Wire sběrnice"
@@ -222,3 +222,15 @@ other = "Vlhkoměr"
 
 [therminal_blocks]
 other = "Svorkovnice pro externí periferie"
+
+[usage_examples]
+other = "Příklady využití"
+
+[usage]
+other = "Použití"
+
+[extension]
+other = "Rozšíření"
+
+[customer]
+other = "Zákazník"

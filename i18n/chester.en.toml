@@ -222,3 +222,15 @@ other = "Humidity sensor"
 
 [therminal_blocks]
 other = "Terminals for external peripherals"
+
+[usage_examples]
+other = "Usage examples"
+
+[usage]
+other = "Use Cases"
+
+[extension]
+other = "Extension"
+
+[customer]
+other = "Customer"

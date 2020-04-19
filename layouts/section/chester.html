@@ -327,6 +327,64 @@
         </div>
     </div>
 </section>
+
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+<section>
+                <div class="bg ">
+                    <div class="container pt-50">
+                        <div class="row">
+                          <div class="col-12 col-lg-12 pb-30 text-center">
+                              <h2 class="font-weight-black font-40 font-lnh44">{{ i18n "usage_examples" }}</h2>
+                          </div>
+                            <div class="col">
+                                <div class="slick">
+
+                                  {{ $cases := where .Site.RegularPages "Section" "use-cases" }}
+                                  {{ with $cases }}
+                                    {{ range $cases.ByWeight }}
+                                      {{ .Render "grid" }}
+                                    {{ end }}
+                                  {{ end }}
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            {{ $cases := where .Site.RegularPages "Section" "use-cases" }}
+            {{ with $cases }}
+              {{ range $cases.ByWeight }}
+                {{ .Render "modal" }}
+              {{ end }}
+            {{ end }}
+
+<script>
+  $(".slick").slick({
+    dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows:true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+});
+</script>
+
 </div>
 
         <section>
@@ -339,14 +397,14 @@
               <p class="font-18 pt-5 pb-20">
                 {{ i18n "chester_price" | safeHTML }}
               </p>
-              <a href = "#" class = "font-lnh24 font-weight-bold font-font2 font-red button__link getPricelist">{{ i18n "get_chester_pricelist" | safeHTML }}</a>
+              <a href = "#" data-target = "pricelistModal" class = "openModal font-lnh24 font-weight-bold font-font2 font-red button__link getPricelist">{{ i18n "get_chester_pricelist" | safeHTML }}</a>
               <a href = "{{ i18n "buy_chester_tester_link" }}" class = "font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "buy_chester_tester" | safeHTML }}</a>
               <!--<a href = "#" class="getOffer font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" data-toggle="modal" data-target=".bd-example-modal-lg">Send me materials</a>-->
             </div>
             <div class=" col-12 col-md-6 text-center">
               <img loading="lazy" src="/_assets/images/chester-device.svg" class="w-50 mt-20 movingObject" alt="" />
               <div class = "pb-20">
-                <a href="#" class="getOffer font-lnh24 py-15 px-20 px-md-40 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "interested_in_chester" }}</a>
+                <a href="#" data-target = "offerModal" class="openModal getOffer font-lnh24 py-15 px-20 px-md-40 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "interested_in_chester" }}</a>
               </div>
             </div>
           </div>
@@ -516,24 +574,18 @@
   });
 
           </script>
-
           <script type="text/javascript">
-            $('.getOffer').click(function(){
-              $('#offerModal').modal({
+            $('.openModal').click(function(){
+              var getId = "#" + $(this).attr('data-target');
+
+              $(getId).modal({
                 keyboard: false
               })
+
             });
 
           </script>
 
-          <script type="text/javascript">
-            $('.getPricelist').click(function(){
-              $('#pricelistModal').modal({
-                keyboard: false
-              })
-            });
-
-          </script>
 
         <footer>
 
