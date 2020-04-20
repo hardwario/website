@@ -402,4 +402,4 @@ http://www.vyvetrej.si/* https://www.hardwario.com/cs/vyvetrej-si/:splat 301!
 https://www.vyvetrej.si/* https://www.hardwario.com/cs/vyvetrej-si/:splat 301!
 
 
-/* /404.html
+# /* /404.html
