@@ -1,16 +1,14 @@
 ---
-title: Monitoring extrémních teplotních podmínek v průmyslu
-description: Pomocí připojených průmyslových RTD teploměrů a podpoře termočlánků je možné měřit i extrémní teploty v průmyslu.
+title: Monitoring extrémních teplot
+description: Pomocí připojených průmyslových RTD teploměrů a podpoře termočlánků dokáže CHESTER měřit i extrémní teploty v průmyslových provozech.
 device: CHESTER
+examples: ["Měření teploty systémů kotelen","Měření extrémních teplot ve výměnících"]
+extensions: [["Teploměry Pt1000", "X3A"],["Termočlánky", "X3B"]]
 weight: 50
 ---
 
-Pomocí připojených průmyslových RTD teploměrů a podpoře termočlánků je možné měřit i extrémní teploty v průmyslu.
+Pomocí připojených průmyslových RTD teploměrů a podpoře termočlánků dokáže CHESTER měřit i extrémní teploty v průmyslových provozech.
 
-Díky IP67 ochraně, LPWAN konektivitě a nízké spotřebě může být CHESTER umístěn kdekoliv v těžko přístupných místech a odesílat data, přestože není dostupné běžné připojení k internetu a elektrické síti, až 10 let.
+Díky své odolnosti vůči prachu a vodě a teplotnímu rozsahu je vhodným řešením projektů měření teplot v kotelnách, kovoprůmyslu, chemickém průmyslu nebo v průmyslu stavebních hmot.
 
-Řešení nachází uplatnění v kotelnách, kovoprůmyslu, chemickém průmyslu nebo v průmyslu stavebních hmot.
-
-## Používaná rozhraní:
-Teploměry Pt1000 (X3A)
-Termočlánky (X3B)
+Nízká spotřeba a LPWAN konektivita umožňují nasazení i v místech nepokrytých GSM signálem a bez připojení k elektrické síti.

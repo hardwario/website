@@ -117,3 +117,9 @@ other = "Stáhnout produktový léták"
 
 [use_case]
 other = "Příklad použití"
+
+[examples]
+other = "Příklady projektů"
+
+[extensions]
+other = "Používaná rozhraní"

@@ -1,13 +1,14 @@
 ---
-title: Monitoring klimatických podmínek ve venkovním prostředí
-description: CHESTER nachází uplatnění v místech, kde je potřeba vzdáleně ovládat zařízení, například otevírání a zavírání vrat a závor, ovládání strojů apod.
+title: Vzdálené ovládání zařízení
+description: CHESTER nachází uplatnění při vzdáleném ovládání různých strojů a zařízení, například otevírání a zavírání vrat a závor, ovládání výrobních strojů apod.
 device: CHESTER
-weight: 60
+examples: ["Vzdálené ovládání vjezdových bran","Vzdálené ovládání závor","Vzdálené ovládání strojů"]
+extensions: [["RS-485", "CHESTER-X2B"]]
+weight: 50
 ---
 
-CHESTER nachází uplatnění v místech, kde je potřeba vzdáleně ovládat zařízení, například otevírání a zavírání vrat a závor, ovládání strojů apod.
+CHESTER nachází uplatnění při vzdáleném ovládání různých strojů a zařízení, například otevírání a zavírání vrat a závor, ovládání výrobních strojů apod.
 
-Díky IP67 ochraně, LPWAN konektivitě a nízké spotřebě může být CHESTER umístěn kdekoliv v nepříznivých klimatických podmínkách a těžko přístupných místech a odesílat data, přestože není dostupné běžné připojení k internetu a elektrické síti, až 10 let.
+Díky své odolnosti vůči prachu a vodě a teplotnímu rozsahu je vhodným řešením i u náročných venkovních projektů.
 
-## Používaná rozhraní
-RS-485 (X2B)
+Nízká spotřeba a LPWAN konektivita umožňují nasazení i v místech nepokrytých GSM signálem a bez připojení k elektrické síti.

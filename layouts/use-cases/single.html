@@ -16,25 +16,49 @@
                   <div class="font-22 font-lnh38 pb-0">
                     {{ .Content }}
                   </div>
+
+                  {{ if isset .Params "extensions" }}
+                  <div class="row pb-50">
+                      <div class="col-12">
+                        <h2 class = "font-36 font-weight-bold pb-20">{{ i18n "extensions" }}</h2>
+                  <table class = "table">
+                    <thead class="thead-default font2">
+                    <tr>
+                    <th>{{ i18n "interface" }}</th>
+                    <th>{{ i18n "module" }}</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                      {{ range .Params.extensions }}
+                      <tr>
+                          <td><strong>{{ index . 0 }}</strong></td>
+                          <td>{{ index . 1 }}</td>
+                      </tr>
+                      {{ end }}
+                    </tbody>
+                  </table>
+                  </div>
+                  </div>
+                  {{ end }}
               </div>
           </div>
 </div>
           <div class="row pb-40">
               <div class="col-12 col-md-4 mx-auto text-center">
-                  <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "case_studies" }}</span></div>
+                  <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "examples" }}</span></div>
               </div>
           </div>
 
-          {{ range $.Page.Params.case_studies }}
+          <div class="row justify-content-center pb-50 pb-md-100">
 
-          {{ $key := . }}
-          {{ $study := index $.Site.Data.modules $key }}
+            {{ range .Params.examples }}
 
-          {{ end }}
-          <div class="row">
+            <div class="col-12 col-lg-6">
+                <span href="" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                    <h3 class="font-26 font-weight-medium pt-30 pb-30">{{ . | safeHTML }}</h3>
+                </span>
+            </div>
 
-            {{ range first 2 ($.Site.GetPage "section" "case-studies").Pages }}
-                 {{ .Render "grid-box" }}
                {{ end }}
 
           </div>
