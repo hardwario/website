@@ -7,7 +7,7 @@ extensions: [["Externí analogové vstupy 0 - 28 V", "CHESTER-X0C"], ["1-Wire", 
 weight: 40
 ---
 
-Pomocí celé řady rozhraní dokáže CHESTER připojit a sbírat data ze zařízení, která běžně nejsou připojena k internetu nebo vnitřní počítačové síti.
+Pomocí celé řady rozhraní dokáže [CHESTER](/cs/chester/) připojit a sbírat data ze zařízení, která běžně nejsou připojena k internetu nebo vnitřní počítačové síti.
 
 Díky své odolnosti vůči prachu a vodě a teplotnímu rozsahu je vhodným řešením projektů telemetrie dat v těžkém průmyslu, retailu i skladování.
 

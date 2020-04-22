@@ -1,5 +1,5 @@
 ---
-title: Vzdálené ovládání zařízení
+title: Vzdálené ovládání strojů a&nbsp;zařízení
 description: CHESTER nachází uplatnění při vzdáleném ovládání různých strojů a zařízení, například otevírání a zavírání vrat a závor, ovládání výrobních strojů apod.
 device: CHESTER
 examples: ["Vzdálené ovládání vjezdových bran","Vzdálené ovládání závor","Vzdálené ovládání strojů"]
@@ -7,7 +7,7 @@ extensions: [["RS-485", "CHESTER-X2B"]]
 weight: 50
 ---
 
-CHESTER nachází uplatnění při vzdáleném ovládání různých strojů a zařízení, například otevírání a zavírání vrat a závor, ovládání výrobních strojů apod.
+[CHESTER](/cs/chester/) nachází uplatnění při vzdáleném ovládání různých strojů a zařízení, například otevírání a zavírání vrat a závor, ovládání výrobních strojů apod.
 
 Díky své odolnosti vůči prachu a vodě a teplotnímu rozsahu je vhodným řešením i u náročných venkovních projektů.
 

@@ -123,3 +123,6 @@ other = "Příklady projektů"
 
 [extensions]
 other = "Používaná rozhraní"
+
+[make_an_appointment]
+other = "Domluvit schůzku"

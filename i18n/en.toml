@@ -126,3 +126,6 @@ other = "Examples of projects"
 
 [extensions]
 other = "Interfaces used"
+
+[make_an_appointment]
+other = "Make an appointment"
