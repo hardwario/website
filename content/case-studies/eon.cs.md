@@ -10,6 +10,7 @@ company: E.ON
 industry: Energetika
 product: CHESTER
 featured: false
+full: true
 testimonial_text: "Firmu HARDWARIO jsme oslovili s cílem otestovat síť NB-IoT. V krátkém čase jsme navrhli řešení pro sledování klimatických podmínek v kabelových skříních a během 2 měsíců jsme měli naše vlastní zařízení v rukách. Těšíme se na další společné projekty."
 testimonial_author: Dominik Harman
 testimonial_company: Project Manager, E.ON

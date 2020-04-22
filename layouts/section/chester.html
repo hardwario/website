@@ -333,7 +333,7 @@
 
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 <section>
-                <div class="bg ">
+                <div class="bg-darkGray font-white ">
                     <div class="container pt-50">
                         <div class="row">
                           <div class="col-12 col-lg-12 pb-30 text-center">
@@ -356,12 +356,12 @@
                 </div>
 
             </section>
-            {{ $cases := where .Site.RegularPages "Section" "use-cases" }}
+      <!--      {{ $cases := where .Site.RegularPages "Section" "use-cases" }}
             {{ with $cases }}
               {{ range $cases.ByWeight }}
                 {{ .Render "modal" }}
               {{ end }}
-            {{ end }}
+            {{ end }} -->
 
 <script>
   $(".slick").slick({

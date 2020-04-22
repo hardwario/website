@@ -10,6 +10,7 @@ company: TPCA
 industry: Automotive
 product: BLOX IoT Kit
 featured: false
+full: true
 testimonial_text: With IoT Kit modules, I was able to set-up our Industry 4.0 pilots in just a few days. It saved us time and money.
 testimonial_author: Marek Herda
 testimonial_company: Specialist - Security and Industry 4.0 Projects, TPCA

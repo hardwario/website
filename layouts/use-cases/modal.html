@@ -5,45 +5,8 @@
       <div class="modal-body">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-12 pt-70 text-center">
-              <h2 class = "font-30 font-md-42 font-weight-black pb-20">{{ .Title | safeHTML }}</h2>
-              <div class = "row justify-content-center">
-                <div class = "col">
-                <h4 class = "font-18 font-font2 font-weight-bold">{{ i18n "extension" }}</h4>
-                {{ .Params.extension }}
-                </div>
-                <div class = "col">
-                <h4 class = "font-18 font-font2 font-weight-bold">{{ i18n "interface"}}</h4>
-                {{ .Params.interface }}
-                </div>
-                <div class = "col">
-                <h4 class = "font-18 font-font2 font-weight-bold">{{ i18n "customer" }}</h4>
-                {{ .Params.customer }}
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 col-md-6 mx-auto text-center pt-50">
-                  <div class="font-redLined font-red font-font2 font-weight-bold font-10">
-                    <span>
-                      <div class="icon icon--quote"></div>
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-                <div class="row justify-content-center">
-                  <div class = "col-12">
-                    <p class = "font-20 font-lnh-24 pt-20 pb-50 text-center">{{ .Params.description | safeHTML }}<p>
-                  </div>
-                  <div>
-                                  <div class="article__author article__author--bottom d-flex flex-column justify-content-center">
-                                      <img src="/authors/alan.jpg" alt="" />
-                                      <strong>Alan Fabik</strong>
-                                      <span>CEO & Co-founder</span>
-                                  </div>
-                                  </div>
-                                  </div>
-
+            <div class="col-md-12 pt-70 ">
+              {{ .Content }}
             </div>
           </div>
         </div>

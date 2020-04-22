@@ -10,7 +10,7 @@ company: HB REAVIS
 industry: Real estate
 product: COOPER
 featured: false
-testimonial_text: PČástečná custom dodávka multisenzorů od Hardwaria zapadla do našeho ekosys- tému v HB REAVIS jako spo- lehlivý datový zdroj postave- ný na low power bezdrátové infrastruktuře. Opíráme so něj při monitorování, vy- hodnocování a optimalizaci kvality vnitřního prostředí. Těšíme se na další iteraci!
+testimonial_text: Částečná custom dodávka multisenzorů od Hardwaria zapadla do našeho ekosystému v HB REAVIS jako spolehlivý datový zdroj postavený na low power bezdrátové infrastruktuře. Opíráme so něj při monitorování, vyhodnocování a optimalizaci kvality vnitřního prostředí. Těšíme se na další iteraci!
 testimonial_author: HB REAVIS
 testimonial_company:
 testimonial_image: hbreavis.png

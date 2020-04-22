@@ -1,18 +1,11 @@
-<div data-toggle="modal" data-target="{{ .File.UniqueID | safeHTMLAttr }}" class = "openModal extension">
-  <div class="articles__item articles__item--2 slick-container">
+<a href = "{{ .Permalink }}" class="articles__item articles__item--2 slick-container">
         <div class="articles__content articles__content--2">
           <h3 class="articles__title articles__title--2 font-26 font-lnh26">{{ .Title | safeHTML }}</h3>
           <div class="articles__text articles__text--2">
-            <h4 class = "font-18 font-font2 font-weight-bold">{{ i18n "extension" }}</h4>
-            {{ .Params.extension }}
-            <h4 class = "pt-20 font-18 font-font2 font-weight-bold">{{ i18n "interface" }}</h4>
-            {{ .Params.interface }}
-            <h4 class = "pt-20 font-18 font-font2 font-weight-bold">{{ i18n "customer" }}</h4>
-            {{ .Params.customer }}
+            <p>{{ .Params.description }}</p>
           </div>
         </div>
         <div class="articles__author d-flex align-items-center">
             <span class = "font-16 font-weight-bold font-font2 font-red">{{ i18n "learn_more"}}</span>
         </div>
-      </div>
-</div>
+</a>

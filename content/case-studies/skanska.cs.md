@@ -1,16 +1,16 @@
 ---
-title:  Pomáháme zabránit výpadkům výroby v automobilce TPCA
-heading:  Pomáháme zabránit výpadkům výroby v automobilce TPCA
+title:  Pro firmu SKANSKA měříme výšku hladiny jímek
+heading:  Pro firmu SKANSKA měříme výšku hladiny jímek
 image_main: /case-studies/tpca_main.png
-image_grid: /case-studies/tpca_grid.png
+image_grid:
 description:
 meta:
-  title:  Pomáháme zabránit výpadkům výroby v automobilce TPCA | HARDWARIO případová studie
+  title: Pro firmu SKANSKA měříme výšku hladiny jíme | HARDWARIO případová studie
 company: TPCA
 industry: Automotive
-product: BLOX IoT Kit
+product: CHESTER
 featured: false
-full: true
+full: false
 testimonial_text: S moduly jsme byli schopni nastavit naši vlastní vlaštovku Prů- myslu 4.0 už za pár dní. A ušetřilo nám to čas i peníze.
 testimonial_author: Marek Herda
 testimonial_company: Specialist - Security and Industry 4.0 Projects, TPCA

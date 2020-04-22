@@ -114,3 +114,6 @@ other = "/cs/stem/"
 
 [download_leftlet]
 other = "Stáhnout produktový léták"
+
+[use_case]
+other = "Příklad použití"

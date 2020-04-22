@@ -10,6 +10,7 @@ company: ŠKODA Auto
 industry: Automotive
 product: BLOX IoT Kit
 featured: true
+full: true
 testimonial_text: "HARDWARIO nám pomohlo rychlým a neinvazivním způsobem zavést do výroby řešení, díky kterému sledujeme aktuální stav linky a snadno kontrolujeme, zda některý operátor potřebuje pomoc."
 testimonial_author: Jan Vlačiha
 testimonial_company: Expert Coordinator – Škoda Auto

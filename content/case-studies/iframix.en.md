@@ -10,6 +10,7 @@ company: IFRAMIX
 industry: Agriculture
 product: CHESTER & COOPER
 featured: false
+full: true
 testimonial_text:
 testimonial_author:
 testimonial_company:
