@@ -20,12 +20,12 @@ Vše ukážeme na praktických příkladech a tak, aby tomu porozuměl každý. 
 
 {{% section "Registrace" %}}
 
-Pro bezplatnou registraci na webinář stačí vyplnit formulář níže. Jako potvrzení vám přijde na e-mail odkaz s instrukcemi pro připojení. Těšíme se!
+Omlouváme se, ale na tomto webináři už máme plno. Když nám ale tady necháte na sebe kontakt, pošleme vám hned v pátek jeho záznam na váš e-mail.
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
   hbspt.forms.create({
 	portalId: "5453210",
-	formId: "c86864ec-9d39-4d79-89ec-1c592a3da97b"
+	formId: "ba8e346d-98e2-4fd4-8d28-c9d3411cdf7b"
 });
 </script>
