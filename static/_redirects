@@ -38,6 +38,9 @@ https://www.hardwario.cz/edu https://www.hardwario.com/cs/education?utm_source=b
 http://developers.bigclown.com/* https://developers.hardwario.com/:splat 301!
 https://developers.bigclown.com/* https://developers.hardwario.com/:splat 301!
 
+http://sdk.bigclown.com/* https://sdk.hardwario.com/:splat 301!
+https://sdk.bigclown.com/* https://sdk.hardwario.com/:splat 301!
+
 # BigClown Redirects
 http://bigclown.cz/webinar* https://www.eventbrite.co.uk/e/jak-deti-nadchnout-k-objevovani-a-ucit-digitalne-jakykoli-predmet-tickets-72591799025:splat 301!
 
