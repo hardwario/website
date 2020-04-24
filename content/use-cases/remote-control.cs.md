@@ -4,6 +4,9 @@ description: CHESTER nachází uplatnění při vzdáleném ovládání různýc
 device: CHESTER
 examples: ["Vzdálené ovládání vjezdových bran","Vzdálené ovládání závor","Vzdálené ovládání strojů"]
 extensions: [["RS-485", "CHESTER-X2B"]]
+consultation: Alan Fabik, CEO HARDWARIO
+cons_img: alan.png
+cons_link: https://meetings.hubspot.com/alanfabik/booking
 weight: 50
 ---
 

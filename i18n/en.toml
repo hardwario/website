@@ -129,3 +129,6 @@ other = "Interfaces used"
 
 [make_an_appointment]
 other = "Make an appointment"
+
+[free_consult]
+other = "Book free 30-minutes consultation of your product"

@@ -24,14 +24,14 @@
                   <table class = "table">
                     <thead class="thead-default font2">
                     <tr>
-                    <th>{{ i18n "interface" }}</th>
-                    <th>{{ i18n "module" }}</th>
+                      <th>{{ i18n "interface" }}</th>
+                      <th>{{ i18n "module" }}</th>
                     </tr>
                     </thead>
                     <tbody>
                       {{ range .Params.extensions }}
                       <tr>
-                          <td><strong>{{ index . 0 }}</strong></td>
+                          <td>{{ index . 0 }}</td>
                           <td>{{ index . 1 }}</td>
                       </tr>
                       {{ end }}
@@ -73,28 +73,12 @@
       <div class="col-7 bg bg-darkGray py-30 mb-60">
         <div class = "row align-items-center">
           <div class = "col-4 px-50">
-              <img loading="lazy" src="/_assets/images/team.png" class="rounded-circle d-block mx-auto img-fluid" alt="" />
+              <img loading="lazy" src="/_assets/images/{{ .Params.cons_img }}" class="rounded-circle d-block mx-auto img-fluid" alt="" />
           </div>
           <div class = "col-8 font-white">
-          <h3 class = "font-32 font-weight-bold pb-10">Pojďme to probrat</h3>
-          <p class = "font-24 pb-20">30minutová konzultace vašeho projektu zdarma</p>
-          <a href = "https://meetings.hubspot.com/alanfabik/booking" target="_blank" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "make_an_appointment" }}</a>
-          </div>
-      </div>
-  </div>
-</section>
-
-<section>
-  <div class="row justify-content-center">
-      <div class="col-7 bg bg-darkGray py-30 mb-60">
-        <div class = "row align-items-center">
-          <div class = "col-4 px-50">
-              <img loading="lazy" src="/_assets/images/alan.png" class="rounded-circle d-block mx-auto img-fluid" alt="" />
-          </div>
-          <div class = "col-8 font-white">
-          <h3 class = "font-32 font-weight-bold pb-10">Pojďme to probrat</h3>
-          <p class = "font-24 pb-20">30minutová konzultace vašeho projektu zdarma</p>
-          <a href = "https://meetings.hubspot.com/alanfabik/booking" target="_blank" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "make_an_appointment" }}</a>
+          <h3 class = "font-32 font-weight-bold pb-10">{{ i18n "free_consult" | safeHTML }}</h3>
+          <p class = "font-16 pb-10">{{ .Params.consultation | safeHTML }}</p>
+          <a href = "{{ .Params.cons_link }}" target="_blank" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "make_an_appointment" }}</a>
           </div>
       </div>
   </div>

@@ -3,6 +3,9 @@ title: Monitoring polohy a&nbsp;lokalizace objektů
 description: CHESTER s integrovaným GNSS modulem (GPS, Galileo, Glonass) je ideálním nástrojem pro lokalizaci objektů v logistice, zemědělství nebo průmyslu.
 device: CHESTER
 examples: ["Monitoring kontejnerů","Monitoring stavebních strojů","Monitoring mobilních toalet","Monitoring objemných předmětů ve&nbsp;venkovních skladech"]
+consultation: Alan Fabik, CEO HARDWARIO
+cons_img: alan.png
+cons_link: https://meetings.hubspot.com/alanfabik/booking
 weight: 70
 ---
 
