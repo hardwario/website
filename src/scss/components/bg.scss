@@ -6,6 +6,21 @@
   {
     background: #E30427;
   }
+
+  &-no-image{
+    background:#252532;
+    padding: 200px 0;
+
+    @media(max-width:1214px)
+    {
+      padding: 50px 0;
+    }
+
+    @media(max-width:767px)
+    {
+      padding: 0;
+    }
+  }
   &-contact
   {
     //background: url("../images/contact-header.png") left bottom no-repeat;

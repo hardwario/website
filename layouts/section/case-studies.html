@@ -9,8 +9,18 @@
         <div class="row">
 
           {{ $pages := .Data.Pages }}
-          {{ range where $pages ".Params.featured" false }}
+          {{ range where (where $pages ".Params.featured" false) ".Params.full" true }}
             {{ .Render "grid-box" }}
+          {{ end }}
+
+        </div>
+
+
+        <div class="row">
+
+          {{ $pages := .Data.Pages }}
+          {{ range where $pages ".Params.full" false }}
+            {{ .Render "grid-list" }}
           {{ end }}
 
         </div>

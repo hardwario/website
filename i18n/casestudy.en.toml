@@ -9,3 +9,6 @@ other = "Yes, I'm interested"
 
 [download_case_study]
 other = "We'll send you<br/> all case studies<br/> to you inbox"
+
+[case_studies]
+other = "Case studies"

@@ -111,3 +111,21 @@ other = "Nový bezplatný webinář pro školy #spolutozvladneme"
 
 [toolbar_link]
 other = "/cs/stem/"
+
+[download_leftlet]
+other = "Stáhnout produktový léták"
+
+[use_case]
+other = "Příklad použití"
+
+[examples]
+other = "Příklady projektů"
+
+[extensions]
+other = "Používaná rozhraní"
+
+[make_an_appointment]
+other = "Domluvit schůzku"
+
+[free_consult]
+other = "Rezervujte si 30minutovou konzultaci vašeho&nbsp;projektu&nbsp;zdarma"

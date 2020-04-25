@@ -1,0 +1,11 @@
+<a href = "{{ .Permalink }}" class="articles__item articles__item--2 slick-container">
+        <div class="articles__content articles__content--2">
+          <h3 class="articles__title articles__title--2 font-26 font-lnh26">{{ .Title | safeHTML }}</h3>
+          <div class="articles__text articles__text--2">
+            <p>{{ .Params.description | safeHTML }}</p>
+          </div>
+        </div>
+        <div class="articles__author d-flex align-items-center">
+            <span class = "font-16 font-weight-bold font-font2 font-red">{{ i18n "learn_more"}}</span>
+        </div>
+</a>
