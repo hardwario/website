@@ -2,7 +2,7 @@
         <div class="articles__content articles__content--2">
           <h3 class="articles__title articles__title--2 font-26 font-lnh26">{{ .Title | safeHTML }}</h3>
           <div class="articles__text articles__text--2">
-            <p>{{ .Params.description }}</p>
+            <p>{{ .Params.description | safeHTML }}</p>
           </div>
         </div>
         <div class="articles__author d-flex align-items-center">
