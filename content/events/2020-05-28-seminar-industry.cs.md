@@ -3,7 +3,7 @@ date: "2020-05-28"
 time: "14:00 - 18:00"
 price: "900 Kč"
 publishdate: "2020-02-11"
-expirydate: "2020-04-24"
+expirydate: "2020-05-28"
 title: "Neinvazivní IoT projekty do průmyslu i domácností prakticky - hardware, konektivita, platformy, případovky, náklady"
 hashtags: ["seminar","praha"]
 category: industry
