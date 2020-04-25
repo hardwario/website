@@ -69,18 +69,21 @@
 </section>
 
 <section>
+  <div class = "container">
   <div class="row justify-content-center">
-      <div class="col-10 col-md-9 col-lq-7 bg bg-darkGray py-30 mb-60">
+      <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mb-60">
         <div class = "row align-items-center">
           <div class = "col-12 col-md-4 px-50">
               <img loading="lazy" src="/_assets/images/{{ .Params.cons_img }}" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
           </div>
           <div class = "col-12 col-md-8 pt-30 pt-md-0 text-center text-md-left font-white">
-          <h3 class = "font-32 font-weight-bold pb-10">{{ i18n "free_consult" | safeHTML }}</h3>
+          <h3 class = "font-26 font-md-32 font-weight-bold pb-10">{{ i18n "free_consult" | safeHTML }}</h3>
           <p class = "font-16 pb-10">{{ .Params.consultation | safeHTML }}</p>
           <a href = "{{ .Params.cons_link }}" target="_blank" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "make_an_appointment" }}</a>
           </div>
       </div>
+  </div>
+  </div>
   </div>
 </section>
 
