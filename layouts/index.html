@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-12 col-lg-6 text-center text-md-left">
                     <h1 class="font-40 font-md-64 font-md-lnh68 font-weight-black pb-40 pb-md-40">{{ i18n "build_smart_product" | safeHTML }}</h1>
-                    <p class="font-24 font-gray2 font-lnh37 pb-40 mb-md-30 pr-md-100">{{ i18n "its_easy_with_iot_kit" | safeHTML }}</p>
+                    <p class="font-24 font-gray2 font-lnh37 pb-40 pr-md-100">{{ i18n "its_easy_with_iot_kit" | safeHTML }}</p>
                     <div>
                         <a href="#solutions" class="cta-button font-lnh54 px-70 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "tell_me_more" }}</a>
                     </div>
@@ -14,6 +14,27 @@
             </div>
         </div>
     </div>
+</section>
+
+<section>
+  <div class="container">
+  <div class="row pb-50">
+      <div class="col">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6 col-xl-4 mx-auto text-center">
+                <div class="font-redLined font-redLined-gray font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "products" }}</span></div>
+            </div>
+        </div>
+          <div class="row">
+            <div class="col-12 col-md-10 mx-auto text-center pt-md-0">
+                <h2 class="text-center font-weight-black font-36 font-md-64">Máme pro vás 3 unikátní produkty</h2>
+                <!--<p class="text-center font-24 font-lnh38">{{ .Params.description | safeHTML }}</p>-->
+            </div>
+          </div>
+      </div>
+  </div>
+  {{ partial "products.html" . }}
+  </div>
 </section>
 
 

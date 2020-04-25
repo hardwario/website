@@ -1,14 +1,17 @@
 [build_smart_product]
-other = "Víceúčelové průmyslové IoT&nbsp;stavebnice"
+other = "Jsme experti na&nbsp;hardware"
 
 [its_easy_with_iot_kit]
-other = "Stovky variant pro vaše originální IoT projekty. Snadné sestavení, nízká spotřeba a různé možnosti připojení k&nbsp;internetu."
+other = "Specializujeme se na návrh, vývoj a výrobu zařízení pro internet věcí s velmi nízkou spotřebou."
+
+[products]
+other = "Produkty"
 
 [solutions]
-other = "Využití stavebnice"
+other = "Řešení"
 
 [one_kit_for_all_projects]
-other = "Stavebnice pro všechny vaše IoT projekty"
+other = "Naše produkty se uplatňují zejména v těchto oblastech"
 
 [active_stem_education]
 other = "Aktivní<br/> STEM výuka"
