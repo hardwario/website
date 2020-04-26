@@ -5,10 +5,13 @@ other = "Rychlé neinvazivní ověřování konceptů průmyslu&nbsp;4.0"
 other = "Ekosystém naší stavebnice vám umožní rychle a s nízkými náklady zrealizovat pilotní projekty průmyslu 4.0 v oblastech prediktivní údržby, monitoringu výroby nebo například sledování komfortu pracovního prostředí."
 
 [comprehensive_solution]
-other = "Ucelené řešení pro IoT piloty"
+other = "Ucelené řešení pro IIoT"
+
+[unique_devices]
+other = "Zařízení navržená pro IIoT"
 
 [iot_kit_industry]
-other = "Snadné sestavení, nízká spotřeba, vysoký stupeň zabezpečení, průmyslová kvalita, propojitelné s&nbsp;jinými analogovými i&nbsp;digitálními zařízeními a různé možnosti připojení k internetu."
+other = "Modularita, nízká spotřeba, vysoký stupeň zabezpečení, průmyslová kvalita, propojitelné s&nbsp;mnoha jinými analogovými i&nbsp;digitálními senzory a&nbsp;různé možnosti připojení k internetu."
 
 [ready_to_use_integrations]
 other = "Snadná<br/> integrace "
@@ -44,7 +47,7 @@ other = "Navrhneme a vyrobíme vám IoT zařízení na míru"
 other = "Nestačí vám pro váš projekt pouze stavebnice? Dokončili jste pilot vašeho projektu a potřebujete zařízení na míru? Dodáme IoT zařízení dle vašich potřeb od návrhu až po výrobu."
 
 [industry_kits]
-other = "Nejlepší IoT stavebnice pro piloty průmyslu&nbsp;4.0"
+other = "Naše IIoT produkty pro&nbsp;průmysl&nbsp;4.0"
 
 [kits_for_industry]
 other = "Stavebnice pro IoT piloty"

@@ -3,7 +3,7 @@ date: "2020-05-21"
 time: "14:00 - 15:00"
 price: "Zdarma"
 publishdate: "2020-04-08"
-expirydate: "2020-04-24"
+expirydate: "2020-05-21"
 title: "LoRaWAN prakticky: ČRa, The Things Network, vytvoření vlastní sítě"
 hashtags: ["webinar","zdarma"]
 category: industry

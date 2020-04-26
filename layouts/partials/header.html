@@ -19,7 +19,7 @@
         {{ else }}
           {{ range .Site.Languages }}
             {{ if ne .Lang $.Page.Lang }}
-            <li class = "d-inline-block"><a class="font-gray d-block pb-10 pb-lg-0 pr-lg-30" href="/{{ .Lang }}">{{ .Params.LanguageName }}</a></li>
+            <li class = "d-inline-block"><a class="font-gray d-block pb-10 pb-lg-0 pr-lg-10" href="/{{ .Lang }}">{{ .Params.LanguageName }}</a></li>
             {{ end }}
           {{ end }}
         {{ end }}
@@ -45,14 +45,14 @@
                 <ul class="d-lg-flex text-center text-lg-left mt-20 mt-lg-0 list-unstyled py-0 my-0 font-20 font-md-15 font-weight-medium font-font2 text-uppercase justify-content-center justify-content-md-end">
                   {{ range .Site.Menus.main }}
                     <li>
-                      <a href="{{ .URL }}" target = "{{ .Post }}" class="font-gray d-block pb-10 pb-lg-0 pr-lg-30 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} active {{ end }}">{{ .Name | safeHTML }}</a>
+                      <a href="{{ .URL }}" target = "{{ .Post }}" class="{{ .Pre }} font-gray d-block pt-lg-5 pb-10 pb-lg-5 pr-lg-30 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} active {{ end }}">{{ .Name | safeHTML }}</a>
                     </li>
                   {{ end }}
                 </ul>
                 <ul class="d-lg-none  text-center mt-20 list-unstyled py-0 my-0 font-20 font-md-15 font-weight-medium font-font2 text-uppercase justify-content-center">
                   {{ range .Site.Menus.secondary }}
                     <li>
-                      <a href="{{ .URL }}" target = "{{ .Post }}" class="font-gray d-block pb-10 pb-lg-0 pr-lg-30 {{ if or ($.IsMenuCurrent "secondary" .) ($.HasMenuCurrent "secondary" .) }} active {{ end }}">{{ .Name | safeHTML }}</a>
+                      <a href="{{ .URL }}" target = "{{ .Post }}" class="{{ .Pre }} font-gray d-block pb-10 pb-lg-0 pr-lg-30 {{ if or ($.IsMenuCurrent "secondary" .) ($.HasMenuCurrent "secondary" .) }} active {{ end }}">{{ .Name | safeHTML }}</a>
                     </li>
                   {{ end }}
                 </ul>

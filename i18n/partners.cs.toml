@@ -74,7 +74,7 @@ other = "Víceúčelový IoT LPWAN hub CHESTER"
 other = "Zařízení určeno ke zpracování a&nbsp;přenosu dat z&nbsp;externích senzorů a&nbsp;rozhraní prostřednictvím technologií NB-IoT nebo LoRa."
 
 [cloud_services]
-other = "Služby<br/> HARDWARIO<br/> Cloud"
+other = "HARDWARIO<br/> Cloud"
 
 [connect_integrate]
 other = "Každé LPWAN zařízení může být připojeno do cloudu. Odtud je možné všechna zařízení spravovat a&nbsp;integrovat s&nbsp;dalšími službami."
