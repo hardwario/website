@@ -98,6 +98,11 @@
         left: -20px;
       }
 
+      @media(max-width:768px)
+      {
+        left: 0px;
+      }
+
       &:hover{
         background-image: url("../images/icons/arrow-left.svg");
         opacity: 1;
@@ -116,6 +121,11 @@
       @media(max-width:1023px)
       {
         right: -20px;
+      }
+
+      @media(max-width:768px)
+      {
+        right: 0px;
       }
 
       &:hover{
