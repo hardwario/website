@@ -1,32 +1,38 @@
 [build_smart_product]
-other = "Víceúčelové průmyslové IoT&nbsp;stavebnice"
+other = "Jsme experti na&nbsp;hardware"
 
 [its_easy_with_iot_kit]
-other = "Stovky variant pro vaše originální IoT projekty. Snadné sestavení, nízká spotřeba a různé možnosti připojení k&nbsp;internetu."
+other = "Společně s <a href = '/cs/partners/'>našimi partnery</a> se specializujeme na projekty pro internet věcí a zařízení s velmi nízkou spotřebou."
+
+[products]
+other = "Produkty"
+
+[three_unique_products]
+other = "Máme pro vás 3 unikátní produkty"
 
 [solutions]
-other = "Využití stavebnice"
+other = "Řešení"
 
 [one_kit_for_all_projects]
-other = "Stavebnice pro všechny vaše IoT projekty"
+other = "Naše produkty se uplatňují zejména v těchto oblastech"
 
 [active_stem_education]
-other = "Aktivní<br/> STEM výuka"
+other = "STEM<br/>vzdělávání"
 
 [use_kit_for_edutaction]
-other = "Využijte stavebnici společně s&nbsp;pedagogickým rámcem, detailními lekcemi a databází reálných projektů pro aktivní a&nbsp;poutavou STEM výuku ve škole i&nbsp;doma."
+other = "Využijte stavebnici, pedagogický rámec, detailní lekce a databází reálných projektů pro aktivní a&nbsp;poutavou STEM výuku ve škole i&nbsp;doma."
 
 [more_about_education]
-other = "Více o výuce"
+other = "Více o vzdělávání"
 
 [industry40_pilots]
-other = "Piloty<br/> průmyslu 4.0"
+other = "Průmyslový internet&nbsp;věcí"
 
 [start_iot_innovations]
 other = "Rozjeďte IoT inovace rychle a&nbsp;s&nbsp;nízkými náklady. Stavte si zařízení pro prediktivní údržbu, monitoring výroby nebo sledování komfortu pracovního prostředí."
 
 [more_about_pilots]
-other = "Více o IoT pilotech"
+other = "Více o IIoT"
 
 [smart_diy_projects]
 other = "DIY chytrá domácnost"

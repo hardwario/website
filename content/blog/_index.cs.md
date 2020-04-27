@@ -1,6 +1,6 @@
 ---
 title: Blog
 slug: blog
-menu: ["secondary","footer"]
+menu: ["main","footer"]
 weight: 90
 ---

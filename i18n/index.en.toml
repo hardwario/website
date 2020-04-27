@@ -1,8 +1,14 @@
 [build_smart_product]
-other = "Multipurpose industrial IoT&nbsp;Kits"
+other = "We are hardware experts"
 
 [its_easy_with_iot_kit]
-other = "We give you hundreds of recipes for devices that are easy to build, feature years of operation from batteries, and offer multiple wireless and bus connectivity options."
+other = "Together with our partners, we specialize in projects for the Internet of Things and devices with very low power consumption."
+
+[products]
+other = "Products"
+
+[three_unique_products]
+other = "We have 3&nbsp;unique products&nbsp;for&nbsp;you"
 
 [solutions]
 other = "Usage of the kit"
@@ -20,7 +26,7 @@ other = "The educators around the world use our kits and the pedagogical framewo
 other = "Find out more"
 
 [industry40_pilots]
-other = "Industry 4.0<br/> Pilots"
+other = "Industrial Internet of Things"
 
 [start_iot_innovations]
 other = "Turn your innovative ideas into reality in a fast and affordable way. Need gathering data from a production line or take action on an unexpected situation? Our devices have you covered. Boost your IoT innovations."

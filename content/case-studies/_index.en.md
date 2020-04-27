@@ -1,6 +1,6 @@
 ---
 title: Case Studies
-menu: secondary
+menu: footer
 weight: 80
 meta:
     title: Case studies from HARDWARIO

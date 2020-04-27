@@ -5,8 +5,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6 text-center text-md-left">
-                    <h1 class="font-40 font-md-64 font-md-lnh68 font-weight-black pt-40 pb-40 pb-md-40">{{ i18n "improve_company" | safeHTML }}</h1>
-                    <p class="font-24 font-gray2 font-lnh37 pb-40 mb-md-30 pr-md-100">{{ i18n "fast_and_affordable_solution" | safeHTML }}</p>
+                    <h1 class="font-40 font-md-64 font-md-lnh68 font-weight-black pt-40 pb-40 pb-md-40">{{ .Params.mainHeading | safeHTML }}</h1>
+                    <p class="font-24 font-gray2 font-lnh37 pb-40">{{ .Params.description | safeHTML }}</p>
                     <div>
                         <a href="#solution" class="cta-button font-lnh54 px-70 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "tell_me_more" }}</a>
                     </div>
@@ -28,7 +28,7 @@
                     </div>
                     <div class="row pb-10 pb-md-30">
                         <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
-                            <h2 class="text-center pb-20 font-weight-black font-40 font-md-64 font-md-lnh68">{{ i18n "soaked_from_start_to_finish" | safeHTML }}</h2>
+                            <h2 class="text-center pb-20 font-weight-black font-36 font-md-54 font-md-lnh64">{{ i18n "soaked_from_start_to_finish" | safeHTML }}</h2>
                             <!--<p class="text-center font-24 font-lnh38">Sufficient amount of correct information reduces risk and reduces waste of time and resources.</p>-->
                         </div>
                     </div>
@@ -45,16 +45,16 @@
                     </div>
                     <div class="row text-center pb-10 mb-0 mb-md-100">
                       <div class="col-12 col-lg-4 pb-40 pb-lg-0">
-                          <h3 class="font-26 font-md-40 font-lnh38 font-weight-black pb-10">{{ i18n "plug_and_make_kits" | safeHTML }}</h3>
-                            <p class="font-21 font-lnh34 px-15">{{ i18n "iot_kit_industry" | safeHTML }}</p>
+                          <h3 class="font-40 pb-30 font-weight-black">{{ i18n "unique_devices" | safeHTML }}</h3>
+                            <p class="font-19 font-lnh30 font-gray2 pb-0">{{ i18n "iot_kit_industry" | safeHTML }}</p>
                         </div>
                         <div class="col-12 col-lg-4 pb-40 pb-lg-0">
-                            <h3 class="font-26 font-md-40 font-lnh38 font-weight-black pb-10">{{ i18n "ready_to_use_integrations" | safeHTML }}</h3>
-                            <p class="font-21 font-lnh34 px-15">{{ i18n "integration_manuals" }}</p>
+                            <h3 class="font-40 pb-30 font-weight-black">{{ i18n "ready_to_use_integrations" | safeHTML }}</h3>
+                            <p class="font-19 font-lnh30 font-gray2 pb-0">{{ i18n "integration_manuals" }}</p>
                         </div>
                         <div class="col-12 col-lg-4">
-                            <h3 class="font-26 font-md-40 font-lnh38 font-weight-black pb-10">{{ i18n "personal_support" | safeHTML }}</h3>
-                            <p class="font-21 font-lnh34 px-15">{{ i18n "support_docs" }}</p>
+                            <h3 class="font-40 pb-30 font-weight-black">{{ i18n "personal_support" | safeHTML }}</h3>
+                            <p class="font-19 font-lnh30 font-gray2 pb-0">{{ i18n "support_docs" }}</p>
                         </div>
                     </div>
                 </div>
@@ -88,89 +88,71 @@
   {{ .Render "grid-home" }}
 {{ end }}
 
+
+<section>
+  <div class="container">
+  <div class="row pt-60">
+      <div class="col">
+          <div class="row">
+            <div class="col-12 col-md-8 mx-auto text-center">
+                <h2 class="text-center font-weight-black font-36 font-md-54">{{ i18n "industry_kits" | safeHTML }}</h2>
+                <!--<p class="text-center font-24 font-lnh38">{{ .Params.description | safeHTML }}</p>-->
+            </div>
+          </div>
+      </div>
+  </div>
+  {{ partial "products.html" . }}
+  </div>
+</section>
+
 {{ $events := (where ($.Site.GetPage "section" "events").Pages "Params.category" "industry") }}
 {{ with $events }}
 <section>
     <div class="container">
         <div class="row pt-70">
-            <div class="col-12 col-md-6 mx-auto text-center">
+            <div class="col-12 col-md-5 mx-auto text-center">
                 <div class="font-redLined font-redLined-gray font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "events_industry" }}</span></div>
             </div>
         </div>
         <div class="row pb-10 pb-md-30">
             <div class="col-12 col-md-8 mx-auto text-center">
-                <h2 class="text-center pb-20 font-weight-black font-30 font-md-64">{{ i18n "get_familiar_with_iot" | safeHTML }}</h2>
-                <p class="text-center font-24 font-lnh38">{{ i18n "come_to_industy_event" | safeHTML }}</p>
+                <h2 class="text-center font-weight-black font-36 font-md-54">{{ i18n "iot_events" | safeHTML }}</h2>
+                <p class="text-center font-24 font-lnh38">{{ i18n "come_to_event" }}</p>
             </div>
         </div>
-        <div class="row align-items-start pb-30 mb-md-30 pt-30">
+        <div class="row align-items-start pb-30 pt-30">
+
             {{ range $events.ByDate }}
             <div class="col-12 col-md-4 pb-30">
                 {{ .Render "grid" }}
             </div>
             {{end}}
-</div>
+
+        </div>
 </div>
 </section>
 {{ end }}
-<section>
-    <div class="">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                  <div class="row">
-                      <div class="col-12 col-md-8 col-lg-6 col-xl-4 mx-auto pt-60 text-center">
-                          <div class="font-redLined font-redLined-gray font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "kits_for_industry" }}</span></div>
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
-                          <h2 class="text-center pb-20 font-weight-black font-30 font-md-64">{{ i18n "industry_kits" | safeHTML }}</h2>
-                      </div>
-                  </div>
-                    <div class="pricelist pricelist--bottom-3-5 pt-0 pt-md-40">
-                        <div class="row no-gutters">
-                          {{ $pleft := .Params.productLeft }}
-                          {{ with .Site.GetPage (string $pleft) }}
-                            {{ .Render "grid-list"}}
-                          {{ end }}
 
-                          {{ $pleft := .Params.productMiddle }}
-                          {{ with .Site.GetPage (string $pleft) }}
-                            {{ .Render "grid-list-rec"}}
-                          {{ end }}
-
-                          {{ $pleft := .Params.productRight }}
-                          {{ with .Site.GetPage (string $pleft) }}
-                            {{ .Render "grid-list"}}
-                          {{ end }}
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section>
-    <div class="bg-gray text-center pt-70 pb-60 px-15">
-      <div class = "container">
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-4 mx-auto text-center">
-                <div class="font-redLined font-redLined-gray font-red mb-20 font-font2 font-weight-bold font-15"><span>{{ i18n "bespoke_development" }}</span></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-8 mx-auto text-center">
-        <h2 class="font-40 font-md-64 font-md-lnh60 pb-30 mb-5 font-weight-black">{{ i18n "we_develop_your_product" | safeHTML }}</h2>
-        <p class="font-24 font-gray mb-30 pb-5 font-lnh38">{{ i18n "kit_not_enough" }}</p>
-        <a href="/bespoke-development" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-darkGray">{{ i18n "tell_me_more" }}</a>
-        </div>
-        </div>
+  <div class = "container">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mb-60">
+        <div class = "row align-items-center">
+          <div class = "col-12 col-md-4 px-50">
+              <img loading="lazy" src="/_assets/images/{{ .Params.cons_img }}" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
+          </div>
+          <div class = "col-12 col-md-8 pt-30 pt-md-0 text-center text-md-left font-white">
+          <h3 class = "font-32 font-weight-bold pb-10">{{ i18n "free_consult" | safeHTML }}</h3>
+          <p class = "font-16 pb-10">{{ .Params.consultation | safeHTML }}</p>
+          <a href = "{{ .Params.cons_link }}" target="_blank" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "make_an_appointment" }}</a>
+          </div>
       </div>
-    </div>
+  </div>
+  </div>
+  </div>
 </section>
+
 
 <!--<section>
   <div class="">

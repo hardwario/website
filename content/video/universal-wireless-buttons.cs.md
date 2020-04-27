@@ -1,7 +1,7 @@
 ---
 date: "2019-08-12"
 title: Univerzální bezdrátová tlačítka
-slug: vyuziti-oee-v-prumyslu
+slug: univerzalni-bezdratova-tlacitka
 meta_title:
 meta_description:
 description: Jaké je uplatnění univerzálních bezdrátových tlačítek v průmyslu a jak pomáhají ve ŠKODA AUTO?

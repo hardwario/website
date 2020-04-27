@@ -60,17 +60,21 @@ csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
 
 [[languages.cs.menu.footer]]
   url    = "https://obchod.hardwario.cz"
-  name   = "E-shop"
+  name   = "E&#8209;shop"
   weight = 500
 
 [[languages.en.menu.main]]
   url    = "https://shop.hardwario.com"
   name   = "Shop"
+  pre = "external_link"
+  post = "_blank"
   weight = 95
 
 [[languages.cs.menu.main]]
   url    = "https://obchod.hardwario.cz"
-  name   = "Eshop"
+  name   = "E&#8209;shop"
+  pre = "external_link"
+  post = "_blank"
   weight = 95
 
 [blackfriday]

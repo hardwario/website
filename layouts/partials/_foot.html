@@ -53,7 +53,7 @@
                     <div class="font-18">
                         <ul class = "footernav">
                         {{ range .Site.Menus.footer }}
-                          <li><a href="{{ .URL }}" target = "{{ .Post }}" class = "font-weight-medium font-white">{{ .Name }}</a></li>
+                          <li><a href="{{ .URL }}" target = "{{ .Post }}" class = "font-weight-medium font-white">{{ .Name | safeHTML }}</a></li>
                         {{ end }}
                         </ul>
                     <a href="mailto:ask@hardwario.com" class="d-block font-font2 font-18 pb-25 font-weight-medium font-white">ask@hardwario.com</a>
