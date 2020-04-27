@@ -1,6 +1,7 @@
 ---
 title: Multipurpose IoT&nbsp;Hub&nbsp;CHESTER
-description: Modular device covering a wide range of IoT applications, communicates through LPWAN technologies. The device offers a reliable operation from a battery for up to&nbsp;10&nbsp;years.
+heading: Multipurpose IoT&nbsp;Hub
+description: Universal device with very low power consumption communicating via LPWAN. It allows the connection of other external elements via a number of interfaces.
 menu:
 weight: 100
 meta_title: Multipurpose IoT Hub CHESTER| NB-IoT Hub | LoRaWAN Hub | by HARDWARIO

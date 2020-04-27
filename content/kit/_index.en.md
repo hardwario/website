@@ -1,6 +1,6 @@
 ---
 title: Industrial<br/> IoT&nbsp;Kit
-description: You can use Industrial IoT Kit to build IoT projects effortlessly. The core use-cases are Industry 4.0, active STEM education, as&nbsp;well as&nbsp;smart home DIY projects.
+description: Use Industrial IoT Kit to build IoT projects effortlessly. Use-cases are Industry 4.0, active STEM education, as&nbsp;well as&nbsp;smart home DIY projects.
 menu:
 weight: 100
 meta_title: Industrial IoT Kit | HARDWARIO

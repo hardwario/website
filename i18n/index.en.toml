@@ -1,11 +1,14 @@
 [build_smart_product]
-other = "Multipurpose industrial IoT&nbsp;Kits"
+other = "We are hardware experts"
 
 [its_easy_with_iot_kit]
-other = "We give you hundreds of recipes for devices that are easy to build, feature years of operation from batteries, and offer multiple wireless and bus connectivity options."
+other = "Together with our partners, we specialize in projects for the Internet of Things and devices with very low power consumption."
 
 [products]
 other = "Products"
+
+[three_unique_products]
+other = "We have 3&nbsp;unique products&nbsp;for&nbsp;you"
 
 [solutions]
 other = "Usage of the kit"
