@@ -1,6 +1,6 @@
 ---
 title: Průmyslová IoT&nbsp;stavebnice
-description: Průmyslová stavebnice, se&nbsp;kterou snadno postavíte zařízení pro piloty průmyslu 4.0, aktivním STEM vzdělávání a&nbsp;projekty chytré domácnosti.
+description: Průmyslová stavebnice, se&nbsp;kterou snadno postavíte zařízení pro průmysl 4.0, aktivním STEM vzdělávání a&nbsp;projekty chytré domácnosti.
 menu:
 weight: 100
 meta_title: Průmyslová IoT stavebnice | HARDWARIO Industrial IoT Kit

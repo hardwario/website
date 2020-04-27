@@ -110,7 +110,7 @@
 </section>
 
 <section>
-    <div class="container pb-50 mb-md-50">
+    <div class="container pb-50 mb-xl-50">
         <div class="row pb-50">
             <div class="col">
                 <div class="row">
@@ -120,49 +120,48 @@
                 </div>
             </div>
         </div>
-        <div class="row text-center">
+        <div class="row text-center justify-content-center">
           {{ with .Site.GetPage "/kit" }}
-            <div class="col-12 col-md-4 pb-50 pb-md-0">
-                <a href="{{ .Permalink }}" class="d-block mb-10">
-                    <img loading="lazy" src="/_assets/images/iot-kit.svg" class="mt-20 movingObject" height = "340" alt="" />
-                </a>
-                <h2 class="font-40 pb-30 font-weight-black">{{ .Title | safeHTML }}</h2>
-                <div class="row">
-                    <div class="col-10 col-lg-9 mx-auto pb-50">
-                        <p class="font-19 font-lnh30 font-gray2">{{ .Params.description | safeHTML }}</p>
-                    </div>
-                </div>
-                <a href="{{ .Permalink }}" class="cta-button font-lnh54 font-md-lnh24 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "learn_more" }}</a>
-            </div>
+          <div class="col-12 col-md-6 col-xl-4 pb-50 pb-md-0">
+              <a href="{{ .Permalink }}" class="d-block mb-10">
+                  <img loading="lazy" src="/_assets/images/iot-kit.svg" class="mt-20 movingObject" height = "340" alt="" />
+              </a>
+              <h2 class="font-28 font-md-40 pb-20 pb-xl-30 font-weight-black">{{ .Title | safeHTML }}</h2>
+              <div class="row">
+                  <div class="col-10 col-lg-9 mx-auto pb-30 pb-md-50">
+                      <p class="font-19 font-lnh30 font-gray2">{{ .Params.description | safeHTML }}</p>
+                  </div>
+              </div>
+              <a href="{{ .Permalink }}" class="cta-button font-lnh54 font-md-lnh40 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "learn_more" }}</a>
+          </div>
           {{ end }}
           {{ with .Site.GetPage "/chester" }}
-            <div class="col-12 col-md-4">
-                <a href="{{ .Permalink }}" class="d-block mb-10">
-                    <img loading="lazy" src="/_assets/images/chester-device.svg" class="movingObject" height = "360" alt="" />
-                </a>
-                <h2 class="font-40 pb-30 font-weight-black">{{ .Title | safeHTML }}</h2>
-                <div class="row">
-                    <div class="col-12 col-lg-11 mx-auto pb-50">
-                        <p class="font-19 font-lnh30 font-gray2">{{ .Params.description | safeHTML }}</p>
-                    </div>
-                </div>
-                <a href="{{ .Permalink }}" class="cta-button font-lnh54 font-md-lnh24 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "learn_more" }}</a>
-            </div>
+          <div class="col-12 col-md-6 col-xl-4 pb-50 pb-md-0">
+              <a href="{{ .Permalink }}" class="d-block mb-10">
+                  <img loading="lazy" src="/_assets/images/chester-device.svg" class="movingObject" height = "360" alt="" />
+              </a>
+              <h2 class="font-28 font-md-40 pb-20 pb-xl-30 font-weight-black">{{ .Params.heading | safeHTML }}</h2>
+              <div class="row">
+                  <div class="col-12 col-lg-11 mx-auto pb-30 pb-md-50">
+                      <p class="font-19 font-lnh30 font-gray2">{{ .Params.description | safeHTML }}</p>
+                  </div>
+              </div>
+              <a href="{{ .Permalink }}" class="cta-button font-lnh54 font-md-lnh40 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "learn_more" }}</a>
+          </div>
           {{ end }}
-            <div class="col-12 col-md-4 col-lg-4 mr-auto">
-                <div class="d-block mb-40">
-                    <img loading="lazy" src="/_assets/images/products/cloud.svg" alt="" class="movingObject movingObject--noShadow" height = "330" />
-                </div>
-                <h2 class="font-40 pb-30 font-weight-black">{{ i18n "cloud_services" | safeHTML }}</h2>
-                <div class="row">
-                    <div class="col-12 col-lg-11 mx-auto pb-20">
-                        <p class="font-19 font-gray2">{{ i18n "connect_integrate" | safeHTML }}</p>
-                    </div>
 
+          <div class="col-12 col-md-6 col-xl-4 pb-50 pt-md-20 pt-lg-0 pb-md-0">
+              <div href="{{ .Permalink }}" class="d-block mb-40">
+                  <img loading="lazy" src="/_assets/images/products/cloud.svg" alt="" class="movingObject movingObject--noShadow" height = "330" />
+              </div>
+              <h2 class="font-28 font-md-40 pb-20 pb-xl-30 font-weight-black">{{ i18n "cloud_services" | safeHTML }}</h2>
+              <div class="row">
+                  <div class="col-12 col-lg-11 mx-auto pb-30 pb-md-50">
+                      <p class="font-19 font-lnh30 font-gray2">{{ i18n "connect_integrate" | safeHTML }}</p>
+                  </div>
+              </div>
 
-                </div>
-                <!--<a href="" class="d-block text-uppercase text-decoration-underline font-font2 font-weight-bold font-20 font-black">download<br />specification</a>-->
-            </div>
+          </div>
         </div>
     </div>
 </section>
@@ -195,7 +194,7 @@
     <div class="row justify-content-center">
       <div class="col-10">
         <div class="row">
-          <div class="col-12 col-md-6 mx-auto text-center pb-70">
+          <div class="col-12 col-md-6 mx-auto text-center pt-30 pb-30">
             <div class="font-redLined font-red font-font2 font-weight-bold font-10">
               <span>
                 <div class="icon icon--quote"></div>

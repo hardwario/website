@@ -93,6 +93,11 @@
 
       left: -40px;
 
+      @media(max-width:1023px)
+      {
+        left: -20px;
+      }
+
       &:hover{
         background-image: url("../images/icons/arrow-left.svg");
         opacity: 1;
@@ -107,6 +112,11 @@
     &.slick-next{
       background-image: url("../images/icons/arrow-right.svg");
       right: -40px;
+
+      @media(max-width:1023px)
+      {
+        right: -20px;
+      }
 
       &:hover{
         opacity: 1;

@@ -6,7 +6,7 @@
                 <div class="col">
                     <div class="row">
                       <div class="col-12 col-md-10 mx-auto text-center pt-30 pt-md-0">
-                          <h1 class="text-center pb-30 font-weight-black font-36 font-md-64">{{ .Params.mainHeading | safeHTML }}</h1>
+                          <h1 class="text-center pb-0 pb-md-30 font-weight-black font-48 font-md-64">{{ .Params.mainHeading | safeHTML }}</h1>
                           <!--<p class="text-center font-24 font-lnh38">{{ .Params.description | safeHTML }}</p>-->
                       </div>
                     </div>
@@ -14,7 +14,56 @@
             </div>
             <div class="row text-center">
 
-              {{ partial "products.html" . }}
+
+                      <div class="container py-0 pb-50 py-md-50 mb-md-50">
+                          <div class="row text-center justify-content-center">
+
+                            {{ with .Site.GetPage "/kit" }}
+                              <div class="col-12 col-md-6 col-xl-4 pb-50 pb-md-0">
+                                  <a href="{{ .Permalink }}" class="d-block mb-10">
+                                      <img loading="lazy" src="/_assets/images/iot-kit.svg" class="mt-20 movingObject" height = "340" alt="" />
+                                  </a>
+                                  <h2 class="font-34 font-md-40 pb-20 pb-xl-30 font-weight-black">{{ .Title | safeHTML }}</h2>
+                                  <div class="row">
+                                      <div class="col-10 col-lg-9 mx-auto pb-30 pb-xl-50">
+                                          <p class="font-19 font-lnh30 font-gray2">{{ .Params.description | safeHTML }}</p>
+                                      </div>
+                                  </div>
+                                  <a href="{{ .Permalink }}" class="cta-button font-lnh54 font-md-lnh40 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "learn_more" }}</a>
+                              </div>
+                            {{ end }}
+                            {{ with .Site.GetPage "/chester" }}
+                              <div class="col-12 col-md-6 col-xl-4 pb-50 pb-md-0">
+                                  <a href="{{ .Permalink }}" class="d-block mb-10">
+                                      <img loading="lazy" src="/_assets/images/chester-device.svg" class="movingObject" height = "360" alt="" />
+                                  </a>
+                                  <h2 class="font-34 font-md-40 pb-20 pb-xl-30 font-weight-black">{{ .Params.heading | safeHTML }}</h2>
+                                  <div class="row">
+                                      <div class="col-12 col-lg-11 mx-auto pb-30 pb-xl-50">
+                                          <p class="font-19 font-lnh30 font-gray2">{{ .Params.description | safeHTML }}</p>
+                                      </div>
+                                  </div>
+                                  <a href="{{ .Permalink }}" class="cta-button font-lnh54 font-md-lnh40 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "learn_more" }}</a>
+                              </div>
+                            {{ end }}
+                            {{ with .Site.GetPage "/bespoke-development" }}
+                            <div class="col-12 col-md-6 col-xl-4 pb-50 pt-md-30 pt-lg-0 pb-md-0">
+                                <a href="{{ .Permalink }}" class="d-block mb-10">
+                                    <img loading="lazy" src="/_assets/images/bespoke.svg" class="movingObject" height = "360" alt="" />
+                                </a>
+                                <h2 class="font-34 font-md-40 pb-20 pb-xl-30 font-weight-black">{{ .Params.heading | safeHTML }}</h2>
+                                <div class="row">
+                                    <div class="col-12 col-lg-11 mx-auto pb-30 pb-xl-50">
+                                        <p class="font-19 font-lnh30 font-gray2">{{ .Params.perex | safeHTML }}</p>
+                                    </div>
+                                </div>
+                                <a href="{{ .Permalink }}" class="cta-button font-lnh54 font-md-lnh40 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "learn_more" }}</a>
+                            </div>
+                            {{ end }}
+                          </div>
+                      </div>
+
+
             </div>
         </div>
     </section>
