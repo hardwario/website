@@ -19,26 +19,26 @@
 <section>
     <div class="container">
         <div class="row align-items-center pb-10 mb-md-30">
-            <div class="col-12 col-md-8 col-lg-4 mx-auto text-center">
+            <div class="col-12 col-md-7 col-xl-4 mx-auto text-center">
                 <div class="font-redLined font-red mb-20 font-font2 font-weight-bold font-15"><span>{{ i18n "tech_partners" }}</span></div>
             </div>
             <div class="col-12 text-center partners">
-                <span class="px-10 px-md-30 mb-10 mb-lg-0 d-inline-block">
+                <span class="px-10 px-xl-20 mb-10 mb-lg-0 d-inline-block">
                     <img width="140" src="/_assets/images/partners/vodafone.svg" alt="" />
                 </span>
-                <span class="px-10 px-md-30 mb-10 mb-lg-0 d-inline-block">
+                <span class="px-10 px-xl-20 mb-10 mb-lg-0 d-inline-block">
                     <img width="100" src="/_assets/images/partners/cra.svg" alt="" />
                 </span>
-                <span class="px-10 px-md-30 mb-10 mb-lg-0 d-inline-block">
+                <span class="px-10 px-xl-20 mb-10 mb-lg-0 d-inline-block">
                     <img width="140" src="/_assets/images/microsoft.svg" alt="" />
                 </span>
-                <span class="px-10 px-md-30 mb-10 mb-lg-0 d-inline-block">
+                <span class="px-10 px-xl-20 mb-10 mb-lg-0 d-inline-block">
                     <img width="70" src="/_assets/images/partners/aws.svg" alt="" />
                 </span>
-                <span class="px-10 px-md-30 mb-10 mb-lg-0 d-inline-block">
+                <span class="px-10 px-xl-20 mb-10 mb-lg-0 d-inline-block">
                     <img width="130" src="/_assets/images/partners/ubidots.png" alt="" />
                 </span>
-                <span class="px-10 px-md-30 mb-10 mb-lg-0 d-inline-block">
+                <span class="px-10 px-xl-20 mb-10 mb-lg-0 d-inline-block">
                     <img width="130" src="/_assets/images/partners/blynk.png" alt="" />
                 </span>
             </div>
@@ -51,7 +51,7 @@
   <div class="row pt-60">
       <div class="col">
           <div class="row">
-            <div class="col-12 col-md-8 mx-auto text-center">
+            <div class="col-12 col-md-10 col-xl-8 mx-auto text-center">
                 <h2 class="text-center font-weight-black font-36 font-md-54">{{ i18n "three_unique_products" | safeHTML }}</h2>
                 <!--<p class="text-center font-24 font-lnh38">{{ .Params.description | safeHTML }}</p>-->
             </div>
@@ -66,41 +66,14 @@
 <section>
     <div class="" id = "solutions">
         <div class="container">
-            <div class="row pt-md-60">
+            <div class="row pt-md-60 pb-60">
                 <div class="col">
                     <div class="row pb-10 pb-md-30">
                         <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
                             <h2 class="text-center font-weight-black font-36 font-md-54 pb-30 pb-md-0">{{ i18n "one_kit_for_all_projects" | safeHTML }}</h2>
                         </div>
                     </div>
-                    <div class="row text-center align-items-end">
-                        <div class="col-12 col-md-4 d-none d-sm-block">
-                            <img src="../_assets/images/manufacturing.svg" alt="" class="mb-30 img-fluid" width="183" />
-                        </div>
-                        <div class="col-12 col-md-4 d-none d-sm-block">
-                            <img src="../_assets/images/education.svg" alt="" class="mb-30 img-fluid" width="183" />
-                        </div>
-                        <div class="col-12 col-md-4 d-none d-sm-block">
-                            <img src="../_assets/images/home.svg" alt="" class="mb-30 img-fluid" width="260" />
-                        </div>
-                    </div>
-                    <div class="row text-center pb-10 mb-0 mb-xl-50 justify-content-center">
-                      <div class="col-12 col-md-6 col-lg-4 pb-40 pb-lg-0">
-                          <h3 class="font-28 font-md-40 pb-20 pb-xl-30 font-weight-black">{{ i18n "industry40_pilots" | safeHTML }}</h3>
-                            <p class="font-19 font-lnh30 font-gray2 pb-30 pb-xl-50">{{ i18n "start_iot_innovations" | safeHTML }}</p>
-                            <a href="{{ "industry/" | absLangURL }}" class="cta-button font-lnh54 font-md-lnh40 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "more_about_pilots" }}</a>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4 pb-40 pb-lg-0">
-                            <h3 class="font-28 font-md-40 pb-20 pb-xl-30 font-weight-black">{{ i18n "active_stem_education" | safeHTML }}</h3>
-                            <p class="font-19 font-lnh30 font-gray2 pb-30 pb-xl-50">{{ i18n "use_kit_for_edutaction" | safeHTML }}</p>
-                            <a href="{{ "education/" | absLangURL }}" class="cta-button font-lnh54 font-md-lnh40 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "more_about_education" }}</a>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4 pb-40 pb-lg-0">
-                            <h3 class="font-28 font-md-40 pb-20 pb-xl-30 font-weight-black">{{ i18n "smart_diy_projects" | safeHTML }}</h3>
-                            <p class="font-19 font-lnh30 font-gray2 pb-30 pb-xl-50">{{ i18n "build_own_device" | safeHTML }}</p>
-                            <!--<a href="#why_hardwario" class="cta-button font-lnh54 px-70 d-inline-block font-weight-bold font-font2 font-red bg-white text-decoration-none border-red mt-20">{{ i18n "more_about_diy" }}</a>-->
-                        </div>
-                    </div>
+                    {{ partial "solutions" . }}
                 </div>
             </div>
         </div>
@@ -143,12 +116,12 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-10 col-xl-6 mx-auto text-center pt-xl-60">
+            <div class="col-12 col-md-8 col-xl-6 mx-auto text-center">
                 <div class="font-redLined font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "events" }}</span></div>
             </div>
         </div>
         <div class="row pb-10 pb-md-30">
-            <div class="col-12 col-md-8 mx-auto text-center">
+            <div class="col-12 col-md-10 mx-auto text-center">
                 <h2 class="text-center font-weight-black font-36 font-md-54">{{ i18n "iot_events" | safeHTML }}</h2>
                 <p class="text-center font-24 font-lnh38">{{ i18n "come_to_event" }}</p>
             </div>

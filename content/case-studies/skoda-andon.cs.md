@@ -8,7 +8,7 @@ meta:
   title: Čtyři moduly pomohly Škodě Auto rychleji reagovat na problémy ve výrobě | HARDWARIO případová studie
 company: ŠKODA Auto
 industry: Automotive
-product: BLOX IoT Kit
+product: IoT Kit
 featured: true
 full: true
 testimonial_text: "HARDWARIO nám pomohlo rychlým a neinvazivním způsobem zavést do výroby řešení, díky kterému sledujeme aktuální stav linky a snadno kontrolujeme, zda některý operátor potřebuje pomoc."

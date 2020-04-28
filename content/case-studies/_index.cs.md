@@ -1,6 +1,6 @@
 ---
 title: Případovky
-menu: footer
+menu: ["main","footer"]
 weight: 80
 meta:
     title: Případové studie HARDWARIO

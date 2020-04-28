@@ -6,20 +6,18 @@
                 <div class="col">
                     <div class="row">
                       <div class="col-12 col-md-10 mx-auto text-center pt-30 pt-md-0">
-                          <h1 class="text-center pb-0 pb-md-30 font-weight-black font-48 font-md-64">{{ .Params.mainHeading | safeHTML }}</h1>
+                          <h1 class="text-center font-weight-black font-48 font-md-64">{{ .Params.mainHeading | safeHTML }}</h1>
                           <!--<p class="text-center font-24 font-lnh38">{{ .Params.description | safeHTML }}</p>-->
                       </div>
                     </div>
                 </div>
             </div>
             <div class="row text-center">
-
-
-                      <div class="container py-0 pb-50 py-md-50 mb-md-50">
+                      <div class="container pb-50 mb-md-50">
                           <div class="row text-center justify-content-center">
 
                             {{ with .Site.GetPage "/kit" }}
-                              <div class="col-12 col-md-6 col-xl-4 pb-50 pb-md-0">
+                              <div class="col-12 col-md-6 col-lg-5 col-xl-4 pb-50 pb-md-0">
                                   <a href="{{ .Permalink }}" class="d-block mb-10">
                                       <img loading="lazy" src="/_assets/images/iot-kit.svg" class="mt-20 movingObject" height = "340" alt="" />
                                   </a>
@@ -33,7 +31,7 @@
                               </div>
                             {{ end }}
                             {{ with .Site.GetPage "/chester" }}
-                              <div class="col-12 col-md-6 col-xl-4 pb-50 pb-md-0">
+                              <div class="col-12 col-md-6 col-lg-5 col-xl-4 pb-50 pb-md-0">
                                   <a href="{{ .Permalink }}" class="d-block mb-10">
                                       <img loading="lazy" src="/_assets/images/chester-device.svg" class="movingObject" height = "360" alt="" />
                                   </a>
@@ -47,7 +45,7 @@
                               </div>
                             {{ end }}
                             {{ with .Site.GetPage "/bespoke-development" }}
-                            <div class="col-12 col-md-6 col-xl-4 pb-50 pt-md-30 pt-lg-0 pb-md-0">
+                            <div class="col-12 col-md-6 col-lg-5 col-xl-4 pb-50 pb-md-0">
                                 <a href="{{ .Permalink }}" class="d-block mb-10">
                                     <img loading="lazy" src="/_assets/images/bespoke.svg" class="movingObject" height = "360" alt="" />
                                 </a>

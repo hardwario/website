@@ -1,9 +1,9 @@
 
-        <div class="container py-50 mb-xl-50">
+        <div class="container pt-20 pt-md-50 pb-50 mb-xl-50">
             <div class="row text-center justify-content-center">
 
               {{ with .Site.GetPage "/kit" }}
-                <div class="col-12 col-md-6 col-xl-4 pb-50 pb-md-0">
+                <div class="col-12 col-md-6 col-lg-5 col-xl-4 pb-50 pb-md-0">
                     <a href="{{ .Permalink }}" class="d-block mb-10">
                         <img loading="lazy" src="/_assets/images/iot-kit.svg" class="mt-20 movingObject" height = "340" alt="" />
                     </a>
@@ -17,7 +17,7 @@
                 </div>
               {{ end }}
               {{ with .Site.GetPage "/chester" }}
-                <div class="col-12 col-md-6 col-xl-4 pb-50 pb-md-0">
+                <div class="col-12 col-md-6 col-lg-5 col-xl-4 pb-50 pb-md-0">
                     <a href="{{ .Permalink }}" class="d-block mb-10">
                         <img loading="lazy" src="/_assets/images/chester-device.svg" class="movingObject" height = "360" alt="" />
                     </a>
@@ -31,7 +31,7 @@
                 </div>
               {{ end }}
               {{ with .Site.GetPage "/bespoke-development" }}
-              <div class="col-12 col-md-6 col-xl-4 pb-50 pt-md-30 pt-lg-0 pb-md-0">
+              <div class="col-12 col-md-6 col-lg-5 col-xl-4 pb-50 pt-md-30 pt-lg-0 pb-md-0">
                   <a href="{{ .Permalink }}" class="d-block mb-10">
                       <img loading="lazy" src="/_assets/images/bespoke.svg" class="movingObject" height = "360" alt="" />
                   </a>

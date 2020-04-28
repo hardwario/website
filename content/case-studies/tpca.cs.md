@@ -8,7 +8,7 @@ meta:
   title:  Pomáháme zabránit výpadkům výroby v automobilce TPCA | HARDWARIO případová studie
 company: TPCA
 industry: Automotive
-product: BLOX IoT Kit
+product: IoT Kit
 featured: false
 full: true
 testimonial_text: S moduly jsme byli schopni nastavit naši vlastní vlaštovku Prů- myslu 4.0 už za pár dní. A ušetřilo nám to čas i peníze.

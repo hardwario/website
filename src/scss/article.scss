@@ -317,6 +317,21 @@
       height: 550px;
       overflow: hidden;
 
+      @media(max-width:1199px)
+      {
+        width:100%;
+        max-width: 100%;
+        margin: 0;
+        height: 450px;
+      }
+      @media(max-width:1023px)
+      {
+        width:100%;
+        max-width: 100%;
+        margin: 0;
+        height: 350px;
+      }
+
       iframe{
         position: relative;
         width: 100%;

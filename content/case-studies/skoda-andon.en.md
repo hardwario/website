@@ -8,7 +8,7 @@ meta:
   title: Škoda Auto Andon Case Study from HARDWARIO
 company: ŠKODA Auto
 industry: Automotive
-product: BLOX IoT Kit
+product: IoT Kit
 featured: true
 full: true
 testimonial_text: "HARDWARIO helped us to swiftly and smoothly enhance our production process with a solution to monitor the current state of production lines and easily check whether any operator needs help."

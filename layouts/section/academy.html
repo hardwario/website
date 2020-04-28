@@ -47,10 +47,10 @@
                 <p class="font-18 font-lnh24">{{ i18n "come_to_event" | safeHTML }}</p>
             </div>
         </div>
-        <div class="row align-items-start pb-md-30 pt-30">
+        <div class="row align-items-start pb-xl-30 pt-30">
 
             {{ range $events.ByDate }}
-            <div class="col-12 col-md-4 pb-30">
+            <div class="col-12 col-md-6 col-xl-4 pb-30">
                 {{ .Render "grid" }}
             </div>
             {{end}}
@@ -90,7 +90,7 @@
             </div>
             <div class="row text-center">
               <div class = "col">
-              <a href="{{ "video/" | absLangURL }}" class="cta-button font-lnh54 font-md-lnh24 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-red">{{ i18n "more_videos" }}</a>
+              <a href="{{ "video/" | absLangURL }}" class="cta-button font-lnh54 font-md-lnh40 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-red">{{ i18n "more_videos" }}</a>
               </div>
             </div>
           </div>
@@ -138,23 +138,23 @@
   </div>
 </section>-->
 <section>
-    <div class="bg-gray text-center pt-60 pb-40 pb-md-100 px-15" id = "order">
+    <div class="bg-gray text-center pt-60 pb-20 pb-xl-80 px-15" id = "order">
       <div class = "container">
         <h2 class="font-36 font-md-48 font-md-lnh56 pb-30 mb-5 font-weight-black">{{ i18n "other_resources" | safeHTML }}</h2>
-        <div class = "row">
-          <div class = "col-12 col-md-4 pb-40 pb-md-0">
+        <div class = "row justify-content-center">
+          <div class = "col-12 col-md-6 col-xl-4 pb-40 pb-xl-0">
             <h3 class="font-26 font-md-36 font-lnh38 font-md-lnh44 font-weight-black pb-0 pb-md-10">{{ i18n "projects" }}</h3>
             <p class="font-16 font-lnh24 px-15 pb-15">{{ i18n "find_an_inspiration_projects" | safeHTML }}</p>
             <a href="{{ "projects/" | absLangURL }}" class="cta-button font-14 font-lnh48 px-20 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "show_me_projects" }}</a>
           </div>
 
-        <div class = "col-12 col-md-4 pb-40 pb-md-0">
+        <div class = "col-12 col-md-6 col-xl-4 pb-40 pb-xl-0">
           <h3 class="font-26 font-md-36 font-lnh38 font-md-lnh44 font-weight-black pb-0 pb-md-10">{{ i18n "documentation" }}</h3>
           <p class="font-16 font-lnh24 px-15 pb-15">{{ i18n "documentation_info" | safeHTML }}</p>
           <a href="https://developers.hardwario.com" class="cta-button font-14 font-lnh48 px-20 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "show_docs" }}</a>
         </div>
 
-      <div class = "col-12 col-md-4">
+      <div class = "col-12 col-md-6 col-xl-4 pb-40 pb-xl-0">
           <h3 class="font-26 font-md-36 font-lnh38 font-md-lnh44 font-weight-black pb-0 pb-md-10">{{ i18n "sdk" }}</h3>
           <p class="font-16 font-lnh24 px-15 pb-15">{{ i18n "sdk_info" | safeHTML }}</p>
           <a href="https://sdk.bigclown.com" class="cta-button font-14 font-lnh48 px-20 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "show_sdk" }}</a>

@@ -2,8 +2,8 @@
 date: "2019-08-12"
 title: "Neinvazivní IoT piloty v průmyslu"
 slug: neinvazivni-iot-piloty-v-prumyslu
-meta_title:
-meta_description:
+meta_title: Neinvazivní IoT piloty v průmyslu | HARDWARIO TV
+meta_description: Přehrejte si záznam webináře o neinvazivních IoT pilotech v průmyslu a domácnostech.
 description: Přehrejte si záznam webináře o neinvazivních IoT pilotech v průmyslu a domácnostech.
 image_preview: /upload/industry.jpg
 video_type: Webinář

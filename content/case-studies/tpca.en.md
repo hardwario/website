@@ -8,7 +8,7 @@ meta:
   title: We help the TPCA automobile plant to prevent production stoppage | HARDWARIO Case study
 company: TPCA
 industry: Automotive
-product: BLOX IoT Kit
+product: IoT Kit
 featured: false
 full: true
 testimonial_text: With IoT Kit modules, I was able to set-up our Industry 4.0 pilots in just a few days. It saved us time and money.

@@ -2,8 +2,8 @@
 date: "2019-08-12"
 title: "LPWAN v Česku prakticky"
 slug: nejpraktictejsi-webinar-o-lpwan-v-cesku
-meta_title:
-meta_description:
+meta_title: LPWAN v Česku prakticky | HARDWARIO TV
+meta_description: Přehrejte si záznam našeho webináře o situaci LPWAN v Česku a dozvíte se vše, co potřebujete vědět o LoRaWAN, NB-IoT a Sigfox.
 description: Přehrejte si záznam našeho webináře o situaci LPWAN v Česku a dozvíte se vše, co potřebujete vědět o LoRaWAN, NB-IoT a Sigfox.
 image_preview: /upload/lpwan.jpg
 video_type: Webinář

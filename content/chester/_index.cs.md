@@ -1,6 +1,6 @@
 ---
 title: Víceúčelový IoT Hub CHESTER
-heading: Víceúčelový IoT Hub
+heading: Víceúčelový IoT&nbsp;Hub
 description: Univerzální zařízení s velmi nízkou spotřebou komunikující prostřednictvím LPWAN. Umožňuje připojení dalších externích prvků pomocí celé řady rozhraní.
 menu:
 weight: 100
