@@ -26,7 +26,7 @@
       position: absolute;
       top:0px;
       right:27px;
-      background: url("../svg/arrowdown3.svg") no-repeat center center;
+      background: url("../images/icons/arrow-down.svg") no-repeat center center;
       height:100%;
       width:16px;
       content: '';
@@ -37,7 +37,7 @@
       color:#e41419;
       &:after
       {
-        background: url("../svg/arrowdown4.svg") no-repeat center center;
+        background: url("../images/icons/arrow-down-hover.svg") no-repeat center center;
       }
     }
 
@@ -50,7 +50,7 @@
 
       &:after
       {
-        background: url("../svg/arrowdown4.svg") no-repeat center center;
+        background: url("../images/icons/arrow-down-hover.svg") no-repeat center center;
         transform: rotate(180deg);
       }
     }

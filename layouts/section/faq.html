@@ -1,0 +1,52 @@
+{{ define "main" }}
+
+<section>
+  <div class="bg bg--gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="row pb-10">
+              <div class="col-12 col-md-10 mx-auto text-center pt-30 pt-md-0">
+                  <h1 class="text-center font-weight-black font-36 font-md-64">{{ .Title }}</h1>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+            <div class="bg bg--gray">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="collapsor">
+                              {{ $articles := ($.Site.GetPage "section" "faq").Pages }}
+
+
+                              {{ range $index, $element := $articles }}
+
+                                {{ if eq $index 0 }}
+
+                                  {{ .Render "grid-active" }}
+
+                                {{ else}}
+
+                                  {{ .Render "grid" }}
+
+                                {{ end }}
+
+                              {{ end }}
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+<footer>
+{{ end }}
