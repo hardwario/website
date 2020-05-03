@@ -1,8 +1,8 @@
 ---
-title: Univerzální bezdrátové tlačítko
-description: Jedno nebo více tlačítek a online monitoring jejich stisknutí. Řešení je vhodné i&nbsp;pro náročné venkovní projekty a&nbsp;průmysl.
+title: Universal Push Button
+description: CHESTER can connect one or more push buttons and monitor the press events online. The solution is suitable even for demanding outdoor projects and industrial use.
 device: CHESTER
-examples: ["ANDON","Tísňové tlačítko pro lidi v&nbsp;nouzi","Tlačítko bdělosti","Registrační a&nbsp;notifikační systémy"]
+examples: ["ANDON","Panic button for people in emergency","Vigilance device","Registration and notification systems"]
 extensions: [["Spínací kontakty", "CHESTER-X0D"]]
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
@@ -11,8 +11,8 @@ draft: true
 weight: 90
 ---
 
-[CHESTER](/cs/chester/) můžete vybavit jedním nebo více tlačítky a online monitorovat jejich stisknutí.
+You can equip [CHESTER](/en/chester/) with one or more push buttons and monitor the press events online.
 
-Díky své odolnosti vůči prachu a vodě a teplotnímu rozsahu je vhodným řešením i u náročných venkovních projektů.
+The solution is suitable for demanding outdoor projects thanks to its water/dust resistance and wide operating temperature range.
 
-Nízká spotřeba a LPWAN konektivita umožňují nasazení i v místech nepokrytých GSM signálem a bez připojení k elektrické síti.
+The low power consumption and LPWAN connectivity allow deployment in places not covered by the GSM signal or power grid.

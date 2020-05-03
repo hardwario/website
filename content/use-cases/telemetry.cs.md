@@ -3,7 +3,7 @@ title: Telemetrie dat z offline zařízení
 description: Pomocí celé řady rozhraní dokáže CHESTER připojit a sbírat data ze zařízení, která běžně nejsou online. To umožňuje například online monitorovat stav průmyslových strojů.
 device: CHESTER
 examples: ["Měření celkové efektivnosti zařízení&nbsp;(OEE)","Telemetrie dat z brzdových systémů na velkorypadle v povrchovém dole","Monitoring katodové ochrany potrubí","Monitoring průmyslových vah"]
-extensions: [["Externí analogové vstupy 0 - 28 V", "CHESTER-X0C"], ["1-Wire", "CHESTER-X1"], ["Proudová smyčka 4 - 20 mA","CHESTER-X4C"], ["Tenzometr", "CHESTER-X6"]]
+extensions: [["Externí analogové vstupy 0 - 28 V","CHESTER-X0C"],["1-Wire","CHESTER-X1"],["TTL/CMOS UART","CHESTER-X2A"],["RS-485", "CHESTER-X2B"],["Proudová smyčka 4 - 20 mA","CHESTER-X4C"],["Tenzometr", "CHESTER-X6"]]
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking

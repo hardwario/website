@@ -1,8 +1,8 @@
 ---
-title: Monitoring polohy a&nbsp;lokalizace objektů
-description: CHESTER s integrovaným GNSS modulem (GPS, Galileo, Glonass) je ideálním nástrojem pro lokalizaci objektů v logistice, zemědělství nebo průmyslu.
+title: Position and Asset Tracking
+description: CHESTER with integrated GNSS module (GPS, Galileo, GLONASS) is an ideal tool for asset tracking in logistics, agriculture, or industry.
 device: CHESTER
-examples: ["Monitoring kontejnerů","Monitoring stavebních strojů","Monitoring mobilních toalet","Monitoring objemných předmětů ve&nbsp;venkovních skladech"]
+examples: ["Container tracking","Construction vehicle tracking","Chemical toilets tracking","Large object tracking in outdoor areas"]
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
@@ -10,8 +10,8 @@ draft: true
 weight: 70
 ---
 
-[CHESTER](/cs/chester/) s integrovaným GNSS modulem (GPS, Galileo, Glonass) je ideálním nástrojem pro lokalizaci objektů.
+[CHESTER](/en/chester/) with integrated GNSS module (GPS, Galileo, GLONASS) is an ideal tool for asset tracking.
 
-Díky své odolnosti vůči prachu a vodě a teplotnímu rozsahu je vhodným řešením u náročných venkovních projektů v logistice, zemědělství nebo průmyslu.
+The solution is suitable for demanding outdoor projects thanks to its water/dust resistance and wide operating temperature range.
 
-Nízká spotřeba a LPWAN konektivita umožňují nasazení i v místech nepokrytých GSM signálem a bez připojení k elektrické síti.
+The low power consumption and LPWAN connectivity allow deployment in places not covered by the GSM signal or power grid.

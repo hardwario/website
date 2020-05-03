@@ -1,9 +1,9 @@
 ---
-title: Telemetrie dat z offline zařízení
-description: Pomocí celé řady rozhraní dokáže CHESTER připojit a sbírat data ze zařízení, která běžně nejsou online. To umožňuje například online monitorovat stav průmyslových strojů.
+title: Data Telemetry from Offline Devices
+description: CHESTER can connect a wide offering of various communication interfaces and collect data from devices which are not normally connected online. That, for instance, allows industrial machines monitoring.
 device: CHESTER
-examples: ["Měření celkové efektivnosti zařízení&nbsp;(OEE)","Telemetrie dat z brzdových systémů na velkorypadle v povrchovém dole","Monitoring katodové ochrany potrubí","Monitoring průmyslových vah"]
-extensions: [["Externí analogové vstupy 0 - 28 V", "CHESTER-X0C"], ["1-Wire", "CHESTER-X1"], ["Proudová smyčka 4 - 20 mA","CHESTER-X4C"], ["Tenzometr", "CHESTER-X6"]]
+examples: ["Overall equipment efficiency (OEE) measurement","Data telemetry from brake system on a mining machine","Cathodic protection monitoring of distribution pipes","Industrial weight scale monitoring"]
+extensions: [["External analog inputs 0 - 28 V","CHESTER-X0C"],["1-Wire","CHESTER-X1"],["TTL/CMOS UART","CHESTER-X2A"],["RS-485", "CHESTER-X2B"],["Current loop input 4 - 20 mA","CHESTER-X4C"], ["Weight scale", "CHESTER-X6"]]
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
@@ -11,8 +11,8 @@ draft: true
 weight: 40
 ---
 
-Pomocí celé řady rozhraní dokáže [CHESTER](/cs/chester/) připojit a sbírat data ze zařízení, která běžně nejsou připojena k internetu nebo vnitřní počítačové síti.
+[CHESTER](/en/chester/) can connect a wide offering of various communication interfaces and collect data from devices which are not normally connected to the internet, or local area network.
 
-Díky své odolnosti vůči prachu a vodě a teplotnímu rozsahu je vhodným řešením projektů telemetrie dat v těžkém průmyslu, retailu i skladování.
+The solution is suitable for data telemetry projects in the industry, retail, and warehouses, thanks to its water/dust resistance and wide operating temperature range.
 
-Nízká spotřeba a LPWAN konektivita umožňují nasazení i v místech nepokrytých GSM signálem a bez připojení k elektrické síti.
+The low power consumption and LPWAN connectivity allow deployment in places not covered by the GSM signal or power grid.

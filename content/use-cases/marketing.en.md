@@ -1,9 +1,9 @@
 ---
-title: Online sběr marketingových dat
-description: Online sběr dat z demo prezentací a&nbsp;produktů. Data jsou okamžitě dostupná pro hodnocení prodejních kampaní, analýzy chování zákazníků nebo samotného prodeje.
+title: Online Marketing Data Acquisition
+description: Online telemetry from product demo presentations. The data are immediately available for marketing campaigns evaluation, customer behavior analysis, and the actual sales impact.
 device: CHESTER
-examples: ["Online monitoring demoboxů","Online měření váhy palet","Chytrý regál s využitím tištěné elektroniky"]
-extensions: [["1-Wire", "CHESTER-X1"], ["RS-485", "CHESTER-X2B"], ["Analogové a digitální vstupy", "CHESTER-X0C"], ["TTL/CMOS UART", "CHESTER-X2A"], ["Tenzometr", "CHESTER-X6"]]
+examples: ["Online demobox monitoring","Online palette weight monitoring","Smart shelf with the focus on printed electronics application"]
+extensions: [["1-Wire", "CHESTER-X1"], ["RS-485", "CHESTER-X2B"], ["Analog/digital inputs", "CHESTER-X0C"], ["TTL/CMOS UART", "CHESTER-X2A"], ["Weight scale", "CHESTER-X6"]]
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
@@ -11,6 +11,6 @@ draft: true
 weight: 80
 ---
 
-Pomocí celé řady rozhraní a senzorů dokáže [CHESTER](/cs/chester/) připojit a online sbírat data z demo prezentací a produktů. Díky tomu jsou marketingová data okamžitě dostupná pro hodnocení prodejních kampaní, analýzy chování zákazníků nebo samotného prodeje.
+Because of the wide interface and sensor offering, [CHESTER](/en/chester/) can connect and deliver data from product demo presentations. The data are immediately available for marketing campaigns evaluation, customer behavior analysis, and the actual sales impact.
 
-Nízká spotřeba a LPWAN konektivita umožňují nasazení bez nutnosti využití infrastruktury zákazníka.
+Low power consumption and LPWAN connectivity allow seamless deployment without a requirement to utilize customer's infrastructure.

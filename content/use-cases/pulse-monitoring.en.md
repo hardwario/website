@@ -1,9 +1,9 @@
 ---
-title: Monitoring pulsů pro měření spotřeby a výkonu
-description: Projekty měření spotřeby energií a vody napojením na pulzní výstupy elektroměrů, plynoměrů a vodoměrů, nebo monitoringem blikání LED.
+title: Pulse Monitoring for Power Consumption and Output Power Metering
+description: Energy metering and water use monitoring projects realized by connection to a pulse output of electricity meters, gas meters, water flow meters, or by observing their optical output.
 device: CHESTER
-examples: ["Monitoring elektroměrů","Monitoring plynoměrů","Monitoring vodoměrů","Měření taktu výrobního stroje"]
-extensions: [["4× externí switch","CHESTER-X0D"]]
+examples: ["Electricity meter monitoring","Gas meter monitoring","Water flow meter monitoring","Production machine duty cycle monitoring"]
+extensions: [["4× external switch","CHESTER-X0D"]]
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
@@ -11,6 +11,6 @@ draft: true
 weight: 30
 ---
 
-[CHESTER](/cs/chester/) lze jednoduše využít pro monitoring pulsů. Jde zejména o projekty měření spotřeby energií a vody, a to napojením na pulzsní výstupy elektroměrů, plynoměrů a vodoměrů. Další aplikací je monitoring blikání LED.
+It is possible to easily use [CHESTER](/en/chester/) for pulse monitoring. It is especially useful for energy metering projects and water use statistics. The device typically connects to a pulse output of an electricity meter, gas meter, and water flow meter. Eventually, the optical energy meter output can be used.
 
-Nízká spotřeba a LPWAN konektivita umožňují nasazení i v místech nepokrytých GSM signálem a bez připojení k elektrické síti.
+The low power consumption and LPWAN connectivity allow deployment in places not covered by the GSM signal or power grid.

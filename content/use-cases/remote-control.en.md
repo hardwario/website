@@ -1,9 +1,9 @@
 ---
-title: Vzdálené ovládání strojů a&nbsp;zařízení
-description: CHESTER nachází uplatnění při vzdáleném ovládání různých strojů a zařízení, například otevírání a zavírání vrat a závor, ovládání výrobních strojů apod.
+title: Remote Machine and Device Control
+description: CHESTER finds its place in applications where remote control of machines or devices is required - e.g., opening and closing doors and gates, commanding the production machines, etc.
 device: CHESTER
-examples: ["Vzdálené ovládání vjezdových bran","Vzdálené ovládání závor","Vzdálené ovládání strojů"]
-extensions: [["RS-485", "CHESTER-X2B"]]
+examples: ["Entrance gates remote control","Latch remote control","Machine remote control"]
+extensions: [["TTL/CMOS UART","CHESTER-X2A"],["RS-485", "CHESTER-X2B"]]
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
@@ -11,8 +11,8 @@ draft: true
 weight: 50
 ---
 
-[CHESTER](/cs/chester/) nachází uplatnění při vzdáleném ovládání různých strojů a zařízení, například otevírání a zavírání vrat a závor, ovládání výrobních strojů apod.
+[CHESTER](/en/chester/) finds its place in applications where remote control of machines or devices is required - e.g., opening and closing doors and gates, commanding the production machines, etc.
 
-Díky své odolnosti vůči prachu a vodě a teplotnímu rozsahu je vhodným řešením i u náročných venkovních projektů.
+The solution is suitable for demanding outdoor projects thanks to its water/dust resistance and wide operating temperature range.
 
-Nízká spotřeba a LPWAN konektivita umožňují nasazení i v místech nepokrytých GSM signálem a bez připojení k elektrické síti.
+The low power consumption and LPWAN connectivity allow deployment in places not covered by the GSM signal or power grid.

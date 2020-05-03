@@ -1,9 +1,9 @@
 ---
-title: Monitoring klimatických podmínek ve vnitřním prostředí
-description: Náročné projekty kontroly klimatu ve vnitřních prostorech, zejména v zemědělství a&nbsp;průmyslu.
+title: Indoor Environmental Monitoring
+description: Demanding indoor environmental monitoring projects - e.g. in agriculture and industrial space.
 device: CHESTER
-examples: ["Monitoring vnitřního klimatu výroby a&nbsp;skladů pro audity kvality","Monitoring indexu teploty a vlhkosti (THI) u&nbsp;chovatelů zvířat","Monitoring klimatu v&nbsp;kancelářských prostorech","Monitoring teploty v&nbsp;mrazácích a&nbsp;chladících boxech"]
-extension: [["I2C periferie", "CHESTER-X0A"],["1-Wire", "CHESTER-X1"]]
+examples: ["Indoor environmental monitoring of warehouses for quality inspection","Temperature and humidity index (THI) monitoring for animal livestocks","Office air quality monitoring","Temperature monitoring in freezer boxes"]
+extension: [["I2C peripherals", "CHESTER-X0A"],["1-Wire", "CHESTER-X1"]]
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
@@ -11,8 +11,8 @@ draft: true
 weight: 10
 ---
 
-[CHESTER](/cs/chester/) se díky své robustnosti uplatňuje v náročnějších projektech kontroly klimatu ve vnitřních prostorech, zejména v zemědělství a průmyslu.
+[CHESTER](/en/chester/), thanks to its robustness, finds its place in more demanding indoor air quality monitoring projects, especially in agriculture and industrial spaces.
 
-Prostřednictvím integrovaných senzorů měří teplotu, relativní vlhkost, koncentraci CO, CO2, LPG nebo čpavku.
+Through its integrated sensors, it measures temperature, relative air humidity, concentration of CO, CO2, LPG, or NH3 (ammonia).
 
-Nízká spotřeba a LPWAN konektivita umožňují nasazení i v místech nepokrytých GSM signálem a bez připojení k elektrické síti.
+The low power consumption and LPWAN connectivity allow deployment in places not covered by the GSM signal or power grid.

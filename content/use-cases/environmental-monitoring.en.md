@@ -15,4 +15,4 @@ weight: 5
 
 Díky své odolnosti vůči prachu a vodě a teplotnímu rozsahu je vhodným řešením do náročných venkovních projektů v oblasti zemědělství, lesnictví, vodohospodářství i průmyslu.
 
-Nízká spotřeba a LPWAN konektivita umožňují nasazení i v místech nepokrytých GSM signálem a bez připojení k elektrické síti.
+The low power consumption and LPWAN connectivity allow deployment in places not covered by the GSM signal or power grid.
