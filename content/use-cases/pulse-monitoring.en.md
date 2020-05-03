@@ -7,7 +7,6 @@ extensions: [["4× external switch","CHESTER-X0D"]]
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
-draft: true
 weight: 30
 ---
 

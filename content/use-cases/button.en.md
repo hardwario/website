@@ -3,11 +3,10 @@ title: Universal Push Button
 description: CHESTER can connect one or more push buttons and monitor the press events online. The solution is suitable even for demanding outdoor projects and industrial use.
 device: CHESTER
 examples: ["ANDON","Panic button for people in emergency","Vigilance device","Registration and notification systems"]
-extensions: [["Spínací kontakty", "CHESTER-X0D"]]
+extensions: [["External switch", "CHESTER-X0D"]]
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
-draft: true
 weight: 90
 ---
 

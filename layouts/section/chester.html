@@ -331,8 +331,7 @@
     </div>
 </section>
 
-{{ $currentLang := .Site.Language.Lang }}
-{{ if eq $currentLang "cs" }}
+
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 <section>
                 <div class="bg-darkGray font-white ">
@@ -382,8 +381,17 @@
             }
         ]
 });
+$(window).load(function(){
+  $('.slick-slide').each(function(){
+    max = 0;
+    height = $(this).children().children().height();
+    if(height > max ){
+      max = height+50;
+    }
+  });
+  $('.slick-slide div a').height(max);
+});
 </script>
-{{ end }}
 </div>
 
         <section>

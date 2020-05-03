@@ -7,7 +7,6 @@ extensions: [["Thermometers Pt1000", "CHESTER-X3A"],["Thermocouples", "CHESTER-X
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
-draft: true
 weight: 50
 ---
 

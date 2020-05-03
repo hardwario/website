@@ -7,7 +7,6 @@ extensions: [["Ultrasonic sensor", "CHESTER-X0B"]]
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
-draft: true
 weight: 20
 ---
 

@@ -7,7 +7,6 @@ extensions: [["1-Wire", "CHESTER-X1"], ["RS-485", "CHESTER-X2B"], ["Analog/digit
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
-draft: true
 weight: 80
 ---
 

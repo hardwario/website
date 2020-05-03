@@ -7,7 +7,6 @@ extension: [["I2C peripherals", "CHESTER-X0A"],["1-Wire", "CHESTER-X1"]]
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
-draft: true
 weight: 10
 ---
 

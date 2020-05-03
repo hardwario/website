@@ -6,7 +6,6 @@ examples: ["Container tracking","Construction vehicle tracking","Chemical toilet
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
-draft: true
 weight: 70
 ---
 

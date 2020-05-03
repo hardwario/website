@@ -7,7 +7,6 @@ extensions: [["External analog inputs 0 - 28 V","CHESTER-X0C"],["1-Wire","CHESTE
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
-draft: true
 weight: 40
 ---
 
