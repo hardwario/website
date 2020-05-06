@@ -3,7 +3,7 @@ title: Monitoring extrémních teplot
 description: Pomocí připojených průmyslových RTD teploměrů a podpoře termočlánků dokáže CHESTER měřit i&nbsp;extrémní teploty v&nbsp;průmyslových provozech.
 device: CHESTER
 examples: ["Měření teploty systémů kotelen","Měření extrémních teplot ve výměnících"]
-extensions: [["Teploměry Pt1000", "CHESTER-X3A"],["Termočlánky", "CHESTER-X3B"]]
+extensions: [["Teploměry PT1000", "CHESTER-X3A"],["Termočlánky", "CHESTER-X3B"]]
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking

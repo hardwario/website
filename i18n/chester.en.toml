@@ -131,13 +131,13 @@ other = "Temperature or soil moisture sensor"
 other = "Data read-out from various equipments"
 
 [rs_485]
-other = "RS-485 interfce"
+other = "RS-485 interface"
 
 [modbus]
 other = "Communication via Modbus protocol"
 
 [pt1000]
-other = "2x Pt1000 interface"
+other = "2x PT1000 interface"
 
 [rtd_temp]
 other = "Wiring to industrial RTD themometers"

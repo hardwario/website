@@ -3,7 +3,7 @@ title: Remote Machine and Device Control
 description: CHESTER finds its place in applications where remote control of machines or devices is required - e.g., opening and closing doors and gates, commanding the production machines, etc.
 device: CHESTER
 examples: ["Entrance gates remote control","Latch remote control","Machine remote control"]
-extensions: [["TTL/CMOS UART","CHESTER-X2A"],["RS-485", "CHESTER-X2B"]]
+extensions: [["TTL/CMOS UART","CHESTER-X2A"],["RS-485 - MODBUS", "CHESTER-X2B"]]
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
