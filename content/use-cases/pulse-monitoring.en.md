@@ -10,6 +10,6 @@ cons_link: https://meetings.hubspot.com/alanfabik/booking
 weight: 30
 ---
 
-It is possible to easily use [CHESTER](/en/chester/) for pulse monitoring. It is especially useful for energy metering projects and water use statistics. The device typically connects to a pulse output of an electricity meter, gas meter, and water flow meter. Eventually, the optical energy meter output can be used.
+It is possible to easily use [CHESTER](/chester/) for pulse monitoring. It is especially useful for energy metering projects and water use statistics. The device typically connects to a pulse output of an electricity meter, gas meter, and water flow meter. Eventually, the optical energy meter output can be used.
 
 The low power consumption and LPWAN connectivity allow deployment in places not covered by the GSM signal or power grid.

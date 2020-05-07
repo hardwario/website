@@ -9,7 +9,7 @@ cons_link: https://meetings.hubspot.com/alanfabik/booking
 weight: 70
 ---
 
-[CHESTER](/en/chester/) with integrated GNSS module (GPS, Galileo, GLONASS) is an ideal tool for asset tracking.
+[CHESTER](/chester/) with integrated GNSS module (GPS, Galileo, GLONASS) is an ideal tool for asset tracking.
 
 The solution is suitable for demanding outdoor projects thanks to its water/dust resistance and wide operating temperature range.
 

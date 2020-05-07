@@ -10,7 +10,7 @@ cons_link: https://meetings.hubspot.com/alanfabik/booking
 weight: 90
 ---
 
-You can equip [CHESTER](/en/chester/) with one or more push buttons and monitor the press events online.
+You can equip [CHESTER](/chester/) with one or more push buttons and monitor the press events online.
 
 The solution is suitable for demanding outdoor projects thanks to its water/dust resistance and wide operating temperature range.
 

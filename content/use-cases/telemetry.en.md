@@ -10,7 +10,7 @@ cons_link: https://meetings.hubspot.com/alanfabik/booking
 weight: 40
 ---
 
-[CHESTER](/en/chester/) can connect a wide offering of various communication interfaces and collect data from devices which are not normally connected to the internet, or local area network.
+[CHESTER](/chester/) can connect a wide offering of various communication interfaces and collect data from devices which are not normally connected to the internet, or local area network.
 
 The solution is suitable for data telemetry projects in the industry, retail, and warehouses, thanks to its water/dust resistance and wide operating temperature range.
 

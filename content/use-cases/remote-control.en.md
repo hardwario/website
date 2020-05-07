@@ -10,7 +10,7 @@ cons_link: https://meetings.hubspot.com/alanfabik/booking
 weight: 50
 ---
 
-[CHESTER](/en/chester/) finds its place in applications where remote control of machines or devices is required - e.g., opening and closing doors and gates, commanding the production machines, etc.
+[CHESTER](/chester/) finds its place in applications where remote control of machines or devices is required - e.g., opening and closing doors and gates, commanding the production machines, etc.
 
 The solution is suitable for demanding outdoor projects thanks to its water/dust resistance and wide operating temperature range.
 

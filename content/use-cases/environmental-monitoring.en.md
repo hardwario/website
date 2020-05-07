@@ -7,11 +7,11 @@ extension: [["I2C peripherals", "CHESTER-X0A"],["1-Wire", "CHESTER-X1"]]
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
-draft: true
+draft: false
 weight: 5
 ---
 
-[CHESTER](/en/chester/) can process data from a wide selection of environmental sensors, e.g. temperature, relative air humidity, NOx and SOx, soil moisture, and many more.
+[CHESTER](/chester/) can process data from a wide selection of environmental sensors, e.g. temperature, relative air humidity, NOx and SOx, soil moisture, and many more.
 
 The solution is suitable for use in agriculture, forestry, water management, and industrial spaces, thanks to its water/dust resistance and wide operating temperature range.
 

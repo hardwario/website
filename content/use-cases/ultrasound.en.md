@@ -10,6 +10,6 @@ cons_link: https://meetings.hubspot.com/alanfabik/booking
 weight: 20
 ---
 
-With a connected ultrasonic sensor, [CHESTER](/en/chester/) can measure distance - e.g., a water level or a gap between a solid object.
+With a connected ultrasonic sensor, [CHESTER](/chester/) can measure distance - e.g., a water level or a gap between a solid object.
 
 The low power consumption and LPWAN connectivity allow deployment in places not covered by the GSM signal or power grid.

@@ -10,7 +10,7 @@ cons_link: https://meetings.hubspot.com/alanfabik/booking
 weight: 50
 ---
 
-Through the connected industrial RTD thermometers and thermocouples support, [CHESTER](/en/chester/) can measure extreme temperatures in industrial applications.
+Through the connected industrial RTD thermometers and thermocouples support, [CHESTER](/chester/) can measure extreme temperatures in industrial applications.
 
 The solution is suitable for use in boiler rooms, metal industry, chemical industry, or building materials, thanks to its water/dust resistance and wide operating temperature range.
 

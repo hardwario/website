@@ -10,7 +10,7 @@ cons_link: https://meetings.hubspot.com/alanfabik/booking
 weight: 10
 ---
 
-[CHESTER](/en/chester/), thanks to its robustness, finds its place in more demanding indoor air quality monitoring projects, especially in agriculture and industrial spaces.
+[CHESTER](/chester/), thanks to its robustness, finds its place in more demanding indoor air quality monitoring projects, especially in agriculture and industrial spaces.
 
 Through its integrated sensors, it measures temperature, relative air humidity, concentration of CO, CO2, LPG, or NH3 (ammonia).
 

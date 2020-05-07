@@ -7,7 +7,7 @@ meta_description: Jaké je uplatnění univerzálních bezdrátových tlačítek
 description: Jaké je uplatnění univerzálních bezdrátových tlačítek v průmyslu a jak pomáhají ve ŠKODA AUTO?
 image_preview: /upload/buttons.jpg
 video_type: Webinář
-weight: 60
+weight: 70
 ---
 
 Webináře se zabývá tématem uplatnění univerzálních bezdrátových tlačítek v průmyslu. Na praktických příkladech se dozvíte, jaká uplatnění najdou bezdrátová tlačítka v průmyslu. Příkladem takového projektu je i ANDON, který pomáhá rychleji reagovat na problémy ve výrobě. Nechybí informace o výběru hardware, konektivitě, celkových nákladech a případové studie, například ze ŠKODA AUTO.
