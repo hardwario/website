@@ -3,7 +3,7 @@ date: "2020-05-07"
 time: "14:00 - 15:00"
 price: "Zdarma"
 publishdate: "2020-04-08"
-expirydate: "2020-05-07"
+expirydate: "2020-05-08"
 title: "Práce s InfluxDB a Grafanou - představení a praktické příklady"
 hashtags: ["webinar","zdarma"]
 category: industry
