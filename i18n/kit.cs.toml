@@ -25,6 +25,12 @@ other = "Open‑source"
 [open_integration]
 other = "Celá stavebnice je open-source a&nbsp;podporuje integrace s&nbsp;populárními platformami jako jsou Node-RED, Microsoft Azure, AWS, Ubidots, Blynk, IFTTT, Amazon Alexa, Google Home nebo Apple HomeKit. Stejně tak může být integrována s vašim endpointem prostřednictvím REST API a webhooků."
 
+[academy_projects_docs]
+other = "Akademie, Projekty, Dokumentace"
+
+[academy_projects_docs_desc]
+other = "Díky <a href = '/cs/academy/co-je-to-bigclown-playground/'>Playgroundu</a>, <a href = '/cs/academy/'>akademii</a> a <a href = '/cs/projects'>ukázkovým projektům</a> je začátek se stavebnicí jednoduchý. Snadno zařízení nastavíte, spárujete s&nbsp;počítačem a díky vizuálnímu programování určíte, jak má pracovat. Pokročilé chování a&nbsp;integrace vyřešíte s&nbsp;<a href = 'https://developers.hardwario.com' target = '_blank'>dokumentací</a> a&nbsp;<a href = 'https://sdk.hardwario.com'>SDK knihovnou</a>."
+
 [get_kit]
 other = "Koupit stavebnici"
 
