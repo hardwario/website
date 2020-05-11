@@ -2,10 +2,10 @@
 other = "Are you interested<br/> in the whole story?"
 
 [get_full_content]
-other = "Download this and other case studies now"
+other = "Get this and other case studies now"
 
 [download_pdf]
-other = "Yes, I'm interested"
+other = "Download Case Studies"
 
 [download_case_study]
 other = "We'll send you<br/> all case studies<br/> to you inbox"
