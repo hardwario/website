@@ -11,7 +11,7 @@ industry: Real estate
 product: CHESTER
 featured: false
 full: true
-testimonial_text: Částečná custom dodávka multisenzorů od Hardwaria zapadla do našeho ekosystému v HB REAVIS jako spolehlivý datový zdroj postavený na low power bezdrátové infrastruktuře. Opíráme so něj při monitorování, vyhodnocování a optimalizaci kvality vnitřního prostředí. Těšíme se na další iteraci!
+testimonial_text: Částečná custom dodávka multisenzorů od Hardwaria zapadla do našeho ekosystému v HB REAVIS jako spolehlivý datový zdroj postavený na low power bezdrátové infrastruktuře. Opíráme se o něj při monitorování, vyhodnocování a optimalizaci kvality vnitřního prostředí. Těšíme se na další iteraci!
 testimonial_author: HB REAVIS
 testimonial_company:
 testimonial_image: hbreavis.png
