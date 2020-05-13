@@ -125,7 +125,7 @@ other = "Use Case"
 other = "Examples of projects"
 
 [extensions]
-other = "Interfaces used"
+other = "Modules and interfaces"
 
 [make_an_appointment]
 other = "Make an appointment"

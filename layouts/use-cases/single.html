@@ -23,10 +23,19 @@
                         <h2 class = "font-36 font-weight-bold pb-20">{{ i18n "extensions" }}</h2>
                   <table class = "table">
                     <thead class="thead-default font2">
+                    {{ if eq .Params.device "CHESTER" }}
                     <tr>
                       <th>{{ i18n "interface" }}</th>
                       <th>{{ i18n "module" }}</th>
                     </tr>
+                    {{ else }}
+                    <tr>
+                      <th>{{ i18n "module" }}</th>
+                      <th>{{ i18n "description_examples" }}</th>
+                    </tr>
+                    {{ end }}
+
+
                     </thead>
                     <tbody>
                       {{ range .Params.extensions }}

@@ -3,7 +3,7 @@ title: Indoor Environmental Monitoring
 description: Demanding indoor environmental monitoring projects - e.g. in agriculture and industrial space.
 device: CHESTER
 examples: ["Indoor environmental monitoring of warehouses for quality inspection","Temperature and humidity index (THI) monitoring for animal livestocks","Office air quality monitoring","Temperature monitoring in freezer boxes"]
-extension: [["I2C peripherals", "CHESTER-X0A"],["1-Wire", "CHESTER-X1"]]
+extensions: [["I2C peripherals", "CHESTER-X0A"],["1-Wire", "CHESTER-X1"]]
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking

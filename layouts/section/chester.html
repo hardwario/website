@@ -343,7 +343,7 @@
                             <div class="col">
                                 <div class="slick">
 
-                                  {{ $cases := where .Site.RegularPages "Section" "use-cases" }}
+                                  {{ $cases := where (where .Site.RegularPages "Section" "use-cases") ".Params.device" "CHESTER"  }}
                                   {{ with $cases }}
                                     {{ range $cases.ByWeight }}
                                       {{ .Render "grid" }}

@@ -103,7 +103,7 @@
         left: 0px;
       }
 
-      &:hover{
+      &:hover,&:focus{
         background-image: url("../images/icons/arrow-left.svg");
         opacity: 1;
         background-color: #E30427!important;
@@ -128,7 +128,7 @@
         right: 0px;
       }
 
-      &:hover{
+      &:hover,&:focus{
         opacity: 1;
         background-color: #E30427!important;
       }

@@ -17,20 +17,18 @@
         </div>
     </section>
 
-    {{ $currentLang := .Site.Language.Lang }}
-    {{ if eq $currentLang "cs" }}
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <section>
                     <div class="bg-darkGray font-white ">
                         <div class="container pt-50">
                             <div class="row">
                               <div class="col-12 col-lg-12 pb-30 text-center">
-                                  <h2 class="font-weight-black font-40 font-lnh44">{{ i18n "usage_examples" }}</h2>
+                                  <h2 class="font-weight-black font-40 font-lnh44">{{ i18n "usage_examples" }} CHESTER</h2>
                               </div>
                                 <div class="col">
-                                    <div class="slick">
+                                    <div class="slick slick-1">
 
-                                      {{ $cases := where .Site.RegularPages "Section" "use-cases" }}
+                                      {{ $cases := where (where .Site.RegularPages "Section" "use-cases") ".Params.device" "CHESTER"  }}
                                       {{ with $cases }}
                                         {{ range $cases.ByWeight }}
                                           {{ .Render "grid" }}
@@ -45,8 +43,36 @@
 
                 </section>
 
+
+    {{ $currentLang := .Site.Language.Lang }}
+    {{ if eq $currentLang "cs" }}
+                <section>
+                                <div class="">
+                                    <div class="container pt-50">
+                                        <div class="row">
+                                          <div class="col-12 col-lg-12 pb-30 text-center">
+                                              <h2 class="font-weight-black font-40 font-lnh44">{{ i18n "usage_examples" }} IoT Kit</h2>
+                                          </div>
+                                            <div class="col">
+                                                <div class="slick slick-2">
+
+                                                  {{ $cases := where (where .Site.RegularPages "Section" "use-cases") ".Params.device" "IoT Kit" }}
+                                                  {{ with $cases }}
+                                                    {{ range $cases.ByWeight }}
+                                                      {{ .Render "grid" }}
+                                                    {{ end }}
+                                                  {{ end }}
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </section>
+    {{ end }}
     <script>
-      $(".slick").slick({
+      $(".slick-1").slick({
         dots: true,
             infinite: false,
             speed: 300,
@@ -68,7 +94,39 @@
                 }
             ]
     });
+    $(".slick-2").slick({
+      dots: true,
+          infinite: false,
+          speed: 300,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          arrows:true,
+          responsive: [
+              {
+                  breakpoint: 1024,
+                  settings: {
+                      slidesToShow: 2
+                  }
+              },
+              {
+                  breakpoint: 767,
+                  settings: {
+                      slidesToShow: 1
+                  }
+              }
+          ]
+  });
+  $(window).load(function(){
+    $('.slick-slide').each(function(){
+      max = 0;
+      height = $(this).children().children().height();
+      if(height > max ){
+        max = height+50;
+      }
+    });
+    $('.slick-slide div a').height(max);
+  });
     </script>
-    {{ end }}
+
 <footer>
 {{ end }}

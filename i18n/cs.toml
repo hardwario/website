@@ -122,7 +122,7 @@ other = "Příklad použití"
 other = "Příklady projektů"
 
 [extensions]
-other = "Používaná rozhraní"
+other = "Moduly a rozhraní"
 
 [make_an_appointment]
 other = "Domluvit schůzku"
