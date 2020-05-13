@@ -50,14 +50,13 @@ collections:
     format: 'frontmatter'
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Draft", name: "draft", widget: "boolean", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Meta title", name: "meta_title", widget: "string"}
       - {label: "Meta description", name: "meta_description", widget: "string"}
       - {label: "Perex", name: "description", widget: "string"}
-      - {label: "Preview Image", name: "image_preview", widget: "image"}
-      - {label: "Main Image", name: "image_main", widget: "image"}
+      - {label: "Preview Image", name: "image_preview", widget: "image", required: false}
+      - {label: "Main Image", name: "image_main", widget: "image", required: false}
       - {label: "Weight", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "academy-cs" # Used in routes, e.g., /admin/collections/blog
@@ -69,7 +68,6 @@ collections:
     format: 'frontmatter'
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Draft", name: "draft", widget: "boolean", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Meta title", name: "meta_title", widget: "string"}
@@ -88,7 +86,6 @@ collections:
     format: 'frontmatter'
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Draft", name: "draft", widget: "boolean", required: false}
       - {label: "Featured", name: "featured", widget: "boolean"}
       - {label: "Handbook", name: "handbook", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
