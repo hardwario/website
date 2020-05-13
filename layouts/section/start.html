@@ -1,0 +1,135 @@
+{{ define "main" }}
+
+<section>
+  <div class = "container">
+    <div class="row pb-50">
+        <div class="col">
+            <div class="row">
+              <div class="col-12 col-md-10 mx-auto text-center pt-30 pt-md-0">
+                  <h1 class="text-center font-weight-black font-48 font-md-64">{{ .Params.mainHeading | safeHTML }}</h1>
+                  <p class="text-center pt-20 font-24 font-lnh38">{{ .Params.perex | safeHTML }}</p>
+
+                  <h3 class="text-center font-weight-black font-18 pt-60">Sledujte naše sociální sítě, ať vám nic neuteče</h3>
+                  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                  <div class="addthis_inline_follow_toolbox d-inline-block text-center margin-auto pt-20"></div>
+
+
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+</section>
+
+<section>
+    <div class = "container">
+      <div class="row justify-content-center pb-20 pb-md-50">
+        <div class="col-12">
+          <h2 class="text-center font-weight-black font-36 font-md-48 pb-30">Užitečné odkazy</h2>
+        </div>
+
+        <div class="col-12 col-lg-6">
+            <a href="/cs/academy/" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">HARDWARIO Akademie</h3>
+                <p class = "pb-20">Naučíme vás základy internetu věcí i práce s produkty HARDWARIO. Pořádáme také webináře a semináře.</p>
+                <span class = "font-font2 font-red font-decoration-underline">Otevřít akademii</span>
+            </a>
+        </div>
+
+
+        <div class="col-12 col-lg-6">
+            <a href="https://developers.hardwario.com" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">Vývojářská dokumentace stavebnice</h3>
+                <p class = "pb-20">Zajímá vás techničtější pohled na stavebnici, pokročilé projekty a&nbsp;integrace? Navštivte vývojářskou dokumentaci.</p>
+                <span class = "font-font2 font-red font-decoration-underline">Přejít do dokumentace</span>
+            </a>
+        </div>
+
+        <div class="col-12 col-lg-6">
+            <a href="https://chester.hardwario.com" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">CHESTER Datasheet</h3>
+                <p class = "pb-20">Technické informace o zařízení CHESTER. Najdete zde například popis rozhraní a AT příkazů.</p>
+                <span class = "font-font2 font-red font-decoration-underline">Otevřít datasheet</span>
+            </a>
+        </div>
+
+        <div class="col-12 col-lg-6">
+            <a href="/cs/projects/" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">Ukázkové projekty</h3>
+                <p class = "pb-20">Projekty vytvořené a popsané tak, aby vás naučili, jak pracovat se stavebnicí. Začněte jednoduššími, máme i pokročilé.</p>
+                <span class = "font-font2 font-red font-decoration-underline">Ukázat projekty</span>
+            </a>
+        </div>
+
+        <div class="col-12 col-lg-6">
+            <a href="/cs/case-studies/" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">Průmyslové případovky</h3>
+                <p class = "pb-20">Stavebnici i CHESTER používáme především v průmyslu. Inspirujte se našimi případovými studiemi.</p>
+                <span class = "font-font2 font-red font-decoration-underline">Přečíst případovky</span>
+            </a>
+        </div>
+
+        <div class="col-12 col-lg-6">
+            <a href="https://sdk.hardwario.com" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">SDK Knihovna</h3>
+                <p class = "pb-20">Chcete si napsat vlastní firmware pro stavebnici? Tady najdete vše, co&nbsp;potřebujete.</p>
+                <span class = "font-font2 font-red font-decoration-underline">Otevřít SDK knihovnu</span>
+            </a>
+        </div>
+
+      </div>
+    </div>
+</section>
+
+<section>
+  <div class = "container">
+    <div class="row pb-50">
+        <div class="col">
+            <div class="row">
+              <div class="col-12 col-md-10 mx-auto text-center pt-30 pt-md-0">
+                  <h2 class="text-center font-weight-black font-36 font-md-48">Osobní technická podpora</h2>
+                  <p class="text-center pt-20 font-24 font-lnh38">Kdykoliv budete potřebovat poradit, obraťte se na naši technickou podporu. Napište nám na <a href = "mailto:ask@hardwario.com">ask.hardwario.com</a> nebo použijte online chat tady na webu.</p>
+
+
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+<section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="contactbox">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <div class="contactbox__item">
+                                    <div class="contactbox__icon"></div>
+                                    <h3 class="contactbox__text">{{ i18n "modification_integration" | safeHTML }}</h3>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="contactbox__item">
+                                    <div class="contactbox__icon contactbox__icon--warranty"></div>
+                                    <h3 class="contactbox__text">{{ i18n "extended_warranty" | safeHTML }}</h3>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="contactbox__item contactbox__item--noborder">
+                                    <div class="contactbox__icon contactbox__icon--support"></div>
+                                    <h3 class="contactbox__text">{{ i18n "personal_tech_support" | safeHTML }}</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<footer>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ce11373d4525996"></script>
+
+{{ end }}
