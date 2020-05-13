@@ -1,0 +1,59 @@
+[academy]
+other = "HARDWARIO Akademie"
+
+[academy_text]
+other = "Naučíme vás základy internetu věcí i práce s produkty HARDWARIO. Pořádáme také webináře a semináře."
+
+[academy_link]
+other = "Otevřít akademii"
+
+[projects]
+other = "Ukázkové projekty stavebnice"
+
+[projects_text]
+other = "Projekty vytvořené a popsané tak, aby vás naučily, jak pracovat se stavebnicí. Začněte jednoduššími, máme i pokročilé."
+
+[projects_link]
+other = "Ukázat projekty"
+
+[kit_docs]
+other = "Dokumentace IoT stavebnice"
+
+[kit_docs_text]
+other = "Zajímá vás techničtější pohled na stavebnici, pokročilé projekty a&nbsp;integrace? Navštivte vývojářskou dokumentaci."
+
+[kit_docs_link]
+other = "Přejít do dokumentace"
+
+[hub_docs]
+other = "Dokumentace IoT hubu"
+
+[hub_docs_text]
+other = "Technické informace o zařízení CHESTER. Najdete zde například popis rozhraní a AT příkazů."
+
+[hub_docs_link]
+other = "Otevřít datasheet"
+
+[industry_case_studies]
+other = "Průmyslové případovky"
+
+[industry_case_studies_text]
+other = "Stavebnici i CHESTER používáme především v průmyslu. Inspirujte se našimi případovými studiemi."
+
+[industry_case_studies_link]
+other = "Přečíst případovky"
+
+[sdk_lib_docs]
+other = "SDK knihovna stavebnice"
+
+[sdk_lib_text]
+other = "Chcete si napsat vlastní firmware pro stavebnici? Tady najdete vše, co&nbsp;potřebujete."
+
+[sdk_lib_link]
+other = "Otevřít SDK knihovnu"
+
+[personal_support_start]
+other = "Osobní technická podpora"
+
+[personal_tech_support_text]
+other = "Kdykoliv budete potřebovat poradit, obraťte se na naši technickou podporu. Napište nám na <a href = 'mailto:ask@hardwario.com'>ask.hardwario.com</a> nebo použijte online chat tady na webu."
