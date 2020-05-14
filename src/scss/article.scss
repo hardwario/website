@@ -275,14 +275,17 @@
       display: block;
       text-align: center;
       line-height: 2*$baseline;
-      font-size: em(32);
+      font-size: 32px;
       padding: 0 70px;
       font-weight: bold;
       padding-bottom: $baseline;
-      padding-top: 2*$baseline;
+      padding-top: 1*$baseline;
       background: url("../svg/quote2.svg") no-repeat center top 0.5*$baseline;
       background-size: 28px 20px;
 
+      p{
+        font-size: 24px;
+      }
       @media(max-width:991px)
       {
         padding-left: 0;
