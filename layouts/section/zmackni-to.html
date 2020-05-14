@@ -120,16 +120,20 @@
 </section>
 
 
-          <script type="text/javascript">
-            $('.getOffer').click(function(){
-              $('#offerModal').modal({
-                keyboard: false
-              })
-            });
 
-          </script>
 
 
         <footer>
 
+{{ end }}
+
+{{ define "additional-scripts" }}
+<script type="text/javascript">
+  $('.getOffer').click(function(){
+    $('#offerModal').modal({
+      keyboard: false
+    })
+  });
+
+</script>
 {{ end }}

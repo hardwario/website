@@ -358,40 +358,8 @@
 
             </section>
 
-<script>
-  $(".slick").slick({
-    dots: true,
-        infinite: false,
-        speed: 300,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        arrows:true,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 1
-                }
-            }
-        ]
-});
-$(window).load(function(){
-  $('.slick-slide').each(function(){
-    max = 0;
-    height = $(this).children().children().height();
-    if(height > max ){
-      max = height+50;
-    }
-  });
-  $('.slick-slide div a').height(max);
-});
-</script>
+
+
 </div>
 
         <section>
@@ -501,99 +469,136 @@ $(window).load(function(){
             </div>
           </div>
 
-          <script>
+        <footer>
+{{ end }}
 
-            $(function()
-  {
-      var targets = $( '[rel~=tooltip]' ),
-          target  = false,
-          tooltip = false,
-          title   = false;
+{{ define "additional-scripts" }}
 
-      targets.bind( 'mouseenter', function()
-      {
-          target  = $( this );
-          tip     = target.attr( 'title' );
-          tooltip = $( '<div id="tooltip"></div>' );
+<script>
+  $(".slick").slick({
+    dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows:true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+});
+$(window).load(function(){
+  $('.slick-slide').each(function(){
+    max = 0;
+    height = $(this).children().children().height();
+    if(height > max ){
+      max = height+50;
+    }
+  });
+  $('.slick-slide div a').height(max);
+});
+</script>
 
-          if( !tip || tip == '' )
-              return false;
+<script>
 
-          target.removeAttr( 'title' );
-          tooltip.css( 'opacity', 0 )
-                 .html( tip )
-                 .appendTo( 'body' );
+  $(function()
+{
+var targets = $( '[rel~=tooltip]' ),
+target  = false,
+tooltip = false,
+title   = false;
 
-          var init_tooltip = function()
-          {
-              if( $( window ).width() < tooltip.outerWidth() * 1.5 )
-                  tooltip.css( 'max-width', $( window ).width() / 2 );
-              else
-                  tooltip.css( 'max-width', 340 );
+targets.bind( 'mouseenter', function()
+{
+target  = $( this );
+tip     = target.attr( 'title' );
+tooltip = $( '<div id="tooltip"></div>' );
 
-              var pos_left = target.offset().left + ( target.outerWidth() / 2 ) - ( tooltip.outerWidth() / 2 ),
-                  pos_top  = target.offset().top - tooltip.outerHeight() - 20;
+if( !tip || tip == '' )
+    return false;
 
-              if( pos_left < 0 )
-              {
-                  pos_left = target.offset().left + target.outerWidth() / 2 - 20;
-                  tooltip.addClass( 'left' );
-              }
-              else
-                  tooltip.removeClass( 'left' );
+target.removeAttr( 'title' );
+tooltip.css( 'opacity', 0 )
+       .html( tip )
+       .appendTo( 'body' );
 
-              if( pos_left + tooltip.outerWidth() > $( window ).width() )
-              {
-                  pos_left = target.offset().left - tooltip.outerWidth() + target.outerWidth() / 2 + 20;
-                  tooltip.addClass( 'right' );
-              }
-              else
-                  tooltip.removeClass( 'right' );
+var init_tooltip = function()
+{
+    if( $( window ).width() < tooltip.outerWidth() * 1.5 )
+        tooltip.css( 'max-width', $( window ).width() / 2 );
+    else
+        tooltip.css( 'max-width', 340 );
 
-              if( pos_top < 0 )
-              {
-                  var pos_top  = target.offset().top + target.outerHeight();
-                  tooltip.addClass( 'top' );
-              }
-              else
-                  tooltip.removeClass( 'top' );
+    var pos_left = target.offset().left + ( target.outerWidth() / 2 ) - ( tooltip.outerWidth() / 2 ),
+        pos_top  = target.offset().top - tooltip.outerHeight() - 20;
 
-              tooltip.css( { left: pos_left, top: pos_top } )
-                     .animate( { top: '+=10', opacity: 1 }, 50 );
-          };
+    if( pos_left < 0 )
+    {
+        pos_left = target.offset().left + target.outerWidth() / 2 - 20;
+        tooltip.addClass( 'left' );
+    }
+    else
+        tooltip.removeClass( 'left' );
 
-          init_tooltip();
-          $( window ).resize( init_tooltip );
+    if( pos_left + tooltip.outerWidth() > $( window ).width() )
+    {
+        pos_left = target.offset().left - tooltip.outerWidth() + target.outerWidth() / 2 + 20;
+        tooltip.addClass( 'right' );
+    }
+    else
+        tooltip.removeClass( 'right' );
 
-          var remove_tooltip = function()
-          {
-              tooltip.animate( { top: '-=10', opacity: 0 }, 50, function()
-              {
-                  $( this ).remove();
-              });
+    if( pos_top < 0 )
+    {
+        var pos_top  = target.offset().top + target.outerHeight();
+        tooltip.addClass( 'top' );
+    }
+    else
+        tooltip.removeClass( 'top' );
 
-              target.attr( 'title', tip );
-          };
+    tooltip.css( { left: pos_left, top: pos_top } )
+           .animate( { top: '+=10', opacity: 1 }, 50 );
+};
 
-          target.bind( 'mouseleave', remove_tooltip );
-          tooltip.bind( 'click', remove_tooltip );
-      });
+init_tooltip();
+$( window ).resize( init_tooltip );
+
+var remove_tooltip = function()
+{
+    tooltip.animate( { top: '-=10', opacity: 0 }, 50, function()
+    {
+        $( this ).remove();
+    });
+
+    target.attr( 'title', tip );
+};
+
+target.bind( 'mouseleave', remove_tooltip );
+tooltip.bind( 'click', remove_tooltip );
+});
+});
+
+</script>
+<script type="text/javascript">
+  $('.openModal').click(function(){
+    var getId = "#" + $(this).attr('data-target');
+
+    $(getId).modal({
+      keyboard: false
+    })
+
   });
 
-          </script>
-          <script type="text/javascript">
-            $('.openModal').click(function(){
-              var getId = "#" + $(this).attr('data-target');
-
-              $(getId).modal({
-                keyboard: false
-              })
-
-            });
-
-          </script>
-
-
-        <footer>
+</script>
 
 {{ end }}

@@ -71,62 +71,68 @@
 
                             </section>
     {{ end }}
-    <script>
-      $(".slick-1").slick({
-        dots: true,
-            infinite: false,
-            speed: 300,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            arrows:true,
-            responsive: [
-                {
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 2
-                    }
-                },
-                {
-                    breakpoint: 767,
-                    settings: {
-                        slidesToShow: 1
-                    }
-                }
-            ]
-    });
-    $(".slick-2").slick({
-      dots: true,
-          infinite: false,
-          speed: 300,
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          arrows:true,
-          responsive: [
-              {
-                  breakpoint: 1024,
-                  settings: {
-                      slidesToShow: 2
-                  }
-              },
-              {
-                  breakpoint: 767,
-                  settings: {
-                      slidesToShow: 1
-                  }
-              }
-          ]
-  });
-  $(window).load(function(){
-    $('.slick-slide').each(function(){
-      max = 0;
-      height = $(this).children().children().height();
-      if(height > max ){
-        max = height+50;
-      }
-    });
-    $('.slick-slide div a').height(max);
-  });
-    </script>
+
 
 <footer>
+{{ end }}
+
+{{ define "additional-scripts" }}
+
+<script>
+  $(".slick-1").slick({
+    dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows:true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+});
+$(".slick-2").slick({
+  dots: true,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      arrows:true,
+      responsive: [
+          {
+              breakpoint: 1024,
+              settings: {
+                  slidesToShow: 2
+              }
+          },
+          {
+              breakpoint: 767,
+              settings: {
+                  slidesToShow: 1
+              }
+          }
+      ]
+});
+$(window).load(function(){
+$('.slick-slide').each(function(){
+  max = 0;
+  height = $(this).children().children().height();
+  if(height > max ){
+    max = height+50;
+  }
+});
+$('.slick-slide div a').height(max);
+});
+</script>
+
 {{ end }}

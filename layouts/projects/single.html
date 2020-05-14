@@ -20,24 +20,14 @@
           {{ .TableOfContents }}
         {{- end }}
 
-        <script>
-          $('.tableofcontent__toggle').click(function(){
-            $('#TableOfContents ul li ul').slideToggle();
-          });
-        </script>
+
         </div>
           <div class="col-12 justify-content-center d-none d-xl-block">
             <div class="addthis_inline_share_toolbox article__soc article__soc--project"></div>
           </div>
 
       </div>
-      <script>
-        $('#TableOfContents').addClass('nav nav-pills');
-        $('#TableOfContents ul').addClass('nav nav-pills');
-        $('#TableOfContents a').addClass('nav-link');
-        $('body').scrollspy({ target: '#TableOfContents', offset: 200 });
-        $('#TableOfContents ul:first-child li:first-child ul:first-child li:first-child a:first-child').addClass('active');
-      </script>
+
       <div class="col-12 col-xl-8">
         <div class="article__body article__body--project project__detail">
           <img src="{{ .Params.image_main }}" alt="{{ .Title }}" class = "img-fluid" />
@@ -116,10 +106,24 @@
 </section>-->
 
 <!--{ { partial "www/projects-newest.html" . }}-->
-
+<footer>
 {{ end }}
 
 {{ define "additional-scripts" }}
+
+<script>
+  $('.tableofcontent__toggle').click(function(){
+    $('#TableOfContents ul li ul').slideToggle();
+  });
+</script>
+
+<script>
+  $('#TableOfContents').addClass('nav nav-pills');
+  $('#TableOfContents ul').addClass('nav nav-pills');
+  $('#TableOfContents a').addClass('nav-link');
+  $('body').scrollspy({ target: '#TableOfContents', offset: 200 });
+  $('#TableOfContents ul:first-child li:first-child ul:first-child li:first-child a:first-child').addClass('active');
+</script>
 
 <script>
 

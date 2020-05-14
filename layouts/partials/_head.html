@@ -32,16 +32,6 @@
     <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-
-    <script src="/_assets/js/{{ index .Site.Data.js.hash "popper.min.js" }}"></script>
-    <script src="/_assets/js/{{ index .Site.Data.js.hash "hugotagsfilter.js" }}"></script>
-
-    <script src="/_assets/js/{{ index .Site.Data.js.hash "jquery.min.js" }}"></script>
-    <script src="/_assets/js/{{ index .Site.Data.js.hash "bootstrap.min.js" }}"></script>
-    <script src="/_assets/js/{{ index .Site.Data.js.hash "highlight.pack.js" }}"></script>
-    <script src="/_assets/js/{{ index .Site.Data.js.hash "slick.js" }}"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-
     {{ if hasPrefix .Permalink .Site.Params.productionURL }}
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
