@@ -2,6 +2,7 @@
 title: BigClown renamed HARDWARIO
 draft: false
 date: 2019-12-11
+meta_title: BigClown renamed HARDWARIO
 description: >-
   In 2016, we started our mission and brought our IoT kit into the world under the brand name BigClown. This name was a reference to the “qualities” of the company´s co-founders, namely Big Pavel (not just his height!) and Clown Alan (not always the case!). BigClown will now be known as HARDWARIO.
 image_preview: >-

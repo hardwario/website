@@ -1,6 +1,7 @@
 ---
 date: "2019-02-19"
 title: "Use Android to Flash STM32 HARDWARIO Modules"
+meta_title: Use Android to Flash STM32 HARDWARIO Modules
 description: "Now you can also flash pre-compiled firmware from any Android device with OTG USB support."
 image_preview: "/blog/2019-02-19-android-flash/preview.png"
 image_main: "/blog/2019-02-19-android-flash/main.png"

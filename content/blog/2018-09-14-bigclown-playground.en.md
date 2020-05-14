@@ -1,6 +1,7 @@
 ---
 date: "2018-09-14"
 title: "HARDWARIO Playground"
+meta_title: Introduction of HARDWARIO Playground
 description: "The new multi-platform graphical application to manage all HARDWARIO devices."
 image_preview: "/blog/2018-09-14-bigclown-playground/preview.png"
 image_main: "/blog/2018-09-14-bigclown-playground/main.png"

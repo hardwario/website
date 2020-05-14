@@ -4,8 +4,7 @@ heading: Four modules help Škoda Auto respond more quickly to production probl
 image_main: /case-studies/skoda_main.png
 image_grid: /case-studies/skoda_grid.png
 description:
-meta:
-  title: Škoda Auto Andon Case Study from HARDWARIO
+meta_title: ANDON in ŠKODA AUTO | HARDWARIO Case Study
 company: ŠKODA Auto
 industry: Automotive
 product: IoT Kit

@@ -1,6 +1,7 @@
 ---
 date: "2017-12-05"
 title: "Reasons Behind Indiegogo"
+meta_title: Reasons Behind Indiegogo
 description: "The explanation what makes us to promote HARDWARIO in a crowdfunding campaign"
 image_preview: "/blog/2017-12-05-reasons-behind-indiegogo/preview.jpg"
 image_main: "/blog/2017-12-05-reasons-behind-indiegogo/main.jpg"

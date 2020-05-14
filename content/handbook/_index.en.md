@@ -1,8 +1,7 @@
 ---
 title: Kit handbook
-meta:
-    title:  The Handbook for Big Clown Maker Kits | A box that helps you take control of your world
-    description: Get ahead of the game. Build the kit from HARDWARIO products and create your own IoT project. Use the handbook and our advice for your future digital masterpieces.
+meta_title:  The Handbook for HARDWARIO Kit
+meta_description: Get ahead of the game. Build the kit from HARDWARIO products and create your own IoT project. Use the handbook and our advice for your future digital masterpieces.
 mainHeading: Handbook for HARDWARIO Kit
 mainParagraph: A device that helps you control your world
 kit: ["starter-kit"]

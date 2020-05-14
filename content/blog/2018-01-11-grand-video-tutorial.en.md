@@ -1,6 +1,7 @@
 ---
 date: "2018-01-11"
 title: "Grand Video Tutorial"
+meta_title: HARDWARIO Grand Video Tutorial
 description: "This video will demonstrate Node-RED, smart LED strip control and much more..."
 image_preview: "/blog/2018-01-11-grand-video-tutorial/preview.jpg"
 image_main: "/blog/2018-01-11-grand-video-tutorial/main.jpg"

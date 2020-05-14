@@ -4,8 +4,7 @@ heading:  Pomáháme zabránit výpadkům výroby v automobilce TPCA
 image_main: /case-studies/tpca_main.png
 image_grid: /case-studies/tpca_grid.png
 description:
-meta:
-  title:  Pomáháme zabránit výpadkům výroby v automobilce TPCA | HARDWARIO případová studie
+meta_title: IoT prediktivní údržba v automobilce TPCA | HARDWARIO případová studie
 company: TPCA
 industry: Automotive
 product: IoT Kit

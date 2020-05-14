@@ -1,6 +1,7 @@
 ---
 date: "2018-01-09"
 title: "Anemone Platform"
+meta_title: Anemone Platform
 description: "The new platform and ecosystem targeting not only the fintech startups"
 image_preview: "/blog/2018-01-09-anemone-platform/preview.png"
 image_main: "/blog/2018-01-09-anemone-platform/main.png"

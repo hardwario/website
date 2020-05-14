@@ -1,6 +1,7 @@
 ---
 title: Přijďte na seminář o výuce IoT. Už 8. listopadu v Praze
 date: 2019-10-24T09:40:52.921Z
+meta_title: Seminář Jak učit internet věcí
 description: >-
   Zveme vás na další seminář  "Jak učit internet věcí", který tentokrát pořádáme
   v Praze.

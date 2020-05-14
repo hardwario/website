@@ -2,6 +2,7 @@
 title: How to liven up your teaching at school? Using the IoT Kit
 draft: false
 date: 2019-11-12T10:44:47.132Z
+meta_title: How to liven up your teaching at school? Using the IoT Kit
 description: >-
   Liven up your teaching of physics, IT or biology with the IoT Kit, which enables kids to program their own smart devices. We will advise you on how to do it.
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1573641194/blog/Workshop_01.png

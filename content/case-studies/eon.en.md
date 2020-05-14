@@ -4,14 +4,13 @@ heading: We helped E.ON to assess cable boxes online
 image_main: /case-studies/eon_main.png
 image_grid: /case-studies/eon_grid.png
 description:
-meta:
-  title: E.ON to online cable boxes Case Study from HARDWARIO
+meta_title: IoT assessment temperature and humidity of E.ON cable boxes | HARDWARIO Case Study
 company: E.ON
 industry: Energetics
 product: CHESTER
 featured: false
 full: true
-testimonial_text: "We contacted HARDWARIO after recommendation by Vodafone to test NB-IoT, the Internet of Things network. In a short time, wedesignedasolution for monitoring the climatic conditions in cablecabinetsand within 2 months we had our device in hand. We look forward to further projects."
+testimonial_text: "We contacted HARDWARIO after recommendation by Vodafone to test NB-IoT, the Internet of Things network. In a short time, we designed a solution for monitoring the climatic conditions in cablecabinetsand within 2 months we had our device in hand. We look forward to further projects."
 testimonial_author: Dominik Harman
 testimonial_company: Project Manager, E.ON
 testimonial_image: dominik_harman.jpg

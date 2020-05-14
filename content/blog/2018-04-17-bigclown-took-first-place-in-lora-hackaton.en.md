@@ -1,6 +1,7 @@
 ---
 date: "2018-04-17"
-title: "HARDWARIO Took First Place In LoRa Hackathon"
+title: "HARDWARIO Took First Place In LoRa Hackathon 2018"
+meta_title: HARDWARIO Took First Place In LoRa Hackathon 2018
 description: "HARDWARIO team quickly created interesting solution usign the new LoRa Module."
 image_preview: "/blog/2018-04-17-bigclown-took-first-place-in-lora-hackaton/preview.jpg"
 image_main: "/blog/2018-04-17-bigclown-took-first-place-in-lora-hackaton/main.jpg"

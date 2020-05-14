@@ -4,8 +4,7 @@ heading: Developerské firmě HB REAVIS jsme pomohli vytvořit ideální pracovn
 image_main: /case-studies/hbreavis_main.png
 image_grid: /case-studies/hbreavis_grid.png
 description:
-meta:
-  title: Developerské firmě HB REAVIS jsme pomohli vytvořit ideální pracovní podmínky | HARDWARIO případová studie
+meta_title: IoT monitoring ideálních pracovních podmínek | Environmentální monitoring | HARDWARIO případová studie
 company: HB REAVIS
 industry: Real estate
 product: CHESTER

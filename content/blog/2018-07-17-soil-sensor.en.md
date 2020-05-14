@@ -1,6 +1,7 @@
 ---
 date: "2018-07-17"
 title: "Soil Sensor"
+meta_title: "Soil Sensor - measure soil moisture and temperature with industrial 1-Wire digital sensor"
 description: "New modern sensor to monitor soil moisture and temperature in your garden and flowerpots."
 image_preview: "/blog/2018-07-17-soil-sensor/preview.png"
 image_main: "/blog/2018-07-17-soil-sensor/main.jpg"

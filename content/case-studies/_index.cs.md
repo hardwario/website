@@ -2,6 +2,5 @@
 title: Případovky
 menu: ["main","footer"]
 weight: 80
-meta:
-    title: Případové studie HARDWARIO
+meta_title: IoT případové studie | Průmysl 4.0 | Smart company | HARDWARIO
 ---

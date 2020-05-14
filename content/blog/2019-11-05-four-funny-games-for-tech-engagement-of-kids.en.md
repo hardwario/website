@@ -2,6 +2,7 @@
 title: 'Four funny games for engaging kids in technology'
 draft: false
 date: 2019-11-05T16:58:20.200Z
+meta_title: Four funny games for engaging kids in technology
 description: >-
   With the HARDWARIO Kit, kids program simple games to keep them entertained for long afternoons. Read four tips for fun activities for young and older kids.
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1572973839/blog/Gift-for12-year-old-boy/image4.png

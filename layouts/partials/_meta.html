@@ -2,7 +2,7 @@
 
   {{ if .IsPage }}
   <title>{{ $.Page.Params.meta_title }} | HARDWARIO IoT Blog</title>
-  <meta name="description" content="{{ $.Page.Params.meta_description }}">
+  <meta name="description" content='{{ if isset $.Page.Params "meta_description" }} {{ $.Page.Params.meta_description }} {{ else }} {{ $.Page.Params.description }} {{ end }}'>
   <meta property="og:url" content="{{ .URL | absURL }}" />
   <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO IoT Blog">
   <meta property="og:type" content="website">
@@ -77,15 +77,15 @@
 {{ else if eq .Section "case-studies" }}
 
     {{ if .IsPage }}
-    <title>{{ .Page.Title }} | HARDWARIO Case Study</title>
+    <title>{{ $.Page.Params.meta_title | safeHTML }}</title>
     <meta name="description" content="{{ .Page.Summary }}">
     <meta property="og:url" content="{{ .URL | absURL }}" />
-    <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO Cae Study">
+    <meta property='og:title' content="{{ $.Page.Params.meta_title }}">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image_main }}">
 
     {{ else }}
-    <title>{{ .Page.Title }} | HARDWARIO</title>
+    <title>{{ .Page.Title | safeHTML }} | HARDWARIO</title>
     <meta name="description" content="{{ .Page.Summary }}">
     <meta property="og:url" content="{{ .URL | absURL }}" />
     <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO">
@@ -96,7 +96,7 @@
 {{ else if eq .Section "use-cases" }}
 
         {{ if .IsPage }}
-        <title>{{ .Page.Title }} | HARDWARIO Use Case</title>
+        <title>{{ .Page.Title | safeHTML }} | HARDWARIO Use Case</title>
         <meta name="description" content="{{ .Page.Summary }}">
         <meta property="og:url" content="{{ .URL | absURL }}" />
         <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO Cae Study">

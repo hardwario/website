@@ -1,6 +1,7 @@
 ---
 date: "2018-01-15"
-title: "Maker Faire in Prague"
+title: "Maker Faire in Prague 2018"
+meta_title: "Maker Faire in Prague 2018"
 description: "For the first time in the history, experience the epic Maker Faire in Prague"
 image_preview: "/blog/2018-01-15-maker-faire-in-prague/preview.jpg"
 image_main: "/blog/2018-01-15-maker-faire-in-prague/main.jpg"

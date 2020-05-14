@@ -4,8 +4,7 @@ heading: Pomohli jsme E.ONu kontrolovat kabelové skříně
 image_main: /case-studies/eon_main.png
 image_grid: /case-studies/eon_grid.png
 description:
-meta:
-  title: Kontrola kabelových skříní E.Onu - případové studie HARDWARIO
+meta_title: IoT kontrola teploty a vlhkosti v kabelových skříní E.Onu | HARDWARIO případová studie
 company: E.ON
 industry: Energetika
 product: CHESTER
@@ -14,7 +13,7 @@ full: true
 testimonial_text: "Firmu HARDWARIO jsme oslovili s cílem otestovat síť NB-IoT. V krátkém čase jsme navrhli řešení pro sledování klimatických podmínek v kabelových skříních a během 2 měsíců jsme měli naše vlastní zařízení v rukách. Těšíme se na další společné projekty."
 testimonial_author: Dominik Harman
 testimonial_company: Project Manager, E.ON
-testimonial_image: dominik_harman.jpg
+testimonial_image: dominik_harma | HARDWARIO případová studien.jpg
 logo: /case-studies/eon_logo.png
 weight: 20
 ---

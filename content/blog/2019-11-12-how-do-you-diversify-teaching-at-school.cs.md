@@ -2,6 +2,7 @@
 title: Jak zpestříte výuku na škole? Pomocí IoT stavebnice
 draft: false
 date: 2019-11-12T10:44:47.132Z
+meta_title: Jak zpestříte výuku na škole? Pomocí IoT stavebnice
 description: >-
   Oživte dětem výuku fyziky, informatiky nebo biologie pomocí IoT stavebnice, se
   kterou si naprogramují vlastní chytrá zařízení. Poradíme vám, jak na to.

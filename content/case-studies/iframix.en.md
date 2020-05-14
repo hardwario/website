@@ -4,8 +4,7 @@ heading: For IFRAMIX we supply sensors to improve the welfare of farm animals
 image_main: /case-studies/iframix_main.png
 image_grid: /case-studies/iframix_grid.png
 description:
-meta:
-  title: For IFRAMIX we supply sensors to improve the welfare of farm animals | HARDWARIO Case study
+meta_title: IoT sensors to improve the welfare of farm animals | HARDWARIO Case Study
 company: IFRAMIX
 industry: Agriculture
 product: CHESTER & COOPER

@@ -3,6 +3,7 @@ title: 'Potkejme se na Bett Show v Londýně!'
 slug: 'potkejme-se-na-bett-show'
 draft: false
 date: 2020-01-12
+meta_title: Potkejme se na Bett Show v Londýně!
 description: 'Letos se opět vydáváme do Londýna na největší výstavu o vzdělávání - Bett Show. Chystáte se také? Potkejme se! ěnovat se budeme naší aktivní STEM výuce - jak s ní začít a jak k tomu využít naše průmyslové stavebnice, například v kombinaci s Raspberry Pi nebo Micro:bit.'
 image_preview: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1578843894/blog/bett-show-2020/1080x1080_Bett_Visit-us_3.png

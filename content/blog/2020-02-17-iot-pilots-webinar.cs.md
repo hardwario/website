@@ -3,6 +3,7 @@ title: 'Neinvazivní IoT piloty v průmyslu i domácnosti - záznam webináře'
 slug: '2020-02-17-webinar-iot-piloty'
 draft: false
 date: 2020-02-17
+meta_title: Záznam webináře Neinvazivní IoT piloty v průmyslu i domácnosti
 description: 'Ve čtvrtek 13. února proběhl první webinář v roce 2020, kde jsme se věnovali především ukázce praktických případových studiích, jejich přínosům a nákladům.'
 image_preview: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1581944925/blog/2020-02-17-iot-pilots-webinars/webinar_thumb.jpg

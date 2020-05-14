@@ -2,6 +2,7 @@
 title: 'Meet us at the Bett Show London!'
 draft: false
 date: 2020-01-12
+meta_title: Meet us at the Bett Show London!
 description: 'This year we are heading back to London for the biggest education exhibition - Bett Show. Are you going too? We will focus on our active STEM education - how to get started and how to use our industrial IoT Kits, for example in combination with Raspberry Pi or Micro: bit.'
 image_preview: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1578843894/blog/bett-show-2020/1080x1080_Bett_Visit-us_3.png

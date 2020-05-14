@@ -4,8 +4,7 @@ heading: Čtyři moduly pomohly Škodě Auto rychleji reagovat na problémy ve v
 image_main: /case-studies/skoda_main.png
 image_grid: /case-studies/skoda_grid.png
 description:
-meta:
-  title: Čtyři moduly pomohly Škodě Auto rychleji reagovat na problémy ve výrobě | HARDWARIO případová studie
+meta_title: ANDON ve ŠKODA AUTA | HARDWARIO případová studie
 company: ŠKODA Auto
 industry: Automotive
 product: IoT Kit

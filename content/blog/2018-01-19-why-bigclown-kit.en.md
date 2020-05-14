@@ -1,6 +1,8 @@
 ---
 date: "2018-01-19"
 title: "Why HARDWARIO Kit"
+meta_title: Why Did We Create HARDWARIO Kit?
+meta_description: Reading some discussions under the articles about the HARDWARIO IoT Kit inspired me to write about reasons why we started and keep developing the HARDWARIO IoT Kit. I would like to use this article for future references  to avoid repeating myself. Just as many others - this contribution is driven by a laziness ;-)
 description: "Why Did We Create HARDWARIO?"
 image_preview: "/blog/2018-01-19-why-bigclown-kit/preview.jpg"
 image_main: "/blog/2018-01-19-why-bigclown-kit/main.jpg"

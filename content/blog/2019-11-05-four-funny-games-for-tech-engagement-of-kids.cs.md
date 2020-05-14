@@ -2,6 +2,7 @@
 title: '4 zábavné hry, které v dětech vzbudí zájem o technologie'
 draft: false
 date: 2019-11-05T16:58:20.200Z
+meta_title: 4 zábavné hry, které v dětech vzbudí zájem o technologie
 description: >-
   Se stavebnicí HARDWARIO si děti naprogramují jednoduché hry, které je zabaví na
   dlouhá odpoledne. Přečtěte si 4 tipy na zábavné aktivity pro malé i velké

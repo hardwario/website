@@ -1,6 +1,7 @@
 ---
 date: "2018-03-05"
 title: "HARDWARIO video review by VoltLog"
+meta_title: HARDWARIO kit video review by VoltLog
 description: "Video series of unboxing and first project."
 image_preview: "/blog/2018-03-05-bigclown-video-review-voltlog/preview.jpg"
 image_main: "/blog/2018-03-05-bigclown-video-review-voltlog/main.jpg"

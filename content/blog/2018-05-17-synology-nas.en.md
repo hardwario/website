@@ -1,6 +1,7 @@
 ---
 date: "2018-05-17"
 title: "Synology NAS With HARDWARIO Gateway"
+meta_title: Synology NAS With HARDWARIO Gateway
 description: "Another use of your NAS storage in a home network."
 image_preview: "/blog/2018-05-17-synology-nas/preview.jpg"
 image_main: "/blog/2018-05-17-synology-nas/main.jpg"

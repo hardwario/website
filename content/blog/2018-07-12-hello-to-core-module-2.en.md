@@ -1,6 +1,7 @@
 ---
 date: "2018-07-12"
 title: "Hello to Core Module 2"
+meta_title: Introduction Core Module 2 from HARDWARIO Kit
 description: "Evolving the fundamental component and enhancing UX"
 image_preview: "/blog/2018-07-12-hello-to-core-module-2/preview.png"
 image_main: "/blog/2018-07-12-hello-to-core-module-2/main.png"

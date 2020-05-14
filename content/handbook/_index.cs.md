@@ -1,8 +1,7 @@
 ---
 title: Příručka stavebnice
-meta:
-    title: Příručka k HARDWARIO kitu | Krabička, se kterou ovládneš svět
-    description: Získej náskok před ostatními. Sestav si kit od HARDWARIO a vytvoř svůj vlastní IoT projekt. Máme příručku a rady pro budoucí digitální borce.
+meta_title: Příručka k HARDWARIO stavebnici
+meta_description: Získej náskok před ostatními. Sestav si kit od HARDWARIO a vytvoř svůj vlastní IoT projekt. Máme příručku a rady pro budoucí digitální borce.
 mainHeading: Příručka k HARDWARIO kitu
 mainParagraph: Krabička, se kterou ovládneš svět
 kit: ["starter-kit"]

@@ -1,6 +1,7 @@
 ---
 date: "2018-04-25"
 title: "Measure Air Quality With VOC Tag"
+meta_title: Measure Air Quality With VOC Tag
 description: "VOC multi pixel gas sensor SGP30 from Sensirion"
 image_preview: "/blog/2018-04-25-measure-air-quality-with-voc-tag/preview.jpg"
 image_main: "/blog/2018-04-25-measure-air-quality-with-voc-tag/main.jpg"

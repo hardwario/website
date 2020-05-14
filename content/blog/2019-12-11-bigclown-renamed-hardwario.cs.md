@@ -2,6 +2,7 @@
 title: Stavebnice BigClown mění svůj název na HARDWARIO
 draft: false
 date: 2019-12-11
+meta_title: Stavebnice BigClown mění svůj název na HARDWARIO
 description: >-
   V roce 2016 jsme začali naši misi a přivedli na svět IoT stavebnici s názvem BigClown. Tato značka vznikla s odkazem na "vlastnosti" spoluzakladatelů - opravdu velkého Pavla (nejen výškou) a zábavného Alana (jak kdy). Dnešním dnem se stavebnice BigClown stává stavebnicí HARDWARIO.
 image_preview: >-
