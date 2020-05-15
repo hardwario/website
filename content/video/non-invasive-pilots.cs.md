@@ -7,7 +7,7 @@ meta_description: Přehrejte si záznam webináře o neinvazivních IoT pilotech
 description: Přehrejte si záznam webináře o neinvazivních IoT pilotech v průmyslu a domácnostech.
 image_preview: /upload/industry.jpg
 video_type: Webinář
-weight: 20
+weight: 10
 ---
 
 Co je to internet věcí a Průmysl 4.0? Proč je důležité dělat IoT piloty? Jak dlouhodobě bezdrátově přenášet data u zařízení, která jsou napájena jen z baterií a na místech, kde není dostupný běžný signál? To jsou otázky, kterým se Alan, Pavel, Martin a Víťa věnovali v tomto webináři. Přehrejte si jeho záznam.
