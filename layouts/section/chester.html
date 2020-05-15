@@ -474,6 +474,8 @@
 
 {{ define "additional-scripts" }}
 
+<script src="/_assets/js/{{ index .Site.Data.js.hash "slick.min.js" }}"></script>
+
 <script>
   $(".slick").slick({
     dots: true,
