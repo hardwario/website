@@ -1,0 +1,224 @@
+{{ define "header" }}
+  {{ partial "header.html" . }}
+{{ end }}
+
+
+{{ define "main" }}
+
+<section>
+    <div class="bg-image16 pt-50 pt-lg-0 d-flex align-items-center mb-20" style = "background-position: bottom right; min-height: 641px">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 text-center text-md-left">
+                    <h1 class="font-40 font-md-64 font-md-lnh68 font-weight-black pt-40 pb-40 pb-md-40">Začněte s IIoT jednoduše</h1>
+                    <ul class = "font-list ml-0 pl-0">
+                      <li class = "font-24 font-gray2">Žádná vstupní investice</li>
+                      <li class = "font-24 font-gray2">Kompletní řešení včetně konektivity a cloudu</li>
+                      <li class = "font-24 font-gray2">Bez úvazku. Ukončete kdykoli</li>
+
+                    </ul>
+                    <p class="font-24 font-gray2 font-lnh37 pb-40"></p>
+                    <div>
+                        <a href="#solution" class="cta-button font-lnh54 px-70 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "tell_me_more" }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container pt-20" id = "solution">
+
+      <div class="row mb-40">
+          <div class="col">
+              <div class="row">
+                  <div class="col-8 col-md-6 col-lg-5 col-xl-4 mx-auto text-center">
+                      <div class="font-redLined text-center font-red mb-10 font-font2 font-weight-bold font-15"><span>Jak to funguje</span></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+        <div class="row pb-50 align-items-center">
+            <div class="order-2 order-lg-1 col-12 col-lg-6 text-center text-lg-left">
+                <!--<div class="pb-15 font-red font-font2 font-weight-bold font-15">{{ i18n "prototype_product" }}</div>-->
+                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-10 pb-md-30">Flexibilní řešení. Nízké měsíční náklady</h2>
+                <p class="font-20 font-lnh30">Za měsíční paušál získáte IoT zařízení včetně LPWAN konektivity, přístupu ke cloudové platfomě a vizualizaci v&nbsp;aplikaci Grafana nebo Ubidots.</p>
+            </div>
+            <div class="order-1 order-lg-2 col-12 col-lg-6 text-center">
+                <img loading="lazy" src="/_assets/images/non-invasive.svg" class="w-75 mb-10 moovingObject moovingObject--noShadow" alt="" />
+            </div>
+        </div>
+
+        <div class="row pb-50 align-items-center">
+            <div class="col-12 col-lg-6 text-center">
+                <img loading="lazy" src="/_assets/images/lowpower.svg" class="w-50 movingObject movingObject--noShadow" alt="" />
+            </div>
+            <div class="col-12 col-lg-6 text-center text-lg-left">
+              <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-10 pb-md-30">Plná podpora.<br> Žádný závazek</h2>
+              <p class="font-20 font-lnh30">Postaráme se o to, aby se vaše zařízení nevybilo. Bezplatně jej budeme aktualizovat. Jakmile zařízení nebudete potřebovat, můžete jej vrátit a přestat platit.</p>
+            </div>
+        </div>
+
+        <div class="row pb-50 align-items-center">
+            <div class="order-2 order-lg-1 col-12 col-lg-6 text-center text-lg-left">
+                <!--<div class="pb-15 font-red font-font2 font-weight-bold font-15">{{ i18n "prototype_product" }}</div>-->
+                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-10 pb-md-30">Teplota. GPS. LPWAN</h2>
+                <p class="font-20 font-lnh30">Zařízení měří a odesílá teplotu a GPS pozici. Jednorázovým poplatkem jej rozšíříte o další senzory a aktivní prvky. Low-power design a LPWAN konektivita v síti NB-IoT nebo LoRaWAN zajistí odesílání dat bez připojení do záskuvky a pevného internetu až 5 let.</p>
+                <img loading="lazy" src="/_assets/images/lpwan_brands.png" class="pt-30 w-100" alt="" />
+            </div>
+            <div class="order-1 order-lg-2 col-12 col-lg-6 text-center">
+                <img loading="lazy" src="/_assets/images/cloud.svg" class="w-50 movingObject movingObject--noShadow" alt="" />
+            </div>
+        </div>
+      </div>
+</section>
+
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+<section>
+                <div class="bg-darkGray font-white ">
+                    <div class="container pt-50">
+                        <div class="row">
+                          <div class="col-12 col-lg-12 pb-30 text-center">
+                              <h2 class="font-weight-black font-40 font-lnh44">Příklady projektů, které můžete nasadit</h2>
+                          </div>
+                            <div class="col">
+                                <div class="slick">
+
+                                  {{ $cases := where (where .Site.RegularPages "Section" "use-cases") ".Params.device" "CHESTER"  }}
+                                  {{ with $cases }}
+                                    {{ range $cases.ByWeight }}
+                                      {{ .Render "grid" }}
+                                    {{ end }}
+                                  {{ end }}
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+<section>
+  <div class = "container" id = "order">
+  <div class="row justify-content-center">
+    <div class="pt-10 pt-md-60 col-12 col-md-7 text-center">
+      <h2 class="font-32 font-md-54 font-md-lnh56 font-weight-black">
+        Začněte s IIoT ihned
+      </h2>
+      <p class="font-18 pt-5 pb-20">
+        Zařízení vám pronajmeme za 250 Kč/měsíc včetně konektivity, cloudu a vizualizace.
+      </p>
+      <a href = "#" data-target = "pricelistModal" class = "openModal font-lnh24 font-weight-bold font-font2 font-red button__link getPricelist">Ceník a možnosti rozšíření</a>
+      <a href = "{{ i18n "buy_chester_tester_link" }}" class = "font-lnh24 font-weight-bold font-font2 font-red button__link">Podmínky služby a časté dotazy</a>
+      <!--<a href = "#" class="getOffer font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" data-toggle="modal" data-target=".bd-example-modal-lg">Send me materials</a>-->
+    </div>
+    <div class=" col-12 col-md-6 text-center">
+      <img loading="lazy" src="/_assets/images/chester-device.svg" class="w-50 mt-20 movingObject" alt="" />
+      <div class = "pb-20">
+        <a href="#" data-target = "offerModal" class="openModal getOffer font-lnh24 py-15 px-20 px-md-40 d-inline-block font-weight-bold font-font2 font-white bg-red">Objednat pronájem</a>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+  <div id = "offerModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-md-10">
+                <h2 class = "font-30 font-md-42 pt-50 pb-50 font-weight-black text-center">{{ i18n "interested_in_chester" }}</h2>
+              </div>
+              <div class="col-md-8 text-center" style = "margin-right: -4px;">
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                <script>
+                  hbspt.forms.create({
+                  portalId: "5453210",
+                  formId: "{{ .Params.form_id }}"
+                });
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+        <footer>
+
+{{ end }}
+
+{{ define "additional-scripts" }}
+
+<script src="/_assets/js/{{ index .Site.Data.js.hash "slick.min.js" }}"></script>
+
+<script>
+  $(".slick").slick({
+    dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows:true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+});
+$(window).load(function(){
+  $('.slick-slide').each(function(){
+    max = 0;
+    height = $(this).children().children().height();
+    if(height > max ){
+      max = height+50;
+    }
+  });
+  $('.slick-slide div a').height(max);
+});
+</script>
+
+<script type="text/javascript">
+  $('.getOffer').click(function(){
+    $('#offerModal').modal({
+      keyboard: false
+    })
+  });
+
+</script>
+
+<script>
+  /*$(document).ready(function(){
+    $("main ul").each(function() {
+      $( this ).addClass( "font-list" );
+    });
+  });*/
+
+  $("a[href^=\\#]").click(function(e) {
+    e.preventDefault();
+    var dest = $(this).attr('href');
+    console.log(dest);
+    $('html,body').animate({ scrollTop: $(dest).offset().top }, 'slow');
+  });
+</script>
+{{ end }}
