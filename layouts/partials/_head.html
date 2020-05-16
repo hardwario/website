@@ -7,6 +7,11 @@
 
     <link rel="canonical" href="{{ .Permalink }}">
     <link rel="stylesheet" href="/_assets/css/{{ index .Site.Data.css.hash "main.css" }}" />
+    <link rel="stylesheet" href="/_assets/css/{{ index .Site.Data.css.hash "font.css" }}" />
+    <link rel="stylesheet" href="/_assets/css/{{ index .Site.Data.css.hash "bg.css" }}" />
+    <link rel="stylesheet" href="/_assets/css/{{ index .Site.Data.css.hash "icon.css" }}" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:500,700|Roboto:400,500,700,900&display=swap&subset=cyrillic-ext" rel="stylesheet">
 
 
     {{ partial "favicon.html" . }}
