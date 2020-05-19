@@ -12,10 +12,12 @@ $browser-context: 16; // Default
 @mixin font1()
 {
   font-family: 'Roboto', sans-serif;
+  font-display: swap;
 }
 @mixin font2()
 {
   font-family: 'Roboto Mono', monospace;
+  font-display: swap;
 }
 
 h1,h2,h3,h4,p
