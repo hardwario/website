@@ -5,14 +5,14 @@
   <div class="container abs-3">
       <div class="row">
           <div class="col">
-              <div class="bg-white px-xl-90 pt-80">
-                  <div class="row pb-50">
-                      <div class="col-12 col-md-4 mx-auto text-center">
+              <div class="bg-white px-xl-90 pt-40 pt-md-80">
+                  <div class="row pb-10">
+                      <div class="col-8 col-md-4 mx-auto text-center">
                           <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ .Params.event_type }}</span></div>
                       </div>
                   </div>
-                  <h1 class="font-weight-black font-30 font-md-64 text-center pb-100 font-md-lnh64">{{ .Title | safeHTML }}</h1>
-                  <div class="d-block d-md-flex mb-100 align-items-center text-uppercase font-15 font-weight-medium">
+                  <h1 class="font-weight-black font-36 font-md-64 text-center pb-40 pb-md-60 font-md-lnh64">{{ .Title | safeHTML }}</h1>
+                  <div class="d-block d-md-flex mb-30 mb-md-60 align-items-center text-uppercase font-15 font-weight-medium">
                       <div class="pl-30 pr-md-30 pr-lg-60 border-left py-10 py-md-30">
                           <div class="font-gray3">{{ i18n "when" }}</div>
                           <span class="font-black" href="">
@@ -36,6 +36,7 @@
                           <div class="font-gray3">{{ i18n "price" }}</div>
                           <span class="font-black" href="">{{ .Params.price | safeHTML }}</span>
                       </div>
+                      <a class = "cta-button font-lnh32 font-md-lnh16 font-lg-lnh32 px-10 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-red" href = "#registrace">Přihlásit se</a>
                   </div>
 
                   <div class="font-22 font-lnh38 pb-0">
