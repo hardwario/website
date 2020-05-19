@@ -33,8 +33,12 @@ Pro registraci na seminář stačí vyplnit formulář níže. Následně se s v
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
-  hbspt.forms.create({
-	portalId: "5453210",
-	formId: "b6518a2e-c039-4324-9fbb-8ef1864cfb65"
+jQuery(window).scroll(function() {
+if (!jQuery('.hbspt-form').length) {
+hbspt.forms.create({
+    portalId: "5453210",
+    formId: "b6518a2e-c039-4324-9fbb-8ef1864cfb65"
+});
+}
 });
 </script>

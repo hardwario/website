@@ -24,8 +24,12 @@ Pro bezplatnou registraci na webinář stačí vyplnit formulář níže. Jako p
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
-  hbspt.forms.create({
-	portalId: "5453210",
-	formId: "db19aa4f-5c26-4095-96b9-91f186af533d"
+jQuery(window).scroll(function() {
+if (!jQuery('.hbspt-form').length) {
+hbspt.forms.create({
+    portalId: "5453210",
+    formId: "db19aa4f-5c26-4095-96b9-91f186af533d"
+});
+}
 });
 </script>

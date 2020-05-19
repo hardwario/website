@@ -43,6 +43,25 @@ gulp.task("scss-main", function () {
         .pipe(gulp.dest("data/css"))
 });
 
+gulp.task("scss-main-addon", function () {
+    //del(["static/_assets/css/www/**/*"])
+    gulp.src("src/scss/main-addon.scss")
+    //del(["static/_assets/css/*"])
+        .pipe(sass({outputStyle : "compressed"}))
+        .pipe(autoprefixer({browsers : ["last 20 versions"]}))
+        .pipe(purify(['static/_assets/js/**/*.js', 'layouts/**/*.html']))
+        .pipe(cleanCSS({debug: true}, (details) => {
+          console.log(`${details.name}: ${details.stats.originalSize}`);
+          console.log(`${details.name}: ${details.stats.minifiedSize}`);
+        }))
+        .pipe(hash())
+        .pipe(gulp.dest("static/_assets/css"))
+        //Create a hash map
+        .pipe(hash.manifest("hash.json"))
+        //Put the map in the data directory
+        .pipe(gulp.dest("data/css"))
+});
+
 gulp.task("scss-font", function () {
     //del(["static/_assets/css/www/**/*"])
     gulp.src("src/scss/components/font.scss")
@@ -111,7 +130,7 @@ gulp.task("js", function () {
 });
 
 // Watch asset folder for changes
-gulp.task("watch", ["js","scss-main","scss-font","scss-bg","scss-icon"], function () {
+gulp.task("watch", ["js","scss-main","scss-main-addon","scss-font","scss-bg","scss-icon"], function () {
     gulp.watch("src/scss/**/*", ["scss-main"])
     gulp.watch("src/js/**/*", ["js"])
 });
