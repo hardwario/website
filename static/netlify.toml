@@ -1,0 +1,4 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self'; connect-src 'self' fonts.gstatic.com; style-src 'self' fonts.gstatic.com cdn.jsdelivr.net; script-src 'self' www.googletagmanager.com connect.facebook.net js.hs-analytics.net js.hs-banners.com js.hs-scripts.com js.hsadspixel.net js.hscollectedforms.net js.hsleadflows.net js.usemessages.com lftracker.leadfeeder.com snap.licdn.com www.google-analytics.com; img-src 'self' track.hubspot.com www.facebook.com www.google.com www.google.cz m.addthis.com s7.addthis.com v1.addthisedge.com;"
