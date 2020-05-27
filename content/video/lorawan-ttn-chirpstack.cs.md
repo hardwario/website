@@ -1,6 +1,6 @@
 ---
 date: "2020-05-21"
-title: LoRaWAN prakticky, vytvoření vlastní sítě, použití The Things Network
+title: LoRaWAN prakticky: vlastní síť, Chirpstack, The Things Network
 slug: lorawan-prakticky
 meta_title: LoRaWAN - jak vytvořit vlastní síť, jak použít The Things Network, záznam webináře | HARDWARIO
 meta_description: Jak vytvořit vlastní LoRaWAN? Jak připojit zařízení do sítě LoRa, ať už se jedná o České radiokomunikace nebo The Things Network?
