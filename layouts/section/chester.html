@@ -385,8 +385,6 @@
           </div>
           </div>
 
-
-
           <div id = "offerModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered">
               <div class="modal-content">
@@ -397,17 +395,14 @@
                         <h2 class = "font-30 font-md-42 pt-50 pb-50 font-weight-black text-center">{{ i18n "interested_in_chester" }}</h2>
                       </div>
                       <div class="col-md-8 text-center" style = "margin-right: -4px;">
+
                         <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-                        <script>
-                        jQuery(window).scroll(function() {
-                            if (!jQuery('.hbspt-form').length) {
-                                hbspt.forms.create({
-                                  portalId: "5453210",
-                                  formId: "{{ .Params.form_id }}"
-                                });
-                            }
-                        });
-                        </script>
+<script>
+  hbspt.forms.create({
+    portalId: "5453210",
+    formId: "{{ .Params.form_id }}"
+});
+</script>
                       </div>
                     </div>
                   </div>
