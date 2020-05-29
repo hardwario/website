@@ -10,16 +10,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6 text-center text-md-left">
-                    <h1 class="font-40 font-md-64 font-md-lnh68 font-weight-black pt-40 pb-40 pb-md-40">Začněte s IIoT jednoduše</h1>
+                    <h1 class="font-40 font-md-64 font-md-lnh68 font-weight-black pt-40 pb-40 pb-md-40">IIoT bez starostí</h1>
+                    <!--<p class = "font-24 font-gray2">Odstartujte svůj IoT projekt bez velkých vstupních investic. Pronajmětě si kompletní řešení a začněte ihned.</p>-->
                     <ul class = "font-list ml-0 pl-0">
-                      <li class = "font-24 font-gray2">Žádná vstupní investice</li>
-                      <li class = "font-24 font-gray2">Kompletní řešení včetně konektivity a cloudu</li>
-                      <li class = "font-24 font-gray2">Bez úvazku. Ukončete kdykoli</li>
+                      <li class = "font-24 font-gray2">Pronájem zařízení včetně kontektivity a cloudu</li>
+                      <li class = "font-24 font-gray2">Bez závazku. Zařízení můžete kdykoli vrátit</li>
+                      <li class = "font-24 font-gray2">Okamžitě získáte data o vaší výrobě, provozu nebo prostředí společnosti</li>
 
                     </ul>
                     <p class="font-24 font-gray2 font-lnh37 pb-40"></p>
                     <div>
-                        <a href="#solution" class="cta-button font-lnh54 px-70 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "tell_me_more" }}</a>
+                        <a href="#order" class="cta-button font-lnh54 px-70 d-inline-block font-weight-bold font-font2 font-white bg-red">Objednat pronájem</a>
                     </div>
                 </div>
             </div>
@@ -28,56 +29,48 @@
 </section>
 
 <section>
-    <div class="container pt-20" id = "solution">
-
-      <div class="row mb-40">
-          <div class="col">
-              <div class="row">
-                  <div class="col-8 col-md-6 col-lg-5 col-xl-4 mx-auto text-center">
-                      <div class="font-redLined text-center font-red mb-10 font-font2 font-weight-bold font-15"><span>Jak to funguje</span></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="row pb-10 pb-md-60">
+                  <div class="col-12 col-md-10 mx-auto text-center pt-30 pt-md-0">
+                      <h2 class="text-center pb-20 font-weight-black font-36 font-md-48">Jak to funguje</h2>
+                      <p class="text-center font-24 font-lnh38">Pronajmeme vám víceúčelový IoT hub pro vaše projekty.
+                        Součástí služby je zařízení, jeho servis, technická podpora, konektivita NB-IoT nebo LoRaWAN a HARDWARIO Cloud včetně REST API a&nbsp;Webhooků. Řešení jednoduše integrujete s vašim systémem. Za 250 Kč měsíčně.</p>
                   </div>
               </div>
+
+            </div>
           </div>
-      </div>
-
-        <div class="row pb-50 align-items-center">
-            <div class="order-2 order-lg-1 col-12 col-lg-6 text-center text-lg-left">
-                <!--<div class="pb-15 font-red font-font2 font-weight-bold font-15">{{ i18n "prototype_product" }}</div>-->
-                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-10 pb-md-30">Flexibilní řešení. Nízké měsíční náklady</h2>
-                <p class="font-20 font-lnh30">Za měsíční paušál získáte IoT zařízení včetně LPWAN konektivity, přístupu ke cloudové platfomě a vizualizaci v&nbsp;aplikaci Grafana nebo Ubidots.</p>
-            </div>
-            <div class="order-1 order-lg-2 col-12 col-lg-6 text-center">
-                <img loading="lazy" src="/_assets/images/non-invasive.svg" class="w-75 mb-10 moovingObject moovingObject--noShadow" alt="" />
-            </div>
         </div>
+    </section>
 
-        <div class="row pb-50 align-items-center">
+
+<section>
+    <div class = "bg-darkGray font-white" style = "background: #1a1a1a;">
+    <div class="container pt-20 " id = "solution">
+
+        {{ with .Site.GetPage "/chester" }}
+        <div class="row pt-50 pb-50 align-items-center">
             <div class="col-12 col-lg-6 text-center">
-                <img loading="lazy" src="/_assets/images/lowpower.svg" class="w-50 movingObject movingObject--noShadow" alt="" />
+                <img loading="lazy" src="/_assets/images/chester.png" class="w-75" alt="" />
             </div>
             <div class="col-12 col-lg-6 text-center text-lg-left">
-              <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-10 pb-md-30">Plná podpora.<br> Žádný závazek</h2>
-              <p class="font-20 font-lnh30">Postaráme se o to, aby se vaše zařízení nevybilo. Bezplatně jej budeme aktualizovat. Jakmile zařízení nebudete potřebovat, můžete jej vrátit a přestat platit.</p>
+              <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-10 pb-md-30">{{ .Params.heading | safeHTML }}</h2>
+              <p class="font-20 font-lnh30 pb-20">{{ .Params.description | safeHTML }}</p>
+              <p class="font-20 font-lnh30 pb-20">V základní konfiguraci odesílá teplotu, otřes, náklon a GPS pozici.</p>
+              <a href="{{ .Permalink }}" class="cta-button font-lnh54 font-md-lnh40 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-red">{{ i18n "learn_more" }}</a>
             </div>
         </div>
+        {{ end }}
 
-        <div class="row pb-50 align-items-center">
-            <div class="order-2 order-lg-1 col-12 col-lg-6 text-center text-lg-left">
-                <!--<div class="pb-15 font-red font-font2 font-weight-bold font-15">{{ i18n "prototype_product" }}</div>-->
-                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-10 pb-md-30">Teplota. GPS. LPWAN</h2>
-                <p class="font-20 font-lnh30">Zařízení měří a odesílá teplotu a GPS pozici. Jednorázovým poplatkem jej rozšíříte o další senzory a aktivní prvky. Low-power design a LPWAN konektivita v síti NB-IoT nebo LoRaWAN zajistí odesílání dat bez připojení do záskuvky a pevného internetu až 5 let.</p>
-                <img loading="lazy" src="/_assets/images/lpwan_brands.png" class="pt-30 w-100" alt="" />
-            </div>
-            <div class="order-1 order-lg-2 col-12 col-lg-6 text-center">
-                <img loading="lazy" src="/_assets/images/cloud.svg" class="w-50 movingObject movingObject--noShadow" alt="" />
-            </div>
-        </div>
+      </div>
       </div>
 </section>
 
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 <section>
-                <div class="bg-darkGray font-white ">
+                <div class="bg-darkGray font-white" style = "background: #1a1a1a;">
                     <div class="container pt-50">
                         <div class="row">
                           <div class="col-12 col-lg-12 pb-30 text-center">
@@ -109,17 +102,18 @@
         Začněte s IIoT ihned
       </h2>
       <p class="font-18 pt-5 pb-20">
-        Zařízení vám pronajmeme za 250 Kč/měsíc včetně konektivity, cloudu a vizualizace.
+        Pronajměte si IoT hub za 250 Kč/měsíc včetně konektivity, cloudu a vizualizace a&nbsp;získejte data o vaší společnosti.
       </p>
       <a href = "#" data-target = "pricelistModal" class = "openModal font-lnh24 font-weight-bold font-font2 font-red button__link getPricelist">Ceník a možnosti rozšíření</a>
       <a href = "{{ i18n "buy_chester_tester_link" }}" class = "font-lnh24 font-weight-bold font-font2 font-red button__link">Podmínky služby a časté dotazy</a>
       <!--<a href = "#" class="getOffer font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" data-toggle="modal" data-target=".bd-example-modal-lg">Send me materials</a>-->
     </div>
     <div class=" col-12 col-md-6 text-center">
-      <img loading="lazy" src="/_assets/images/chester-device.svg" class="w-50 mt-20 movingObject" alt="" />
-      <div class = "pb-20">
+      <div class = "pt-20 pb-20">
         <a href="#" data-target = "offerModal" class="openModal getOffer font-lnh24 py-15 px-20 px-md-40 d-inline-block font-weight-bold font-font2 font-white bg-red">Objednat pronájem</a>
       </div>
+      <img loading="lazy" src="/_assets/images/chester-device.svg" class="w-50 mt-20 movingObject" alt="" />
+
     </div>
   </div>
   </div>
