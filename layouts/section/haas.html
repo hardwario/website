@@ -9,8 +9,8 @@
     <div class="bg-image16 pt-50 pt-lg-0 d-flex align-items-center mb-20" style = "background-position: bottom right; min-height: 641px">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-7 text-center text-md-left">
-                    <h1 class="font-40 font-md-64 font-md-lnh68 font-weight-black pt-40 pb-40 pb-md-40">IoT řešení. 250&nbsp;Kč&nbsp;měsíčně</h1>
+                <div class="col-12 col-lg-8 text-center text-md-left">
+                    <h1 class="font-40 font-md-64 font-md-lnh68 font-weight-black pt-40 pb-40 pb-md-40">Průmyslové IoT řešení<br/> za 250&nbsp;Kč&nbsp;měsíčně</h1>
                     <!--<p class = "font-24 font-gray2">Odstartujte svůj IoT projekt bez velkých vstupních investic. Pronajmětě si kompletní řešení a začněte ihned.</p>-->
                     <ul class = "font-list ml-0 pl-0">
                       <li class = "font-24 font-gray2">Pronájem zařízení včetně konektivity a&nbsp;cloudu</li>
@@ -36,7 +36,7 @@
                   <div class="col-12 col-md-10 mx-auto text-center pt-30 pt-md-0">
                       <h2 class="text-center pb-20 font-weight-black font-36 font-md-48">Jak to funguje</h2>
                       <p class="text-center font-24 font-lnh38">Pronajmeme vám víceúčelový IoT hub pro vaše projekty.
-                        Součástí služby je zařízení, jeho servis, technická podpora, konektivita NB-IoT nebo LoRaWAN a HARDWARIO Cloud včetně REST API a&nbsp;Webhooků. Řešení jednoduše integrujete s vašim systémem.</p>
+                        Součástí služby je zařízení, jeho servis, technická podpora, konektivita NB-IoT nebo LoRaWAN a HARDWARIO Cloud včetně REST API, Webhooků a vizualizace. Řešení jednoduše integrujete s vašim systémem.</p>
                   </div>
               </div>
 
@@ -58,7 +58,7 @@
             <div class="col-12 col-lg-6 text-center text-lg-left">
               <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-10 pb-md-30">{{ .Params.heading | safeHTML }}</h2>
               <p class="font-20 font-lnh30 pb-20">{{ .Params.description | safeHTML }}</p>
-              <p class="font-20 font-lnh30 pb-20">V základní konfiguraci odesílá teplotu, otřes, náklon a GPS pozici.</p>
+              <p class="font-20 font-lnh30 pb-20">V základní konfiguraci odesílá teplotu, otřes, náklon a GPS pozici. Rozšířit jej můžete o mnoho externích senzorů.</p>
               <a href="{{ .Permalink }}" class="cta-button font-lnh54 font-md-lnh40 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-red">{{ i18n "learn_more" }}</a>
             </div>
         </div>
@@ -67,21 +67,27 @@
 
         <div class = "row pt-30">
             <div class = "col-3">
-              <img loading="lazy" src="/_assets/images/icons/device.svg" class="w-25 pb-10" alt="" />
-              <h2 class = "font-20 font-weight-bold">Kompletní servis</h2>
-              <p>Zařízení, rozhraní pro rozšíření, výměna baterií, servis.</p>
+              <img loading="lazy" src="/_assets/images/icons/device.svg" height = "80" class="pb-10" alt="" />
+              <h2 class = "font-22 font-weight-bold pb-10">Kompletní servis</h2>
+              <p>Zařízení, rozhraní pro rozšíření, výměna baterií, servis, podpora.</p>
             </div>
 
             <div class = "col-3">
-              <img loading="lazy" src="/_assets/images/icons/connectivity.svg" class="w-25 pb-10" alt="" />
-              <h2 class = "font-20 font-weight-bold">Konektivita</h2>
-              <p>Nezávislé připojení k internetu přes LPWAN (NB-IoT nebo LoRaWAN)</p>
+              <img loading="lazy" src="/_assets/images/icons/connectivity.svg" height = "80" class="pb-10" alt="" />
+              <h2 class = "font-22 font-weight-bold pb-10">Konektivita</h2>
+              <p>Nezávislé připojení k internetu přes LPWAN (NB-IoT nebo LoRaWAN).</p>
             </div>
 
             <div class = "col-3">
-              <img loading="lazy" src="/_assets/images/icons/cloud.svg" class="w-25 pb-10" alt="" />
-              <h2 class = "font-20 font-weight-bold">HARDWARIO Cloud</h2>
+              <img loading="lazy" src="/_assets/images/icons/cloud.svg" height = "80" class="pb-10" alt="" />
+              <h2 class = "font-22 font-weight-bold pb-10">HARDWARIO Cloud</h2>
               <p>Správa zařízení, vizualizace, REST API, Webhooky</p>
+            </div>
+
+            <div class = "col-3">
+              <img loading="lazy" src="/_assets/images/icons/warranty2.svg" height = "80" class="pb-10" alt="" />
+              <h2 class = "font-22 font-weight-bold pb-10">Záruka a flexibilita</h2>
+              <p>Bez závazků. Zařízení kdykoli vraťte zpět.</p>
             </div>
 
 
@@ -121,10 +127,10 @@
   <div class="row justify-content-center">
     <div class="pt-10 pt-md-60 col-12 col-md-7 text-center">
       <h2 class="font-32 font-md-54 font-md-lnh56 font-weight-black">
-        Začněte s IIoT ihned
+        Začněte s IIoT bez starostí
       </h2>
       <p class="font-18 pt-5 pb-20">
-        Pronajměte si IoT hub za 250 Kč/měsíc včetně konektivity, cloudu a vizualizace a&nbsp;získejte data o vaší společnosti.
+        Pronajměte si IoT hub za 250 Kč/měsíc včetně konektivity, cloudu a vizualizace.
       </p>
       <a href = "#" data-target = "pricelistModal" class = "openModal font-lnh24 font-weight-bold font-font2 font-red button__link getPricelist">Ceník a možnosti rozšíření</a>
       <a href = "{{ i18n "buy_chester_tester_link" }}" class = "font-lnh24 font-weight-bold font-font2 font-red button__link">Podmínky služby a časté dotazy</a>
@@ -132,7 +138,7 @@
     </div>
     <div class=" col-12 col-md-6 text-center">
       <div class = "pt-20 pb-20">
-        <a href="#" data-target = "offerModal" class="openModal getOffer font-lnh24 py-15 px-20 px-md-40 d-inline-block font-weight-bold font-font2 font-white bg-red">Objednat pronájem</a>
+        <a href="#" data-target = "offerModal" class="openModal getOffer font-lnh24 py-15 px-20 px-md-40 d-inline-block font-weight-bold font-font2 font-white bg-red">Mám zájem</a>
       </div>
       <img loading="lazy" src="/_assets/images/chester-device.svg" class="w-50 mt-20 movingObject" alt="" />
 
