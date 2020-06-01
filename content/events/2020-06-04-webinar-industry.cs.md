@@ -4,7 +4,7 @@ time: "14:00 - 15:00"
 price: "Zdarma"
 publishdate: "2020-04-08"
 expirydate: "2020-06-05"
-title: "Postup vývoje hardware na zakázku"
+title: "Jak se dělá vývoj hardware na zakázku"
 hashtags: ["webinar","zdarma"]
 category: industry
 image_main: /events/webinar.jpg
