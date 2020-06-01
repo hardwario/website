@@ -4,7 +4,7 @@ time: "14:00 - 18:00"
 price: "900 Kč"
 publishdate: "2020-05-25"
 expirydate: "2020-06-26"
-title: "Neinvazivní IoT projekty do průmyslu i domácností prakticky - hardware, konektivita, platformy, případovky, náklady"
+title: "IoT prakticky v průmyslu i&nbsp;domácnostech - hardware, konektivita, experimenty, projekty"
 hashtags: ["seminar","praha"]
 category: industry
 image_main: /events/seminar.jpg
@@ -12,20 +12,23 @@ event_type: "Seminář"
 place: "Praha"
 ---
 
-Chcete si prakticky vyzkoušet postavit IoT pilot pro Průmysl 4.0? Přihlaste se na **HARDWARIO seminář** na téma **Neinvazivní IoT projekty v průmyslu i&nbsp;domácnostech**. Strávíme 4 hodiny praktickými ukázkami projektů průmyslu 4.0 a případovými studiemi. Vybrané projekty si během semináře zkusíte postavit od A do Z - sestavíte hardware, nastavíte jeho fungování, připojíte zařízení k internetu a data budete zpracovávat některou z vizualizačních platforem.
+Zajímají vás témata IoT a Průmysl 4.0? Chcete si prakticky vyzkoušet postavit IoT projekt? Přihlaste se na **HARDWARIO seminář** na téma **IoT prakticky v průmyslu i domácnostech**.
+
+Strávíme 4 hodiny praktickými ukázkami IoT projektů z průmyslu 4.0 i domácností. Vybrané projekty si během semináře zkusíte postavit, sestavíte hardware, nastavíte jeho fungování, připojíte zařízení k internetu a data budete zpracovávat některou z vizualizačních platforem.
 
 Absolvováním semináře navíc **získáte certifikát** pro instalaci IoT zařízení HARDWARIO a budete se moct stát **oficiálním HARDWARIO partnerem**.
 
 **Témata, na která se můžete těšit:**
 
 <ul class = "font-list">
-<li>Úvod do IoT a Průmyslu 4.0. Představení stavebnice HARDWARIO a IoT Hubu CHESTER. LPWAN - praktické představení sítí internetu věcí (LoRa, NB-IoT, Sigfox) a integračních a vizualizačních platforem.</li>
-<li>3 praktické experimenty.</li>
-<li>Inspirace a ukázkové IoT projekty.</li>
+<li>Základy IoT a Průmyslu 4.0 - co je to IoT, Průmysl 4.0, MQTT a Node-RED.</li>
+<li>Představení zařízení HARDWARIO.</li>
+<li>3 praktické experimenty z průmyslu a domácností.</li>
+<li>Inspirace, případové studie a ukázkové IoT projekty.</li>
 <li>Partnerství s HARDWARIO.</li>
 </ul>
 
-Na praktických případových studiích si ukážeme, jak nastavit hardware, konektivitu i integrační a vizualizační platformy. Nebudou chybět informace o časovém rozsahu těchto projektů, jejich **celkových nákladech** a výhodách partnerství s HARDWARIO. **Po celou dobu konání semináře bude pro vás připraveno občerstvení**.
+Nebude chybět inspirativní diskuse a informace o výhodách partnerství s HARDWARIO. **Po celou dobu konání semináře bude pro vás připraveno občerstvení**.
 
 {{% section "Registrace" %}}
 
