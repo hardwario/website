@@ -16,6 +16,6 @@ Zajímá vás, jaké výhody má partnerství s HARDWARIO? Chcete se dozvědět 
 
 Přijďte na náš partnerský webinář, na kterém se potkáte s námi, dalšími zájemci o partnerství a také se současnými partnery, kteří se podělí o své zkušenosti.
 
-Hlavním tématem tohoto webináře bude obchodní systém.
+**Hlavním tématem tohoto webináře bude obchod.** Dozvíte se, jak získáváme klienty, jak je v trychtýři posouváme směrem k realizovaným zakázkám. Ukážeme konkrétní případy v námi používaném systému HubSpot a jak můžete podobným způsobem pracovat i vy.
 
 Pokud se chcete zúčastnit nebo máte k webináři dotaz, napiště nám prosím na e-mail [lukas.fabik@hardwario.com](mailto:lukas.fabik@hardwario.com). Těšíme se!
