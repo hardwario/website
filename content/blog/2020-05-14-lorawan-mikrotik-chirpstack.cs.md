@@ -1,16 +1,16 @@
 ---
-title: Jak vytvořit vlastní síť LoRaWAN? Mikrotik a Chirptack
-meta_title: Jak vytvořit vlastní síť LoRaWAN s Mikrotik a Chirptack
-meta_description: LPWAN technologie se stávají stále dostupnější a cena již není překážkou. V současné době je LoRaWAN nejlepší z kandidátů na poměr dosah/cena/výdrž na baterie. Jak si vytvořit vlastní LoRaWAN?
+title: Jak vytvořit vlastní síť LoRaWAN? Mikrotik a ChirpStack
+meta_title: Jak vytvořit vlastní síť LoRaWAN s Mikrotik a ChirpStack
+meta_description: LPWAN technologie se stávají stále dostupnější a cena již není překážkou. Jednou z možností je LoRaWAN, kterou si můžete vytvořit i svépomocí. Jak na to?
 draft: false
 date: 2020-05-28
-description: LPWAN technologie se stávají stále dostupnější a cena již není překážkou. V současné době je LoRaWAN nejlepší z kandidátů na poměr dosah/cena/výdrž na baterie. Jak si vytvořit vlastní LoRaWAN?
+description: LPWAN technologie se stávají stále dostupnější a cena již není překážkou. Jednou z možností je LoRaWAN, kterou si můžete vytvořit i svépomocí. Jak na to?
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1590659613/blog/2020-05-14-lorawan-mikrotik-chirpstack/lorawan.png
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1590659616/blog/2020-05-14-lorawan-mikrotik-chirpstack/lorawan_wide.png
 author: martin_hubacek
 ---
 
-Rozhodli jsme se sdílet naše zkušenosti s budováním vlastní LoRaWAN sítě. LPWAN technologie se stávají stále dostupnější a cena již není překážkou pro vytvoření vlastní soukromé sítě. V současné době je LoRaWAN nejlepší z kandidátů na poměr dosah/cena/výdrž na baterie. Jelikož naše instalace míří převážně do průmyslu, volíme kvalitní komponenty a osvědčené výrobce. Pro rychlé vytvoření a otestování vlastní LoRaWAN sítě doporučujeme následující řešení:
+Rozhodli jsme se sdílet naše zkušenosti s budováním vlastní LoRaWAN sítě. LPWAN technologie se stávají stále dostupnějšími a cena již není překážkou pro vytvoření vlastní soukromé sítě. Jednou z možností je LoRaWAN, jelikož naše instalace míří převážně do průmyslu, volíme kvalitní komponenty a osvědčené výrobce. Pro rychlé vytvoření a otestování vlastní LoRaWAN sítě doporučujeme následující řešení:
 
 - [Gateway Mikrotik wAP LR8 kit](https://obchod.hardwario.cz/routerboard-mikrotik-lora/)
 - [Průmyslový počítač OnLogic CL210G-10 s Dual LAN](https://obchod.hardwario.cz/onlogic-cl210g-10/)
@@ -44,11 +44,11 @@ LoRaWAN komunikuje na frekvenci 868 MHz v evropě a 915 MHz v americe. Síti je 
 
 LoRaWAN obsahuje i možnost adaptivního data rate, kdy se postupně zvyšuje komunikační rychlost nebo snižuje vysílací výkon, dokud je zpráva ještě doručena z nodu na gateway. Node postupně s každou další zprávou zvyšuje data rate pro úsporu baterie. V okamžiku, kdy již nedostane potvrzení, zvolí algoritmus poslední data rate, při kterém node potvrzení dostal.
 
-### Případová studie ze ŠKODA auto
+## Případová studie ze ŠKODA auto
 
-Vlastní LoRaWAN jsem spustili mimo jiné v závodě společnosti ŠKODA Auto jako součást zavedení systému ANDON. [Napsali o tom případovou studii](/cs/case-studies/skoda-andon/).
+Vlastní LoRaWAN jsme spustili mimo jiné v závodě společnosti ŠKODA Auto jako součást zavedení systému ANDON. [Napsali o tom případovou studii](/cs/case-studies/skoda-andon/).
 
-### Kam pokračovat
+## Kam pokračovat
 
 * [Podrobný návod na vlastní LoRaWAN](https://developers.hardwario.com/projects/private-lora-network-with-mikrotik-and-chirpstack) v naší dokumentaci.
 * [Seznam AT příkazů](https://developers.hardwario.com/tutorials/lora-at-commands-configuration) pro konfiguraci LoRa Testeru
