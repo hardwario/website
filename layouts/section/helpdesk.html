@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<section>
+  <div class = "py-md-200 bg-no-image" style = ""></div>
+  <div class="container abs-3">
+      <div class="row">
+          <div class="col">
+              <div class="bg-white px-xl-90 pt-40 pt-md-80">
+                  <h1 class="font-weight-black font-36 font-md-64 text-center pb-40 pb-md-60 font-md-lnh64">{{ .Title | safeHTML }}</h1>
+                  <div class="font-22 font-lnh38 pb-0">
+                    {{ .Content }}
+                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                    <script>
+                      hbspt.forms.create({
+                    	portalId: "5453210",
+                    	formId: "{{ .Params.form_id }}"
+                    });
+                    </script>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</section>
+
+        <footer>
+{{ end }}
+
+{{ define "additional-scripts" }}
+
+{{ end }}
