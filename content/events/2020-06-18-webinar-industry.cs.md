@@ -4,7 +4,7 @@ time: "14:00 - 15:00"
 price: "Zdarma"
 publishdate: "2020-06-02"
 expirydate: "2020-06-19"
-title: "Jak se dělá vývoj hardware na zakázku"
+title: "Praktické využití verzovacího systému GIT"
 hashtags: ["webinar","zdarma"]
 category: industry
 image_main: /events/webinar.jpg
