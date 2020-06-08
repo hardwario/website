@@ -10,6 +10,7 @@ category: industry
 image_main: /events/webinar.jpg
 event_type: "Webinář"
 place: "Online"
+draft: true
 ---
 
 Zajímá vás, jaké výhody má partnerství s HARDWARIO? Chcete se dozvědět více o produktech HARDWARIO, integracích a možnostech využití ve vašem podníkání?
