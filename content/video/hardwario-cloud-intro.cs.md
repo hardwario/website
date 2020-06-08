@@ -1,12 +1,12 @@
 ---
-date: "2020-04-23"
+date: "2020-06-08"
 title: Začínáme s HARDWARIO Cloud
 slug: hardwario-cloud-navod
 meta_title: Návod pro HARDWARIO Cloud | HARDWARIO Akademie
 meta_description: Naučte se pracovat s HARDWARIO Cloud. Jaké možnosti nabízí? Zjistěte, jak často zařízení vysílá a naměřené hodnoty odešlete na váš endpoint.
 description: Naučte se pracovat s HARDWARIO Cloud. Jaké možnosti nabízí? Zjistěte, jak často zařízení vysílá a naměřené hodnoty odešlete na váš endpoint.
 image_preview: /upload/hw-cloud.png
-video_type: Webinář
+video_type: Návod
 weight: 90
 ---
 
