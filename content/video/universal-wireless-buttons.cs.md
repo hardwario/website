@@ -2,7 +2,7 @@
 date: "2019-08-12"
 title: Univerzální bezdrátová tlačítka
 slug: univerzalni-bezdratova-tlacitka
-meta_title: Univerzální bezdrátová tlačítka | HARDWARIO TV
+meta_title: Univerzální bezdrátová tlačítka | HARDWARIO Akademie
 meta_description: Jaké je uplatnění univerzálních bezdrátových tlačítek v průmyslu a jak pomáhají ve ŠKODA AUTO?
 description: Jaké je uplatnění univerzálních bezdrátových tlačítek v průmyslu a jak pomáhají ve ŠKODA AUTO?
 image_preview: /upload/buttons.jpg

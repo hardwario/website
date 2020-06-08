@@ -2,7 +2,7 @@
 date: "2019-08-12"
 title: Monitoring kvality vnitřního prostředí
 slug: monitoring-vnitrniho-prostredi
-meta_title: Monitoring kvality vnitřního prostředí | HARDWARIO TV
+meta_title: Monitoring kvality vnitřního prostředí | HARDWARIO Akademie
 meta_description: Proč je důležité monitorovat vnitřní prostředí? Jaké veličiny je možné monitorovat a co z nich vyčíst?
 description: Proč je důležité monitorovat vnitřní prostředí? Jaké veličiny je možné monitorovat a co z nich vyčíst?
 image_preview: /upload/iaq.jpg

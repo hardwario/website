@@ -2,7 +2,7 @@
 date: "2020-05-07"
 title: Práce s InfluxDB a&nbsp;Grafanou
 slug: influxdb-grafana
-meta_title: InfluxDB, Grafana - jak s nimi pracovat, záznam webináře | HARDWARIO TV
+meta_title: InfluxDB, Grafana - jak s nimi pracovat, záznam webináře | HARDWARIO Akademie
 meta_description: Proč je Grafana skvělým nástrojem pro vizualizaci dat? A co je to InfluxDB? Na oba nástroje jsme se podívali na našem webináři.
 description: Proč je Grafana skvělým nástrojem pro vizualizaci dat? A co je to InfluxDB? Na oba nástroje jsme se podívali na našem webináři.
 image_preview: /upload/grafana_preview.png

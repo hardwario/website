@@ -2,7 +2,7 @@
 date: "2019-08-12"
 title: MQTT a Node-RED prakticky
 slug: mqtt-node-red-prakticky
-meta_title: MQTT a Node-RED prakticky | HARDWARIO TV
+meta_title: MQTT a Node-RED prakticky | HARDWARIO Akademie
 meta_description: Co je to MQTT a proč je tak populární? Co umožňuje Node-RED? Podívejte se na záznam webináře.
 description: Co je to MQTT a proč je tak populární? Co umožňuje Node-RED? Podívejte se na záznam webináře.
 image_preview: /upload/mqtt.jpg

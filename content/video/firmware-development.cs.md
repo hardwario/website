@@ -2,7 +2,7 @@
 date: "2020-04-23"
 title: Tvoříme firmware pro stavebnici HARDWARIO
 slug: piseme-firmware
-meta_title: Tvoříme firmware pro stavebnici HARDWARIO | HARDWARIO TV
+meta_title: Tvoříme firmware pro stavebnici HARDWARIO | HARDWARIO Akademie
 meta_description: Jak vytvořit svůj první firmware, jak integrovat rádio, jak upravit některý ze stávajících firmwarů aby pracoval tak, jak chcete a jak vypadá firmware použitý v průmyslových řešeních.
 description: Jak vytvořit svůj první firmware? Jak integrovat rádio a jak upravit některý ze stávajících firmwarů aby pracoval tak, jak chcete?
 image_preview: /upload/firmware.jpg

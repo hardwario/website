@@ -2,7 +2,7 @@
 date: "2019-08-12"
 title: Neinvazivní měření efektivnosti výrobních zařízení
 slug: vyuziti-oee-v-prumyslu
-meta_title: Neinvazivní měření efektivnosti výrobních zařízení | HARDWARIO TV
+meta_title: Neinvazivní měření efektivnosti výrobních zařízení | HARDWARIO Akademie
 meta_description: Záznam webináře o tom, co je to OEE, jak pomáhá v průmyslu a jak jej rychle nasadit.
 description: Záznam webináře o tom, co je to OEE, jak pomáhá v průmyslu a jak jej rychle nasadit.
 image_preview: /upload/oee.jpg
