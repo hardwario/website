@@ -5,7 +5,7 @@ slug: vyvoj-hardware
 meta_title: Jak se vyvíjí hardware | HARDWARIO Akademie
 meta_description: V duchu našeho hesla Hardware is HARDWARIO jsme se rozhodli, že vám běhěm našeho dalšího praktického webináře ukážeme, jak hardware vzniká od nápadu až po výrobu.
 description: V duchu našeho hesla Hardware is HARDWARIO jsme se rozhodli, že vám běhěm našeho dalšího praktického webináře ukážeme, jak hardware vzniká od nápadu až po výrobu.
-image_preview: /upload/hardware.jpg
+image_preview: /upload/hardware.png
 video_type: Webinář
 weight: 45
 ---
