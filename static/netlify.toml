@@ -1,5 +1,5 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self' 'unsafe-inline' 'strict-dynamic' https:;script-src 'strict-dynamic'"
+    Content-Security-Policy = "default-src 'self' 'unsafe-inline' 'strict-dynamic' https:;"
     X-Frame-Options = "ALLOW-FROM https://app.hubspot.com"
