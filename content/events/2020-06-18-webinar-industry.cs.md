@@ -20,8 +20,8 @@ Kromě teoretických základů se s vámi během webináře podělíme předevš
 * Jak používáme Git ve spojení s Visual Studio Code a jeho pluginy.
 * Jak prozkoumat Git repozitář v příkazové řádce pomocí nástroje Tig.
 * Jak porovnávat verze nástrojem Meld.
-* Jaké benefity přináší Continuous Integration (CI) a jak ji používáme například pro dokumentaci a automatické buildování a ukládání firmware.
-* Jaké externí služby pracují nad repozitáři v GitHubu a jak je využítáme (Netlify, Read the Docs).
+* Jaké benefity přináší Continuous Integration (CI) a jak ji používáme například pro dokumentaci a&nbsp;automatické buildování a&nbsp;ukládání firmware.
+* Jaké externí služby pracují nad repozitáři v GitHubu a jak je využíváme (např. Netlify, Read the Docs).
 
 Těšíme se na vás.
 
