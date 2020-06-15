@@ -5,11 +5,11 @@ price: "900 Kč"
 publishdate: "2020-06-15"
 expirydate: "2020-07-23"
 title: "IoT prakticky v průmyslu i&nbsp;domácnostech - hardware, konektivita, experimenty, projekty"
-hashtags: ["seminar","praha"]
+hashtags: ["seminar","ostrava"]
 category: industry
 image_main: /events/seminar.jpg
 event_type: "Seminář"
-place: "Praha"
+place: "Ostrava"
 ---
 
 Zajímají vás témata IoT a Průmysl 4.0? Chcete si prakticky vyzkoušet postavit IoT projekt? Přihlaste se na **HARDWARIO seminář** na téma **IoT prakticky v průmyslu i domácnostech**.
