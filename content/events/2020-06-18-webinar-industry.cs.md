@@ -15,6 +15,7 @@ place: "Online"
 Přihlaste se na **bezplatný HARDWARIO webinář** na téma **Praktické využití verzovacího systému GIT**.
 
 Kromě teoretických základů a vysvětlení principů práce se s vámi během webináře podělíme o naše praktické zkušenosti s verzováním nejen softwarového vývoje. Zjistíte, že git využijete také pro:
+
 * verzování hardwarového vývoje,
 * znalostní bázi pro celý tým,
 * verzování právních dokumentů,
