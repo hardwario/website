@@ -16,11 +16,11 @@ Přihlaste se na **bezplatný HARDWARIO webinář** na téma **Praktické využi
 
 Kromě teoretických základů se s vámi během webináře podělíme především o naše praktické zkušenosti. Mimojiné se dozvíte:
 
-* Jak používáme Git pro verzování hardwarového vývoje.
+* Jak používáme Git pro verzování vývojových podkladů.
 * Jak používáme Git ve spojení s Visual Studio Code a jeho pluginy.
 * Jak prozkoumat Git repozitář v příkazové řádce pomocí nástroje Tig.
-* Jak porovnávat verze nástrojem Meld.
-* Jaké benefity přináší Continuous Integration (CI) a jak ji používáme například pro dokumentaci a&nbsp;automatické buildování a&nbsp;ukládání firmware.
+* Jak porovnávat změny nástrojem Meld.
+* Jaké benefity přináší Continuous Integration (CI) a jak ji používáme například pro dokumentaci a&nbsp;automatické buildování a&nbsp;sestavování firmware.
 * Jaké externí služby pracují nad repozitáři v GitHubu a jak je využíváme (např. Netlify, Read the Docs).
 
 Těšíme se na vás.
