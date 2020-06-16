@@ -25,6 +25,8 @@ Kromě teoretických základů se s vámi během webináře podělíme předevš
 
 Těšíme se na vás.
 
+{{% section "Registrace" %}}
+
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
 jQuery(window).scroll(function() {
