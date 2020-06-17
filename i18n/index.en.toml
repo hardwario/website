@@ -10,9 +10,6 @@ other = "Products"
 [three_unique_products]
 other = "We have 3&nbsp;unique products&nbsp;for&nbsp;you"
 
-[solutions]
-other = "Usage of the kit"
-
 [one_kit_for_all_projects]
 other = "Our products are mainly used in&nbsp;these areas"
 

@@ -20,7 +20,7 @@
 {{ else if eq .Section "events" }}
 
     {{ if .IsPage }}
-    <title>{{ .Page.Title }} | HARDWARIO Projects</title>
+    <title>{{ .Page.Title | safeHTML }} | HARDWARIO Events</title>
     <meta name="description" content="{{ .Page.Summary }}">
     <meta property="og:url" content="{{ .URL | absURL }}" />
     <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO Projects">
@@ -28,7 +28,7 @@
     <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image_main }}">
 
     {{ else }}
-    <title>{{ .Page.Title }} | HARDWARIO</title>
+    <title>{{ .Page.Title | safeHTML }} | HARDWARIO</title>
     <meta name="description" content="{{ .Page.Summary }}">
     <meta property="og:url" content="{{ .URL | absURL }}" />
     <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO">
@@ -39,7 +39,7 @@
 {{ else if eq .Section "projects" }}
 
   {{ if .IsPage }}
-  <title>{{ .Page.Title }} | HARDWARIO Projects</title>
+  <title>{{ .Page.Title }} | HARDWARIO</title>
   <meta name="description" content="{{ .Page.Summary }}">
   <meta property="og:url" content="{{ .URL | absURL }}" />
   <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO Projects">
