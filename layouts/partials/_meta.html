@@ -36,6 +36,16 @@
     <meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta.jpg">
     {{ end }}
 
+{{ else if eq .Section "thank-you" }}
+    <meta name="robots" content="noindex, nofollow">
+    <title>{{ .Page.Title | safeHTML }} | HARDWARIO Events</title>
+    <meta name="description" content="{{ .Page.Summary }}">
+    <meta property="og:url" content="{{ .URL | absURL }}" />
+    <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO Projects">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image_main }}">
+
+
 {{ else if eq .Section "projects" }}
 
   {{ if .IsPage }}
