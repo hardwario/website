@@ -9,3 +9,6 @@ other = "Category"
 
 [price]
 other = "Price"
+
+[other_events]
+other = "All events"

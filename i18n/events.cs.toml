@@ -9,3 +9,6 @@ other = "Kategorie"
 
 [price]
 other = "Cena"
+
+[other_events]
+other = "Všechny naše události"
