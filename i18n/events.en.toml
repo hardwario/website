@@ -12,3 +12,6 @@ other = "Price"
 
 [other_events]
 other = "All events"
+
+[thank_you]
+other = "Thank you for your interest"
