@@ -1,0 +1,56 @@
+{{ define "main" }}
+
+<section>
+  <div class = "py-md-200 bg-no-image" style = ""></div>
+  <div class="container abs-3">
+      <div class="row">
+          <div class="col">
+              <div class="bg-white px-xl-90 pt-40 pt-md-80">
+                  <div class="row pb-10">
+                      <div class="col-8 col-md-4 mx-auto text-center">
+                          <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>Hotovo</span></div>
+                      </div>
+                  </div>
+                  <h1 class="font-weight-black font-36 font-md-64 text-center pb-40 pb-md-60 font-md-lnh64">{{ i18n "thank_you" }}</h1>
+                  <div class="font-22 font-lnh38 pb-0">
+                    {{ .Content }}
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</section>
+
+{{ $events := ($.Site.GetPage "section" "events").Pages }}
+{{ with $events }}
+
+<section>
+  <div class = "container">
+  <div class="row pb-10 pt-60 pb-md-30">
+      <div class="col-12 col-md-10 mx-auto text-center pt-60 pt-md-0">
+          <h2 class="text-center font-weight-black font-36 font-md-48">{{ i18n "other_events" | safeHTML }}</h2>
+      </div>
+  </div>
+  <div class="row align-items-start pb-30 mb-md-30 pt-30">
+    {{ $events := ($.Site.GetPage "section" "events").Pages }}
+      {{ range $events.ByDate }}
+      <div class="col-12 col-md-4 pb-30">
+          {{ .Render "grid" }}
+      </div>
+      {{end}}
+
+    <div class="col-12 col-md-6 pb-30">
+
+    </div>
+  </div>
+  </div>
+</section>
+{{ end }}
+
+<footer>
+
+  {{ end }}
+  {{ define "additional-scripts" }}
+  <!--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ce11373d4525996"></script>-->
+  {{ end }}
