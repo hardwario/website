@@ -10,7 +10,7 @@ category: industry
 image_main: /events/seminar.jpg
 event_type: "Seminář"
 place: "Praha"
-draft: false
+draft: true
 ---
 
 Zajímají vás témata IoT a Průmysl 4.0? Chcete si prakticky vyzkoušet postavit IoT projekt? Přihlaste se na **HARDWARIO seminář** na téma **IoT prakticky v průmyslu i domácnostech**.
