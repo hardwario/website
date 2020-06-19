@@ -16,6 +16,7 @@ testimonial_company: Project Manager, E.ON
 testimonial_image: dominik_harma | HARDWARIO případová studien.jpg
 logo: /case-studies/eon_logo.png
 weight: 20
+date: 2019-10-05
 ---
 
 {{< intro >}}

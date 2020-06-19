@@ -10,12 +10,13 @@ industry: Energetics
 product: CHESTER
 featured: false
 full: true
-testimonial_text: "We contacted HARDWARIO after recommendation by Vodafone to test NB-IoT, the Internet of Things network. In a short time, we designed a solution for monitoring the climatic conditions in cablecabinetsand within 2 months we had our device in hand. We look forward to further projects."
+testimonial_text: "We contacted HARDWARIO after recommendation by Vodafone to test NB-IoT, the Internet of Things network. In a short time, we designed a solution for monitoring the climatic conditions in cable cabinets and within 2 months we had our device in hand. We look forward to further projects."
 testimonial_author: Dominik Harman
 testimonial_company: Project Manager, E.ON
 testimonial_image: dominik_harman.jpg
 logo: /case-studies/eon_logo.png
 weight: 20
+date: 2019-10-05
 ---
 
 {{< intro >}}

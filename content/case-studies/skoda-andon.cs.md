@@ -16,6 +16,7 @@ testimonial_company: Expert Coordinator – Škoda Auto
 testimonial_image: vlaciha.jpg
 logo: /case-studies/skoda_logo.jpg
 weight: 0
+date: 2019-10-05
 ---
 
 {{< intro >}}

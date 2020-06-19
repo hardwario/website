@@ -17,6 +17,7 @@ testimonial_company:
 testimonial_image: hbreavis.png
 logo: /case-studies/hbreavis_logo.png
 weight: 30
+date: 2019-10-05
 ---
 
 {{< intro >}}
