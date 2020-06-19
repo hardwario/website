@@ -10,6 +10,7 @@ category: industry
 image_main: /events/seminar.jpg
 event_type: "Seminář"
 place: "Praha"
+description: Zajímají vás témata IoT a Průmysl 4.0? Chcete si prakticky vyzkoušet postavit IoT projekt? Přihlaste se na HARDWARIO seminář** na téma **IoT prakticky v průmyslu i domácnostech. Strávíme 4 hodiny praktickými ukázkami IoT projektů z průmyslu 4.0 i domácností. Vybrané projekty si během semináře zkusíte postavit, sestavíte hardware, nastavíte jeho fungování, připojíte zařízení k internetu a data budete zpracovávat některou z vizualizačních platforem.
 ---
 
 Zajímají vás témata IoT a Průmysl 4.0? Chcete si prakticky vyzkoušet postavit IoT projekt? Přihlaste se na **HARDWARIO seminář** na téma **IoT prakticky v průmyslu i domácnostech**.
