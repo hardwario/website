@@ -10,7 +10,7 @@ category: industry
 image_main: /events/webinar.jpg
 event_type: "Webinar"
 place: "Online"
-description: ""
+description: "Register to free HARDWARIO webinar with topic Ubidots - effortless self-construct IoT application."
 ---
 
 Register to **free HARDWARIO webinar** with topic **Ubidots - effortless self-construct IoT application**.

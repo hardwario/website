@@ -10,6 +10,7 @@ category: industry
 image_main: /events/webinar.jpg
 event_type: "Webinář"
 place: "Online"
+description: Přihlaste se na bezplatný HARDWARIO webinář na téma Ubidots - effortless self-construct IoT application.
 ---
 
 Přihlaste se na **bezplatný HARDWARIO webinář** na téma **Ubidots - effortless self-construct IoT application**.
