@@ -1,5 +1,4 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self' 'unsafe-inline' 'strict-dynamic' https:;"
-    Content-Security-Policy-Report-Only = "<policy-directive>; <policy-directive>"
+    Content-Security-Policy-Report-Only = "default-src 'self' 'unsafe-inline' 'strict-dynamic' https:;"
