@@ -4,16 +4,20 @@ time: "14:00 - 15:00"
 price: "Free"
 publishdate: "2020-06-18"
 expirydate: "2020-07-03"
-title: "Ubidots - effortless self-construct IoT application"
+title: "Effortless self-construct IoT mobile application with Blynk.io"
 hashtags: ["webinar","free"]
 category: industry
 image_main: /events/webinar.jpg
 event_type: "Webinar"
 place: "Online"
-description: "Register to free HARDWARIO webinar with topic Ubidots - effortless self-construct IoT application."
+description: "Register to free HARDWARIO webinar with topic Effortless self-construct IoT mobile application with Blynk.io."
 ---
 
-Register to **free HARDWARIO webinar** with topic **Ubidots - effortless self-construct IoT application**.
+Register to **free HARDWARIO webinar** with topic **Effortless self-construct IoT mobile application with Blynk.io**.
+
+Having your own mobile application for your IoT projects does not always mean you have to develop it. At the webinar, we will introduce you to the Blynk.io solution, which allows anyone to create their own mobile application without the need for programming.
+
+We will show you on practical examples that this is not an application intended only for do-it-yourselfers, but that it is a solution that can also be used in industry.
 
 {{% section "Register" %}}
 
