@@ -1,0 +1,84 @@
+{{ define "header" }}
+  <!-- -->
+{{ end }}
+
+
+{{ define "main" }}
+
+<section>
+    <div class = "bg-darkGray font-white" style = "background: #1a1a1a;">
+    <div class="container pt-90 pb-90" id = "solution">
+
+        <div class="row pt-50 pb-50 align-items-center">
+            <div class="col-12 col-lg-6 pb-20 pb-lg-0 text-center">
+                <img loading="lazy" src="/_assets/images/chester.png" class="w-75" alt="" />
+            </div>
+            <div class="col-12 col-lg-6 text-center text-lg-left">
+              <h2 class="font-40 font-md-56 font-md-lnh64 font-weight-black pb-10 pb-md-30">9. září přijde revoluce. Nezmeškejte&nbsp;ji</h2>
+              <p class="font-20 font-lnh30 pb-20">Přihlaste se. Průběžně vás budeme informovat a včas se připomeneme.</p>
+              <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+              <script>
+                hbspt.forms.create({
+              	portalId: "5453210",
+              	formId: "ffb04866-140e-4fa4-81dc-1cdcbfba067f"
+              });
+              </script>
+              <p class="font-20 font-lnh30 pb-20">Do revoluce zbývá <span id = "countdown"></span>.</p>
+            </div>
+        </div>
+      </div>
+      </div>
+</section>
+
+<footer>
+
+{{ end }}
+
+{{ define "additional-scripts" }}
+
+          <script>
+          // Set the date we're counting down to
+          var countDownDate = new Date("Sep 09, 2020 09:09:00").getTime();
+
+          // Update the count down every 1 second
+          var x = setInterval(function() {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            var tdays = "dnů";
+            var thours = "hodin";
+            var tminutes = "minut";
+            var tseconds = "sekund";
+
+            if(days == 1) tdays = "den";
+            if(hours == 1) thours = "hodina";
+            if(minutes == 1) tminutes = "minuta";
+            if(seconds == 1) tseconds = "sekunda";
+
+            if(days > 1 && days < 5) tdays = "dny";
+            if(hours > 1 && hours < 5) tdays = "hodiny";
+            if(minutes > 1 && minutes < 5) tminutes = "minuty";
+            if(seconds > 1 && seconds < 5) tseconds = "sekundy";
+
+            // Display the result in the element with id="demo"
+            document.getElementById("countdown").innerHTML = days + " " + tdays + ", " + hours + " " + thours + ", " + minutes + " " + tminutes + " a " + seconds + " " + tseconds;
+
+            // If the count down is finished, write some text
+            if (distance < 0) {
+              clearInterval(x);
+              document.getElementById("countdown").innerHTML = "EXPIRED";
+            }
+          }, 1000);
+          </script>
+
+{{ end }}
