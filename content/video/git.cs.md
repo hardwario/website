@@ -1,7 +1,7 @@
 ---
 date: "2020-06-22"
 title: Verzovací systém Git a automatizace
-slug: vyvoj-hardware
+slug: git
 meta_title: Verzovací systém Git a automatizace | HARDWARIO Akademie
 meta_description: Seznamte se s principy, osvědčenými nástroji pro práci s verzovacím systémem Git. V záznamu webináře se ale především dozvíte o našich zkušenostech nejen s Gitem, ale i s některými zajímavými službami.
 description: VSeznamte se s principy, osvědčenými nástroji pro práci s verzovacím systémem Git. V záznamu webináře se ale především dozvíte o našich zkušenostech nejen s Gitem, ale i s některými zajímavými službami.
