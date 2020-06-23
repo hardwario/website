@@ -1,6 +1,6 @@
 ---
 date: "2020-07-02"
-time: "14:00 - 15:00"
+time: "2 - 3 PM CEST"
 price: "Free"
 publishdate: "2020-06-18"
 expirydate: "2020-07-03"
