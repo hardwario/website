@@ -1,0 +1,35 @@
+[documentation]
+other = "Dokumentation"
+
+[documentation_info]
+other = "Entwickler-Dokumentation zu allen unseren Modulen und Integrationen."
+
+[show_docs]
+other = "Dokumentation öffnen"
+
+[sdk]
+other = "SDK-Bibliothek"
+
+[sdk_info]
+other = "Möchten Sie Ihre eigene Firmware erstellen? Dann brauchen Sie eine SDK-Bibliothek."
+
+[show_sdk]
+other = "SDK-Bibliothek öffnen"
+
+[find_an_inspiration_projects]
+other = "Lassen Sie sich von Muster-Projekten mit&nbsp;Anleitung inspirieren."
+
+[other_resources]
+other = "Weitere nützliche Materialien"
+
+[events_list]
+other = "Veranstaltungen"
+
+[learning_materials]
+other = "Lehrmaterialien"
+
+[materials_description]
+other = "Lernen Sie den Umgang mit dem HARDWARIO-Baukasten, mit Playground, mit der App Node-RED und mit weiteren nützlichen Integrationen."
+
+[come_to_event]
+other = "Wir veranstalten persönliche sowie Online-Meetings, machen Sie mit."

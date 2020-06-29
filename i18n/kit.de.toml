@@ -1,0 +1,140 @@
+[industrial_iot_kit]
+other = "IoT&nbsp;-Baukasten für die Industrieanwendung"
+
+[about_kit]
+other = "Beschreibung des Baukastens"
+
+[high_quality_security]
+other = "Hohe Qualität und&nbsp;Sicherheit"
+
+[industry_applications]
+other = "Ein Industriebaukasten, mit dem ganz einfach IoT-Projekte umgesetzt werden können. Der Baukasten umfasst mehr als 40 verschiedene Module und findet vor allem in Industrie&nbsp;-4.0-Pilotprojekten, im Rahmen aktiver STEM-Ausbildung und&nbsp;auch in Smart-Home-Projekten Anwendung."
+
+[wide_range_connectivity]
+other = "Breites Angebot im Bereich IoT&nbsp;-Konnektivität"
+
+[radio_lpwan]
+other = "Zusammengebaute Geräte können lokal über ein Sub-GHZ-Funknetzwerk oder LPWAN-Technologien wie LoRaWAN, Sigfox und &nbsp;mittels <a href = '/cs/chester/'>IoT-Hub CHESTER</a> sowie&nbsp;NB-IoT kommunizieren. Das heißt, der Baukasten kann auch von Orten aus kommunizieren, an denen keine normale Internetverbindung zur Verfügung steht."
+
+[works_from_batteries_for_years]
+other = "Zusammengebaute Sensoren, Detektoren und Regler zeichnen sich durch einen niedrigen Stromverbrauch aus und&nbsp;können&nbsp;mit Batterien über mehrere Jahre hinweg versorgt werden. Eingeschlossen in ein Industriegehäuse kann der Baukasten auch im&nbsp;Außenbereich und&nbsp;in staubiger Umgebung betrieben werden."
+
+[open_source_integarion]
+other = "Open Source"
+
+[open_integration]
+other = "Beim ganzen Baukasten handelt es sich um eine Open-Source-Lösung, die&nbsp;Integrationen in&nbsp;beliebte Plattformen wie Node-RED, Microsoft Azure, AWS, Ubidots, Blynk, IFTTT, Amazon Alexa, Google Home oder Apple HomeKit unterstützt. Es ist ebenfalls möglich, den Baukasten über REST API und Webhooks in Ihren Endpoint zu integrieren."
+
+[academy_projects_docs]
+other = "Akademie, Projekte, Dokumentation"
+
+[academy_projects_docs_desc]
+other = "Dank <a href = '/cs/academy/co-je-to-bigclown-playground/'>Playground</a>, <a href = '/cs/academy/'>Akademie</a> und <a href = '/cs/projects'>Musterprojekten</a> ist es äußerst einfach, mit dem Baukasten zu arbeiten zu beginnen. Sie können das Gerät einfach einstellen, mit dem&nbsp;Computer paaren und dank visueller Programmierung auch vorgeben, wie der Baukasten funktionieren soll. Fortgeschrittenes Verhalten und&nbsp;Integrationen können mit Hilfe der&nbsp;<a href = 'https://developers.hardwario.com' target = '_blank'>Dokumentation</a>und&nbsp;<a href = 'https://sdk.hardwario.com'>SDK-Bibliothek umgesetzt werden</a>."
+
+[get_kit]
+other = "Baukasten kaufen"
+
+[buy]
+other = "Kaufen"
+
+[pilots]
+other = "Schnelle IoT<br/>-Pilotprojekte"
+
+[concepts]
+other = "Überprüfung der&nbsp;Konzepte von Industrie&nbsp;4.0"
+
+[stem_edu]
+other = "Aktiver STEM-Unterricht"
+
+[radio_communication]
+other = "Radio communication"
+
+[memory]
+other = "Speicher"
+
+[power_voltage_range]
+other = "Spannungsbereich"
+
+[dimensions]
+other = "Maße"
+
+[interfaces]
+other = "Schnittstelle"
+
+[to]
+other = "bis"
+
+[width]
+other = "Breite"
+
+[height]
+other = "Höhe"
+
+[10pin_swd_connector]
+other = "10-Pin-SWD-Stecker für das Justieren"
+
+[swd_connector]
+other = "SWD-Stecker"
+
+[red_LED]
+other = "Rote LED"
+
+[hardwario_tag]
+other = "Position für HARDWARIO-Tag"
+
+[button]
+other = "Taste"
+
+[micro_usb]
+other = "Micro-USB für Kommunikation, Firmware-Upload oder Stromversorgung"
+
+[go_to_shop]
+other = "Zum Shop wechseln"
+
+[climate]
+other = "Temperatur-, Feuchtigkeits-, Beleuchtungsintensitäts- und Luftdruckmessung"
+
+[co2]
+other = "Messung von Kohlendioxid in Büros, Schulen und Heimen"
+
+[voc]
+other = "Messung der Konzentration von flüchtigen organischen Verbindungen"
+
+[gps]
+other = "Positionsüberwachung mittels GPS / Galileo / GLONASS"
+
+[pir]
+other = "Bewegungserkennung, unabhängiger Sicherheitsalarm"
+
+[infra_grid]
+other = "Wärmebildkamera"
+
+[lcd]
+other = "Display für Datenanzeige"
+
+[button_module]
+other = "Programmierbare Taste"
+
+[rfid]
+other = "RFID-Identifikation"
+
+[relay]
+other = "Bedienung eines LED-Streifens, Ventilators oder Garagentors"
+
+[sensor]
+other = "Bis zu 4 universelle Ein-/Ausgänge, z. B. externes Thermometer"
+
+[buy_kit]
+other = "Den Baukasten können Sie per Internet in unserem Online-Shop kaufen. Anleitungen und&nbsp;Projekte werden online&nbsp;veröffentlicht."
+
+[view_docs]
+other = "Dokumentation ansehen"
+
+[inspiration]
+other = "Projekte, von denen Sie sich inspirieren lassen können"
+
+[brain_of_kit]
+other = "Grundmodul, sozusagen der Kopf des ganzen Baukastens"
+
+[and_many_more]
+other = "+ viele weitere Module und anschließbare Sensoren"

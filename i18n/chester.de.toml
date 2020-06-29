@@ -1,0 +1,236 @@
+[multipurpose_hub]
+other = "Mehrzweck-IoT&nbsp;-Hub"
+
+[learn_more]
+other = "Mehr Informationen"
+
+[low_power_consumption]
+other = "Geringer Stromverbrauch"
+
+[10years_from_batteries]
+other = "Das Gerät zeichnet sich durch sehr geringen Stromverbrauch aus – deshalb kann es von einer Batterie bis zu 10 Jahre lang versorgt werden. CHESTER kann auch im&nbsp;Außenbereich und in&nbsp;staubiger Umgebung betrieben werden."
+
+[multipurpose_use]
+other = "Vielseitige Nutzung"
+
+[one_device_many_applications]
+other = "CHESTER ist ein Modular-Gerät, mit dem viele IoT-Anwendungen abgedeckt werden können. Es dient zur Telemetrie von Daten aus&nbsp;angeschlossenen Systemen, zur Überwachung von physikalischen Größen, zur Fernsteuerung und/oder Positionsüberwachung."
+
+[lpwan_connectivity]
+other = "LPWAN-Konnektivität"
+
+[economical_internet_communication]
+other = "Internet-Kommunikation mit niedrigem Stromverbrauch auch von entfernten Orten aus. CHESTER kommuniziert über LPWAN-Technologien wie NB-IoT oder LoRaWAN, und zwar auch von Orten aus, an denen keine normale Internetverbindung zur Verfügung steht."
+
+[integrate_device]
+other = "Zur Integration bereit"
+
+[hundreds_of_services]
+other = "CHESTER kann einfach mit einer Cloud, Smartphone-App und weiteren Diensten wie Azure IoT Hub, Grafana, Ubidost oder Blynk verbunden und über REST API und Webhooks in Ihren Endpoint integriert werden."
+
+[applications]
+other = "Applikation"
+
+[about_chester]
+other = "Beschreibung von CHESTER"
+
+[monitoring_quantities]
+other = "Größenüberwachung"
+
+[telemetry]
+other = "Datentelemetrie"
+
+[tracking]
+other = "Positionsüberwachung"
+
+[remote_control]
+other = "Fernsteuerung"
+
+[smart_home]
+other = "Smart Home"
+
+[lpwan_tester]
+other = "<br/>LPWAN-Tester"
+
+[power_voltage]
+other = "Versorgungsspannung"
+
+[sleep_consumption]
+other = "Ruheverbrauch"
+
+[maximum_consumption]
+other = "Maximaler Verbrauch"
+
+[battery_capacity]
+other = "Kapazität der Batterie"
+
+[temperature_accuracy]
+other = "Genauigkeit der Temperaturmessung"
+
+[humidity_accuracy]
+other = "Genauigkeit der Feuchtigkeitsmessung"
+
+[working_temperature_range]
+other = "Arbeitstemperaturbereich"
+
+[storage_temperature_range]
+other = "Lagertemperaturbereich"
+
+[degree_protection]
+other = "Schutzart"
+
+[overview]
+other = "Vorstellung"
+
+[tech_specs]
+other = "Spezifikation"
+
+[order]
+other = "Ich will CHESTER"
+
+[module]
+other = "Modul"
+
+[interface]
+other = "Schnittstelle"
+
+[description_examples]
+other = "Beschreibung/Anwendungsbeispiele"
+
+[i2c]
+other = "Externe I2C-Peripherien"
+
+[ext_temp_hum]
+other = "Externe Thermometer und Feuchtigkeitsmesser"
+
+[ultrasound]
+other = "Ultraschallsensor"
+
+[level_measurement]
+other = "Pegelmessung Wasserbehälter"
+
+[4_ext_input]
+other = "4× externer Eingang"
+
+[analog_digital]
+other = "Analog/digital; Bereich 0 bis 28 V"
+
+[4_switch]
+other = "4× Schaltkontakt"
+
+[buttons_etc]
+other = "Tasten, Reed-Kontakte, Stromverbrauchsmesser usw."
+
+[1_wire]
+other = "1-Wire-Bus"
+
+[temp_soil]
+other = "Temperatursensor oder Bodenfeuchte"
+
+[reading_data_devices]
+other = "Auslesen von Daten aus verschiedenen Geräten"
+
+[rs_485]
+other = "RS-485-Schnittstelle"
+
+[modbus]
+other = "Kommunikation über Modbus-Protokoll"
+
+[pt1000]
+other = "Schnittstelle für Pt1000"
+
+[rtd_temp]
+other = "Anschluss von RTD-Industriethermometern"
+
+[thermocouples]
+other = "Unterstützung für Thermoelemente"
+
+[extrem_temp]
+other = "Messung von Extremtemperaturen"
+
+[dc_dc]
+other = "DC/DC-Wandler"
+
+[ext_supply]
+other = "Stromversorgung über eine externe Quelle 5 bis 28 V"
+
+[connect_industry_sensors]
+other = "Anschluss von Industriesensoren"
+
+[analog_input]
+other = "Analogeingang"
+
+[tension_accurate_measurement]
+other = "Genaue Spannungsmessung -30 bis +30 V"
+
+[strain_gauge]
+other = "4x Dehnungsmesser"
+
+[accurate_weight_measurement]
+other = "Schnittstelle für genaue Gewichtsmessung"
+
+[get_chester]
+other = "Besorgen Sie sich CHESTER"
+
+[chester_price]
+other = "Preise ab 3.300 CZK zzgl. USt., je nach Konfiguration und&nbsp;Stückzahl."
+
+[get_chester_pricelist]
+other = "Ich will eine &nbsp;vollständige&nbsp;Preisliste"
+
+[buy_chester_tester]
+other = "&nbsp;Tester&nbsp; sofort kaufen"
+
+[buy_chester_tester_link]
+other = "https://obchod.hardwario.cz/nb-iot-tester/"
+
+[interested_in_chester]
+other = "Ich möchte CHESTER kaufen"
+
+[modification_integration]
+other = "Modifikationen, Integrationen und Branding nach Kundenwünschen"
+
+[extended_warranty]
+other = "Erweiterte 3-jährige Garantie und&nbsp;100&nbsp;Tage Probefrist"
+
+[personal_tech_support]
+other = "Persönliche technische Unterstützung bei&nbsp;Implementierung und Integration"
+
+[extension_options]
+other = "Erweiterungsoptionen"
+
+[antenna_connector]
+other = "Antennenstecker"
+
+[embedded]
+other = "Eingebaut"
+
+[battery_holder]
+other = "Batteriehalter"
+
+[accelerometer]
+other = "Beschleunigungssensor"
+
+[cryptochip]
+other = "Kryptochip"
+
+[thermometer]
+other = "Thermometer"
+
+[humidity_meter]
+other = "Feuchtigkeitsmesser"
+
+[therminal_blocks]
+other = "Klemmleiste für externe Peripherien"
+
+[usage_examples]
+other = "Anwendungsbeispiele"
+
+[usage]
+other = "Anwendung"
+
+[extension]
+other = "Erweiterung"
+
+[customer]
+other = "Kunde"
