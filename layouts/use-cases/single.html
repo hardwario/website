@@ -11,7 +11,7 @@
                           <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "use_case" | safeHTML }} {{ .Params.device }}</span></div>
                       </div>
                   </div>
-                  <h1 class="font-weight-black font-36 font-md-64 text-center pb-40 pb-md-100 font-md-lnh64">{{ .Title }}</h1>
+                  <h1 class="font-weight-black font-36 font-md-64 text-center pb-40 pb-md-100 font-md-lnh64">{{ .Title | safeHTML }}</h1>
 
                   <div class="font-22 font-lnh38 pb-0">
                     {{ .Content }}
