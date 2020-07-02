@@ -141,3 +141,48 @@ other = "Useful links"
 
 [follow_us]
 other = "Follow our social networks. Don't miss anything"
+
+[do_not_miss]
+other = "On 9.9. the revolution in industrial IoT will come. Don't miss it"
+
+[revolution_sign_up]
+other = "Sign up. We will be in touch and let you know soon."
+
+[day]
+other = "day"
+
+[hour]
+other = "hour"
+
+[minute]
+other = "minute"
+
+[second]
+other = "second"
+
+[day_p]
+other = "days"
+
+[hour_p]
+other = "hours"
+
+[minute_p]
+other = "minutes"
+
+[second_p]
+other = "seconds"
+
+[days]
+other = "days"
+
+[hours]
+other = "hours"
+
+[minutes]
+other = "minutes"
+
+[seconds]
+other = "seconds"
+
+[until_revolution]
+other = "<span id = 'countdown'></span> until the revolution"

@@ -138,3 +138,48 @@ other = "Užitečné odkazy"
 
 [follow_us]
 other = "Sledujte naše sociální sítě, ať vám nic neuteče"
+
+[do_not_miss]
+other = "9.9. přijde revoluce v&nbsp;průmyslovém IoT. Nezmeškejte&nbsp;ji"
+
+[revolution_sign_up]
+other = "Přihlaste se. Průběžně vás budeme informovat a včas se připomeneme."
+
+[day]
+other = "den"
+
+[hour]
+other = "hodina"
+
+[minute]
+other = "minuta"
+
+[second]
+other = "sekunda"
+
+[day_p]
+other = "dny"
+
+[hour_p]
+other = "hodiny"
+
+[minute_p]
+other = "minuty"
+
+[second_p]
+other = "sekundy"
+
+[days]
+other = "dnů"
+
+[hours]
+other = "hodin"
+
+[minutes]
+other = "minut"
+
+[seconds]
+other = "sekund"
+
+[until_revolution]
+other = "Do revoluce zbývá <span id = 'countdown'></span>"
