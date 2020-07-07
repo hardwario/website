@@ -33,3 +33,12 @@ other = "Learn how to work with HARDWARIO Kit, Playground, Node-RED application 
 
 [come_to_event]
 other = "We organize personal and online events. Join us."
+
+[videos]
+other = "Videos"
+
+[hardwario_videos]
+other = "HARDWARIO Videos"
+
+[videos_description]
+other = "Get inspired by our videos. We shoot tutorials and share webinar records."
