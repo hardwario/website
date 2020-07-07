@@ -53,7 +53,7 @@ Už jsi kompletně vyzbrojen? ⚔️ **Paráda, jde se instalovat**!
 
 ## Postup instalace operačního systému s HARDWARIO Playgroundem
 
-1. Nejprve si na svém počítači stáhni **dva programy**: [balenaEtcher](https://www.balena.io/etcher/) a [HARDWARIO Raspbian](https://github.com/bigclownlabs/bc-raspbian/releases). **HARDWARIO Raspbian** je operační systém, na kterém běží vše potřebné pro rozjetí HARDWARIOa včetně Playgroundu. A pomocí **balenaEtcher** nahraješ Raspbian na MicroSD kartu.
+1. Nejprve si na svém počítači stáhni **dva programy**: [balenaEtcher](https://www.balena.io/etcher/) a [HARDWARIO Raspbian](https://github.com/hardwario-kit/bc-raspbian/releases). **HARDWARIO Raspbian** je operační systém, na kterém běží vše potřebné pro rozjetí HARDWARIOa včetně Playgroundu. A pomocí **balenaEtcher** nahraješ Raspbian na MicroSD kartu.
 2. Vlož MicroSD kartu do svého počítače. Pokud na ni tvůj počítač nemá dírku, použij externí čtečku SD karet.
 3. Stažený soubor s balenaEtcher **otevři a nainstaluj**. Zabere to maximálně minutku.
 4. Až bude hotovo, balenaEtcher spusť a klikni na **Select Image**. Najdi složku, do které jsi stáhl HARDWARIO Raspbian, a otevři ho.

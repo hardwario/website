@@ -8,9 +8,9 @@ image_main: "/blog/2018-09-14-bigclown-playground/main.png"
 author: "martin_hubacek"
 ---
 
-We have released a new graphical application [**HARDWARIO Playground**](https://github.com/bigclownlabs/bch-playground/releases) which contains everything you need in a one package. Create rules and flows in the Node-RED, upload new firmware to the **Core Module 2**, manage the radio paired nodes.
+We have released a new graphical application [**HARDWARIO Playground**](https://github.com/hardwario-kit/bch-playground/releases) which contains everything you need in a one package. Create rules and flows in the Node-RED, upload new firmware to the **Core Module 2**, manage the radio paired nodes.
 
-[**Download**](https://github.com/bigclownlabs/bch-playground/releases) and try out [**HARDWARIO Playground**](https://github.com/bigclownlabs/bch-playground/releases) now. It's multi-platform and runs on Windows, Linux and macOS. You can have your radio network with nodes up and running in a minutes. Take a look at the [**Quick Start Guide**](https://developers.hardwario.com/basics/quick-start-guide) where the basics are explained.
+[**Download**](https://github.com/hardwario-kit/bch-playground/releases) and try out [**HARDWARIO Playground**](https://github.com/hardwario-kit/bch-playground/releases) now. It's multi-platform and runs on Windows, Linux and macOS. You can have your radio network with nodes up and running in a minutes. Take a look at the [**Quick Start Guide**](https://developers.hardwario.com/basics/quick-start-guide) where the basics are explained.
 
 Later, for a more permanent solution, you can use the **{{<shop "HARDWARIO Hub">}}** that is pre-programmed and comes also with {{<shop "Radio Dongle">}}. Or you can flash our [**bc-raspbian**](https://developers.hardwario.com/tutorials/custom-setup-on-raspberry-pi) to your Raspberry Pi 3 computer.
 

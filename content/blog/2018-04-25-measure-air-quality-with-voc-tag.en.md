@@ -23,5 +23,5 @@ With [**Wireless VOC sensor project**](https://developers.hardwario.com/projects
 
   * [**Wireless VOC sensor project**](https://developers.hardwario.com/projects/radio-voc-sensor)
   * [**VOC Tag in Hardware documentation**](https://developers.hardwario.com/hardware/about-voc-tag)
-  * [**Source code for Radio VOC sensor**](https://github.com/bigclownlabs/bcf-radio-voc-sensor)
-  * [**GFX library**](https://sdk.bigclown.com/group__bc__gfx.html)
+  * [**Source code for Radio VOC sensor**](https://github.com/hardwario-kit/bcf-radio-voc-sensor)
+  * [**GFX library**](https://sdk.hardwario.com/group__bc__gfx.html)

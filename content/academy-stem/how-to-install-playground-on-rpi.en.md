@@ -44,7 +44,7 @@ Are you fully armed? ⚔️ **Great, so let's install it**!
 
 ## How to install the operating system with HARDWARIO Playground
 
-1. First of all, you need to download **two programs** onto your computer: [balenaEtcher](https://www.balena.io/etcher/) and [HARDWARIO Raspbian](https://github.com/bigclownlabs/bc-raspbian/releases). **HARDWARIO Raspbian** is an operating system that runs everything needed to start HARDWARIO, including Playground, while **balenaEtcher** enables you to upload Raspbian to your MicroSD card.
+1. First of all, you need to download **two programs** onto your computer: [balenaEtcher](https://www.balena.io/etcher/) and [HARDWARIO Raspbian](https://github.com/hardwario-kit/bc-raspbian/releases). **HARDWARIO Raspbian** is an operating system that runs everything needed to start HARDWARIO, including Playground, while **balenaEtcher** enables you to upload Raspbian to your MicroSD card.
 2. Insert the MicroSD card into your computer. If your computer does not have a slot for it, use an external SD card reader.
 3. **Open and install** the downloaded file with balenaEtcher. The process only takes a minute at most.
 4. When completed, run balenaEtcher and click **Select Image**. Find the folder where you downloaded HARDWARIO Raspbian to and open it.
