@@ -44,7 +44,7 @@
         <div class="row mb-40">
             <div class="col">
                 <div class="row">
-                    <div class="col-8 col-md-6 col-lg-4 col-xl-3 mx-auto text-center">
+                    <div class="col-8 col-md-6 col-lg-5 col-xl-5 mx-auto text-center">
                         <div class="font-redLined text-center font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "about_kit" }}</span></div>
                     </div>
                 </div>
@@ -352,7 +352,13 @@
               <p class="font-18 pt-5 pb-20">
                 {{ i18n "buy_kit" | safeHTML }}
               </p>
-              <a href = "{{ "projects/" | absLangURL }}" class = "font-lnh24 font-weight-bold font-font2 font-red button__link getPricelist">{{ i18n "inspiration" | safeHTML }}</a>
+              {{ $currentLang := .Site.Language.Lang }}
+              {{ if ne $currentLang "de" }}
+                    <a href = "{{ "projects/" | absLangURL }}" class = "font-lnh24 font-weight-bold font-font2 font-red button__link getPricelist">{{ i18n "inspiration" | safeHTML }}</a>
+              {{ else }}
+                    <a href = "/projects/" class = "font-lnh24 font-weight-bold font-font2 font-red button__link getPricelist">{{ i18n "inspiration" | safeHTML }}</a>
+              {{ end }}
+
               <a href = "https://developers.hardwario.com" target="_blank" class = "font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "view_docs" | safeHTML }}</a>
 
               </div>

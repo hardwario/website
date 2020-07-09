@@ -17,6 +17,8 @@
         </div>
     </section>
 
+{{ $currentLang := .Site.Language.Lang }}
+{{ if ne $currentLang "de" }}
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <section>
                     <div class="bg-darkGray font-white ">
@@ -42,7 +44,6 @@
                     </div>
 
                 </section>
-
 
     {{ $currentLang := .Site.Language.Lang }}
     {{ if eq $currentLang "cs" }}
@@ -72,6 +73,7 @@
                             </section>
     {{ end }}
 
+{{ end }}
 
 <footer>
 {{ end }}

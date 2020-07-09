@@ -1,0 +1,140 @@
+[case_study]
+other = "Fallstudie"
+
+[read_case_study_now]
+other = "Ich möchte eine Fallstudie lesen"
+
+[company]
+other = "Gesellschaften"
+
+[industry]
+other = "Industry"
+
+[product]
+other = "Produkt"
+
+[headquarters_sales]
+other = "Headquarters & Sales"
+
+[development_distribution]
+other = "Development & Distribution"
+
+[czechia]
+other = "TSCHECHIEN"
+
+[id]
+other = "Firmennummer"
+
+[vat_id]
+other = "Ust-IdNr."
+
+[send]
+other = "Absenden"
+
+[write_us]
+other = "Schreiben Sie uns"
+
+[trusted_by]
+other = "Sie vertrauen uns"
+
+[download_specification]
+other = "<br />Spezifikation [.pdf]herunterladen"
+
+[learn_more]
+other = "Ich will mehr erfahren"
+
+[min_read]
+other = "Min. Lesen"
+
+[buy_it_now]
+other = "In den Warenkorb"
+
+[recommended]
+other = "Am beliebtesten"
+
+[get_document]
+other = "Ich möchte das Dokument lesen"
+
+[navigation]
+other = "Navigation"
+
+[from_iot_blog]
+other = "IoT-Blog"
+
+[more_blog]
+other = "Ich möchte weitere Artikel lesen"
+
+[read_about_iot]
+other = "Lesen Sie, was in der IoT-&nbsp;Welt&nbsp; los ist"
+
+[we_share_knowledge]
+other = "Wir teilen unsere Erfahrungen, Fallstudien und Inspiration aus der Welt von IoT, Industrie 4.0, STEM-Ausbildung und Smart-Lösungen für Haushalte."
+
+[tell_me_more]
+other = "Ich will mehr erfahren"
+
+[events]
+other = "Unsere IoT- und STEM-Veranstaltungen"
+
+[read_more]
+other = "Mehr lesen"
+
+[event_detail]
+other = "Informationen zum Event"
+
+[selected_kits]
+other = "IoT-Baukasten von HARDWARIO"
+
+[start_with_kit]
+other = "Wählen Sie Ihren ersten Baukasten"
+
+[project]
+other = "Projekt"
+
+[academy]
+other = "Akademie"
+
+[go_home]
+other = "Zur Homepage wechseln"
+
+[page_not_found]
+other = "Seite nicht gefunden"
+
+[404_message]
+other = "Tut uns leid. Die von Ihnen gesuchte Webseite existiert wahrscheinlich nicht. Keine Angst, unser Baukasten überwacht die Lage – sollte die Webseite existieren, lässt sie sich bald wieder aufrufen. Versuchen Sie es bitte später erneut."
+
+[twitter]
+other = "https://twitter.com/hardwario_cz"
+
+[toolbar_text]
+other = "Neues, kostenloses Webinar für Schulen #zusammenschaffenwirdas"
+
+[toolbar_link]
+other = "/cs/stem/"
+
+[download_leftlet]
+other = "Produkt-Flyer herunterladen"
+
+[use_case]
+other = "Anwendungsbeispiel"
+
+[examples]
+other = "Beispiele von Projekten"
+
+[extensions]
+other = "Module und Schnittstellen"
+
+[make_an_appointment]
+other = "Treffen vereinbaren"
+
+[free_consult]
+other = "Buchen Sie eine kostenlose 30-minütige Konsultation Ihres&nbsp;Projekts&nbsp;"
+
+[tech_partners]
+other = "Partner für Technologien"
+
+[useful_links]
+other = "Nützliche Links"
+
+[follow_us]
+other = "Folgen Sie uns auf unseren sozialen Netzwerken, damit Sie immer auf dem Laufenden bleiben"

@@ -31,11 +31,24 @@ csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
       shopURL = "https://obchod.hardwario.cz"
       csFormId = "5f6b17c0-98bb-45e6-af13-923c07e38916"
       contactFormId = "a6663021-661c-442f-af7c-a4e29f21f305"
+  [languages.de]
+    LanguageName = "Deutch"
+    weight = 1
+    [languages.de.params]
+      baseURL = "/de/"
+      shopURL = "https://shop.hardwario.com"
+      csFormId = "8a337bbe-c93a-40df-8a2b-85d22c8a49b8"
+      contactFormId = "92a95503-6986-4713-b32b-4f6bc079bea4"
 
 
 [[languages.en.menu.footer]]
   url    = "https://developers.hardwario.com"
   name   = "Documentation"
+  weight = 0
+
+[[languages.de.menu.footer]]
+  url    = "https://developers.hardwario.com"
+  name   = "Dokumentation"
   weight = 0
 
 [[languages.cs.menu.footer]]
@@ -45,6 +58,11 @@ csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
 
 [[languages.en.menu.footer]]
   url    = "https://github.com/hardwario-kit"
+  name   = "GitHub"
+  weight = 500
+
+[[languages.de.menu.footer]]
+  url    = "https://github.com/bigclownlabs"
   name   = "GitHub"
   weight = 500
 
@@ -68,12 +86,24 @@ csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
   name   = "Shop"
   weight = 500
 
+[[languages.de.menu.footer]]
+  url    = "https://shop.hardwario.com"
+  name   = "Shop"
+  weight = 500
+
 [[languages.cs.menu.footer]]
   url    = "https://obchod.hardwario.cz"
   name   = "E&#8209;shop"
   weight = 500
 
 [[languages.en.menu.main]]
+  url    = "https://shop.hardwario.com"
+  name   = "Shop"
+  pre = "shop_link"
+  post = "_blank"
+  weight = 95
+
+[[languages.de.menu.main]]
   url    = "https://shop.hardwario.com"
   name   = "Shop"
   pre = "shop_link"
