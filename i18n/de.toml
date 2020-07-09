@@ -138,3 +138,48 @@ other = "Nützliche Links"
 
 [follow_us]
 other = "Folgen Sie uns auf unseren sozialen Netzwerken, damit Sie immer auf dem Laufenden bleiben"
+
+[do_not_miss]
+other = "Am 9.9. gibt es eine Revolution im industriellen IoT. Verpassen Sie sie nicht"
+
+[revolution_sign_up]
+other = "Melden Sie sich an. Wir werden Sie kontinuierlich informieren und uns zur gegebenen Zeit bei Ihnen melden."
+
+[Tag]
+other = "Tag"
+
+[Stunde]
+other = "Stunde"
+
+[Minute]
+other = "Minute"
+
+[zweite]
+other = "second"
+
+[day_p]
+other = "Tage"
+
+[Stunde_p]
+other = "Stunden"
+
+[minute_p]
+other = "Minuten"
+
+[second_p]
+other = "Sekunden"
+
+[Tage]
+other = "Tage"
+
+[Std]
+other = "Stunden"
+
+[Protokoll]
+other = "Minuten"
+
+[Sekunden]
+other = "Sekunden"
+
+[until_revolution]
+other = "Bis zur Revolution bleiben nur noch <span id = 'countdown'></span>"
