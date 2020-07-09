@@ -47,7 +47,7 @@ You can try piloting predictive maintenance on just a couple of machines without
 
 ### Launching predictive maintenance in 7 steps:
 
-1. Choose a machine and a unit you want to monitor. You can draw inspiration from TPCA and start with engine temperature. Or maybe from our [sensor portfolio](https://shop.hardwario.com/modules-tags/), [case studies](/case-studies/) and Industry 4.0 [sample projects](https://www.hackster.io/hardwario/projects?category_id=208).
+1. Choose a machine and a unit you want to monitor. You can draw inspiration from TPCA and start with engine temperature. Or maybe from our [sensor portfolio](https://shop.hardwario.com/), [case studies](/case-studies/) and Industry 4.0 [sample projects](https://www.hackster.io/hardwario/projects?category_id=208).
 2. Choose the data transmission method – either use a radio network like TPCA or some LPWAN network (network for internet of things – NB-IoT, LoRa, Sigfox). In case of LPWAN, you won’t need a computer for data collection, because data are sent directly to the cloud.
 3. Choose a platform for saving, visualizing and evaluating data.
 4. Purchase HARDWARIO kits based on what will be measured and on how many places.

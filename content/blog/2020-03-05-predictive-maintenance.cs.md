@@ -48,7 +48,7 @@ Pro pilot prediktivní údržby můžete začít na několika málo strojích ve
 
 ### Zahájení prediktivní údržby v 7 krocích:
 
-1. Vyberte stroj a veličinu, kterou chcete monitorovat. Inspirujte se například u TPCA a začněte s teplotou motoru. Inspirovat se můžete také našim [portfoliem senzorů](https://shop.hardwario.com/modules-tags/) nebo [případovými studiemi](/case-studies/) a [vzorovými projekty](https://www.hackster.io/hardwario/projects?category_id=208) průmyslu 4.0.
+1. Vyberte stroj a veličinu, kterou chcete monitorovat. Inspirujte se například u TPCA a začněte s teplotou motoru. Inspirovat se můžete také našim [portfoliem senzorů](https://obchod.hardwario.cz) nebo [případovými studiemi](/cs/case-studies/) a [vzorovými projekty](https://www.hackster.io/hardwario/projects?category_id=208) průmyslu 4.0.
 2. Rozhodněte se, jakým způsobem chcete přenášet data - můžete, stejně jako TPCA, využít vlastní rádiovou síť nebo některou z LPWAN (sítě pro internet věcí - NB-IoT, LoRa, Sigfox). V případě LPWAN nebudete potřebovat žádný počítač pro sběr dat, protože budou odesílána přímo do cloudu.
 3. Vyberte platformu, kde budete data ukládat, vizualizovat a vyhodnocovat.
 4. Pořiďte stavebnice HARDWARIO podle toho, co a na kolika místech budete měřit.

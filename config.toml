@@ -62,7 +62,7 @@ csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
   weight = 500
 
 [[languages.de.menu.footer]]
-  url    = "https://github.com/bigclownlabs"
+  url    = "https://github.com/hardwario"
   name   = "GitHub"
   weight = 500
 

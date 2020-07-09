@@ -55,7 +55,7 @@ Cheers, Pavel
 ## References
 
 * [**Core Module in E-shop**](https://shop.hardwario.com/core-module/)
-* [**Core Module Differences**](https://developers.hardwario.com/hardware/core-module-1-and-2-comparison/)
-* [**HARDWARIO Firmware Tool**](https://developers.hardwario.com/tools/bcf/)
+* [**Core Module Differences**](https://developers.hardwario.com/hardware/core-module-r1-and-r2-comparison)
+* [**HARDWARIO Firmware Tool**](https://developers.hardwario.com/tools/bigclown-firmware-flashing-tool)
 * [**HARDWARIO Firmware SDK**](http://sdk.hardwario.com/group__bc__log.html)
 * [**FTDI FT321X**](http://www.ftdichip.com/Products/ICs/FT231X.html)

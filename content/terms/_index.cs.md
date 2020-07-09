@@ -40,7 +40,7 @@ V případě jakýchkoli pochybností o platnosti elektronického dokumentu, pod
 ## Popis a poskytování služeb
 Specifika konkrétních zařízení a služeb, včetně cenových ujednání, jsou uvedeny v samostatných dílčích smlouvách, které jsou ke každému takovému zařízení či službě uzavřeny.
 
-Uživatel odpovídá za otestování dodaných zařízení a přenosu dat neprodleně po jejich obdržení a nahlášení veškerých problémů a odchylek od zadávací či průvodní dokumentace zařízení na adrese [ask@hardwario.com](ask@hardwario.com).
+Uživatel odpovídá za otestování dodaných zařízení a přenosu dat neprodleně po jejich obdržení a nahlášení veškerých problémů a odchylek od zadávací či průvodní dokumentace zařízení na adrese [ask@hardwario.com](mailto:ask@hardwario.com).
 
 Uživatel se zavazuje poskytnout veškerou součinnost proto, aby služby mohly být dlouhodobě využívány, zejména zprůchodnit datové kanály, zajistit napojení svých návazných služeb, povolit zařízení z hlediska zabezpečení své vnitřní infrastruktury...apod..
 
@@ -91,10 +91,10 @@ Uživatel není oprávněn zasahovat do hardwaru ani do softwarových programů 
 Každý Uživatel služeb a stejně tak HARDWARIO se akceptací těchto podmínek zavazují spolupracovat   s maximálním nasazením, zápalem a důvěrou a vzájemně k sobě zachovávat pozitivní přístup, konstruktivní a proaktivní řešení problémů a otevřenou komunikaci.
 
 
-V Liberci dne 	20.1.2020						
+V Liberci dne 	20.1.2020
 
 
-Ing. Alan Fabik							
+Ing. Alan Fabik
 jednatel HARDWARIO s.r.o.
 
-Kontaktní adresa technické podpory pro řešení veškerých incidentů: [ask@hardwario.com](ask@hardwario.com)
+Kontaktní adresa technické podpory pro řešení veškerých incidentů: [ask@hardwario.com](mailto:ask@hardwario.com)

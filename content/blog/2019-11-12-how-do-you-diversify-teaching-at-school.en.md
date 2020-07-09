@@ -59,7 +59,7 @@ As inspiration for beginner programmers, we have prepared a lot of projects with
 
 ## IoT technology in teaching PE
 
-In addition to teachers of technical and natural sciences, the HARDWARIO IoT Kit can also be used by teachers of physical education. If you want to liven up the physical education of pupils and **awaken their competitive spirit**, then check out [this project](/projects/kung-fu-master/).
+In addition to teachers of technical and natural sciences, the HARDWARIO IoT Kit can also be used by teachers of physical education. If you want to liven up the physical education of pupils and **awaken their competitive spirit**, then check out [this project](/projects/zen-kung-fu-master/).
 
 Pupils program the box according to the instructions and then compete to determine how long **they can stay still in one position**. When in a push-up position or doing a plank, place the box on their back and the computer displays the number of seconds they can hold the position without moving. One by one they compete to see **who can break the record**.
 

@@ -51,7 +51,7 @@ With the box, kids can even create games that **test their muscles** \- like thi
 
 Kids then compete with each other while maintaining different positions, for example, standing on one leg, in the plank position or just holding the box in their outstretched arm in front of them. The results of their Zen performances are **immediately displayed on the computer**. If you have little athletes at home, this game will be a new challenge for them.
 
-[Kids can program the Zen Kung Fu Master game by following this simple tutorial.](/projects/kung-fu-master/)
+[Kids can program the Zen Kung Fu Master game by following this simple tutorial.](/projects/zen-kung-fu-master/)
 
 ## Game 4: Smart thermometer, or searching for the hottest place in the area
 
@@ -61,7 +61,7 @@ A game for small adventurers - again with the help of the thermometer. Kids walk
 
 They can also suggest the game to their physics teacher and play it with the whole class - they will learn a lot about**temperature and other physical variables**.
 
-[A simple tutorial helps kids to program this adventurous game.](/projects/warmes-coldes-place/)
+[A simple tutorial helps kids to program this adventurous game.](/projects/warmest-coldest-place/)
 
 ## Kids can also create other games themselves.
 
