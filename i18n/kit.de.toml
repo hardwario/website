@@ -29,7 +29,7 @@ other = "Beim ganzen Baukasten handelt es sich um eine Open-Source-Lösung, die&
 other = "Akademie, Projekte, Dokumentation"
 
 [academy_projects_docs_desc]
-other = "Dank <a href = '/cs/academy/co-je-to-bigclown-playground/'>Playground</a>, <a href = '/cs/academy/'>Akademie</a> und <a href = '/cs/projects'>Musterprojekten</a> ist es äußerst einfach, mit dem Baukasten zu arbeiten zu beginnen. Sie können das Gerät einfach einstellen, mit dem&nbsp;Computer paaren und dank visueller Programmierung auch vorgeben, wie der Baukasten funktionieren soll. Fortgeschrittenes Verhalten und&nbsp;Integrationen können mit Hilfe der&nbsp;<a href = 'https://developers.hardwario.com' target = '_blank'>Dokumentation</a>und&nbsp;<a href = 'https://sdk.hardwario.com'>SDK-Bibliothek umgesetzt werden</a>."
+other = "Dank <a href = '/cs/academy/co-je-to-bigclown-playground/'>Playground</a>, <a href = '/cs/academy/'>Akademie</a> und <a href = '/cs/projects'>Musterprojekten</a> ist es äußerst einfach, mit dem Baukasten zu arbeiten zu beginnen. Sie können das Gerät einfach einstellen, mit dem&nbsp;Computer paaren und dank visueller Programmierung auch vorgeben, wie der Baukasten funktionieren soll. Fortgeschrittenes Verhalten und Integrationen können mit Hilfe der <a href = 'https://developers.hardwario.com' target = '_blank'>Dokumentation</a> und <a href = 'https://sdk.hardwario.com'>SDK-Bibliothek umgesetzt werden</a>."
 
 [get_kit]
 other = "Baukasten kaufen"
@@ -41,7 +41,7 @@ other = "Kaufen"
 other = "Schnelle IoT<br/>-Pilotprojekte"
 
 [concepts]
-other = "Überprüfung der&nbsp;Konzepte von Industrie&nbsp;4.0"
+other = "Überprüfung der Konzepte von&nbspIndustrie&nbsp;4.0"
 
 [stem_edu]
 other = "Aktiver STEM-Unterricht"
@@ -131,7 +131,7 @@ other = "Den Baukasten können Sie per Internet in unserem Online-Shop kaufen. A
 other = "Dokumentation ansehen"
 
 [inspiration]
-other = "Projekte, von denen Sie sich inspirieren lassen können"
+other = "Projekte"
 
 [brain_of_kit]
 other = "Grundmodul, sozusagen der Kopf des ganzen Baukastens"

@@ -1,6 +1,6 @@
 ---
 title: IoT-Baukasten für die Industrie
-description: Eine Baukasten-Lösung für Industrieanwendungen, mit der Sie ganz einfach Geräte für Industrie 4.0, aktive STEM-Ausbildung und Smart-Home-Projekte zusammenstellen können.
+description: Eine Baukasten-Lösung für Industrieanwendungen, mit der Sie ganz einfach Geräte für Industrie 4.0, Ausbildung und Smart-Home-Projekte zusammenstellen können.
 menu:
 weight: 100
 meta_title: IoT-Baukasten für die Industrie | HARDWARIO Industrial IoT Kit

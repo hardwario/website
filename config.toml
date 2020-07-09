@@ -22,14 +22,6 @@ csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
       shopURL = "https://shop.hardwario.com"
       csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
       contactFormId = "39c2f6d9-e437-4e94-9a97-89d4596faa34"
-  [languages.de]
-    LanguageName = "Deutch"
-    weight = 1
-    [languages.de.params]
-      baseURL = "/de/"
-      shopURL = "https://shop.hardwario.com"
-      csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
-      contactFormId = "39c2f6d9-e437-4e94-9a97-89d4596faa34"
   [languages.cs]
     LanguageName = "Česky"
     weight = 2
@@ -39,6 +31,14 @@ csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
       shopURL = "https://obchod.hardwario.cz"
       csFormId = "5f6b17c0-98bb-45e6-af13-923c07e38916"
       contactFormId = "a6663021-661c-442f-af7c-a4e29f21f305"
+  [languages.de]
+    LanguageName = "Deutch"
+    weight = 1
+    [languages.de.params]
+      baseURL = "/de/"
+      shopURL = "https://shop.hardwario.com"
+      csFormId = "8a337bbe-c93a-40df-8a2b-85d22c8a49b8"
+      contactFormId = "92a95503-6986-4713-b32b-4f6bc079bea4"
 
 
 [[languages.en.menu.footer]]

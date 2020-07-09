@@ -1,5 +1,5 @@
 [build_smart_product]
-other = "Wir sind &nbsp;Hardware-Experten"
+other = "Wir sind<br/> Hardware-Experten"
 
 [its_easy_with_iot_kit]
 other = "Zusammen mit <a href = '/cs/partners/'>unseren Partnern</a> fokussieren wir uns auf Projekte für das Internet der Dinge und für Geräte mit sehr niedrigem Stromverbrauch."
@@ -14,7 +14,7 @@ other = "Wir haben 3&nbsp;einzigartige Produkte für Sie"
 other = "Unsere Produkte kommen vor allem in&nbsp;folgenden Bereichen zur Anwendung"
 
 [active_stem_education]
-other = "STEM-Ausbildung<br/>"
+other = "STEM<br/>Ausbildung"
 
 [use_kit_for_edutaction]
 other = "Nutzen Sie den Baukasten, den pädagogischen Rahmen, die detaillierten Lektionen und Datenbanken mit realen Projekten für einen aktiven und&nbsp;spannenden STEM-Unterricht in der Schule und&nbsp;zu Hause."
@@ -23,7 +23,7 @@ other = "Nutzen Sie den Baukasten, den pädagogischen Rahmen, die detaillierten 
 other = "Mehr zum Thema Ausbildung"
 
 [industry40_pilots]
-other = "Internet&nbsp; der Dinge für die Industrieanwendung"
+other = "IoT für die Industrieanwendung"
 
 [start_iot_innovations]
 other = "IoT-Innovationen ins Rollen bringen – schnell&nbsp;und&nbsp;kostengünstig. Erstellen Sie ein Gerät für prädiktive Wartung, Produktionsüberwachung oder Komfortüberwachung der Arbeitsumgebung."
@@ -32,7 +32,7 @@ other = "IoT-Innovationen ins Rollen bringen – schnell&nbsp;und&nbsp;kostengü
 other = "Mehr zum Thema IIoT"
 
 [smart_diy_projects]
-other = "DIY Smart Home"
+other = "DIY<br/> Smart Home"
 
 [build_own_device]
 other = "Bauen Sie sich einen Überschwemmungssensor, eine automatische Bewässerung, einen CO2-Monitor, ein Thermostat oder ein Spiel. Es stehen Ihnen unsere Akademie, Anleitungen und Projekte zur Verfügung, von denen Sie sich inspirieren lassen können."

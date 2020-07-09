@@ -1,5 +1,5 @@
 [multipurpose_hub]
-other = "Mehrzweck-IoT&nbsp;-Hub"
+other = "Mehrzweck-IoT-Hub"
 
 [learn_more]
 other = "Mehr Informationen"
@@ -50,7 +50,7 @@ other = "Fernsteuerung"
 other = "Smart Home"
 
 [lpwan_tester]
-other = "<br/>LPWAN-Tester"
+other = "LPWAN-Tester"
 
 [power_voltage]
 other = "Versorgungsspannung"
@@ -173,16 +173,16 @@ other = "Schnittstelle für genaue Gewichtsmessung"
 other = "Besorgen Sie sich CHESTER"
 
 [chester_price]
-other = "Preise ab 3.300 CZK zzgl. USt., je nach Konfiguration und&nbsp;Stückzahl."
+other = "Preise ab 132 EUR zzgl. USt., je nach Konfiguration und&nbsp;Stückzahl."
 
 [get_chester_pricelist]
-other = "Ich will eine &nbsp;vollständige&nbsp;Preisliste"
+other = "Preisliste"
 
 [buy_chester_tester]
-other = "&nbsp;Tester&nbsp; sofort kaufen"
+other = "Tester sofort kaufen"
 
 [buy_chester_tester_link]
-other = "https://obchod.hardwario.cz/nb-iot-tester/"
+other = "https://shop.hardwario.com/nb-iot-tester/"
 
 [interested_in_chester]
 other = "Ich möchte CHESTER kaufen"
@@ -194,7 +194,7 @@ other = "Modifikationen, Integrationen und Branding nach Kundenwünschen"
 other = "Erweiterte 3-jährige Garantie und&nbsp;100&nbsp;Tage Probefrist"
 
 [personal_tech_support]
-other = "Persönliche technische Unterstützung bei&nbsp;Implementierung und Integration"
+other = "Persönliche technische Unterstützung"
 
 [extension_options]
 other = "Erweiterungsoptionen"
