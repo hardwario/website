@@ -32,7 +32,7 @@ csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
       csFormId = "5f6b17c0-98bb-45e6-af13-923c07e38916"
       contactFormId = "a6663021-661c-442f-af7c-a4e29f21f305"
   [languages.de]
-    LanguageName = "Deutch"
+    LanguageName = "Deutsch"
     weight = 1
     [languages.de.params]
       baseURL = "/de/"
