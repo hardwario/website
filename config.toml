@@ -81,6 +81,11 @@ csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
   name   = "Fórum"
   weight = 850
 
+[[languages.de.menu.footer]]
+  url    = "https://forum.hardwario.com"
+  name   = "Forum"
+  weight = 550
+
 [[languages.en.menu.footer]]
   url    = "https://shop.hardwario.com"
   name   = "Shop"

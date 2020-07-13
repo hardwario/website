@@ -2,7 +2,7 @@
 other = "We are hardware experts"
 
 [its_easy_with_iot_kit]
-other = "Together with our partners, we specialize in projects for the Internet of Things and devices with very low power consumption."
+other = "Together with <a href = '/partners/'>our partners</a>, we specialize in projects for the Internet of Things and devices with very low power consumption."
 
 [products]
 other = "Products"
