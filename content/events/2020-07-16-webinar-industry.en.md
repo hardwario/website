@@ -18,9 +18,9 @@ Register to **free HARDWARIO webinar** with topic **Using 3D Printing in Industr
 **You will learn**
 
 <ul class = "font-list">
-<li>What is material extrusion technology and how it works?</li>
-<li>3 key challenges in modeling</li>
-<li>Process of choosing the material</li>
+<li>What is material extrusion technology</li>
+<li>3 key challenges in modelling</li>
+<li>How to choose the right material</li>
 <li>How 3D printing helps in Rolls-Royce</li>
 </ul>
 
@@ -33,7 +33,7 @@ Register to **free HARDWARIO webinar** with topic **Using 3D Printing in Industr
 <li>Josef Dolecek (CEO, Fillamentum)</li>
 </ul>
 
-**Webinar starts on Thursday July 16 at 2 pm CEST (1 pm BST). Reserve your seat for free.**
+**The webinar starts on Thursday July 16 at 2 pm CEST (1 pm BST). Reserve your seat for free.**
 
 _If you can not make the live session, register now and we will send you the recording, presentation and links after the event._
 

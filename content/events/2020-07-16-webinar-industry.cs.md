@@ -18,7 +18,7 @@ Přihlaste se na **bezplatný HARDWARIO webinář** na téma **Využití 3D tisk
 **Během webináře se dozvíte:**
 
 <ul class = "font-list">
-<li>Co je technologie vytlačování materiálu a jak to funguje?</li>
+<li>Co je technologie vytlačování materiálu.</li>
 <li>3 klíčové výzvy v modelování.</li>
 <li>Jak probíhá proces výběru materiálu.</li>
 <li>Jak 3D tisk pomáhá v Rolls-Royce.</li>
@@ -37,7 +37,7 @@ Přihlaste se na **bezplatný HARDWARIO webinář** na téma **Využití 3D tisk
 
 Těšíme se na vás.
 
-_Zaregistrujte se ikdyž vám čas webináře nevyhovuje. Po proběhnutí vám pošleme záznam webináře, prezentaci a odkazy._
+_Zaregistrujte se, i když vám čas webináře nevyhovuje. Po proběhnutí vám pošleme záznam webináře, prezentaci a odkazy._
 
 {{% section "Registrace" %}}
 
