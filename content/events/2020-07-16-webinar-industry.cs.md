@@ -33,7 +33,7 @@ Přihlaste se na **bezplatný HARDWARIO webinář** na téma **Využití 3D tisk
 <li>Josef Doleček (CEO, Fillamentum)</li>
 </ul>
 
-**Webinář začne ve čtvetek 16. července ve 14 hodin a bude probíhat v angličtině.**
+**Webinář začne ve čtvrtek 16. července ve 14 hodin a bude probíhat v angličtině.**
 
 Těšíme se na vás.
 
