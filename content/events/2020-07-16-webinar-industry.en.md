@@ -1,6 +1,6 @@
 ---
 date: "2020-07-16"
-time: "2 - 3 PM CEST"
+time: "2 - 3 pm CEST"
 price: "Free"
 publishdate: "2020-07-02"
 expirydate: "2020-07-17"
@@ -15,19 +15,23 @@ description: "Register to free HARDWARIO webinar with topic Using 3D Printing in
 
 Register to **free HARDWARIO webinar** with topic **Using 3D Printing in Industry 4.0 Proof of Concepts**.
 
-### You will learn
+**You will learn**
 
-* What is material extrusion technology and how it works?
-* 3 key challenges in modeling
-* Process of choosing the material
-* How 3D printing helps in Rolls-Royce
+<ul class = "font-list">
+<li>What is material extrusion technology and how it works?</li>
+<li>3 key challenges in modeling</li>
+<li>Process of choosing the material</li>
+<li>How 3D printing helps in Rolls-Royce</li>
+</ul>
 
-### Speakers
+**Speakers**
 
-* Vita Zalud (Head of Academy, HARDWARIO)
-* Alan Fabik (CEO, HARDWARIO)
-* Martin Beran (3D Printing Expert, Fillamentum)
-* Josef Dolecek (CEO, Fillamentum)
+<ul class = "font-list">
+<li>Vita Zalud (Head of Academy, HARDWARIO)</li>
+<li>Alan Fabik (CEO, HARDWARIO)</li>
+<li>Martin Beran (3D Printing Expert, Fillamentum)</li>
+<li>Josef Dolecek (CEO, Fillamentum)</li>
+</ul>
 
 **Webinar starts on Thursday July 16 at 2 pm CEST (1 pm BST). Reserve your seat for free.**
 

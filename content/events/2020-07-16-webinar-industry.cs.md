@@ -15,20 +15,23 @@ description: Přihlaste se na bezplatný HARDWARIO webinář na téma Využití 
 
 Přihlaste se na **bezplatný HARDWARIO webinář** na téma **Využití 3D tisku pro ověřování konceptů průmyslu 4.0**.
 
-### Během webináře se dozvíte:
+**Během webináře se dozvíte:**
 
-* Co je technologie vytlačování materiálu a jak to funguje?
-* 3 klíčové výzvy v modelování.
-* Jak probíhá proces výběru materiálu.
-* Jak 3D tisk pomáhá v Rolls-Royce.
+<ul class = "font-list">
+<li>Co je technologie vytlačování materiálu a jak to funguje?</li>
+<li>3 klíčové výzvy v modelování.</li>
+<li>Jak probíhá proces výběru materiálu.</li>
+<li>Jak 3D tisk pomáhá v Rolls-Royce.</li>
+</ul>
 
+**Webinářem vás provedou:**
 
-### Webinářem vás provedou:
-
-* Víťa Žalud (Head of Academy, HARDWARIO)
-* Alan Fabik (CEO, HARDWARIO)
-* Martin Beran (Specialista 3D tisku, Fillamentum)
-* Josef Doleček (CEO, Fillamentum)
+<ul class = "font-list">
+<li>Víťa Žalud (Head of Academy, HARDWARIO)</li>
+<li>Alan Fabik (CEO, HARDWARIO)</li>
+<li>Martin Beran (Specialista 3D tisku, Fillamentum)</li>
+<li>Josef Doleček (CEO, Fillamentum)</li>
+</ul>
 
 **Webinář začne ve čtvetek 16. července ve 14 hodin a bude probíhat v angličtině.**
 
