@@ -1,9 +1,9 @@
 ---
-date: "2020-06-11"
+date: "2020-08-13"
 time: "14:00 - 16:00"
 price: "Zdarma"
-publishdate: "2020-05-26"
-expirydate: "2020-06-13"
+publishdate: "2020-07-15"
+expirydate: "2020-08-14"
 title: "Webinář pro partnery a zájemce o&nbsp;partnerství s&nbsp;HARDWARIO "
 hashtags: ["webinar","zdarma"]
 category: industry
