@@ -13,7 +13,7 @@ place: "Liberec"
 draft: false
 ---
 
-Zúčastni se zdarma pilotního workshopu Internet věcí jednoduše a prakticky a pomož nám a Czechitas vypilovat jeho program.
+Zúčastni se zdarma pilotního workshopu Internet věcí jednoduše a prakticky. Pomůžeš nám a Czechitas vypilovat jeho program a naučís se spoustu nových věcí.
 
 ## O čem to bude
 Internet věcí (IoT) patří mezi fenomény dnešní doby. Nástup nových technologií umožňuje připojení téměř jakéhokoliv fyzického zařízení k internetu a tím vzniká možnost takovéto zařízení vzdáleně ovládat a pracovat s jeho daty. Jedná se o multidisciplinární oblast, ve které se uplatňují znalosti z mnoha oborů - matematiky, fyziky, programování, ale také naoříklad z ekonomiky nebo geografie.
