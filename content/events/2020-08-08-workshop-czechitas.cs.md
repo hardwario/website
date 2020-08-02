@@ -7,7 +7,7 @@ expirydate: "2020-08-09"
 title: "Pilotní workshop Czechitas & HARDWARIO o internetu věcí jednoduše a prakticky"
 hashtags: ["workshop","liberec"]
 category: education
-image_main: /events/seminar.jpg
+image_main: /events/education.jpg
 event_type: "Workshop"
 place: "Liberec"
 draft: false
