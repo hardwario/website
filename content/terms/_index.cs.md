@@ -1,7 +1,8 @@
 ---
-title: Všeobecné podmínky poskytování služeb
+title: VP poskytování služeb
 menu: ["footer"]
 weight: 9999
+heading: Všeobecné podmínky poskytování služeb
 meta_title: Všeobecné podmínky poskytování služeb HARDWARIO
 meta_description:
 ---

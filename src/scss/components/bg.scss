@@ -831,7 +831,12 @@
     background-image: url("../images/footer-bcg.svg");
     background-position: center left;
     background-repeat: no-repeat;
+
+    &--dark{
+      background-image: url("../images/footer-bcg-dark.svg"); 
+    }
   }
+
 
   &-trans
   {

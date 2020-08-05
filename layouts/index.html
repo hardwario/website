@@ -1,5 +1,8 @@
 {{ define "main" }}
 
+
+{{ $currentLang := .Site.Language.Lang }}
+{{ if ne $currentLang "cs" }}
 <section>
     <div class="bg-image9 pt-50 pt-lg-0 d-flex align-items-center mb-20 mb-md-50">
         <div class="container">
@@ -214,5 +217,263 @@
   </div>
 </section>-->
 
+{{ else }}
+
+<section>
+    <div class="bg-image9 pt-50 pt-lg-0 d-flex align-items-center mb-20 mb-md-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8 text-center text-md-left">
+                    <h1 class="font-44 font-md-64 font-md-lnh68 font-weight-black pb-40">Vyvíjíme a&nbsp;vyrábíme IoT&nbsp;zařízení</h1>
+                    <p class="font-24 font-gray2 font-lnh37 pb-40 pr-md-100">Společně s našimi partnery implementujeme IoT řešení, která&nbsp;okamžitě zvýší vaši produktivitu, výnosy a kvalitu.</p>
+                    <div>
+                        <!--<a href="#products" class="cta-button font-lnh54 px-70 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "tell_me_more" }}</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class = "container pb-70">
+        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ul class="row justify-content-center list-unstyled text-center carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/strategy.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">Strategie</h3></li>
+                <li data-target="#carousel" data-slide-to="1" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/hardware.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">Hardware</h3></li>
+                <li data-target="#carousel" data-slide-to="2" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/connectivity.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">Konektivita</h3></li>
+                <li data-target="#carousel" data-slide-to="3" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/implement.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">Implementace</h3></li>
+                <li data-target="#carousel" data-slide-to="4" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/simple.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">Vzdělávání</h3></li>
+            </ul>
+            <div class = "row justify-content-center">
+            <div class="col-10 carousel-inner bg-gray shadow mt-20 px-20 pt-40 pb-30 text-center">
+                <div class="carousel-item active">
+                  <p class = "font-18 font-lnh26">Pomůžeme vám vytvořit a zrealizovat smysluplnou IoT strategii podle vašich představ.</p>
+                </div>
+                <div class="carousel-item bg-gray">
+                    <p class = "font-18 font-lnh26">Vyvíjíme a vyrábíme bezpečný hardware s velmi nízkou spotřebou a snadným ovládáním.</p>
+                </div>
+                <div class="carousel-item bg-gray">
+                    <p class = "font-18 font-lnh26">Zajistíme konektivitu vašich zařízení do internetu pomocí speciálních IoT technologií.</p>
+                </div>
+                <div class="carousel-item bg-gray">
+                    <p class = "font-18 font-lnh26">Nainstalujeme zařízení a provedeme integraci s vašimi firemními systémy.</p>
+                </div>
+                <div class="carousel-item bg-gray">
+                    <p class = "font-18 font-lnh26">Naučíme vás IoT technologie a zasvětíme do práce se zařízeními i vygenerovanými daty.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+</section>
+
+
+{{ with .Site.GetPage "/case-studies/tpca" }}
+  {{ .Render "grid-home" }}
+{{ end }}
+
+<section>
+    <div class="container">
+        <div class="row align-items-center pt-40 pb-10 mb-md-30">
+           <!--<div class="col-12 col-md-8 col-lg-4 mx-auto text-center">
+                <div class="font-redLined font-red mb-20 font-font2 font-weight-bold font-15"><span>{{ i18n "trusted_by" }}</span></div>
+            </div>-->
+            <div class="col-12 text-center">
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="140" src="/_assets/images/partners/tpca.svg" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-10 mb-md-0 d-inline-block">
+                    <img width="140" src="/_assets/images/partners/skoda.svg" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="135" src="/_assets/images/partners/otk.svg" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="95" src="/_assets/images/partners/eon.svg" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="125" src="/_assets/images/partners/iframix.svg" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="115" src="/_assets/images/partners/skanska.svg" alt="" />
+                </span>
+            </div>
+            <div class="col-12 text-center pt-20 d-none d-md-block">
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="135" src="/_assets/images/partners/arcelormittal.svg" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="95" src="/_assets/images/partners/surun.svg" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="95" src="/_assets/images/partners/defra.svg" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="95" src="/_assets/images/partners/aco.svg" alt="" />
+                </span>
+            </div>
+            <div class = "col-12 text-center pt-40">
+                <a href="{{ "case-studies/" | absLangURL }}" class="text-decoration-underline font-font2 font-weight-bold font-18 font-red">Všechny reference</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="text-md-left pt-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="pb-60 col-12 text-center">
+                    <h2 class="font-40 font-md-64 font-md-lnh56 font-weight-black">
+                      IoT bez starostí
+                    </h2>
+                </div>
+                <div class = "col-11">
+                    <div class = "row">
+                        <div class = "col-12 col-md-6 pb-30">
+                            <div class = "row">
+                                <div class = "col-3">
+                                    <img loading="lazy" src="/_assets/images/benefits/noninvasive.svg" class="w-100 mt-20" alt="" />
+                                </div>
+                                <div class = "col">
+                                    <h3 class="font-20 font-weight-black font-lnh30">Neinvazivní</h3>
+                                    <p class="font-18 font-lnh26">Snižujeme komplexitu nasazením bez nutnosti úprav vašich strojů a připojení do podnikové sítě.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "col-12 col-md-6 pb-30">
+                            <div class = "row">
+                                <div class = "col-3 text-center">
+                                    <img loading="lazy" src="/_assets/images/benefits/simple.svg" class="w-50 mt-20" alt="" />
+                                </div>
+                                <div class = "col">
+                                    <h3 class="font-20 font-weight-black font-lnh30">Snadné</h3>
+                                    <p class="font-18 font-lnh26">Instalaci a správu našeho IoT systému snadno zvládnou i pracovníci bez IT odbornosti. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "col-12 col-md-6 pb-30">
+                            <div class = "row">
+                                <div class = "col-3">
+                                    <img loading="lazy" src="/_assets/images/benefits/secure.svg" class="w-75 mt-20" alt="" />
+                                </div>
+                                <div class = "col">
+                                    <h3 class="font-20 font-weight-black font-lnh30">Bezpečné</h3>
+                                    <p class="font-18 font-lnh26">Komunikujeme v oddělených síťových vrstvách. Řídíme se osvědčenými postupy pro zajištění bezpečnosti celého systému.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "col-12 col-md-6 pb-30">
+                            <div class = "row">
+                                <div class = "col-3 text-center">
+                                    <img loading="lazy" src="/_assets/images/benefits/scalable.svg" class="w-75" alt="" />
+                                </div>
+                                <div class = "col">
+                                    <h3 class="font-20 font-weight-black font-lnh30">Škálovatelné</h3>
+                                    <p class="font-18 font-lnh26">Naše řešení umožňuje nasazení několika zařízení při ověřování konceptů v pilotech, ale také stovek jednotek v ostrém provozu.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "col-12 col-md-6 pb-30">
+                            <div class = "row">
+                                <div class = "col-3">
+                                    <img loading="lazy" src="/_assets/images/benefits/affordable.svg" class="w-75 mt-20" alt="" />
+                                </div>
+                                <div class = "col">
+                                    <h3 class="font-20 font-weight-black font-lnh30">Hospodárné</h3>
+                                    <p class="font-18 font-lnh26">Zajišťujeme tak okamžitou návratnost investice a pomáháme vám projekt ekonomicky obhájit.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "col-12 col-md-6 pb-30">
+                            <div class = "row">
+                                <div class = "col-3">
+                                    <img loading="lazy" src="/_assets/images/benefits/complex.svg" class="w-100 mt-20" alt="" />
+                                </div>
+                                <div class = "col">
+                                    <h3 class="font-20 font-weight-black font-lnh30">Komplexní</h3>
+                                    <p class="font-18 font-lnh26">Společně vytvoříme a zrealizujeme IoT strategii. Zohledníme vzdělávání, UX, bezpečnost, data, konektivitu, integrace, škálovatelnost.</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class = "container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mt-60 mb-60">
+          <div class = "row align-items-center justify-content-center">
+            <div class = "col-6 col-md-2 px-30">
+                <img loading="lazy" src="/_assets/images/checklist.svg" class="w-100 d-block mx-auto img-fluid" alt="" />
+            </div>
+            <div class = "col-12 col-md-10 pt-30 pt-md-0 text-center text-md-left font-white">
+            <h3 class = "font-32 font-weight-bold pb-10">94 % firem bude do 2 let aktivně využívat výhod IoT</h3>
+            <p class = "font-22 pb-10">Jak jste na tom vy? Stáhněte si checklist pro vaši IoT strategii.</p>
+            <a href = "{{ .Params.cons_link }}" target="_blank" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red">Stáhnout checklist</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="">
+      <div class="container">
+        <div class="row">
+            <div class="pt-60 pb-40 col-12 text-center">
+                <h2 class="font-40 font-md-64 font-md-lnh56 font-weight-black">
+                  The latest from HARDWARIO
+                </h2>
+            </div>
+            {{ $events := ($.Site.GetPage "section" "events").Pages }}
+            {{ with $events }}
+            <div class="col-12 col-xl-7">
+                <div class="row align-items-start pt-30">
+
+                    {{ range $events.ByDate }}
+                    <div class="col-12 col-md-6 col-xl-6 pb-10 pb-xl-30">
+                        {{ .Render "grid" }}
+                    </div>
+                    {{end}}
+        
+                </div>
+            </div>
+            {{ end }}
+            <div class="col-12 col-xl-5 related">
+              <div class="row d-flex align-content-stretch">
+                {{ range first 3 (where (where .Pages "Section" "blog" ) "Kind" "==" "page") }}
+                  {{ .Render "grid-small" }}
+                {{ end }}
+              </div>
+              <div class="row pb-30 pl-15">
+                <a href="{{ "blog/" | absLangURL }}" class="cta-button font-lnh54 px-70 d-inline-block font-weight-bold font-font2 font-gray bg-white text-decoration-none border-gray mt-10 mt-xl-30">{{ i18n "more_blog" }}</a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{{ end }}
 <footer>
 {{ end }}

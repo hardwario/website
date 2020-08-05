@@ -29,7 +29,7 @@
 @import "../../node_modules/bootstrap/scss/modal";
 //@import "../../node_modules/bootstrap/scss/tooltip";
 //@import "../../node_modules/bootstrap/scss/popover";
-//@import "../../node_modules/bootstrap/scss/carousel";
+@import "../../node_modules/bootstrap/scss/carousel";
 @import "../../node_modules/bootstrap/scss/utilities";
 
 //@import "../../node_modules/magnific-popup/src/css/main.scss";
@@ -53,6 +53,7 @@
 @import "partials/footernav";
 @import "partials/article";
 @import "partials/articles";
+@import "partials/related";
 @import "partials/navigation";
 @import "partials/text";
 @import "partials/project";
@@ -69,6 +70,7 @@
 @import "partials/specification";
 @import "partials/tooltip";
 @import "partials/buttons";
+@import "partials/carousel";
 @import "partials/contactbox";
 @import "partials/slick";
 @import "partials/modal";

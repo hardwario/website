@@ -2,8 +2,8 @@
 title: Download
 mainHeading: Download
 slug: download
-menu: "footer"
-weight: 100
+menu: "footer_2"
+weight: 800
 meta_title: Download HARDWARIO Playground
 ---
 

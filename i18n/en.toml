@@ -17,7 +17,7 @@ other = "Product"
 other = "Headquarters & Sales"
 
 [development_distribution]
-other = "Development & Distribution"
+other = "R&D"
 
 [uk]
 other = "UNITED KINGDOM"
@@ -65,7 +65,7 @@ other = "Navigation"
 other = "IoT Blog"
 
 [more_blog]
-other = "Read more IoT articles"
+other = "More articles"
 
 [read_about_iot]
 other = "News and Insights from the world of IoT"

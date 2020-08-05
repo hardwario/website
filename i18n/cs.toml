@@ -2,7 +2,7 @@
 other = "Případová studie"
 
 [read_case_study_now]
-other = "Chci si přečíst případovku"
+other = "Přečíst případovku"
 
 [company]
 other = "Společnosti"
@@ -17,7 +17,7 @@ other = "Produkt"
 other = "Headquarters & Sales"
 
 [development_distribution]
-other = "Development & Distribution"
+other = "R&D"
 
 [czechia]
 other = "ČESKO"
@@ -62,7 +62,7 @@ other = "Navigace"
 other = "IoT blog"
 
 [more_blog]
-other = "Chci číst další články"
+other = "Další články"
 
 [read_about_iot]
 other = "Přečtěte si co se dějě ve&nbsp;světě&nbsp;IoT"
