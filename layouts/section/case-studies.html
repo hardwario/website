@@ -6,6 +6,50 @@
         {{ range where $pages.ByPublishDate.Reverse ".Params.featured" true }}
           {{ .Render "grid-featured" }}
         {{ end }}
+    </div>
+
+      <div class="container">
+          <div class="row align-items-center pb-30 mb-md-30">
+             <!--<div class="col-12 col-md-8 col-lg-4 mx-auto text-center">
+                  <div class="font-redLined font-red mb-20 font-font2 font-weight-bold font-15"><span>{{ i18n "trusted_by" }}</span></div>
+              </div>-->
+              <div class="col-12 text-center">
+                  <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                      <img width="140" src="/_assets/images/partners/tpca.svg" alt="" />
+                  </span>
+                  <span class="px-10 px-md-30 mb-10 mb-md-0 d-inline-block">
+                      <img width="140" src="/_assets/images/partners/skoda.svg" alt="" />
+                  </span>
+                  <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                      <img width="135" src="/_assets/images/partners/otk.svg" alt="" />
+                  </span>
+                  <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                      <img width="95" src="/_assets/images/partners/eon.svg" alt="" />
+                  </span>
+                  <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                      <img width="125" src="/_assets/images/partners/iframix.svg" alt="" />
+                  </span>
+                  <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                      <img width="115" src="/_assets/images/partners/skanska.svg" alt="" />
+                  </span>
+              </div>
+              <div class="col-12 text-center pt-20 d-none d-md-block">
+                  <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                      <img width="135" src="/_assets/images/partners/arcelormittal.svg" alt="" />
+                  </span>
+                  <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                      <img width="95" src="/_assets/images/partners/surun.svg" alt="" />
+                  </span>
+                  <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                      <img width="95" src="/_assets/images/partners/defra.svg" alt="" />
+                  </span>
+                  <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                      <img width="95" src="/_assets/images/partners/aco.svg" alt="" />
+                  </span>
+              </div>
+          </div>
+      </div>
+      <div class="container pt-30 pt-md-0">
         <div class="row">
 
           {{ $pages := .Data.Pages }}
@@ -27,5 +71,7 @@
     </div>
 
 </section>
+
+
 
 {{ end }}
