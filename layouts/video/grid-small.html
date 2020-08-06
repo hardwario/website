@@ -5,7 +5,7 @@
         </div>
         <div class="related__item__title">{{ .Title }}</div>
         <div class="related__item__date">
-          Blog |
+          Video | 
           {{ if eq .Lang "cs" }}
             {{ .Date.Day }}. {{ index $.Site.Data.mesice (printf "%d" .Date.Month) }} {{ .Date.Year }}
           {{ else }}

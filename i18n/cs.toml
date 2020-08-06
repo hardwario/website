@@ -64,6 +64,9 @@ other = "IoT blog"
 [more_blog]
 other = "Další články"
 
+[more_videos]
+other = "Další videa"
+
 [read_about_iot]
 other = "Přečtěte si co se dějě ve&nbsp;světě&nbsp;IoT"
 

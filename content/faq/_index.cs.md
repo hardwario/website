@@ -1,6 +1,6 @@
 ---
 title: FAQ
-menu: ["footer"]
+menu: ["footer_2"]
 meta_title: HARDWARIO FAQ
 weight: 900
 ---

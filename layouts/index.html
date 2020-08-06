@@ -247,16 +247,16 @@
             <div class = "row justify-content-center">
             <div class="col-10 carousel-inner bg-gray shadow mt-20 px-20 pt-40 pb-30 text-center">
                 <div class="carousel-item active">
-                  <p class = "font-18 font-lnh26">Pomůžeme vám vytvořit a zrealizovat smysluplnou IoT strategii podle vašich představ.</p>
+                  <p class = "font-18 font-lnh26">Pomůžeme vám <strong>vytvořit a zrealizovat smysluplnou IoT strategii</strong> podle vašich představ.</p>
                 </div>
                 <div class="carousel-item bg-gray">
-                    <p class = "font-18 font-lnh26">Vyvíjíme a vyrábíme bezpečný hardware s velmi nízkou spotřebou a snadným ovládáním.</p>
+                    <p class = "font-18 font-lnh26">Vyvíjíme a vyrábíme <strong>bezpečný hardware s velmi nízkou spotřebou</strong> a snadným ovládáním.</p>
                 </div>
                 <div class="carousel-item bg-gray">
-                    <p class = "font-18 font-lnh26">Zajistíme konektivitu vašich zařízení do internetu pomocí speciálních IoT technologií.</p>
+                    <p class = "font-18 font-lnh26">Zajistíme konektivitu vašich zařízení do internetu pomocí <strong>speciálních IoT technologií</strong>.</p>
                 </div>
                 <div class="carousel-item bg-gray">
-                    <p class = "font-18 font-lnh26">Nainstalujeme zařízení a provedeme integraci s vašimi firemními systémy.</p>
+                    <p class = "font-18 font-lnh26">Nainstalujeme zařízení a provedeme <strong>integraci s vašimi firemními systémy</strong>.</p>
                 </div>
                 <div class="carousel-item bg-gray">
                     <p class = "font-18 font-lnh26">Naučíme vás IoT technologie a zasvětíme do práce se zařízeními i vygenerovanými daty.</p>
@@ -356,7 +356,7 @@
                                 </div>
                                 <div class = "col">
                                     <h3 class="font-20 font-weight-black font-lnh30">Snadné</h3>
-                                    <p class="font-18 font-lnh26">Instalaci a správu našeho IoT systému snadno zvládnou i pracovníci bez IT odbornosti. </p>
+                                    <p class="font-18 font-lnh26">Instalaci a správu systému snadno zvládnou i&nbsp;pracovníci bez IT odbornosti. Dokážeme i celé řešení nainstalovat a spravovat za vás.</p>
                                 </div>
                             </div>
                         </div>
@@ -392,7 +392,7 @@
                                 </div>
                                 <div class = "col">
                                     <h3 class="font-20 font-weight-black font-lnh30">Hospodárné</h3>
-                                    <p class="font-18 font-lnh26">Zajišťujeme tak okamžitou návratnost investice a pomáháme vám projekt ekonomicky obhájit.</p>
+                                    <p class="font-18 font-lnh26">IoT systém zvládneme provozovat stokorun měsíčně s okamžitou návratností investice. Pomůžeme vám projekt ekonomicky obhájit.</p>
                                 </div>
                             </div>
                         </div>
@@ -441,7 +441,7 @@
         <div class="row">
             <div class="pt-60 pb-40 col-12 text-center">
                 <h2 class="font-40 font-md-64 font-md-lnh56 font-weight-black">
-                  The latest from HARDWARIO
+                  To nejnovější od HARDWARIO
                 </h2>
             </div>
             {{ $events := ($.Site.GetPage "section" "events").Pages }}
@@ -460,12 +460,13 @@
             {{ end }}
             <div class="col-12 col-xl-5 related">
               <div class="row d-flex align-content-stretch">
-                {{ range first 3 (where (where .Pages "Section" "blog" ) "Kind" "==" "page") }}
+                {{ range first 3 (where (where .Pages "Section" "in" (slice "blog" "video") ) "Kind" "==" "page").ByDate.Reverse }}
                   {{ .Render "grid-small" }}
                 {{ end }}
               </div>
               <div class="row pb-30 pl-15">
-                <a href="{{ "blog/" | absLangURL }}" class="cta-button font-lnh54 px-70 d-inline-block font-weight-bold font-font2 font-gray bg-white text-decoration-none border-gray mt-10 mt-xl-30">{{ i18n "more_blog" }}</a>
+                <a href="{{ "blog/" | absLangURL }}" class="cta-button font-lnh54 px-40 d-inline-block font-weight-bold font-font2 font-gray bg-white text-decoration-none border-gray mt-10 mt-xl-30">{{ i18n "more_blog" }}</a>
+                <a href="{{ "video/" | absLangURL }}" class="cta-button font-lnh54 px-40 d-inline-block font-weight-bold font-font2 font-gray bg-white text-decoration-none border-gray ml-10 mt-10 mt-xl-30">{{ i18n "more_videos" }}</a>
               </div>
             </div>
         </div>

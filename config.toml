@@ -89,17 +89,17 @@ csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
 [[languages.en.menu.footer_2]]
   url    = "https://shop.hardwario.com"
   name   = "Shop"
-  weight = 0
+  weight = 5
 
 [[languages.de.menu.footer_2]]
   url    = "https://shop.hardwario.com"
   name   = "Shop"
-  weight = 0
+  weight = 5
 
 [[languages.cs.menu.footer_2]]
   url    = "https://obchod.hardwario.cz"
   name   = "E&#8209;shop"
-  weight = 0
+  weight = 5
 
 [[languages.en.menu.main]]
   url    = "https://shop.hardwario.com"
