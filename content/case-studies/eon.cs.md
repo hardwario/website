@@ -13,7 +13,7 @@ full: true
 testimonial_text: "Firmu HARDWARIO jsme oslovili s cílem otestovat síť NB-IoT. V krátkém čase jsme navrhli řešení pro sledování klimatických podmínek v kabelových skříních a během 2 měsíců jsme měli naše vlastní zařízení v rukách. Těšíme se na další společné projekty."
 testimonial_author: Dominik Harman
 testimonial_company: Project Manager, E.ON
-testimonial_image: dominik_harma | HARDWARIO případová studien.jpg
+testimonial_image: dominik_harman.jpg
 logo: /case-studies/eon_logo.png
 weight: 20
 date: 2019-10-05
@@ -27,16 +27,9 @@ date: 2019-10-05
 
 {{% content %}}
 
-Německá energetická společnost E.ON patří mezi **přední dodavatele elektřiny a plynu** v České republice i celé Evropě. Dbá na spolehlivost a vstřícnost k zákazníkům
-a v naší republice **se řadí mezi leadery na poli inovací**. Proto jsme byli rádi, že s žádostí o spolupráci na přípravě další inovace oslovili právě nás. V jednom projektu jsme přitom měli zohlednit rovnou dva požadavky: vytvořit bateriově napájený **senzor teploty a vlhkosti do kabelových skříní** a zároveň **vyzkoušet novou komunikační síť NB-IoT**.
+Německá energetická společnost E.ON patří mezi **přední dodavatele elektřiny a plynu** v České republice i celé Evropě. Dbá na spolehlivost a vstřícnost k zákazníkům a v naší republice **se řadí mezi leadery na poli inovací**. Proto jsme byli rádi, že s žádostí o spolupráci na přípravě další inovace oslovili právě nás. 
 
-{{% section "The brief" %}}
-
-{{% heading "Výchozí stav: potřebujeme změřit klimatické podmínky v kabelových skříních" %}}
-
-Kabelové skříně jsou náchylné na **zvýšenou vlhkost a teplotu**. Při nesprávných klimatických podmínkách v nich dochází ke korozi, praskají nožové pojistky a **výdaje na údržbu se tak markantně zvyšují**.
-
-Pro E.ON je tedy klíčový výběr takového dodavatele kabelových skříní, jehož výrobky jsou vůči klimatu nejodolnější. Aby mohli dodavatele mezi sebou porovnat, rozhodli se **vlhkost a teplotu** v jednotlivých kabelových skříních **monitorovat online**. E.ON si proto přál senzor, který jim bude zprávy o teplotním a vlhkostním stavu odesílat každý den k následné analýze.
+V jednom projektu jsme přitom měli zohlednit rovnou dva požadavky: vytvořit bateriově napájený **senzor teploty a vlhkosti do kabelových skříní** a zároveň **vyzkoušet novou komunikační síť NB-IoT**.
 
 {{% /content %}}
 {{% /intro %}}
