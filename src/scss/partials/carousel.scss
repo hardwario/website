@@ -33,6 +33,38 @@
                 }
             }
         }
+
+        &--2{
+
+            li{
+                flex: 0 0 25%;
+                max-width: 20%;
+                height: auto;
+                margin: 0;
+                padding: 0;
+                text-indent:initial;
+                border:none;
+                opacity: 0.5;
+                display: block;
+                position: relative;
+                color: #252532;
+    
+                @media(max-width:767px)
+                {
+                    max-width: 75%;
+                    display:none;
+                }
+    
+                &.active{
+                    opacity: 1!important;
+                    @media(max-width:767px)
+                    {
+                        display: block;
+                    }
+                }
+            }
+
+        }
     }
 }
 
