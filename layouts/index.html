@@ -219,7 +219,7 @@
 
 {{ else }}
 <section>
-    <div class="bg-image23 pt-50 pt-lg-0 d-flex align-items-center mb-20 mb-md-50" style = "background-size: auto 80%;bcackground-image: none!important;">
+    <div class="bg-image23 fullBackground pt-50 pt-lg-0 d-flex align-items-center mb-20 mb-md-50">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-8 text-center text-md-left">
@@ -552,4 +552,14 @@
 
 {{ end }}
 <footer>
+{{ end }}
+
+{{ define "additional-scripts" }}
+<script src='/_assets/js/{{ index .Site.Data.js.hash "fullclip.min.js" }}'></script>
+<script>
+    $('.fullBackground').fullClip({
+        images: ['/_assets/images/image23.png', '/_assets/images/image23_1.png']
+    });
+
+</script>
 {{ end }}
