@@ -1,6 +1,6 @@
 ---
 title:  Pomáháme zabránit výpadkům výroby v automobilce TPCA
-heading:  Pomáháme zabránit výpadkům výroby v automobilce TPCA
+heading:  Pomáháme zabránit výpadkům výroby v&nbsp;automobilce TPCA
 image_main: /case-studies/tpca_main.png
 image_grid: /case-studies/tpca_grid.png
 description:

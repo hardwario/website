@@ -12,3 +12,6 @@ other = "Zašleme vám<br/> všechny případové studie<br/> na váš e-mail"
 
 [case_studies]
 other = "Případové studie"
+
+[other_case_studies]
+other = "Další případovky"

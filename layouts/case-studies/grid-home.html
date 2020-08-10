@@ -10,7 +10,7 @@
                                     <div class="font-redLined font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "case_study" }}</span></div>
                                 </div>
                             </div>
-                            <h2 class="font-weight-black font-30 font-md-52 font-lnh36 font-md-lnh56 pb-md-10">{{ .Title | safeHTML }}</h2>
+                            <h2 class="font-weight-black font-30 font-md-52 font-lnh36 font-md-lnh56 pb-md-10">{{ .Params.heading | safeHTML }}</h2>
                             <div>
                                 <a href="{{ .Permalink }}" class="abs-1 font-lnh24 py-15 px-10 px-md-90 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "read_case_study_now" }}</a>
                             </div>

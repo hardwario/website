@@ -12,3 +12,6 @@ other = "We'll send you<br/> all case studies<br/> to your inbox"
 
 [case_studies]
 other = "Case studies"
+
+[other_case_studies]
+other = "Other Case Studies"
