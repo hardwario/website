@@ -17,7 +17,8 @@ testimonial_image: herda.jpg
 logo: /case-studies/tpca_logo.png
 weight: 5
 date: 2019-10-05
-carousel: active
+carousel: true
+carousel_status: 
 ---
 
 {{< intro >}}

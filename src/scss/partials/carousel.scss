@@ -96,3 +96,61 @@
   width: 20px;
   display: block;
 }
+
+#carousel2{
+
+    .carousel-item{
+        height: 520px;
+
+        @media(max-width:767px)
+        {
+            height: 450px;
+        }
+
+    }
+    .carousel-control-next, .carousel-control-prev{
+        top:50%;
+        margin-top: -40px;
+    }
+    .carousel-control-next{
+        right: 10%;
+
+        @media(max-width:767px)
+        {
+            right: 0;
+        }
+    }
+    .carousel-control-prev{
+        left: 10%;
+
+        @media(max-width:767px)
+        {
+            left: 0;
+        }
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      height: 100%;
+      width: auto;
+      outline: black;
+      background-size: 100%, 100%;
+      background-image: none;
+      position:relative;
+    }
+    
+    .carousel-control-next-icon:after
+    {
+      content: url(/_assets/images/icons/arrow-next-white.svg);
+      font-size: 30px;
+      width: 40px;
+      display: block;
+    }
+    
+    .carousel-control-prev-icon:after {
+      content: url(/_assets/images/icons/arrow-prev-white.svg);
+      font-size: 30px;
+      width: 40px;
+      display: block;
+    }
+
+}
