@@ -1,6 +1,6 @@
 ---
 title: Monitorujeme produktivitu strojů a lidí ve výrobě 
-heading:  Monitorujeme produktivitu strojů a lidí ve výrobě
+heading:  Monitorujeme produktivitu strojů a lidí ve výrobě nějvětší tiskárny etiket v Česku
 image_main: /case-studies/otk_main.jpeg
 image_grid: /case-studies/otk_main.jpeg
 description:

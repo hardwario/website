@@ -100,7 +100,7 @@
 #carousel2{
 
     .carousel-item{
-        height: 520px;
+        height: 640px;
 
         @media(max-width:767px)
         {
@@ -109,11 +109,11 @@
 
     }
     .carousel-control-next, .carousel-control-prev{
-        top:50%;
+        top:60%;
         margin-top: -40px;
     }
     .carousel-control-next{
-        right: 10%;
+        right: 5%;
 
         @media(max-width:767px)
         {
@@ -121,7 +121,7 @@
         }
     }
     .carousel-control-prev{
-        left: 10%;
+        left: 5%;
 
         @media(max-width:767px)
         {

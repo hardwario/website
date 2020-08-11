@@ -1,28 +1,23 @@
-<div class="carousel-item {{ .Params.carousel_status }} justify-content-center bg-image2 py-50" style="background-image:url({{ .Params.image_main }});">
+<div class="carousel-item {{ .Params.carousel_status }} justify-content-center bg-image2 pt-90" style="background-image:url({{ .Params.image_main }});padding-top:270px!important;">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-8 mx-auto">
+            <div class="col-12 col-lg-9 mx-auto">
                 <div class="slick1">
-                    <div class="bg-white text-center px-30 px-md-50 pt-50 mb-30 {{ if ne .Params.full true }} pb-40 {{ end }}">
-                        <!--<div class="row">
-                            <div class="col-12 col-md-6 mx-auto">
-                                <div class="font-redLined font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "case_study" }}</span></div>
-                            </div>
-                        </div>-->
-                        <h2 class="font-weight-black font-30 font-md-52 font-lnh36 font-md-lnh56 pb-md-30">{{ .Params.heading | safeHTML }}</h2>
+                    <div class="bg-white text-center px-20 px-md-30 pt-30 mb-30 {{ if ne .Params.full true }} pb-30 {{ end }}">
+                        <h2 class="font-weight-black font-30 font-md-40 font-lnh36 font-md-lnh44 pb-md-20">{{ .Params.heading | safeHTML }}</h2>
 
                         <div class="row justify-content-center">
-                            <div class = "col-4 col-md-3">
+                            <div class = "col col-md-3">
                                 <div class = "font-red font-font2 font-weight-bold font-15">{{ i18n "customer" }}</div>
                                 <div class = "font-gray font-font2 font-weight-bold font-15">{{ .Params.company }}</div>
                             </div>
                             {{ with .Params.partner }}
-                            <div class = "col-4 col-md-3">
+                            <div class = "col col-md-3">
                                 <div class = "font-red font-font2 font-weight-bold font-15">Partner</div>
                                 <div class = "font-gray font-font2 font-weight-bold font-15">Vodafone UK</div>
                             </div>
                             {{ end }}
-                            <div class = "col-4 col-md-3">
+                            <div class = "col col-md-3">
                                 <div class = "font-red font-font2 font-weight-bold font-15">Product</div>
                                 <div class = "font-gray font-font2 font-weight-bold font-15">{{ .Params.product }}</div>
                             </div>
