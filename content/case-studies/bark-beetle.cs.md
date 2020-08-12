@@ -10,10 +10,10 @@ industry: Real Estate
 product: CHESTER
 featured: false
 full: false
-testimonial_text: S moduly jsme byli schopni nastavit naši vlastní vlaštovku Průmyslu 4.0 už za pár dní. A ušetřilo nám to čas i peníze.
-testimonial_author: Marek Herda
-testimonial_company: Specialist - Security and Industry 4.0
-testimonial_image: herda.jpg
+testimonial_text: 
+testimonial_author: 
+testimonial_company: 
+testimonial_image: 
 logo: /partners/color/kurovcoveinfo.png
 weight: 5
 date: 2019-10-05

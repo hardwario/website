@@ -267,9 +267,16 @@
 </section>
 
 <div id="carousel2" class="carousel slide" data-ride="carousel2">
-                        
-    <div class="carousel-inner">
+    <ol class="carousel-indicators">
         {{ $pages := .Data.Pages }}
+        {{ $.Scratch.Set "counter" 0 }}
+        {{ range where $pages ".Params.carousel" true }}
+            <li data-target="#carousel2" data-slide-to="{{$.Scratch.Get "counter"}}" class="{{ .Params.carousel_status }}"></li>
+            {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+          {{ end }}
+      </ol>          
+    <div class="carousel-inner">
+        
           {{ range where $pages ".Params.carousel" true }}
             {{ .Render "grid-carousel" }}
           {{ end }}

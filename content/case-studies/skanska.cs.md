@@ -1,6 +1,6 @@
 ---
-title:  Monitorujeme výšky hladiny jímek bytových domů SKANSKA
-heading:  Monitorujeme výšky hladiny jímek bytových domů SKANSKA
+title:  Monitorujeme výšku hladiny jímek bytových domů SKANSKA
+heading:  Monitorujeme výšku hladiny jímek bytových domů SKANSKA
 image_main: /case-studies/tpca_main.png
 image_grid: /case-studies/tpca_grid.png
 description:

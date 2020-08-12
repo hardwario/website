@@ -17,6 +17,8 @@ testimonial_image: iframix_logo.png
 logo: /case-studies/iframix_logo.png
 weight: 10
 date: "2019-10-05"
+carousel: true
+carousel_status: 
 ---
 
 {{< intro >}}

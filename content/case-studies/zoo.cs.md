@@ -1,19 +1,19 @@
 ---
-title:  Sledujeme kvalitu ovzduší v ZOO Liberec
-heading:  Sledujeme kvalitu ovzduší v ZOO Liberec
+title:  Sledujeme kvalitu ovzduší liberecké ZOO
+heading:  Sledujeme kvalitu ovzduší liberecké ZOO
 image_main: /case-studies/tpca_main.png
 image_grid: /case-studies/tpca_grid.png
 description:
-meta_title: IoT prediktivní údržba v automobilce TPCA | HARDWARIO případová studie
-company: TPCA
-industry: Real Estate
+meta_title: Sledujeme kvalitu ovzduší liberecké ZOO | HARDWARIO případová studie
+company: ZOO Liberec
+industry: Agriculture
 product: CHESTER
 featured: false
 full: false
-testimonial_text: S moduly jsme byli schopni nastavit naši vlastní vlaštovku Průmyslu 4.0 už za pár dní. A ušetřilo nám to čas i peníze.
-testimonial_author: Marek Herda
-testimonial_company: Specialist - Security and Industry 4.0
-testimonial_image: herda.jpg
+testimonial_text: 
+testimonial_author: 
+testimonial_company: 
+testimonial_image: 
 logo: /partners/color/zoo.svg
 weight: 5
 date: 2019-10-05

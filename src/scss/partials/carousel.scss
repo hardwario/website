@@ -1,5 +1,5 @@
-.carousel {
-    
+#carousel {
+
     .carousel-indicators{
         position:static;
         margin:0;
@@ -100,7 +100,7 @@
 #carousel2{
 
     .carousel-item{
-        height: 640px;
+        height: 520px;
 
         @media(max-width:767px)
         {
@@ -109,11 +109,11 @@
 
     }
     .carousel-control-next, .carousel-control-prev{
-        top:60%;
+        top:50%;
         margin-top: -40px;
     }
     .carousel-control-next{
-        right: 5%;
+        right: 10%;
 
         @media(max-width:767px)
         {
@@ -121,7 +121,7 @@
         }
     }
     .carousel-control-prev{
-        left: 5%;
+        left: 10%;
 
         @media(max-width:767px)
         {

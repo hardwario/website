@@ -1,10 +1,9 @@
-<div class="carousel-item {{ .Params.carousel_status }} justify-content-center bg-image2 pt-90" style="background-image:url({{ .Params.image_main }});padding-top:270px!important;">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-9 mx-auto">
-                <div class="slick1">
-                    <div class="bg-white text-center px-20 px-md-30 pt-30 mb-30 {{ if ne .Params.full true }} pb-30 {{ end }}">
-                        <h2 class="font-weight-black font-30 font-md-40 font-lnh36 font-md-lnh44 pb-md-20">{{ .Params.heading | safeHTML }}</h2>
+<div class="carousel-item {{ .Params.carousel_status }} bg-image2" style="background-image:url({{ .Params.image_main }});">
+    <div class="container" style = "height:100%;">
+        <div class="row justify-content-end align-items-end pb-60" style = "height:100%;">
+           
+                    <div style = "height:auto;" class="col-12 col-lg-9 mx-auto bg-white text-center px-20 px-md-30 pt-20 {{ if ne .Params.full true }} pb-20 {{ end }}">
+                        <h2 class="font-weight-black font-30 font-md-26 font-lnh36 font-md-lnh36 pb-md-20">{{ .Params.heading | safeHTML }}</h2>
 
                         <div class="row justify-content-center">
                             <div class = "col col-md-3">
@@ -28,8 +27,6 @@
                         </div>
                         {{ end }}
                     </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>

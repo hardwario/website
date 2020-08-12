@@ -1,10 +1,10 @@
 ---
-title: Monitorujeme produktivitu strojů a lidí ve výrobě nějvětší tiskárny etiket v Česku 
-heading:  Monitorujeme produktivitu strojů a lidí ve výrobě nějvětší tiskárny etiket v Česku
+title: Monitorujeme efektivitu práce a strojů největší tiskárny etiket v Česku 
+heading:  Monitorujeme efektivitu práce a strojů největší tiskárny etiket v Česku
 image_main: /case-studies/otk_main.jpeg
 image_grid: /case-studies/otk_main.jpeg
 description:
-meta_title: Monitorujeme produktivitu strojů a lidí ve výrobě | HARDWARIO případová studie
+meta_title: Monitorujeme efektivitu práce a strojů největší tiskárny etiket v Česku | HARDWARIO případová studie
 company: OTK Group
 industry: Industry
 product: IoT Kit
