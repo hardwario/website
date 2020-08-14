@@ -98,17 +98,21 @@
                 <h2 class="font-weight-black font-40 font-lnh44">{{ i18n "other_case_studies" }}</h2>
             </div>
           </div>
-        <div class="row">
-        
-            
-          {{ $pages := .Data.Pages }}
-          {{ range where $pages ".Params.full" false }}
-          <div  class="col-12 col-md-6 col-lg-4">
-            {{ .Render "grid" }}
-        </div>
-          {{ end }}
-        
 
+          <div class="articles articles--3 pb-20">
+            <div class="row">
+                {{ $pages := .Data.Pages.ByWeight }}
+                {{ range where $pages ".Params.full" false }}
+                <div  class="col-12 col-md-6 col-lg-4">
+    
+                    {{ if eq .Params.full true }}
+                        {{ .Render "grid-home-list-link" }}
+                    {{ else }}
+                        {{ .Render "grid-home-list" }}
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
         </div>
     </div>
 

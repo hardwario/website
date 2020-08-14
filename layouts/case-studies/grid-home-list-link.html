@@ -1,0 +1,60 @@
+<a href = "{{ .Permalink }}" class="articles__item articles__item--3">
+    <div class="articles__item__image">
+        <img src="{{ .Params.image_grid_home }}" alt="{{ .Title }}" />
+      </div>
+    <div class="articles__content articles__content--2">
+      <h3 class="articles__title articles__title--2">{{ .Params.heading | safeHTML }}</h3>
+      <div class="articles__text articles__text--2">
+        <p>{{ .Params.description | safeHTML }}</p>
+      </div>
+    </div>
+    <div class="align-items-center justify-content-center text-uppercase font-15 font-weight-medium row articles__content articles__content--2 pt-30 pb-80">
+        <div class="col-6">
+            <img loading="eager" src="/_assets/images/{{ $.Page.Params.logo }}" alt="" class = "w-100" />
+        </div>
+        <div class="col-6">
+            <div class="font-gray3">{{ i18n "product" }}</div>
+            <span class="font-black" href="">{{ $.Page.Params.product }}</span>
+        </div>
+    </div>
+    {{ if eq .Params.full true }}
+    <div class="articles__author d-flex align-items-center">
+        <span class = "font-16 font-weight-bold font-font2 font-red">{{ i18n "read_case_study_now" }}</span>
+    </div>
+    {{ end }}
+</a>
+
+
+<!--
+                  <div class="carousel-item {{ .Params.carousel_status }} bg-image2" style="background-image:url({{ .Params.image_main }});">
+                    <div class="container" style = "height:100%;">
+                        <div class="row justify-content-end align-items-end pb-60" style = "height:100%;">
+                           
+                                    <div style = "height:auto;" class="col-12 col-lg-9 mx-auto bg-white text-center px-20 px-md-30 pt-20 {{ if ne .Params.full true }} pb-20 {{ end }}">
+                                        <h2 class="font-weight-black font-30 font-md-26 font-lnh36 font-md-lnh36 pb-md-20">{{ .Params.heading | safeHTML }}</h2>
+                
+                                        <div class="row justify-content-center">
+                                            <div class = "col col-md-3">
+                                                <div class = "font-red font-font2 font-weight-bold font-15">{{ i18n "customer" }}</div>
+                                                <div class = "font-gray font-font2 font-weight-bold font-15">{{ .Params.company }}</div>
+                                            </div>
+                                            {{ with .Params.partner }}
+                                            <div class = "col col-md-3">
+                                                <div class = "font-red font-font2 font-weight-bold font-15">Partner</div>
+                                                <div class = "font-gray font-font2 font-weight-bold font-15">Vodafone UK</div>
+                                            </div>
+                                            {{ end }}
+                                            <div class = "col col-md-3">
+                                                <div class = "font-red font-font2 font-weight-bold font-15">Product</div>
+                                                <div class = "font-gray font-font2 font-weight-bold font-15">{{ .Params.product }}</div>
+                                            </div>
+                                         </div>
+                                        {{ if eq .Params.full true }}
+                                        <div>
+                                            <a href="{{ .Permalink }}" class="abs-1 font-lnh24 py-15 px-10 px-md-90 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "read_case_study_now" }}</a>
+                                        </div>
+                                        {{ end }}
+                                    </div>
+                        </div>
+                    </div>
+                </div>-->

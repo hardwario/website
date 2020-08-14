@@ -1,8 +1,9 @@
 ---
-title:  Sledujeme kvalitu ovzduší liberecké ZOO
-heading:  Sledujeme kvalitu ovzduší liberecké ZOO
-image_main: /case-studies/tpca_main.png
-image_grid: /case-studies/tpca_grid.png
+title:  Sledujeme kvalitu ovzduší v&nbsp;liberecké ZOO
+heading:  Sledujeme kvalitu ovzduší v&nbsp;liberecké ZOO
+image_main: 
+image_grid: 
+image_grid_home: /case-studies/zoo_grid-home.png
 description:
 meta_title: Sledujeme kvalitu ovzduší liberecké ZOO | HARDWARIO případová studie
 company: ZOO Liberec
@@ -15,6 +16,6 @@ testimonial_author:
 testimonial_company: 
 testimonial_image: 
 logo: /partners/color/zoo.svg
-weight: 5
+weight: 800
 date: 2019-10-05
 ---

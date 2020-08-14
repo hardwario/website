@@ -3,6 +3,7 @@ title:  Pomáháme zabránit výpadkům výroby v automobilce TPCA
 heading:  Pomáháme zabránit výpadkům výroby v&nbsp;automobilce TPCA
 image_main: /case-studies/tpca_main.png
 image_grid: /case-studies/tpca_grid.png
+image_grid_home: /case-studies/tpca_grid-home.png
 description:
 meta_title: IoT prediktivní údržba v automobilce TPCA | HARDWARIO případová studie
 company: TPCA
@@ -14,7 +15,7 @@ testimonial_text: S moduly jsme byli schopni nastavit naši vlastní vlaštovku 
 testimonial_author: Marek Herda
 testimonial_company: Specialist - Security and Industry 4.0
 testimonial_image: herda.jpg
-logo: /case-studies/tpca_logo.png
+logo: /partners/color/tpca.svg
 weight: 5
 date: 2019-10-05
 carousel: true

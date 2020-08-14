@@ -224,13 +224,16 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-8 text-center text-md-left pt-md-90">
                     <h1 class="font-44 font-md-64 font-md-lnh68 font-weight-black pb-40">Vyvíjíme a&nbsp;vyrábíme unikátní IoT&nbsp;zařízení</h1>
-                    <p class="font-24 font-gray2 font-lnh37 pb-40 pr-md-100">Která <strong>společně s našimi partnery</strong> implementujeme do&nbsp;IoT&nbsp;řešení v&nbsp;průmyslu, zemědělství, retailu, zdravotnictví a&nbsp;vzdělávání.</p>
+                    <p class="font-24 font-gray2 font-lnh37 pb-40 pr-md-100"><strong>Fungují z baterií několik let</strong>, <strong>připojí se k internetu téměř odkudkoliv</strong> a <strong> snadno se integrují</strong> s dalšími systémy.</p>
+                    <p class="font-24 font-gray2 font-lnh37 pb-40 pr-md-100"><a href = "/cs/partners/">Společně s našimi partnery</a> je úspěšně implementujeme v&nbsp;projektech digitalizace průmyslu, zemědělství, retailu, zdravotnictví nebo&nbsp;vzdělávání.</p>
                     <div>
                         <!--<a href="#products" class="cta-button font-lnh54 px-70 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "tell_me_more" }}</a>-->
                     </div>
                 </div>
-                <div class="col-6 col-lg-4 text-center text-md-left px-0">
-                    <img src="/_assets/images/chester-white.png" class="d-block w-100" alt="...">
+                <div class="col-6 col-lg-4 text-center text-md-left px-0 productPhoto">
+                    <img src="/_assets/images/chester-white-in.png" class="d-block w-100" alt="...">
+                    <img src="/_assets/images/chester-white2.png" class="d-block w-100 productPhoto-cover" alt="...">
+                    <img src="/_assets/images/chester-white-logo.png" class="d-block w-100 productPhoto-logo" alt="...">
                 </div>
                 <!--<div class="col-12 col-lg-6 text-center text-md-left px-0">
                     <div id="carousel2" class="carousel slide" data-ride="carousel2">
@@ -266,7 +269,7 @@
     </div>
 </section>
 
-<div id="carousel2" class="carousel slide" data-ride="carousel2">
+<!--<div id="carousel2" class="carousel slide" data-ride="carousel2">
     <ol class="carousel-indicators">
         {{ $pages := .Data.Pages }}
         {{ $.Scratch.Set "counter" 0 }}
@@ -289,23 +292,35 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-</div>
+</div>-->
 
+<div class="container ">
+    <div class="articles articles--2 pb-20">
+        <div class="row">
+            <!-- skoda tpca defra surun -->
+            {{ range where $pages ".Params.carousel" true }}
+            <div  class="col-12 col-md-6 col-lg-4">
+
+                {{ if eq .Params.full true }}
+                    {{ .Render "grid-home-list-link" }}
+                {{ else }}
+                    {{ .Render "grid-home-list" }}
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
 
 <section>
     <div class="container">
-        <div class="row align-items-center pt-40 pb-10 mb-md-30">
+        <div class="row align-items-center pb-10 mb-md-30">
             
            <!--<div class="col-12 col-md-8 col-lg-4 mx-auto text-center">
                 <div class="font-redLined font-red mb-20 font-font2 font-weight-bold font-15"><span>{{ i18n "trusted_by" }}</span></div>
             </div>-->
             <div class="col-12 text-center">
-                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
-                    <img width="140" src="/_assets/images/partners/tpca.svg" alt="" />
-                </span>
-                <span class="px-10 px-md-30 mb-10 mb-md-0 d-inline-block">
-                    <img width="140" src="/_assets/images/partners/skoda.svg" alt="" />
-                </span>
+                
                 <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
                     <img width="135" src="/_assets/images/partners/otk.svg" alt="" />
                 </span>
@@ -315,9 +330,6 @@
                 <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
                     <img width="115" src="/_assets/images/partners/skanska.svg" alt="" />
                 </span>
-            </div>
-            <div class="col-12 text-center pt-20 d-none d-md-block">
-                
                 <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
                     <img width="95" src="/_assets/images/partners/zat.svg" alt="" />
                 </span>
@@ -327,30 +339,9 @@
                 <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
                     <img width="95" src="/_assets/images/partners/surun.svg" alt="" />
                 </span>
-                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
-                    <img width="95" src="/_assets/images/partners/defra.svg" alt="" />
-                </span>
-                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
-                    <img width="95" src="/_assets/images/partners/aco.svg" alt="" />
-                </span>
-            </div>
-
-            <div class="col-12 text-center pt-40 d-none d-md-block">
-                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
-                    <img width="95" src="/_assets/images/partners/eon.svg" alt="" />
-                </span>
-                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
-                    <img width="165" src="/_assets/images/partners/recall.svg" alt="" />
-                </span>
-                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
-                    <img width="125" src="/_assets/images/partners/angelcam.svg" alt="" />
-                </span>
-                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
-                    <img width="125" src="/_assets/images/partners/iframix.svg" alt="" />
-                </span>
             </div>
             <div class = "col-12 text-center pt-40">
-                <a href="{{ "case-studies/" | absLangURL }}" class="text-decoration-underline font-font2 font-weight-bold font-18 font-red">Všechny reference</a>
+                <a href="{{ "case-studies/" | absLangURL }}" class="d-block d-md-inline-block font-lnh24 py-15 px-10 px-md-50 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "other_case_studies" }}</a>
             </div>
         </div>
     </div>
@@ -361,7 +352,7 @@
         <div class="row justify-content-center">
             <div class="pb-60 col-12 text-center">
                 <h2 class="font-40 font-md-64 font-md-lnh56 font-weight-black">
-                  Od nápadu až&nbsp;k&nbsp;implementaci
+                  Od strategie až&nbsp;k&nbsp;implementaci
                 </h2>
             </div>
         </div>
@@ -379,7 +370,7 @@
                   <p class = "font-18 font-lnh26">My a naši partneři vám pomůžeme <strong>vytvořit a zrealizovat smysluplnou IoT strategii</strong> podle vašich představ.</p>
                 </div>
                 <div class="carousel-item bg-gray">
-                    <p class = "font-18 font-lnh26">Vyvíjíme a vyrábíme <strong>bezpečný hardware s velmi nízkou spotřebou</strong> a snadným ovládáním.</p>
+                    <p class = "font-18 font-lnh26">Vyvineme a vyrobíme <strong>bezpečný hardware s velmi nízkou spotřebou</strong> a snadným ovládáním.</p>
                 </div>
                 <div class="carousel-item bg-gray">
                     <p class = "font-18 font-lnh26">Zajistíme konektivitu vašich zařízení do internetu pomocí <strong>speciálních IoT technologií</strong>.</p>
@@ -499,7 +490,7 @@
                                     <img loading="lazy" src="/_assets/images/benefits/complex.svg" class="w-100 mt-20" alt="" />
                                 </div>
                                 <div class = "col">
-                                    <h3 class="font-20 font-weight-black font-lnh30">Komplexní</h3>
+                                    <h3 class="font-20 font-weight-black font-lnh30">Ucelené</h3>
                                     <p class="font-18 font-lnh26">Společně vytvoříme a zrealizujeme IoT strategii. Zohledníme vzdělávání, UX, bezpečnost, data, konektivitu, integrace, škálovatelnost.</h3>
                                 </div>
                             </div>
