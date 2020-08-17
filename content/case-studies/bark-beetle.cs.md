@@ -1,14 +1,14 @@
 ---
-title:  Monitorujeme aktivitu kůrovce v lesích České republiky
-heading:  Monitorujeme aktivitu kůrovce v lesích České republiky
+title:  Monitorujeme aktivitu kůrovce vnbsp;lesích České republiky
+heading:  Monitorujeme aktivitu kůrovce v&nbsp;lesích ČR
 image_main: 
 image_grid: 
 image_grid_home: /case-studies/kurovec_grid-home.png
 description:
-meta_title: IoT prediktivní údržba v automobilce TPCA | HARDWARIO případová studie
-company: TPCA
-industry: Real Estate
-product: CHESTER
+meta_title: Monitorujeme aktivitu kůrovce vnbsp;lesích České republiky | HARDWARIO případová studie
+company: Kurovcoveinfo.cz
+industry: Agriculture
+product: CHESTER IoT Hub
 featured: false
 full: false
 testimonial_text: 

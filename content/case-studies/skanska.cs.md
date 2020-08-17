@@ -8,7 +8,7 @@ description:
 meta_title: Monitorujeme výšku hladiny jímek bytových domů SKANSKA | HARDWARIO případová studie
 company: TPCA
 industry: Real Estate
-product: CHESTER
+product: CHESTER IoT Hub
 featured: false
 full: false
 testimonial_text: 

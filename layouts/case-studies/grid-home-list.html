@@ -8,14 +8,26 @@
           <p>{{ .Params.description | safeHTML }}</p>
         </div>
       </div>
-      <div class="align-items-center justify-content-center text-uppercase font-15 font-weight-medium row articles__content articles__content--2 pt-30 pb-30 pb-md-80">
+      <div class="align-items-center justify-content-center text-uppercase font-14 font-weight-medium row articles__content articles__content--2 pt-30">
         <div class="col-6">
             <img loading="eager" src="/_assets/images/{{ $.Page.Params.logo }}" alt="" class = "w-100" />
         </div>
         <div class="col-6">
+            <div class="font-gray3">{{ i18n "customer" }}</div>
+            <span class="font-black" href="">{{ $.Page.Params.company }}</span>
+        </div>
+    </div>
+    <div class="text-uppercase font-14 font-weight-medium row articles__content articles__content--2 pt-30 pb-30 pb-md-0">
+        <div class="col-6">
             <div class="font-gray3">{{ i18n "product" }}</div>
             <span class="font-black" href="">{{ $.Page.Params.product }}</span>
         </div>
+        {{ with .Params.partner }}
+        <div class="col-6">
+            <div class="font-gray3">Partner</div>
+            <span class="font-black" href="">{{ $.Page.Params.partner }}</span>
+        </div>
+        {{ end }}
     </div>
 </span>
 

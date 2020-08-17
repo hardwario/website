@@ -7,7 +7,8 @@ description:
 meta_title: ANDON in ŠKODA AUTO | HARDWARIO Case Study
 company: ŠKODA Auto
 industry: Automotive
-product: IoT Kit
+product: TOWER IoT Kit
+partner: Microsoft
 featured: true
 full: true
 testimonial_text: "HARDWARIO helped us to swiftly and smoothly enhance our production process with a solution to monitor the current state of production lines and easily check whether any operator needs help."

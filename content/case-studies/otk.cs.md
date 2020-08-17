@@ -8,7 +8,7 @@ description:
 meta_title: Monitorujeme efektivitu práce a strojů největší tiskárny etiket v Česku | HARDWARIO případová studie
 company: OTK Group
 industry: Industry
-product: IoT Kit
+product: TOWER IoT Kit
 featured: false
 full: false
 testimonial_text: 

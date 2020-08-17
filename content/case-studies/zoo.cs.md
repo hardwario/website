@@ -8,7 +8,7 @@ description:
 meta_title: Sledujeme kvalitu ovzduší liberecké ZOO | HARDWARIO případová studie
 company: ZOO Liberec
 industry: Agriculture
-product: CHESTER
+product: CHESTER IoT Hub
 featured: false
 full: false
 testimonial_text: 

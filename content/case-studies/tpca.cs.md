@@ -8,7 +8,7 @@ description:
 meta_title: IoT prediktivní údržba v automobilce TPCA | HARDWARIO případová studie
 company: TPCA
 industry: Automotive
-product: IoT Kit
+product: TOWER IoT Kit
 featured: false
 full: true
 testimonial_text: S moduly jsme byli schopni nastavit naši vlastní vlaštovku Průmyslu 4.0 už za pár dní. A ušetřilo nám to čas i peníze.

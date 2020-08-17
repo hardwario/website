@@ -1,5 +1,9 @@
 .productPhoto{
 
+  img{
+    padding-right: 15px;
+    
+  }
   &-cover{
     animation-name: transparent;
     animation-iteration-count: 1000;

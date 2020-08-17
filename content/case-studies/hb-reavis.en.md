@@ -8,7 +8,6 @@ meta_title: IoT monitoring of ideal working conditions | Environmental monitorin
 company: HB REAVIS
 industry: Real estate
 product: COOPER
-product: CHESTER
 featured: false
 full: true
 testimonial_text: Partial custom delivery of multi-sensors from HARDWARIO has fitted in our eco-system in HB REAVIS as a reliable data source built on a low power wireless infrastructure. We rely on it in monitoring, evaluating and optimizing the quality of the indoor ambient. We are looking forward to further iterations!

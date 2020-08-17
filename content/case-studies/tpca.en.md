@@ -7,7 +7,7 @@ description:
 meta_title: IoT predictive maintenance in TPCA automobile plant | HARDWARIO Case Study
 company: TPCA
 industry: Automotive
-product: IoT Kit
+product: TOWER IoT Kit
 featured: false
 full: true
 testimonial_text: With IoT Kit modules, I was able to set-up our Industry 4.0 pilots in just a few days. It saved us time and money.

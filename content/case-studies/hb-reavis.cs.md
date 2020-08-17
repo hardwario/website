@@ -7,7 +7,7 @@ description:
 meta_title: IoT monitoring ideálních pracovních podmínek | Environmentální monitoring | HARDWARIO případová studie
 company: HB REAVIS
 industry: Real estate
-product: CHESTER
+product: COOPER
 featured: false
 full: true
 testimonial_text: Částečná custom dodávka multisenzorů od Hardwaria zapadla do našeho ekosystému v HB REAVIS jako spolehlivý datový zdroj postavený na low power bezdrátové infrastruktuře. Opíráme se o něj při monitorování, vyhodnocování a optimalizaci kvality vnitřního prostředí. Těšíme se na další iteraci!
