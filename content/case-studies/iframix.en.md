@@ -14,7 +14,7 @@ testimonial_text:
 testimonial_author:
 testimonial_company:
 testimonial_image: iframix_logo.png
-logo: /case-studies/iframix_logo.png
+logo: /partners/color/iframix_logo.png
 weight: 10
 date: "2019-10-05"
 ---

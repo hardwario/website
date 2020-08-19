@@ -3,6 +3,7 @@ title: Four modules help Škoda Auto respond more quickly to production problem
 heading: Four modules help Škoda Auto respond more quickly to production problems
 image_main: /case-studies/skoda_main.png
 image_grid: /case-studies/skoda_grid.png
+image_grid_home: /case-studies/skoda_grid-home.png
 description:
 meta_title: ANDON in ŠKODA AUTO | HARDWARIO Case Study
 company: ŠKODA Auto
@@ -15,7 +16,7 @@ testimonial_text: "HARDWARIO helped us to swiftly and smoothly enhance our produ
 testimonial_author: Jan Vlačiha
 testimonial_company: Expert Coordinator – Škoda Auto
 testimonial_image: vlaciha.jpg
-logo: /case-studies/skoda_logo.jpg
+logo: /partners/color/skoda.svg
 weight: 0
 date: 2019-10-05
 ---

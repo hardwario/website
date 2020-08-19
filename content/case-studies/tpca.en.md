@@ -14,7 +14,7 @@ testimonial_text: With IoT Kit modules, I was able to set-up our Industry 4.0 pi
 testimonial_author: Marek Herda
 testimonial_company: Specialist - Security and Industry 4.0
 testimonial_image: herda.jpg
-logo: /case-studies/tpca_logo.png
+logo: /partners/color/tpca.svg
 weight: 5
 date: 2019-10-05
 ---

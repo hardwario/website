@@ -14,7 +14,7 @@ testimonial_text: "Firmu HARDWARIO jsme oslovili s cílem otestovat síť NB-IoT
 testimonial_author: Dominik Harman
 testimonial_company: Project Manager, E.ON
 testimonial_image: dominik_harman.jpg
-logo: /case-studies/eon_logo.png
+logo: /partners/color/eon_logo.png
 weight: 20
 date: 2019-10-05
 ---

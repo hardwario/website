@@ -14,7 +14,7 @@ testimonial_text: Partial custom delivery of multi-sensors from HARDWARIO has fi
 testimonial_author: HB REAVIS
 testimonial_company:
 testimonial_image: hbreavis.png
-logo: /case-studies/hbreavis_logo.png
+logo: /partners/color/hb_reavis.svg
 weight: 30
 date: 2019-10-05
 ---
@@ -33,3 +33,4 @@ It is not possible to achieve optimum working environment without fresh air, and
 
 {{% /content %}}
 {{% /intro %}}
+

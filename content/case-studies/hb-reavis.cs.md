@@ -14,7 +14,7 @@ testimonial_text: Částečná custom dodávka multisenzorů od Hardwaria zapadl
 testimonial_author: HB REAVIS
 testimonial_company:
 testimonial_image: hbreavis.png
-logo: /case-studies/hbreavis_logo.png
+logo: /partners/color/hbreavis_logo.png
 weight: 30
 date: 2019-10-05
 ---
