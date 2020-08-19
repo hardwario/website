@@ -3,6 +3,7 @@ layout: "thank-you"
 expirydate: "2020-08-28"
 title: "Díky za zájem o seminář IoT prakticky v průmyslu i&nbsp;domácnostech"
 place: "Praha"
+events: true
 ---
 
 **Vaši přihlášku na seminář 27. srpna v Brně jsme úspěšně přijali a poslali jsme na váš e-mail potvrzení a informace k domluvě způsobu uhrazení.** Těšíme se!
