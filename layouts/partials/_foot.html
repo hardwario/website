@@ -1,5 +1,6 @@
 
-    <div class="bg-red bg-footer font-white pt-xl-50">
+              
+    <div class="bg-darkGray bg-footer bg-footer--dark font-white pt-xl-50">
         <div class="container pt-30 text-center text-md-left">
             <div class = "row">
               <div class = "col-12">
@@ -52,21 +53,33 @@
                     <div class="font-font2 font-18 pb-25 font-weight-medium">{{ i18n "navigation"}}</div>
                     <div class="font-18">
                         <ul class = "footernav">
-                        {{ range .Site.Menus.footer }}
+                        {{ range .Site.Menus.footer.ByWeight }}
                           <li><a href="{{ .URL }}" target = "{{ .Post }}" class = "font-weight-medium font-white">{{ .Name | safeHTML }}</a></li>
                         {{ end }}
                         </ul>
+                    
+                </div>
+              </div>
+              <div class="col-12 col-md pb-xl-50">
+                <div class="font-font2 font-18 pb-25 font-weight-medium invisible">{{ i18n "navigation"}}</div>
+                <div class="font-18">
+                    <ul class = "footernav">
+                    {{ range .Site.Menus.footer_2.ByWeight }}
+                      <li><a href="{{ .URL }}" target = "{{ .Post }}" class = "font-weight-medium font-white">{{ .Name | safeHTML }}</a></li>
+                    {{ end }}
+                    </ul>
                     <a href="mailto:ask@hardwario.com" class="d-block font-font2 font-18 pb-25 font-weight-medium font-white">ask@hardwario.com</a>
                     <div class="d-flex justify-content-center justify-content-md-start">
                         <a href='{{ i18n "twitter" }}' target="_blank" class="icon icon--twitter mr-20 text-hide">Twitter</a>
                         <a href="https://www.facebook.com/hardwario/" target="_blank" class="icon icon--fb mr-20 text-hide">Facebook</a>
-                        <a href="https://linkedin.com/company/hardwario/" target="_blank" class="icon icon--linked text-hide">LinkedIn</a>
+                        <a href="https://linkedin.com/company/hardwario/" target="_blank" class="icon icon--linked mr-20 text-hide">LinkedIn</a>
+                        <a href="http://instagram.com/hardwario/" target="_blank" class="icon icon--instagram text-hide">Instagram</a>
                     </div>
-                </div>
             </div>
+          </div>
         </div>
     </div>
-
+</div>
     <link rel="stylesheet" href="/_assets/css/{{ index .Site.Data.css.hash "main-addon.css" }}" />
 
 </footer>

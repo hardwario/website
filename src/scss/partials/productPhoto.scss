@@ -1,0 +1,86 @@
+.productPhoto{
+
+  img{
+    padding-right: 15px;
+    
+  }
+  &-cover{
+    animation-name: transparent;
+    animation-iteration-count: 1000;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    position:absolute;
+    top:0;
+  
+    :hover > & {
+      animation-name: fill;
+      animation-iteration-count: 1000;
+      animation-timing-function: ease-out;
+      animation-duration: 1s;
+      animation-fill-mode:forwards;
+      animation-iteration-count: 1;
+    }
+  }
+
+  &-logo{
+    animation-name: transparentFull;
+    animation-iteration-count: 1000;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    position:absolute;
+    top:0;
+  
+    :hover > & {
+      animation-name: fillZero;
+      animation-iteration-count: 1000;
+      animation-timing-function: ease-out;
+      animation-duration: 1s;
+      animation-fill-mode:forwards;
+      animation-iteration-count: 1;
+    }
+  }
+
+}
+
+@keyframes transparent {
+  0% {
+      opacity:1;
+  }
+
+  100% {
+      opacity:0.3;
+  }
+}
+
+@keyframes fill {
+  0% {
+      opacity:0.3;
+  }
+
+  100% {
+      opacity:1;
+  }
+}
+@keyframes transparentFull {
+  0% {
+      opacity:1;
+  }
+
+  100% {
+      opacity:0;
+  }
+}
+
+@keyframes fillZero {
+  0% {
+      opacity:0;
+  }
+
+  100% {
+      opacity:1;
+  }
+}

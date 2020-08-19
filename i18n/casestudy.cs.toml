@@ -1,8 +1,8 @@
 [read_full_study]
-other = "Zajímá vás příběh<br/> celé případové studie?"
+other = "Přečtěte si celou případovou studii"
 
 [get_full_content]
-other = "Získejte tuto a další případové studie"
+other = "Stáhněte si tuto a další případové studie."
 
 [download_pdf]
 other = "Stáhnout případovky"
@@ -12,3 +12,6 @@ other = "Zašleme vám<br/> všechny případové studie<br/> na váš e-mail"
 
 [case_studies]
 other = "Případové studie"
+
+[other_case_studies]
+other = "Další úspěšné projekty"

@@ -1,0 +1,11 @@
+<span class="articles__item articles__item--4">
+        <div class="articles__content articles__content--2 pt-30">
+          <h3 class="articles__title articles__title--2 font-22 font-lnh22">{{ .Title | safeHTML }}</h3>
+          <div class="articles__text articles__text--2">
+            <p>{{ .Params.description | safeHTML }}</p>
+          </div>
+        </div>
+        <div class="articles__author d-flex align-items-center">
+           <img src = "/_assets/images/{{ .Params.logo }}" class = "w-50 mt-10 mb-10" />
+        </div>
+</span>

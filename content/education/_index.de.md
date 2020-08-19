@@ -1,6 +1,6 @@
 ---
 title: Bildung
-menu: ["footer"]
+menu: ["footer_2"]
 weight: 30
 categories: ["education"]
 meta_title: Spannender und aktiver STEM-Unterricht, der auf realen IoT-Projekten mit HARDWARIO basiert

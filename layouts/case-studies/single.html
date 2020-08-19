@@ -1,44 +1,33 @@
 {{ define "main" }}
 
 <section>
-  <img loading="eager" src="{{ .Params.image_main }}" alt="" class="w-100" />
+  <img loading="eager" src="{{ .Params.image_main }}" alt="" class="w-100 mt-20 mt-md-0" />
+
+
 
   {{ .Content }}
 
   {{ if .Params.testimonial_text }}
-  <div class="container py-50">
-    <div class="row justify-content-center">
-      <div class="col-10">
-        <div class="row">
-          <div class="col-12 col-md-6 mx-auto text-center pb-30">
-            <div class="font-redLined font-red font-font2 font-weight-bold font-10">
-              <span>
-                <div class="icon icon--quote"></div>
-              </span>
-            </div>
-          </div>
-        </div>
-        <blockquote class="font-25 font-md-35 font-gray4 font-weight-bold text-center pb-30">
-          {{ .Params.testimonial_text }}
-        </blockquote>
-        <span class="d-block text-center font-black text-decoration-none">
-          <img loading="lazy" src="/case-studies/{{ .Params.testimonial_image }}" class="rounded-circle mb-30 d-block mx-auto" alt="" />
-          <div class="font-22 font-lnh38 font-weight-bold">
-            <div>{{ .Params.testimonial_author }}</div>
-            <div>{{ .Params.testimonial_company }}</div>
-          </div>
-        </span>
-      </div>
-    </div>
-  </div>
+
   {{ end }}
 </section>
 
 <section>
-  <div class="text-center pt-70 pb-60 px-15">
-    <h2 class="font-40 font-md-64 font-md-lnh64 pb-30 mb-5 font-weight-black">{{ i18n "read_full_study" | safeHTML }}</h2>
-    <p class="font-24 pb-40">{{ i18n "get_full_content" }}</p>
-    <a href = "#" class="getPdf font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" data-toggle="modal" data-target=".bd-example-modal-lg">{{ i18n "download_pdf" }}</a>
+  <div class = "container">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mt-10 mb-60">
+        <div class = "row align-items-center justify-content-center">
+          <div class = "col-6 col-md-2 px-30">
+              <img loading="lazy" src="/_assets/images/checklist.svg" class="w-100 d-block mx-auto img-fluid" alt="" />
+          </div>
+          <div class = "col-12 col-md-10 pt-30 pt-md-0 text-center text-md-left font-white">
+          <h3 class = "font-32 font-weight-bold pb-10">{{ i18n "read_full_study" | safeHTML }}</h3>
+          <p class = "font-22 pb-10">{{ i18n "get_full_content" }}</p>
+          <a href = "#" class="getPdf font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "download_pdf" }}</a>
+          </div>
+      </div>
+  </div>
+  </div>
   </div>
 
   <div id = "downloadCaseStudy" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
@@ -48,7 +37,7 @@
           <div class="container-fluid">
             <div class="row justify-content-center">
               <div class="col-md-10">
-                <h2 class = "font-30 font-md-42 pt-50 pb-50 font-weight-black text-center">{{ i18n "download_case_study" | safeHTML }}</h2>
+                <h2 class = "font-30 font-md-42 pt-50 pb-50 font-weight-black text-center" data-toggle="modal" data-target=".bd-example-modal-lg">{{ i18n "download_case_study" | safeHTML }}</h2>
               </div>
               <div class="col-md-8 text-center">
                 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
@@ -65,7 +54,6 @@
       </div>
     </div>
   </div>
-
 </section>
 
 <footer>

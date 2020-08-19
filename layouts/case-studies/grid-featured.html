@@ -22,7 +22,7 @@
                 <div class="pl-xl-100 pr-xl-50 d-none d-md-block">
                     <div class="d-block d-md-flex mb-30 align-items-center text-uppercase font-15 font-weight-medium">
                         <div class="mr-auto mb-20 mb-md-0 pr-10">
-                            <img loading="eager" src="{{ .Params.logo }}" alt="" class = "img-fluid" />
+                            <img loading="eager" src="/_assets/images/{{ $.Page.Params.logo }}" alt="" class = "w-50" />
                         </div>
                         <div class="pl-30 pr-md-30 pr-lg-60 border-left py-10 py-md-30">
                             <div class="font-gray3">{{ i18n "company" }}</div>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
 
-                <div class="text-center pb-100">
+                <div class="text-center pb-60">
                     <a href="{{ .Permalink }}" class="d-block d-md-inline-block font-lnh24 py-15 px-10 px-md-50 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "read_case_study_now" }}</a>
                 </div>
 

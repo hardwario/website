@@ -1,3 +1,18 @@
-<div class="font-22 font-lnh38 pb-0">
-  {{ .Inner | safeHTML }}
+<div class="row font-22 font-lnh38 pb-0">
+  <div class = "col-12 col-md-7">
+    {{ .Inner | safeHTML }}
+  </div>
+  <div class = "col-12 col-md-5">
+    
+    <blockquote class="font-20 font-md-26 font-gray4 font-weight-bold text-center pb-20">
+      {{ $.Page.Params.testimonial_text }}
+    </blockquote>
+    <span class="d-block text-center font-black text-decoration-none">
+      <img loading="lazy" src="/case-studies/{{ $.Page.Params.testimonial_image }}" class="w-25 rounded-circle mb-10 d-block mx-auto" alt="" />
+      <div class="font-16 font-lnh20 font-weight-bold">
+        <div>{{ $.Page.Params.testimonial_author }}</div>
+        <div>{{ $.Page.Params.testimonial_company }}</div>
+      </div>
+    </span>
+  </div>
 </div>

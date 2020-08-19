@@ -1,7 +1,33 @@
 @import "basic";
 
+
 .bg
 {
+  &-body
+  {
+    background-image: url(/_assets/images/image23.png)!important;
+    background-position: 150% -17%!important;
+    background-repeat: no-repeat!important;
+    background-size: 65% auto!important;
+
+    @media(min-width:1799px){
+      background-position: 150% -27%!important;
+      background-size: 60% auto!important;
+    }
+
+    @media(max-width:1199px){
+      background-position: 163% -5%!important;
+      background-size: 65% auto!important;
+    }
+      
+    @media(max-width:991px){
+
+    }
+
+    @media(max-width:767px){
+
+    }
+  }
   &-red
   {
     background: #E30427;
@@ -9,7 +35,7 @@
 
   &-no-image{
     background:#252532;
-    padding: 200px 0;
+    padding: 250px 0;
 
     @media(max-width:1214px)
     {
@@ -748,6 +774,40 @@
     }
   }
 
+  &-image23
+  {
+    background: url("../images/image23.png") right top 0px no-repeat;
+    background-size: 45% auto;
+    min-height: 600px;
+
+    @media(min-width:1799px)
+    {
+      background-size: 38% auto;
+    }
+    @media(max-width:1367px)
+    {
+      min-height: 500px;
+    }
+
+    @media(max-width:1199px)
+    {
+      background-size: 40% auto;
+      background-position: center right -50px;
+      min-height: 400px;
+    }
+
+    @media(max-width:991px)
+    {
+      min-height: 0;
+      /*background-position: bottom right;
+      background-size: 55% auto;*/
+      background: transparent;
+      //padding-bottom: 200px;
+    }
+
+    
+  }
+
   &-image2
   {
     background: url("../images/image2.jpg") center center no-repeat;
@@ -831,7 +891,12 @@
     background-image: url("../images/footer-bcg.svg");
     background-position: center left;
     background-repeat: no-repeat;
+
+    &--dark{
+      background-image: url("../images/footer-bcg-dark.svg"); 
+    }
   }
+
 
   &-trans
   {

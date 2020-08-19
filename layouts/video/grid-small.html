@@ -1,0 +1,16 @@
+  <div class="col-12">
+    <a href="{{ .Permalink }}" class="related__item">
+        <div class="related__item__image">
+            <img src="{{ .Params.image_preview }}" alt="{{ .Title }}" />
+        </div>
+        <div class="related__item__title">{{ .Title }}</div>
+        <div class="related__item__date">
+          Video | 
+          {{ if eq .Lang "cs" }}
+            {{ .Date.Day }}. {{ index $.Site.Data.mesice (printf "%d" .Date.Month) }} {{ .Date.Year }}
+          {{ else }}
+            {{ .Date.Format "2 January 2006" }}
+          {{ end }}
+        </div>
+    </a>
+</div>

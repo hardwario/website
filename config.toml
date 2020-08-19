@@ -41,84 +41,84 @@ csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
       contactFormId = "92a95503-6986-4713-b32b-4f6bc079bea4"
 
 
-[[languages.en.menu.footer]]
+[[languages.en.menu.footer_2]]
   url    = "https://developers.hardwario.com"
   name   = "Documentation"
-  weight = 0
+  weight = 10
 
-[[languages.de.menu.footer]]
+[[languages.de.menu.footer_2]]
   url    = "https://developers.hardwario.com"
   name   = "Dokumentation"
-  weight = 0
+  weight = 10
 
-[[languages.cs.menu.footer]]
+[[languages.cs.menu.footer_2]]
   url    = "https://developers.hardwario.com"
   name   = "Dokumentace"
-  weight = 0
+  weight = 10
 
-[[languages.en.menu.footer]]
+[[languages.en.menu.footer_2]]
   url    = "https://github.com/hardwario-kit"
   name   = "GitHub"
   weight = 500
 
-[[languages.de.menu.footer]]
+[[languages.de.menu.footer_2]]
   url    = "https://github.com/hardwario"
   name   = "GitHub"
   weight = 500
 
-[[languages.cs.menu.footer]]
+[[languages.cs.menu.footer_2]]
   url    = "https://github.com/hardwario-kit"
   name   = "GitHub"
   weight = 800
 
-[[languages.en.menu.footer]]
+[[languages.en.menu.footer_2]]
   url    = "https://forum.hardwario.com"
   name   = "Forum"
   weight = 550
 
-[[languages.cs.menu.footer]]
+[[languages.cs.menu.footer_2]]
   url    = "https://forum.hardwario.com"
   name   = "Fórum"
   weight = 850
 
-[[languages.de.menu.footer]]
+[[languages.de.menu.footer_2]]
   url    = "https://forum.hardwario.com"
   name   = "Forum"
   weight = 550
 
-[[languages.en.menu.footer]]
+[[languages.en.menu.footer_2]]
   url    = "https://shop.hardwario.com"
   name   = "Shop"
-  weight = 500
+  weight = 5
 
-[[languages.de.menu.footer]]
+[[languages.de.menu.footer_2]]
   url    = "https://shop.hardwario.com"
   name   = "Shop"
-  weight = 500
+  weight = 5
 
-[[languages.cs.menu.footer]]
+[[languages.cs.menu.footer_2]]
   url    = "https://obchod.hardwario.cz"
   name   = "E&#8209;shop"
-  weight = 500
+  weight = 5
 
 [[languages.en.menu.main]]
   url    = "https://shop.hardwario.com"
   name   = "Shop"
-  pre = "shop_link"
+  pre = "shop_link pr-lg-30"
   post = "_blank"
   weight = 95
 
 [[languages.de.menu.main]]
   url    = "https://shop.hardwario.com"
   name   = "Shop"
-  pre = "shop_link"
+  pre = "shop_link pr-lg-30"
   post = "_blank"
   weight = 95
 
 [[languages.cs.menu.main]]
   url    = "https://obchod.hardwario.cz"
   name   = "E&#8209;shop"
-  pre = "shop_link"
+  pre = "shop_link pr-lg-30 mr-0"
   post = "_blank"
   weight = 95
 

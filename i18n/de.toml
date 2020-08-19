@@ -5,7 +5,7 @@ other = "Fallstudie"
 other = "Ich möchte eine Fallstudie lesen"
 
 [company]
-other = "Gesellschaften"
+other = "Gesellschaft"
 
 [industry]
 other = "Industry"
@@ -17,7 +17,7 @@ other = "Produkt"
 other = "Headquarters & Sales"
 
 [development_distribution]
-other = "Development & Distribution"
+other = "R&D"
 
 [czechia]
 other = "TSCHECHIEN"

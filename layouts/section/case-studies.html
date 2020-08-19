@@ -6,6 +6,63 @@
         {{ range where $pages.ByPublishDate.Reverse ".Params.featured" true }}
           {{ .Render "grid-featured" }}
         {{ end }}
+    </div>
+
+      <div class="container">
+          <div class="row align-items-center pb-30 mb-md-30">
+            <div class="col-12 text-center">
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="140" src="/_assets/images/partners/tpca.svg" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-10 mb-md-0 d-inline-block">
+                    <img width="140" src="/_assets/images/partners/skoda.svg" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="135" src="/_assets/images/partners/otk.svg" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="135" src="/_assets/images/partners/unifly.svg" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="115" src="/_assets/images/partners/skanska.svg" alt="" />
+                </span>
+            </div>
+            <div class="col-12 text-center pt-20 d-none d-md-block">
+                
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="95" src="/_assets/images/partners/zat.svg" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="135" src="/_assets/images/partners/arcelormittal.svg" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="95" src="/_assets/images/partners/surun.svg" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="95" src="/_assets/images/partners/defra.svg" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="95" src="/_assets/images/partners/aco.svg" alt="" />
+                </span>
+            </div>
+
+            <div class="col-12 text-center pt-40 d-none d-md-block">
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="95" src="/_assets/images/partners/eon.svg" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="165" src="/_assets/images/partners/recall.svg" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="125" src="/_assets/images/partners/angelcam.svg" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="125" src="/_assets/images/partners/iframix.svg" alt="" />
+                </span>
+            </div>
+          </div>
+      </div>
+      <div class="container pt-30 pt-md-0">
         <div class="row">
 
           {{ $pages := .Data.Pages }}
@@ -15,17 +72,52 @@
 
         </div>
 
-
+    </section>
+    <section>
+        <div class = "container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mb-60">
+              <div class = "row align-items-center">
+                <div class = "col-12 col-md-4 px-50">
+                    <img loading="lazy" src="/_assets/images/{{ .Params.cons_img }}" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
+                </div>
+                <div class = "col-12 col-md-8 pt-30 pt-md-0 text-center text-md-left font-white">
+                <h3 class = "font-32 font-weight-bold pb-10">{{ i18n "free_consult" | safeHTML }}</h3>
+                <p class = "font-16 pb-10">{{ .Params.consultation | safeHTML }}</p>
+                <a href = "{{ .Params.cons_link }}" target="_blank" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "make_an_appointment" }}</a>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+      </section>
+<section>
+    <div class = "container">
         <div class="row">
+            <div class="col-12 col-lg-12 pb-30 text-center">
+                <h2 class="font-weight-black font-40 font-lnh44">{{ i18n "other_case_studies" }}</h2>
+            </div>
+          </div>
 
-          {{ $pages := .Data.Pages }}
-          {{ range where $pages ".Params.full" false }}
-            {{ .Render "grid-list" }}
-          {{ end }}
-
+          <div class="articles articles--3 pb-20">
+            <div class="row">
+                {{ $pages := .Data.Pages.ByWeight }}
+                {{ range where $pages ".Params.full" false }}
+                <div  class="col-12 col-md-6 col-lg-4">
+    
+                    {{ if eq .Params.full true }}
+                        {{ .Render "grid-home-list-link" }}
+                    {{ else }}
+                        {{ .Render "grid-home-list" }}
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
         </div>
     </div>
 
 </section>
+
+
 
 {{ end }}

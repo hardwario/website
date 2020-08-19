@@ -1,6 +1,6 @@
 ---
 title: Education
-menu: ["footer"]
+menu: ["footer_2"]
 weight: 30
 categories: ["education"]
 meta_title: Engaging active STEM learning based on real IoT projects with HARDWARIO
