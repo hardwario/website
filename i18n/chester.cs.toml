@@ -182,7 +182,7 @@ other = "Chci&nbsp;kompletní&nbsp;ceník"
 other = "Koupit&nbsp;tester&nbsp;ihned"
 
 [buy_chester_tester_link]
-other = "https://obchod.hardwario.cz/nb-iot-tester/"
+other = "https://obchod.hardwario.cz/hub/"
 
 [interested_in_chester]
 other = "Mám zájem o CHESTER"
