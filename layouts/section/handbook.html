@@ -207,13 +207,13 @@ if (this.readyState == 4 && this.status == 200) {
     $('#pg-download div.show').show();
 }
 else{
-  //$('.showAllPlatforms').replaceWith("<a class = 'showAllPlatforms button' href = 'https://github.com/hardwario-kit/bch-playground/releases/latest'>Show for all platforms</a>");
+  //$('.showAllPlatforms').replaceWith("<a class = 'showAllPlatforms button' href = 'https://api.github.com/repos/hardwario/bch-playground/releases/latest'>Show for all platforms</a>");
 }
 }
 
 var oReq = new XMLHttpRequest();
 oReq.addEventListener("load", reqListener);
-oReq.open("GET", "https://api.github.com/repos/hardwario-kit/bch-playground/releases/latest", true);
+oReq.open("GET", "https://api.github.com/repos/hardwario/bch-playground/releases/latest", true);
 oReq.send();
 
 $('.showAllPlatforms').click(function(){
