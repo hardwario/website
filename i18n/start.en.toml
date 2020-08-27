@@ -56,4 +56,16 @@ other = "Open SDK library"
 other = "Personal technical support"
 
 [personal_tech_support_text]
-other = "Whenever you need advice, contact our technical support. Email us at <a href = 'ask.hardwario.com'>ask.hardwario.com</a> or use the online chat here on the web."
+other = "Whenever you need advice, contact our technical support. Email us at <a href = 'mailto:ask@hardwario.com'>ask@hardwario.com</a> or use the online chat here on the web."
+
+[videos_link]
+other = "All videos"
+
+[download_playground]
+other = "Download Playground"
+
+[playground_description]
+other = "Download a tool that will make your IoT Kit TOWER listen to you. It's available for Windows, Linux, Ubuntu and Apple macOS."
+
+[download_link]
+other = "Go to download"

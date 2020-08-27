@@ -56,4 +56,16 @@ other = "Otevřít SDK knihovnu"
 other = "Osobní technická podpora"
 
 [personal_tech_support_text]
-other = "Kdykoliv budete potřebovat poradit, obraťte se na naši technickou podporu. Napište nám na <a href = 'mailto:ask@hardwario.com'>ask.hardwario.com</a> nebo použijte online chat tady na webu."
+other = "Kdykoliv budete potřebovat poradit, obraťte se na naši technickou podporu. Napište nám na <a href = 'mailto:ask@hardwario.com'>ask@hardwario.com</a> nebo použijte online chat tady na webu."
+
+[videos_link]
+other = "Všechna videa"
+
+[download_playground]
+other = "Stáhněte si Playground"
+
+[playground_description]
+other = "Stáhněte si nástroj, se kterým budete ovládat IoT stavebnici TOWER. Je dostupný pro Windows, Linux, Ubuntu a Apple macOS"
+
+[download_link]
+other = "Ke stažení" 

@@ -30,7 +30,7 @@
         </div>
 
         <div class="col-12 col-lg-6">
-            <a href="/cs/academy/" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+            <a href="{{ "academy/" | absLangURL }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
                 <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "academy"}}</h3>
                 <p class = "pb-20">{{ i18n "academy_text" | safeHTML }}</p>
                 <span class = "font-font2 font-red font-decoration-underline">{{ i18n "academy_link"}}</span>
@@ -38,7 +38,23 @@
         </div>
 
         <div class="col-12 col-lg-6">
-            <a href="/cs/projects/" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+            <a href="{{ "videos/" | absLangURL }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "hardwario_videos" }}</h3>
+                <p class = "pb-20">{{ i18n "videos_description" | safeHTML }}</p>
+                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "videos_link" | safeHTML }}</span>
+            </a>
+        </div>
+
+        <div class="col-12 col-lg-6">
+            <a href="{{ "download/" | absLangURL }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "download_playground" }}</h3>
+                <p class = "pb-20">{{ i18n "playground_description" | safeHTML }}</p>
+                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "download_link" | safeHTML }}</span>
+            </a>
+        </div>
+
+        <div class="col-12 col-lg-6">
+            <a href="{{ "projects/" | absLangURL }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
                 <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "projects" | safeHTML }}</h3>
                 <p class = "pb-20">{{ i18n "projects_text" | safeHTML }}</p>
                 <span class = "font-font2 font-red font-decoration-underline">{{ i18n "projects_link" | safeHTML }}</span>
@@ -63,7 +79,7 @@
         </div>
 
         <div class="col-12 col-lg-6">
-            <a href="/cs/case-studies/" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+            <a href="{{ "case-studies/" | absLangURL }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
                 <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "industry_case_studies" | safeHTML }}</h3>
                 <p class = "pb-20">{{ i18n "industry_case_studies_text" | safeHTML }}</p>
                 <span class = "font-font2 font-red font-decoration-underline">{{ i18n "industry_case_studies_link" | safeHTML }}</span>
