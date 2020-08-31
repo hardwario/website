@@ -145,7 +145,7 @@
           <div class = "col-12 col-md-8 pt-30 pt-md-0 text-center text-md-left font-white">
           <h3 class = "font-32 font-weight-bold pb-10">{{ i18n "free_consult" | safeHTML }}</h3>
           <p class = "font-16 pb-10">{{ .Params.consultation | safeHTML }}</p>
-          <a href = "{{ .Params.cons_link }}" target="_blank" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "make_an_appointment" }}</a>
+          <a href = "{{ .Params.cons_link }}" target="_blank" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">{{ i18n "make_an_appointment" }}</a>
           </div>
       </div>
   </div>
