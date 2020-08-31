@@ -1,8 +1,9 @@
 ---
 title:  Pro IFRAMIX dodáváme senzory pro zlepšování životních podmínek hospodářských zvířat
-heading: Pro IFRAMIX dodáváme senzory pro zlepšování životních podmínek hospodářských zvířat
+heading: Dodáváme senzory pro zlepšování životních podmínek hospodářských zvířat
 image_main: /case-studies/iframix_main.png
 image_grid: /case-studies/iframix_grid.png
+image_grid_home: /case-studies/iframix_grid-home.png
 description:
 meta_title: IoT senzory pro zlepšování životních podmínek hospodářských zvířat | HARDWARIO případová studie
 company: IFRAMIX

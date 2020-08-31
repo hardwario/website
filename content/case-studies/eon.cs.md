@@ -1,8 +1,9 @@
 ---
 title:  CHESTER pomáhá E.ONu kontrolovat kabelové skříně
-heading: Pomohli jsme E.ONu kontrolovat kabelové skříně
+heading: Pomáháme E.ONu kontrolovat podmínky v kabelových skříních
 image_main: /case-studies/eon_main.png
 image_grid: /case-studies/eon_grid.png
+image_grid_home: /case-studies/eon_grid-home.png
 description:
 meta_title: IoT kontrola teploty a vlhkosti v kabelových skříní E.Onu | HARDWARIO případová studie
 company: E.ON

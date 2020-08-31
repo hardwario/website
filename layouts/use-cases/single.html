@@ -12,10 +12,11 @@
                       </div>
                   </div>
                   <h1 class="font-weight-black font-36 font-md-64 text-center pb-40 pb-md-40 font-md-lnh64">{{ .Title | safeHTML }}</h1>
-
-                  <div class="font-22 font-lnh38 pb-0">
+                  <div class = "article__body">
+                  <div class="font-22 font-lnh38 pb-0 ">
                     {{ .Content }}
                   </div>
+                </div>
 
                   <!--{{ if isset .Params "extensions" }}
                   <div class="row pb-50">
@@ -52,6 +53,9 @@
               </div>
           </div>
 </div>
+
+
+{{ if not (isset .Params "studies") }}
           <div class="row pb-20">
               <div class="col-12 col-md-6 col-lg-4 mx-auto text-center">
                   <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "examples" }}</span></div>
@@ -72,7 +76,7 @@
 
           </div>
 
-
+{{ end }}
   </div>
 
 </section>
@@ -80,7 +84,7 @@
 <section>
   <div class = "container">
   <div class="row justify-content-center">
-      <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mb-60">
+      <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mb-30">
         <div class = "row align-items-center">
           <div class = "col-12 col-md-4 px-50">
               <img loading="lazy" src="/_assets/images/{{ .Params.cons_img }}" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
@@ -96,7 +100,36 @@
   </div>
 </section>
 
+{{ if isset .Params "studies" }}
+<section>
 
+<div class="container ">
+  <div class="articles articles--2 pb-20">
+    <div class="row pb-40">
+      <div class="col-12 col-md-6 col-lg-4 mx-auto text-center">
+          <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "examples" }}</span></div>
+      </div>
+  </div>
+      <div class="row">
+          <!-- skoda tpca defra surun -->
+
+          {{ range where .Site.Pages "File.TranslationBaseName" "in" $.Params.studies }}
+            
+          <div  class="col-12 col-md-6 col-lg-4">
+
+            {{ if eq .Params.full true }}
+                {{ .Render "grid-home-list-link" }}
+            {{ else }}
+                {{ .Render "grid-home-list" }}
+            {{ end }}
+        </div>
+
+          {{ end }}
+      </div>
+  </div>
+</div>
+</section>
+{{ end }}
 <footer>
 
 {{ end }}
