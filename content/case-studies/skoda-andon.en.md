@@ -8,7 +8,7 @@ description:
 meta_title: ANDON in ŠKODA AUTO | HARDWARIO Case Study
 company: ŠKODA Auto
 industry: Automotive
-product: TOWER IoT Kit
+product: TOWER
 partner: Microsoft
 featured: true
 full: true

@@ -8,7 +8,7 @@ description:
 meta_title: We monitor the air quality in the Liberec ZOO | HARDWARIO case study
 company: ZOO Liberec
 industry: Agriculture
-product: CHESTER IoT Hub
+product: CHESTER
 featured: false
 full: false
 testimonial_text: 

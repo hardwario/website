@@ -8,7 +8,7 @@ description:
 meta_title: Monitorujeme produktivitu strojů a lidí ve výrobě společnosti ArcelorMittal | HARDWARIO případová studie
 company: ArcelorMittal
 industry: Industry 4.0
-product: TOWER IoT Kit
+product: TOWER
 featured: false
 full: false
 testimonial_text: 

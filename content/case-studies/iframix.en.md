@@ -7,7 +7,7 @@ description:
 meta_title: IoT sensors to improve the welfare of farm animals | HARDWARIO Case Study
 company: IFRAMIX
 industry: Agriculture
-product: CHESTER IoT Hub
+product: CHESTER
 featured: false
 full: true
 testimonial_text:

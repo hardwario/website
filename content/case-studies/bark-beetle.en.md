@@ -8,7 +8,7 @@ description:
 meta_title: We monitor bark beetle activity in the forests of the Czechia | HARDWARIO case study
 company: Kurovcoveinfo.cz
 industry: Agriculture
-product: CHESTER IoT Hub
+product: CHESTER
 featured: false
 full: false
 testimonial_text: 

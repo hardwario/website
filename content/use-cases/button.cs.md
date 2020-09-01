@@ -1,5 +1,5 @@
 ---
-title: Univerzální bezdrátové tlačítko
+title: Oznamovací tlačítkové systémy
 description: Jedno nebo více tlačítek a online monitoring jejich stisknutí. Řešení je vhodné i&nbsp;pro náročné venkovní projekty a&nbsp;průmysl.
 device: CHESTER
 examples: ["ANDON","Tísňové tlačítko pro lidi v&nbsp;nouzi","Tlačítko bdělosti","Registrační a&nbsp;notifikační systémy"]
@@ -10,7 +10,7 @@ cons_link: https://meetings.hubspot.com/alanfabik/booking
 weight: 90
 ---
 
-[CHESTER](/cs/chester/) můžete vybavit jedním nebo více tlačítky a online monitorovat jejich stisknutí.
+[CHESTER](/cs/chester/) nebo [TOWER](/cs/kit/) můžete vybavit jedním nebo více tlačítky a online monitorovat jejich stisknutí.
 
 Díky své odolnosti vůči prachu a vodě a teplotnímu rozsahu je vhodným řešením i u náročných venkovních projektů.
 

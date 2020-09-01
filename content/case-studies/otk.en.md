@@ -8,7 +8,7 @@ description:
 meta_title: We monitor efficiency in the largest label printer in Czechia | HARDWARIO case study
 company: OTK Group
 industry: Industry
-product: TOWER IoT Kit
+product: TOWER
 featured: false
 full: false
 testimonial_text: 

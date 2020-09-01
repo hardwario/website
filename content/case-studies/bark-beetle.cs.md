@@ -8,7 +8,7 @@ description:
 meta_title: Monitorujeme aktivitu kůrovce vnbsp;lesích České republiky | HARDWARIO případová studie
 company: Kurovcoveinfo.cz
 industry: Agriculture
-product: CHESTER IoT Hub
+product: CHESTER
 featured: false
 full: false
 testimonial_text: 

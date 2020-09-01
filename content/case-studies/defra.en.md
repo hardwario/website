@@ -9,7 +9,7 @@ meta_title: Monitoring of tree growth and the impacts of environmental change on
 company: Defra UK
 partner: Vodafone UK
 industry: Agriculture
-product: CHESTER IoT Hub
+product: CHESTER
 featured: false
 full: false
 testimonial_text: 

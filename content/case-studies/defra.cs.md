@@ -9,7 +9,7 @@ meta_title: Monitorujeme vliv teploty a vlhkosti na růst stromů v lesích UK |
 company: Defra UK
 partner: Vodafone UK
 industry: Agriculture
-product: CHESTER IoT Hub
+product: CHESTER
 featured: false
 full: false
 testimonial_text: 

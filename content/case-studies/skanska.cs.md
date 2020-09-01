@@ -8,7 +8,7 @@ description:
 meta_title: Monitorujeme výšku hladiny jímek bytových domů SKANSKA | HARDWARIO případová studie
 company: SKANSKA
 industry: Real Estate
-product: CHESTER IoT Hub
+product: CHESTER
 featured: false
 full: false
 testimonial_text: 

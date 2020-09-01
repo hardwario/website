@@ -8,7 +8,7 @@ description:
 meta_title: We monitor the level of wells in SKANSKA apartment buildings | HARDWARIO case study
 company: SKANSKA
 industry: Real Estate
-product: CHESTER IoT Hub
+product: CHESTER
 featured: false
 full: false
 testimonial_text: 

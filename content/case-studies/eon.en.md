@@ -7,7 +7,7 @@ description:
 meta_title: IoT assessment temperature and humidity of E.ON cable boxes | HARDWARIO Case Study
 company: E.ON
 industry: Energetics
-product: CHESTER IoT Hub
+product: CHESTER
 featured: false
 full: true
 testimonial_text: "We contacted HARDWARIO after recommendation by Vodafone to test NB-IoT, the Internet of Things network. In a short time, we designed a solution for monitoring the climatic conditions in cable cabinets and within 2 months we had our device in hand. We look forward to further projects."

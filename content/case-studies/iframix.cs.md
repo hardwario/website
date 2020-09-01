@@ -1,6 +1,6 @@
 ---
 title:  Pro IFRAMIX dodáváme senzory pro zlepšování životních podmínek hospodářských zvířat
-heading: Dodáváme senzory pro zlepšování životních podmínek hospodářských zvířat
+heading: Monitorujeme životní podmínky hospodářských zvířat
 image_main: /case-studies/iframix_main.png
 image_grid: /case-studies/iframix_grid.png
 image_grid_home: /case-studies/iframix_grid-home.png
@@ -8,7 +8,7 @@ description:
 meta_title: IoT senzory pro zlepšování životních podmínek hospodářských zvířat | HARDWARIO případová studie
 company: IFRAMIX
 industry: Agriculture
-product: CHESTER IoT Hub
+product: CHESTER
 featured: false
 full: true
 testimonial_text:
