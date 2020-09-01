@@ -189,3 +189,6 @@ other = "seconds"
 
 [until_revolution]
 other = "<span id = 'countdown'></span> until the revolution"
+
+[or_email_me]
+other = "oder mailen Sie mir am"

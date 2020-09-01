@@ -183,3 +183,6 @@ other = "Sekunden"
 
 [until_revolution]
 other = "Bis zur Revolution bleiben nur noch <span id = 'countdown'></span>"
+
+[or_email_me]
+other = "or email me on"

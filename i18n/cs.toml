@@ -186,3 +186,6 @@ other = "sekund"
 
 [until_revolution]
 other = "Do revoluce zbývá <span id = 'countdown'></span>"
+
+[or_email_me]
+other = "nebo mi napište na"
