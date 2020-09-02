@@ -86,6 +86,14 @@ https://sdk.bigclown.com/* https://sdk.hardwario.com/:splat 301!
 # BigClown Redirects
 http://bigclown.cz/webinar* https://www.eventbrite.co.uk/e/jak-deti-nadchnout-k-objevovani-a-ucit-digitalne-jakykoli-predmet-tickets-72591799025:splat 301!
 
+# Use Cases
+https://www.hardwario.com/cs/use-cases/kit-button/* https://www.hardwario.com/cs/use-cases/button/:splat 301!
+https://www.hardwario.com/cs/use-cases/kit-environmental-monitoring/* https://www.hardwario.com/cs/use-cases/environmental-monitoring/:splat 301!
+https://www.hardwario.com/cs/use-cases/kit-tracking-movement/* https://www.hardwario.com/cs/use-cases/tracking/:splat 301!
+https://www.hardwario.com/cs/use-cases/kit-presence-monitoring/* https://www.hardwario.com/cs/use-cases/presence-occupancy-monitoring/:splat 301!
+https://www.hardwario.com/cs/use-cases/kit-digital-factory/* https://www.hardwario.com/cs/use-cases/digital-factory/:splat 301!
+https://www.hardwario.com/cs/use-cases/telemetry/* https://www.hardwario.com/cs/use-cases/digital-factory/:splat 301!
+
 # Handbook EN
 http://bigclown.com/playground* https://www.hardwario.com/download/?utm_source=handbook&utm_medium=print&utm_campaign=starter-kit-handbook&utm_content=en:splat 301!
 http://bigclown.com/fw* https://www.hardwario.com/academy/how-to-flash-firmware/?utm_source=handbook&utm_medium=print&utm_campaign=starter-kit-handbook&utm_content=en:splat 301!
