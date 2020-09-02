@@ -1,6 +1,7 @@
 ---
 title: Vzdálené správa a ovládání strojů a&nbsp;zařízení
 description: CHESTER nachází uplatnění při vzdáleném ovládání různých strojů a zařízení, například otevírání a zavírání vrat a závor, ovládání výrobních strojů apod.
+category: ["care","indoor"]
 device: CHESTER
 examples: ["Vzdálené ovládání vjezdových bran","Vzdálené ovládání závor","Vzdálené ovládání strojů"]
 extensions: [["TTL/CMOS UART","CHESTER-X2A"],["RS-485 - MODBUS", "CHESTER-X2B"]]

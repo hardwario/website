@@ -1,9 +1,11 @@
 ---
 title: Pulse Monitoring for Power Consumption and Output Power Metering
 description: Energy metering and water use monitoring projects realized by connection to a pulse output of electricity meters, gas meters, water flow meters, or by observing their optical output.
+category: ["indoor"]
 device: CHESTER
 examples: ["Electricity meter monitoring","Gas meter monitoring","Water flow meter monitoring","Production machine duty cycle monitoring"]
 extensions: [["4× external switch","CHESTER-X0D"]]
+studies: ["otk","surun"]
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking

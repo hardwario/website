@@ -1,9 +1,11 @@
 ---
 title: Monitoring pulsů pro měření a optimalizaci spotřeby a výkonu
 description: Projekty měření spotřeby energií a vody napojením na pulzní výstupy elektroměrů, plynoměrů a vodoměrů, nebo monitoringem blikání LED.
+category: ["indoor"]
 device: CHESTER
 examples: ["Monitoring elektroměrů","Monitoring plynoměrů","Monitoring vodoměrů","Měření taktu výrobního stroje"]
 extensions: [["4× externí switch","CHESTER-X0D"]]
+studies: ["otk","surun"]
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking

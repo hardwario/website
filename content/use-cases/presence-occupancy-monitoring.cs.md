@@ -1,6 +1,7 @@
 ---
 title: Detekce obsazenosti nebo přítomnosti osob a zvířat
 description: Díky PIR modulu nebo Infra Grid modulu je možné se stavebnicí HARDWARIO detekovat pohyb osob a zvířat.
+category: ["indoor"]
 device: IoT Kit
 examples: ["Poplašné zařízení do garáže","Poplašné zařízení do karavanu","Poplašné zařízení na chatu","Automatické rozsvícení světel při pohybu","Automatický dávkovač jídla a vody pro zvíře"]
 extensions: [["PIR Module", "Detekce pohybu pomocí na principu passive infrared (PIR)"],["Infra Grid Module", "Modul s 64 infračervenými senzory, díky kterému je možné detekovat pohyb i velikost a směr pohybujícího se předmětu"]]

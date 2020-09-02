@@ -1,8 +1,10 @@
 ---
 title: Detekce polohy, pohybu a&nbsp;manipulace strojů a&nbsp;věcí
 description: CHESTER s integrovaným GNSS modulem (GPS, Galileo, Glonass) je ideálním nástrojem pro lokalizaci objektů v logistice, zemědělství nebo průmyslu.
+category: ["industry","outdoor"]
 device: CHESTER
 examples: ["Monitoring kontejnerů","Monitoring stavebních strojů","Monitoring mobilních toalet","Monitoring objemných předmětů ve&nbsp;venkovních skladech"]
+studies: [] #unifly statotest
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking

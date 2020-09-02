@@ -1,6 +1,7 @@
 ---
 title: Monitoring teploty a vlhkosti ve&nbsp;výrobě, skladování nebo zemědělství
 description: Náročné projekty kontroly klimatu ve vnitřních prostorech, zejména v zemědělství a&nbsp;průmyslu.
+category: ["industry"]
 device: CHESTER
 examples: [""]
 extensions: [["I2C periferie", "CHESTER-X0A"],["1-Wire", "CHESTER-X1"]]

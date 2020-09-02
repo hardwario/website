@@ -1,8 +1,10 @@
 ---
 title: Position and Asset Tracking
 description: CHESTER with integrated GNSS module (GPS, Galileo, GLONASS) is an ideal tool for asset tracking in logistics, agriculture, or industry.
+category: ["industry","outdoor"]
 device: CHESTER
 examples: ["Container tracking","Construction vehicle tracking","Chemical toilets tracking","Large object tracking in outdoor areas"]
+studies: [] #unifly statotest
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking

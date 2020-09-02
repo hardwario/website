@@ -1,6 +1,7 @@
 ---
 title: Indoor Environmental Monitoring
 description: Demanding indoor environmental monitoring projects - e.g. in agriculture and industrial space.
+category: ["outdoor","indoor","care"]
 device: CHESTER
 examples: ["Indoor environmental monitoring of warehouses for quality inspection","Temperature and humidity index (THI) monitoring for animal livestocks","Office air quality monitoring","Temperature monitoring in freezer boxes"]
 extensions: [["I2C peripherals", "CHESTER-X0A"],["1-Wire", "CHESTER-X1"]]

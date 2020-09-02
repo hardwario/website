@@ -6,16 +6,53 @@
                 <div class="row pb-lg-60 pb-xl-0">
                     <div class="col">
                         <div class="row pb-50">
-                            <div class="col-12 col-md-10 col-lg-8 mx-auto text-center pt-30 pt-md-0">
+                            <div class="col-12 col-md-10 col-lg-10 mx-auto text-center pt-30 pt-md-0">
                                 <h1 class="text-center pb-30 font-weight-black font-48 font-md-64">{{ .Params.mainHeading | safeHTML }}</h1>
+                                <p class="text-center font-24 font-lnh38">{{ .Params.description | safeHTML }}</p>
                             </div>
                         </div>
-                        {{ partial "solutions" . }}
+                        <!--{{ partial "solutions" . }}-->
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+    {{ $solutions := where .Site.RegularPages "Section" "solutions" }}
+    {{ with $solutions }}
+    <section>
+      <div class="bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="articles articles--2">
+                <div class="row d-flex align-content-stretch">
+    
+                  {{ range $solutions.ByWeight }}
+    
+                  <div class="col-12 col-md-6 col-lg-4 d-flex">
+                  {{ .Render "grid" }}
+                  </div>
+    
+                  {{ end }}
+    
+                </div>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {{ end }}
+
+
+
+
+
+
+
 
 {{ $currentLang := .Site.Language.Lang }}
 {{ if ne $currentLang "de" }}
