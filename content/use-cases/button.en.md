@@ -9,7 +9,9 @@ studies: ["skoda"] #zmacknito
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
+image_preview: /use-cases/buttons.png
 weight: 90
+full: true
 ---
 
 You can equip [CHESTER](/chester/) or [TOWER](/kit/) with one or more push buttons and monitor the press events online.

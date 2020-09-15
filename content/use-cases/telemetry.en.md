@@ -7,7 +7,9 @@ extensions: [["External analog inputs 0 - 28 V","CHESTER-X0C"],["1-Wire","CHESTE
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
+image_preview: /use-cases/oee.png
 weight: 40
+full: true
 ---
 
 [CHESTER](/chester/) can connect a wide offering of various communication interfaces and collect data from devices which are not normally connected to the internet, or local area network.

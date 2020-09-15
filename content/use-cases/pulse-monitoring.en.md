@@ -9,7 +9,9 @@ studies: ["otk","surun"]
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
+image_preview: /use-cases/pulse.png
 weight: 30
+full: true
 ---
 
 It is possible to easily use [CHESTER](/chester/) for pulse monitoring. It is especially useful for energy metering projects and water use statistics. The device typically connects to a pulse output of an electricity meter, gas meter, and water flow meter. Eventually, the optical energy meter output can be used.

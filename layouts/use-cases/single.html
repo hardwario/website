@@ -6,8 +6,8 @@
       <div class="row">
           <div class="col">
               <div class="bg-white px-xl-90 pt-40 pt-md-80">
-                  <h1 class="font-weight-black font-36 font-md-64 text-center pb-40 pb-md-40 font-md-lnh64">{{ .Title | safeHTML }}</h1>
-                  <div class = "article__body">
+                  <h1 class="font-weight-black font-36 font-md-64 text-center pb-20 pb-md-20 font-md-lnh64">{{ .Title | safeHTML }}</h1>
+                  <div class = "article__body pb-0">
                   <div class="font-22 font-lnh38 pb-0 ">
                     {{ .Content }}
                   </div>
@@ -49,29 +49,6 @@
           </div>
 </div>
 
-
-{{ if not (isset .Params "studies") }}
-          <div class="row pb-20">
-              <div class="col-12 col-md-6 col-lg-4 mx-auto text-center">
-                  <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "examples" }}</span></div>
-              </div>
-          </div>
-
-          <div class="row justify-content-center pb-20 pb-md-50">
-
-            {{ range .Params.examples }}
-
-            <div class="col-12 col-lg-6">
-                <span href="" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
-                    <h3 class="font-26 font-weight-medium pt-30 pb-30">{{ . | safeHTML }}</h3>
-                </span>
-            </div>
-
-               {{ end }}
-
-          </div>
-
-{{ end }}
   </div>
 
 </section>
@@ -103,7 +80,7 @@
   <div class="articles articles--2 pb-20">
     <div class="row pb-40">
       <div class="col-12 col-md-6 col-lg-4 mx-auto text-center">
-          <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "examples" }}</span></div>
+          <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "successful_projects" }}</span></div>
       </div>
   </div>
       <div class="row">
@@ -125,6 +102,36 @@
   </div>
 </div>
 </section>
+
+{{ else }}
+
+<section>
+
+  <div class="container ">
+    <div class="row pb-20">
+      <div class="col-12 col-md-6 col-lg-4 mx-auto text-center">
+          <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "examples" }}</span></div>
+      </div>
+  </div>
+
+  <div class="row justify-content-center pb-20 pb-md-50">
+
+    {{ range .Params.examples }}
+
+    <div class="col-12 col-lg-6">
+        <span href="" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+            <h3 class="font-26 font-weight-medium pt-30 pb-30">{{ . | safeHTML }}</h3>
+        </span>
+    </div>
+
+       {{ end }}
+
+  </div>
+  </div>
+  </section>
+
+
+
 {{ end }}
 <footer>
 

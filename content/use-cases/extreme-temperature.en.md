@@ -8,7 +8,9 @@ extensions: [["Thermometers PT1000", "CHESTER-X3A"],["Thermocouples", "CHESTER-X
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
+image_preview: /use-cases/temperature-extreme.png
 weight: 50
+full: true
 ---
 
 Through the connected industrial RTD thermometers and thermocouples support, [CHESTER](/chester/) can measure extreme temperatures in industrial applications.
