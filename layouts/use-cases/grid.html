@@ -1,12 +1,23 @@
-<a href = "{{ .Permalink }}" class="articles__item articles__item--2">
-        <div class="articles__content articles__content--2 pt-30">
-          <span class = "font-16 font-weight-bold font-font2 font-gray2">{{ .Params.device }}</span>
-          <h3 class="articles__title articles__title--2 font-26 font-lnh26">{{ .Title | safeHTML }}</h3>
-          <div class="articles__text articles__text--2">
-            <p>{{ .Params.description | safeHTML }}</p>
-          </div>
-        </div>
-        <div class="articles__author d-flex align-items-center">
-            <span class = "font-16 font-weight-bold font-font2 font-red">{{ i18n "learn_more"}}</span>
-        </div>
-</a>
+{{ if .Params.full }}
+<a href="{{ .Permalink }}" class="articles__item articles__item--2">
+{{ else }}
+<span class="articles__item articles__item--3">
+{{ end }}
+  <div class="articles__item__image">
+    <img src="{{ .Params.image_preview }}" alt="{{ .Title | safeHTML }}" class = "w-100" />
+  </div>
+
+  <div class="articles__content articles__content--2">
+    <h3 class="articles__title articles__title--2">{{ .Title | safeHTML }}</h3>
+    <p class="articles__text articles__text--2">{{ .Params.description | safeHTML }}</p>
+  </div>
+  {{ if .Params.full }}
+  <div class="articles__author d-flex align-items-center">
+    <span class = "font-16 font-weight-bold font-font2 font-red">{{ i18n "learn_more"}}</span>
+  </div>
+  </a>
+  {{ else }}
+  </span>
+  {{ end }}
+
+ 

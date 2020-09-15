@@ -3,6 +3,7 @@ title:  Developerské firmě HB REAVIS jsme pomohli vytvořit ideální pracovn�
 heading: Developerské firmě HB REAVIS jsme pomohli vytvořit ideální pracovní podmínky
 image_main: /case-studies/hbreavis_main.png
 image_grid: /case-studies/hbreavis_grid.png
+image_grid_home: /case-studies/hbreavis_grid-home.png
 description:
 meta_title: IoT monitoring ideálních pracovních podmínek | Environmentální monitoring | HARDWARIO případová studie
 company: HB REAVIS
@@ -14,7 +15,7 @@ testimonial_text: Částečná custom dodávka multisenzorů od Hardwaria zapadl
 testimonial_author: HB REAVIS
 testimonial_company:
 testimonial_image: hbreavis.png
-logo: /partners/color/hbreavis_logo.png
+logo: /partners/color/hb_reavis.svg
 weight: 30
 date: 2019-10-05
 ---

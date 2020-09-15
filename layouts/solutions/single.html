@@ -1,0 +1,63 @@
+{{ define "main" }}
+<section>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-10">
+        <div class="article__header">
+          <div class="article__header__button">
+
+            <h1 class="article__title">{{ .Title | safeHTML }}</h1>
+            <div class="text text--perex">
+              <p>{{ .Content }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{{ $currentLang := .Site.Language.Lang }}
+{{ if ne $currentLang "de" }}
+
+    {{ $currentLang := .Site.Language.Lang }}
+    {{ if eq $currentLang "cs" }}
+                <section>
+                                <div class="">
+                                    <div class="container">
+                                        <div class="articles articles--2 pt-10">
+                                            <div class="row d-flex align-content-stretch">
+                                            
+                                                  {{ $file := .File.TranslationBaseName }}
+                                                  {{ $cases := where .Site.RegularPages "Section" "use-cases" }}
+                                                  {{ with $cases }}
+                                                    {{ range $cases.ByWeight }}
+
+                                                    {{ if in .Params.category $file }}
+
+                                                    
+                                                    <div  class="col-12 col-md-6 col-lg-4">
+                                                      {{ .Render "grid" }}
+                                                    </div>
+                                                    {{ end }}
+                                                    {{ end }}
+                                                  {{ end }}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </section>
+    {{ end }}
+
+{{ end }}
+
+
+{{ end }}
+
+
+{{ define "additional-scripts" }}
+
+
+{{ end }}

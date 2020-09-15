@@ -6,51 +6,81 @@
                 <div class="row pb-lg-60 pb-xl-0">
                     <div class="col">
                         <div class="row pb-50">
-                            <div class="col-12 col-md-10 col-lg-8 mx-auto text-center pt-30 pt-md-0">
+                            <div class="col-12 col-md-10 col-lg-10 mx-auto text-center pt-30 pt-md-0">
                                 <h1 class="text-center pb-30 font-weight-black font-48 font-md-64">{{ .Params.mainHeading | safeHTML }}</h1>
+                                <p class="text-center font-24 font-lnh38">{{ .Params.description | safeHTML }}</p>
                             </div>
                         </div>
-                        {{ partial "solutions" . }}
+                        {{ $currentLang := .Site.Language.Lang }}
+                        {{ if ne $currentLang "cs" }}
+                          {{ partial "solutions" . }}
+                        {{ end }}
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-{{ $currentLang := .Site.Language.Lang }}
-{{ if ne $currentLang "de" }}
 
-    {{ $currentLang := .Site.Language.Lang }}
     {{ if eq $currentLang "cs" }}
-                <section>
-                                <div class="">
-                                    <div class="container pt-50">
-                                        <div class="row">
-                                          <div class="col-12 col-lg-12 pb-30 text-center">
-                                              <h2 class="font-weight-black font-40 font-lnh44">{{ i18n "usage_examples" }}</h2>
-                                          </div>
-                                        </div>
-                                        <div class="row d-flex align-content-stretch">
-                                            
 
-                                                  {{ $cases := where .Site.RegularPages "Section" "use-cases" }}
-                                                  {{ with $cases }}
-                                                    {{ range $cases.ByWeight }}
-                                                    <div  class="col-12 col-md-6 col-lg-4">
-                                                      {{ .Render "grid" }}
-                                                    </div>
-                                                    {{ end }}
-                                                  {{ end }}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+      {{ $solutions := where .Site.RegularPages "Section" "solutions" }}
+      {{ with $solutions }}
+      <section>
+        <div class="bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="articles articles--2 pt-10">
+                  <div class="row d-flex align-content-stretch">
+      
+                    {{ range $solutions.ByWeight }}
+      
+                    <div class="col-12 col-md-6 col-lg-4 d-flex">
+                    {{ .Render "grid" }}
+                    </div>
+      
+                    {{ end }}
+      
+                  </div>
+                </div>
+      
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {{ end }}
 
-                            </section>
+    {{ else }}
+
+    <section>
+      <div class="">
+          <div class="container pt-50">
+              <div class="row">
+                <div class="col-12 col-lg-12 pb-30 text-center">
+                    <h2 class="font-weight-black font-40 font-lnh44">{{ i18n "usage_examples" }}</h2>
+                </div>
+              </div>
+              <div class="row d-flex align-content-stretch">
+                  
+
+                        {{ $cases := where .Site.RegularPages "Section" "use-cases" }}
+                        {{ with $cases }}
+                          {{ range $cases.ByWeight }}
+                          <div  class="col-12 col-md-6 col-lg-4">
+                            {{ .Render "grid" }}
+                          </div>
+                          {{ end }}
+                        {{ end }}
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </section>
+    
     {{ end }}
-
-{{ end }}
-
 <footer>
 {{ end }}
 
