@@ -17,6 +17,9 @@ testimonial_image: herda.jpg
 logo: /partners/color/tpca.svg
 weight: 5
 date: 2019-10-05
+menu:
+    main:
+        parent: 'Případovky'
 ---
 
 {{< intro >}}

@@ -18,6 +18,9 @@ testimonial_image: hbreavis.png
 logo: /partners/color/hb_reavis.svg
 weight: 30
 date: 2019-10-05
+menu:
+    main:
+        parent: 'Případovky'
 ---
 
 {{< intro >}}

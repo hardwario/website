@@ -18,4 +18,7 @@ testimonial_image:
 logo: /partners/color/arcelormittal.svg
 weight: 750
 date: 2019-10-05
+menu:
+    main:
+        parent: 'Případovky'
 ---

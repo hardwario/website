@@ -19,6 +19,9 @@ testimonial_image: vlaciha.jpg
 logo: /partners/color/skoda.svg
 weight: 0
 date: 2019-10-05
+menu:
+    main:
+        parent: 'Case studies'
 ---
 
 {{< intro >}}

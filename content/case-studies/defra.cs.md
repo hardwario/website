@@ -21,4 +21,7 @@ weight: 500
 date: 2019-10-05
 carousel: true
 carousel_status: active
+menu:
+    main:
+        parent: 'Případovky'
 ---

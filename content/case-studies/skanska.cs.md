@@ -18,4 +18,7 @@ testimonial_image:
 logo: /partners/color/skanska.svg
 weight: 600
 date: 2019-10-05
+menu:
+    main:
+        parent: 'Případovky'
 ---

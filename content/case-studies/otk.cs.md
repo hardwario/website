@@ -19,5 +19,8 @@ logo: /partners/color/otk.svg
 weight: 700
 date: 2019-10-05
 carousel: 
-carousel_status: 
+carousel_status:
+menu:
+    main:
+        parent: 'Případovky' 
 ---

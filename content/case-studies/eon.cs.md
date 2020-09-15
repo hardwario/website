@@ -18,6 +18,9 @@ testimonial_image: dominik_harman.jpg
 logo: /partners/color/eon_logo.png
 weight: 20
 date: 2019-10-05
+menu:
+    main:
+        parent: 'Případovky'
 ---
 
 {{< intro >}}
