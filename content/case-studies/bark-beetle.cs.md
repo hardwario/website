@@ -18,6 +18,7 @@ testimonial_image:
 logo: /partners/color/kurovcoveinfo.png
 weight: 900
 date: 2019-10-05
+draft: true
 menu:
     main:
         parent: 'Případovky'
