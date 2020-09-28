@@ -18,5 +18,8 @@ testimonial_image:
 logo: /partners/color/kurovcoveinfo.png
 weight: 900
 date: 2019-10-05
+menu:
+    main:
+        parent: 'Case&nbsp;Studies'
 draft: true
 ---

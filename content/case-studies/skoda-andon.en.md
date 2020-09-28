@@ -21,7 +21,7 @@ weight: 0
 date: 2019-10-05
 menu:
     main:
-        parent: 'Case studies'
+        parent: 'Case&nbsp;Studies'
 ---
 
 {{< intro >}}

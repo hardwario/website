@@ -19,7 +19,7 @@ weight: 5
 date: 2019-10-05
 menu:
     main:
-        parent: 'Případovky'
+        parent: 'Case&nbsp;Studies'
 ---
 
 {{< intro >}}

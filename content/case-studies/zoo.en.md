@@ -18,4 +18,7 @@ testimonial_image:
 logo: /partners/color/zoo.svg
 weight: 800
 date: 2019-10-05
+menu:
+    main:
+        parent: 'Case&nbsp;Studies'
 ---

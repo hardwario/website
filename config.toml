@@ -104,14 +104,14 @@ csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
 [[languages.en.menu.main]]
   url    = "https://shop.hardwario.com"
   name   = "Shop"
-  pre = "shop_link pr-lg-30"
+  pre = "shop_link pr-lg-30 mr-0"
   post = "_blank"
   weight = 95
 
 [[languages.de.menu.main]]
   url    = "https://shop.hardwario.com"
   name   = "Shop"
-  pre = "shop_link pr-lg-30"
+  pre = "shop_link pr-lg-30 mr-0"
   post = "_blank"
   weight = 95
 
