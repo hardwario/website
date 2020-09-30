@@ -57,7 +57,7 @@ csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
   weight = 10
 
 [[languages.en.menu.footer_2]]
-  url    = "https://github.com/hardwario-kit"
+  url    = "https://github.com/hardwario"
   name   = "GitHub"
   weight = 500
 
@@ -67,7 +67,7 @@ csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
   weight = 500
 
 [[languages.cs.menu.footer_2]]
-  url    = "https://github.com/hardwario-kit"
+  url    = "https://github.com/hardwario"
   name   = "GitHub"
   weight = 800
 
