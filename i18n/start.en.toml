@@ -26,7 +26,7 @@ other = "Are you interested in advanced development with the kit, projects and i
 other = "Go to documentation"
 
 [hub_docs]
-other = "IoT hub documentation"
+other = "IoT Hub documentation"
 
 [hub_docs_text]
 other = "Technical information about the CHESTER device. For example, you will find a description of the interface and AT commands."
@@ -44,7 +44,7 @@ other = "We use the Kit and CHESTER mainly in industry. Get inspired by our case
 other = "Read case studies"
 
 [sdk_lib_docs]
-other = "Kit SDK library"
+other = "IoT Kit SDK library"
 
 [sdk_lib_text]
 other = "Do you want to write your own firmware for the kit? Here you will find everything you need."

@@ -1,6 +1,6 @@
 ---
-title: Partners
-menu: ["main","footer"]
+title: Become our partner
+menu: ["secondary","footer"]
 weight: 82
 slug: partneri
 meta_title: Be an expert in IoT and LPWAN technologies. Become a HARDWARIO partner

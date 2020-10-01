@@ -3,13 +3,13 @@
 <header role="banner">
     <div class="container pt-30 pt-md-60 position-relative">
       <div class = "position-absolute" style = "right: 15px">
-      <!--<ul class = "border-right d-none d-lg-inline-block text-center text-lg-left mb-30 mt-0 mt-lg-0 pr-lg-20 list-unstyled py-0 my-0 font-14 font-md-12 font-weight-medium font-font2 text-uppercase justify-content-center justify-content-md-end">
+      <ul class = "border-right d-none d-lg-inline-block text-center text-lg-left mb-30 mt-0 mt-lg-0 pr-lg-20 list-unstyled py-0 my-0 font-14 font-md-12 font-weight-medium font-font2 text-uppercase justify-content-center justify-content-md-end">
         {{ range .Site.Menus.secondary }}
           <li class = "d-inline-block">
             <a href="{{ .URL }}" target = "{{ .Post }}" class=" d-block pb-10 pb-lg-0 pr-lg-10 {{ if or ($.IsMenuCurrent "secondary" .) ($.HasMenuCurrent "secondary" .) }} font-red {{ else }} font-gray {{ end }}">{{ .Name | safeHTML }}</a>
           </li>
         {{ end }}
-      </ul>-->
+      </ul>
       <ul class = "d-inline-block text-center text-lg-left mb-30 mt-0 mt-lg-0 pl-lg-20 list-unstyled py-0 my-0 font-14 font-md-12 font-weight-medium font-font2 text-uppercase justify-content-center justify-content-md-end">
         <li class = "d-inline-block"><span class="d-block pb-10 pb-lg-0 pr-lg-10 font-red active" href="{{ .Permalink }}">{{ .Site.Language.LanguageName }}</span></li>
         {{ if .IsTranslated }}

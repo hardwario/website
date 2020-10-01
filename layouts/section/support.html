@@ -1,0 +1,111 @@
+{{ define "main" }}
+
+<section>
+  <div class = "container">
+    <div class="row pb-50">
+        <div class="col">
+            <div class="row">
+              <div class="col-12 col-md-10 mx-auto text-center pt-30 pt-md-0">
+                  <h1 class="text-center font-weight-black font-48 font-md-64">{{ .Params.mainHeading | safeHTML }}</h1>
+                  <p class="text-center pt-20 font-24 font-lnh38">{{ .Params.perex | safeHTML }}</p>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+</section>
+
+<section>
+    <div class = "container">
+      <div class="row justify-content-center pb-20 pb-md-50">
+        <div class="col-12">
+          <h2 class="text-center font-weight-black font-36 font-md-48 pb-30">IoT Kit Tower</h2>
+        </div>
+
+        <div class="col-12 col-lg-4">
+            <a href="{{ "download/" | absLangURL }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "download_playground" }}</h3>
+                <p class = "pb-20">{{ i18n "playground_description" | safeHTML }}</p>
+                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "download_link" | safeHTML }}</span>
+            </a>
+        </div>
+
+        <div class="col-12 col-lg-4">
+            <a href="{{ "tutorials/" | absLangURL }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "tutorials"}}</h3>
+                <p class = "pb-20">{{ i18n "tutorials_text" | safeHTML }}</p>
+                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "tutorials_link"}}</span>
+            </a>
+        </div>
+
+        <div class="col-12 col-lg-4">
+            <a href="{{ "projects/" | absLangURL }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "projects" | safeHTML }}</h3>
+                <p class = "pb-20">{{ i18n "projects_text" | safeHTML }}</p>
+                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "projects_link" | safeHTML }}</span>
+            </a>
+        </div>
+
+        <div class="col-12 col-lg-4">
+            <a href="https://developers.hardwario.com" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "kit_docs" | safeHTML }}</h3>
+                <p class = "pb-20">{{ i18n "kit_docs_text" | safeHTML }}</p>
+                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "kit_docs_link" | safeHTML }}</span>
+            </a>
+        </div>
+
+        <div class="col-12 col-lg-4">
+            <a href="https://sdk.hardwario.com" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "sdk_lib_docs" | safeHTML }}</h3>
+                <p class = "pb-20">{{ i18n "sdk_lib_text" | safeHTML }}</p>
+                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "sdk_lib_link" | safeHTML }}</span>
+            </a>
+        </div>
+
+      </div>
+    </div>
+</section>
+
+<section>
+    <div class = "container">
+      <div class="row justify-content-center pb-20 pb-md-50">
+        <div class="col-12">
+          <h2 class="text-center font-weight-black font-36 font-md-48 pb-30">IoT Hub CHESTER</h2>
+        </div>
+
+        <div class="col-12 col-lg-4">
+            <a href="https://chester.hardwario.com" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "hub_docs" | safeHTML }}</h3>
+                <p class = "pb-20">{{ i18n "hub_docs_text" | safeHTML }}</p>
+                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "hub_docs_link" | safeHTML }}</span>
+            </a>
+        </div>
+
+        <div class="col-12 col-lg-4">
+            <a href="/video/iot-hub-quick-start/" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "iot_hub_start" | safeHTML }}</h3>
+                <p class = "pb-20">{{ i18n "iot_hub_start_description" | safeHTML }}</p>
+                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "play_video"}}</span>
+            </a>
+        </div>
+
+        <div class="col-12 col-lg-4">
+            <a href="/video/iot-hub-dfu/" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "iot_hub_dfu" | safeHTML }}</h3>
+                <p class = "pb-20">{{ i18n "iot_hub_dfu_description" | safeHTML }}</p>
+                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "play_video"}}</span>
+            </a>
+        </div>
+
+      </div>
+    </div>
+</section>
+
+<footer>
+{{ end }}
+
+{{ define "additional-scripts" }}
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ce11373d4525996"></script>
+
+{{ end }}
