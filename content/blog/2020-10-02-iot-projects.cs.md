@@ -33,6 +33,8 @@ V Česku si můžeme dopřát luxusu v podobě velmi dobrého pokrytí všech 3 
 * Sigfox.
 
 Jejich výhody a nevýhody [popisuje ve svém seriálu Pavel]((/cs/blog/2020-06-09-lpwan/)). Především záleží v jakém počtu senzorů chcete svůj projekt nasadit, zda se jedná o indoor nebo outdoor aplikace a jak často budou senzory komunikovat. Na většinu aplikací se skvěle hodí NB-IoT. 
+![NB-IoT umožňuje například sledovat vliv klimatických změn na lesy ve Velké Británii](https://res.cloudinary.com/lukasfabik/image/upload/v1601625627/blog/2020-10-02-iot-projects/defra.jpg)
+_NB-IoT umožňuje například sledovat vliv klimatických změn na lesy ve Velké Británii_
 
 Pro řešení digitalizace továren a firem dává velký smysl vybudování vlastní LoRa sítě. Vstupní náklady nejsou velké a při škálování projektu nerostou. Veškerou infrastrukturu tak máte ve své správě.
 
