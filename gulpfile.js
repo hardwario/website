@@ -9,10 +9,12 @@ const hugo = child.spawn('hugo', ['serve', '--bind=0.0.0.0']);
 var purify = require('gulp-purifycss');
 let cleanCSS = require('gulp-clean-css');
 
-gulp.task('hugo', () => {
+gulp.task('hugo', () => 
+          {
   const hugo = child.spawn('hugo', ['serve']);
 
-  const hugoLogger = (buffer) => {
+  const hugoLogger = (buffer) => 
+  {
     buffer.toString()
       .split(/\n/)
       .forEach((message) => gutil.log('Hugo: ' + message))
@@ -24,7 +26,8 @@ gulp.task('hugo', () => {
 
 
 // Compile SCSS files to CSS
-gulp.task("scss-main", function () {
+gulp.task("scss-main", function ()
+          {
     //del(["static/_assets/css/www/**/*"])
     gulp.src("src/scss/main.scss")
     //del(["static/_assets/css/*"])
@@ -43,7 +46,8 @@ gulp.task("scss-main", function () {
         .pipe(gulp.dest("data/css"))
 });
 
-gulp.task("scss-main-addon", function () {
+gulp.task("scss-main-addon", function ()
+          {
     //del(["static/_assets/css/www/**/*"])
     gulp.src("src/scss/main-addon.scss")
     //del(["static/_assets/css/*"])
@@ -62,7 +66,8 @@ gulp.task("scss-main-addon", function () {
         .pipe(gulp.dest("data/css"))
 });
 
-gulp.task("scss-font", function () {
+gulp.task("scss-font", function () 
+          {
     //del(["static/_assets/css/www/**/*"])
     gulp.src("src/scss/components/font.scss")
     //del(["static/_assets/css/*"])
@@ -81,7 +86,8 @@ gulp.task("scss-font", function () {
         .pipe(gulp.dest("data/css"))
 });
 
-gulp.task("scss-bg", function () {
+gulp.task("scss-bg", function () 
+          {
     //del(["static/_assets/css/www/**/*"])
     gulp.src("src/scss/components/bg.scss")
     //del(["static/_assets/css/*"])
@@ -100,7 +106,8 @@ gulp.task("scss-bg", function () {
         .pipe(gulp.dest("data/css"))
 });
 
-gulp.task("scss-icon", function () {
+gulp.task("scss-icon", function () 
+          {
     //del(["static/_assets/css/www/**/*"])
     gulp.src("src/scss/components/icon.scss")
     //del(["static/_assets/css/*"])
@@ -120,7 +127,8 @@ gulp.task("scss-icon", function () {
 });
 
 // Hash javascript
-gulp.task("js", function () {
+gulp.task("js", function () 
+          {
     //del(["static/_assets/js/www/**/*"])
     gulp.src(["src/js/**/*", "node_modules/bootstrap/dist/js/bootstrap.min.js"])
         .pipe(hash())
@@ -136,12 +144,14 @@ gulp.task("watch", ["js","scss-main","scss-main-addon","scss-font","scss-bg","sc
 });
 
 
-gulp.task("prefix", () => {
+gulp.task("prefix", () => 
+          {
   gulp.src('./public/**/*.css')
     .pipe(autoprefixer({
       browsers: ['last 2 versions']
     }))
-    .pipe(gulp.dest(function (file) {
+    .pipe(gulp.dest(function (file) 
+                    {
       return file.base;
     }))
 });
