@@ -415,6 +415,7 @@
 
 {{ end }}
 
+
 {{ define "additional-scripts" }}
 
 <script src="/_assets/js/{{ index .Site.Data.js.hash "slick.min.js" }}"></script>
@@ -533,6 +534,19 @@ tooltip.bind( 'click', remove_tooltip );
 });
 });
 
+</script>
+<script type="text/javascript">
+  $('.openModal').click(function(){
+    var getId = "#" + $(this).attr('data-target');
+
+    $(getId).modal({
+      keyboard: false
+    })
+
+  });
+
+</script>
+
 <script>
   /*$(document).ready(function(){
     $("main ul").each(function() {
@@ -547,4 +561,5 @@ tooltip.bind( 'click', remove_tooltip );
     $('html,body').animate({ scrollTop: $(dest).offset().top }, 'slow');
   });
 </script>
+
 {{ end }}
