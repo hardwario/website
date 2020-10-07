@@ -2,7 +2,7 @@
 date: "2020-10-29"
 time: "14:00 - 15:00"
 price: "Zdarma"
-publishdate: "2020-10-08"
+publishdate: "2020-10-07"
 expirydate: "2020-10-30"
 title: "IoT Webinář"
 hashtags: ["webinar","zdarma"]
