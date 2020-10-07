@@ -1,0 +1,32 @@
+---
+date: "2020-10-29"
+time: "14:00 - 15:00"
+price: "Zdarma"
+publishdate: "2020-10-08"
+expirydate: "2020-10-30"
+title: "IoT Webinář"
+hashtags: ["webinar","zdarma"]
+category: industry
+image_main: /events/webinar.jpg
+event_type: "Webinář"
+place: "Online"
+description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
+---
+
+Přihlaste se na **bezplatný HARDWARIO IoT Webinář**. Téma bude upřesněno.
+
+_Zaregistrujte se, i když vám čas webináře nevyhovuje. Po proběhnutí vám pošleme záznam webináře, prezentaci a odkazy._
+
+{{% section "Registrace" %}}
+
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+<script>
+jQuery(window).scroll(function() {
+if (!jQuery('.hbspt-form').length) {
+hbspt.forms.create({
+    portalId: "5453210",
+    formId: "ba424800-240e-456e-835b-811e327f0ccd"
+});
+}
+});
+</script>
