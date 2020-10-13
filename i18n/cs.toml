@@ -62,7 +62,7 @@ other = "Navigace"
 other = "IoT blog"
 
 [more_blog]
-other = "Další články"
+other = "Další články z IoT blogu"
 
 [more_videos]
 other = "Další videa"
@@ -189,3 +189,9 @@ other = "Do revoluce zbývá <span id = 'countdown'></span>"
 
 [or_email_me]
 other = "nebo mi napište na"
+
+[home]
+other = "Domů"
+
+[products]
+other = "Produkty"

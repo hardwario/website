@@ -38,12 +38,6 @@
 
         </div>
 
-        <!--<div class="article__tags d-flex justify-content-center justify-content-md-start">
-          <a href="" class="button button--tag button--tag--gray">Inteligent</a>
-          <a href="" class="button button--tag button--tag--gray">IOT</a>
-          <a href="" class="button button--tag button--tag--gray">City security</a>
-        </div>-->
-
         <div class="row">
           <div class="col-12 col-md d-flex justify-content-center justify-content-md-start">
             <div class="article__author article__author--bottom d-flex flex-column justify-content-center">
@@ -61,6 +55,30 @@
   </div>
 </section>
 
+<section>
+  <div class="container">
+    <div class="row">
+        <div class="pt-60 pb-40 col-12 text-center">
+            <h3 class="font-28 font-md-32 font-md-lnh30 font-weight-black">
+              {{ i18n "more_blog" }}
+            </h3>
+        </div>
+        <div class="col-12 related">
+
+          {{ $current := .File }}
+
+          <div class="row d-flex align-content-stretch">
+                {{ range first 4 (where (where .Site.Pages "Section" "blog" ) "Kind" "==" "page" ) }}
+                {{ if ne .File $current }}
+                  {{ .Render "grid-small-row" }}
+                  {{ end }}
+                {{ end }}
+
+  </div>
+</div>
+</div>
+</div>
+</section>
 
 {{ end }}
 

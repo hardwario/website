@@ -65,7 +65,7 @@ other = "Navigation"
 other = "IoT Blog"
 
 [more_blog]
-other = "More articles"
+other = "More articles from IoT Blog"
 
 [more_videos]
 other = "More videos"
@@ -191,4 +191,10 @@ other = "seconds"
 other = "<span id = 'countdown'></span> until the revolution"
 
 [or_email_me]
-other = "oder mailen Sie mir am"
+other = "or email me on"
+
+[home]
+other = "Home"
+
+[products]
+other = "Products"
