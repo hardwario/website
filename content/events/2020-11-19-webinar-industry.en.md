@@ -1,9 +1,9 @@
 ---
-date: "2020-10-29"
+date: "2020-11-19"
 time: "2 - 3 pm CEST"
 price: "Free"
 publishdate: "2020-10-07"
-expirydate: "2020-10-30"
+expirydate: "2020-11-20"
 title: "IoT Webinar"
 hashtags: ["webinar","free"]
 category: industry
