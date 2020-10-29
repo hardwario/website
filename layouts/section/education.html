@@ -97,16 +97,11 @@
                     <div class="row">
                         <div class="col">
                           <div class="row">
-                              <div class="col-12 col-md-8 col-lg-6 col-xl-4 mx-auto pt-60 text-center">
-                                  <div class="font-redLined font-redLined-gray font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "education_kit" }}</span></div>
-                              </div>
-                          </div>
-                          <div class="row">
                               <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
-                                  <h2 class="text-center pb-20 font-weight-black font-30 font-md-64">{{ i18n "education_kits" }}</h2>
+                                  <h2 class="text-center pb-20 font-weight-black pt-60 font-30 font-md-64">{{ i18n "education_kits" }}</h2>
                               </div>
                           </div>
-                            <div class="pricelist pricelist--bottom-3-5 pt-0 pt-md-40">
+                            <div class="pricelist pricelist--bottom-3-5 pt-0 pt-md-40 mb-40">
                                 <div class="row no-gutters">
                                   {{ $pleft := .Params.productLeft }}
                                   {{ with .Site.GetPage (string $pleft) }}
@@ -130,6 +125,56 @@
                 </div>
             </div>
         </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="contactbox ">
+                            <div class="row">
+                                <div class="col-12 col-md-4">
+                                    <div class="contactbox__item mb-40">
+                                        <div class="contactbox__icon"></div>
+                                        <h3 class="contactbox__text">{{ i18n "edu_modification_integration" | safeHTML }}</h3>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <div class="contactbox__item mb-40">
+                                        <div class="contactbox__icon contactbox__icon--warranty"></div>
+                                        <h3 class="contactbox__text">{{ i18n "edu_extended_warranty" | safeHTML }}</h3>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <div class="contactbox__item mb-40 contactbox__item--noborder">
+                                        <div class="contactbox__icon contactbox__icon--support"></div>
+                                        <h3 class="contactbox__text">{{ i18n "edu_personal_tech_support" | safeHTML }}</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class = "container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mb-10">
+                  <div class = "row align-items-center">
+                    <div class = "col-12 col-md-4 px-50">
+                        <img loading="lazy" src="/_assets/images/{{ .Params.cons_img }}" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
+                    </div>
+                    <div class = "col-12 col-md-8 pt-30 pt-md-0 text-center text-md-left font-white">
+                    <h3 class = "font-32 font-weight-bold pb-10">{{ i18n "free_edu_consult" | safeHTML }}</h3>
+                    <p class = "font-16 pb-10">{{ .Params.consultation | safeHTML }}</p>
+                    <a href = "{{ .Params.cons_link }}" target="_blank" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">{{ i18n "make_an_appointment" }}</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+          </section>
 
 
         <section>

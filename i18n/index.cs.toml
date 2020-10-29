@@ -50,16 +50,16 @@ other = "Poznejte stavebnici díky naší <a href = \"/cs/handbook\">příručce
 other = "Příručka"
 
 [guide_for_starter]
-other = "Průvodce našeho Starter Kitu"
+other = "Průvodce sady Starter"
 
 [projects]
 other = "Projekty"
 
 [find_an_inspiration]
-other = "Najděte inspiraci"
+other = "Zobrazit projekty"
 
 [academy]
-other = "Akademie"
+other = "Návody"
 
 [get_to_know]
 other = "Poznej jak to funguje"
@@ -71,7 +71,7 @@ other = "Projít přiručku"
 other = "Zobrazit projekty"
 
 [show_me_academy]
-other = "Prohlédnout akademii"
+other = "Prohlédnout návody"
 
 [iot_events]
 other = "Poznejme se osobně"

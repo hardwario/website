@@ -1,5 +1,5 @@
 [teach_engaging_way]
-other = "Poutavá aktivní STEM výuka postavená na reálných IoT projektech"
+other = "Aktivní STEM výuka postavená na reálných IoT projektech"
 
 [iot_kit_is_complex]
 other = "Ucelený systém aktivní STEM výuky využívající výzkumem ověřený pedagogický rámec, jehož atraktivita je založena na práci s reálnými projekty internetu věcí."
@@ -11,16 +11,16 @@ other = "Ucelený systém výuky"
 other = "Naše aktivní STEM výuka stojí na 3&nbsp;hlavních pilířích"
 
 [plug_and_make_kits]
-other = "Plug&Make IoT stavebnice"
+other = "TOWER IoT stavebnice"
 
 [open_souce_system]
-other = "Naše IoT stavebnice vám umožní postavit a připojit k internetu jakékoli IoT zařízení pro vaše aktivní STEM lekce."
+other = "Naše průmyslová IoT stavebnice vám umožní postavit a připojit k internetu jakékoliv IoT zařízení pro vaše aktivní STEM lekce."
 
 [pedagogical_framework]
 other = "Pedagogický<br/> rámec"
 
 [with_experts]
-other = "Společně s pedagogickými experty z&nbsp;EDvisor Finland jsme připravili detailní STEM lekce využívající na&nbsp;výzkumu založený pedagogický rámec UVĚDOM SI-EXPERIMENTUJ-APLIKUJ-PŘEMÝŠLEJ."
+other = "Společně s pedagogickými experty z&nbsp;EDvisor Finland jsme připravili <a href = 'https://stem.hardwario.com' target = '_blank'>detailní STEM lekce</a> využívající na&nbsp;výzkumu založený pedagogický rámec UVĚDOM SI-EXPERIMENTUJ-APLIKUJ-PŘEMÝŠLEJ."
 
 [personal_support]
 other = "Technická<br/>podpora"
@@ -53,7 +53,19 @@ other = "Sdílíme naše zkušenosti, případové studie a inspiraci ze světa 
 other = "Přijďte na akce pořádané námi nebo našimi partnery. Sdílíme na nich naše znalosti o IoT a STEM výuce."
 
 [education_kits]
-other = "Nejlepší IoT stavebnice pro STEM výuku"
+other = "Dostupná IoT stavebnice pro STEM výuku"
 
 [education_kit]
 other = "IoT stavebnice pro vzdělávání"
+
+[free_edu_consult]
+other = "Rezervujte si 30minutovou konzultaci vaší aktivní STEM výuky"
+
+[edu_modification_integration]
+other = "Prodloužená záruka 3 roky"
+
+[edu_extended_warranty]
+other = "100&nbsp;dní na vyzkoušení"
+
+[edu_personal_tech_support]
+other = "Osobní technická podpora"

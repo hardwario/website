@@ -9,4 +9,7 @@ productLeft: "/kits/starter-kit"
 productMiddle: "/kits/starter-kit-co2-monitor"
 productRight: "/kits/starter-kit-bundle"
 whitepaper_form: 2fb2ab07-f2af-4430-93c2-1fbde7b66624
+consultation: Alan Fabik, CEO HARDWARIO
+cons_img: alan.png
+cons_link: https://meetings.hubspot.com/alanfabik/booking
 ---

@@ -10,16 +10,16 @@
       </div>
 
 
-      <div class="pricelist__title2">{{ .Params.eduText }}</div>
+      <div class="pricelist__title2">{{ .Params.eduText | safeHTML }}</div>
 
-      <ul class="pricelist__items font-list">
+      <!--<ul class="pricelist__items font-list">
         {{ range .Params.included }}
           <li class="pricelist__items__item">{{ . }}</li>
         {{ end}}
         {{ range .Params.notIncluded }}
           <li class="pricelist__items__item minus pricelist__items__item--disabled">{{ . }}</li>
         {{ end}}
-      </ul>
+      </ul>-->
       {{ if .Params.save }}
         <div class="pricelist__discount">{{ i18n "save" }} {{ .Params.save }}</div>
       {{ else }}
