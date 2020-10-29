@@ -69,3 +69,6 @@ other = "Extended 3-year warranty and 100-day trial period"
 
 [edu_personal_tech_support]
 other = "Personal technical support in the deployment phase"
+
+[tutorials]
+other = "Tutorials"

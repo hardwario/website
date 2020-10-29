@@ -188,9 +188,9 @@
 
                   {{ $currentLang := .Site.Language.Lang }}
                   {{ if ne $currentLang "de" }}
-                      <a href="{{ "handbook/" | absLangURL }}" class="cta-button font-lnh54 font-md-lnh24 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "get_handbook" }}</a>
+                      <a href="{{ "handbook/" | absLangURL }}" class="cta-button font-14 font-lnh48 px-20 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "get_handbook" }}</a>
                   {{ else }}
-                      <a href="/handbook/" class="cta-button font-lnh54 font-md-lnh24 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "get_handbook" }}</a><br/>(in English)
+                      <a href="/handbook/" class="cta-button font-14 font-lnh48 px-20 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "get_handbook" }}</a><br/>(in English)
                   {{ end }}
                 </div>
 
@@ -206,7 +206,7 @@
                 </div>
 
               <div class = "col-12 col-md-4">
-                  <h3 class="font-26 font-md-40 font-lnh38 font-md-lnh44 font-weight-black pb-0 pb-md-10">{{ i18n "academy" }}</h3>
+                  <h3 class="font-26 font-md-40 font-lnh38 font-md-lnh44 font-weight-black pb-0 pb-md-10">{{ i18n "tutorials" }}</h3>
                   <p class="font-21 font-lnh24 px-15 pb-15">{{ i18n "get_to_know" }}</p>
                   {{ $currentLang := .Site.Language.Lang }}
                   {{ if ne $currentLang "de" }}
@@ -217,8 +217,6 @@
 
                 </div>
                 </div>
-
-
               </div>
             </div>
         </section>
