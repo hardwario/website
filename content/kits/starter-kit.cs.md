@@ -37,4 +37,4 @@ techSpecs:
 eduText: Sada Starter vás seznámí s bezdrátovou sítí stavebnice.<br/>Je základem STEM lekce <a href = 'https://stem.hardwario.com/v/cs/lekce/notifikacni-tlacitkove-systemy'>Notifikační tlačítkové systémy</a>.
 ---
 
-Základní sadou pro začátek s HARDWARIOem je Starter Kit a užiješ si s ním spoustu skvělých projektů. Postav své první chytré zařízení a vytvoř projekty, kterými ohromíš kámoše, rodinu i nás.👌 Kit ti umožní měřit teplotu, pracovat s akcelerometrem nebo ovládat cokoli stisknutím tlačítka. Časem ho můžeš vylepšit o rozšiřující moduly.
+Základní sadou pro začátek s HARDWARIOem je Starter Kit a užiješ si s ním spoustu skvělých projektů. Postav své první chytré zařízení a vytvoř projekty, kterými ohromíš kámoše, rodinu i nás.👌 Kit ti umožní měřit teplotu, pracovat s akcelerometrem nebo ovládat cokoli stisknutím tlačítka. Časem ho můžeš vylepšit o rozšiřující moduly. 
