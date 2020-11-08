@@ -1,0 +1,17 @@
+[dev_blog]
+other = "Latest articles for developers"
+
+[tower_text]
+other = "Resources for open-source industrial IoT Kit to build IoT projects effortlessly."
+
+[go_to_tower]
+other = "Go to tower.hardwario.com"
+
+[go_to_sdk]
+other = "Go to sdk.hardwario.com"
+
+[go_to_chester]
+other = "Go to chester.hardwario.com"
+
+[chester_text]
+other = "Resources for universal device with very low power consumption." 

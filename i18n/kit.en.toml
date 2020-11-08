@@ -29,7 +29,7 @@ other = "The whole kit is open-source and supports integration with popular plat
 other = "Academy, Projects, Documentation"
 
 [academy_projects_docs_desc]
-other = "Thanks to the <a href = '/academy/what-is-bigclown-playground/'>Playground</a>, <a href = '/academy/'>academy</a> and <a href = '/projects/'>example projects</a>, getting started with the kit is easy. You can easily set up the device, pair it with a computer and, thanks to visual programming, define how it should work. You can solve advanced behavior and integration with <a href = 'https://developers.hardwario.com' target = '_blank'>documentation</a> and <a href = 'https://sdk.hardwario.com' target = '_blank'>SDK library</a>."
+other = "Thanks to the <a href = '/academy/what-is-bigclown-playground/'>Playground</a>, <a href = '/academy/'>academy</a> and <a href = '/projects/'>example projects</a>, getting started with the kit is easy. You can easily set up the device, pair it with a computer and, thanks to visual programming, define how it should work. You can solve advanced behavior and integration with <a href = 'https://tower.hardwario.com' target = '_blank'>documentation</a> and <a href = 'https://sdk.hardwario.com' target = '_blank'>SDK library</a>."
 
 [get_kit]
 other = "Buy Industrial Kit"

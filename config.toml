@@ -42,18 +42,18 @@ csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
 
 
 [[languages.en.menu.footer_2]]
-  url    = "https://developers.hardwario.com"
-  name   = "Documentation"
+  url    = "https://www.hardwario.com/developers/"
+  name   = "For developers"
   weight = 10
 
 [[languages.de.menu.footer_2]]
-  url    = "https://developers.hardwario.com"
-  name   = "Dokumentation"
+  url    = "https://www.hardwario.com/developers/"
+  name   = "Für Entwickler"
   weight = 10
 
 [[languages.cs.menu.footer_2]]
-  url    = "https://developers.hardwario.com"
-  name   = "Dokumentace"
+  url    = "https://www.hardwario.com/cs/developers/"
+  name   = "Pro vývojáře"
   weight = 10
 
 [[languages.en.menu.footer_2]]
