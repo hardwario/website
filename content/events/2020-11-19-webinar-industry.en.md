@@ -4,7 +4,7 @@ time: "2 - 3 pm CET"
 price: "Free"
 publishdate: "2020-10-07"
 expirydate: "2020-11-20"
-title: "How the UK Department for Environment, Food and Rural Affairs is studying the impact of climate change on tree growth"
+title: "How IoT has made the collection of data on climate change research on tree growth more accurate and cheaper for the UK Department of the Environment, Food and Rural Affairs"
 hashtags: ["webinar","free"]
 category: industry
 image_main: /events/webinar.jpg

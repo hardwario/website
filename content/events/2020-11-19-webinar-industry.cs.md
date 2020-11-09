@@ -4,7 +4,7 @@ time: "14:00 - 15:00"
 price: "Zdarma"
 publishdate: "2020-10-07"
 expirydate: "2020-11-20"
-title: "Jak Ministerstvo životního prostředí Spojeného Království zkoumá vliv změn klimatických podmínek na růst stromů"
+title: "Jak internet věcí zpřesnil a zlevnil Ministerstvu životního prostředi UK sběr dat pro výzkum vlivu změn klimatických podmínek na růst stromů"
 hashtags: ["webinar","zdarma"]
 category: industry
 image_main: /events/webinar.jpg
