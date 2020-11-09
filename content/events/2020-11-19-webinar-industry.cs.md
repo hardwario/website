@@ -4,7 +4,7 @@ time: "14:00 - 15:00"
 price: "Zdarma"
 publishdate: "2020-10-07"
 expirydate: "2020-11-20"
-title: "IoT Webinář"
+title: "Jak Ministerstvo životního prostředí Spojeného Království zkoumá vliv změn klimatických podmínek na růst stromů"
 hashtags: ["webinar","zdarma"]
 category: industry
 image_main: /events/webinar.jpg
@@ -13,11 +13,16 @@ place: "Online"
 description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 ---
 
-Přihlaste se na **bezplatný HARDWARIO IoT Webinář**. Téma bude upřesněno.
+<div class = "row">
+<div class = "col pr-30">
+<p>Dnešní IoT technologie otevírají nové možnosti pro sběr dat z terénu. Příkladem skvělého využití této příležitosti je náš projekt pro Ministerstvo Životního proředí Spojeného Království.</p>
 
-_Zaregistrujte se, i když vám čas webináře nevyhovuje. Po proběhnutí vám pošleme záznam webináře, prezentaci a odkazy._
+<p>Přihlaste se na náš IoT webinář, ve kterém se budeme věnovat případové studii, jak společně s Ministerstvem životního prostředí Spojeného Království, agenturou Forest Research a Vodafonem zkoumáme vliv klimatických změn na růst stromů.</p>
 
-{{% section "Registrace" %}}
+
+
+</div>
+<div class = "col-12 col-md-5">
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
@@ -30,3 +35,7 @@ hbspt.forms.create({
 }
 });
 </script>
+
+<p class = "font-14 font-lnh16">Zaregistrujte se, i když vám čas webináře nevyhovuje. Po proběhnutí vám pošleme záznam webináře, prezentaci a odkazy.</p>
+</div>
+</div>
