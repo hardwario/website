@@ -15,7 +15,7 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 
 <div class = "row">
 <div class = "col pr-30">
-<p>Dnešní IoT technologie otevírají nové možnosti pro sběr dat z terénu. Příkladem skvělého využití této příležitosti je náš projekt pro Ministerstvo Životního proředí Spojeného Království.</p>
+<p>Dnešní IoT technologie otevírají nové možnosti pro sběr dat z terénu. Příkladem skvělého využití této příležitosti je náš projekt pro Ministerstvo Životního prostředí Spojeného Království.</p>
 
 <p>Přihlaste se na náš IoT webinář, ve kterém se budeme věnovat případové studii, jak společně s Ministerstvem životního prostředí Spojeného Království, agenturou Forest Research a Vodafonem zkoumáme vliv klimatických změn na růst stromů.</p>
 
