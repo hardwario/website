@@ -4,7 +4,7 @@ time: "2 - 3 pm CET"
 price: "Free"
 publishdate: "2020-10-07"
 expirydate: "2020-11-20"
-title: "How the Internet of Things from HARDWARIO and Vodafone UK has refined and reduced the cost of collecting data to research the impact of climate change on tree growth for Defra"
+title: "How IoT from HARDWARIO and Vodafone UK has helped Forest research agency and DEFRA UK monitor the impact of the climate change on tree growth more effectively"
 hashtags: ["webinar","free"]
 category: industry
 image_main: /events/webinar.jpg
