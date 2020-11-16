@@ -4,15 +4,18 @@
 
 {{ $currentLang := .Site.Language.Lang }}
 
-<!-- {{ if eq $currentLang "cs" }}
+
   {{ partial "toolbar.html" . }}
-{{ end }} -->
+ 
 
   {{ partial "header.html" . }}
 
 {{ end }}
 <script src="/_assets/js/{{ index .Site.Data.js.hash "jquery.min.js" }}"></script>
 <main role="main">
+
+ <!-- {{ partial "breadcrumb.html" . }} -->
+
 {{ block "main" . }}
   {{ .Content }}
 {{ end }}
