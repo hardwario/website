@@ -20,6 +20,7 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 
 <p><strong>V novém IoT webináři vám ukážeme, jak jsme společně s Vodafone UK zvládli výzvu anglického Ministerstva životního prostředí a usnadnili mu sběr dat pro výzkum vlivu změn klimatických podmínek na růst stromů.
 </strong> Konkrétně se budeme bavit o implementaci NB-IoT technologie, zařízeních HARDWARIO CHESTER a EMS Dendrometr, REST API a aplikaci Grafana.</p>
+<p><strong>Webinář proběhne v angličtině</strong>.</p>
 <p>Měníme dnešek na digitální zítřek.</p>
 
 </div>
