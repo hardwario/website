@@ -179,10 +179,10 @@ other = "The price starts at €132 without VAT and depends on the configuration
 other = "Send&nbsp;me&nbsp;pricelist"
 
 [buy_chester_tester]
-other = "Buy&nbsp;tester&nbsp;now"
+other = "Buy&nbsp;CHESTER&nbsp;now"
 
 [buy_chester_tester_link]
-other = "https://shop.hardwario.com/nb-iot-tester/"
+other = "https://shop.hardwario.com/hub/"
 
 [interested_in_chester]
 other = "I'm interested in CHESTER"
