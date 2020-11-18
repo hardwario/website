@@ -169,6 +169,12 @@ other = "4x strain gauge"
 [accurate_weight_measurement]
 other = "Accurate weight scale monitoring"
 
+[accurate_dc]
+other = "DC/DC + differential amplifier"
+
+[dendrometer]
+other = "Dendrometer (tree growth sensor) sensing"
+
 [get_chester]
 other = "Get CHESTER"
 

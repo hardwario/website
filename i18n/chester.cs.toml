@@ -169,6 +169,12 @@ other = "4x tenzometr"
 [accurate_weight_measurement]
 other = "Rozhraní pro přesné měření váhy"
 
+[accurate_dc]
+other = "DC/DC + rozdílový zesilovač"
+
+[dendrometer]
+other = "Snímání dendrometru (senzoru růstu stromu)"
+
 [get_chester]
 other = "Získejte CHESTER"
 
