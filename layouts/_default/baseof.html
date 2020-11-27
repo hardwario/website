@@ -14,7 +14,11 @@
 <script src="/_assets/js/{{ index .Site.Data.js.hash "jquery.min.js" }}"></script>
 <main role="main">
 
- <!--  partial "breadcrumb.html" . }} -->
+  {{ if .IsHome }}
+  {{ else }}
+  {{ partial "breadcrumb.html" . }} 
+  {{ end }}
+
 
 {{ block "main" . }}
   {{ .Content }}
