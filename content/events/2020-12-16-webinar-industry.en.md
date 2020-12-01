@@ -18,7 +18,7 @@ description: "Register to free HARDWARIO IoT Webinar"
 
 <p>By digitizing and implementing IoT technologies, smart organizations gain a competitive advantage by dramatically improving their efficiency, productivity, customer experience, and generating new revenue streams. In our popular webinars, together with our partners, we present successful IoT projects and openly describe used solutions and technologies. Webinar includes a discussion with developers, implementers and customers.</p>
 
-<p><strong>In the new IoT webinar, we will show you how RedGear Solution, with the help of the COOPER IoT multisensor, has expanded its portfolio with a new RGS Care service, with which it digitizes healthcare</strong>. We will talk about the COOPER IoT multisensor, Sigfox implementation, integration with Ubidots and what can be detected from COOPER sensors in healthcare.</p>
+<p><strong>In the new IoT webinar, we will show you how RedGear Solution, with LPWAN, IoT multisensor COOPER and IoT platform Ubidots, has expanded its portfolio with a new RGS Care service, with which they digitizes healthcare</strong>. We will talk about the COOPER IoT multisensor, LPWAN, Ubidots and what can be detected from COOPER sensors in healthcare.</p>
 
 </div>
 <div class = "col-12 col-md-5">

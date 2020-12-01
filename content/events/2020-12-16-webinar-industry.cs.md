@@ -18,7 +18,7 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 
 <p>Chytré organizace získávají digitalizací a implementací technologií internetu věcí konkurenční výhodu dramatickým zlepšením své efektivity, produktivity, zákaznické zkušenosti a vytvářením nových zdrojů příjmů. V našich populárních webinářích představujeme společně s našimi partnery úspěšné IoT projekty a otevřeně popisujeme řešení a použité technologie. Součástí je diskuse s vývojáři, realizátory a zákazníky.</p>
 
-<p><strong>V novém IoT webináři vám ukážeme, jak společnost RedGear Solution s pomocí IoT multisenzoru COOPER rozšířila své portfolio o novou službu RGS Care, se kterou digitalizuje healthcare.</strong>. Bavit se budeme o IoT multisenzoru COOPER, implementaci Sigfox, integraci s Ubidots co vše je možné detekovat ze senzorů COOPER v healthcare.</p>
+<p><strong>V novém IoT webináři vám ukážeme, jak společnost RedGear Solution s pomocí LPWAN, IoT multisenzoru COOPER a IoT platformě Ubidots rozšířila své portfolio o novou službu RGS Care, se kterou digitalizuje healthcare.</strong>. Bavit se budeme o IoT multisenzoru COOPER, LPWAN, Ubidots a co vše je možné detekovat ze senzorů COOPER v healthcare.</p>
 <p><strong>Webinář proběhne v angličtině</strong>.</p>
 <p>Měníme dnešek na digitální zítřek.</p>
 

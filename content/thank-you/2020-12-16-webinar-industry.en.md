@@ -15,6 +15,6 @@ Do you know anyone who may be interested in a webinar? Let them know:
 
 <h3 class = "mb-20">The topic</h3>
 
-In the new IoT webinar, we will show you how RedGear Solution, with the help of the COOPER IoT multisensor, has expanded its portfolio with a new RGS Care service, with which it digitizes healthcare. 
+In the new IoT webinar, we will show you how RedGear Solution, with LPWAN, IoT multisensor COOPER and IoT platform Ubidots, has expanded its portfolio with a new RGS Care service, with which they digitizes healthcare. 
 
-We will talk about the COOPER IoT multisensor, Sigfox implementation, integration with Ubidots and what can be detected from COOPER sensors in healthcare.
+We will talk about the COOPER IoT multisensor, LPWAN, Ubidots and what can be detected from COOPER sensors in healthcare.

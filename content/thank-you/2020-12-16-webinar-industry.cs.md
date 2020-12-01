@@ -15,6 +15,6 @@ Vaše registrace na IoT webinář "**Jak společnost RedGear Solutions vybudoval
 
 <h3 class = "mb-20">O čem webinář bude</h3>
 
-V novém IoT webináři vám ukážeme, jak společnost RedGear Solution s pomocí IoT multisenzoru COOPER rozšířila své portfolio o novou službu RGS Care, se kterou digitalizuje healthcare. 
+V novém IoT webináři vám ukážeme, jak společnost RedGear Solution s pomocí LPWAN, IoT multisenzoru COOPER a IoT platformě Ubidots rozšířila své portfolio o novou službu RGS Care, se kterou digitalizuje healthcare.
 
-Bavit se budeme o IoT multisenzoru COOPER, implementaci Sigfox, integraci s Ubidots co vše je možné detekovat ze senzorů COOPER v healthcare.
+Bavit se budeme o IoT multisenzoru COOPER, LPWAN, Ubidots a co vše je možné detekovat ze senzorů COOPER v healthcare.
