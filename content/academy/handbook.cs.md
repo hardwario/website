@@ -18,7 +18,7 @@ perex: <p>Naučte se internet věcí na reálných projektech.</p> <p><strong>HA
 <div class="row">
 <div class = "col-md-6 align-self-center">
 <h2><span>Krok 1</span>Sestavení zařízení z modulů Starter Bundle</h2>
-<span class = "font-red font-font2 font-weight-bold font-15 text-decoration-underline">Jdme na to</span>
+<span class = "font-red font-font2 font-weight-bold font-15 text-decoration-underline">Jdeme na to</span>
 </div>
 <div class = "col-md-6 align-self-center">
 <img src="/_assets/images/starter-kit/2-ilustrace-devce-sestavuje-KIT-korektura.png" alt="HARDWARIO Playground" style = "max-width:100%">
