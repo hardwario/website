@@ -4,7 +4,7 @@ time: "14:00 - 15:00"
 price: "Zdarma"
 publishdate: "2020-12-01"
 expirydate: "2020-12-17"
-title: "Jak společnost RedGear Solutions vybudovalo nový produkt pro digitalizaci healthcare s IoT multisenzorem COOPER"
+title: "Jak společnost RGS Care vytvořila nový produkt s IoT multisenzorem COOPER a digitalizuje s ním pečovatelské služby"
 hashtags: ["webinar","zdarma"]
 category: industry
 image_main: /events/webinar.jpg
@@ -18,7 +18,7 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 
 <p>Chytré organizace získávají digitalizací a implementací technologií internetu věcí konkurenční výhodu dramatickým zlepšením své efektivity, produktivity, zákaznické zkušenosti a vytvářením nových zdrojů příjmů. V našich populárních webinářích představujeme společně s našimi partnery úspěšné IoT projekty a otevřeně popisujeme řešení a použité technologie. Součástí je diskuse s vývojáři, realizátory a zákazníky.</p>
 
-<p><strong>V novém IoT webináři vám ukážeme, jak společnost RedGear Solution s pomocí LPWAN, IoT multisenzoru COOPER a IoT platformě Ubidots rozšířila své portfolio o novou službu RGS Care, se kterou digitalizuje healthcare.</strong>. Bavit se budeme o IoT multisenzoru COOPER, LPWAN, Ubidots a co vše je možné detekovat ze senzorů COOPER v healthcare.</p>
+<p>V novém IoT webináři vám ukážeme, jak společnost RGS Care používá náš <strong>IoT multisenzor COOPER</strong> v rámci svých služeb pro zákazníky v oboru pečovatelství. Budeme se bavit nejen o multisenzoru COOPER, ale také rozebereme použité <strong>LPWAN technologie</strong> a představíme platformu <strong>Ubidots</strong>.</p>
 <p><strong>Webinář proběhne v angličtině</strong>.</p>
 <p>Měníme dnešek na digitální zítřek.</p>
 

@@ -4,7 +4,7 @@ time: "2 - 3 pm CET"
 price: "Free"
 publishdate: "2020-12-01"
 expirydate: "2020-12-17"
-title: "How RedGear Solutions built a new healthcare digitization product with IoT multisensor COOPER"
+title: "How RGS Care company digitizes care services with our COOPER IoT multisensor"
 hashtags: ["webinar","free"]
 category: industry
 image_main: /events/webinar.jpg
@@ -16,9 +16,9 @@ description: "Register to free HARDWARIO IoT Webinar"
 <div class = "row">
 <div class = "col pr-30">
 
-<p>By digitizing and implementing IoT technologies, smart organizations gain a competitive advantage by dramatically improving their efficiency, productivity, customer experience, and generating new revenue streams. In our popular webinars, together with our partners, we present successful IoT projects and openly describe used solutions and technologies. Webinar includes a discussion with developers, implementers and customers.</p>
+<p>By digitizing and implementing IoT technologies, smart organizations gain a competitive advantage by dramatically improving their efficiency, productivity, customer experience, and generating new revenue streams. In our popular webinars, together with our partners, we present successful IoT projects and openly describe used solutions and technologies. The webinar includes a discussion with developers, implementers and customers.</p>
 
-<p><strong>In the new IoT webinar, we will show you how RedGear Solution, with LPWAN, IoT multisensor COOPER and IoT platform Ubidots, has expanded its portfolio with a new RGS Care service, with which they digitizes healthcare</strong>. We will talk about the COOPER IoT multisensor, LPWAN, Ubidots and what can be detected from COOPER sensors in healthcare.</p>
+<p>In our new IoT webinar, we will show you how RGS Care uses our <strong>IoT multisensor COOPER</strong> as part of their care services. We will talk not only about the COOPER multisensor, but we will also analyze used <strong>LPWAN technologies</strong> and introduce the <strong>Ubidots platform</strong>.</p>
 
 </div>
 <div class = "col-12 col-md-5">
