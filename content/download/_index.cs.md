@@ -7,4 +7,4 @@ weight: 800
 meta_title: Stáhněte si HARDWARIO Playground
 ---
 
-**HARDWARIO Playground** je nástroj, díky kterému tě tvoje krabička bude poslouchat na slovo. Na této stránce si můžeš stáhnout vždy aktuální verzi Playgroundu pro tvůj počítač s operačním systémem Windows, Linux, Ubuntu nebo Apple macOS.
+**HARDWARIO Playground** je aplikace pro nahrávání firmware, párování sestav a programování funkcí IoT stavebnice HARDWARIO TOWER. Je dostupná pro počítače s operačními systémy Windows, Linux, Ubuntu a Apple macOS.
