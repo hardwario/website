@@ -502,8 +502,9 @@
     </div>
 </section>
 
-<!--<section>
-    <div class = "container">
+{{ if eq $currentLang "cs" }}
+<section>
+    <div class = "container" id = "iot-document">
     <div class="row justify-content-center">
       <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mt-60 mb-60">
           <div class = "row align-items-center justify-content-center">
@@ -511,15 +512,42 @@
                 <img loading="lazy" src="/_assets/images/checklist.svg" class="w-100 d-block mx-auto img-fluid" alt="" />
             </div>
             <div class = "col-12 col-md-10 pt-30 pt-md-0 text-center text-md-left font-white">
-            <h3 class = "font-32 font-weight-bold pb-10">94 % firem bude do 2 let aktivně využívat výhod IoT</h3>
-            <p class = "font-22 pb-10">Jak jste na tom vy? Stáhněte si checklist pro vaši IoT strategii.</p>
-            <a href = "{{ .Params.cons_link }}" target="_blank" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">Stáhnout checklist</a>
+            <h3 class = "font-32 font-weight-bold pb-10">IoT technologie usnadňují digitalizaci v průmyslu. Jak&nbsp;je můžete zavádět?</h3>
+            <p class = "font-22 pb-10">Stáhněte si dokument 5 inspirativních příkladů digitalizace, kterými můžete rozšířit své portfolio.</p>
+            <a href = "#iot-document" class="getPdf font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">Stáhni dokument</a>
             </div>
         </div>
     </div>
     </div>
-    </div>
-  </section>-->
+    </div> 
+
+    <div id = "downloadCaseStudy" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row justify-content-center">
+                  <div class="col-md-10">
+                    <h2 class = "font-30 font-md-42 pt-50 pb-50 font-weight-black text-center" data-toggle="modal" data-target=".bd-example-modal-lg">Jak IoT technologie usnadňují digitalizaci v průmyslu</h2>
+                  </div>
+                  <div class="col-md-8 text-center">
+                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                    <script>
+                      hbspt.forms.create({
+                        portalId: "5453210",
+                        formId: "7e22997b-aa8b-4a02-9a34-248f01f4481d"
+                      });
+                    </script>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+  {{ end }}
 
 
   <section>
@@ -566,5 +594,12 @@
 {{ end }}
 
 {{ define "additional-scripts" }}
+<script type="text/javascript">
+  $('.getPdf').click(function(){
+    $('#downloadCaseStudy').modal({
+      keyboard: false
+    })
+  });
 
+</script>
 {{ end }}
