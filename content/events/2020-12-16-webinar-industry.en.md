@@ -1,6 +1,6 @@
 ---
 date: "2020-12-16"
-time: "2 - 3 pm CET"
+time: "11 am - 12 pm CET"
 price: "Free"
 publishdate: "2020-12-01"
 expirydate: "2020-12-17"
