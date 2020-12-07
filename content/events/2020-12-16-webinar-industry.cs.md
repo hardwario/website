@@ -1,6 +1,6 @@
 ---
 date: "2020-12-16"
-time: "11:00 - 12:00"
+time: "14:00 - 15:00"
 price: "Zdarma"
 publishdate: "2020-12-01"
 expirydate: "2020-12-17"
