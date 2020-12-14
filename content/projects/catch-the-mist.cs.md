@@ -31,7 +31,7 @@ Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vy
 
 ## Stáhni si nový firmware
 
-1. Pokud to ještě nemáš, Starter Kit [sestavj]({{< ref "/handbook/_index.cs.md" >}}).
+1. Pokud to ještě nemáš, Starter Kit [sestavj]({{< ref "/academy/handbook.cs.md" >}}).
 2. Na Core Module nahraj speciální firmware, a to **bcf-radio-x-axis-detector** (najdeš ho mezi ostatním firmwarem v Playgroundu). Díky tomuhle firmwaru bude krabička citlivější na pohyb. 👌
 **Náš tip:** Nevíš, jak si firmware stáhnout nebo co to je? [Zjistíš to tady]({{< ref "/academy/how-to-flash-firmware.cs.md" >}}).
 3. [Core Module spáruj s USB Donglem]({{< ref "/academy/how-to-pair-kit.cs.md" >}}). Hned po spárování uvidíš, že tvůj Core Module změnil Alias na **x-axis-detector**.

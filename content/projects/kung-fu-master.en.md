@@ -35,7 +35,7 @@ You only need a **box with a button** and a **USB dongle**.  That's why the basi
 
 ## Download the firmware
 
-1. If you haven't already done so, put the starter kit [together]({{< ref "/handbook/_index.en.md" >}}).
+1. If you haven't already done so, put the starter kit [together]({{< ref "/academy/handbook.en.md" >}}).
 2. Load the special firmware, namely **bcf-radio-still-position-detector** (you´ll find it among the other firmware in Playground) onto the Core Module. This firmware will make the box much more sensitive to movement and measure time changes. 👌
    **Our Tip:** You don’t know how to download the firmware or what it is? [Find out more here]({{< ref "/academy/how-to-flash-firmware.en.md" >}}).
 3. [Pair Core Module with USB Dongle]({{< ref "/academy/how-to-pair-kit.en.md" >}}). After pairing has been completed, you will see that your Core Module has changed the Alias to **still-position-detector**.

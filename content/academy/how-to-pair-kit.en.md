@@ -16,7 +16,7 @@ Pairing is important so that the Dongle **only communicates with your box** and 
 
 ## Pair the Dongle with the Core module
 
-1.  If you haven’t put together your kit yet, go for it now. If you have the Starter Kit, [here you will find instructions to put it together]({{< ref "/handbook/_index.en.md" >}}). Connect the completed USB Dongle to your computer.
+1.  If you haven’t put together your kit yet, go for it now. If you have the Starter Kit, [here you will find instructions to put it together]({{< ref "/academy/handbook.en.md" >}}). Connect the completed USB Dongle to your computer.
 
 2. In the Playground, open the **Devices** tab. Select **USB dongle** in the toolbar.
    {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566160873/academy/how-to-pair-kit/image1.png" alt = "HARDWARIO Playground USB dongle" >}}

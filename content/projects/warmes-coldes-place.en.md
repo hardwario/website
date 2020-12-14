@@ -39,7 +39,7 @@ With this project you will learn to **measure temperature with IoT and display i
 
 ## Get your box ready
 
-1. Put together the Starter Kit and pair it: if you are doing it for the first time, [we have prepared a simple guide here]({{< ref "/handbook/_index.en.md" >}}). For the Core Module, you need the **radio push button** firmware. If you don’t know how to download the firmware or what it is, [you will find out here]({{< ref "/academy/how-to-flash-firmware.en.md" >}}).
+1. Put together the Starter Kit and pair it: if you are doing it for the first time, [we have prepared a simple guide here]({{< ref "/academy/handbook.en.md" >}}). For the Core Module, you need the **radio push button** firmware. If you don’t know how to download the firmware or what it is, [you will find out here]({{< ref "/academy/how-to-flash-firmware.en.md" >}}).
 2. You can see the temperature changes in the **Messages** tab in the Playground.
 
 {{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566156994/projects/wormest-coldest-place/image10.png" alt = "MQTT messages in HARDWARIO Playground" >}}

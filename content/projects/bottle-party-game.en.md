@@ -33,7 +33,7 @@ You will need **the box with the button** and the **USB dongle**. All you need i
 
 ## Get it started in the Node-RED
 
-1. Starter Kit [put together and pair]({{< ref "/handbook/_index.en.md" >}}). If you don’t know how to download the firmware or what it is, [you will find out here]({{< ref "/academy/how-to-flash-firmware.en.md" >}}).
+1. Starter Kit [put together and pair]({{< ref "/academy/handbook.en.md" >}}). If you don’t know how to download the firmware or what it is, [you will find out here]({{< ref "/academy/how-to-flash-firmware.en.md" >}}).
 2. In the Playground, click on the **Functions tab** where the programming desktop is located.
 3. Let’s make it happen. 🤞 Place the **MQTT** node from the Input section in the desktop.
 

@@ -29,7 +29,7 @@ All you need is the box with button and the USB dongle in the basic HARDWARIO [S
 
 ##  Download new firmware
 
-1. If you haven't done it yet, [put together]({{< ref "/handbook/_index.en.md" >}})the Starter Kit.
+1. If you haven't done it yet, [put together]({{< ref "/academy/handbook.en.md" >}})the Starter Kit.
 2. Upload a special firmware to Core Module - **bcf-radio-x-axis-detector** (you will find it among other firmware in the Playground). Thanks to this firmware, the box will become sensitive to movement.👌
    **Our tip:** You don't know how to download firmware or what it even is? [You can find out here]({{< ref "/academy/how-to-flash-firmware.en.md" >}}).
 3. [Pair the Core Module with the USB Dongle]({{< ref "/academy/how-to-pair-kit.en.md" >}}). Right after pairing it, you will notice that your Core Module has changed Alias to **x-axis-detector**.

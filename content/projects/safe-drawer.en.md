@@ -29,7 +29,7 @@ You only need a **box with a button** and a **Radio dongle**. That's why the bas
 
 ## Download the firmware
 
-1. Pokud to ještě nemáš, Starter Kit [sestav]({{< ref "/handbook/_index.en.md" >}}).
+1. Pokud to ještě nemáš, Starter Kit [sestav]({{< ref "/academy/handbook.en.md" >}}).
 2. Na Core Module nahraj speciální firmware, a to **bcf-radio-x-axis-detector** (najdeš ho mezi ostatním firmwarem v Playgroundu). Díky tomuhle firmwaru bude krabička citlivější na pohyb. 👌
 
 **Náš tip:** Nevíš, jak si firmware stáhnout nebo co to je? [Zjistíš to tady]({{< ref "/academy/how-to-flash-firmware.en.md" >}}).

@@ -33,7 +33,7 @@ You will need the **box with the button** and the **USB dongle**. You can do wit
 
 ## Get it started in the Node-RED
 
-1. Put together the Starter Kit and pair it: if you are doing this for the first time, [we have prepared a simple guide here]({{< ref "/handbook/_index.en.md" >}}). For the Core Module, you need the **radio push button** firmware. If you don’t know how to download the firmware or what it is, [you will find out here]({{< ref "/academy/how-to-flash-firmware.en.md" >}}).
+1. Put together the Starter Kit and pair it: if you are doing this for the first time, [we have prepared a simple guide here]({{< ref "/academy/handbook.en.md" >}}). For the Core Module, you need the **radio push button** firmware. If you don’t know how to download the firmware or what it is, [you will find out here]({{< ref "/academy/how-to-flash-firmware.en.md" >}}).
 2. In the Playground, click on the **Functions tab**, where you find the  Node-RED programming desktop.
 3. Place a light purple bubble, or node, in the desktop. You will find it on the left as **Input** **MQTT**.
 

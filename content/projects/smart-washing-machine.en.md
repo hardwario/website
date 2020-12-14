@@ -36,7 +36,7 @@ All you need is the box with the button and the USB dongle. You will be all set 
 
 ## Download new firmware
 
-1. If you haven’t done it yet, [put together]({{< ref "/handbook/_index.en.md" >}}) the Starter Kit.
+1. If you haven’t done it yet, [put together]({{< ref "/academy/handbook.en.md" >}}) the Starter Kit.
 2. Upload new firmware to the Core Module - **bcf-radio-washing-machine-monitor** (you will find it among other firmware in the Playground). Thanks to this firmware, the box will be more sensitive to vibrations of the washing machine. 🔃
 
 **Our tip:** If you don’t know how to download the firmware or what it is, [you will find out here]({{< ref "/academy/how-to-flash-firmware.en.md" >}}).

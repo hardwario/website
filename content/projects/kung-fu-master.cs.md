@@ -32,7 +32,7 @@ Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Proto si vy
 
 ## Stáhni si nový firmware
 
-1. Pokud to ještě nemáš, Starter Kit [sestav]({{< ref "/handbook/_index.cs.md" >}}).
+1. Pokud to ještě nemáš, Starter Kit [sestav]({{< ref "/academy/handbook.cs.md" >}}).
 
 2. Na Core Module potřebuješ nahrát speciální firmware, a to **bcf radio still position detector** (najdeš ho mezi ostatním firmwarem v Playgroundu). S tímhle firmwarem bude krabička mnohem citlivější na pohyb a změny pohybu časově změří. 👌
 **Náš tip:** Nevíš, jak si firmware stáhnout nebo co to je? [Zjistíš to tady]({{< ref "/academy/how-to-flash-firmware.cs.md" >}}).

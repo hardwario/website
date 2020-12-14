@@ -25,7 +25,7 @@ You know the feeling. You are deep into playing games or listening to music at f
 
 In this project you will learn **how to use the button to send a message to a mobile** from anywhere in the house. 👌
 
-You will need the **box with a button** and the **USB dongle**. So you will be fine with just the basic HARDWARIO kit, the [**Starter Kit**](https://shop.hardwario.com/starter-kit/). If it´s the first time you are holding the Starter Kit box in your hands, [get familiar with it first]({{< ref "/handbook/_index.en.md" >}}).
+You will need the **box with a button** and the **USB dongle**. So you will be fine with just the basic HARDWARIO kit, the [**Starter Kit**](https://shop.hardwario.com/starter-kit/). If it´s the first time you are holding the Starter Kit box in your hands, [get familiar with it first]({{< ref "/academy/handbook.en.md" >}}).
 
 {{< modules >}}
 

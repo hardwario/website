@@ -26,7 +26,7 @@ This project teaches you how to **measure temperature with IoT**. All you need i
 
 ## Prepare the box
 
-1. Put the Starter Kit together and pair it: If you are doing this for the first time,  we’ve prepared a [simple guide for you]({{< ref "/handbook/_index.en.md" >}}). You need the **radio push button** firmware for the Core Module. If you don't know how to download the firmware or what it is, [you can find out more here]({{< ref "/academy/how-to-flash-firmware.en.md" >}}).
+1. Put the Starter Kit together and pair it: If you are doing this for the first time,  we’ve prepared a [simple guide for you]({{< ref "/academy/handbook.en.md" >}}). You need the **radio push button** firmware for the Core Module. If you don't know how to download the firmware or what it is, [you can find out more here]({{< ref "/academy/how-to-flash-firmware.en.md" >}}).
 2. In Playground, open the **Messages** tab. Here you will see temperature changes. The temperature is measured automatically, either regularly after 15 seconds, or when there is a major change. And that is what we will use.
 
 {{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566154531/projects/dragon-fire/image4.png" alt = "HARDWARIO Playground messages" >}}
