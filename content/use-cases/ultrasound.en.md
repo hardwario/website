@@ -1,5 +1,5 @@
 ---
-title: Ultrasonic Ranging
+title: Ultrasonic Ranging of sumps, tanks or silos
 description: With a connected ultrasonic sensor, CHESTER can measure distance - e.g., a water level or a gap between a solid object.
 category: ["industry","outdoor"]
 device: CHESTER
@@ -14,6 +14,15 @@ weight: 20
 full: true
 ---
 
-With a connected ultrasonic sensor, [CHESTER](/chester/) can measure distance - e.g., a water level or a gap between a solid object.
+With a connected ultrasonic sensor, [CHESTER](/chester/) can measure distance - e.g., a water level or a gap between a solid object. You will get online data about measured distance or when the lower or upper limits are exceeded.
 
-The low power consumption and LPWAN connectivity allow deployment in places not covered by the GSM signal or power grid.
+Examples of projects:
+
+* Level measurement of rainwater sumps in apartment buildings
+* Level measurement in wells and cesspools
+* Silo fullness monitoring
+* Monitoring the level of emulsion tanks
+
+Thanks to its resistance to dust and water and temperature range, CHESTER is a suitable solution for demanding projects in the field of agriculture, forestry, water management and industry.
+
+Low consumption and LPWAN connectivity (NB-IoT, or LoRa) enable deployment even in places not covered by the GSM signal or power grid.

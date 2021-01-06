@@ -19,6 +19,8 @@ testimonial_image: vlaciha.jpg
 logo: /partners/color/skoda.svg
 weight: 0
 date: 2019-10-05
+carousel: true
+carousel_status: 
 menu:
     main:
         parent: 'Case&nbsp;Studies'
@@ -32,7 +34,7 @@ menu:
 
 {{% content %}}
 
-SThe largest car manufacturer in the Czech Republic, established more than 100 years ago, produces cars for people all around the globe. Škoda’s production plants are located on three continents – in Europe, Asia and Africa.
+The largest car manufacturer in the Czech Republic, established more than 100 years ago, produces cars for people all around the globe. Škoda’s production plants are located on three continents – in Europe, Asia and Africa.
 
 Their production is based on precision, efficiency and minimization of errors. Therefore, they wished to better monitor and evaluate the production process and provide operators with the opportunity to quickly call for help, if necessary.
 

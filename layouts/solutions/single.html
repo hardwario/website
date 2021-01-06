@@ -6,9 +6,9 @@
         <div class="article__header">
           <div class="article__header__button">
 
-            <h1 class="article__title">{{ .Title | safeHTML }}</h1>
-            <div class="text text--perex">
-              <p>{{ .Content }}</p>
+            <h1 class="article__title mt-20">{{ .Title | safeHTML }}</h1>
+            <div class="text text--perex pt-20 ">
+              {{ .Content }}
             </div>
           </div>
         </div>
@@ -21,8 +21,6 @@
 {{ $currentLang := .Site.Language.Lang }}
 {{ if ne $currentLang "de" }}
 
-    {{ $currentLang := .Site.Language.Lang }}
-    {{ if eq $currentLang "cs" }}
                 <section>
                                 <div class="">
                                     <div class="container">
@@ -49,7 +47,7 @@
                                 </div>
 
                             </section>
-    {{ end }}
+
 
 {{ end }}
 

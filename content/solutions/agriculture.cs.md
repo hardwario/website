@@ -2,7 +2,7 @@
 title: Zemědělství a&nbsp;lesnictví
 slug: zemedelstvi
 description: Naše zařízení nacházejí uplatnění v mnoha projektech v zemědělství. 
-meta_title: IoT řešení v zemědělstí | Precizní zemědělství
+meta_title: IoT řešení v zemědělství | Precizní zemědělství
 meta_description: 
 image_preview: /case-studies/iframix-grid-home.png
 weight: 20

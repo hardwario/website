@@ -12,7 +12,7 @@
                             </div>
                         </div>
                         {{ $currentLang := .Site.Language.Lang }}
-                        {{ if ne $currentLang "cs" }}
+                        {{ if eq $currentLang "de" }}
                           {{ partial "solutions" . }}
                         {{ end }}
                     </div>
@@ -22,7 +22,7 @@
     </section>
 
 
-    {{ if eq $currentLang "cs" }}
+    {{ if ne $currentLang "de" }}
 
       {{ $solutions := where .Site.RegularPages "Section" "solutions" }}
       {{ with $solutions }}

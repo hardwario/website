@@ -3,7 +3,7 @@ title: Monitoring strojů pro měření OEE a zvyšování účelnosti
 description: Měřte jednoduše jedním číslem efektivnost vašich strojů a výroby. Digitalizujte vaši výrobu.
 category: ["industry"]
 device: CHESTER
-examples: ["Monitoring teploty motorů výrobní linky","Monitoring rotací a vibrací","Monitoring pulsů pro měření spotřeby a výkonu","Ultrazvukový monitoring výšky hladiny jímky"]
+examples: ["Monitoring teploty motorů výrobní linky","Monitoring rotací a vibrací","Monitoring pulsů pro měření spotřeby a výkonu"]
 extensions: [["Akcelerometr", "Integrovaný na Core Module, detekce otřesu a náklonu"],["Sensor Module", "Připojení externích senzorů, například vlhkosti a teploty vzduchu nebo vlhkosti a teploty půdy"]]
 #studies:
 consultation: Alan Fabik, CEO HARDWARIO
