@@ -26,6 +26,12 @@ h1,h2,h3,h4,p
   padding: 0;
 }
 
+code{
+  font-size: 90%!important;
+  background: #e6e6e6!important;
+  padding: 0 3px!important;
+}
+
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #fff;
     font-size: em(16);
