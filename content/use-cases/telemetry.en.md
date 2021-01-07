@@ -2,6 +2,7 @@
 title: Data Telemetry from Offline Devices
 description: CHESTER can connect a wide offering of various communication interfaces and collect data from devices which are not normally connected online. That, for instance, allows industrial machines monitoring.
 device: CHESTER
+category: ["industry"]
 examples: ["Overall equipment efficiency (OEE) measurement","Data telemetry from brake system on a mining machine","Cathodic protection monitoring of distribution pipes","Industrial weight scale monitoring"]
 extensions: [["External analog inputs 0 - 28 V","CHESTER-X0C"],["1-Wire","CHESTER-X1"],["TTL/CMOS UART","CHESTER-X2A"],["RS-485 - MODBUS", "CHESTER-X2B"],["Current loop input 4 - 20 mA","CHESTER-X4C"], ["Weight scale", "CHESTER-X6"]]
 consultation: Alan Fabik, CEO HARDWARIO

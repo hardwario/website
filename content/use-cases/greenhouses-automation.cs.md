@@ -14,7 +14,7 @@ weight: 5
 full: true
 ---
 
-IoT stavebnici TOWER je možné využít pro sledování fyzikálních veličin, jako jsou teplota, relativní vlhkost, atmosférický tlak, CO2 a reagovat na hodnoty požadovanými akcemi - zapnutí zavlažování, otevření oken, atd.
+IoT zařízení HARDWARIO je možné využít pro sledování fyzikálních veličin, jako jsou teplota, relativní vlhkost, atmosférický tlak, CO2 a reagovat na hodnoty požadovanými akcemi - zapnutí zavlažování, otevření oken, atd.
 
-Data je možné přenášet lokálně přes Sub-GHz radio nebo pomocí [LPWAN](/cs/blog/2020-06-09-lpwan/) technologií LoRaWAN a Sigfox. Díky nízké spotřebě dokáží zařízení běžet na AAA baterie až 2 roky.
+Data je možné přenášet lokálně přes Sub-GHz radio nebo pomocí [LPWAN](/cs/blog/2020-06-09-lpwan/) technologií NB-IoT, LoRaWAN a Sigfox. Díky nízké spotřebě dokáží zařízení běžet baterie roky.
 

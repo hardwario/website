@@ -3,6 +3,7 @@ title:  We helped HB REAVIS, a development company, to create ideal working cond
 heading: We helped HB REAVIS, a development company, to create ideal working conditions
 image_main: /case-studies/hbreavis_main.png
 image_grid: /case-studies/hbreavis_grid.png
+image_grid_home: /case-studies/hbreavis_grid-home.png
 description:
 meta_title: IoT monitoring of ideal working conditions | Environmental monitoring | HARDWARIO Case Study
 company: HB REAVIS

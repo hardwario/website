@@ -3,6 +3,7 @@ title:   CHESTER helps E.ON to assess cable boxes online
 heading: We helped E.ON to assess cable boxes online
 image_main: /case-studies/eon_main.png
 image_grid: /case-studies/eon_grid.png
+image_grid_home: /case-studies/eon_grid-home.png
 description:
 meta_title: IoT assessment temperature and humidity of E.ON cable boxes | HARDWARIO Case Study
 company: E.ON

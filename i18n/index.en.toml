@@ -78,3 +78,84 @@ other = "Come join us in person"
 
 [come_to_event]
 other = "Explore the wonderful world of technology as we share our knowledge of IoT technologies and STEM education."
+
+[design_manufacture]
+other = "We design and&nbsp;manufacture unique&nbsp;IoT&nbsp;devices"
+
+[works_from_batteries]
+other = "<strong>They work on batteries for several years</strong>, with the ability to <strong>connect to the Internet from almost anywhere</strong> and can be <strong>easily integrated</strong> with other systems."
+
+[together_with_partners]
+other = "<a href = '/partners/'>Together with our partners</a>, we successfully implement them in digitization projects in industry, agriculture, retail, healthcare or education."
+
+[from_strategy_to_implementation]
+other = "From strategy to&nbsp;implementation"
+
+[strategy]
+other = "Strategy"
+
+[strategy_text]
+other = "We and our partners will help you <strong>define and implement a meaningful IoT strategy</strong> according to your ideas."
+
+[hardware_text]
+other = "We develop and manufacture <strong>secure hardware with very low power consumption</strong> and easy operation."
+
+[connectivity]
+other = "Connectivity"
+
+[connectivity_text]
+other = "We will ensure the connectivity of your devices to the Internet using <strong>special IoT technologies</strong>."
+
+[implementation]
+other = "Implementation"
+
+[implementation_text]
+other = "Together with partners, we will install the device and <strong>integrate them with your company systems</strong>."
+
+[education]
+other = "Education"
+
+[education_text]
+other = "We will teach you IoT technology and introduce you to work with devices and data."
+
+[noninvasive]
+other = "Non-invasive"
+
+[noninvasive_text]
+other = "We reduce complexity by deploying without modifying your machines and connecting to the corporate network."
+
+[easy]
+other = "Easy"
+
+[easy_text]
+other = "Even non-IT professionals can easily install and manage the system. We can also install and manage the entire solution for you."
+
+[secure]
+other = "Secure"
+
+[secure_text]
+other = "Devices communicate in separate network layers. We follow best practices to ensure the security of the entire system."
+
+[scalable]
+other = "Scalable"
+
+[scalable_text]
+other = "Our solution enables the deployment of several devices proof of concept pilots, but also hundreds of units in production."
+
+[economical]
+other = "Affordable"
+
+[economical_text]
+other = "We can operate the IoT system from tens of dollars with an immediate return on investment. We will help you defend the project economically."
+
+[comprehensive]
+other = "Comprehensive"
+
+[comprehensive_text]
+other = "Together we will define and implement an IoT strategy. We take into account education, UX, security, data, connectivity, integration, scalability."
+
+[newest_from_hardwario]
+other = "The latest from HARDWARIO"
+
+[noworriesiot]
+other = "No Worries IoT"

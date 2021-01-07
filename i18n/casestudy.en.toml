@@ -15,3 +15,6 @@ other = "Case studies"
 
 [other_case_studies]
 other = "Other successful projects"
+
+[successful_projects]
+other = "Successful projects"

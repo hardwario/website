@@ -78,3 +78,84 @@ other = "Poznejme se osobně"
 
 [come_to_event]
 other = "Přijďte na akce pořádané námi nebo našimi partnery. Sdílíme na nich naše znalosti o IoT a STEM výuce."
+
+[design_manufacture]
+other = "Vyvíjíme a&nbsp;vyrábíme unikátní IoT&nbsp;zařízení"
+
+[works_from_batteries]
+other = "<strong>Fungují z baterií několik let</strong>, <strong>připojí se k internetu téměř odkudkoliv</strong> a <strong> snadno se integrují</strong> s dalšími systémy."
+
+[together_with_partners]
+other = "<a href = '/cs/partners/'>Společně s našimi partnery</a> je úspěšně implementujeme v&nbsp;projektech digitalizace průmyslu, zemědělství, retailu, zdravotnictví nebo&nbsp;vzdělávání."
+
+[from_strategy_to_implementation]
+other = "Od strategie až&nbsp;k&nbsp;implementaci"
+
+[strategy]
+other = "Strategie"
+
+[strategy_text]
+other = "My a naši partneři vám pomůžeme <strong>vytvořit a zrealizovat smysluplnou IoT strategii</strong> podle vašich představ."
+
+[hardware_text]
+other = "Vyvineme a vyrobíme <strong>bezpečný hardware s velmi nízkou spotřebou</strong> a snadným ovládáním."
+
+[connectivity]
+other = "Konektivita"
+
+[connectivity_text]
+other = "Zajistíme konektivitu vašich zařízení do internetu pomocí <strong>speciálních IoT technologií</strong>."
+
+[implementation]
+other = "Implementace"
+
+[implementation_text]
+other = "Společně s partnery nainstalujeme zařízení a provedeme <strong>integraci s vašimi firemními systémy</strong>."
+
+[education]
+other = "Vzdělávání"
+
+[education_text]
+other = "Naučíme vás IoT technologie a zasvětíme do práce se zařízeními i vygenerovanými daty."
+
+[noninvasive]
+other = "Neinvazivní"
+
+[noninvasive_text]
+other = "Snižujeme komplexitu nasazením bez nutnosti úprav vašich strojů a připojení do podnikové sítě."
+
+[easy]
+other = "Snadné"
+
+[easy_text]
+other = "Instalaci a správu systému snadno zvládnou i&nbsp;pracovníci bez IT odbornosti. Dokážeme i celé řešení nainstalovat a spravovat za vás."
+
+[secure]
+other = "Bezpečné"
+
+[secure_text]
+other = "Komunikujeme v oddělených síťových vrstvách. Řídíme se osvědčenými postupy pro zajištění bezpečnosti celého systému."
+
+[scalable]
+other = "Škálovatelné"
+
+[scalable_text]
+other = "Naše řešení umožňuje nasazení několika zařízení při ověřování konceptů v pilotech, ale také stovek jednotek v ostrém provozu."
+
+[economical]
+other = "Hospodárné"
+
+[economical_text]
+other = "IoT systém zvládneme provozovat od&nbsp;stokorun měsíčně s okamžitou návratností investice. Pomůžeme vám projekt ekonomicky obhájit."
+
+[comprehensive]
+other = "Ucelené"
+
+[comprehensive_text]
+other = "Společně vytvoříme a zrealizujeme IoT strategii. Zohledníme vzdělávání, UX, bezpečnost, data, konektivitu, integrace, škálovatelnost."
+
+[newest_from_hardwario]
+other = "To nejnovější od HARDWARIO"
+
+[noworriesiot]
+other = "IoT bez starostí"

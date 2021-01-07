@@ -3,6 +3,7 @@ title:  For IFRAMIX we supply sensors to improve the welfare of farm animals
 heading: For IFRAMIX we supply sensors to improve the welfare of farm animals
 image_main: /case-studies/iframix_main.png
 image_grid: /case-studies/iframix_grid.png
+image_grid_home: /case-studies/iframix_grid-home.png
 description:
 meta_title: IoT sensors to improve the welfare of farm animals | HARDWARIO Case Study
 company: IFRAMIX

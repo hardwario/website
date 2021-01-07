@@ -15,6 +15,6 @@ full: true
 
 [CHESTER](/chester/) with integrated GNSS module (GPS, Galileo, GLONASS) is an ideal tool for asset tracking.
 
-The solution is suitable for demanding outdoor projects thanks to its water/dust resistance and wide operating temperature range.
+The solution is suitable for demanding outdoor projects thanks to its water/dust resistance and wide operating temperature range in the field of agriculture, forestry, water management and industry.
 
 The low power consumption and LPWAN connectivity allow deployment in places not covered by the GSM signal or power grid.

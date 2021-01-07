@@ -27,4 +27,4 @@ CHESTER díky své odolnosti vůči prachu a vodě a teplotnímu rozsahu je vhod
 
 COOPER s integrovanými environmentálními senzory je vhodný pro projekty ve vnitřním prostředí, jako jsou kanceláře, domácnosti a další budovy.
 
-Nízká spotřeba a [LPWAN](/cs/blog/2020-06-09-lpwan/) konektivita umožňují nasazení i v místech nepokrytých GSM signálem a bez připojení k elektrické síti.
+Low power consumption and LPWAN connectivity enable deployment even in places not covered by the GSM signal and without connection to the electrical network.
