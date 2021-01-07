@@ -17,7 +17,7 @@ V letech 2019 a 2020 jsme naši stavebnici postupně přejmenovali z BigClown na
 {{< /middle >}}
 
 <br/>
-Prozatím jsme nezasahovali do funkcí, ani jejich proměnných, jedinou změnou je prefix. Definici `bc_` funkcí [najdete tady](https://github.com/hardwario/twr-sdk/blob/master/bcl/inc/bcl.h).
+Prozatím jsme nezasahovali do funkcí a jejich proměnných, jedinou změnou je prefix. Definici `bc_` funkcí [najdete tady](https://github.com/hardwario/twr-sdk/blob/master/bcl/inc/bcl.h).
 
 Díky této definované funkci a `bcl.h` bude váš projekt fungovat správně i když máte starší verzi SDK a aktualizujete jej pomocí příkazu `make update`. 
 
