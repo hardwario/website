@@ -1,6 +1,6 @@
 ---
-title: Change of prefix bc_ to twr_ in the TOWER IoT Kit SDK
-meta_title: Change of prefix bc_ to twr_ in the TOWER IoT Kit SDK
+title: API Prefix Change in TOWER IoT Kit SDK
+meta_title: API Prefix Change in TOWER IoT Kit SDK
 meta_description: Our IoT Kit was renamed from BigClown to TOWER and now we also changed SDK function prefixes from bc_ to twr_.
 draft: false
 date: 2021-01-07
@@ -35,6 +35,4 @@ Check in the list below if this is what you would like to change and click on **
 
 Intellisense in VSCode will work fine, it will just show that the `bc_` function will be changed to `twr_gpio_init`.
 
-{{< middle >}}
 {{< img-nm src = "https://res.cloudinary.com/lukasfabik/image/upload/v1610009303/blog/2021-01-07-sdk-prefix-change/583bd3fbccbe6f127788c769e41a63b791413884.png" alt = "bc_ function will be changed to twr_gpio_init" >}}
-{{< /middle >}} 

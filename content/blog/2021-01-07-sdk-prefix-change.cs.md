@@ -1,6 +1,6 @@
 ---
-title: Změna prefixu z bc_ na twr_ v SDK IoT stavebnice TOWER
-meta_title: Změna prefixu bc_ to twr_ v SDK IoT stavebnice TOWER
+title: Změna API prefixu v SDK IoT stavebnice TOWER
+meta_title: Změna API prefixu v SDK IoT stavebnice TOWER
 meta_description: Naše stavebnice byla přejmenována z BigClown na TOWER. Nyní jsme změnili také prefix SDK funkcí z bc_ na twr_.
 draft: false
 date: 2021-01-07
@@ -31,6 +31,4 @@ Prefix můžete jednoduše změnit ve VSCode pomocí funkce **Search & Replace**
 
 Intellisense ve VSCode bude fungovat dobře, pouze ukáže, že funkce bc_ bude změněna na `twr_gpio_init`.
 
-{{< middle >}}
 {{< img-nm src = "https://res.cloudinary.com/lukasfabik/image/upload/v1610009303/blog/2021-01-07-sdk-prefix-change/583bd3fbccbe6f127788c769e41a63b791413884.png" alt = "bc_ function will be changed to twr_gpio_init" >}}
-{{< /middle >}}
