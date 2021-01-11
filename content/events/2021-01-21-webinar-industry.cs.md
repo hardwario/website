@@ -18,7 +18,7 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 
 <p>Chytré organizace získávají digitalizací a implementací technologií internetu věcí konkurenční výhodu dramatickým zlepšením své efektivity, produktivity, zákaznické zkušenosti a vytvářením nových zdrojů příjmů. V našich populárních webinářích představujeme společně s našimi partnery úspěšné IoT projekty a otevřeně popisujeme řešení a použité technologie. Součástí je diskuse s vývojáři, realizátory a zákazníky.</p>
 
-<p>V lednovém IoT webináři se podíváme, jak jsme našemu partnerovi belgické společnosti Unifly pomohli připravit <strong>systém pro dálkovou identifikaci dronů - Unifly BLIP</strong> (Broadcast Location & Identification Platform). Systém umožňuje elektronickou identifikaci dronů a vzdálené sledování polohy. Data sdílí jako lokálně pomocí BLE (Bluetooth Low Energy) tak vzdáleně pomocí NB-IoT.</p>
+<p>V lednovém IoT webináři se podíváme, jak jsme našemu partnerovi belgické společnosti Unifly pomohli připravit <strong>systém pro dálkovou identifikaci dronů - Unifly BLIP</strong> (Broadcast Location & Identification Platform). Systém umožňuje elektronickou identifikaci dronů a vzdálené sledování polohy. Data sdílí jako lokálně pomocí BLE (Bluetooth Low Energy) tak vzdáleně pomocí LTE.</p>
 
 <p>Dálková identifikace dronů se stává čím dál důležitějším tématem po celém světě. Od prvního ledna roku 2021 začaly v EU platit první pravidla kategorizace a identifikace dronů. <strong>V našem webináři se zaměříme především na technické řešení, certifikace hardware v různých zemích světa a další výzvy</strong>.</p> 
 
@@ -27,7 +27,7 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 </div>
 <div class = "col-12 col-md-5">
 <div class = "px-10 py-20 mb-20 shadow">
-<h2 class = "font-weight-black font-24 font-md-24 mb-20">Přihlaste na webinář ihned:</h2>
+<h2 class = "font-weight-black font-24 font-md-24 mb-20">Přihlaste na webinář:</h2>
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
 jQuery(window).scroll(function() {
