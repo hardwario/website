@@ -18,9 +18,9 @@ description: "Register to free HARDWARIO IoT Webinar"
 
 <p>By digitizing and implementing IoT technologies, smart organizations gain a competitive advantage by dramatically improving their efficiency, productivity, customer experience, and generating new revenue streams. In our popular webinars, together with our partners, we present successful IoT projects and openly describe used solutions and technologies. The webinar includes a discussion with developers, implementers and customers.</p>
 
-<p>In the January IoT webinar, we will discuss how we helped our partner - Belgian company Unifly - designe and manufacture a <strong>system for remote identification of drones - Unifly BLIP</strong> (Broadcast Location & Identification Platform). The system enables electronic identification of drones and remote position tracking. It shares data both locally via BLE (Bluetooth Low Energy) and remotely via NB-IoT.</p>
+<p>In the January IoT webinar, we will discuss how we helped our partner - Belgian company Unifly - design and manufacture a <strong>system for remote identification of drones - Unifly BLIP</strong> (Broadcast Location & Identification Platform). The system enables electronic identification of drones and remote position tracking. It shares data both locally via BLE (Bluetooth Low Energy) and remotely via NB-IoT.</p>
 
-<p>Remote identification of drones is becoming an important topic around the world. From the first of January 2021, the first rules of categorization and identification of drones came into force in the EU. In our webinar, <strong>we will focus primarily on technical solutions, hardware certification in various countries around the world and other challenges</strong>.</p> 
+<p>Remote identification of drones is becoming an important topic around the world. From the first of January 2021, the first rules of categorization and identification of drones came into force in the EU. In our webinar, <strong>we will focus primarily on technical solutions, hardware certification in various countries and other challenges</strong>.</p> 
 
 </div>
 <div class = "col-12 col-md-5">
