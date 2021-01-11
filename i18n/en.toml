@@ -113,10 +113,10 @@ other = "We're sorry. It looks like the page you're looking for is probably on v
 other = "https://twitter.com/hardwario_en"
 
 [toolbar_text]
-other = "Join our free IoT webinar on digitizing care on December 16th"
+other = "Join our free IoT webinar on IoT Drone's monitoring on January 1st"
 
 [toolbar_link]
-other = "/events/2020-12-16-webinar-industry/"
+other = "/events/2021-01-21-webinar-industry/"
 
 [download_leftlet]
 other = "Download product leaflet"
@@ -198,3 +198,6 @@ other = "Home"
 
 [products]
 other = "Products"
+
+[register_now]
+other = "Register Now"

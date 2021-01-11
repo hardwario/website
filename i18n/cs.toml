@@ -110,10 +110,10 @@ other = "Omlouváme se. Zdá se, že stránka, kterou hledáte je pravděpodobn�
 other = "https://twitter.com/hardwario_cz"
 
 [toolbar_text]
-other = "Připojte se 16. prosince k IoT webináři o digitalizaci pečovatelství"
+other = "Přihlaste se na webinář o IoT monitoringu dronů. Už 21. ledna od 14:00"
 
 [toolbar_link]
-other = "/cs/events/2020-12-16-webinar-industry/"
+other = "/cs/events/2021-01-21-webinar-industry/"
 
 [download_leftlet]
 other = "Stáhnout produktový léták"
@@ -195,3 +195,6 @@ other = "Domů"
 
 [products]
 other = "Produkty"
+
+[register_now]
+other = "Přihlaste se"
