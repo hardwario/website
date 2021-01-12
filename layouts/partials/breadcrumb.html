@@ -3,7 +3,7 @@
     <nav aria-label="breadcrumb bg-white">
       <ol class="breadcrumb bg-white">
     {{ if or (eq .Section "kit") (eq .Section "chester") }}
-    <li class="breadcrumb-item"></li><a href="{{ .Site.Params.baseURL }}">Domů</a></li>
+    <li class="breadcrumb-item"><a href="{{ .Site.Params.baseURL }}">Domů</a></li>
     <li class="breadcrumb-item"><a href="{{ "products/" | absLangURL }}">Produkty</a></li>
     <li class="breadcrumb-item active" aria-current="page">{{ .Title | safeHTML }}</li>
     {{ else }}

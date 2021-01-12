@@ -102,6 +102,28 @@
     </div>
 </section>
 
+{{ $currentLang := .Site.Language.Lang }}
+{{ if eq $currentLang "cs" }}
+<section>
+    <div class = "container">
+      <div class="row justify-content-center pb-20 pb-md-50">
+        <div class="col-12">
+          <h2 class="text-center font-weight-black font-36 font-md-48 pb-30">HARDWARIO Cloud</h2>
+        </div>
+
+        <div class="col-12 col-lg-4">
+            <a href="/cs/video/hardwario-cloud-navod/" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "cloud_tutorial" | safeHTML }}</h3>
+                <p class = "pb-20">{{ i18n "cloud_tutorial_description" | safeHTML }}</p>
+                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "play_video" | safeHTML }}</span>
+            </a>
+        </div>
+
+      </div>
+    </div>
+</section>
+{{ end }}
+
 <footer>
 {{ end }}
 
