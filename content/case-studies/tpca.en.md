@@ -1,6 +1,6 @@
 ---
-title: We help the TPCA automobile plant to prevent production stoppage
-heading: We help the TPCA automobile plant to prevent production stoppage
+title: We help the TPCA automobile plant to prevent production outages
+heading: We help the TPCA automobile plant to prevent production outages
 image_main: /case-studies/tpca_main.png
 image_grid: /case-studies/tpca_grid.png
 image_grid_home: /case-studies/tpca_grid-home.png

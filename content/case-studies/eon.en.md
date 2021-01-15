@@ -33,7 +33,7 @@ menu:
 
 **E.ON**, a German energy company, is one of the **leading suppliers of electricity and gas** in the Czech Republic and throughout Europe. They strive for reliability and a customer-friendly approach and **rank among the leaders in the field of innovation** in the Czech Republic. This is why we were pleased when E.ON asked us to help them with further innovations. 
 
-In a single project, we had to consider two requirements: to create a battery-powered **temperature and humidity sensor for cable boxes** and, at the same time, **to test the new NB-IoT communication network**.
+In a particular project, we had to consider two requirements: to create a battery-powered **temperature and humidity sensor for cable boxes** and, at the same time, **to test the new NB-IoT communication network**.
 
 {{% /content %}}
 {{% /intro %}}

@@ -31,7 +31,7 @@ menu:
 
 {{% content %}}
 
-IFRAMIX, a Czech company and a member of CCPA, a leading French group, is the market leader in animal feed. Their success is based on a long-term research. They are constantly developing new natural products that reduce the amount of medicines used and maintain excellent medical condition of the animals. Prevention of animal stress provoked by for example inappropriate temperature and humidity in farms is one of their current topics. Because of this, farmers sustain great economic loss, especially in the summer period. 
+IFRAMIX is the market leader in animal feed. It is a member of CCPA, a leading French group in their industry. Their success is based on a long-term research. They are constantly developing new natural products that reduce the amount of medicines used and maintain excellent **health** medical condition of the animals. One of their current topics is the prevention of animal stress provoked by, for instance, inappropriate temperature and humidity in farms. Due to this, farmers face substantial economic losses, especially during the summer period. 
 
 **IFRAMIX has asked us for a set of mobile sensors to detect this problem.**
 
