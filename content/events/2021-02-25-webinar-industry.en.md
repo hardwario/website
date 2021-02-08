@@ -4,7 +4,7 @@ time: "2 pm CET"
 price: "Free"
 publishdate: "2021-02-08"
 expirydate: "2021-02-26"
-title: "Cost-effective IoT monitoring the statics of buildings, bridges and structures"
+title: "STATOTEST: Cost-effective 24/7 IoT monitoring the statics of buildings, bridges and structures"
 hashtags: ["webinar","free"]
 category: industry
 image_main: /upload/webinar-statotest.png
@@ -15,6 +15,8 @@ description: "Register to free HARDWARIO IoT Webinar"
 
 <div class = "row">
 <div class = "col pr-30">
+
+ <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">Cost-effective 24/7 IoT monitoring the statics of buildings, bridges and structures</h1>
 
 <p>In the Czech Republic alone, there are tens of thousands of bridges, buildings and other structures with problematic statics. The story of the STATOTEST project shows how, thanks to the digitization and implementation of Internet of Things technologies, companies and public entities can save hundreds of thousands to millions of crowns and prevent the tragic events we saw at the collapse of Prague's Troja footbridge or bridge in Genoa, Italy.</p> 
 
