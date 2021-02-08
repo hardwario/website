@@ -3,7 +3,7 @@ layout: "thank-you"
 expirydate: "2021-02-26"
 title: "Díky za zájem o náš IoT webinář"
 events: true
-image_main: /upload/webinar-unifly-blip.png
+image_main: /upload/webinar-statotest.png
 ---
 
 Vaše registrace na IoT webinář "**STATOTEST: Nákladově efektivní 24/7 IoT monitorování statiky budov, mostů a konstrukcí**" proběhla úspěšně.
