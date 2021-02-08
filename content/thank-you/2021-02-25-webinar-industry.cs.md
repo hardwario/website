@@ -15,6 +15,6 @@ Vaše registrace na IoT webinář "**STATOTEST: Nákladově efektivní 24/7 IoT 
 
 <h3 class = "mb-20">O čem webinář bude</h3>
 
-<p>Jen v České republice stojí desetitisíce mostů, budov a jiných konstrukcí s problematickou statikou. Příběh projektu STATOTEST ukazuje, jak díky digitalizaci a implementaci technologií internetu věcí mohou společnosti a veřejné subjekty ušetřit stovky tisíc až miliónů korun a předejít tragickým událostem, jaké jsme mohli vidět při zřícení lávky v pražské Tróji nebo mostu v italském Janově.</p>
+<p>Jen v České republice stojí desetitisíce mostů, budov a jiných konstrukcí s problematickou statikou. Příběh projektu STATOTEST ukazuje, jak díky digitalizaci a implementaci technologií internetu věcí mohou společnosti a veřejné subjekty ušetřit stovky tisíc až milionů korun a předejít tragickým událostem, jaké jsme mohli vidět při zřícení pražské Trojské lávky nebo mostu v italském Janově.</p>
 
-<p>V únorovém IoT webináři se podívame na projekt společnosti STATOTEST, vítěze ocenění Microsoft Awards. Projekt STATOTEST využívá náš IoT Hub CHESTER pro dlouhodobé monitorování statiky staveb - mostů, střech, hal a také míst sesuvu půdy.</p>
+<p>V únorovém IoT webináři se podíváme na projekt společnosti STATOTEST, vítěze ocenění Microsoft Awards. Projekt STATOTEST využívá náš IoT Hub CHESTER pro dlouhodobé monitorování statiky staveb - mostů, střech, hal a také míst sesuvu půdy.</p>
