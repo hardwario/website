@@ -18,6 +18,10 @@ description: "Register to free HARDWARIO IoT Webinar"
 
  <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">Cost-effective 24/7 IoT monitoring the statics of buildings, bridges and structures</h1>
 
+<p>
+<strong>When:</strong> February 25, 2 pm CET<br/>
+<strong>Price:</strong> Free</p>
+
 <p>In the Czech Republic alone, there are tens of thousands of bridges, buildings and other structures with problematic statics. The story of the STATOTEST project shows how, thanks to the digitization and implementation of Internet of Things technologies, companies and public entities can save hundreds of thousands to millions of crowns and prevent the tragic events we saw at the collapse of Prague's Troja footbridge or bridge in Genoa, Italy.</p> 
 
 <p>In the February IoT webinar, we will look at the project of STATOTEST, the winner of the Microsoft Awards. The STATOTEST project uses our IoT Hub CHESTER for long-term monitoring of the statics of buildings - bridges, roofs, halls and also landslide sites.</p>

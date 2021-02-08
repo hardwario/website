@@ -18,6 +18,10 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 
  <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">Nákladově efektivní 24/7 IoT monitorování statiky budov, mostů a konstrukcí</h1>
 
+<p>
+<strong>Kdy:</strong> 25. února od 14 hodin<br/>
+<strong>Cena:</strong> Zdarma</p>
+
 <p>Jen v České republice stojí desetitisíce mostů, budov a jiných konstrukcí s problematickou statikou. Příběh projektu STATOTEST ukazuje, jak díky digitalizaci a implementaci technologií internetu věcí mohou společnosti a veřejné subjekty ušetřit stovky tisíc až milionů korun a předejít tragickým událostem, jaké jsme mohli vidět při zřícení pražské Trojské lávky nebo mostu v italském Janově.</p>
 
 <p>V únorovém IoT webináři se podíváme na projekt společnosti STATOTEST, vítěze ocenění Microsoft Awards. Projekt STATOTEST využívá náš IoT Hub CHESTER pro dlouhodobé monitorování statiky staveb - mostů, střech, hal a také míst sesuvu půdy.</p>
