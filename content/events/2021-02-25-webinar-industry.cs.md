@@ -16,7 +16,7 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 <div class = "row">
 <div class = "col pr-30">
 
- <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">Nákladově efektivní 24/7 IoT monitorování statiky budov, mostů a konstrukcí</h1>
+ <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">Nákladově efektivní 24/7 IoT monitorování statiky budov, mostů a jiných konstrukcí</h1>
 
 <p>
 <strong>Kdy:</strong> 25. února od 14 hodin<br/>
@@ -24,21 +24,21 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 
 <p>Jen v České republice stojí desetitisíce mostů, budov a jiných konstrukcí s problematickou statikou. Příběh projektu STATOTEST ukazuje, jak díky digitalizaci a implementaci technologií internetu věcí mohou společnosti a veřejné subjekty ušetřit stovky tisíc až milionů korun a předejít tragickým událostem, jaké jsme mohli vidět při zřícení pražské Trojské lávky nebo mostu v italském Janově.</p>
 
-<p>V únorovém IoT webináři se podíváme na projekt společnosti STATOTEST, vítěze ocenění Microsoft Awards. Projekt STATOTEST využívá náš IoT Hub CHESTER pro dlouhodobé monitorování statiky staveb - mostů, střech, hal a také míst sesuvu půdy.</p>
+<p>V únorovém IoT webináři se podíváme na projekt společnosti <strong>STATOTEST, vítěze ocenění Microsoft Awards</strong>. Projekt STATOTEST využívá náš IoT Hub CHESTER pro dlouhodobé monitorování statiky staveb - mostů, střech, hal a také míst sesuvu půdy.</p>
 
-<h3>Během webináře se dozvíte</h3>
+<h3 class="font-weight-black font-22 font-md-28 pb-10 font-md-lnh32">Během webináře se dozvíte</h3>
 <ul>
-    <li class = "mb-0 pb-0">Jakou roli hraje v projektu IoT Hub CHESTER</li>
-    <li class = "mb-0 pb-0">Jakou používá projekt LPWAN konektivitu</li>
-    <li class = "mb-0 pb-0">Jak dlouho trvá nasazení nové instalace měřícího systému</li>
-    <li class = "mb-0 pb-0">Jak dlouho vydrží zařízení sbírat data na baterii</li>
-    <li class = "mb-0 pb-0">Co vše STATOTEST monitoruje, aby včas zabránil problémům</li>
-    <li class = "mb-0 pb-0">Jak probíhá obchodní a technická spolupráce mezi STATOTEST a HARDWARIO</li> 
+    <li class = "mb-0 pb-0">Jak STATOTEST využívá IoT Hub CHESTER a vyvíjí vlastní firmware.</li>
+    <li class = "mb-0 pb-0">Jaké IoT sítě projekt využívá.</li>
+    <li class = "mb-0 pb-0">Co vše STATOTEST monitoruje, aby včas zabránil problémům.</li>
+    <li class = "mb-0 pb-0">Jak dlouho trvá nasazení měřícího systému na nové místo.</li>
+    <li class = "mb-0 pb-0">Jak dlouho vydrží zařízení sbírat data na baterii.</li>
+    <li class = "mb-0 pb-0">Jak probíhá obchodní a technická spolupráce mezi STATOTEST a HARDWARIO.</li> 
 </ul>
 
 <p><strong>Webinář proběhne v angličtině</strong>.</p>
 
-<h3>O IoT webinářích HARDWARIO</h3>
+<h3 class="font-weight-black font-22 font-md-28 pb-10 font-md-lnh32">O IoT webinářích HARDWARIO</h3>
 <p>Chytré organizace získávají digitalizací a implementací technologií internetu věcí konkurenční výhodu dramatickým zlepšením své efektivity, produktivity, zákaznické zkušenosti a vytvářením nových zdrojů příjmů. V našich populárních webinářích představujeme společně s našimi partnery úspěšné IoT projekty a otevřeně popisujeme řešení a použité technologie. Součástí je diskuse s vývojáři, realizátory a zákazníky.</p>
 
 </div>
