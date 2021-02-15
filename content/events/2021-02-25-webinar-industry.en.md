@@ -4,7 +4,7 @@ time: "2 pm CET"
 price: "Free"
 publishdate: "2021-02-08"
 expirydate: "2021-02-26"
-title: "STATOTEST: Cost-effective 24/7 IoT monitoring the statics of buildings, bridges and other structures"
+title: "STATOTEST: The cost-effective 24/7 IoT monitoring of the bridge's statics"
 hashtags: ["webinar","free"]
 category: industry
 image_main: /upload/webinar-statotest.png
@@ -15,9 +15,7 @@ description: "Register to free HARDWARIO IoT Webinar"
 
 <div class = "row">
 <div class = "col pr-30">
-
- <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">Cost-effective 24/7 IoT monitoring the statics of buildings, bridges and other structures</h1>
-
+<h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">The cost-effective 24/7 IoT monitoring of the bridge's statics</h1>
 <p>
 <strong>When:</strong> February 25, 2 pm CET<br/>
 <strong>Price:</strong> Free</p>
@@ -43,7 +41,6 @@ description: "Register to free HARDWARIO IoT Webinar"
 </div>
 <div class = "col-12 col-md-5">
 <div class = "px-10 py-20 mb-20 shadow">
-<img src = "/upload/webinar-statotest-2.png" class = "img-fluid mb-20">
 <h2 class = "font-weight-black font-24 font-md-24 mb-20">Register for the webinar:</h2>
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>

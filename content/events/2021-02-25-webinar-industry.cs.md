@@ -44,7 +44,6 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 </div>
 <div class = "col-12 col-md-5">
 <div class = "px-10 py-20 mb-20 shadow">
-<img src = "/upload/webinar-statotest-2.png" class = "img-fluid mb-20">
 <h2 class = "font-weight-black font-24 font-md-24 mb-20">Přihlaste na webinář:</h2>
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
