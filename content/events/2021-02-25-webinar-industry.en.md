@@ -4,7 +4,7 @@ time: "2 pm CET"
 price: "Free"
 publishdate: "2021-02-08"
 expirydate: "2021-02-26"
-title: "STATOTEST: The cost-effective 24/7 IoT monitoring of the bridge's statics"
+title: "How STATOTEST has built the cost-effective 24/7 IoT monitoring of the bridge's statics with CHESTER"
 hashtags: ["webinar","free"]
 category: industry
 image_main: /upload/webinar-statotest.png
@@ -15,7 +15,7 @@ description: "Register to free HARDWARIO IoT Webinar"
 
 <div class = "row">
 <div class = "col pr-30">
-<h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">The cost-effective 24/7 IoT monitoring of the bridge's statics</h1>
+<h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">How STATOTEST has built the cost-effective 24/7 IoT monitoring of the bridge's statics with CHESTER</h1>
 <p>
 <strong>When:</strong> February 25, 2 pm CET<br/>
 <strong>Price:</strong> Free</p>
