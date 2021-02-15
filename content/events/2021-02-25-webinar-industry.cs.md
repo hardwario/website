@@ -4,7 +4,7 @@ time: "14:00 - 15:00"
 price: "Zdarma"
 publishdate: "2021-02-08"
 expirydate: "2021-02-26"
-title: "STATOTEST: Nákladově efektivní 24/7 IoT monitorování statiky budov, mostů a jiných konstrukcí"
+title: "Jak STATOTEST vytvořil nákladově efektivní 24/7 IoT monitorování statiky budov, mostů a dalších konstrukcí se zařízením CHESTER"
 hashtags: ["webinar","zdarma"]
 category: industry
 image_main: /upload/webinar-statotest.png
