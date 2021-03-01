@@ -189,3 +189,9 @@ other = "oder mailen Sie mir am"
 
 [register_now]
 other = "Register Now"
+
+[home]
+other = "Startseite"
+
+[products]
+other = "Produkte"
