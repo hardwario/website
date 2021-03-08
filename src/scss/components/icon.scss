@@ -83,12 +83,12 @@
 
   &--leaf
   {
-    background-image: url("../images/icon-leaf.svg");
+    background-image: url("../images/icons/leaf.svg");
     height: 49px;	width: 39px;
   }
   &--facil
   {
-    background-image: url("../images/icon-setting.svg");
+    background-image: url("../images/icons/facil.svg");
     height: 49px;	width: 39px;
   }
   &--house
@@ -103,12 +103,12 @@
   }
   &--program
   {
-    background-image: url("../images/icon-program.svg");
+    background-image: url("../images/icons/program.svg");
     height: 48px;	width: 49px;
   }
   &--hvac
   {
-    background-image: url("../images/icon-hvac.svg");
+    background-image: url("../images/icons/hvac.svg");
     height: 45px;	width: 54px;
   }
 
@@ -142,13 +142,17 @@
     height: 55px;	width: 64px;
   }
 
+  &--smarthome
+  {
+    background-image: url("../images/icons/smart_home2.svg");
+    height: 55px;	width: 64px;
+  }
+
   &--tracking
   {
     background-image: url("../images/icons/tracking.svg");
     height: 55px;	width: 64px;
   }
-
-
 
   &--pilots
   {
