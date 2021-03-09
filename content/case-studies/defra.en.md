@@ -2,7 +2,7 @@
 title: Monitoring of tree growth and the impacts of environmental change on the UK’s forests
 heading:  Monitoring of tree growth and the impacts of environmental change
 image_main: /case-studies/defra_main.jpg
-image_grid: /case-studies/defra_main.jpg
+image_grid: /case-studies/defra_grid.png
 image_grid_home: /case-studies/defra_grid-home.png
 description:
 meta_title: Monitoring of tree growth and the impacts of environmental change on the UK’s forests | HARDWARIO case study
@@ -37,6 +37,8 @@ menu:
 **Forest Research, is the research agency of the Forestry Commission and part of the British Department for Environment, Food and Rural Affairs (Defra).** It is Great Britain’s principal organisation for forestry and tree related research and is internationally renowned for the provision of evidence and scientific services in support of sustainable forestry.
 
 Forest Research’s vision is to be the world leader in applied forest science and a trustworthy and recognized provider of expertise, data, products and services to the government and the tree, wood, forest and natural resources sectors, thereby fulfilling the UK government’s strategy “A Green Future: Our 25 Year Plan to Improve the Environment”.
+
+{{< video-link video = "/video/defra-vodafone" text = "TIP: Watch the webinar about the project with a host from Vodafone UK">}}
   
 **We were therefore pleased to be approached by Vodafone, our partner, concerning a project focused on monitoring the impact of climate change on tree growth in the UK.**
 

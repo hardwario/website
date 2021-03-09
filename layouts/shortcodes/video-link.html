@@ -1,0 +1,13 @@
+{{ $video := .Get "video" }}
+{{ $text := .Get "text" }}
+
+{{ with .Site.GetPage $video }}
+<div class="col-12 mt-0 mb-30 pl-0 shadow rounded">
+    <a href="{{ .Permalink }}" target = "_blank" class="related__item mt-0">
+        <div class="related__item__image">
+            <img src="{{ .Params.image_preview }}" alt="{{ .Title }}" />
+        </div>
+        <div class="related__item__title related__item__title--2">{{ $text }}</div>
+    </a>
+</div>
+{{ end }}

@@ -38,6 +38,8 @@ menu:
 
 Jejich vizí je být světovým lídrem v aplikované vědě o lesích a důvěryhodným a uznávaným poskytovatelem odborných znalostí, dat, produktů a služeb pro vládu v oblastech stromů, dřeva, lesů a přírodních zdrojů a pomáhat tak naplnit strategii ministerstva životního prostředí “A Green Future: Our 25 Year Plan to Improve the Environment”.
 
+{{< video-link video = "/video/defra-vodafone" text = "TIP: Podívejte se na webinář o tomto projektu s hostem ze společnosti Vodafone">}}
+
 Proto jsme rádi, že nás prostřednictvím našeho partnera Vodafone UK oslovili s projektem sledování vlivu klimatických změn na růst stromů ve Velké Británii.
 
 {{% /content %}}
