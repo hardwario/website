@@ -22,16 +22,16 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 <strong>Kdy:</strong> 25. března od 14 hodin<br/>
 <strong>Cena:</strong> Zdarma</p>
 
-<p>Během našeho dalšího populárního IoT webináře vás seznámíte s projektem sledování mikroklimatu v ZOO Liberec. Ukážeme vám, jaké informace a kde snímáme, proč je snímáme, jaký nám to dává světový pohled a v neposlední řadi si ukážeme, jak jednoduše propojite IoT zařízení HARDWARIO s technologiemi Microsoftu.</p>
+<p>Během našeho dalšího populárního IoT webináře vás seznámíte s projektem sledování mikroklimatu v Zoo Liberec. Ukážeme vám, jaké informace a kde snímáme, proč je snímáme, jaký nám to dává světový pohled a v neposlední řadi si ukážeme, jak jednoduše propojite IoT zařízení HARDWARIO s technologiemi Microsoftu.</p>
 
 <h3 class="font-weight-black font-22 font-md-28 pb-10 font-md-lnh32">Během webináře se dozvíte</h3>
 <ul>
     <li class = "mb-0 pb-0">Proč a jak sledujeme teplotu v mrazících boxech.</li>
     <li class = "mb-0 pb-0">V jakých pavilónech a proč sledujeme teplotu a vlhkost na střechách.</li>
     <li class = "mb-0 pb-0">Jak jsme monitorovali Orlosupa bradatého při péči o vejce.</li>
-    <li class = "mb-0 pb-0">Jak se liší mikroklima v různých částech ZOO.</li>
+    <li class = "mb-0 pb-0">Jak se liší mikroklima v různých částech zoo.</li>
     <li class = "mb-0 pb-0">Jaké technologické možnosti pro IoT poskytuje Microsoft.</li>
-    <li class = "mb-0 pb-0">Jak konkrétně jsme implementovali technologie Microsoft v liberecké ZOO.</li> 
+    <li class = "mb-0 pb-0">Jak konkrétně jsme implementovali technologie Microsoft v liberecké zoo.</li> 
 </ul>
 
 <p><strong>Webinář proběhne v angličtině</strong>.</p>

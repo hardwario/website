@@ -20,7 +20,7 @@ description: "Register to free HARDWARIO IoT Webinar"
 <strong>When:</strong> March 25, 2 pm CET<br/>
 <strong>Price:</strong> Free</p>
 
-<p>During our next popular IoT webinar, you will get acquainted with the microclimate monitoring project at the ZOO Liberec. We will show you what information and where we monitor it, why we monitor it, what the world view gives us, and last but not least, we will show you how easily you can connect HARDWARIO IoT devices with Microsoft technologies.</p> 
+<p>During our next popular IoT webinar, you will get acquainted with the microclimate monitoring project at the Zoo Liberec. We will show you what information and where we monitor it, why we monitor it, what the world view gives us, and last but not least, we will show you how easily you can connect HARDWARIO IoT devices with Microsoft technologies.</p> 
 
 <h3 class="font-weight-black font-22 font-md-28 pb-10 font-md-lnh32">During the webinar you will learn:</h3>
 
@@ -28,9 +28,9 @@ description: "Register to free HARDWARIO IoT Webinar"
     <li class = "mb-0 pb-0"> Why and how we monitor the temperature in the freezers. </li>
      <li class = "mb-0 pb-0"> In which pavilions and why we monitor the temperature and humidity on the roofs. </li>
      <li class = "mb-0 pb-0"> How we monitored the Bearded Vulture in egg care. </li>
-     <li class = "mb-0 pb-0"> How the microclimate differs in different parts of the ZOO. </li>
+     <li class = "mb-0 pb-0"> How the microclimate differs in different parts of the zoo. </li>
      <li class = "mb-0 pb-0"> What technological capabilities does Microsoft provide for IoT. </li>
-     <li class = "mb-0 pb-0"> How specifically we implemented Microsoft technologies in the Liberec ZOO.</li>
+     <li class = "mb-0 pb-0"> How specifically we implemented Microsoft technologies in the Zoo Liberec.</li>
 </ul>
 
 <h3 class="font-weight-black font-22 font-md-28 pb-10 font-md-lnh32">About HARDWARIO's IoT Webinars</h3>
