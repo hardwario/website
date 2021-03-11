@@ -10,14 +10,14 @@ company: ŠKODA Auto
 industry: Automotive
 product: TOWER
 partner: Microsoft
-featured: true
+featured: false
 full: true
 testimonial_text: "HARDWARIO nám pomohlo rychlým a neinvazivním způsobem zavést do výroby řešení, díky kterému sledujeme aktuální stav linky a snadno kontrolujeme, zda některý operátor potřebuje pomoc."
 testimonial_author: Jan Vlačiha
 testimonial_company: Expert Coordinator – Škoda Auto
 testimonial_image: vlaciha.jpg
 logo: /partners/color/skoda.svg
-weight: 0
+weight: 1
 date: 2019-10-05
 carousel: true
 carousel_status: 

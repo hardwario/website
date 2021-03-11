@@ -1,7 +1,7 @@
 ---
 title: Monitorujeme vliv teploty a vlhkosti na růst stromů v lesích UK 
 heading:  Monitorujeme vliv teploty a&nbsp;vlhkosti v&nbsp;britských lesích
-image_main: /case-studies/defra_main.jpg
+image_main: /case-studies/defra.jpg
 image_grid: /case-studies/defra_main.jpg
 image_grid_home: /case-studies/defra_grid-home.png
 description:
@@ -10,7 +10,7 @@ company: Defra UK
 partner: Vodafone UK
 industry: Agriculture
 product: CHESTER
-featured: false
+featured: true
 full: true
 testimonial_text: Díky partnerství s HARDWARIO jsme mohli nasadit vysoce kvalitní zařízení IoT, která hrála klíčovou roli v tomto úspěšném projektu. Využili jsme jejich odborných znalostí v oblasti nízkoenergetické elektroniky a technologie NB-IoT a osobní technické podpory. Těším se na další spolupráci s Hardwario v budoucnu.
 testimonial_author: Stephen Di Laudo
@@ -18,7 +18,7 @@ testimonial_company: Client Director – Central Government, Vodafone
 testimonial_image: stephan.jpeg
 logo: /partners/color/defra.svg
 weight: 50
-date: 2019-10-05
+date: 2020-10-05
 carousel: true
 carousel_status: active
 menu:

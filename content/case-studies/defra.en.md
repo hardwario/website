@@ -10,7 +10,7 @@ company: Defra UK
 partner: Vodafone UK
 industry: Agriculture
 product: CHESTER
-featured: false
+featured: true
 full: true
 testimonial_text: Thanks to the partnership with HARDWARIO, we have been able to deploy some high quality IoT devices that have played a key role in this successful project. We have benefitted from their expertise in low-power electronics and NB-IoT technology and personal technical support. I look forward to further collaborations with Hardwario in the future.
 estimonial_author: Stephen Di Laudo
@@ -18,7 +18,7 @@ testimonial_company: Client Director – Central Government, Vodafone
 testimonial_image: stephan.jpeg
 logo: /partners/color/defra.svg
 weight: 50
-date: 2019-10-05
+date: 2020-10-05
 carousel: true
 carousel_status: active
 menu:
