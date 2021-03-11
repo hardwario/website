@@ -6,7 +6,7 @@ meta_title: Digitalizace pečovatelství pomocí IoT zařízení a LPWAN | HARDW
 meta_description: V záznamu webináře se dozvíte, jak společnost RGS Care používá náš IoT multisenzor COOPER v rámci svých služeb pro zákazníky v oboru pečovatelství.
 description: V záznamu webináře se dozvíte, jak společnost RGS Care používá náš IoT multisenzor COOPER v rámci svých služeb pro zákazníky v oboru pečovatelství.
 image_preview: /upload/care-services.png
-video_type: Webinar
+video_type: Webinář
 weight: 10
 ---
 

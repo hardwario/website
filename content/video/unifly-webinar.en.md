@@ -5,7 +5,7 @@ slug: unifly
 meta_title: Building IoT Hardware & Software for Drone's Identification and Tracking | HARDWARIO Academy
 meta_description: Watch the recording of the IoT webinar where we discussed How we'd helped our partner - Belgian company Unifly - design and manufacture a system for remote identification of drones
 description: Watch the recording of the IoT webinar where we discussed How we'd helped our partner - Belgian company Unifly - design and manufacture a system for remote identification of drones.
-image_preview: /upload/webinar-unifly-blip-2.png
+image_preview: /upload/unifly.jpg
 video_type: Webinar
 weight: 19
 ---

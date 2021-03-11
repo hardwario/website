@@ -1,7 +1,7 @@
 ---
-title: Environmental&nbsp;IoT&nbsp;Multisensor
-heading: Environmental&nbsp;IoT&nbsp;Multisensor
-description: Environmental multisensor equipped with 9 sensors for monitoring the quality of the indoor climate.
+title: Environmental IoT Multisensor
+heading: Environmental IoT&nbsp;Multisensor
+description: Environmental multisensor equipped with 9 sensors for monitoring the quality of the indoor climate. Runs on batteries and communicates via LPWAN. 
 menu:
 weight: 100
 meta_title: Environmental IoT Multisensor COOPER | NB-IoT environmental sensor | LoRaWAN environmental sensor | by HARDWARIO

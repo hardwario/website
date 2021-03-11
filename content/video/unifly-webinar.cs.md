@@ -1,12 +1,11 @@
 ---
 date: "2021-02-08"
 title: Vývoj IoT hardware a software pro monitoring dronů
-slug: defra
 meta_title: Pomohli jsme společnosti Unifly navrhnout a vyrobit systém pro monitoring dronů | HARDWARIO Academy
 meta_description: Shlédněte záznam našeho IoT webináře o tom, jak jsme pomohli našemu partnerovi, belgické společnosti Unifly, navrhnout a vyrobit systém pro vzdálenou identifikaci a sledování dronů.
 description: Shlédněte záznam našeho IoT webináře o tom, jak jsme pomohli našemu partnerovi, belgické společnosti Unifly, navrhnout a vyrobit systém pro vzdálenou identifikaci a sledování dronů.
-image_preview: /upload/webinar-unifly-blip-2.png
-video_type: Webinar
+image_preview: /upload/unifly.jpg
+video_type: Webinář
 weight: 19
 ---
 
