@@ -109,6 +109,7 @@ https://www.hardwario.com/edu https://www.hardwario.com/education?utm_source=ban
 https://www.hardwario.cz/edu https://www.hardwario.com/cs/education?utm_source=banner&utm_medium=print&utm_campaign=edu:splat 301!
 
 # BigClown Developers redirects
+https://developers.bigclown.com/firmware/toolchain-guide* https://github.com/hardwario/doc-tower/blob/983ec94deb752e57510920c434df1a9f1c89e442/source/firmware/toolchain-guide.rst:splat 301!
 http://developers.bigclown.com/* https://developers.hardwario.com/:splat 301!
 https://developers.bigclown.com/* https://developers.hardwario.com/:splat 301!
 
@@ -226,7 +227,6 @@ https://developers.hardwario.com/projects/radio-smart-led-strip/* https://www.ha
 https://developers.hardwario.com/projects/radio-soil-sensor/* https://www.hackster.io/hardwario/projects?part_id=117389:splat 301!
 https://developers.hardwario.com/projects/lora-climate-monitor/* https://www.hackster.io/hardwario/projects?category_id=198:splat 301!
 https://developers.hardwario.com/projects/lora-1-wire-thermometer/* https://www.hackster.io/hardwario/projects?category_id=198:splat 301!
-https://developers.bigclown.com/firmware/toolchain-guide* https://github.com/hardwario/doc-tower/blob/983ec94deb752e57510920c434df1a9f1c89e442/source/firmware/toolchain-guide.rst:splat 301!
 https://developers.hardwario.com/* https://tower.hardwario.com/en/latest/:splat 301!
 
 # Compatibility
