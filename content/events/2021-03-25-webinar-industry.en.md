@@ -4,7 +4,7 @@ time: "2 pm CET"
 price: "Free"
 publishdate: "2021-03-08"
 expirydate: "2021-03-26"
-title: "World environmental monitoring in local conditions. Webinar on microclimate monitoring and implementation of Microsoft technologies"
+title: "IoT projects in the Liberec ZOO: environmental monitoring of various conditions"
 hashtags: ["webinar","free"]
 category: industry
 image_main: /upload/webinar-zoo.png
@@ -15,12 +15,12 @@ description: "Register to free HARDWARIO IoT Webinar"
 
 <div class = "row">
 <div class = "col pr-30">
-<h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">World environmental monitoring in local conditions. Webinar on microclimate monitoring and implementation of Microsoft technologies</h1>
+<h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">Monitoring of various environmental conditions in the Liberec ZOO. Webinar on microclimate monitoring and implementation of Microsoft technologies</h1>
 <p>
 <strong>When:</strong> March 25, 2 pm CET<br/>
 <strong>Price:</strong> Free</p>
 
-<p>During our next popular IoT webinar, you will get acquainted with the microclimate monitoring project at the Zoo Liberec. We will show you what information and where we monitor it, why we monitor it, what the world view gives us, and last but not least, we will show you how easily you can connect HARDWARIO IoT devices with Microsoft technologies.</p> 
+<p>During our next popular IoT webinar, we will talk about IoT projects in the Liberec ZOO. We will show you what information and where we collect, what devices and sensors we have deployed and what benefits the ZOO benefits from. The webinar will also include a demonstration of connecting HARDWARIO devices with Microsoft technologies.</p> 
 
 <h3 class="font-weight-black font-22 font-md-28 pb-10 font-md-lnh32">During the webinar you will learn:</h3>
 
