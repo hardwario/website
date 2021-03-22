@@ -15,4 +15,4 @@ Vaše registrace na IoT webinář "**IoT projekty v liberecké ZOO**" proběhla 
 
 <h3 class = "mb-20">O čem webinář bude</h3>
 
-<p>Myslíme globálně, ale jednáme lokálně. I proto máme radost ze společného projektu s Microsoft a Vodafone v nejstarší české ZOO. Na webináři se podíváme na monitoring mikroklimatu na střechách, podmínek v pavilonech i ve výbězích a hlídání mrazáků.</p>
+<p>Během našeho dalšího populárního IoT webináře vás seznámíme s IoT projekty v liberecké ZOO. Ukážeme vám, jaké informace a kde sbíráme, jaká zařízení a senzory jsme nasadili a jaký á z toho ZOO užitek. Součástí webináře bude také ukázka propojení zařízení HARDWARIO s technologiemi Microsoft.</p>

@@ -4,7 +4,7 @@ time: "14:00 - 15:00"
 price: "Zdarma"
 publishdate: "2021-03-08"
 expirydate: "2021-03-26"
-title: "IoT projekty v liberecké ZOO: environmentální monitoring různorodých podmínek"
+title: "IoT projekty v liberecké ZOO s výstupy v Microsoft Teams a Power BI"
 hashtags: ["webinar","zdarma"]
 category: industry
 image_main: /upload/webinar-zoo.png
@@ -16,7 +16,7 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 <div class = "row">
 <div class = "col pr-30">
 
- <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">Monitoring různorodých environmentální podmínek v ZOO Liberec. Webinář o sledování mikroklimatu a implementaci technologií Microsoft</h1>
+ <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">IoT projekty v liberecké ZOO s výstupy v Microsoft Teams a Power BI</h1>
 
 <p>
 <strong>Kdy:</strong> 25. března od 14 hodin<br/>
