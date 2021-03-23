@@ -4,7 +4,7 @@ time: "2 pm CET"
 price: "Free"
 publishdate: "2021-03-08"
 expirydate: "2021-03-26"
-title: "IoT projects in the Liberec ZOO with outputs in Microsoft Teams and Power BI "
+title: "IoT projects in the Liberec ZOO with outputs in Microsoft Teams and Power BI"
 hashtags: ["webinar","free"]
 category: industry
 image_main: /upload/webinar-zoo.png
