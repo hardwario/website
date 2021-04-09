@@ -1,0 +1,35 @@
+[about_cloud]
+other = "Popis HARDWARIO Cloud"
+
+[device_management]
+other = "Přehledná správa vašich zařízení"
+
+[device_management_text]
+other = "Prostřednictvím webového portálu máte přístup ke všem vašim zařízením HARDWARIO. Nezávisle na komunikační technologii můžete všechny spravovat na jednom místě a seskupovat je do organizací, skupin a přidělovat přístup uživatelům."
+
+[callbacks]
+other = "Snadná integrace pomocí Callbacků"
+
+[callbacks_text]
+other = "Pro jednotlivé skupiny zařízení můžete jednoduše vytvořit libovolný počet Callbacků a integrovat tak zařízení s vaším systémem nebo populárními aplikacemi od Microsoft, Amazon, Ubidots, Blynk a dalšími."
+
+[rest]
+other = "Dokumentované REST&nbsp;API"
+
+[rest_text]
+other = "K integraci zařízení s vašim systémem můžete využít také REST API. Jeho přehledná dokumentace je dostupný online a&nbsp;s&nbsp;integrací tak můžete začít ihned."
+
+[secure_robust]
+other = "Bezpečné a robustní řešení"
+
+[secure_robust_text]
+other = "HARDWARIO Cloud je škálovatelné cloudové řešení splňující přísné bezpečnostní požadavky. Data jsou pro vás uloženy minimálně 1 rok a můžete se spolehnout na osobní podporu."
+
+[get_cloud]
+other = "Nabídka HARDWARIO Cloud"
+
+[get_cloud_text]
+other = "Cena HARDWARIO Cloud je 50 Kč / zařízení / měsíc. Součástí ceny je přístup do webového portálu, možnost nastavit Callbacky a využívat REST API."
+
+[play_intro]
+other = "Přehrát video"

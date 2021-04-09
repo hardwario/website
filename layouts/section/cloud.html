@@ -1,0 +1,238 @@
+{{ define "header" }}
+  {{ partial "header.html" . }}
+{{ end }}
+
+
+{{ define "main" }}
+
+<section>
+    <div class="bg-image15 pt-50 pt-lg-0 d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-7 text-center text-md-left">
+                    <h1 class="font-40 font-md-64 font-md-lnh68 font-weight-black pb-40 pb-md-40">{{ .Params.heading | safeHTML }}</h1>
+                    <p class="font-24 font-gray2 font-lnh37 pb-30 mb-md-10 pr-md-100">{{ .Params.perex | safeHTML }}</p>
+                    <div>
+                        <a href="#" data-target = "offerModal" class="openModal getOffer cta-button font-lnh54 px-30 mr-20 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "play_intro" }}</a>
+                        <a href="https://hardwario.cloud" target="_blank" class="cta-button font-lnh54 px-30 d-inline-block font-weight-bold font-font2 font-white bg-darkGray">{{ i18n "login" }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id = "offerModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body px-0 py-0">
+          <div class="container-fluid px-0 py-0">
+            <div class="row justify-content-center">
+              <div class="col-12 text-center">
+                <div class = "video-container">
+                    <iframe src="https://www.youtube.com/embed/S3Iiy3TM_oQ?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<section>
+    <div class="container pb-50" id = "overview">
+        <div class="row mb-40">
+            <div class="col">
+                <div class="row">
+                    <div class="col-8 col-md-6 col-lg-5 col-xl-5 mx-auto text-center">
+                        <div class="font-redLined text-center font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "about_cloud" }}</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pb-50 align-items-center">
+            <div class="order-2 order-lg-1 col-12 col-lg-6 text-center text-lg-left">
+                <!--<div class="pb-15 font-red font-font2 font-weight-bold font-15">{{ i18n "prototype_product" }}</div>-->
+                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-10 pb-md-30">{{ i18n "device_management" | safeHTML }}</h2>
+                <p class="font-20 font-lnh30">{{ i18n "device_management_text" | safeHTML }}</p>
+                <img loading="lazy" src="/_assets/images/lpwan_brands3.png" class="pt-30 w-100" alt="" />
+            </div>
+            <div class="order-1 order-lg-2 col-12 col-lg-6 text-center">
+                <img loading="lazy" src="/_assets/images/devices.svg" class="w-75 mt-10 movingObject movingObject--noShadow" alt="" />
+            </div>
+        </div>
+
+        <div class="row pb-50 align-items-center">
+            <div class="col-12 col-lg-6 text-center">
+                <img loading="lazy" src="/_assets/images/cloud.svg" class="w-50 movingObject movingObject--noShadow" alt="" />
+            </div>
+            <div class="col-12 col-lg-6 text-center text-lg-left">
+                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-30">{{ i18n "callbacks" | safeHTML }}</h2>
+                <p class="font-20 font-lnh30">{{ i18n "callbacks_text" | safeHTML }}</p>
+            </div>
+        </div>
+
+        <div class="row pb-0 align-items-center">
+            <div class="order-2 order-lg-1 col-12 col-lg-6 text-center text-lg-left">
+                <!--<div class="pb-15 font-red font-font2 font-weight-bold font-15">{{ i18n "low_power_consumption" | safeHTML }}</div>-->
+                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-30">{{ i18n "rest" | safeHTML }}</h2>
+                <p class="font-20 font-lnh30">{{ i18n "rest_text" | safeHTML }}</p>
+                <p class = "pt-20"><a href = "https://api.hardwario.cloud" target="_blank" class = "font-lnh24 font-weight-bold font-font2 font-red button__link pl-0 ml-0">api.hardwario.cloud</a></p>
+            </div>
+            <div class="order-1 order-lg-2 col-12 col-lg-6 text-center">
+                <img loading="lazy" src="/_assets/images/integrations.svg" class="w-50 movingObject movingObject--noShadow" alt="" />
+            </div>
+        </div>
+
+        <div class="row pb-50 align-items-center">
+            <div class="col-12 col-lg-6 text-center">
+                <img loading="lazy" src="/_assets/images/secure.svg" class="w-75 movingObject movingObject--noShadow" alt="" />
+            </div>
+            <div class="col-12 col-lg-6 text-center text-lg-left">
+                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-30">{{ i18n "secure_robust" | safeHTML }}</h2>
+                <p class="font-20 font-lnh30">{{ i18n "secure_robust_text" | safeHTML }}</p>
+            </div>
+        </div>
+      </div>
+</section>
+
+<section>
+
+
+    <div class="container pt-20 pt-md-50 pb-50 mb-xl-50">
+        <div class="row text-center justify-content-center">
+            <div class="pt-10 pt-md-60 col-12 col-md-7 text-center">
+                <h2 class="font-32 font-md-54 font-md-lnh56 font-weight-black">
+                  {{ i18n "get_cloud" }}
+                </h2>
+                <p class="font-18 pt-5 pb-20">
+                  {{ i18n "get_cloud_text" | safeHTML }}
+                </p>
+              </div>
+        </div>
+        <div class="row text-center justify-content-center">
+          {{ with .Site.GetPage "/kit" }}
+            <div class="col-12 col-md-6 col-lg-5 col-xl-4 pb-50 pb-md-0">
+                <a href="{{ .Permalink }}" class="d-block mb-10">
+                    <img loading="lazy" src="/_assets/images/iot-kit.svg" class="mt-20 movingObject" height = "340" alt="" />
+                </a>
+                <h2 class="font-28 font-md-34 pb-20 pb-xl-30 font-weight-black">{{ .Title | safeHTML }} TOWER</h2>
+                <a href="{{ .Permalink }}" class="cta-button font-lnh54 font-md-lnh40 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "learn_more_kit" }}</a>
+            </div>
+          {{ end }}
+          {{ with .Site.GetPage "/chester" }}
+            <div class="col-12 col-md-6 col-lg-5 col-xl-4 pb-50 pb-md-0">
+                <a href="{{ .Permalink }}" class="d-block mb-10">
+                    <img loading="lazy" src="/_assets/images/chester-device.svg" class="movingObject" height = "360" alt="" />
+                </a>
+                <h2 class="font-28 font-md-34 pb-20 pb-xl-30 font-weight-black">{{ .Params.heading | safeHTML }}<br/> CHESTER</h2>
+                <a href="{{ .Permalink }}" class="cta-button font-lnh54 font-md-lnh40 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "learn_more_hub" }}</a>
+            </div>
+          {{ end }}
+          {{ with .Site.GetPage "/cooper" }}
+          <div class="col-12 col-md-6 col-lg-5 col-xl-4 pb-50 pt-md-30 pt-lg-0 pb-md-0">
+              <a href="{{ .Permalink }}" class="d-block mb-10">
+                  <img loading="lazy" src="/_assets/images/cooper.svg" class="movingObject" height = "360" alt="" />
+              </a>
+              <h2 class="font-28 font-md-34 pb-20 pb-xl-30 font-weight-black">{{ .Params.heading | safeHTML }} COOPER</h2>
+              <a href="{{ .Permalink }}" class="cta-button font-lnh54 font-md-lnh40 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "learn_more_bespoke" }}</a>
+          </div>
+          {{ end }}
+        </div>
+    </div>
+
+
+
+</section>
+
+
+<section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="contactbox">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <div class="contactbox__item">
+                                    <div class="contactbox__icon"></div>
+                                    <h3 class="contactbox__text">{{ i18n "modification_integration" | safeHTML }}</h3>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="contactbox__item">
+                                    <div class="contactbox__icon contactbox__icon--warranty"></div>
+                                    <h3 class="contactbox__text">{{ i18n "extended_warranty" | safeHTML }}</h3>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="contactbox__item contactbox__item--noborder">
+                                    <div class="contactbox__icon contactbox__icon--support"></div>
+                                    <h3 class="contactbox__text">{{ i18n "personal_tech_support" | safeHTML }}</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+        <div id = "pricelistModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <div class="container-fluid">
+                    <div class="row justify-content-center">
+                      <div class="col-md-10">
+                        <h2 class = "font-30 font-md-42 pt-50 pb-50 font-weight-black text-center">{{ i18n "get_chester_pricelist" | safeHTML }}</h2>
+                      </div>
+                      <div class="col-md-8 text-center" style = "margin-right: -4px;">
+                        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                        <script>
+                                hbspt.forms.create({
+                                  portalId: "5453210",
+                                  formId: "{{ .Params.cherster_pricelist_form_id }}"
+                                });
+                        </script>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <footer>
+{{ end }}
+
+{{ define "additional-scripts" }}
+
+<script type="text/javascript">
+  $('.openModal').click(function(){
+    var getId = "#" + $(this).attr('data-target');
+
+    $(getId).modal({
+      keyboard: false
+    })
+
+  });
+
+</script>
+
+<script>
+  /*$(document).ready(function(){
+    $("main ul").each(function() {
+      $( this ).addClass( "font-list" );
+    });
+  });*/
+
+  $("a[href^=\\#]").click(function(e) {
+    e.preventDefault();
+    var dest = $(this).attr('href');
+    console.log(dest);
+    $('html,body').animate({ scrollTop: $(dest).offset().top }, 'slow');
+  });
+</script>
+
+{{ end }}

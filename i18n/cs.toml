@@ -198,3 +198,6 @@ other = "Produkty"
 
 [register_now]
 other = "Přihlaste se"
+
+[login]
+other = "Přihlásit se"
