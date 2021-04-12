@@ -29,7 +29,7 @@ other = "HARDWARIO Cloud je škálovatelné cloudové řešení splňující př
 other = "Nabídka HARDWARIO Cloud"
 
 [get_cloud_text]
-other = "Cena HARDWARIO Cloud je 50 Kč / zařízení / měsíc. Součástí ceny je přístup do webového portálu, možnost nastavit Callbacky a využívat REST API."
+other = "Cena HARDWARIO Cloud je 50 Kč / zařízení / měsíc. Součástí ceny je přístup do webového portálu, možnost nastavit Callbacky a využívat REST API a také IoT konektivita podle zvolené technologie."
 
 [play_intro]
 other = "Přehrát video"
