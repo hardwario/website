@@ -1,16 +1,16 @@
 ---
 title: HARDWARIO’s 5th anniversary
 meta_title: HARDWARIO’s 5th anniversary
-meta_description: "In January 2016, Alan Fabik and I brought a crazy idea from the CES exhibition in Las Vegas: the electronics kit for the Internet of Things. And we gave it an even more crazy name - BigClown. I remember the silent minute very well once our presentation to the owners of Jablotron was over.."
+meta_description: "In January 2016, Alan Fabik and I brought a crazy idea from the CES exhibition in Las Vegas: the electronics kit for the Internet of Things. And we gave it an even more crazy name - BigClown. I remember the silent minute very well once our presentation to the owners of Jablotron was over..."
 draft: false
 date: 2021-04-12
-description: "In January 2016, Alan Fabik and I brought a crazy idea from the CES exhibition in Las Vegas: the electronics kit for the Internet of Things. And we gave it an even more crazy name - BigClown. I remember the silent minute very well once our presentation to the owners of Jablotron was over.."
+description: "In January 2016, Alan Fabik and I brought a crazy idea from the CES exhibition in Las Vegas: the electronics kit for the Internet of Things. And we gave it an even more crazy name - BigClown. I remember the silent minute very well once our presentation to the owners of Jablotron was over..."
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1618212559/blog/2021-04-12-hardwario/preview2.jpg
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1581950249/blog/wide_placeholder.jpg
 author: pavel_hubner
 ---
 
-In January 2016, Alan Fabik and I brought a crazy idea from the CES exhibition in Las Vegas: the electronics kit for the Internet of Things. And we gave it an even more crazy name - BigClown. I remember the silent minute very well once our presentation to the owners of Jablotron was over. By that time, we were still employees of this company. In the end, they decided to bless our dream. They expressed little understanding of the project itself, but the spark in our eyes during the presentation was convincing enough.
+...By that time, we were still employees of this company. In the end, they decided to bless our dream. They expressed little understanding of the project itself, but the spark in our eyes during the presentation was convincing enough.
 
 {{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1618212398/blog/2021-04-12-hardwario/P1540863.jpg" alt = "Alan a Pavel" >}}
 
