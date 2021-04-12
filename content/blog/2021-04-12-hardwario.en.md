@@ -34,7 +34,7 @@ Huge thanks belong to our business partners. We have not only a business but als
 
 The enormous thanks, of course, goes to all my colleagues - friends. During those five years, thirty diverse personalities passed through our company. Some have been juggling for a while, and some have been with us from the very beginning. But I express huge thanks to everyone who has invested even a minute of their precious lives. I love you!
 
-I also want to thank all those invisible supporters who are watching and cheering for us and with whom we have not yet met. I know you exist, and I truly appreciate your favor. I also want to apologize to everyone we have disappointed in any way during our existence. Believe me, it was not our goal.
+I also want to thank all those invisible supporters who are watching and cheering for us and with whom we have not yet met. I know you exist, and I truly appreciate your favor.
 
 Well, let's move on! Day by day, together with you, we will transform today into digital tomorrow.
 
