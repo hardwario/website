@@ -2,22 +2,22 @@
 other = "Description of HARDWARIO Cloud"
 
 [device_management]
-other = "Seamless of your devices"
+other = "Seamless management of your devices"
 
 [device_management_text]
-other = "You have access to all your HARDWARIO devices through the web portal. You can manage them all in one place and group them into organizations, groups and assign access to users independently of communication technology."
+other = "Have access to all your HARDWARIO devices through the web portal. Manage them all in one place and group them into organizations, groups and assign access to users independently of communication technology."
 
 [callbacks]
 other = "Easy integration with Callbacks"
 
 [callbacks_text]
-other = "You can easily create any number of Callbacks for each device group to integrate the device with your system or popular applications from Microsoft, Amazon, Ubidots, Blynk and others."
+other = "Create easily any number of Callbacks for each device group to integrate the device with your system or popular applications from Microsoft, Amazon, Ubidots, Blynk and others."
 
 [rest]
-other = "Documented REST &nbsp;API"
+other = "Documented REST&nbsp;API"
 
 [rest_text]
-other = "You can also use the REST API to integrate your device with your system. User-friendly documentation is available online, and you can start integrating&nbsp;right away."
+other = "Use the REST API to integrate your device with your system. User-friendly documentation is available online, and you can start integrating&nbsp;right away."
 
 [secure_robust]
 other = "Secure and robust solution"
