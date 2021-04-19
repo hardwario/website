@@ -33,7 +33,7 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
     <li class = "mb-0 pb-0">Jak funguje SARA.hub a proč se v iotor rozhodli vytvořit vlastní řešení.</li>
     <li class = "mb-0 pb-0">Jaké jsou největší přínosy IoT pro facility management</li>
     <li class = "mb-0 pb-0">Jak můžete pomocí IoT sledovat kvalitu vnitřního prostředí kanceláří a zároveň kontrolovat provedení úklidu.</li>
-    <li class = "mb-0 pb-0">Jaké IoT projekty dávájí podle iotor největší smysl.</li> 
+    <li class = "mb-0 pb-0">Jaké IoT projekty dávají podle iotor největší smysl.</li> 
     <li class = "mb-0 pb-0">Praktické příklady a ukázky realizovaných projektů.</li> 
 </ul>
 
