@@ -4,7 +4,7 @@ time: "14:00 - 15:00"
 price: "Zdarma"
 publishdate: "2021-04-07"
 expirydate: "2021-04-30"
-title: "Webinář s partnerem iotor - výzvy IoT a facility management"
+title: "Smysluplné využití IoT ve Facility Managementu. Chytrá údržba, optimalizace energií, monitoring pracovních podmínek"
 hashtags: ["webinar","zdarma"]
 category: industry
 image_main: /upload/webinar-iotor.png
@@ -16,15 +16,17 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 <div class = "row">
 <div class = "col pr-30">
 
- <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">Webinář s partnerem iotor - výzvy IoT a facility management</h1>
+ <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">Smysluplné využití IoT ve Facility Managementu. Chytrá údržba, optimalizace energií, monitoring pracovních podmínek</h1>
 
 <p>
 <strong>Kdy:</strong> 29. dubna od 14 hodin<br/>
 <strong>Cena:</strong> Zdarma</p>
 
-<p>V našem dalším populárním IoT webináři se budeme věnovat IoT a facility managementu. Naším hostem bude Dalibor Lukeš z naší partnerské společnosti iotor, člena skupiny OKIN Group.</p> 
+<p>V našem dalším populárním IoT webináři se budeme věnovat IoT a facility managementu. Naším hostem bude Dalibor Lukeš z partnerské společnosti iotor, člena skupiny OKIN Group.</p> 
 
-<p>iotor se věnuje především využití IoT ve vnitřních prostorech společností. K tomu vyvinuli vlastní softwarové řešení SARA.hub - jedno místo pro sledování stavu a definování reakce na specifické situace. Mezi jejich typické projekty patří ochrana budov a technologií, hlídání zdravého prostředí, chytrá (prediktivní) údržba, efektivní odpadové hospodářství, hlídání spotřeby energií a její optimalizace další.</p>
+<p>Společně vím ukážeme smysluplné využití IoT technologií pro jejich typické projekty, mezi které patří ochrana budov a technologií, hlídání zdravého prostředí, chytrá (prediktivní) údržba, efektivní odpadové hospodářství, hlídání spotřeby energií a její optimalizace a další.</p>
+
+<p>Tým iotor k tomu vyvinul vlastní softwarové řešení SARA.hub - jedno místo pro sledování stavu a definování reakce na specifické situace.</p>
 
 <h3 class="font-weight-black font-22 font-md-28 pb-10 font-md-lnh32">Během webináře se dozvíte</h3>
 <ul>

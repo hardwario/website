@@ -4,7 +4,7 @@ time: "14:00 CET"
 price: "Free"
 publishdate: "2021-04-07"
 expirydate: "2021-04-30"
-title: "Webinar with our partner iotor - IoT challenges and facility management"
+title: "Meaningful use of IoT in Facility Management. Smart maintenance, energy optimization, monitoring of working conditions"
 hashtags: ["webinar","free"]
 category: industry
 image_main: /upload/webinar-iotor.png
@@ -15,7 +15,7 @@ description: "Register to free HARDWARIO IoT Webinar"
 
 <div class = "row">
 <div class = "col pr-30">
-<h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">Webinar with our partner iotor - IoT challenges and facility management</h1>
+<h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">Meaningful use of IoT in Facility Management. Smart maintenance, energy optimization, monitoring of working conditions</h1>
 <p>
 <strong>When:</strong> April 29, 14:00 CET<br/>
 <strong>Price:</strong> Free</p>
