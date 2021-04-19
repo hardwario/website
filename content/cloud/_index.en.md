@@ -1,8 +1,8 @@
 ---
 title: HARDWARIO Cloud
-heading: HARDWARIO Cloud
+heading: HARDWARIO<br/>Cloud
 perex: A set of cloud services for HARDWARIO device management and data handling - providing IoT connectivity, REST API and callback settings.
-description: 
+description: A set of cloud services for HARDWARIO device management and data handling - providing IoT connectivity, REST API and callback settings.
 menu:
 weight: 100
 meta_title: HARDWARIO Cloud
