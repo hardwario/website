@@ -24,7 +24,7 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 
 <p>V našem dalším populárním IoT webináři se budeme věnovat IoT a facility managementu. Naším hostem bude Dalibor Lukeš z partnerské společnosti iotor, člena skupiny OKIN Group.</p> 
 
-<p>Společně vím ukážeme smysluplné využití IoT technologií pro jejich typické projekty, mezi které patří ochrana budov a technologií, hlídání zdravého prostředí, chytrá (prediktivní) údržba, efektivní odpadové hospodářství, hlídání spotřeby energií a její optimalizace a další.</p>
+<p>Společně vám ukážeme smysluplné využití IoT technologií pro jejich typické projekty, mezi které patří ochrana budov a technologií, hlídání zdravého prostředí, chytrá (prediktivní) údržba, efektivní odpadové hospodářství, hlídání spotřeby energií a její optimalizace a další.</p>
 
 <p>Tým iotor k tomu vyvinul vlastní softwarové řešení SARA.hub - jedno místo pro sledování stavu a definování reakce na specifické situace.</p>
 
