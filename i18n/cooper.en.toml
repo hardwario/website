@@ -11,7 +11,7 @@ other = "Compact multisensor"
 other = "An environmental multisensor equipped with 9 sensors for monitoring indoor environment quality - CO2, VOC, Temperature, Humidity, Illuminance, Motion, Acoustic noise, Atmosphehic Pressure."
 
 [variable_connectivity]
-other = "COOPER communicates through LPWAN technologies, such as&nbsp;NB-IoT, LTE-M or LoRaWAN and Bluetooth Low-Energy. Communication is secure and independent on your local network."
+other = "COOPER communicates through LPWAN technologies, such as&nbsp;NB-IoT or LoRaWAN and Bluetooth Low-Energy. Communication is secure and independent on your local network."
 
 [cooper_hundreds_of_services]
 other = "COOPER can by easy connected to the cloud, mobile applications and other services, such as Azure IoT Hub, Grafana, Ubidots or Blynk as well as it can be integrated with your endpoint through the REST API and Webhooks. "
