@@ -6,100 +6,83 @@
 {{ define "main" }}
 
 <section>
-    <div class="bg-image20 d-flex">
-        <div class="container">
-              <div class="row pb-10 pb-md-30">
-                  <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
-                      <h2 class="text-center pb-20 font-weight-black font-40 font-md-66 font-md-lnh68">Neinvazivní měření OEE</h2>
-                      <p class="text-center font-20 font-lnh30">Snadno, rychle a s nízkými náklady</p>
+  <div class="bg-image26 pt-0 pt-lg-0 d-flex align-items-center mb-20 mb-md-50">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 col-lg-7 text-center text-md-left">
+                  <h1 class="font-40 font-md-64 font-md-lnh68 font-weight-black pt-40 pb-40 pb-md-40">{{ .Params.heading | safeHTML }}</h1>
+                  <p class="font-24 font-gray2 font-lnh37 pb-20 pr-md-100">{{ .Params.perex | safeHTML }}</p>
+                  <img loading="lazy" src="/_assets/images/oee/logos.svg" class="pb-50 w-50" alt="" />
+                  <div>
+                      <a href="#pilars" class="cta-button font-lnh54 px-70 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "tell_me_more" }}</a>
                   </div>
               </div>
-        </div>
-    </div>
-</section>
-
-
-
-<section>
-    <div class="container pt-80 pb-50" id = "overview">
-
-        <div class="row pb-50 align-items-center">
-            <div class="order-2 order-lg-1 col-12 col-lg-6 text-center text-lg-left">
-                <!--<div class="pb-15 font-red font-font2 font-weight-bold font-15">{{ i18n "prototype_product" }}</div>-->
-                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-10 pb-md-30">Neinvazivní řešení s&nbsp;výsledky do 30 dnů</h2>
-                <p class="font-20 font-lnh30">Do 30 dnů budete vědět, jak efektivní je vaše výroba a jak ji můžete zlepšit. Nemusíte kupovat nové stroje, ani ivazivně zasahovat do jejich chodu.</p>
-            </div>
-            <div class="order-1 order-lg-2 col-12 col-lg-6 text-center">
-                <img loading="lazy" src="/_assets/images/non-invasive.svg" class="w-75 mb-10 moovingObject moovingObject--noShadow" alt="" />
-            </div>
-        </div>
-
-        <div class="row pb-50 align-items-center">
-            <div class="col-12 col-lg-6 text-center">
-                <img loading="lazy" src="/_assets/images/oee.png" class="w-100 moovingObject moovingObject--noShadow" alt="" />
-            </div>
-            <div class="col-12 col-lg-6 text-center text-lg-left">
-              <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-10 pb-md-30">Bez velkých investic</h2>
-              <p class="font-20 font-lnh30 pb-10"><strong>Za fixní měsíční poplatek 1.000 Kč/výrobní zařízení získáte:</strong></p>
-              <ol class="font-20 font-lnh30">
-                <li class = "mb-10 pb-0">Analýzu výrobních zařízení z pohledu jejich vlivu na obrat a&nbsp;zisk</li>
-                <li class = "mb-10 pb-0">Aktuální hodnotu OEE daného stroje</li>
-                <li class = "mb-10 pb-0">Návrh opatření pro zvýšení efektivity vaší výroby</li>
-              </ol>
-            </div>
-        </div>
-      </div>
-</section>
-
-<section>
-  <div class = "container" id = "order">
-  <div class="row justify-content-center">
-    <div class="pt-10 pt-md-60 col-12 col-md-7 text-center">
-      <h2 class="font-32 font-md-54 font-md-lnh56 font-weight-black">
-        Začněte s OEE
-      </h2>
-      <p class="font-18 pt-5 pb-20">
-        Zjistěte, jakou efektivnost má vaše výroba hned.
-      </p>
-    </div>
-    <div class=" col-12 col-md-6 text-center">
-      <img loading="lazy" src="/_assets/images/chester-device.svg" class="w-50 mt-20 movingObject" alt="" />
-      <div class = "pb-20">
-        <a href="#" class="getOffer font-lnh24 py-15 px-20 px-md-40 d-inline-block font-weight-bold font-font2 font-white bg-red">Mám zájem o OEE řešení</a>
-      </div>
-    </div>
-  </div>
-  </div>
-
-
-
-  <div id = "offerModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-body">
-          <div class="container-fluid">
-            <div class="row justify-content-center">
-              <div class="col-md-10">
-                <h2 class = "font-30 font-md-42 pt-50 pb-50 font-weight-black text-center">Mám zájem o OEE řešení</h2>
+              <div class="col-12 col-lg-4 text-center text-md-left">
+                <img src = "/_assets/images/oee/powerbi.png" class = "w-100 pb-30" />
               </div>
-              <div class="col-md-8 text-center" style = "margin-right: -4px;">
-                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-                <script>
-                  hbspt.forms.create({
-                  portalId: "5453210",
-                  formId: "{{ .Params.form_id }}"
-                });
-                </script>
-              </div>
-            </div>
           </div>
-        </div>
       </div>
-    </div>
   </div>
 </section>
 
+<section>
+  <div class="" id = "pilars">
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                  <div class="row text-center align-items-center">
+                      <div class="col-12 col-md-4 d-none d-sm-block">
+                          <img src="/_assets/images/oee/device.svg" alt="" class="mb-40" height="250" />
+                      </div>
+                      <div class="col-12 col-md-4 d-none d-sm-block">
+                          <img src="/_assets/images/oee/document.svg" alt="" class="mb-40" height="250" />
+                      </div>
+                      <div class="col-12 col-md-4 d-none d-sm-block">
+                          <img src="/_assets/images/oee/implementation.svg" alt="" class="mb-40" height="250" />
+                      </div>
+                  </div>
+                  <div class="row text-center pb-10 mb-0 mb-md-50 justify-content-center">
+                      <div class="col-12 col-md-6 col-lg-4 pb-40 pb-lg-0">
+                          <h3 class="font-40 pb-30 font-weight-black">Bezplatná zkouška</h3>
+                          <p class="font-19 font-lnh30 font-gray2 pb-0">Bezplatné vyzkoušení systému včetně zapůjčení neinvazivního zařízení HARDWARIO, aplikace MICROSOFT Power BI a konektivity NB-IoT.</p>
+                      </div>
+                      <div class="col-12 col-md-6 col-lg-4 pb-40 pb-lg-0">
+                          <h3 class="font-40 pb-30 font-weight-black">Digitální podnik</h3>
+                          <p class="font-19 font-lnh30 font-gray2 pb-0">Bezplatné vám pomůžeme vypracovat žádost o dotaci ve výši 35 - 45 % z celkové částky rozšíření řešení monitoringu efektivity výrobních zařízení.</p>
+                      </div>
+                        <div class="col-12 col-md-6 col-lg-4 pb-40 pb-lg-0">
+                          <h3 class="font-40 pb-30 font-weight-black">Bez závazku</h3>
+                          <p class="font-19 font-lnh30 font-gray2 pb-0">Postupná implementace systému bez nutnosti změny firemních postupů, procesů a nástrojů a s okamžitou návratností investice.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
 
+<section>
+  <div class = "container">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mb-60">
+        <div class = "row align-items-center">
+          <div class = "col-12 col-md-4 px-50">
+              <img loading="lazy" src="/_assets/images/{{ .Params.cons_img }}" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
+          </div>
+          <div class = "col-12 col-md-8 pt-30 pt-md-0 text-center text-md-left font-white">
+          <h3 class = "font-32 font-weight-bold pb-20">{{ i18n "free_consult" | safeHTML }}</h3>
+          <ul class="font-20 font-lnh30 px-0" style = "list-style: none;">
+            <li class = "mb-10 pb-10"><img src = "/_assets/images/oee/check.svg" width = "40" class = "mr-10">Online data o výrobě v počítači, telefonu a tabletu.</li>
+            <li class = "mb-10 pb-10"><img src = "/_assets/images/oee/check.svg" width = "40" class = "mr-10">Informace o produkci, prostojích, kvalitě a efektivitě. Výpočet OEE.</li>
+            <li class = "mb-10 pb-10"><img src = "/_assets/images/oee/check.svg" width = "40" class = "mr-10">Neinvazivní nasazení do 15 minut.</li>
+          </ul>
+          <a href = "{{ .Params.cons_link }}" target="_blank" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">{{ i18n "make_an_appointment" }}</a>
+          </div>
+      </div>
+  </div>
+  </div>
+  </div>
+</section>
 
 
         <footer>
