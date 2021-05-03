@@ -2,9 +2,9 @@
 title: Úsporný přenos dat v LPWAN sítích s pomocí Protocol buffers
 meta_title: Úsporný přenos dat v LPWAN sítích s pomocí Protocol buffers
 meta_description: Nejprve si vysvětlíme na pár ukázkách jaké jsou možnosti a postupně se dostaneme od menších a přenosů od jednotek bajtů v síti Sigfox. Poté se podíváme na možnost přenosu v síti LoRoWAN, až se dostaneme ke stovkám bajtů v mobilní LPWAN síti NB-IoT - vše v kontextu tzv. Protocol buffers (nebo také uváděných jako Protobuffers).
-draft: false
+draft: true
 date: 2021-04-30
-description:V tomto článku si popíšeme jak úsporně přenášet naměřená data.
+description: V tomto článku si popíšeme jak úsporně přenášet naměřená data.
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1590659613/blog/2020-05-14-lorawan-mikrotik-chirpstack/lorawan.png
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1581950249/blog/wide_placeholder.jpg
 author: martin_hubacek
@@ -16,7 +16,7 @@ Pokud přenášíte data prostřednictvím LPWAN sítí, snažíte se o co nejú
 
 - Pokud je vaše zařízení napájeno z baterií, potom kratší paket znamená úsporu energie při vysílání a delší výdrž zařízení pokud baterie nejsou nabíjecí.
 
-- Druhým důvodem může být omezení doby po kterou zařízení vysílá. To platí hlavně u nelicencovaných frekvencí 868 MHz, kde platí určité pravidla - např. "[duty cycle](https://www.thethingsnetwork.org/docs/lorawan/duty-cycle.html)".
+- Druhým důvodem může být omezení doby po kterou zařízení vysílá. To platí hlavně u nelicencovaných frekvencí 868 MHz, kde platí určitá pravidla - např. "[duty cycle](https://www.thethingsnetwork.org/docs/lorawan/duty-cycle.html)".
 
 - V některých případech, např. u NB-IoT sítě, jsou datová omezení tarifů. V případě, že se vám povede zkrátit velikost paketu na polovinu, tak můžete na stejném tarifu odeslat třeba 2x více zpráv.
 
