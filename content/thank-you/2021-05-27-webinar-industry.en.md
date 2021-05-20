@@ -1,6 +1,6 @@
 ---
 layout: "thank-you"
-expirydate: "2021-04-30"
+expirydate: "2021-05-28"
 title: "Thanks for your interest in our IoT webinar"
 events: true
 image_main: /upload/webinar-report.png
