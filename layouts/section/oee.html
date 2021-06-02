@@ -13,7 +13,8 @@
                   <h1 class="font-40 font-md-64 font-md-lnh68 font-weight-black pt-40 pb-40 pb-md-40">{{ .Params.heading | safeHTML }}</h1>
                   <p class="font-24 font-gray2 font-lnh37 pb-20 pr-md-100">{{ .Params.perex | safeHTML }}</p>
                   <div>
-                      <a href="#pilars" class="cta-button font-lnh54 px-70 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "tell_me_more" }}</a>
+                      <a href="#pilars" class="cta-button font-lnh54 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "tell_me_more" }}</a>
+                      <a href="#form" class="cta-button font-lnh54 px-40 mb-30 mb-md-0 d-inline-block font-font2 font-red font-decoration-underline">Přihlásit se</a>
                   </div>
               </div>
               <div class="col-12 col-lg-5 text-center text-md-left">
@@ -83,7 +84,7 @@
       <div class="container">
           <div class="row">
               <div class="col">
-                  <div class="row pt-30 pb-60">
+                  <div class="row pt-30 pb-60" id = "form">
                       <div class="col-12 mx-auto text-center">
                           <h2 class="text-center font-weight-black font-30 font-md-50 font-md-lnh58 font-red">Od 1. do 30. června 2021 probíhá registrace do programu. Počet účastníků je omezen.</h2>
                       </div>
@@ -98,18 +99,27 @@
   <div class = "container">
   <div class="row justify-content-center">
     <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mb-60">
-        <div class = "row align-items-center">
-          <div class = "col-12 col-md-4 px-50">
+        <div class = "row align-items-top">
+          <div class = "col-12 col-md-4 pt-md-50 px-50">
               <img loading="lazy" src="/_assets/images/{{ .Params.cons_img }}" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
           </div>
           <div class = "col-12 col-md-8 pt-30 pt-md-0 text-center text-md-left font-white">
-          <h3 class = "font-32 font-weight-bold pb-20">{{ i18n "free_consult" | safeHTML }}</h3>
+          <h3 class = "font-32 font-weight-bold pb-20">Chcete se zúčastnit? Ozvěte se Alanovi:</h3>
+          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+          <script>
+            hbspt.forms.create({
+            region: "na1",
+            portalId: "5453210",
+            formId: "a6a2121e-e838-4bd2-9d04-6d26ee773e96"
+          });
+          </script>
+          <h4 class = "font-24 font-weight-bold pt-40 pb-20">Přihlášením získáte:</h4>
           <ul class="font-20 font-lnh30 px-0" style = "list-style: none;">
             <li class = "mb-10 pb-10"><img src = "/_assets/images/oee/check.svg" width = "40" class = "mr-10">Online data o výrobě v počítači, telefonu a tabletu.</li>
             <li class = "mb-10 pb-10"><img src = "/_assets/images/oee/check.svg" width = "40" class = "mr-10">Informace o produkci, prostojích, kvalitě a efektivitě. Výpočet OEE.</li>
             <li class = "mb-10 pb-10"><img src = "/_assets/images/oee/check.svg" width = "40" class = "mr-10">Neinvazivní nasazení do 15 minut.</li>
           </ul>
-          <a href = "{{ .Params.cons_link }}" target="_blank" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">{{ i18n "make_an_appointment" }}</a>
+          
           </div>
       </div>
   </div>
