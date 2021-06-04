@@ -15,7 +15,7 @@ Od 1. června jsme ve spolupráci s Microsoftem spustili jedinečný program vyr
 
 Zájemci o účast v programu můžou napsat přímo Alanovi na [alan.fabik@hardwario.com](mailto:alan.fabik@hardwario.com), případně si rovnou domluvit online schůzku přes [jeho kalendář](https://meetings.hubspot.com/alanfabik/booking). Více o programu najdete na stránce [www.vyrobni.report](https://www.vyrobni.report).
 
-První představení programu proběhlo během webináře o neinvazivním monitoringu výrobních zařízení. Ten proběhl 27. května a zdarma si můžete pustit jeho záznam:
+První představení programu proběhlo během webináře 27. května o neinvazivním monitoringu výrobních zařízení. Pusťte si jeho záznam:
 
 <div class = "video-container">
 <iframe src="https://www.youtube.com/embed/y898_6andq0?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
