@@ -122,6 +122,18 @@ csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
   post = "_blank"
   weight = 95
 
+[[languages.cs.menu.oee]]
+  url    = "/cs/"
+  name   = "O HARDWARIO"
+  pre = ""
+  weight = 10
+
+[[languages.cs.menu.oee]]
+  url    = "/cs/contact/"
+  name   = "Kontakt"
+  pre = ""
+  weight = 20
+
 [blackfriday]
 smartypants = false
 
