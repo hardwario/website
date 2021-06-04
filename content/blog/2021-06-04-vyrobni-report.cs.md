@@ -5,7 +5,7 @@ meta_description: Vyrobni.report umožní omezenému počtu vybraných firem ote
 draft: false
 date: 2021-06-04
 description: Vyrobni.report umožní omezenému počtu vybraných firem otestovat sledování efektivity výroby zdarma.
-image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1576055326/blog/bigclown-renamed-hardwario/hardwario.jpg
+image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1622802306/blog/2021-06-04-vyrobni-report/P2670011_copy.jpg
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1581950249/blog/wide_placeholder.jpg
 author: lukas_fabik
 ---
