@@ -1,3 +1,6 @@
+{{ define "breadcrumb" }}
+<!-- -->
+{{ end }}
 {{ define "main" }}
 
 <section>
@@ -6,7 +9,7 @@
       <div class="row">
           <div class="col">
               <div class="bg-white px-xl-90 pt-40 pt-md-80">
-                  <h1 class="font-weight-black font-36 font-md-64 text-center pb-40 pb-md-60 font-md-lnh64">{{ i18n "thank_you" }}</h1>
+                  <h1 class="font-weight-black font-36 font-md-64 text-center pb-40 pb-md-60 font-md-lnh64">{{ .Params.heading | safeHTML }}</h1>
                   <div class="font-22 font-lnh38 pb-0">
                     {{ .Content }}
                   </div>

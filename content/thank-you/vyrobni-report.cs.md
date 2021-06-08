@@ -4,6 +4,7 @@ expirydate: "2021-08-31"
 title: "Díky za zájem o program vyrobni.report"
 events: true
 image_main: upload/oee-banner.png
+heading: Díky za zájem o vyrobni.report
 ---
 
 Děkujeme za zájem zúčastnit se jedinečného programu vyrobni.report! Na váš e-mail jsme poslali potvrzení a návrh dalšího postupu. Podívejte se, zda vám e-mail dorazil, pokud ne, napište nám na <a href = "mailto:ask@hardwario.com">ask@hardwario.com</a> a my problém vyřešíme.

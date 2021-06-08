@@ -2,6 +2,7 @@
 layout: "thank-you"
 title: "Díky za zájem o IoT dokument HARDWARIO"
 events: false
+heading: Díky za zájem o IoT dokument HARDWARIO
 ---
 
 Díky za váš zájem o dokument **Jak IoT technologie usnadňují digitalizaci v průmyslu**, ve kterém najdete 5 inspirativních příkladů digitalizace, kterými můžete rozšířit své portfolio.

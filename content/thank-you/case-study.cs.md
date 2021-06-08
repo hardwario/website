@@ -2,6 +2,7 @@
 layout: "thank-you"
 title: "Díky za zájem o případové studie HARDWARIO"
 events: false
+heading: Díky za zájem o případové studie
 ---
 
 Díky za váš zájem o případové studie HARDWARIO. 

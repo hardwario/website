@@ -2,6 +2,7 @@
 layout: "thank-you"
 title: "Thank you for your insterest in HARDWARIO Case Studies"
 events: false
+heading: Thank you for your insterest
 ---
 
 Thank you for your insterest in HARDWARIO Case Studies.
