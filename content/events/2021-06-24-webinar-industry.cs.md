@@ -22,14 +22,14 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 <strong>Kdy:</strong> 24. června od 14 hodin<br/>
 <strong>Cena:</strong> Zdarma</p>
 
-<p>Rychlý vývoj IoT konektivity, bateriových zařízení, neinvazivní přístup a dostupná cena umožňují v dnešní době rychlou digitalizaci mnoha odvětví prostřednictvím IoT. Jedním s nejperspektinějších oborů je bezesporu retail.</p>
+<p>Rychlý vývoj IoT konektivity, zařízení operující roky na baterie, neinvazivní přístup a dostupná cena umožňují v dnešní době rychlou digitalizaci mnoha odvětví. Jedním s nejperspektinějších oborů využití IoT je bezesporu retail.</p>
 
 <p>Proto se v našem dalším populárním IoT webináři budeme věnovat právě digitalizaci retailu pomocí IoT technologií. Naše partnerská společnost Adastra využívá zařízení HARDWARIO v několika typech projektů - mezi ty nejzajímavější patří bateriové paletové váhy a chytrý nezávislý regál. K tomu společnost přidává své obrovské znalosti a zkušenosti z retailu, vývoje software, umělé inteligence a business developmentu.</p> 
 
 <h3 class="font-weight-black font-22 font-md-28 pb-10 font-md-lnh32">Během webináře se dozvíte:</h3>
 <ul>
     <li class = "mb-0 pb-0">Jak můžete pomocí chytrých regálů zvýšit své prodeje.</li>
-    <li class = "mb-0 pb-0">Jak vám pomohou chytré váhy odhalit nákupní chování zákazníků a optimalizovat umístění POS.</li> 
+    <li class = "mb-0 pb-0">Jak vám pomohou chytré váhy a regály odhalit nákupní chování zákazníků a optimalizovat umístění POS.</li> 
     <li class = "mb-0 pb-0">Jak můžete v reálném čase měřit dopad reklamních kampaní, včetně lokálního zaměření.</li> 
     <li class = "mb-0 pb-0">Jak monitoring environmentálních podmínek pomáhá zvýšit celkovou nákupní zkušenost.</li>  
     <li class = "mb-0 pb-0">Jak chytrá tlačítka dokáží zrychlit a zpřesnit komunikaci a záznam událostí.</li> 
