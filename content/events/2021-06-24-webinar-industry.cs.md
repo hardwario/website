@@ -16,7 +16,7 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 <div class = "row">
 <div class = "col pr-30">
 
- <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">Disruptivní digitalizace retailu pomocí IoT technologií - webinář se společností Adastra</h1>
+ <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">Disruptivní digitalizace retailu pomocí IoT technologií - webinář s partnerem Adastra</h1>
 
 <p>
 <strong>Kdy:</strong> 24. června od 14 hodin<br/>

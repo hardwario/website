@@ -3,6 +3,7 @@ layout: "thank-you"
 expirydate: "2021-06-25"
 title: "Díky za zájem o náš IoT webinář"
 events: true
+heading: Těšíme se na vaši účast!
 image_main: /upload/webinar-retail.png
 ---
 
