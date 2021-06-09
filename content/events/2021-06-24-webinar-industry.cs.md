@@ -22,7 +22,7 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 <strong>Kdy:</strong> 24. června od 14 hodin<br/>
 <strong>Cena:</strong> Zdarma</p>
 
-<p>Rychlý vývoj IoT konektivity, zařízení operující roky na baterie, neinvazivní přístup a dostupná cena umožňují v dnešní době rychlou digitalizaci mnoha odvětví. Jedním s nejperspektinějších oborů využití IoT je bezesporu retail.</p>
+<p>Rychlý vývoj IoT konektivity, zařízení fungující roky na baterie, neinvazivní přístup a dostupná cena umožňují v dnešní době rychlou digitalizaci mnoha odvětví. Jedním s nejperspektivnějších oborů využití IoT je bezesporu retail.</p>
 
 <p>Proto se v našem dalším populárním IoT webináři budeme věnovat právě digitalizaci retailu pomocí IoT technologií. Naše partnerská společnost Adastra využívá zařízení HARDWARIO v několika typech projektů - mezi ty nejzajímavější patří bateriové paletové váhy a chytrý nezávislý regál. K tomu společnost přidává své obrovské znalosti a zkušenosti z retailu, vývoje software, umělé inteligence a business developmentu.</p> 
 
