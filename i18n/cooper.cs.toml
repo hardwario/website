@@ -8,7 +8,7 @@ other = "Senzor má velmi nízkou spotřebu energie a může běžet několik le
 other = "Kompaktní multisenzor"
 
 [one_device_nine_sensors]
-other = "Environmentální multisenzor vybavený 9 senzory pro monitorování kvality vnitřního ovzduší. - CO2, VOC, teplota, vlhkost, osvětlení, pohyn, hluk, atmosférický tlak."
+other = "Environmentální multisenzor vybavený 9 senzory pro monitorování kvality vnitřního ovzduší - CO2, VOC, teplota, vlhkost, osvětlení, pohyb, hluk, atmosférický tlak."
 
 [variable_connectivity]
 other = "COOPER komunikuje LPWAN technologiemi, jako jsou NB-IoT a LoRaWAN, nebo Bluetooth Low-Energy. Komunikace je bezpečná a nezávislá na lokální síti."
