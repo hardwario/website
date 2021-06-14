@@ -1,6 +1,6 @@
 ---
 date: "2021-06-24"
-time: "16:00 CET"
+time: "13:00 CET"
 price: "Free"
 publishdate: "2021-06-08"
 expirydate: "2021-06-25"
@@ -19,7 +19,7 @@ description: "Register to free HARDWARIO IoT Webinar"
  <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">Disruptive digitization of retail using IoT technologies - webinar with partner Adastra</h1>
 
 <p>
-<strong>When:</strong> June 24, 16:00 CET<br/>
+<strong>When:</strong> June 24, 13:00 CET<br/>
 <strong>Price:</strong> Free</p>
 
 <p>The rapid development of IoT connectivity, devices powered from battery for years, non-invasive approach and affordable prices today enable the rapid digitization of many industries. One of the most promising fields of use of IoT is undoubtedly retail.</p>
