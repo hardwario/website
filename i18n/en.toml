@@ -56,7 +56,7 @@ other = "Add to cart"
 other = "Most Popular"
 
 [get_document]
-other = "Read the document"
+other = "Get the document"
 
 [navigation]
 other = "Navigation"
@@ -201,3 +201,9 @@ other = "Products"
 
 [register_now]
 other = "Register Now"
+
+[iot_manufacturing]
+other = "How IoT technologies facilitate digitization in manufacturing"
+
+[iot_manufacturing_desc]
+other = "Download a document with 10 inspiring examples of digitization in a manufacturing and recommendations on how to start with digitization."

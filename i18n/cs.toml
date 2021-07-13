@@ -53,7 +53,7 @@ other = "Do košíku"
 other = "Nejpopulárnější"
 
 [get_document]
-other = "Chci si přečíst dokument"
+other = "Získat dokument"
 
 [navigation]
 other = "Navigace"
@@ -201,3 +201,9 @@ other = "Přihlaste se"
 
 [login]
 other = "Přihlásit se"
+
+[iot_manufacturing]
+other = "Jak IoT technologie usnadňují digitalizaci v průmyslu"
+
+[iot_manufacturing_desc]
+other = "Stáhněte si dokument 10 inspirativních příkladů digitalizace ve výrobním podniku a doporučeními, jak při digitalizaci postupovat."

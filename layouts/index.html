@@ -502,7 +502,6 @@
     </div>
 </section>
 
-{{ if eq $currentLang "cs" }}
 <section>
     <div class = "container" id = "iot-document">
     <div class="row justify-content-center">
@@ -512,9 +511,9 @@
                 <img loading="lazy" src="/_assets/images/checklist.svg" class="w-100 d-block mx-auto img-fluid" alt="" />
             </div>
             <div class = "col-12 col-md-10 pt-30 pt-md-0 text-center text-md-left font-white">
-            <h3 class = "font-32 font-weight-bold pb-10">IoT technologie usnadňují digitalizaci v průmyslu. Jak&nbsp;je můžete zavádět?</h3>
-            <p class = "font-22 pb-10">Stáhněte si dokument 5 inspirativních příkladů digitalizace, kterými můžete rozšířit své portfolio.</p>
-            <a href = "#iot-document" class="getPdf font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">Stáhni dokument</a>
+            <h3 class = "font-32 font-weight-bold pb-10">{{ i18n "iot_manufacturing" }}</h3>
+            <p class = "font-22 pb-10">{{ i18n "iot_manufacturing_desc" }}</p>
+            <a href = "#iot-document" class="getPdf font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">{{ i18n "get_document" }}</a>
             </div>
         </div>
     </div>
@@ -528,14 +527,14 @@
               <div class="container-fluid">
                 <div class="row justify-content-center">
                   <div class="col-md-10">
-                    <h2 class = "font-30 font-md-42 pt-50 pb-50 font-weight-black text-center" data-toggle="modal" data-target=".bd-example-modal-lg">Jak IoT technologie usnadňují digitalizaci v průmyslu</h2>
+                    <h2 class = "font-30 font-md-42 pt-50 pb-50 font-weight-black text-center" data-toggle="modal" data-target=".bd-example-modal-lg">{{ i18n "iot_manufacturing" }}</h2>
                   </div>
                   <div class="col-md-8 text-center">
                     <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
                     <script>
                       hbspt.forms.create({
                         portalId: "5453210",
-                        formId: "7e22997b-aa8b-4a02-9a34-248f01f4481d"
+                        formId: "{{ .Params.form_id }}"
                       });
                     </script>
                   </div>
@@ -547,7 +546,6 @@
       </div>
 
   </section>
-  {{ end }}
 
 
   <section>
