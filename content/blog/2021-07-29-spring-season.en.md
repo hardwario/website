@@ -3,7 +3,7 @@ title: Spring was full of IoT inspiration, part 1
 meta_title: Spring was full of IoT inspiration, part 1 - No bridge will ever fall again, STATOTEST, ZOO, IoT in construction
 meta_description: During this spring, we've published several interesting materials - webinars, ebooks, blog articles. In today's and the upcoming two articles, which we are planning for August, I will summarize them so that you do not miss anything.
 draft: false
-date: 2021-06-04
+date: 2021-07-29
 description: Během letošního jara jsme publikovali několik zajímavých materiálů - webináře, ebooky, články na blogu. V dnešním a dvou následujících článcích, které chystáme na srpen, jsme připravili jejich shrnutí, aby vám nic neuniklo.
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1576055326/blog/bigclown-renamed-hardwario/hardwario.jpg
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1581950249/blog/wide_placeholder.jpg

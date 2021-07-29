@@ -3,7 +3,7 @@ title: Jaro bylo plné IoT inspirace - 1. díl
 meta_title: Jaro bylo plné IoT informací a inspirace, 1. díl - aby už žádný most nespadl, STATOTEST, ZOO, IoT ve stavebnictví
 meta_description: Vyrobni.report umožní omezenému počtu vybraných firem otestovat sledování efektivity výroby zdarma.
 draft: false
-date: 2021-06-04
+date: 2021-07-29
 description: Během letošního jara jsme publikovali několik zajímavých materiálů - webináře, ebooky, články na blogu. V dnešním a dvou následujících článcích, které chystáme na srpen, jsme připravili jejich shrnutí, aby vám nic neuniklo.
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1576055326/blog/bigclown-renamed-hardwario/hardwario.jpg
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1581950249/blog/wide_placeholder.jpg
