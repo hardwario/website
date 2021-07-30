@@ -30,7 +30,7 @@ In March, we hosted a webinar with the director of the Liberec ZOO, David Nejedl
 
 How can you use IoT and LPWAN technologies in construction? We have prepared a document with the principles we follow when selecting projects and ten inspiring use cases. Will we inspire any of you to become our partner in this area?
 
-<a href = "#iot-document" class="getPdf font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">Donwload document</a>
+<a href = "#iot-document" class="getPdf font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">Download document</a>
 
 <div id = "downloadCaseStudy" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
