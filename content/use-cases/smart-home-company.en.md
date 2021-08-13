@@ -4,9 +4,9 @@ description: Many different solutions for smart home and business. From environm
 category: ["indoor"]
 device: IoT Kit
 examples: ["Water leak detection", "Monitoring of soil moisture and temperature", "Smart mailbox", "Monitoring and testing of indoor quality", "Smart thermostat", "Programmable LED lighting", "Remote control of equipment (eg. garage doors or gates) "]
-consultation: Alan Fabik, CEO HARDWARIO
-cons_img: alan.png
-cons_link: https://meetings.hubspot.com/alanfabik/booking
+consultation: Ramin Zanghi, CEO HARDWARIO LTD UK
+cons_img: ramin.png
+cons_link: https://meetings.hubspot.com/ramin-zaghi
 image_preview: /use-cases/smart-building.png
 weight: 50
 full: true

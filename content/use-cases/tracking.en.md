@@ -5,9 +5,9 @@ category: ["industry","outdoor"]
 device: CHESTER
 examples: ["Container tracking","Construction vehicle tracking","Chemical toilets tracking","Large object tracking in outdoor areas"]
 studies: [] #unifly statotest
-consultation: Alan Fabik, CEO HARDWARIO
-cons_img: alan.png
-cons_link: https://meetings.hubspot.com/alanfabik/booking
+consultation: Ramin Zanghi, CEO HARDWARIO LTD UK
+cons_img: ramin.png
+cons_link: https://meetings.hubspot.com/ramin-zaghi
 image_preview: /use-cases/tracking.png
 weight: 70
 full: true
