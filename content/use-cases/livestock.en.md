@@ -6,7 +6,7 @@ device: CHESTER
 examples: []
 extensions: [["I2C periferie", "CHESTER-X0A"],["1-Wire", "CHESTER-X1"]]
 studies: ["iframix"]
-consultation: Ramin Zanghi, CEO HARDWARIO LTD UK
+consultation: Ramin Zaghi, CEO HARDWARIO LTD UK
 cons_img: ramin.png
 cons_link: https://meetings.hubspot.com/ramin-zaghi
 image_preview: /use-cases/livestock.png

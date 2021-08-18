@@ -5,7 +5,7 @@ device: CHESTER
 category: ["industry"]
 examples: ["System temperature monitoring in boiler rooms","High temperature measurement in heat exchangers"]
 extensions: [["Thermometers PT1000", "CHESTER-X3A"],["Thermocouples", "CHESTER-X3B"]]
-consultation: Ramin Zanghi, CEO HARDWARIO LTD UK
+consultation: Ramin Zaghi, CEO HARDWARIO LTD UK
 cons_img: ramin.png
 cons_link: https://meetings.hubspot.com/ramin-zaghi
 image_preview: /use-cases/temperature-extreme.png

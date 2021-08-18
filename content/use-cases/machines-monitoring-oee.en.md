@@ -6,7 +6,7 @@ device: CHESTER
 examples: ["Production line motor temperature monitoring", "Rotation and vibration monitoring", "Pulse monitoring for consumption and power measurement"]
 extensions: []
 #studies:
-consultation: Ramin Zanghi, CEO HARDWARIO LTD UK
+consultation: Ramin Zaghi, CEO HARDWARIO LTD UK
 cons_img: ramin.png
 cons_link: https://meetings.hubspot.com/ramin-zaghi
 image_preview: /use-cases/oee.png

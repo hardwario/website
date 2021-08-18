@@ -5,7 +5,7 @@ category: ["indoor"]
 device: IoT Kit
 xamples: ["Garage alarm", "Caravan alarm", "Cottage alarm", "Automatic lighting when moving", "Automatic food and water dispenser for animal"]
 extensions: []
-consultation: Ramin Zanghi, CEO HARDWARIO LTD UK
+consultation: Ramin Zaghi, CEO HARDWARIO LTD UK
 cons_img: ramin.png
 cons_link: https://meetings.hubspot.com/ramin-zaghi
 image_preview: /use-cases/occupancy.png

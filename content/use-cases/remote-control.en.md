@@ -5,7 +5,7 @@ category: ["care","indoor","agriculture","outdoor"]
 device: CHESTER
 examples: ["Entrance gates remote control","Latch remote control","Machine remote control"]
 extensions: [["TTL/CMOS UART","CHESTER-X2A"],["RS-485 - MODBUS", "CHESTER-X2B"]]
-consultation: Ramin Zanghi, CEO HARDWARIO LTD UK
+consultation: Ramin Zaghi, CEO HARDWARIO LTD UK
 cons_img: ramin.png
 cons_link: https://meetings.hubspot.com/ramin-zaghi
 image_preview: /use-cases/machines.png

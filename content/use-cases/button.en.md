@@ -6,7 +6,7 @@ device: CHESTER
 examples: ["ANDON","Panic button for people in emergency","Vigilance device","Registration and notification systems"]
 extensions: [["External switch", "CHESTER-X0D"]]
 studies: ["skoda-andon"] #zmacknito 
-consultation: Ramin Zanghi, CEO HARDWARIO LTD UK
+consultation: Ramin Zaghi, CEO HARDWARIO LTD UK
 cons_img: ramin.png
 cons_link: https://meetings.hubspot.com/ramin-zaghi
 image_preview: /use-cases/buttons.png

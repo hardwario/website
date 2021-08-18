@@ -6,7 +6,7 @@ device: CHESTER
 examples: ["Cable cabinet humidity monitoring for quality inspection","Outdoor air quality sensors mounted on billboards","Local temperature sensing at bark beetle traps","Forest soil moisture monitoring"]
 extensions: [["I2C peripherals", "CHESTER-X0A"],["1-Wire", "CHESTER-X1"]]
 studies: ["defra","iframix","zoo"]
-consultation: Ramin Zanghi, CEO HARDWARIO LTD UK
+consultation: Ramin Zaghi, CEO HARDWARIO LTD UK
 cons_img: ramin.png
 cons_link: https://meetings.hubspot.com/ramin-zaghi
 image_preview: /use-cases/physical-quantities.png

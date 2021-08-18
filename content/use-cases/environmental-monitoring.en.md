@@ -6,7 +6,7 @@ device: CHESTER
 examples: ["Indoor environmental monitoring of warehouses for quality inspection","Temperature and humidity index (THI) monitoring for animal livestocks","Office air quality monitoring","Temperature monitoring in freezer boxes"]
 extensions: [["I2C peripherals", "CHESTER-X0A"],["1-Wire", "CHESTER-X1"]]
 studies: ["hb-reavis","iframix","defra"]
-consultation: Ramin Zanghi, CEO HARDWARIO LTD UK
+consultation: Ramin Zaghi, CEO HARDWARIO LTD UK
 cons_img: ramin.png
 cons_link: https://meetings.hubspot.com/ramin-zaghi
 image_preview: /use-cases/indoor.png
