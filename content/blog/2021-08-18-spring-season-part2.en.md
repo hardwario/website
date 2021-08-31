@@ -1,6 +1,6 @@
 ---
 title: Spring was full of IoT inspiration, part 2
-meta_title: Spring was full of IoT inspiration, part 2 -drones, facility management, IoT in agriculture
+meta_title: Spring was full of IoT inspiration, part 2 - drones, facility management, IoT in agriculture
 meta_description: During this spring, we've published several interesting materials - webinars, ebooks, blog articles. For today, I have prepared the second part of their summary.
 draft: false
 date: 2021-08-18
