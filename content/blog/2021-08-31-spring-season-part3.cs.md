@@ -28,7 +28,7 @@ V červnu jsme společně s Petrem Blablou představili 2 produkty, se kterými 
 
 ## Martin napsal o Protocol buffers
 
-Jak úsporně přenášet naměřená data prostřednictvím LPWAN sítí? Martin popsal, co to jsou protocol buffers a jak vám pomůžou optimalizovat přenos dat. Více najdete (v samostatném článku o Protobuffers)[https://www.hardwario.com/cs/blog/2021-05-12-protobuffers/].
+Jak úsporně přenášet naměřená data prostřednictvím LPWAN sítí? Martin popsal, co to jsou protocol buffers a jak vám pomůžou optimalizovat přenos dat. Více najdete [v samostatném článku o Protobuffers](https://www.hardwario.com/cs/blog/2021-05-12-protobuffers/).
 
 ## 10 IoT projektů ve výrobě
 
