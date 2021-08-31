@@ -1,10 +1,10 @@
 ---
 title: Jaro bylo plné IoT inspirace - 3. díl
 meta_title: Jaro bylo plné IoT informací a inspirace, 3. díl - IoT ve výrobě, retailu a protobuffers
-meta_description: Připravil jsem pro vás třetí a finální shrnutí námi publikovaného obsahu z první poloviny tohoto roku.
+meta_description: Třetí a finální shrnutí námi publikovaného obsahu z první poloviny tohoto roku.
 draft: false
 date: 2021-08-31
-description: Připravil jsem pro vás třetí a finální shrnutí námi publikovaného obsahu z první poloviny tohoto roku.
+description: Třetí a finální shrnutí námi publikovaného obsahu z první poloviny tohoto roku.
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1576055326/blog/bigclown-renamed-hardwario/hardwario.jpg
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1581950249/blog/wide_placeholder.jpg
 author: lukas_fabik
