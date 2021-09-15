@@ -28,6 +28,7 @@ Přímo v PlatformIO potom můžete vycházet z již existujících projektů v 
 
 {{< img-nm src = "https://res.cloudinary.com/lukasfabik/image/upload/v1631699100/blog/2021-09-15-tower-platformio/examples.png" alt = "" >}}
 
+
 Nicméně git lze stále použít a nový repozitář [twr-skeleton](https://github.com/hardwario/twr-skeleton) obsahuje vše pro použití PlatformIO včetně konfiguračního souboru `platformio.ini`.
 
 ## SDK a application.c
