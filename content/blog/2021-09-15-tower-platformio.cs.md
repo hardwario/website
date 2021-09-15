@@ -7,6 +7,7 @@ date: 2021-09-15
 description: Vývoj firmware pro HARDWARIO TOWER je nyní možný i ve vývojovém prostředí PlatformIO.
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1631699535/blog/2021-09-15-tower-platformio/platformio-blog.png
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1581950249/blog/wide_placeholder.jpg
+image_meta: https://res.cloudinary.com/lukasfabik/image/upload/v1631700679/blog/2021-09-15-tower-platformio/blog-platformioArtboard_1_2x.png
 author: martin_hubacek
 ---
 
