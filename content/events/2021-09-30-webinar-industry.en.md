@@ -4,11 +4,10 @@ time: "16:00 CET"
 price: "Free"
 publishdate: "2021-09-21"
 expirydate: "2021-10-01"
-title: "Disruptive digitization of retail using IoT technologies"
-title: "Introducing CHESTER 3 - the most configurable IoT gateway"
+title: "Free webinar: Introducing CHESTER 3 - your next IoT gateway for Industry 4.0, smart city, agriculture and e-metering"
 hashtags: ["webinar","free"]
 category: industry
-image_main: /upload/webinar-chester3.png
+image_main: /upload/webinar-chesterEN.png
 event_type: "Webinar"
 place: "Online"
 description: "Register to free HARDWARIO IoT Webinar"
@@ -18,13 +17,33 @@ description: "Register to free HARDWARIO IoT Webinar"
 <div class = "col pr-30">
 
 
- <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">Introducing CHESTER 3 product - the most configurable IoT gateway</h1>
+ <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">Free webinar: Introducing CHESTER 3 - your next IoT gateway for Industry 4.0, smart city, agriculture and e-metering</h1>
 
 <p>
 <strong>When:</strong> September 30, 16:00 CET<br/>
 <strong>Price:</strong> Free</p>
 
-<p>On Thursday, September 30, we will introduce a new version of our CHESTER device. The most advanced version of the IoT gateway so far for industry 4.0, smart city, e-metering and agricultural applications.</p>
+<p>HARDWARIO webinars are back and we have prepared something special for September 30. I would like to invite you to an online presentation of the new generation of our product CHESTER.</p>
+
+<p>CHESTER 3 comes with a number of innovations and improvements.</p>
+
+<h3>During the webinar you will learn:</h3>
+
+<ul>
+<li>What interfaces and integration does CHESTER support?</li>
+<li>What communication technologies does CHESTER use?</li>
+<li>How can the CHESTER be powered?</li>
+<li>For which projects and fields is CHESTER most used?</li>
+<li>How can you configure CHESTER for your projects yourself?</li>
+</ul>
+
+<h3>Speakers:</h3>
+
+<ul>
+<li>Alan Fabik, CEO HARDWARIO</li>
+<li>Pavel Hübner, CTO HARDWARIO</li>
+</ul>
+
 <p>The broadcast will take place on YouTube, log in so we can send you a link and remind you of the event in time.</p>
 
 

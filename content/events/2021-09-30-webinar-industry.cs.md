@@ -4,10 +4,10 @@ time: "14:00 - 15:00"
 price: "Zdarma"
 publishdate: "2021-09-20"
 expirydate: "2021-10-01"
-title: "Představení produktu CHESTER 3 - the most configurable IoT gateway"
+title: "Webinář zdarma: představení CHESTER 3 - vaší příští IoT gateway pro průmysl 4.0, smart city, zemědělství a e-metering"
 hashtags: ["webinar","zdarma"]
 category: industry
-image_main: /upload/webinar-chester3.png
+image_main: /upload/webinar-chesterCZ.png
 event_type: "Webinář"
 place: "Online"
 description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
@@ -16,16 +16,34 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 <div class = "row">
 <div class = "col pr-30">
 
- <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">Představení produktu CHESTER 3 - the most configurable IoT gateway</h1>
+ <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48">Webinář zdarma: představení CHESTER 3 - vaší příští IoT gateway pro průmysl 4.0, smart city, zemědělství a e-metering</h1>
 
 <p>
 <strong>Kdy:</strong> 30. září od 14 hodin<br/>
 <strong>Cena:</strong> Zdarma</p>
 
-<p>Ve čtvrtek 30. září představíme novou verzi našeho zařízení CHESTER. Doposud nejpokročilejší verzi IoT gateway pro průmysl 4.0, smart city, e-metering a zemědělské aplikace.</p>
+<p>HARDWARIO webináře jsou zpět a hned na 30. září jsme si připravili něco speciálního. Rád bych vás pozval na online představení nové generace našeho produktu CHESTER. </p>
+
+<p>CHESTER 3 přichází s celou řadou našlapaných novinek a vylepšení, se kterými vás seznámíme.</p>
+
+<h3>Během webináře se dozvíte:</h3>
+
+<ul>
+<li>Jaká rozhraní a integrace CHESTER podporuje</li>
+<li>Jaké komunikační technologie CHESTER využívá</li>
+<li>Jak je možné CHESTER napájet</li>
+<li>Pro jaké projekty a obory se CHESTER nejvíce využívá</li>
+<li>Jak můžete sami nakonfigurovat CHESTER pro své projekty</li>
+</ul>
+
+<h3>Řečníci:</h3>
+
+<ul>
+<li>Alan Fabik, CEO HARDWARIO</li>
+<li>Pavel Hübner, CTO HARDWARIO</li>
+</ul>
 <p>Vysílání bude probíhat na YouTube, přihlaste se ať vám můžeme poslat odkaz a událost včas připomenout.</p>
 <p><strong>Webinář proběhne v češtině</strong>.</p>
-
 
 </div>
 <div class = "col-12 col-md-5">
