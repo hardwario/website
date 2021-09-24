@@ -26,20 +26,19 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 
 <p>CHESTER 3 přichází s celou řadou našlapaných novinek a vylepšení, se kterými vás seznámíme.</p>
 
-<h3>Během webináře se dozvíte:</h3>
-
+<h3 class = "pb-10">Během webináře se dozvíte:</h3>
 <ul>
-<li>Jaká rozhraní a integrace CHESTER podporuje</li>
-<li>Jaké komunikační technologie CHESTER využívá</li>
-<li>Jak je možné CHESTER napájet</li>
-<li>Pro jaké projekty a obory se CHESTER nejvíce využívá</li>
-<li>Jak můžete sami nakonfigurovat CHESTER pro své projekty</li>
+<li class = "pb-0">Jaká rozhraní a integrace CHESTER podporuje</li>
+<li class = "pb-0">Jaké komunikační technologie CHESTER využívá</li>
+<li class = "pb-0">Jak je možné CHESTER napájet</li>
+<li class = "pb-0">Pro jaké projekty a obory se CHESTER nejvíce využívá</li>
+<li class = "pb-0">Jak můžete sami nakonfigurovat CHESTER pro své projekty</li>
 </ul>
 
-<h3>Řečníci:</h3>
+<h3 class = "pb-10">Řečníci:</h3>
 
 <ul>
-<li>Alan Fabik, CEO HARDWARIO</li>
+<li class = "pb-0">Alan Fabik, CEO HARDWARIO</li>
 <li>Pavel Hübner, CTO HARDWARIO</li>
 </ul>
 <p>Vysílání bude probíhat na YouTube, přihlaste se ať vám můžeme poslat odkaz a událost včas připomenout.</p>
