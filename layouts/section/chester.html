@@ -749,7 +749,7 @@
               </div>
 
             <div id = "extensionsModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-dialog modal-xl modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-body">
                       <div class="container-fluid">
@@ -767,81 +767,105 @@
                                   </thead>
                                   <tbody>
                                     <tr>
-                                        <td><strong>CHESTER-X0A</strong></td>
-                                        <td>{{ i18n "i2c" }}</td>
-                                        <td>{{ i18n "ext_temp_hum"}} </td>
+                                        <td><strong>CHESTER-A0</strong></td>
+                                        <td>AC/DC power module</td>
+                                        <td>Power CHESTER from isolated AC/DC converter 230 V / 5 V</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>CHESTER-X0B</strong></td>
-                                        <td>{{ i18n "ultrasound"}}</td>
-                                        <td>{{ i18n "level_measurement" }}</td>
+                                        <td><strong>CHESTER-A2</strong></td>
+                                        <td>2x relay + CHESTER-A0</td>
+                                        <td>Control 2x power relay 230 V / 16 A + see CHESTER-A0</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>CHESTER-X0C</strong></td>
-                                        <td>{{ i18n "4_ext_input" }}</td>
-                                        <td>{{ i18n "analog_digital" }}</td>
+                                        <td><strong>CHESTER-G</strong></td>
+                                        <td>8x isol. input + isol. power</td>
+                                        <td>Isolate (galvanically) 8x digital input and power line</td>
                                     </tr>
-      
                                     <tr>
-                                        <td><strong>CHESTER-X0D</strong></td>
-                                        <td>{{ i18n "4_switch" }}</td>
-                                        <td>{{ i18n "buttons_etc" }}</td>
+                                        <td><strong>CHESTER-K</strong></td>
+                                        <td>3x diff. input + 5 V boost</td>
+                                        <td>Measure 3x sensor w/ differential output requiring 5 V supply</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>CHESTER-Z1-0</strong></td>
+                                        <td>Battery backup + DC/DC</td>
+                                        <td>Power CHESTER from rechargeable battery w/ DC/DC converter</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>CHESTER-Z1-F</strong></td>
+                                        <td>4x button + CHESTER-Z1-0</td>
+                                        <td>Scan 4x illuminated push-button w/ buzzer + see CHESTER-Z1-0</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>CHESTER-X0</strong></td>
+                                        <td>4x analog/digital input</td>
+                                        <td>Scan 4x DI from PLC; sense dry contact; measure 0-10 V</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-X1</strong></td>
-                                        <td>{{ i18n "1_wire" }}</td>
-                                        <td>{{ i18n "temp_soil" }}</td>
+                                        <td>IOLink master interface</td>
+                                        <td>Communicate with modern IOLink sensors and actuators</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-X2A</strong></td>
-                                        <td>TTL/CMOS UART</td>
-                                        <td>{{ i18n "reading_data_devices" }}</td>
+                                        <td>TTL/UART interface</td>
+                                        <td>Communicate with RFID reader with TTL/UART output</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-X2B</strong></td>
-                                        <td>{{ i18n "rs_485" }}</td>
-                                        <td>{{ i18n "modbus" }}</td>
+                                        <td>RS-485 interface</td>
+                                        <td>Communicate with RS-485/Modbus RTU sensor or PLC</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-X3A</strong></td>
-                                        <td>{{ i18n "pt1000" }}</td>
-                                        <td>{{ i18n "rtd_temp" }}</td>
+                                        <td>1x 24b ADC for RTD</td>
+                                        <td>Measure industrial RTD thermometer Pt100/Pt1000</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-X3B</strong></td>
-                                        <td>{{ i18n "thermocouples" }}</td>
-                                        <td>{{ i18n "extrem_temp" }}</td>
+                                        <td>2x 24b ADC for RTD</td>
+                                        <td>Measure 2x industrial RTD thermometer Pt100/Pt1000</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>CHESTER-X4A</strong></td>
-                                        <td>{{ i18n "dc_dc" }}</td>
-                                        <td>{{ i18n "ext_supply" }}</td>
+                                        <td><strong>CHESTER-X3C</strong></td>
+                                        <td>1x 24b ADC for thermocouple</td>
+                                        <td>Measure thermocouple - type B/C/E/J/K/N/R/S/T</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>CHESTER-X4B</strong></td>
-                                        <td>X4A + 1W</td>
-                                        <td>{{ i18n "connect_industry_sensors" }}</td>
+                                        <td><strong>CHESTER-X3D</strong></td>
+                                        <td>2x 24b ADC for thermocouple</td>
+                                        <td>Measure 2x thermocouple - type B/C/E/J/K/N/R/S/T</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>CHESTER-X4C</strong></td>
-                                        <td>X4A + 1W + 4-20mA</td>
-                                        <td>{{ i18n "connect_industry_sensors" }}</td>
+                                        <td><strong>CHESTER-X4</strong></td>
+                                        <td>DC/DC converter 6 - 28 V DC</td>
+                                        <td>Power CHESTER from industrial DC line (e.g. 24 V)</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-X5</strong></td>
-                                        <td>{{ i18n "analog_input" }}</td>
-                                        <td>{{ i18n "tension_accurate_measurement" }}</td>
+                                        <td>±30 V analog input</td>
+                                        <td>Measure differential voltage input with a wide DC range</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-X6</strong></td>
-                                        <td>{{ i18n "strain_gauge" }}</td>
-                                        <td>{{ i18n "accurate_weight_measurement" }}</td>
+                                        <td>Bus interface + 5 V boost</td>
+                                        <td>Communicate with many low-power nodes over a single wire</td>
                                     </tr>
                                     <tr>
-                                      <td><strong>CHESTER-X7</strong></td>
-                                      <td>{{ i18n "accurate_dc" }}</td>
-                                      <td>{{ i18n "dendrometer" }}</td>
-                                  </tr>
+                                        <td><strong>CHESTER-X7</strong></td>
+                                        <td>1x diff. input + 5 V boost</td>
+                                        <td>Measure sensor w/ differential output requiring 5 V supply</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>CHESTER-X8</strong></td>
+                                        <td>Precise accelerometer</td>
+                                        <td>Accurately measure tilt and inclination</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>CHESTER-X9</strong></td>
+                                        <td>4x low-side switch</td>
+                                        <td>Control external relays with protected low-side switches</td>
+                                    </tr>
                                     </tbody>
                                 </table>
                                 </div>
