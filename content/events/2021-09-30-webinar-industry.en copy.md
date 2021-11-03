@@ -28,8 +28,8 @@ description: "Register to free HARDWARIO event"
 <h3 class = "pb-10">During event you will:</h3>
 <ul>
 <li class = "pb-0">Learn more about LPWAN technologies NB-IoT, LTE-M and LoRaWAN.</li>
-<li class = "pb-0">Be inspired by practial case studies.</li>
-<li class = "pb-0">See how it can implemented in your bussiness.</li>
+<li class = "pb-0">Be inspired by practical case studies.</li>
+<li class = "pb-0">See how it can implemented in your business.</li>
 <li class = "pb-0">Learn more about the most configurable IoT gateway CHESTER.</li>
 </ul>
 
@@ -40,6 +40,12 @@ description: "Register to free HARDWARIO event"
 <li class = "pb-0">16:30 to 17:00 Q&A and product demos</li>
 <li class = "pb-0">17:00 to 18:00 Further networking and drinks</li>
 </ul>
+
+<h3 class = "pb-10">Venue:</h3>
+<p>St John's Innovation Centre<br/>
+Cowley Road,<br/>
+Cambridge CB4 0WS<br/>
+United Kingdom</p>
 
 <p>IoT and Industrial IoT (IIoT) are taking off and one of the key enabling factors is the available range of wireless communication technologies. Understanding these technologies, their availability, their differences and knowing how and where to use these are what we will be presenting during this networking event.</p>
 <h3 class = "pb-10">Speakers:</h3>
