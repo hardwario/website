@@ -1,0 +1,555 @@
+[watch_video]
+other = "Podívejte se na video"
+
+[application_elasticity]
+other = "Víceúčelové využití"
+
+[application_elasticity_desc]
+other = "Jedno modulární zařízení pokrývá široké spektrum IoT projektů"
+
+[LPWAN_connectivity]
+other = "LPWAN konektivita"
+
+[LPWAN_connectivity_desc]
+other = "Internetová komunikace z nejvzdálenějších míst"
+
+[lowpower_design]
+other = "Low-power design"
+
+[lowpower_design_desc]
+other = "Spolehlivý provoz z primární baterie po dobu několika let"
+
+[ip67pl]
+other = "Stupeň krytí IP 67"
+
+[ip67pl_desc]
+other = "Krytí odolávající náročným podmínkám prostředí"
+
+[ble]
+other = "Bluetooth Low Energy"
+
+[ble_desc]
+other = "Diagnostika, parametrizace a aktualizace firmwaru"
+
+[branding]
+other = "Přizpůsobitelnost"
+
+[branding_desc]
+other = "Kompletní OEM branding, vlastní barevný tisku"
+
+[modular_device]
+other = "Jedno modulární zařízení.</span> Široká škála IoT aplikací"
+
+[modular_device_desc]
+other = "CHESTER slouží k telemetrii dat připojených systémů, monitorování nejrůznějších senzorů, dálkovému ovládání a sledování polohy. Zařízení je vybaveno robustním, vodotěsným krytem se stupněm krytí IP67 pro nepříznivé podmínky prostředí. Kromě toho jeho široký rozsah provozních teplot a spotřeba energie optimalizovaná na baterie umožňují nasazení ve venkovním prostředí."
+
+[supported_interfaces]
+other = "Podporovaná rozhraní"
+
+[extensions_list]
+other = "Seznam&nbsp;rozšíření"
+
+[interfaces]
+other = "Rozhraní"
+
+[digital_inputs]
+other = "Digitální vstupy"
+
+[digital_outputs]
+other = "Digitální výstupy"
+
+[analog_inputs]
+other = "Analogové vstupy"
+
+[komunikace]
+other = "Komunikace"
+
+[dry_contacts]
+other = "Suché kontakty"
+
+[outputs]
+other = "výstupy"
+
+[power_relays]
+other = "Silová relé"
+
+[open_collector]
+other = "Open collector"
+
+[signal]
+other = "Signál"
+
+[reliable_connectivity]
+other = "Spolehlivá konektivita.</span> Data ze vzdálených a&nbsp;hlubokých vnitřních prostor"
+
+[reliable_connectivity_desc]
+other = "CHESTER se připojuje k internetu prostřednictvím komunikačních technologií LPWAN (podporovány jsou NB-IoT, LTE-M a LoRaWAN). Vyberte si vestavěnou interní anténu nebo připojte externí anténu pro některou z těchto možností. Pro diagnostiku, parametrizaci a aktualizaci firmwaru zařízení je CHESTER vybaven rozhraním Bluetooth Low Energy, které je k dispozici v moderních chytrých zařízeních a noteboocích."
+
+[lowpower_device]
+other = "Navrženo od základu jako</span> zařízení s nízkou spotřebou energie"
+
+[lowpower_device_desc]
+other = "CHESTER byl od základu navržen jako zařízení s nízkou spotřebou energie a poskytuje roky provozu z primárních lithiových článků. Dalším způsobem napájení zařízení je použití záložního modulu dobíjecí baterie s volitelným vstupem pro solární fotovoltaický panel. Pro aplikace, kde baterie nejsou vhodné, je možné zařízení napájet zařízení ze standardního síťového napájení 24 V DC nebo ze sítě 230 V AC."
+
+[lithium_cells]
+other = "Primární lithiové články"
+
+[rechargable_batteries]
+other = "Dobíjecí baterie"
+
+[solar_panels]
+other = "Fotovoltaické solární panely"
+
+[applications_industries]
+other = "Aplikace<span class = 'font-gray2'><br/>odvětví a příklady použití</span>"
+
+[use_cases]
+other = "Příklady použití"
+
+[industries]
+other = "Odvětví"
+
+[read_case_studies]
+other = "Přečtěte si případové studie"
+
+[all_solutions]
+other = "Všechny&nbsp;příklady&nbsp;použití"
+
+[machine_monitoring]
+other = "Sledování strojů"
+
+[predictive_maintenance]
+other = "Prediktivní údržba"
+
+[event_alerting]
+other = "Upozornění na události"
+
+[smart_metering]
+other = "Chytré odečty"
+
+[sensor_telemetry]
+other = "Senzorová telemetrie"
+
+[asset_tracking]
+other = "Sledování aktiv"
+
+[air_quality_sensing]
+other = "Snímání kvality ovzduší"
+
+[remote_control]
+other = "Dálkové ovládání"
+
+[data_logging]
+other = "Logování dat"
+
+[manufacturing]
+other = "Výroba"
+
+[facility_anagement]
+other = "Facility Management"
+
+[construction]
+other = "Stavebnictví"
+
+[agriculture]
+other = "Zemědělství"
+
+[lesnictví]
+other = "Lesnictví"
+
+[energie]
+other = "Energetika"
+
+[bezpečnost]
+other = "Zabezpečení"
+
+[health_care]
+other = "Pečovatelství"
+
+[mining]
+other = "Těžařství"
+
+[all_features]
+other = "Shrňme si to.</span><br/> Co znamená nejlépe konfigurovatelná "
+
+[f_1]
+other = "LPWAN konektivita"
+
+[f_11_]
+other = "NB-IoT a LTE-M (Cat M1) s podporou globálních pásem"
+
+[f_12]
+other = "SIM karta pro LTE jako čip SIM (eSIM) nebo Nano-SIM"
+
+[f_13]
+other = "LoRaWAN s podporou 868/915 MHz"
+
+[f_2]
+other = "Flexibilní anténní systém"
+
+[f_21]
+other = "Softwarová volba mezi interní a externí anténou"
+
+[f_22]
+other = "Softwarová volba mezi LTE a LoRaWAN"
+
+[f_23]
+other = "Externí anténa se připojuje přes konektor u.FL"
+
+[f_3]
+other = "Bluetooth Low Energy 5.0"
+
+[f_31]
+other = "Nastavení a diagnostika zařízení z chytrého telefonu"
+
+[f_32]
+other = "Komunikace s jinými zařízeními BLE"
+
+[f_33]
+other = "Aktualizace firmwaru zařízení v terénu"
+
+[f_4]
+other = "GNSS modul pro určování polohy"
+
+[f_41]
+other = "Podpora pro GPS, Galileo, GLONASS"
+
+[f_42]
+other = "Vysoce citlivý přijímač s čipovou sadou u-blox M8"
+
+[f_43]
+other = "Flexibilní řízení výkonu pro sledování s nízkou spotřebou"
+
+[f_5]
+other = "Flexibilní řízení napájení"
+
+[f_51]
+other = "Napájecí zařízení z vyměnitelného primárního 3,6 V lithiového článku"
+
+[f_52]
+other = "Dobíjecí baterie z modulu CHESTER-Z ve víku pouzdra"
+
+[f_53]
+other = "Externí napájení prostřednictvím rozšiřujících modulů"
+
+[f_6]
+other = "Vestavěný tříosý MEMS akcelerometr"
+
+[f_61]
+other = 'Detekce orientace a náklonu zařízení'
+
+[f_62]
+other = "Rozpoznávání vibrací zařízení"
+
+[f_63]
+other = "Možnost konfigurace dynamického rozsahu a citlivosti"
+
+[f_7]
+other = "Dva sloty pro rozšiřující moduly"
+
+[f_71]
+other = "Podporuje kombinace modulů pro různé potřeby projektu"
+
+[f_72]
+other = "Signály jsou vedeny do svorkovnic pro plnou flexibilitu"
+
+[f_73]
+other = "Pájení ze spodní strany zařízení pro zvýšení spolehlivosti"
+
+[f_8]
+other = "Push-in svorkovnice"
+
+[f_81]
+other = "Rozhraní pro různé externí vstupy/výstupy nebo zdroje napájení"
+
+[f_82]
+other = "Všechny svorky jsou vybaveny ochranou proti přechodnému napětí"
+
+[f_83]
+other = "Paralelní svorkovnice pro pohodlné zapojení"
+
+[f_9]
+other = "Integrované rozhraní sběrnice 1-Wire"
+
+[f_91]
+other = "Podpora pro více teploměrů DS18B20"
+
+[f_92]
+other = "Integrace se senzorem Machine probe od HARDWARIO"
+
+[f_93]
+other = "Integrace s půdním senzorem HARDWARIO"
+
+[f_10]
+other = 'Další integrované periferie'
+
+[f_101]
+other = "8 MB flash paměť pro záznam dat"
+
+[f_102]
+other = 'Přesné digitální teplotní čidlo'
+
+[f_103]
+other = "Tříbarevná LED dioda pro okamžité rozpoznání stavu"
+
+[f_11]
+other = "Další dostupná rozhraní"
+
+[f_111]
+other = "Komunikační sběrnice I2C na svorkovnici a konektoru"
+
+[f_112]
+other = "Volitelná externí LED dioda, tlačítko a tamper switch na konektoru"
+
+[f_113]
+other = "Systémový konektor se sběrnicí I2C a napájecím chladičem/zdrojem"
+
+[f_114]
+other = "Volitelná externí baterie na konektoru"
+
+[f_115]
+other = "Dva konektory Sparkfun QWIIC pro různé příslušenství třetích stran"
+
+[peripherals]
+other = "Periferie - <span class = 'font-gray2'>senzory, aktory, zařízení</span>"
+
+[temperature_sensors]
+other = "Teplotní senzory"
+
+[digital]
+other = "Digitální"
+
+[thermocouples]
+other = "Termočlánky"
+
+[proximity_sensors]
+other = "Senzory přiblížení"
+
+[inductive]
+other = "Indukční"
+
+[capacitive]
+other = "Kapacitní"
+
+[optical]
+other = "Optické"
+
+[magnetic]
+other = "Magnetické"
+
+[linear_sensors]
+other = "Lineární senzory"
+
+[air_quality]
+other = "Kvalita ovzduší"
+
+[water_quality]
+other = "Kvalita vody"
+
+[soil_parameters]
+other = "Vlastnosti půdy"
+
+[location_sensors]
+other = "Senzory polohy"
+
+[event_detectors]
+other = "Detektory událostí"
+
+
+[flow]
+other = "Proudění"
+
+[pressure]
+other = "Tlak"
+
+[weight]
+other = "Váha"
+
+[vzdálenost]
+other = "Vzdálenost"
+
+[current]
+other = "Proud"
+
+[voltage]
+other = "Napětí"
+
+[temperature]
+other = "Teplota"
+
+[dust_particles]
+other = "Prachové částice"
+
+[carbon_dioxide]
+other = "Oxid uhličitý"
+
+[conductivity]
+other = "Vodivost"
+
+[ph_level]
+other = "PH level"
+
+[oxygen]
+other = "Kyslík"
+
+[moisture]
+other = "Vlhkost"
+
+[position]
+other = "Pozice"
+
+[orientation]
+other = "Orientace (akcelerometr)"
+
+[motion]
+other = "Pohyb"
+
+[push_button]
+other = "Tlačítko"
+
+[shock_tilt]
+other = "Náraz a náklon"
+
+[dendrometers]
+other = "Dendrometry"
+
+[open_sdk]
+other = "<span class = 'font-gray2'>Programovatelný.</span> <br/>Otevřené SDK pro rychlý vývoj firmwaru"
+
+[open_sdk_desc]
+other ="Vytvořte si vlastní aplikaci nad nRF Connect SDK se základním operačním systémem Zephyr. Díky primárnímu programovacímu jazyku C a podpoře Visual Studio Code jako vývojového prostředí IDE můžete používat vývojová prostředí Windows, MacOS nebo Linux."
+
+[hardwario_cloud]
+other = "<span class = 'font-gray2'>HARDWARIO Cloud.</span> Snadná integrace s&nbsp;jakýmkoli systémem"
+
+[hardwario_cloud_desc]
+other = "Bezproblémová správa vašich zařízení, Callbacky a rozhraní REST API. Integrace systému CHESTER se systémy Microsoft, Ubidots, Blynk nebo s vaším vlastním systémem je bezpečná, rychlá a snadná."
+
+[see_api]
+other = "Projít REST API dokumentaci"
+
+[get_chester]
+other = "Mám zájem o&nbsp;CHESTER"
+
+[get_chester_desc]
+other = 'Vyberte si model "Hardware jako služba" nebo model jednorázového nákupu. Ozvěte se nám a začněte tvořit IoT projekty pro své zákazníky ještě dnes.'
+
+[a0_1]
+other = "AC/DC napájecí modul"
+
+[a0_2]
+other = "Napájení CHESTER z izolovaného měniče AC/DC 230 V / 5 V"
+
+[a2_1]
+other = "2x relé + CHESTER-A0"
+
+[a2_2]
+other = "Ovládání 2x výkonové relé 230 V / 16 A + CHESTER-A0"
+
+[g_1]
+other = "8x izol. vstup + izol. napájení"
+
+[g_2]
+other = "Izolovat (galvanicky) 8x digitální vstup a napájecí vedení"
+
+[k_1]
+other = "3x dif. vstup + 5 V boost"
+
+[k_2]
+other = "Měření 3x snímačem s diferenciálním výstupem vyžadujícím napájení 5 V"
+
+[z10_1]
+other = "Záložní baterie + DC/DC"
+
+[z10_2]
+other = "Napájení CHESTER z dobíjecí baterie s DC/DC měničem"
+
+[z1f_1]
+other = "4x tlačítko + CHESTER-Z1-0"
+
+[z1f_2]
+other = "4x osvětlené tlačítko s bzučákem + CHESTER-Z1-0"
+
+[x0_1]
+other = "4x analogový/digitální vstup"
+
+[x0_2]
+other = "Skenování 4x DI z PLC; snímání beznapěťového kontaktu; měření 0-10 V"
+
+[x1_1]
+other = "IOLink master interface"
+
+[x1_2]
+other = "Komunikace s moderními senzory a akčními členy IOLink"
+
+[x2a_1]
+other = "Rozhraní TTL/UART"
+
+[x2a_2]
+other = "Komunikace se čtečkou RFID s výstupem TTL/UART"
+
+[x2b_1]
+other = "Rozhraní RS-485"
+
+[x2b_2]
+other = "Komunikuje se snímačem nebo PLC s RS-485/Modbus RTU"
+
+[x3a_1]
+other = "1x 24b ADC pro RTD teploměr"
+
+[x3a_2]
+other = "Měření průmyslovým RTD teploměrem Pt100/Pt1000"
+
+[x3b_1]
+other = "2x 24b ADC pro RTD teploměry"
+
+[x3b_2]
+other = "Měření 2x průmyslový RTD teploměr Pt100/Pt1000"
+
+[x3c_1]
+other = "1x 24b ADC pro termočlánek"
+
+[x3c_2]
+other = "Měření termočlánků - typ B/C/E/J/K/N/R/S/T"
+
+[x3d_1]
+other = "2x 24b ADC pro termočlánek"
+
+[x3d_2]
+other = "Měření 2x termočlánek - typ B/C/E/J/K/N/R/S/T"
+
+[x4_1]
+other = "DC/DC převodník 6 - 28 V DC"
+
+[x4_2]
+other = "Napájení CHESTER z průmyslového stejnosměrného vedení (např. 24 V)"
+
+[x5_1]
+other = "Analogový vstup ±30 V"
+
+[x5_2]
+other = "Měření diferenciálního napěťového vstupu s širokým rozsahem stejnosměrného napětí"
+
+[x6_1]
+other = "Rozhraní sběrnice + 5 V boost"
+
+[x6_2]
+other = "Komunikace s mnoha uzly s nízkou spotřebou energie po jediném vodiči"
+
+[x7_1]
+other = "1x dif. vstup + 5 V boost"
+
+[x7_2]
+other = "Měřicí senzor s diferenciálním výstupem vyžadujícím napájení 5 V"
+
+[x8_1]
+other = "Přesný akcelerometr"
+
+[x8_2]
+other = 'Přesné měření náklonu a sklonu'
+
+[x9_1]
+other = "4x nízkfrekvenční switch"
+
+[x9_2]
+other = "Ovládání externích relé s chráněnými nízkostěnnými spínači"

@@ -6,7 +6,7 @@
 {{ define "main" }}
 {{ $currentLang := .Site.Language.Lang }}
 
-{{ if ne $currentLang "en" }}
+{{ if eq $currentLang "de" }}
 <section>
     <div class="bg-image16 d-flex">
         <div class="container">
@@ -500,7 +500,7 @@
               </div>
               <div class="row pb-10 pb-md-30">
                   <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
-                      <h1 class="text-center pb-20 font-weight-black font-50 font-md-64 font-xl-72 font-md-lnh68">{{ .Params.heading | safeHTML }}</h1>
+                      <h1 class="text-center pb-20 font-weight-black font-44 font-md-64 font-xl-72 font-md-lnh68">{{ .Params.heading | safeHTML }}</h1>
                   </div>
               </div>
         </div>
@@ -522,9 +522,9 @@
 <section>
     <div class="container">
         <div class = "row justify-content-center">
-            <div class = "col-12 col-md-9 pt-60 pb-60 pb-md-120">
-                <p class = "font-20 font-md-24 font-lnh42 pb-20">Extensible IoT gateway for Industry 4.0, smart city, e-metering, and agricultural applications. CHESTER connects sensors, actuators, PLC controllers, and other devices to the internet. Flexible power supply and LPWAN communication technologies enable reliable connectivity from distant and deep indoor places.</p>
-                <a href = "#" data-target = "videoModal" class="openModal ml-0 font-20 font-md-18 font-lnh24 font-weight-bold font-font2 font-red button__link">Watch the video</a>
+            <div class = "col-12 col-md-9 pt-30 pt-md-60 pb-60 pb-md-120">
+                <p class = "font-20 font-md-24 font-lnh42 pb-20">{{ .Params.perex }}</p>
+                <a href = "#" data-target = "videoModal" class="openModal ml-0 font-18 font-md-18 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "watch_video" }}</a>
             </div>
         </div>
     </div>
@@ -570,18 +570,18 @@
     <div class = "row justify-content-center align-items-center pt-md-60">
         <div class = "col-9 col-md-3 text-center text-md-right pl-md-15 pr-md-40">
             <div class = "pt-60 pt-md-15 pb-10">
-                <h2 class = "font-20 font-md-24 font-weight-black pb-5">Application elasticity</h2>
-                <p class = "font-20 font-md-24">One modular device covering a wide spectrum of IoT projects</p>
+                <h2 class = "font-20 font-md-24 font-weight-black pb-5">{{ i18n "application_elasticity" }}</h2>
+                <p class = "font-20 font-md-24">{{ i18n "application_elasticity_desc" }}</p>
             </div>
 
             <div class = "pt-60 pb-10">
-                <h2 class = "font-20 font-md-24 font-weight-black pb-5">LPWAN connectivity</h2>
-                <p class = "font-20 font-md-24">Communication to the internet from the most distant places</p>
+                <h2 class = "font-20 font-md-24 font-weight-black pb-5">{{ i18n "LPWAN_connectivity" }}</h2>
+                <p class = "font-20 font-md-24">{{ i18n "LPWAN_connectivity_desc" }}</p>
             </div>
 
             <div class = "pt-60 pb-10">
-                <h2 class = "font-20 font-md-24 font-weight-black pb-5">Low-power design</h2>
-                <p class = "font-20 font-md-24">Reliable operation from a primary cell battery for several years</p>
+                <h2 class = "font-20 font-md-24 font-weight-black pb-5">{{ i18n "lowpower_design" }}</h2>
+                <p class = "font-20 font-md-24">{{ i18n "lowpower_design_desc" }}</p>
             </div>
 
 
@@ -592,18 +592,18 @@
 
         <div class = "col-9 col-md-3 text-center text-md-left pl-md-40">
             <div class = "pt-60 pt-md-15 pb-10">
-                <h2 class = "font-20 font-md-24 font-weight-black pb-5">IP 67 protection level</h2>
-                <p class = "font-20 font-md-24">Enclosure to withstand harsh environmental conditions</p>
+                <h2 class = "font-20 font-md-24 font-weight-black pb-5">{{ i18n "ip67pl" }}</h2>
+                <p class = "font-20 font-md-24">{{ i18n "ip67pl_desc" }}</p>
             </div>
 
             <div class = "pt-60 pb-10">
-                <h2 class = "font-20 font-md-24 font-weight-black pb-5">Bluetooth Low Energy</h2>
-                <p class = "font-20 font-md-24">For diagnostics, parametrization, and device firmware upgrades</p>
+                <h2 class = "font-20 font-md-24 font-weight-black pb-5">{{ i18n "ble" }}</h2>
+                <p class = "font-20 font-md-24">{{ i18n "ble_desc" }}</p>
             </div>
 
             <div class = "pt-60 pb-10">
-                <h2 class = "font-20 font-md-24 font-weight-black pb-5">Custom branding</h2>
-                <p class = "font-20 font-md-24">Full OEM branding service, including custom color printing</p>
+                <h2 class = "font-20 font-md-24 font-weight-black pb-5">{{ i18n "branding" }}</h2>
+                <p class = "font-20 font-md-24">{{ i18n "branding_desc" }}</p>
             </div>
         </div>
     </div>
@@ -633,7 +633,7 @@
 
     @media(max-width: 769px){
         .chester-1{
-            height: 500px;
+            height: 400px;
             background-position: 50% 100%;
         }
 
@@ -669,7 +669,7 @@
     .chester-4{
         background-image: url('/_assets/images/chester/use-agriculture.png'); 
         background-size: cover; 
-        border-radius: 7px;
+        border-radius: 0px;
     }
     .chester-5{
         background-size: 100%; 
@@ -685,16 +685,16 @@
     }
 </style>
 <section>
-    <div class = "container pt-120">
+    <div class = "container pt-60 pt-md-120">
         <div class = "row justify-content-center px-10">
 
             <div class = "col-12 px-30 pl-md-60 mb-90 content-block">
                 <div class = "row">
-                    <div class = "col-12 col-md-6 pt-90 pb-30 pb-md-120">
-                        <h2 class = "font-40 font-lnh48 font-md-52 font-weight-black font-md-lnh56 pb-30"><span class = "font-gray2">One modular device</span> Wide range of IoT applications</h2>
-                        <p class = "font-20 font-md-16 pb-10">CHESTER is used to data telemetry data of the connected systems, monitoring of a large variety of sensors, remote control and location tracking. The device features a robust, waterproof, IP67-rated enclosure for harsh environmental conditions. In addition, its wide operating temperature range and battery-optimized power consumption enable outdoor deployment.</p>
-                        <a href = "#" data-target = "interfacesModal" class="openModal ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">Supported interfaces</a>
-                        <a href = "#" data-target = "extensionsModal" class="openModal pt-20 pt-md-0 ml-0 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">List&nbsp;of&nbsp;extensions</a>
+                    <div class = "col-12 col-md-6 pt-40 pt-md-90 pb-30 pb-md-120">
+                        <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30"><span class = "font-gray2">{{ i18n "modular_device" | safeHTML }}</h2>
+                        <p class = "font-20 font-md-16 pb-10">{{ i18n "modular_device_desc" | safeHTML }}</p>
+                        <a href = "#" data-target = "interfacesModal" class="openModal ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "supported_interfaces" }}</a>
+                        <a href = "#" data-target = "extensionsModal" class="openModal pt-20 pt-md-0 ml-0 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "extension_list" | safeHTML }}</a>
                     </div>
                     <div class = "col-12 col-md-6 pt-30 pr-0 chester-1">
 
@@ -709,29 +709,29 @@
                       <div class="container-fluid">
                         <div class="row justify-content-center">
                           <div class="col-md-10">
-                            <h2 class = "font-30 font-md-42 pt-50 pb-50 font-weight-black text-center">Interfaces</h2>
+                            <h2 class = "font-30 font-md-42 pt-50 pb-50 font-weight-black text-center">{{ i18n "interfaces" }}</h2>
 
                             
                             <div class = "row">
                                 <div class = "col-6 pb-30">
-                                    <h3 class = "font-20 font-weight-black font-lnh24 pb-10">Digital inputs</h3>
-                                    <p class = "p-5">Dry contacts</p>
-                                    <p class = "p-5">PLC outputs</p>
+                                    <h3 class = "font-20 font-weight-black font-lnh24 pb-10">{{ i18n "digital_inputs" }}</h3>
+                                    <p class = "p-5">{{ i18n "dry_contacts" }}</p>
+                                    <p class = "p-5">PLC {{ i18n "outputs" }}</p>
                                 </div>
 
                                 <div class = "col-6 pb-30">
-                                    <h3 class = "font-20 font-weight-black font-lnh24 pb-10">Digital outputs</h3>
-                                    <p class = "p-5">Power relays</p>
-                                    <p class = "p-5">Open collector</p>
+                                    <h3 class = "font-20 font-weight-black font-lnh24 pb-10">{{ i18n "digital_outputs" }}</h3>
+                                    <p class = "p-5">{{ i18n "power_relays" }}</p>
+                                    <p class = "p-5">{{ i18n "open_collector" }}</p>
                                 </div>
 
                                 <div class = "col-6 pb-30">
-                                    <h3 class = "font-20 font-weight-black font-lnh24 pb-10">Analog inputs</h3>
-                                    <p class = "p-5">Signal 0-10 V</p>
-                                    <p class = "p-5">Signal 4-20 mA</p>
+                                    <h3 class = "font-20 font-weight-black font-lnh24 pb-10">{{ i18n "analog_inputs" }}</h3>
+                                    <p class = "p-5">{{ i18n "signal" }} 0-10 V</p>
+                                    <p class = "p-5">{{ i18n "signal" }} 4-20 mA</p>
                                 </div>
                                 <div class = "col-6 pb-30">
-                                    <h3 class = "font-20 font-weight-black font-lnh24 pb-10">Communication</h3>
+                                    <h3 class = "font-20 font-weight-black font-lnh24 pb-10">{{ i18n "communication" }}</h3>
                                     <p class = "p-5">RS-485</p>
                                     <p class = "p-5">IOLink</p>
                                     <p class = "p-5">1-Wire</p>
@@ -768,103 +768,103 @@
                                   <tbody>
                                     <tr>
                                         <td><strong>CHESTER-A0</strong></td>
-                                        <td>AC/DC power module</td>
-                                        <td>Power CHESTER from isolated AC/DC converter 230 V / 5 V</td>
+                                        <td>{{ i18n "a0_1" }}</td>
+                                        <td>{{ i18n "a0_2" }}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-A2</strong></td>
-                                        <td>2x relay + CHESTER-A0</td>
-                                        <td>Control 2x power relay 230 V / 16 A + see CHESTER-A0</td>
+                                        <td>{{ i18n "a2_1" }}</td>
+                                        <td>{{ i18n "a2_2" }}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-G</strong></td>
-                                        <td>8x isol. input + isol. power</td>
-                                        <td>Isolate (galvanically) 8x digital input and power line</td>
+                                        <td>{{ i18n "g_1" }}</td>
+                                        <td>{{ i18n "g_2" }}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-K</strong></td>
-                                        <td>3x diff. input + 5 V boost</td>
-                                        <td>Measure 3x sensor w/ differential output requiring 5 V supply</td>
+                                        <td>{{ i18n "k_1" }}</td>
+                                        <td>{{ i18n "k_2" }}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-Z1-0</strong></td>
-                                        <td>Battery backup + DC/DC</td>
-                                        <td>Power CHESTER from rechargeable battery w/ DC/DC converter</td>
+                                        <td>{{ i18n "z10_1" }}</td>
+                                        <td>{{ i18n "z10_2" }}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-Z1-F</strong></td>
-                                        <td>4x button + CHESTER-Z1-0</td>
-                                        <td>Scan 4x illuminated push-button w/ buzzer + see CHESTER-Z1-0</td>
+                                        <td>{{ i18n "z1f_1" }}</td>
+                                        <td>{{ i18n "z1f_2" }}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-X0</strong></td>
-                                        <td>4x analog/digital input</td>
-                                        <td>Scan 4x DI from PLC; sense dry contact; measure 0-10 V</td>
+                                        <td>{{ i18n "x0_1" }}</td>
+                                        <td>{{ i18n "x0_2" }}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-X1</strong></td>
-                                        <td>IOLink master interface</td>
-                                        <td>Communicate with modern IOLink sensors and actuators</td>
+                                        <td>{{ i18n "x1_1" }}</td>
+                                        <td>{{ i18n "x1_2" }}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-X2A</strong></td>
-                                        <td>TTL/UART interface</td>
-                                        <td>Communicate with RFID reader with TTL/UART output</td>
+                                        <td>{{ i18n "x2a_1" }}</td>
+                                        <td>{{ i18n "x2a_2" }}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-X2B</strong></td>
-                                        <td>RS-485 interface</td>
-                                        <td>Communicate with RS-485/Modbus RTU sensor or PLC</td>
+                                        <td>{{ i18n "x2b_1" }}</td>
+                                        <td>{{ i18n "x2b_2" }}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-X3A</strong></td>
-                                        <td>1x 24b ADC for RTD</td>
-                                        <td>Measure industrial RTD thermometer Pt100/Pt1000</td>
+                                        <td>{{ i18n "x3a_1" }}</td>
+                                        <td>{{ i18n "x3a_2" }}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-X3B</strong></td>
-                                        <td>2x 24b ADC for RTD</td>
-                                        <td>Measure 2x industrial RTD thermometer Pt100/Pt1000</td>
+                                        <td>{{ i18n "x3b_1" }}</td>
+                                        <td>{{ i18n "x3b_2" }}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-X3C</strong></td>
-                                        <td>1x 24b ADC for thermocouple</td>
-                                        <td>Measure thermocouple - type B/C/E/J/K/N/R/S/T</td>
+                                        <td>{{ i18n "x3c_1" }}</td>
+                                        <td>{{ i18n "x3c_2" }}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-X3D</strong></td>
-                                        <td>2x 24b ADC for thermocouple</td>
-                                        <td>Measure 2x thermocouple - type B/C/E/J/K/N/R/S/T</td>
+                                        <td>{{ i18n "x3d_1" }}</td>
+                                        <td>{{ i18n "x3d_2" }}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-X4</strong></td>
-                                        <td>DC/DC converter 6 - 28 V DC</td>
-                                        <td>Power CHESTER from industrial DC line (e.g. 24 V)</td>
+                                        <td>{{ i18n "x4_1" }}</td>
+                                        <td>{{ i18n "x4_2" }}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-X5</strong></td>
-                                        <td>±30 V analog input</td>
-                                        <td>Measure differential voltage input with a wide DC range</td>
+                                        <td>{{ i18n "x5_1" }}</td>
+                                        <td>{{ i18n "x5_2" }}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-X6</strong></td>
-                                        <td>Bus interface + 5 V boost</td>
-                                        <td>Communicate with many low-power nodes over a single wire</td>
+                                        <td>{{ i18n "x6_1" }}</td>
+                                        <td>{{ i18n "x6_2" }}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-X7</strong></td>
-                                        <td>1x diff. input + 5 V boost</td>
-                                        <td>Measure sensor w/ differential output requiring 5 V supply</td>
+                                        <td>{{ i18n "x7_1" }}</td>
+                                        <td>{{ i18n "x7_2" }}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-X8</strong></td>
-                                        <td>Precise accelerometer</td>
-                                        <td>Accurately measure tilt and inclination</td>
+                                        <td>{{ i18n "x8_1" }}</td>
+                                        <td>{{ i18n "x8_2" }}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>CHESTER-X9</strong></td>
-                                        <td>4x low-side switch</td>
-                                        <td>Control external relays with protected low-side switches</td>
+                                        <td>{{ i18n "x9_1" }}</td>
+                                        <td>{{ i18n "x9_2" }}</td>
                                     </tr>
                                     </tbody>
                                 </table>
@@ -883,35 +883,35 @@
                     <div class = "col-12 col-md-3 pl-0 chester-2">
 
                     </div>
-                    <div class = "col-12 col-md-7 px-md-60 pt-90 pb-120">
-                        <h2 class = "font-40 font-lnh48 font-md-52 font-weight-black font-md-lnh56 pb-30"><span class = "font-gray2">Reliable connectivity</span> Data from distant and deep indoor places</h2>
-                        <p class = "font-20 font-md-16">CHESTER connects to the internet via LPWAN communication technologies (NB-IoT, LTE-M, and LoRaWAN are supported). Choose the built-in internal antenna or connect an external antenna for any of those options. For diagnostics, parametrization, and device firmware upgrades, CHESTER comes with a Bluetooth Low Energy interface available in modern smart devices and notebooks.</p>
+                    <div class = "col-12 col-md-7 px-md-60 pt-40 pt-md-90 pb-60 pb-md-120">
+                        <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30"><span class = "font-gray2">{{ i18n "reliable_connectivity" | safeHTML }}</h2>
+                        <p class = "font-20 font-md-16">{{ i18n "reliable_connectivity_desc" }}</p>
                         <img loading="lazy" src="/_assets/images/chester/lpwan_brands.png" class="w-100 w-md-75 mt-10" alt="" />
                     </div>
                 </div>
             </div> 
 
-            <div class = "col-12 pl-30 pr-15 pl-md-60 pr-md-15 py-90 mb-90 content-block">
+            <div class = "col-12 pl-30 pr-15 pl-md-60 pr-md-15 py-40 py-md-90 mb-90 content-block">
                 <div class = "row">
                     <div class = "col-12 col-md-6 pb-10">
-                        <h2 class = "font-40 font-lnh48 font-md-52 font-weight-black font-md-lnh56 pb-10"><span class = "font-gray2">Designed from the ground up as a</span> <br/>low-power&nbsp;device</h2>
-                        <p class = "font-20 font-md-16">CHESTER has been designed from the ground up as a low-power device and provides years of operation from the primary lithium cells. Another way to power the device is to use a rechargeable battery backup module with the optional solar photovoltaic panel input. For applications where batteries are not applicable, it is possible to energize the device from a standard 24 V DC line power or 230 V AC line.</p>
+                        <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30"><span class = "font-gray2">{{ i18n "lowpower_device" | safeHTML }}</h2>
+                        <p class = "font-20 font-md-16">{{ i18n "lowpower_device_desc" }}</p>
                         <div class = "row pt-20">
                             <div class = "col-6 col-md-3 pb-20 pb-md-0">
                                 <img src = "/_assets/images/chester/icons/battery_full.svg" class = "w-25 w-md-50" />
-                                <p class = "font-20 font-md-16 font-md-lnh18 font-weight-black pt-5">Primary lithium cells</p>
+                                <p class = "font-18 font-md-16 font-md-lnh18 font-weight-black pt-5">{{ i18n "lithium_cells" }}</p>
                             </div>
                             <div class = "col-6 col-md-3 pb-20 pb-md-0">
                                 <img src = "/_assets/images/chester/icons/battery.svg" class = "w-25 w-md-50" />
-                                <p class = "font-20 font-md-16 font-md-lnh18 font-weight-black pt-5">Rechargable batteries</p>
+                                <p class = "font-18 font-md-16 font-md-lnh18 font-weight-black pt-5">{{ i18n "rechargable_batteries" }}</p>
                             </div>
                             <div class = "col-6 col-md-3">
                                 <img src = "/_assets/images/chester/icons/sun.svg" class = "w-25 w-md-50" />
-                                <p class = "font-20 font-md-16 font-md-lnh18 font-weight-black pt-5">Photovoltaic solar panels</p>
+                                <p class = "font-18 font-md-16 font-md-lnh18 font-weight-black pt-5">{{ i18n "solar_panels" }}</p>
                             </div>
                             <div class = "col-6 col-md-3">
                                 <img src = "/_assets/images/chester/icons/power.svg" class = "w-25 w-md-50" />
-                                <p class = "font-20 font-md-16 font-md-lnh18 font-weight-black pt-5">24 V DC <br/>or 230 V AC</p>
+                                <p class = "font-18 font-md-16 font-md-lnh18 font-weight-black pt-5">24 V DC <br/>{{ i18n "or" }} 230 V AC</p>
                             </div>
                         </div>
                     </div>
@@ -941,46 +941,46 @@
 <div id = "applications" class = "chester-4">
 <div class = "container">
     <div class = "row">
-        <div class = "col-12 py-120">
+        <div class = "col-12 py-60 py-md-120">
             <div class = "row align-items-center justify-content-center pb-30">
                 <div class = "col-12 col-md-10 pb-30">
-                    <h2 class = "font-40 font-lnh48 font-md-52 font-weight-black font-md-lnh56 pb-10 font-white">Applications<span class = "font-gray2"><br/>industries and use cases</span></h2>
+                    <h2 class = "font-40 font-lnh48 font-md-52 font-weight-black font-md-lnh56 pb-10 font-white">{{ i18n "applications_industries" | safeHTML }}</h2>
                 </div>
             
 <div class = "col-12 col-md-10">
-            <div class = "row peripherals font-20 font-md-18 font-white">
+            <div class = "row peripherals font-18 font-md-18 font-white">
                 <div class = "col-6 col-md-4">
-                    <h3 class = "font-20 font-md-18 font-weight-black pb-10">Use cases</h3>
+                    <h3 class = "font-20 font-md-18 font-weight-black pb-10">{{ i18n "use_cases" }}</h3>
                     <ul>
-                    <li>Machine monitoring</li>
-                    <li>Predictive maintenance</li> 
-                    <li>Event alerting</li>
-                    <li>Smart metering</li>
-                    <li>Sensor telemetry</li> 
-                    <li>Asset tracking</li>
-                    <li>Air quality sensing</li>
-                    <li>Remote control</li>
-                    <li>Data logging</li>
+                        <li>{{ i18n "machine_monitoring" }}</li>
+                        <li>{{ i18n "predictive_maintenance" }}</li> 
+                        <li>{{ i18n "event_alerting" }}</li>
+                        <li>{{ i18n "smart_metering" }}</li>
+                        <li>{{ i18n "sensor_telemetry" }}</li> 
+                        <li>{{ i18n "asset_tracking" }}</li>
+                        <li>{{ i18n "air_quality_sensing" }}</li>
+                        <li>{{ i18n "remote_control" }}</li>
+                        <li>{{ i18n "data_logging" }}</li>
                     </ul>
                 </div>
 
                 <div class = "col-6 col-md-4">
-                    <h3 class = "font-20 font-md-18 font-weight-black pb-10">Industries</h3>
+                    <h3 class = "font-20 font-md-18 font-weight-black pb-10">{{ i18n "industries"}}</h3>
                     <ul>
-                    <li>Manufacturing</li>
-                    <li>Facility Management</li> 
-                    <li>Construction</li>
-                    <li>Agriculture</li>
-                    <li>Forestry</li>
-                    <li>Energy</li>
-                    <li>Security</li>
-                    <li>Health care</li>
-                    <li>Mining</li>
+                        <li>{{ i18n "manufacturing" }}</li>
+                        <li>{{ i18n "facility_anagement" }}</li> 
+                        <li>{{ i18n "construction" }}</li>
+                        <li>{{ i18n "agriculture" }}</li>
+                        <li>{{ i18n "forestry" }}</li> 
+                        <li>{{ i18n "energy" }}</li>
+                        <li>{{ i18n "security" }}</li>
+                        <li>{{ i18n "health_care" }}</li>
+                        <li>{{ i18n "mining" }}</li>
                     </ul>
                 </div>
                 <div class = "col-12 pt-30">
-                    <a href = "{{ "case-studies/" | absLangURL }}" class="ml-0 mr-20 font-18 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">Read case studies</a>
-                    <a href = "{{ "solutions/" | absLangURL }}" class="ml-0 mr-20 font-18 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">All&nbsp;solutions&nbsp;and&nbsp;use&nbsp;cases</a>
+                    <a href = "{{ "case-studies/" | absLangURL }}" class="ml-0 mr-20 font-16 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "read_case_studies" }}</a>
+                    <a href = "{{ "solutions/" | absLangURL }}" class="ml-0 mr-20 font-16 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "all_solutions" | safeHTML }}</a>
                 </div>
                 </div>
             </div>
@@ -1011,86 +1011,86 @@
 </style>
 
 <section>    
-<div class = "container pt-120">
-    <div class = "row font-20 font-md-15 justify-content-center">
+<div class = "container pt-60 pt-md-120">
+    <div class = "row font-15 font-md-15 justify-content-center">
             <div class = "col-12 col-md-10">
-                <h2 class = "font-40 font-lnh48 font-md-52 font-weight-black font-md-lnh56 pb-60"><span class = "font-gray2">Let's sum it up.</span><br/> What the most configurable means</h2>
+                <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30 pb-md-60"><span class = "font-gray2">{{ i18n "all_features" | safeHTML }}</h2>
             </div>
-            <div class = "col-12 col-md-5 pb-60">
-                <h3 class = "font-22 font-md-20 font-weight-black font-lnh24 pb-10">LPWAN connectivity</h3>
-                <p class = "pb-5">NB-IoT and LTE-M (Cat M1) with global bands support</p>
-                <p class = "pb-5">SIM card for LTE as a SIM chip (eSIM) or Nano-SIM</p>
-                <p class = "pb-5">LoRaWAN with support for 868/915 MHz</p>
-            </div>
-            
-            <div class = "col-12 col-md-5 pb-60">
-                <h3 class = "font-22 font-md-20 font-weight-black font-lnh24 pb-10">Dynamic antenna system</h3>
-                <p class = "pb-5">Software selection between internal and external antenna</p>
-                <p class = "pb-5">Software selection between LTE and LoRaWAN path</p>
-                <p class = "pb-5">External antenna connects via u.FL connector</p>
-            </div>
-
-            <div class = "col-12 col-md-5 pb-60">
-                <h3 class = "font-22 font-md-20 font-weight-black font-lnh24 pb-10">Bluetooth Low Energy 5.0</h3>
-                <p class = "pb-5">Device setup and diagnostics from smartphone</p>
-                <p class = "pb-5">Communication with other BLE devices</p>
-                <p class = "pb-5">Device firmware upgrades in the field</p>
-            </div>
-            <div class = "col-12 col-md-5 pb-60">
-                <h3 class = "font-22 font-md-20 font-weight-black font-lnh24 pb-10">GNSS positioning module</h3>
-                <p class = "pb-5">Support for GPS, Galileo, GLONASS</p>
-                <p class = "pb-5">High-sensitivity receiver chipset u-blox M8</p>
-                <p class = "pb-5">Flexible power control for low-power tracking</p>
+            <div class = "col-12 col-md-5 pb-30 pb-md-60">
+                <h3 class = "font-20 font-md-20 font-weight-black font-lnh24 pb-10">{{ i18n "f_1" }}</h3>
+                <p class = "pb-5">{{ i18n "f_11_" }}</p>
+                <p class = "pb-5">{{ i18n "f_12" }}</p>
+                <p class = "pb-5">{{ i18n "f_13" }}</p>
             </div>
             
-            <div class = "col-12 col-md-5 pb-60">
-                <h3 class = "font-22 font-md-20 font-weight-black font-lnh24 pb-10">Flexible power management</h3>
-                <p class = "pb-5">Power device from a replaceable primary 3.6 V Lithium cell</p>
-                <p class = "pb-5">Rechargeable battery from CHESTER-Z top-cover module</p>
-                <p class = "pb-5">External power delivered via extension modules</p>
+            <div class = "col-12 col-md-5 pb-30 pb-md-60">
+                <h3 class = "font-20 font-md-20 font-weight-black font-lnh24 pb-10">{{ i18n "f_2" }}</h3>
+                <p class = "pb-5">{{ i18n "f_21" }}</p>
+                <p class = "pb-5">{{ i18n "f_22" }}</p>
+                <p class = "pb-5">{{ i18n "f_23" }}</p>
             </div>
 
-            <div class = "col-12 col-md-5 pb-60">
-                <h3 class = "font-22 font-md-20 font-weight-black font-lnh24 pb-10">Onboard 3-axis MEMS accelerometer</h3>
-                <p class = "pb-5">Detection of device orientation and tilt event</p>
-                <p class = "pb-5">Recognition of device vibration</p>
-                <p class = "pb-5">Possibility to configure dynamic range and sensitivity</p>
+            <div class = "col-12 col-md-5 pb-30 pb-md-60">
+                <h3 class = "font-20 font-md-20 font-weight-black font-lnh24 pb-10">{{ i18n "f_3" }}</h3>
+                <p class = "pb-5">{{ i18n "f_31" }}</p>
+                <p class = "pb-5">{{ i18n "f_32" }}</p>
+                <p class = "pb-5">{{ i18n "f_33" }}</p>
             </div>
-            <div class = "col-12 col-md-5 pb-60">
-                <h3 class = "font-22 font-md-20 font-weight-black font-lnh24 pb-10">Two slots for extension modules</h3>
-                <p class = "pb-5">Supports combinations of modules for various project needs</p>
-                <p class = "pb-5">Signals are routed to terminal blocks for full flexibility</p>
-                <p class = "pb-5">Soldered from the bottom side for enhanced reliability</p>
+            <div class = "col-12 col-md-5 pb-30 pb-md-60">
+                <h3 class = "font-20 font-md-20 font-weight-black font-lnh24 pb-10">{{ i18n "f_4" }}</h3>
+                <p class = "pb-5">{{ i18n "f_41" }}</p>
+                <p class = "pb-5">{{ i18n "f_42" }}</p>
+                <p class = "pb-5">{{ i18n "f_43" }}</p>
             </div>
             
-            <div class = "col-12 col-md-5 pb-60">
-                <h3 class = "font-22 font-md-20 font-weight-black font-lnh24 pb-10">Push-in style terminal blocks</h3>
-                <p class = "pb-5">Interface to various external I/O or power sources</p>
-                <p class = "pb-5">All terminals feature a transient voltage protection</p>
-                <p class = "pb-5">Parallel terminal blocks for convenient wiring</p>
+            <div class = "col-12 col-md-5 pb-30 pb-md-60">
+                <h3 class = "font-20 font-md-20 font-weight-black font-lnh24 pb-10">{{ i18n "f_5" }}</h3>
+                <p class = "pb-5">{{ i18n "f_51" }}</p>
+                <p class = "pb-5">{{ i18n "f_52" }}</p>
+                <p class = "pb-5">{{ i18n "f_53" }}</p>
             </div>
 
-            <div class = "col-12 col-md-5 pb-60">
-                <h3 class = "font-22 font-md-20 font-weight-black font-lnh24 pb-10">Integrated 1-Wire bus interface</h3>
-                <p class = "pb-5">Support for multiple DS18B20 thermometers</p>
-                <p class = "pb-5">Integration with HARDWARIO Machine Probe</p>
-                <p class = "pb-5">Integration with HARDWARIO Soil Sensor</p>
+            <div class = "col-12 col-md-5 pb-30 pb-md-60">
+                <h3 class = "font-20 font-md-20 font-weight-black font-lnh24 pb-10">{{ i18n "f_6" }}</h3>
+                <p class = "pb-5">{{ i18n "f_61" }}</p>
+                <p class = "pb-5">{{ i18n "f_62" }}</p>
+                <p class = "pb-5">{{ i18n "f_63" }}</p>
+            </div>
+            <div class = "col-12 col-md-5 pb-30 pb-md-60">
+                <h3 class = "font-20 font-md-20 font-weight-black font-lnh24 pb-10">{{ i18n "f_7" }}</h3>
+                <p class = "pb-5">{{ i18n "f_71" }}</p>
+                <p class = "pb-5">{{ i18n "f_72" }}</p>
+                <p class = "pb-5">{{ i18n "f_73" }}</p>
+            </div>
+            
+            <div class = "col-12 col-md-5 pb-30 pb-md-60">
+                <h3 class = "font-20 font-md-20 font-weight-black font-lnh24 pb-10">{{ i18n "f_8" }}</h3>
+                <p class = "pb-5">{{ i18n "f_81" }}</p>
+                <p class = "pb-5">{{ i18n "f_82" }}</p>
+                <p class = "pb-5">{{ i18n "f_83" }}</p>
             </div>
 
-            <div class = "col-12 col-md-5 pb-60">
-                <h3 class = "font-22 font-md-20 font-weight-black font-lnh24 pb-10">Other integrated peripherals</h3>
-                <p class = "pb-5">8 MB flash memory for data logging</p>
-                <p class = "pb-5">Accurate digital temperature sensor</p>
-                <p class = "pb-5">3-color LED for instant state recognition</p>
+            <div class = "col-12 col-md-5 pb-30 pb-md-60">
+                <h3 class = "font-20 font-md-20 font-weight-black font-lnh24 pb-10">{{ i18n "f_9" }}</h3>
+                <p class = "pb-5">{{ i18n "f_91" }}</p>
+                <p class = "pb-5">{{ i18n "f_92" }}</p>
+                <p class = "pb-5">{{ i18n "f_93" }}</p>
             </div>
 
-            <div class = "col-12 col-md-5 pb-60">
-                <h3 class = "font-22 font-md-20 font-weight-black font-lnh24 pb-10">Additional available interfaces</h2>
-                <p class = "pb-5">I2C communication bus on a terminal block and a connector</p>
-                <p class = "pb-5">Optional external LED, push button, and tamper switch on a connector</p>
-                <p class = "pb-5">System connector with I2C bus and power sink/source</p>
-                <p class = "pb-5">Optional external battery pack on a connector</p>
-                <p class = "pb-5">Two Sparkfun QWIIC connectors for a variety of 3rd party accessories</p>
+            <div class = "col-12 col-md-5 pb-30 pb-md-60">
+                <h3 class = "font-20 font-md-20 font-weight-black font-lnh24 pb-10">{{ i18n "f_10" }}</h3>
+                <p class = "pb-5">{{ i18n "f_101" }}</p>
+                <p class = "pb-5">{{ i18n "f_102" }}</p>
+                <p class = "pb-5">{{ i18n "f_103" }}</p>
+            </div>
+
+            <div class = "col-12 col-md-5 pb-30 pb-md-60">
+                <h3 class = "font-20 font-md-20 font-weight-black font-lnh24 pb-10">{{ i18n "f_11" }}</h2>
+                <p class = "pb-5">{{ i18n "f_111" }}</p>
+                <p class = "pb-5">{{ i18n "f_112" }}</p>
+                <p class = "pb-5">{{ i18n "f_113" }}</p>
+                <p class = "pb-5">{{ i18n "f_114" }}</p>
+                <p class = "pb-5">{{ i18n "f_115" }}</p>
             </div>
             <div class = "col-12 col-md-5">
                 <!-- -->
@@ -1104,94 +1104,94 @@
     <div class = "container py-60">
         <div class = "row justify-content-center px-10">
 
-            <div class = "col-12 py-60 mb-90 content-block">
+            <div class = "col-12 py-60 py-md-60 mb-90 content-block">
                 <div class = "row align-items-center justify-content-center">
                     <div class = "col-12 pb-30 text-center">
-                        <h2 class = "font-40 font-lnh48 font-md-52 font-weight-black font-md-lnh56 pb-10">Peripherals - <span class = "font-gray2">sensors, actors, devices</span></h2>
+                        <h2 class = "font-40 font-lnh48 font-md-52 font-weight-black font-md-lnh56 pb-10">{{ i18n "peripherals" | safeHTML }}</h2>
                     </div>
                 
             <div class = "col-12 px-30 px-md-15 col-md-9">
-                <div class = "row peripherals font-20 font-md-16">
+                <div class = "row peripherals font-18 font-md-16">
                     <div class = "col-6 col-md-3 pb-30">
-                        <h3 class = "font-20 font-md-16 font-weight-black pb-10">Temperature sensors</h3>
+                        <h3 class = "font-18 font-md-16 font-weight-black pb-10">{{ i18n "temperature_sensors" }}</h3>
                         <ul>
-                        <li>Digital 1-Wire</li>
+                        <li>{{ i18n "digital" }} 1-Wire</li>
                         <li>Pt100</li> 
                         <li>Pt1000</li>
-                        <li>Thermocouple</li>
+                        <li>{{ i18n "thermocouples" }}</li>
                         </ul>
                     </div>
 
                     <div class = "col-6 col-md-3 pb-30">
-                        <h3 class = "font-20 font-md-16 font-weight-black pb-10">Proximity sensors</h3>
+                        <h3 class = "font-20 font-md-16 font-weight-black pb-10">{{ i18n "proximity_sensors" }}</h3>
                         <ul>
-                        <li>Inductive</li>
-                        <li>Capacitive</li> 
-                        <li>Optical</li>
-                        <li>Magnetic</li>
+                        <li>{{ i18n "inductive"}}</li>
+                        <li>{{ i18n "capacitive"}}</li> 
+                        <li>{{ i18n "optical"}}</li>
+                        <li>{{ i18n "magnetic" }}</li>
                         </ul>
                     </div>
 
                     <div class = "col-6 col-md-3 pb-30">
-                        <h3 class = "font-20 font-md-16 font-weight-black pb-10">Linear sensors</h3>
+                        <h3 class = "font-20 font-md-16 font-weight-black pb-10">{{ i18n "linear_sensors"}}</h3>
                         <ul>
-                        <li>Flow</li>
-                        <li>Pressure</li> 
-                        <li>Weight</li>
-                        <li>Distance</li>
-                        <li>Current</li>
-                        <li>Voltage</li>
+                        <li>{{ i18n "flow"}}</li>
+                        <li>{{ i18n "pressure"}}</li> 
+                        <li>{{ i18n "weight"}}</li>
+                        <li>{{ i18n "distance"}}</li>
+                        <li>{{ i18n "current"}}</li>
+                        <li>{{ i18n "voltage"}}</li>
                         </ul>
                     </div>
 
                     <div class = "col-6 col-md-3 pb-30 ">
-                        <h3 class = "font-20 font-md-16 font-weight-black pb-10">Air quality</h3>
+                        <h3 class = "font-20 font-md-16 font-weight-black pb-10">{{ i18n "air_quality"}}</h3>
                         <ul>
-                        <li>Temperature</li>
-                        <li>Humidity</li> 
-                        <li>Dust particles</li>
-                        <li>Carbon dioxide</li>
+                        <li>{{ i18n "temperature"}}</li>
+                        <li>{{ i18n "humidity"}}</li> 
+                        <li>{{ i18n "dust_particles"}}</li>
+                        <li>{{ i18n "carbon_dioxide"}}</li>
                         </ul>
                     </div>
 
                     <div class = "col-6 col-md-3 pb-30 ">
-                        <h3 class = "font-20 font-md-16 font-weight-black pb-10">Water quality</h3>
+                        <h3 class = "font-20 font-md-16 font-weight-black pb-10">{{ i18n "water_quality"}}</h3>
                         <ul>
-                        <li>Conductivity</li>
-                        <li>pH level</li> 
-                        <li>Oxygen</li>
-                        <li>Temperature</li>
+                        <li>{{ i18n "conductivity"}}</li>
+                        <li>{{ i18n "ph_level"}}</li> 
+                        <li>{{ i18n "oxygen"}}</li>
+                        <li>{{ i18n "temperature"}}</li>
                         </ul>
                     </div>
 
                     <div class = "col-6 col-md-3 pb-30 ">
-                        <h3 class = "font-20 font-md-16 font-weight-black pb-10">Soil parameters</h3>
+                        <h3 class = "font-20 font-md-16 font-weight-black pb-10">{{ i18n "soil_parameters"}}</h3>
                         <ul>
-                        <li>Temperature</li>
-                        <li>Moisture</li>
+                        <li>{{ i18n "temperature"}}</li>
+                        <li>{{ i18n "moisture"}}</li>
                         </ul>
                     </div>
 
                     <div class = "col-6 col-md-3 pb-30 ">
-                        <h3 class = "font-20 font-md-16 font-weight-black pb-10">Location sensors</h3>
+                        <h3 class = "font-20 font-md-16 font-weight-black pb-10">{{ i18n "location_sensors" }}</h3>
                         <ul>
-                        <li>Position (GNSS)</li>
-                        <li>Orientation (accelerometer)</li>
+                        <li>{{ i18n "position"}} (GNSS)</li>
+                        <li>{{ i18n "orientation"}}</li>
                         </ul>
                     </div>
 
                     <div class = "col-6 col-md-3 pb-30 ">
-                        <h3 class = "font-20 font-md-16 font-weight-black pb-10">Event detectors</h3>
+                        <h3 class = "font-20 font-md-16 font-weight-black pb-10">{{ i18n "event_detectors" }}</h3>
                         <ul>
-                        <li>Motion (PIR)</li>
-                        <li>Push button</li>
-                        <li>Shock and tilt</li>
-                        <p>Dendrometers</p>
+                        <li>{{ i18n "motion"}} (PIR)</li>
+                        <li>{{ i18n "push_button"}}</li>
+                        <li>{{ i18n "shock_tilt"}}</li>
+                        <p>{{ i18n "dendrometers"}}</p>
                         </ul>
                     </div>
                     <div class = "col-12">
-                        <a href = "#" data-target = "interfacesModal" class="openModal ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">Supported interfaces</a>
-                        <a href = "#" data-target = "extensionsModal" class="openModal ml-0 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">List&nbsp;of&nbsp;extensions</a>
+                        <a href = "#" data-target = "interfacesModal" class="openModal ml-0 mr-20 font-16 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "supported_interfaces"}}</a>
+                        <a href = "#" data-target = "extensionsModal" class="openModal ml-0 font-16 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "extension_list" }}</a>
                     </div>
                     </div>
                 </div>
@@ -1199,9 +1199,9 @@
                 </div>
                 <div class = "col-12 pl-30 pr-15 pl-md-60 pr-md-15 mb-90 content-block">
                     <div class = "row">
-                        <div class = "col-12 col-md-6 py-30 py-md-90 pb-10">
-                            <h2 class = "font-40 font-lnh48 font-md-52 font-weight-black font-md-lnh56 pb-30"><span class = "font-gray2">Programmability</span> <br/>Open SDK for rapid firmware development</h2>
-                            <p class = "font-20 font-md-16 pb-10">Build your own application on top of nRF Connect SDK with the underlying Zephyr OS. With embedded C as a primary programming language and support for Visual Studio Code as the development IDE you can use Windows, macOS or Linux development environments.</p>
+                        <div class = "col-12 col-md-6 py-60 py-md-90 pb-10">
+                            <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30">{{ i18n "open_sdk" | safeHTML }}</h2>
+                            <p class = "font-20 font-md-16 pb-10">{{ i18n "open_sdk_desc" }}</p>
                             
     
                         </div>
@@ -1212,12 +1212,12 @@
                 </div> 
                 
                 
-                <div class = "col-12 pl-30 pr-15 pl-md-60 pr-md-15 mb-90 content-block">
+                <div class = "col-12 pl-30 pr-15 pl-md-60 pr-md-15 mb-md-90 content-block">
                     <div class = "row">
-                        <div class = "col-12 col-md-6 py-30 py-md-90 pb-10">
-                            <h2 class = "font-40 font-lnh48 font-md-52 font-weight-black font-md-lnh56 pb-30"><span class = "font-gray2">HARDWARIO Cloud</span> Easy integration with any system</h2>
-                            <p class = "font-20 font-md-16 pb-10">Seamless management of your devices, user-defined Callbacks and REST API. Integration of CHESTER with Microsoft, Ubidots, Blynk or your own system is secure, fast and easy.</p>
-                            <a href = "https://api.hardwario.cloud" target="_blank" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">See the REST API documentation</a>
+                        <div class = "col-12 col-md-6 py-60 py-md-90 pb-10">
+                            <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30">{{ i18n "hardwario_cloud" | safeHTML }}</h2>
+                            <p class = "font-20 font-md-16 pb-10">{{ i18n "hardwario_cloud_desc"}}</p>
+                            <a href = "https://api.hardwario.cloud" target="_blank" class="ml-0 mr-20 font-16 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "see_api" }}</a>
     
                         </div>
                         <div class = "col-12 col-md-6 pt-30 pr-0 chester-6">
@@ -1236,11 +1236,16 @@
     <div class = "row justify-content-center"  >
         
         <div class="col-12 col-md-8 specification text-center">
-            <h2 class = "font-40 font-lnh48 font-md-52 font-weight-black font-md-lnh56">Get CHESTER</h2>
+            <h2 class = "font-40 font-lnh48 font-md-52 font-weight-black font-md-lnh56">{{ i18n "get_chester" |safeHTML }}</h2>
             <p class="font-20 font-md-16 pt-5 pb-30">
-                Choose Hardware-as-a-Service model or a one-time purchase model. Get in touch with us to know more and build IoT projects for your customers today, together.
+                {{ i18n "get_chester_desc" }}
             </p>
-            <!--<table>
+            <a href="#" data-target = "offerModal" class="openModal getOffer font-lnh24 py-15 px-20 px-md-40 d-inline-block font-weight-bold font-font2 font-white font-20 font-md-16 bg-red">{{ i18n "interested_in_chester" }}</a>
+                    
+        </div>
+        <div class="col-12 col-md-10 pt-20 font-14 font-md-16 font-lnh18 specification text-center">
+            <div class = "table-responsive">
+            <table class = "text-left">
                 <tr>
                     <td><strong>{{ i18n "power_voltage" }}</strong></td>
                     <td>3.6 V</td>
@@ -1273,14 +1278,14 @@
                     <td><strong>{{ i18n "temperature_accuracy" }}</strong></td>
                     <td>± 0.3 °C</td>
                 </tr>
-            </table>-->
+            </table>
+        </div>
     </div>
 
     <section>
         <div class = "container">
             <div class = "row justify-content-center pb-md-30">
                 <div class = "col-12 col-md-10 text-center">
-                    <a href="#" data-target = "offerModal" class="openModal getOffer font-lnh24 py-15 px-20 px-md-40 d-inline-block font-weight-bold font-font2 font-white font-20 font-md-16 bg-red">{{ i18n "interested_in_chester" }}</a>
                     <img loading="lazy" src="/_assets/images/chester/14.png" class="w-100 pt-30 pb-60" alt="" />
                 </div>
             </div>
