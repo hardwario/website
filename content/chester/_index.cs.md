@@ -1,6 +1,6 @@
 ---
 title: CHESTER
-heading: Nejlépe konfigurovatelná průmyslová IoT brána
+heading: Nejlépe konfigurovatelná průmyslová IoT&nbsp;brána
 description: Univerzální zařízení s velmi nízkou spotřebou komunikující prostřednictvím LPWAN. Umožňuje připojení dalších externích prvků pomocí celé řady rozhraní.
 menu:
 weight: 100

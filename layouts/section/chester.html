@@ -499,7 +499,7 @@
                   </div>
               </div>
               <div class="row pb-10 pb-md-30">
-                  <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
+                  <div class="col-12 col-md-10 col-xl-8 mx-auto text-center">
                       <h1 class="text-center pb-20 font-weight-black font-44 font-md-64 font-xl-72 font-md-lnh68">{{ .Params.heading | safeHTML }}</h1>
                   </div>
               </div>
@@ -568,7 +568,7 @@
 <section>
     <div class="container" id = "overview">
     <div class = "row justify-content-center align-items-center pt-md-60">
-        <div class = "col-9 col-md-3 text-center text-md-right pl-md-15 pr-md-40">
+        <div class = "col-9 col-md-3 col-xl-4 text-center text-md-right pl-md-15 pr-md-40">
             <div class = "pt-60 pt-md-15 pb-10">
                 <h2 class = "font-20 font-md-24 font-weight-black pb-5">{{ i18n "application_elasticity" }}</h2>
                 <p class = "font-20 font-md-24">{{ i18n "application_elasticity_desc" }}</p>
@@ -586,11 +586,11 @@
 
 
         </div>
-        <div class = "d-none d-md-block col-6 col-md-5">
+        <div class = "d-none d-md-block col-6 col-md-d col-xl-6">
             <img src = "/_assets/images/chester/device.png" class = "mx-auto w-100"/>
         </div>
 
-        <div class = "col-9 col-md-3 text-center text-md-left pl-md-40">
+        <div class = "col-9 col-md-3 col-xl-4 text-center text-md-left pl-md-40">
             <div class = "pt-60 pt-md-15 pb-10">
                 <h2 class = "font-20 font-md-24 font-weight-black pb-5">{{ i18n "ip67pl" }}</h2>
                 <p class = "font-20 font-md-24">{{ i18n "ip67pl_desc" }}</p>
@@ -651,6 +651,12 @@
             background-size: 60%; 
             background-position: 100% 0%; 
         }
+    }
+    @media(max-width: 1281px){
+        .chester-1{
+            background-position: 50% 100%;
+        }
+
     }
     .chester-2{
         background-size: 100%; 
@@ -883,7 +889,7 @@
                     <div class = "col-12 col-md-3 pl-0 chester-2">
 
                     </div>
-                    <div class = "col-12 col-md-7 px-md-60 pt-40 pt-md-90 pb-60 pb-md-120">
+                    <div class = "col-12 col-md-9 col-xl-7 px-md-60 pt-40 pt-md-90 pb-60 pb-md-120">
                         <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30"><span class = "font-gray2">{{ i18n "reliable_connectivity" | safeHTML }}</h2>
                         <p class = "font-20 font-md-16">{{ i18n "reliable_connectivity_desc" }}</p>
                         <img loading="lazy" src="/_assets/images/chester/lpwan_brands.png" class="w-100 w-md-75 mt-10" alt="" />

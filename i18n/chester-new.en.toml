@@ -86,7 +86,7 @@ other = "Reliable connectivity</span> Data from distant and deep indoor places"
 other = "CHESTER connects to the internet via LPWAN communication technologies (NB-IoT, LTE-M, and LoRaWAN are supported). Choose the built-in internal antenna or connect an external antenna for any of those options. For diagnostics, parametrization, and device firmware upgrades, CHESTER comes with a Bluetooth Low Energy interface available in modern smart devices and notebooks."
 
 [lowpower_device]
-other = "Designed from the ground up as a</span> <br/>low-power&nbsp;device"
+other = "Designed from the ground up as a</span> low&#x2011;power&nbsp;device"
 
 [lowpower_device_desc]
 other = "CHESTER has been designed from the ground up as a low-power device and provides years of operation from the primary lithium cells. Another way to power the device is to use a rechargeable battery backup module with the optional solar photovoltaic panel input. For applications where batteries are not applicable, it is possible to energize the device from a standard 24 V DC line power or 230 V AC line."

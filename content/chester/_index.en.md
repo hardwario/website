@@ -1,6 +1,6 @@
 ---
 title: CHESTER
-heading: The most configurable IoT gateway
+heading: The most configurable IoT&nbsp;gateway
 description: Universal device with very low power consumption communicating via LPWAN. It allows the connection of other external elements via a number of interfaces.
 menu:
 weight: 100
