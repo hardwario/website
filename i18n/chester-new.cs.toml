@@ -154,13 +154,13 @@ other = "Stavebnictví"
 [agriculture]
 other = "Zemědělství"
 
-[lesnictví]
+[forestry]
 other = "Lesnictví"
 
-[energie]
+[energy]
 other = "Energetika"
 
-[bezpečnost]
+[security]
 other = "Zabezpečení"
 
 [health_care]
@@ -355,7 +355,6 @@ other = "Senzory polohy"
 [event_detectors]
 other = "Detektory událostí"
 
-
 [flow]
 other = "Proudění"
 
@@ -365,7 +364,7 @@ other = "Tlak"
 [weight]
 other = "Váha"
 
-[vzdálenost]
+[distance]
 other = "Vzdálenost"
 
 [current]
