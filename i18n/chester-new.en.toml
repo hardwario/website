@@ -425,7 +425,10 @@ other = "<span class = 'font-gray2'>HARDWARIO Cloud</span> Easy integration with
 other = "Seamless management of your devices, user-defined Callbacks and REST API. Integration of CHESTER with Microsoft, Ubidots, Blynk or your own system is secure, fast and easy."
 
 [see_api]
-other = "See the REST API documentation"
+other = "REST API documentation"
+
+[cloud_more]
+other = "More about HARDWARIO Cloud"
 
 [get_chester]
 other = "Get CHESTER"
