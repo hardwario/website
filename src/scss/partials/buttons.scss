@@ -8,4 +8,13 @@
         border-bottom: none;
       }
   }
+
+  &__link--gray{
+    border-bottom: solid 2px #666666;
+    margin: 0 10px;
+    &:hover{
+      text-decoration: none;
+      border-bottom: none;
+    }
+}
 }

@@ -1,6 +1,9 @@
 [watch_video]
 other = "Watch the video"
 
+[download_leaflet]
+other = "Download&nbsp;products&nbsp;leaflet"
+
 [application_elasticity]
 other = "Application elasticity"
 
