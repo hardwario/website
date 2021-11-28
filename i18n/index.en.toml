@@ -80,13 +80,13 @@ other = "Come join us in person"
 other = "Explore the wonderful world of technology as we share our knowledge of IoT technologies and STEM education."
 
 [design_manufacture]
-other = "We design and&nbsp;manufacture unique&nbsp;IoT&nbsp;devices"
+other = "We build <br/>unique&nbsp;IoT&nbsp;devices"
 
 [works_from_batteries]
-other = "<strong>They work on batteries for several years</strong>, with the ability to <strong>connect to the Internet from almost anywhere</strong> and can be <strong>easily integrated</strong> with other systems."
+other = "Low-power design - IoT connectivity - Easy integrations - Partnership"
 
 [together_with_partners]
-other = "<a href = '/partners/'>Together with our partners</a>, we successfully implement them in digitization projects in industry, agriculture, retail, healthcare or education."
+other = "<a href = '/partners/'>Our partners</a> successfully implement them in digitization projects in industry, agriculture, retail, healthcare or education."
 
 [from_strategy_to_implementation]
 other = "From strategy to&nbsp;implementation"
