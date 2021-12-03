@@ -6,9 +6,9 @@ device: CHESTER
 examples: ["Monitoring teploty motorů výrobní linky","Monitoring pulsů pro měření spotřeby a výkonu","Monitoring rotací","Ultrazvukový monitoring výšky hladiny jímky","Monitoring vibrací"]
 extensions: []
 studies: ["tpca","eon"]
-consultation: Ramin Zaghi, CEO HARDWARIO LTD UK
-cons_img: ramin.png
-cons_link: https://meetings.hubspot.com/ramin-zaghi
+consultation: Alan Fabik, CEO HARDWARIO
+cons_img: alan.png
+cons_link: https://meetings.hubspot.com/alanfabik/booking
 image_preview: /use-cases/predictive-maintenance.png
 weight: 20
 full: true

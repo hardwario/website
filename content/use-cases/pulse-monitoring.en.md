@@ -6,9 +6,9 @@ device: CHESTER
 examples: ["Electricity meter monitoring","Gas meter monitoring","Water flow meter monitoring","Production machine duty cycle monitoring"]
 extensions: [["4× external switch","CHESTER-X0D"]]
 studies: ["otk","surun"]
-consultation: Ramin Zaghi, CEO HARDWARIO LTD UK
-cons_img: ramin.png
-cons_link: https://meetings.hubspot.com/ramin-zaghi
+consultation: Alan Fabik, CEO HARDWARIO
+cons_img: alan.png
+cons_link: https://meetings.hubspot.com/alanfabik/booking
 image_preview: /use-cases/pulse.png
 weight: 30
 full: true

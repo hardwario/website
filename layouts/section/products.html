@@ -12,88 +12,94 @@
                     </div>
                 </div>
             </div>
-            <div class="row text-center">
-                      <div class="container pb-50 mb-md-50">
-                          <div class="row text-center justify-content-center">
-
-                            {{ with .Site.GetPage "/kit" }}
-                              <div class="col-12 col-md-6 col-lg-5 col-xl-4 pb-50 pb-md-20">
-                                  <a href="{{ .Permalink }}" class="d-block mb-10">
-                                      <img loading="lazy" src="/_assets/images/iot-kit.svg" class="mt-20 movingObject" height = "340" alt="" />
-                                  </a>
-                                  <h2 class="font-34 font-md-40 pb-20 pb-xl-30 font-weight-black">{{ .Title | safeHTML }}</h2>
-                                  <div class="row">
-                                      <div class="col-10 col-lg-9 mx-auto pb-30 pb-xl-50">
-                                          <p class="font-19 font-lnh30 font-gray2">{{ .Params.description | safeHTML }}</p>
-                                      </div>
-                                  </div>
-                                  <a href="{{ .Permalink }}" class="cta-button font-lnh54 font-md-lnh40 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "learn_more" }}</a>
-                              </div>
-                            {{ end }}
-                            {{ with .Site.GetPage "/chester" }}
-                              <div class="col-12 col-md-6 col-lg-5 col-xl-4 pb-50 pb-md-20">
-                                  <a href="{{ .Permalink }}" class="d-block mb-10">
-                                      <img loading="lazy" src="/_assets/images/chester-device.svg" class="movingObject" height = "360" alt="" />
-                                  </a>
-                                  <h2 class="font-34 font-md-40 pb-20 pb-xl-30 font-weight-black">{{ .Params.heading | safeHTML }}</h2>
-                                  <div class="row">
-                                      <div class="col-12 col-lg-11 mx-auto pb-30 pb-xl-50">
-                                          <p class="font-19 font-lnh30 font-gray2">{{ .Params.description | safeHTML }}</p>
-                                      </div>
-                                  </div>
-                                  <a href="{{ .Permalink }}" class="cta-button font-lnh54 font-md-lnh40 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "learn_more" }}</a>
-                              </div>
-                            {{ end }}
-                            {{ with .Site.GetPage "/cooper" }}
-                            <div class="col-12 col-md-6 col-lg-5 col-xl-4 pb-50 pt-md-30 pt-lg-0 pb-md-20">
-                                <a href="{{ .Permalink }}" class="d-block mb-0">
-                                    <img loading="lazy" src="/_assets/images/cooper-device.svg" class="movingObject" height = "370" alt="" />
-                                </a>
-                                <h2 class="font-28 font-md-40 pb-20 pb-xl-30 font-weight-black">{{ .Params.heading | safeHTML }}</h2>
-                                <div class="row">
-                                    <div class="col-12 col-lg-11 mx-auto pb-30 pb-md-50">
-                                        <p class="font-19 font-lnh30 font-gray2">{{ .Params.description | safeHTML }}</p>
-                                    </div>
-                                </div>
-                                <a href="{{ .Permalink }}" class="cta-button font-lnh54 font-md-lnh40 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "learn_more" }}</a>
-                            </div>
-                            {{ end }}
-                            {{ with .Site.GetPage "/cloud" }}
-                            <div class="col-12 col-md-6 col-lg-5 col-xl-4 pb-50 pt-md-30 pt-lg-0 pb-md-20">
-                                <a href="{{ .Permalink }}" class="d-block mb-0">
-                                    <img loading="lazy" src="/_assets/images/cloud.svg" class="movingObject movingObject--noShadow" height = "370" alt="" />
-                                </a>
-                                <h2 class="font-28 font-md-40 pb-20 pb-xl-30 font-weight-black">{{ .Params.heading | safeHTML }}</h2>
-                                <div class="row">
-                                    <div class="col-12 col-lg-11 mx-auto pb-30 pb-md-50">
-                                        <p class="font-19 font-lnh30 font-gray2">{{ .Params.description | safeHTML }}</p>
-                                    </div>
-                                </div>
-                                <a href="{{ .Permalink }}" class="cta-button font-lnh54 font-md-lnh40 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "learn_more" }}</a>
-                            </div>
-                            {{ end }}
-                            {{ with .Site.GetPage "/bespoke-development" }}
-                            <div class="col-12 col-md-6 col-lg-5 col-xl-4 pb-50 pb-md-20">
-                                <a href="{{ .Permalink }}" class="d-block mb-10">
-                                    <img loading="lazy" src="/_assets/images/bespoke.svg" class="movingObject movingObject--noShadow" height = "360" alt="" />
-                                </a>
-                                <h2 class="font-34 font-md-40 pb-20 pb-xl-30 font-weight-black">{{ .Params.heading | safeHTML }}</h2>
-                                <div class="row">
-                                    <div class="col-12 col-lg-11 mx-auto pb-30 pb-xl-50">
-                                        <p class="font-19 font-lnh30 font-gray2">{{ .Params.perex | safeHTML }}</p>
-                                    </div>
-                                </div>
-                                <a href="{{ .Permalink }}" class="cta-button font-lnh54 font-md-lnh40 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "learn_more" }}</a>
-                            </div>
-                            {{ end }}
-                          </div>
-                      </div>
-
-
-            </div>
         </div>
     </section>
 
-
+    <style>
+        .content-block{
+            background-image: linear-gradient(to bottom right, #ebb50e, #ffd966); 
+            background-size: 100%; 
+            border-radius: 7px;
+        }
+        .content-block--gray{
+            background-image: linear-gradient(to bottom right, #cccccc, #b1adad); 
+        }
+        .content-block--gray2{
+            background-image: linear-gradient(to bottom right, #ffffff, #ececec); 
+        }
+    
+        .chester-1{
+            background-size: 90%; 
+            border-radius: 7px; 
+            background-position: 50% 30px; 
+            background-image: url('/_assets/images/chester/1.png');
+            background-repeat: no-repeat;
+        }
+        @media(max-width: 769px){
+            .chester-1{
+                height: 400px;
+                background-position: 50% 100%;
+            }
+    
+        }
+        @media(max-width: 1281px){
+            .chester-1{
+                background-position: 50% 100%;
+            }
+    
+        }
+    </style>
+    
+    
+    <section>
+        <div class = "container">
+            <div class = "row justify-content-center px-10">
+    
+                <div class = "col-12 px-30 pl-md-60 mb-20 content-block">
+                    <div class = "row">
+                        <div class = "col-12 col-md-6 pt-40 pt-md-90 pb-30 pb-md-120">
+                            <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO CHESTER</span></div>
+                            <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30">The most configurable IoT gateway</h2>
+                            <p class = "font-20 font-md-20 pb-10">Extensible IoT gateway for Industry 4.0, smart city, e-metering, and agricultural applications.</p>
+                            <a href = "/chester" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
+                        </div>
+                        <div class = "col-12 col-md-6 pt-30 pr-0 chester-1">
+    
+                        </div>
+                    </div>
+                </div> 
+    
+                <div class = "col-12 col-md-6 pl-0 pr-0 pr-md-10">
+                    <div class = "col-12 px-30 mb-20 content-block content-block--gray">
+                    <div class = "row">
+                        <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center">
+                            <div class="ffont-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO TOWER</span></div>
+                            <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">Industrial<br/> IoT Kit</h2>
+                            <p class = "font-20 font-md-20 pb-10">Industry 4.0 pilots, STEM education and smart home DIY projects.</p>
+                            <a href = "/kit" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
+                            <a href = "#" class="pt-20 pt-md-0 ml-0 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">Buy on shop.hardwario.com</a>
+                            <img src = "/_assets/images/products/tower.png" class = "mx-auto mt-20 w-100"/>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class = "col-12 col-md-6 pl-0 pl-md-10 pr-0">
+                    <div class = "col-12 px-30 mb-90 content-block content-block--gray">
+                    <div class = "row">
+                        <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center">
+                            <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO Cloud</span></div>
+                            <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">HARDWARIO Cloud Services</h2>
+                            <p class = "font-20 font-md-20 pb-10">Cloud services for device management and data handling - providing IoT connectivity, REST API and callbacks.</p>
+                            <a href = "/cooper" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
+                            <br/>
+                            <img src = "/_assets/images/products/cloud.png" class = "mx-auto mt-20 w-100"/>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 <footer>
 {{ end }}

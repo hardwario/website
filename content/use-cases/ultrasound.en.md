@@ -6,9 +6,9 @@ device: CHESTER
 examples: ["Water level metering in rain tanks","Water level metering in wells or cesspools","Level measurement in silos","Level measurement in emulsion tanks"]
 extensions: [["Ultrasonic sensor", "CHESTER-X0B"]]
 studies: ["skanska"]
-consultation: Ramin Zaghi, CEO HARDWARIO LTD UK
-cons_img: ramin.png
-cons_link: https://meetings.hubspot.com/ramin-zaghi
+consultation: Alan Fabik, CEO HARDWARIO
+cons_img: alan.png
+cons_link: https://meetings.hubspot.com/alanfabik/booking
 image_preview: /use-cases/ultrasound.png
 weight: 20
 full: true

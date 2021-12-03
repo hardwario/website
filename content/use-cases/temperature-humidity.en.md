@@ -6,9 +6,9 @@ device: CHESTER
 examples: [""]
 extensions: [["I2C periferie", "CHESTER-X0A"],["1-Wire", "CHESTER-X1"]]
 studies: ["iframix","bark-beetle","eon"]
-consultation: Ramin Zaghi, CEO HARDWARIO LTD UK
-cons_img: ramin.png
-cons_link: https://meetings.hubspot.com/ramin-zaghi
+consultation: Alan Fabik, CEO HARDWARIO
+cons_img: alan.png
+cons_link: https://meetings.hubspot.com/alanfabik/booking
 image_preview: /use-cases/temperature-humidity.png
 weight: 10
 full: true
