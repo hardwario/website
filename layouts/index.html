@@ -347,7 +347,7 @@
     <div class = "container" id = "products">
         <div class = "row justify-content-center">
             <div class="col-9 col-md-6 col-lg-4 pb-30 mx-auto text-center">
-                <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>Our platforms</span></div>
+                <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "our_platforms" }}</span></div>
             </div>
         </div>
         <div class = "row justify-content-center px-10">
@@ -358,8 +358,8 @@
                 <div class = "row">
                     <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center">
                         <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO CHESTER</span></div>
-                        <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">Configurable IoT gateway</h2>
-                        <p class = "font-20 font-md-20 pb-10">Extensible IoT gateway for Industry 4.0, smart city, e-metering, and agricultural applications.</p>
+                        <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">{{ .Params.category | safeHTML }}</h2>
+                        <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description }}</p>
                         <a href = "{{ .Permalink }}" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
                         <br/>
                         <img src = "/_assets/images/products/chester.png" class = "mx-auto mt-20 w-100"/>
@@ -374,10 +374,10 @@
                 <div class = "row">
                     <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center">
                         <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO TOWER</span></div>
-                        <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">Industrial<br/> IoT Kit</h2>
-                        <p class = "font-20 font-md-20 pb-10">Industry 4.0 pilots, STEM education and smart home DIY projects.</p>
+                        <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">{{ .Params.category | safeHTML }}</h2>
+                        <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description }}</p>
                         <a href = "{{ .Permalink }}" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
-                        <a href = "https://shop.hardwario.com" target="_blank" class="pt-20 pt-md-0 ml-0 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">Buy on shop.hardwario.com</a>
+                        <a href = '{{ i18n "buy_on_link" }}' target="_blank" class="pt-20 pt-md-0 ml-0 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "buy_on" | safeHTML }}</a>
                         <img src = "/_assets/images/products/tower.png" class = "mx-auto mt-20 w-100"/>
                     </div>
                 </div>
@@ -417,7 +417,7 @@
     <div class="articles articles--2 pb-20">
         <div class = "row justify-content-center">
             <div class="col-9 col-md-6 col-lg-5 pb-30 mx-auto text-center">
-                <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>Projects of our partners</span></div>
+                <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "partners_projects" }}</span></div>
             </div>
         </div>
         <div class="row">

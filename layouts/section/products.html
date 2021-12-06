@@ -1,5 +1,5 @@
 {{ define "main" }}
-
+<!--
 <section>
         <div class="container">
             <div class="row pb-50">
@@ -7,14 +7,13 @@
                     <div class="row">
                       <div class="col-12 col-md-10 mx-auto text-center pt-30 pt-md-0">
                           <h1 class="text-center font-weight-black font-48 font-md-64">{{ .Params.mainHeading | safeHTML }}</h1>
-                          <!--<p class="text-center font-24 font-lnh38">{{ .Params.description | safeHTML }}</p>-->
                       </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
+-->
     <style>
         .content-block{
             background-image: linear-gradient(to bottom right, #ebb50e, #ffd966); 
@@ -55,49 +54,53 @@
         <div class = "container">
             <div class = "row justify-content-center px-10">
     
+                {{ with .Site.GetPage "/chester" }}
                 <div class = "col-12 px-30 pl-md-60 mb-20 content-block">
                     <div class = "row">
                         <div class = "col-12 col-md-6 pt-40 pt-md-90 pb-30 pb-md-120">
                             <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO CHESTER</span></div>
-                            <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30">The most configurable IoT gateway</h2>
-                            <p class = "font-20 font-md-20 pb-10">Extensible IoT gateway for Industry 4.0, smart city, e-metering, and agricultural applications.</p>
-                            <a href = "/chester" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
+                            <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30">{{ .Params.heading | safeHTML }}</h2>
+                            <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description }}</p>
+                            <a href = "{{ .Permalink }}" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
                         </div>
                         <div class = "col-12 col-md-6 pt-30 pr-0 chester-1">
     
                         </div>
                     </div>
                 </div> 
-    
+                {{ end }}
+                {{ with .Site.GetPage "/kit" }}
                 <div class = "col-12 col-md-6 pl-0 pr-0 pr-md-10">
                     <div class = "col-12 px-30 mb-20 content-block content-block--gray">
                     <div class = "row">
                         <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center">
-                            <div class="ffont-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO TOWER</span></div>
-                            <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">Industrial<br/> IoT Kit</h2>
-                            <p class = "font-20 font-md-20 pb-10">Industry 4.0 pilots, STEM education and smart home DIY projects.</p>
-                            <a href = "/kit" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
-                            <a href = "#" class="pt-20 pt-md-0 ml-0 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">Buy on shop.hardwario.com</a>
+                            <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO TOWER</span></div>
+                            <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">{{ .Params.category }}</h2>
+                            <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description }}</p>
+                            <a href = "{{ .Permalink }}" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
+                            <a href = '{{ i18n "buy_on_link" }}' target="_blank" class="pt-20 pt-md-0 ml-0 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "buy_on" | safeHTML }}</a>
                             <img src = "/_assets/images/products/tower.png" class = "mx-auto mt-20 w-100"/>
                         </div>
                     </div>
                     </div>
                 </div>
-                
+                {{ end }}
+                {{ with .Site.GetPage "/cloud" }}
                 <div class = "col-12 col-md-6 pl-0 pl-md-10 pr-0">
                     <div class = "col-12 px-30 mb-90 content-block content-block--gray">
                     <div class = "row">
                         <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center">
-                            <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO Cloud</span></div>
-                            <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">HARDWARIO Cloud Services</h2>
-                            <p class = "font-20 font-md-20 pb-10">Cloud services for device management and data handling - providing IoT connectivity, REST API and callbacks.</p>
-                            <a href = "/cooper" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
+                            <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO CLOUD</span></div>
+                            <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">{{ .Params.category }}</h2>
+                            <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description }}</p>
+                            <a href = "{{ .Permalink }}" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
                             <br/>
                             <img src = "/_assets/images/products/cloud.png" class = "mx-auto mt-20 w-100"/>
                         </div>
                     </div>
                     </div>
                 </div>
+                {{ end }}
             </div>
         </div>
     </section>

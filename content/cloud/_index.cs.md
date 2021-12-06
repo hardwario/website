@@ -1,7 +1,9 @@
 ---
 title: HARDWARIO Cloud
 heading: HARDWARIO<br/>Cloud
+category: IoT služby
 perex: Soubor cloudových služeb pro správu zařízení HARDWARIO a&nbsp;práci s&nbsp;daty - poskytování IoT konektivity, REST API a&nbsp;nastavení callbacků.
+short_description: Cloudové služby pro správu zařízení a zpracování dat - připojení k internetu věcí, rozhraní REST API a callbacky.
 description: Soubor cloudových služeb pro správu zařízení HARDWARIO a&nbsp;práci s&nbsp;daty - poskytování IoT konektivity, REST API a&nbsp;nastavení callbacků.
 menu:
 weight: 100

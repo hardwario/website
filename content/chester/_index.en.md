@@ -1,6 +1,8 @@
 ---
 title: CHESTER
 heading: The most configurable IoT&nbsp;gateway
+category: IoT gateway
+short_description: Extensible IoT gateway for Industry 4.0, smart city, e-metering, and agricultural applications.
 description: Universal device with very low power consumption communicating via LPWAN. It allows the connection of other external elements via a number of interfaces.
 menu:
 weight: 100

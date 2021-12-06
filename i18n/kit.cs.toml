@@ -126,6 +126,7 @@ other = "Až 4 univerzální vstupy/výstupy, např. externí teploměr"
 
 [buy_kit]
 other = "Stavebnici si můžete koupit online v našem e-shopu. Návody a&nbsp;projekty publikujeme&nbsp;online."
+
 [view_docs]
 other = "Prohlédnout dokumentaci"
 
@@ -137,3 +138,9 @@ other = "Základní modul, který je mozkem celé stavebnice"
 
 [and_many_more]
 other = "+ řada dalších modulů a připojitelných senzorů"
+
+[buy_on]
+other = "Koupit na obchod.hardwario.cz"
+
+[buy_on_link]
+other = "https://obchod.hardwario.cz"

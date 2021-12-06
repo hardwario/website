@@ -138,3 +138,9 @@ other = "Example projects"
 
 [and_many_more]
 other = "+ many more modules and wireable sensors"
+
+[buy_on]
+other = "Buy on shop.hardwario.com"
+
+[buy_on_link]
+other = "https://shop.hardwario.com"

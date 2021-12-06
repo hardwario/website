@@ -1,5 +1,7 @@
 ---
 title: Industrial<br/> IoT&nbsp;Kit
+category: IoT kit
+short_description: Open-source kit for Industry 4.0 pilots, STEM education and smart home DIY projects.
 description: Use Industrial IoT Kit to build IoT projects effortlessly. Use-cases are Industry 4.0, active STEM education and&nbsp;smart home DIY projects.
 menu:
 weight: 100
