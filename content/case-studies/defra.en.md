@@ -1,6 +1,6 @@
 ---
 title: Monitoring of tree growth and the impacts of climate change on the UK’s forests
-heading:  Monitoring of tree growth and the impacts of climage change
+heading:  Monitoring of tree growth and the impacts of climate change
 image_main: /case-studies/defra_main.jpg
 image_grid: /case-studies/defra_grid.png
 image_grid_home: /case-studies/defra_grid-home.png
