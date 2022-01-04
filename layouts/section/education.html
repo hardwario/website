@@ -1,15 +1,12 @@
 {{ define "main" }}
 
 <section>
-    <div class="bg-image10 pt-50 pt-lg-0 d-flex align-items-center mb-20 mb-md-50">
+    <div class="bg-image10 pt-50 pt-lg-0 d-flex align-items-center">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-7 text-center text-md-left">
                     <h1 class="font-40 font-md-64 font-md-lnh68 font-weight-black pt-40 pb-40 pb-md-40">{{ i18n "teach_engaging_way" | safeHTML }}</h1>
                     <p class="font-24 font-gray2 font-lnh37 pb-40 mb-md-30 pr-md-100">{{ i18n "iot_kit_is_complex" | safeHTML }}</p>
-                    <div>
-                        <a href="#pilars" class="cta-button font-lnh54 px-70 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "tell_me_more" }}</a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -20,42 +17,41 @@
     <div class="" id = "pilars">
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <div class="row">
-                        <div class="col-12 col-md-10 col-lg-8 col-xl-6 mx-auto text-center">
-                            <div class="font-redLined font-redLined-gray font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "comprehensive_solution_edu" | safeHTML }}</span></div>
-                        </div>
-                    </div>
-                    <div class="row pb-10 pb-md-30">
-                        <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
-                            <h2 class="text-center pb-20 font-weight-black font-30 font-md-64 font-md-lnh68">{{ i18n "based_on_three_pilars" | safeHTML }}</h2>
-                            <!--<p class="text-center font-24 font-lnh38">Sufficient amount of correct information reduces risk and reduces waste of time and resources.</p>-->
-                        </div>
-                    </div>
-                    <div class="row text-center align-items-center">
-                        <div class="col-12 col-md-4 d-none d-sm-block">
-                            <img src="/_assets/images/kit.svg" alt="" class="mb-70" width="163" />
-                        </div>
-                        <div class="col-12 col-md-4 d-none d-sm-block">
-                            <img src="/_assets/images/framework.svg" alt="" class="mb-70" width="163" />
-                        </div>
-                        <div class="col-12 col-md-4 d-none d-sm-block">
-                            <img src="/_assets/images/support.svg" alt="" class="mb-70" width="260" />
-                        </div>
-                    </div>
-                    <div class="row text-center pb-10 mb-0 mb-md-50 justify-content-center">
-                        <div class="col-12 col-md-6 col-lg-4 pb-40 pb-lg-0">
-                            <h3 class="font-40 pb-30 font-weight-black">{{ i18n "plug_and_make_kits" | safeHTML }}</h3>
-                            <p class="font-19 font-lnh30 font-gray2 pb-0">{{ i18n "open_souce_system" }}</p>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4 pb-40 pb-lg-0">
-                            <h3 class="font-40 pb-30 font-weight-black">{{ i18n "pedagogical_framework" | safeHTML }}</h3>
-                            <p class="font-19 font-lnh30 font-gray2 pb-0">{{ i18n "with_experts" | safeHTML }}</p>
-                        </div>
-                          <div class="col-12 col-md-6 col-lg-4 pb-40 pb-lg-0">
-                            <h3 class="font-40 pb-30 font-weight-black">{{ i18n "personal_support" | safeHTML }}</h3>
-                            <p class="font-19 font-lnh30 font-gray2 pb-0">{{ i18n "our_edu_package" | safeHTML }}</p>
-                        </div>
+                <div class="col pb-30">
+                    <div class="row justify-content-center align-items-center">
+                                        <div class = "col-2 text-right">
+                                            <img loading="lazy" src="/_assets/images/kit.svg" class="w-75 mt-20" alt="" />
+                                        </div>
+                                        <div class = "col-4">
+                                            <h3 class="font-20 font-weight-black font-lnh30">{{ i18n "plug_and_make_kits" | safeHTML }}</h3>
+                                            <p class="font-18 font-lnh26">{{ i18n "open_souce_system" }}</p>
+                                        </div>
+
+                                        <div class = "col-2 text-right">
+                                            <img loading="lazy" src="/_assets/images/framework.svg" class="w-75 mt-20" alt="" />
+                                        </div>
+                                        <div class = "col-4">
+                                            <h3 class="font-20 font-weight-black font-lnh30">{{ i18n "pedagogical_framework" | safeHTML }}</h3>
+                                            <p class="font-18 font-lnh26">{{ i18n "with_experts" | safeHTML }}</p>
+                                        </div>
+
+                                        <div class = "col-2 text-right">
+                                            <img loading="lazy" src="/_assets/images/framework.svg" class="w-75 mt-20" alt="" />
+                                        </div>
+                                        <div class = "col-4">
+                                            <h3 class="font-20 font-weight-black font-lnh30">{{ i18n "practical_projects" }}</h3>
+                                            <p class="font-18 font-lnh26">{{ i18n "practical_projects_desc" }}</p>
+                                        </div>
+
+                                        <div class = "col-2 text-center">
+                                            <img loading="lazy" src="/_assets/images/support.svg" class="w-75 mt-20" alt="" />
+                                        </div>
+                                        <div class = "col-4">
+                                            <h3 class="font-20 font-weight-black font-lnh30">{{ i18n "personal_support" | safeHTML }}</h3>
+                                            <p class="font-18 font-lnh26">{{ i18n "our_edu_package" | safeHTML }}</p>
+                                        </div>
+
+
                     </div>
                 </div>
             </div>
@@ -63,7 +59,96 @@
     </div>
 </section>
 
+<section>
+    <div class="container">
+        <div class="row align-items-center pb-30">
+            
+         <div class="col-12 col-md-8 col-lg-4 mx-auto text-center">
+                <div class="font-redLined font-red mb-20 font-font2 font-weight-bold font-15"><span>{{ i18n "trusted_by" }}</span></div>
+            </div>
+            <div class="col-12 text-center">
+                
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="155" src="/_assets/images/education/czechitas.png" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="155" src="/_assets/images/education/unicorn.png" alt="" />
+                </span>
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                    <img width="145" src="/_assets/images/education/sps-liberec.svg" alt="" />
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+
 {{ partial "whitepaper" . }}
+
+<section>
+    <div class = "container">
+      <div class="row justify-content-center pt-70 pb-20 pb-md-50">
+        
+        <div class="col-12 col-lg-4">
+            <a href="https://stem.hardwario.com" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "stem_lessons" }}</h3>
+                <p class = "pb-20">{{ i18n "stem_lessons_desc" }}</p>
+                <span class = "font-font2 font-red font-decoration-underline">stem.hardwario.com</span>
+            </a>
+        </div>
+
+        <div class="col-12 col-lg-4">
+            <a href="{{ "education/projects/" | absLangURL }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "tower_projects" }}</h3>
+                <p class = "pb-20">{{ i18n "tower_projects_desc" }}</p>
+                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "projects_link" | safeHTML }}</span>
+            </a>
+        </div>
+
+        <div class="col-12 col-lg-4">
+            <a href="{{ i18n "workshops_link" }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "workshop_presentation" }}</h3>
+                <p class = "pb-20">{{ i18n "workshop_presentation_desc" }}</p>
+                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "workshops" | safeHTML }}</span>
+            </a>
+        </div>
+
+        <div class="col-12 col-lg-4">
+            <a href="{{ .Site.Params.shopURL }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "shop" }}</h3>
+                <p class = "pb-20">{{ i18n "shop_desc" }}</p>
+                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "go_to_shop" | safeHTML }}</span>
+            </a>
+        </div>
+
+        <div class="col-12 col-lg-4">
+            <a href="{{ "education/tutorials/" | absLangURL }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "tower_intro" }}</h3>
+                <p class = "pb-20">{{ i18n "tower_intro_desc" }}</p>
+                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "tutorials_link" | safeHTML }}</span>
+            </a>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section>
+    <div class = "container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mb-30">
+          <div class = "row align-items-center">
+            <div class = "col-12 col-md-4 px-50">
+                <img loading="lazy" src="/_assets/images/{{ .Params.cons_img }}" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
+            </div>
+            <div class = "col-12 col-md-8 pt-30 pt-md-0 text-center text-md-left font-white">
+            <h3 class = "font-32 font-weight-bold pb-10">{{ i18n "free_edu_consult" | safeHTML }}</h3>
+            <p class = "font-16 pb-10">{{ .Params.consultation | safeHTML }}</p>
+            <a href = "{{ .Params.cons_link }}" target="_blank" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">{{ i18n "make_an_appointment" }}</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+  </section>
 
 {{ $events := (where ($.Site.GetPage "section" "events").Pages "Params.category" "education") }}
 {{ with $events }}
@@ -91,40 +176,6 @@
 </div>
 </section>
 {{ end }}
-        <section>
-            <div class="">
-                <div class="container ">
-                    <div class="row">
-                        <div class="col">
-                          <div class="row">
-                              <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
-                                  <h2 class="text-center pb-20 font-weight-black pt-60 font-30 font-md-64">{{ i18n "education_kits" }}</h2>
-                              </div>
-                          </div>
-                            <div class="pricelist pricelist--bottom-3-5 pt-0 pt-md-40 mb-40">
-                                <div class="row no-gutters">
-                                  {{ $pleft := .Params.productLeft }}
-                                  {{ with .Site.GetPage (string $pleft) }}
-                                    {{ .Render "grid-list"}}
-                                  {{ end }}
-
-                                  {{ $pleft := .Params.productMiddle }}
-                                  {{ with .Site.GetPage (string $pleft) }}
-                                    {{ .Render "grid-list-rec"}}
-                                  {{ end }}
-
-                                  {{ $pleft := .Params.productRight }}
-                                  {{ with .Site.GetPage (string $pleft) }}
-                                    {{ .Render "grid-list"}}
-                                  {{ end }}
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <section>
             <div class="container">
@@ -156,112 +207,6 @@
                 </div>
             </div>
         </section>
-
-        <section>
-            <div class = "container">
-            <div class="row justify-content-center">
-              <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mb-10">
-                  <div class = "row align-items-center">
-                    <div class = "col-12 col-md-4 px-50">
-                        <img loading="lazy" src="/_assets/images/{{ .Params.cons_img }}" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
-                    </div>
-                    <div class = "col-12 col-md-8 pt-30 pt-md-0 text-center text-md-left font-white">
-                    <h3 class = "font-32 font-weight-bold pb-10">{{ i18n "free_edu_consult" | safeHTML }}</h3>
-                    <p class = "font-16 pb-10">{{ .Params.consultation | safeHTML }}</p>
-                    <a href = "{{ .Params.cons_link }}" target="_blank" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">{{ i18n "make_an_appointment" }}</a>
-                    </div>
-                </div>
-            </div>
-            </div>
-            </div>
-          </section>
-
-
-        <section>
-            <div class="bg-gray text-center pt-70 pb-60 px-15">
-              <div class = "container">
-                <h2 class="font-40 font-md-64 font-md-lnh56 pb-30 mb-5 font-weight-black">{{ i18n "learn_and_start_making" | safeHTML }}</h2>
-                <div class = "row">
-                <div class = "col-12 col-md-4 pb-40 pb-md-0">
-                  <h3 class="font-26 font-md-40 font-lnh38 font-md-lnh44 font-weight-black pb-0 pb-md-10">{{ i18n "handbook" }}</h3>
-                  <p class="font-21 font-lnh24 px-15 pb-15">{{ i18n "guide_for_starter" }}</p>
-
-                  {{ $currentLang := .Site.Language.Lang }}
-                  {{ if ne $currentLang "de" }}
-                      <a href="{{ "handbook/" | absLangURL }}" class="cta-button font-14 font-lnh48 px-20 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "get_handbook" }}</a>
-                  {{ else }}
-                      <a href="/handbook/" class="cta-button font-14 font-lnh48 px-20 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "get_handbook" }}</a><br/>(in English)
-                  {{ end }}
-                </div>
-
-              <div class = "col-12 col-md-4 pb-40 pb-md-0">
-                  <h3 class="font-26 font-md-40 font-lnh38 font-md-lnh44 font-weight-black pb-0 pb-md-10">{{ i18n "projects" }}</h3>
-                  <p class="font-21 font-lnh24 px-15 pb-15">{{ i18n "find_an_inspiration" }}</p>
-                  {{ $currentLang := .Site.Language.Lang }}
-                  {{ if ne $currentLang "de" }}
-                      <a href="{{ "projects/" | absLangURL }}" class="cta-button font-14 font-lnh48 px-20 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "show_me_projects" }}</a>
-                  {{ else }}
-                      <a href="/projects/" class="cta-button font-14 font-lnh48 px-20 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "show_me_projects" }}</a><br/>(in English)
-                  {{ end }}
-                </div>
-
-              <div class = "col-12 col-md-4">
-                  <h3 class="font-26 font-md-40 font-lnh38 font-md-lnh44 font-weight-black pb-0 pb-md-10">{{ i18n "tutorials" }}</h3>
-                  <p class="font-21 font-lnh24 px-15 pb-15">{{ i18n "get_to_know" }}</p>
-                  {{ $currentLang := .Site.Language.Lang }}
-                  {{ if ne $currentLang "de" }}
-                      <a href="{{ "tutorials/" | absLangURL }}" class="cta-button font-14 font-lnh48 px-20 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "show_me_academy" }}</a>
-                  {{ else }}
-                      <a href="/tutorials/" class="cta-button font-14 font-lnh48 px-20 d-inline-block font-weight-bold font-font2 text-decoration-none font-white bg-darkGray">{{ i18n "show_me_academy" }}</a><br/>(in English)
-                  {{ end }}
-
-                </div>
-                </div>
-              </div>
-            </div>
-        </section>
-
-<!--<section>
-  <div class="">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-            <div class="row pt-70">
-                <div class="col-12 col-md-6 mx-auto text-center">
-                    <div class="font-redLined font-redLined-gray font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "from_stem_blog" | safeHTML }}</span></div>
-                </div>
-            </div>
-            <div class="row pb-10 pb-md-30">
-                <div class="col-12 col-md-8 mx-auto text-center">
-                    <h2 class="text-center pb-20 font-weight-black font-30 font-md-64">{{ i18n "iot_in_education" | safeHTML }}</h2>
-                    <p class="text-center font-24 font-lnh38">{{ i18n "stem_blog" | safeHTML }}</p>
-                </div>
-            </div>
-          <div class="articles articles--2">
-            <div class="row d-flex align-content-stretch">
-
-              {{ $categories := .Params.categories }}
-              {{ $blogs := where (where .Site.Pages "Section" "blog" ) "Params.categories" "intersect" $categories}}
-              {{ with $blogs.ByPublishDate.Reverse }}
-                {{ range first 3 $blogs }}
-                <div  class="col-12 col-md-6 col-lg-4 tf-filter-item tf-item show-item">
-                  {{ .Render "grid" }}
-                </div>
-                {{ end }}
-              {{ end }}
-
-            </div>
-            <div class="row d-flex align-content-stretch pb-50">
-              <a href="{{ "blog/" | absLangURL }}" class="cta-button font-lnh54 px-70 d-inline-block mx-auto font-weight-bold font-font2 font-red bg-white text-decoration-none border-red mt-20">{{ i18n "more_blog" }}</a>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>-->
 
 <footer>
 {{ end }}

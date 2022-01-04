@@ -1,6 +1,6 @@
 ---
 title: Case&nbsp;Studies
-menu:
+menu: 
 weight: 40
 meta_title: IoT Case studies | Industry 4.0 | Smart company | HARDWARIO
 consultation: Alan Fabik, CEO HARDWARIO

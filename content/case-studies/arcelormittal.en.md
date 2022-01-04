@@ -1,8 +1,8 @@
 ---
 title: We monitor the productivity of machines and people in production ArcelorMittal
 heading:  We monitor the productivity of machines and people in production
-image_main: 
-image_grid: 
+image_main: /case-studies/arcelor_grid-home.png
+image_grid: /case-studies/arcelor_grid-home.png
 image_grid_home: /case-studies/arcelor_grid-home.png
 description:
 meta_title: We monitor the productivity of machines and people in production ArcelorMittal | HARDWARIO case study

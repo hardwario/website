@@ -1,8 +1,8 @@
 [teach_engaging_way]
-other = "Engaging active STEM learning based on real IoT&nbsp;projects"
+other = "STEM education based on real IoT&nbsp;projects"
 
 [iot_kit_is_complex]
-other = "The complete STEM education solution using research-based pedagogical framework."
+other = "A comprehensive system of attractive STEM education for schools, hobby groups and corporate training based on working with real IoT projects."
 
 [comprehensive_solution_edu]
 other = "A Comprehensive System of Active&nbsp;Learning"
@@ -11,28 +11,34 @@ other = "A Comprehensive System of Active&nbsp;Learning"
 other = "Our active STEM learning has 3&nbsp;main pillars"
 
 [plug_and_make_kits]
-other = "Plug&Make<br/> IoT Kits"
+other = "IoT Kit TOWER"
 
 [open_souce_system]
-other = "Our IoT kits enable you to build and connect any device to the internet so you can focus on active STEM learning activities and lessons."
+other = "Our industrial IoT kit allows you to build and connect any IoT device to the Internet."
 
 [pedagogical_framework]
-other = "Pedagogical<br/> Framework"
+other = "STEM lessons"
 
 [with_experts]
-other = "In collaboration with pedagogical experts from EDvisor Finland, we offer detailed STEM lessons using the research-based REALISE-EXPERIMENT-APPLY-REFLECT pedagogical framework."
+other = "We have prepared detailed STEM lessons for hands-on learning on real IoT projects."
+
+[practical_projects]
+other = "Projects from practice"
+
+[practical_projects_desc]
+other = "Using simple IoT projects, we show how to practically use IoT in various fields."
 
 [personal_support]
-other = "Technical<br/> Support"
+other = "Technical support"
 
 [our_edu_package]
-other = "We offer professional technical support for teachers, educational organisations and students in the form of webinars, seminars, detailed tutorials and online chat."
+other = "We offer professional technical support in the form of webinars, seminars, detailed tutorials and online chat."
 
 [whitepaper]
-other = "Active STEM learning with HARDWARIO IoT kits"
+other = "STEM education with HARDWARIO TOWER"
 
 [engaging_and_active_stem]
-other = "Our approach to STEM education with our pedagogical framework"
+other = "Our approach to STEM education with REAR pedagogical framework"
 
 [stem_events]
 other = "Our STEM education Events"
@@ -72,3 +78,39 @@ other = "Personal technical support in the deployment phase"
 
 [tutorials]
 other = "Tutorials"
+
+[workshops]
+other = "Show offer"
+
+[workshops_link]
+other = "https://shop.hardwario.com/services/"
+
+[stem_lessons]
+other = "STEM lesson"
+
+[stem_lessons_desc]
+other = "View ready-made STEM lessons that you can use for teaching."
+
+[tower_projects]
+other = "TOWER intro projects"
+
+[tower_projects_desc]
+other = "Projects introduce the capabilities of the IoT kit and its uses in a fun way."
+
+[workshop_presentation]
+other = "Workshops"
+
+[workshop_presentation_desc]
+other = "Book a workshop or lecture on IoT innovation for your school or business."
+
+[shop]
+other = "Online shop"
+
+[shop_desc]
+other = "You can find all the prepared sets and modules of the kit in the online shop."
+
+[tower_intro]
+other = "Getting to know the kit"
+
+[tower_intro_desc]
+other = "We have prepared several tutorials for your first steps with the kit."

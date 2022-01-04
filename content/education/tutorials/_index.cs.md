@@ -1,0 +1,10 @@
+---
+layout: tutorials
+title: TOWER tutoriály
+mainHeading: Začátky se stavebnicí TOWER
+description: Nikdy není pozdě se něco nového naučit. Neváhejte využít naše výukové materiály pro rychlejší pochopení světa IoT a naší stavebnice.
+meta_title: Začátky se stavebnicí TOWER | HARDWARIO
+meta_description: Nikdy není pozdě se něco nového naučit. Neváhejte využít naše výukové materiály pro rychlejší pochopení světa IoT a naší stavebnice.
+slug: akademie
+weight: 70
+---
