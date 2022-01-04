@@ -9,8 +9,8 @@ description: Návod na to, jak si ze Starter Kitu od HARDWARIO vytvoříš IoT t
 tags:
   - Projekt na doma
 idea: false
-image_preview: /projects/button-for-mum/1-ilustrace-devce-pari-hru-ma-pauzu.png
-image_main: /projects/button-for-mum/1-ilustrace-devce-pari-hru-ma-pauzu.png
+image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1641305830/projects/button-for-mum/1-ilustrace-devce-pari-hru-ma-pauzu.png
+image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1641305830/projects/button-for-mum/1-ilustrace-devce-pari-hru-ma-pauzu.png
 author: lukas_fabik
 featured: true
 modules: ["core","button","mini_battery","usb_dongle"]
