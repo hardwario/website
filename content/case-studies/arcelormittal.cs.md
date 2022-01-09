@@ -1,8 +1,8 @@
 ---
 title: Monitorujeme produktivitu strojů a lidí ve výrobě společnosti ArcelorMittal
 heading:  Monitorujeme produktivitu strojů a&nbsp;lidí ve výrobě
-image_main: 
-image_grid: 
+image_main: /case-studies/arcelor_grid-home.png
+image_grid: /case-studies/arcelor_grid-home.png
 image_grid_home: /case-studies/arcelor_grid-home.png
 description:
 meta_title: Monitorujeme produktivitu strojů a lidí ve výrobě společnosti ArcelorMittal | HARDWARIO případová studie

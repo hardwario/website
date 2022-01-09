@@ -6,6 +6,10 @@ meta_title: IoT řešení sledování věcí a strojů | IoT Tracking
 meta_description: 
 image_preview: /case-studies/defra_grid-home.png
 weight: 10
+draft: true
+consultation: Alan Fabik, CEO HARDWARIO
+cons_img: alan.png
+cons_link: https://meetings.hubspot.com/alanfabik/booking
 menu:
     main:
         parent: 'Řešení'

@@ -206,7 +206,13 @@ other = "Přihlaste se"
 other = "Přihlásit se"
 
 [iot_manufacturing]
-other = "Jak IoT technologie usnadňují digitalizaci v průmyslu"
+other = "Jak IoT technologie usnadňují digitalizaci ve&nbsp;výrobě"
 
 [iot_manufacturing_desc]
 other = "Stáhněte si dokument 10 inspirativních příkladů digitalizace ve výrobním podniku a doporučeními, jak při digitalizaci postupovat."
+
+[industries]
+other = "Obory"
+
+[use_cases]
+other = "Příklady využití"

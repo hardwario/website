@@ -1,0 +1,50 @@
+<section>
+    <div class="d-flex justify-content-center bg-image2 py-50" style="background-image:url({{ .Params.image_main }})">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8 mx-auto">
+                    <div class="slick1">
+                        <div class="bg-white text-center px-30 px-md-50 pt-50 mb-30">
+                            <div class="row">
+                                <div class="col-12 col-md-6 mx-auto">
+                                    <div class="font-redLined font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "case_study" }}</span></div>
+                                </div>
+                            </div>
+                            <h2 class="font-weight-black font-30 font-md-52 font-lnh36 font-md-lnh56 pb-md-10">{{ .Params.heading | safeHTML }}</h2>
+                            <div>
+                                <a href = "#download" class="getPdf abs-1 font-lnh24 py-15 px-10 px-md-90 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "read_case_study_now" }}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div id = "downloadCaseStudy" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-md-10">
+                <h2 class = "font-30 font-md-42 pt-50 pb-50 font-weight-black text-center" data-toggle="modal" data-target=".bd-example-modal-lg">{{ i18n "download_case_study" | safeHTML }}</h2>
+              </div>
+              <div class="col-md-8 text-center">
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                <script>
+                  hbspt.forms.create({
+                    portalId: "5453210",
+                    formId: "{{ $.Site.Params.csFormId }}"
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  

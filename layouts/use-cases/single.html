@@ -1,138 +1,139 @@
 {{ define "main" }}
 
 <section>
-  <div class = "py-md-200 bg-no-image"></div>
-  <div class="container abs-3">
-      <div class="row">
-          <div class="col">
-              <div class="bg-white px-xl-90 pt-40 pt-md-80">
-                  <h1 class="font-weight-black font-36 font-md-64 text-center pb-20 pb-md-20 font-md-lnh64">{{ .Title | safeHTML }}</h1>
-                  <div class = "article__body pb-0">
-                  <div class="font-22 font-lnh38 pb-0 ">
-                    {{ .Content }}
-                  </div>
-                </div>
-
-                  <!--{{ if isset .Params "extensions" }}
-                  <div class="row pb-50">
-                      <div class="col-12">
-                        <h2 class = "font-36 font-weight-bold pb-20">{{ i18n "extensions" }}</h2>
-                  <table class = "table">
-                    <thead class="thead-default font2">
-                    {{ if eq .Params.device "CHESTER" }}
-                    <tr>
-                      <th>{{ i18n "interface" }}</th>
-                      <th>{{ i18n "module" }}</th>
-                    </tr>
-                    {{ else }}
-                    <tr>
-                      <th>{{ i18n "module" }}</th>
-                      <th>{{ i18n "description_examples" }}</th>
-                    </tr>
-                    {{ end }}
-
-
-                    </thead>
-                    <tbody>
-                      {{ range .Params.extensions }}
-                      <tr>
-                          <td>{{ index . 0 }}</td>
-                          <td>{{ index . 1 }}</td>
-                      </tr>
-                      {{ end }}
-                    </tbody>
-                  </table>
-                  </div>
-                  </div>
-                  {{ end }}-->
-              </div>
-          </div>
-</div>
-
-  </div>
-
-</section>
-
-<section>
-  <div class = "container">
-  <div class="row justify-content-center">
-      <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mb-30">
-        <div class = "row align-items-center">
-          <div class = "col-12 col-md-4 px-50">
-              <img loading="lazy" src="/_assets/images/{{ .Params.cons_img }}" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
-          </div>
-          <div class = "col-12 col-md-8 pt-30 pt-md-0 text-center text-md-left font-white">
-          <h3 class = "font-26 font-md-32 font-weight-bold pb-10">{{ i18n "free_consult" | safeHTML }}</h3>
-          <p class = "font-16 pb-10">{{ .Params.consultation | safeHTML }}</p>
-          <a href = "{{ .Params.cons_link }}" target="_blank" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">{{ i18n "make_an_appointment" }}</a>
-          <p class = "pt-10 font-16 pb-10">{{ i18n "or_email_me" }} <a href = "mailto:alan.fabik@hardwario.com" class = "font-red">alan.fabik@hardwario.com</a></p>
-          </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-9 col-lg-8 col-xl-5 mx-auto text-center">
+          <div class="font-redLined font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ .Params.subheading | safeHTML }}</span></div>
       </div>
   </div>
-  </div>
-  </div>
-</section>
-
-{{ if isset .Params "studies" }}
-<section>
-
-<div class="container ">
-  <div class="articles articles--2 pb-20">
-    <div class="row pb-40">
-      <div class="col-12 col-md-6 col-lg-4 mx-auto text-center">
-          <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "successful_projects" }}</span></div>
-      </div>
-  </div>
-      <div class="row">
-          <!-- skoda tpca defra surun -->
-
-          {{ range where .Site.Pages "File.TranslationBaseName" "in" $.Params.studies }}
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-10">
+        <div class="article__header">
+          <div class="article__header__button">
             
-          <div  class="col-12 col-md-6 col-lg-4">
-
-            {{ if eq .Params.full true }}
-                {{ .Render "grid-home-list-link" }}
-            {{ else }}
-                {{ .Render "grid-home-list" }}
-            {{ end }}
+            <h1 class="article__title">{{ .Params.heading | safeHTML }}</h1>
+            <div class="text text--perex pt-20 ">
+              {{ .Content }}
+            </div>
+            <a href="#contact" data-target = "offerModal" class="openModal getOffer font-lnh24 py-15 px-20 px-md-40 d-inline-block font-weight-bold font-font2 font-white font-20 font-md-16 bg-red">{{ i18n "contact_sales" }}</a>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
 
+<section>
+  <div class="text-md-left pt-60 pb-60">
+      <div class="container">
+          <div class="row justify-content-center">
+              <!--<div class="pb-30 col-12 text-center">
+                  <h2 class = "font-30 font-md-42 pt-50 font-weight-black text-center">{{ i18n "benefits_of" }} {{ .Params.heading }}</h2>
+                  <p class="font-20 font-lnh24">{{ i18n "benefits_conditions" }}</p>
+              </div>-->
+              <div class = "col-12">
+                <div class = "row">
+
+                  <div class="row">
+                    <div class="col pb-30">
+                        <div class="row justify-content-center align-items-center">
+      
+                  {{ range .Params.benefits }}
+                            <div class = "col-3 col-md-1 text-right pb-20 pb-md-0">
+                                <img loading="lazy" src="{{ index . 0 }}" class="w-75 mt-20" alt="" />
+                            </div>
+                            <div class = "col-9 col-md-3 pb-20 pb-md-0">
+                                <h3 class="font-20 font-weight-black font-lnh30">{{ index . 1 }}</h3>
+                                <p class="font-18 font-lnh26">{{ index . 2 }}</p>
+                            </div>
+                    {{ end }}
+                </div>
+            </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+  {{ with .Site.GetPage $.Params.study }}
+    {{ .Render "grid-download" }}
+  {{ end }}
+
+<section>
+  <div class="container pt-80">
+    <div class="row align-items-center">
+      <div class="col-12 col-lg-6 text-center text-lg-left">
+          <h2 class="font-30 font-md-42 pt-50 font-weight-black pb-30">{{ i18n "hardwario_approach" }}</h2>
+          {{ range .Params.approach }}
+          <p class="font-20 font-lnh30 pb-20">{{ index . | safeHTML }}</p>
           {{ end }}
       </div>
+      <div class="col-12 col-lg-6 text-center">
+          <img loading="lazy" src="/_assets/images/ecosystem.svg" class="w-100" alt="" />
+      </div>
   </div>
 </div>
 </section>
 
-{{ else }}
 
-<section>
-
-  <div class="container ">
-    <div class="row pb-20">
-      <div class="col-12 col-md-6 col-lg-4 mx-auto text-center">
-          <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "examples" }}</span></div>
-      </div>
-  </div>
-
-  <div class="row justify-content-center pb-20 pb-md-50">
-
-    {{ range .Params.examples }}
-
-    <div class="col-12 col-lg-6">
-        <span href="" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
-            <h3 class="font-26 font-weight-medium pt-30 pb-30">{{ . | safeHTML }}</h3>
-        </span>
+  <section>
+    <div class="container ">
+      <div class="row pt-40 pb-20">
+        <div class="col-12 mx-auto text-center">
+          <h2 class = "font-30 font-md-42 pt-50 font-weight-black text-center">{{ .Params.examples_heading }}</h2>
+        </div>
+    </div>
+  
+    <div class="row justify-content-center pb-20 pb-md-50">
+  
+      {{ range .Params.examples }}
+  
+      <div class="col-12 col-lg-4">
+        <div class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+            <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ index . 0 | safeHTML }}</h3>
+            <p class = "pb-20">{{ index . 1 }}</p>
+        </div>
     </div>
 
-       {{ end }}
+         {{ end }}
+  
+    </div>
+    </div>
+    </section>
 
-  </div>
-  </div>
+  <section>
+    <div class = "container" id = "contact">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mb-30">
+          <div class = "row align-items-center">
+            <div class = "col-12 col-md-4 px-50">
+                <img loading="lazy" src="/_assets/images/{{ .Params.cons_img }}" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
+            </div>
+            <div class = "col-12 col-md-8 pt-30 pt-md-0 text-center text-md-left font-white">
+            <h3 class = "font-26 font-md-32 font-weight-bold pb-10">{{ i18n "free_consult" | safeHTML }}</h3>
+            <p class = "font-16 pb-10">{{ .Params.consultation | safeHTML }}</p>
+            <a href = "{{ .Params.cons_link }}" target="_blank" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">{{ i18n "make_an_appointment" }}</a>
+            <p class = "pt-10 font-16 pb-10">{{ i18n "or_email_me" }} <a href = "mailto:alan.fabik@hardwario.com" class = "font-red">alan.fabik@hardwario.com</a></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
   </section>
+  
 
-
-
-{{ end }}
 <footer>
 
+{{ end }}
+
+{{ define "additional-scripts" }}
+<script type="text/javascript">
+  $('.getPdf').click(function(){
+    $('#downloadCaseStudy').modal({
+      keyboard: false
+    })
+  });
+
+</script>
 {{ end }}
