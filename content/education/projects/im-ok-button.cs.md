@@ -123,9 +123,11 @@ Pokud jej ještě nemáš, založ si zařízení z vytvořené šablony. Jak na 
 
 1. Vrať se k počítači. Na ploše Node-RED přidej za oba nody **zelený node Write**. Najdeš ho v levé části v sekci **Blynk IoT** (Pozor! Ne Blynk ws).
 
+{{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1642002646/projects/im-ok-button/playground-1.png" alt = "Blynk IoT - HARDWARIO Playground" >}}
+
 2. Node otevři dvojklikem. Vpravo uvidíš **malou tužku**. Klikni na ni a otevře se ti nové okno. Do pole **Url** vlož ``blynk.cloud``, do polí **Auth Token** a **Template ID** zkopíruj hodnoty z detailu zařízení ve webové aplikaci na počítači.
 
-{{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1641213842/academy/how-to-connect-blynk-iot/playground-2.png" alt = "Blynk IoT - HARDWARIO Playground" >}}
+{{< b-image src = "https://res.cloudinary.com/lukasfabik/image/upload/v1642002399/projects/im-ok-button/playground-2.png" alt = "Blynk IoT - HARDWARIO Playground" >}}
 
 Nastavení potvrď tlačítkem **Add**.
 
