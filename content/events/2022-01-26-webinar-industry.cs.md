@@ -7,7 +7,7 @@ expirydate: "2022-01-27"
 title: "Webinář zdarma: Smysluplné využití blockchainu a NFT v&nbsp;průmyslovém IoT"
 hashtags: ["webinar","zdarma"]
 category: industry
-image_main: /upload/webinar-chesterCZ.png
+image_main: /upload/webinar-blockchain.png
 event_type: "Webinář"
 place: "Online"
 description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
@@ -24,16 +24,16 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 
 <p class = "pb-15">S novým rokem se vrací i oblíbené HARDWARIO IoT webináře.</p>
 
-<p class = "pb-25">Pro ten lednový jsme si vybrali zvučné <strong>téma Blockchainu a NFT ve spojení s průmyslovým internetem věcí a jejich smyslupné využití</strong>.</p> 
+<p class = "pb-25">Pro ten lednový jsme si vybrali smysluplné využití Blockchainu a NFT ve spojení s průmyslovým internetem věcí</strong>.</p> 
 
 <p class = "pb-25">Naším hostem bude Tomáš Svoboda, autor projektů VEFramework a PLFramework, které se zaměřují na praktické a jednoduché využití blockchainu v průmyslu. Tomáš také spoluzaložil společnost ELEDUS (dnes MICo Vision) a pomáhal nastavit strategii digitalizace společnosti Brano Group.</p>
 
-<h3 class = "font-weight-bold font-20 pb-10">Ve webináří se budeme věnovat těmto tématům:</h3>
+<h3 class = "font-weight-bold font-20 pb-10">Ve webináři se budeme věnovat těmto tématům:</h3>
 <ul class = "pb-15">
 <li class = "pb-0">Co je to Blockchain a NFT</li>
 <li class = "pb-0">Cesta Tomáše k těmto technologiím</li>
 <li class = "pb-0">Praktické využití Blockchainu a NFT pro internet věcí</li>
-<li class = "pb-0">Představení VEFrameworku a praktická ukázka s využitím zařízení HARDWARIO</li>
+<li class = "pb-0">Představení VEFrameworku a praktická ukázka ze <strong>STEM vzdělávání s využitím zařízení HARDWARIO</strong></li>
 </ul>
 
 <h3 class = "font-weight-bold font-20 pb-10">Řečníci:</h3>
@@ -43,8 +43,7 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 <li class = "pb-0">Tomáš Svoboda, Technicinsider</li>
 </ul>
 
-<p>Vysílání bude probíhat na YouTube, přihlaste se ať vám můžeme poslat odkaz a událost včas připomenout.</p>
-<p><strong>Webinář proběhne v angličtině</strong>.</p>
+<p>Vysílání bude probíhat v <strong>angličtině</strong> na <a target = "_blank" href = "https://www.youtube.com/hardwario/">YouTube</a></p>
 
 </div>
 <div class = "col-12 col-md-5">

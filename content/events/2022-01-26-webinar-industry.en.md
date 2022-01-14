@@ -24,7 +24,7 @@ description: "Register to free HARDWARIO IoT Webinar"
 
 <p class = "pb-15">With the new year, the popular HARDWARIO IoT webinars are back.</p>
 
-<p class = "pb-25">For the January one, we have chosen the resounding topic of <strong>Blockchain and NFT in relation to Industrial IoT</strong> and their meaningful use.</p> 
+<p class = "pb-25">For the January one, we have chosen <strong>Meaningful use of blockchain and NFT in Industrial IoT</strong></p> 
 
 <p class = "pb-25">Our guest will be Tomáš Svoboda, author of the VEFramework and PLFramework projects, which focus on practical and simple use of blockchain in industry. Tomáš also co-founded ELEDUS (now MICo Vision) and helped set the digitalisation strategy for Brano Group.</p>
 
@@ -33,7 +33,7 @@ description: "Register to free HARDWARIO IoT Webinar"
 <li class = "pb-0">What is Blockchain and NFT</li>
 <li class = "pb-0">Tomas' journey to these technologies</li>
 <li class = "pb-0">Practical applications of Blockchain and NFT for the Internet of Things</li>
-<li class = "pb-0">Introduction of VEFramework and practical demonstration using HARDWARIO devices</li>
+<li class = "pb-0">Introduction of VEFramework and practical demonstration in <strong>STEM education using HARDWARIO devices</strong></li>
 </ul>
 
 <h3 class = "font-weight-bold font-20 pb-10">Speakers:</h3>
@@ -43,7 +43,7 @@ description: "Register to free HARDWARIO IoT Webinar"
 <li class = "pb-0">Tomáš Svoboda, Technicinsider</li>
 </ul>
 
-<p>The broadcast will be on YouTube, subscribe so we can send you a link and remind you of the event in time.</p>
+<p>The broadcast will be on <a target = "_blank" href = "https://www.youtube.com/hardwario/">YouTube</a>.
 
 </div>
 <div class = "col-12 col-md-5">
