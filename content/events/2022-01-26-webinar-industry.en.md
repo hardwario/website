@@ -20,7 +20,7 @@ description: "Register to free HARDWARIO IoT Webinar"
 
 <p class = "pt-15 pb-15">
 <strong>When:</strong> 26 January at 4 pm CET<br/>
-<strong>Proce:</strong> Free</p>
+<strong>Price:</strong> Free</p>
 
 <p class = "pb-15">With the new year, the popular HARDWARIO IoT webinars are back.</p>
 
