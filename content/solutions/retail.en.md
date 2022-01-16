@@ -10,7 +10,7 @@ weight: 30
 video: Zmpovb9czKo
 video_name: How IoT technologies facilitate digitization in Retail
 video_text: The rapid development of IoT connectivity, devices powered from battery for years, non-invasive approach and affordable prices today enable the rapid digitization of many industries. One of the most promising fields of use of IoT is undoubtedly retail.
-video_bg: bg-darkGray font-white
+video_bg: bg-darkGray font-white mb-20
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
