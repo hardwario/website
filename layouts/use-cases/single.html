@@ -39,11 +39,11 @@
       
                   {{ range .Params.benefits }}
                             <div class = "col-3 col-md-1 text-right pb-20 pb-md-0">
-                                <img loading="lazy" src="{{ index . 0 }}" class="w-75 mt-20" alt="" />
+                                <img loading="lazy" src="{{ index . 0 }}" class="w-{{ index . 1 }} mt-20" alt="" />
                             </div>
                             <div class = "col-9 col-md-3 pb-20 pb-md-0">
-                                <h3 class="font-20 font-weight-black font-lnh30">{{ index . 1 }}</h3>
-                                <p class="font-18 font-lnh26">{{ index . 2 | safeHTML }}</p>
+                                <h3 class="font-20 font-weight-black font-lnh30">{{ index . 2 }}</h3>
+                                <p class="font-18 font-lnh26">{{ index . 3 | safeHTML }}</p>
                             </div>
                     {{ end }}
                 </div>
