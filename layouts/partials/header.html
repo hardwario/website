@@ -43,10 +43,39 @@
             <div class="col-12 col-lg pt-20 pt-md-0 d-none d-lg-block js-menu menu">
 
                 <ul class="d-lg-flex text-center text-lg-left mt-20 mt-lg-0 list-unstyled py-0 my-0 font-20 font-md-15 font-weight-medium font-font2 text-uppercase justify-content-center justify-content-md-end">
-           
+                  {{ $solutions := where .Site.RegularPages "Section" "solutions" }}
+                  {{ $cases := where .Site.RegularPages "Section" "use-cases" }}
+
                   {{ range .Site.Menus.main }}
                     <li class = "pl-lg-30">
                       <a href="{{ .URL }}" target = "{{ .Post }}" class='{{ .Pre }} font-gray d-block pt-lg-5 pb-10 pb-lg-5 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} active {{ end }}'>{{ .Name | safeHTML }}</a>
+
+                      {{ if in "Solutions Řešení" .KeyName }}
+
+                      <div class = "row submenu" class = "">
+                        <div class = "col-5">
+                          <strong class = "pb-10 d-block">{{ i18n "use_cases" }}</strong>
+                          {{ with $cases }}
+                          <ul class="navtop__submenu list-unstyled">
+                            {{ range $cases.ByWeight }}
+                              <li class = "pb-15 font-14 font-lnh12"><a href="{{ .Permalink }}"><img src = "{{ .Params.image_preview }}" style ="width: 45px"/> {{ .Title | safeHTML }}</a></li>
+                            {{ end }}
+                          </ul>
+                          {{ end }}
+                        </div>
+                        <div class = "col-7">
+                          <strong class = "pb-10 d-block">{{ i18n "industries" }}</strong>
+                          {{ with $solutions }}
+                          <ul class="navtop__submenu list-unstyled">
+                            {{ range $solutions.ByWeight }}
+                              <li class = "pb-15 font-14 font-lnh12" ><a href="{{ .Permalink }}"><img src = "{{ .Params.image_preview }}" style ="width: 45px"/> {{ .Title | safeHTML }}</a></li>
+                            {{ end }}
+                          </ul>
+                          {{ end }}
+                        </div>
+                      </div>
+                      
+                      {{ end }}
                     </li>
                   {{ end }}
                 </ul>
@@ -63,3 +92,30 @@
         </div>
     </div>
 </header>
+
+<style>
+ul li .submenu{
+  display: none;
+  position: absolute;
+  z-index: 9000;
+  border-radius: 4px; 
+  -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+  padding: 15px 10px;
+  width: 70%;
+}
+
+ul li:hover .submenu{
+  display:flex;
+}
+
+ul li:hover .submenu a{
+  color: #252532;
+  text-transform:initial;
+}
+ul li:hover .submenu li:hover a{
+  color: #dc3545;
+}
+
+
+</style>

@@ -6,7 +6,7 @@
         <div class="article__header">
           <div class="article__header__button">
 
-            <h1 class="article__title mt-20">{{ .Title | safeHTML }}</h1>
+            <h1 class="article__title mt-20">{{ .Params.heading | safeHTML }}</h1>
             <div class="text text--perex pt-20 ">
               {{ .Content }}
             </div>
@@ -18,6 +18,107 @@
 </section>
 
 
+{{ $img:= .Params.document_image }}
+{{ $form:= .Params.document_form }}
+{{ $name:= .Params.document_name }}
+
+{{ with .Params.document_name }}
+
+<section>
+  <div class="d-flex justify-content-center bg-image2 py-50" style="background-image:url({{ $img | safeCSS }})">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 col-lg-8 mx-auto">
+                  <div class="slick1">
+                      <div class="bg-white text-center px-30 px-md-50 pt-50 mb-30">
+                          <div class="row">
+                              <div class="col-12 col-md-6 mx-auto">
+                                  <div class="font-redLined font-red mb-10 font-font2 font-weight-bold font-15"><span>Whitepaper</span></div>
+                              </div>
+                          </div>
+                          <h2 class="font-weight-black font-30 font-md-52 font-lnh36 font-md-lnh56 pb-md-10">{{ $name | safeHTML }}</h2>
+                          <div>
+                              <a href = "#download" class="getPdf abs-1 font-lnh24 py-15 px-10 px-md-90 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "get_document" }}</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<div id = "downloadDocument" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-md-10">
+              <h2 class = "font-30 font-md-42 pt-50 pb-50 font-weight-black text-center" data-toggle="modal" data-target=".bd-example-modal-lg">{{ $name | safeHTML }}</h2>
+            </div>
+            <div class="col-md-8 text-center">
+              <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+              <script>
+                hbspt.forms.create({
+                  portalId: "5453210",
+                  formId: "{{ $form }}"
+                });
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{ $video:= .Params.video }}
+{{ $video_name:= .Params.video_name }}
+{{ $video_text:= .Params.video_text }}
+{{ $video_bg:= .Params.video_bg }}
+{{ with .Params.video }}
+<section>
+  <div class = "{{ $video_bg }}">
+  <div class="container pt-80 pb-60">
+    <div class="row align-items-center">
+      <div class="col-12 col-lg-6 text-center text-lg-left">
+        <h2 class="font-30 font-md-42 pt-50 font-weight-black pb-30">{{ $video_name | safeHTML }}</h2>
+          <p class="font-20 font-lnh30 pb-20">{{ $video_text | safeHTML }}</p>
+      </div>
+      <div class="col-12 col-lg-6 text-center">
+        <div class = "video-container">
+          <iframe src="https://www.youtube.com/embed/{{ $video | safeCSS }}?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+
+<style>
+  .video-container{
+    display: block;
+    margin:0;
+    width:auto;
+    margin-top: 0;
+    border-radius: 7px;
+    max-width: 100%;
+    height: 350px;
+    overflow: hidden;
+
+  }
+  .video-container iframe{
+      position: relative;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+  }
+</style>
+</section>
+{{ end }}
+
+
 {{ $currentLang := .Site.Language.Lang }}
 {{ if ne $currentLang "de" }}
 
@@ -25,44 +126,23 @@
                                 <div class="">
                                     <div class="container">
                                         <div class="articles articles--2 pt-10">
+                                          <div class="row">
+                                            <div class="col-12 col-lg-12 pb-30 text-center">
+                                                <h2 class="font-weight-black font-40 font-lnh44">{{ i18n "usage_examples" }}</h2>
+                                            </div>
+                                          </div>
                                             <div class="row d-flex align-content-stretch">
                                             
                                                   {{ $file := .File.TranslationBaseName }}
                                                   {{ $cases := where .Site.RegularPages "Section" "use-cases" }}
                                                   {{ with $cases }}
                                                     
-                                                    {{ range first 5 ($cases.ByWeight) }}
+                                                    {{ range $cases.ByWeight }}
                                                       {{ if in .Params.category $file }}
-                                                        <div  class="col-12 col-md-6 col-lg-4">
-                                                          {{ .Render "grid" }}
-                                                        </div>
+                                                          {{ .Render "grid-small-row" }}
                                                       {{ end }}
                                                     {{ end }}
 
-                                                    {{ if eq $file "industry" }}
-
-                                                    <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mt-60 mb-60">
-                                                      <div class = "row align-items-center justify-content-center">
-                                                        <div class = "col-6 col-md-2 px-30">
-                                                            <img loading="lazy" src="/_assets/images/checklist.svg" class="w-100 d-block mx-auto img-fluid" alt="" />
-                                                        </div>
-                                                        <div class = "col-12 col-md-10 pt-30 pt-md-0 text-center text-md-left font-white">
-                                                        <h3 class = "font-32 font-weight-bold pb-10">{{ i18n "iot_manufacturing" }}</h3>
-                                                        <p class = "font-22 pb-10">{{ i18n "iot_manufacturing_desc" }}</p>
-                                                        <a href = "#iot-document" class="getPdf font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">{{ i18n "get_document" }}</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                    {{ end }}
-
-                                                    {{ range after 3 $cases.ByWeight }}
-                                                      {{ if in .Params.category $file }}
-                                                        <div  class="col-12 col-md-6 col-lg-4">
-                                                          {{ .Render "grid" }}
-                                                        </div>
-                                                      {{ end }}
-                                                    {{ end }}
 
                                                   {{ end }}
                                             </div>
@@ -75,11 +155,37 @@
 
 {{ end }}
 
+<section>
+  <div class = "container" id = "contact">
+  <div class="row justify-content-center">
+      <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mb-30">
+        <div class = "row align-items-center">
+          <div class = "col-12 col-md-4 px-50">
+              <img loading="lazy" src="/_assets/images/{{ .Params.cons_img }}" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
+          </div>
+          <div class = "col-12 col-md-8 pt-30 pt-md-0 text-center text-md-left font-white">
+          <h3 class = "font-26 font-md-32 font-weight-bold pb-10">{{ i18n "free_consult" | safeHTML }}</h3>
+          <p class = "font-16 pb-10">{{ .Params.consultation | safeHTML }}</p>
+          <a href = "{{ .Params.cons_link }}" target="_blank" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">{{ i18n "make_an_appointment" }}</a>
+          <p class = "pt-10 font-16 pb-10">{{ i18n "or_email_me" }} <a href = "mailto:alan.fabik@hardwario.com" class = "font-red">alan.fabik@hardwario.com</a></p>
+          </div>
+      </div>
+  </div>
+  </div>
+  </div>
+</section>
 
 {{ end }}
 
 
+
 {{ define "additional-scripts" }}
+<script type="text/javascript">
+  $('.getPdf').click(function(){
+    $('#downloadDocument').modal({
+      keyboard: false
+    })
+  });
 
-
+</script>
 {{ end }}

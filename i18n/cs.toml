@@ -206,7 +206,7 @@ other = "Přihlaste se"
 other = "Přihlásit se"
 
 [iot_manufacturing]
-other = "Jak IoT technologie usnadňují digitalizaci v průmyslu"
+other = "Jak IoT technologie usnadňují digitalizaci ve&nbsp;výrobě"
 
 [iot_manufacturing_desc]
 other = "Stáhněte si dokument 10 inspirativních příkladů digitalizace ve výrobním podniku a doporučeními, jak při digitalizaci postupovat."
@@ -219,3 +219,9 @@ other = "Středa, 26. ledna od 16 hodin"
 
 [banner_3]
 other = "Smysluplné využití blockchainu a&nbsp;NFT v&nbsp;průmyslovém IoT"
+
+[industries]
+other = "Obory"
+
+[use_cases]
+other = "Příklady využití"

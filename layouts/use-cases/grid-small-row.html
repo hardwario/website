@@ -1,0 +1,9 @@
+  <div class="col-12 col-md-6">
+    <a href="{{ .Permalink }}" class="related__item shadow">
+        <div class="related__item__image">
+            <img src="{{ .Params.image_preview }}" alt="{{ .Title }}" />
+        </div>
+        <div class="related__item__title related__item__title--2 mb-5">{{ .Title }}</div>
+        <p class="articles__text articles__text--2 pr-10">{{ .Params.description | safeHTML }}</p>
+    </a>
+</div>

@@ -1,11 +1,15 @@
 ---
-title: Aktivní STEM vzdělávání
+title: Vzdělávání
 slug: vzdelavani
 description: Díky našemu know-how a zkušenostem z IoT projektů dokážeme připravit atraktivní vzdělávací programy.
 meta_title: IoT řešení ve vzdělávání | Aktivní STEM výuka
 meta_description: 
 image_preview: /case-studies/education.jpg
+consultation: Alan Fabik, CEO HARDWARIO
+cons_img: alan.png
+cons_link: https://meetings.hubspot.com/alanfabik/booking
 weight: 50
+draft: true
 menu:
     main:
         parent: 'Řešení'

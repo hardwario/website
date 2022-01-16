@@ -1,11 +1,18 @@
 ---
-title: Active STEM education
+title: Education
 slug: education
 description: Thanks to our know-how and experience from IoT projects, we can prepare attractive educational programs.
 meta_title: IoT solutions in education | Active STEM education
 meta_description: 
 image_preview: /case-studies/education.jpg
 weight: 50
+consultation: Alan Fabik, CEO HARDWARIO
+cons_img: alan.png
+cons_link: https://meetings.hubspot.com/alanfabik/booking
+consultation: Alan Fabik, CEO HARDWARIO
+cons_img: alan.png
+cons_link: https://meetings.hubspot.com/alanfabik/booking
+draft: true
 menu:
     main:
         parent: 'Solutions'
