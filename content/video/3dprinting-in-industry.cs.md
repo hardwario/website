@@ -13,5 +13,5 @@ weight: 110
 Zjistěte, co je technologie vytlačování materiálu, jaké jsou 3 klíčové výzvy v modelování a jak probíhá proces výběru materiálu. Webinář obsahuje případovou studii z Rolls-Royce a součástí jsou také hosté z Fillamentum. Webinář probíhal v angličtině.
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/pmvfmjnJuHU?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/pmvfmjnJuHU?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

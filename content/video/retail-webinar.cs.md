@@ -14,5 +14,5 @@ Rychlý vývoj IoT konektivity, zařízení operující roky na baterie, neinvaz
 Proto jsme se v našem IoT webináři věnovali právě digitalizaci retailu pomocí IoT technologií. Naše partnerská společnost Adastra využívá zařízení HARDWARIO v několika typech projektů - mezi ty nejzajímavější patří bateriové paletové váhy a chytrý nezávislý regál. K tomu společnost přidává své obrovské znalosti a zkušenosti z retailu, vývoje software, umělé inteligence a business developmentu.
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/UVzk9I8CV6M?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/UVzk9I8CV6M?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

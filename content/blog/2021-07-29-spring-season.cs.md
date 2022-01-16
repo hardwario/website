@@ -16,7 +16,7 @@ Náš partner STATOTEST využívá IoT Hub CHESTER pro kontinuální monitoring 
 V únoru jsme pořádali společný webinář. 
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/AJfJuwb--ow?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/AJfJuwb--ow?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
  	 	 
 ## Monitoring ZOO a technologie Microsoft
@@ -24,7 +24,7 @@ V únoru jsme pořádali společný webinář.
 V březnu byl hostem našeho webináře ředitel liberecké ZOO David Nejedlo. Společně jsme prezentovali řadu IoT projektů, které jsme v zoologické zahradě nasadili. Součástí byla také ukázka vizualizace a vyhodnocení dat v nástrojích Microsoft Teams a Power BI. 
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/XkHWVtBrHbs?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/XkHWVtBrHbs?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## IoT inspirace pro stavebnictví

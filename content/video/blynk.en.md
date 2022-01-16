@@ -15,5 +15,5 @@ Having your own mobile application for your IoT projects does not always mean yo
 We will show you on practical examples that this is not an application intended only for do-it-yourselfers, but that it is a solution that can also be used in the industry.
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/1dL2FGO9p5Y?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/1dL2FGO9p5Y?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

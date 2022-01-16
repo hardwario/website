@@ -15,7 +15,7 @@ author: lukas_fabik
 The first webinar this year was about the project with Unifly. We helped them design, develop and produce devices for drone's e-identification and tracking, including a mobile application.
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/1PIXicUXb4w?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/1PIXicUXb4w?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
  	 	 
 ## Does IoT make sense in facility management?
@@ -23,7 +23,7 @@ The first webinar this year was about the project with Unifly. We helped them de
 Take a look at the webinar record on the meaningful use of the Internet of Things in facility management. Dalibor Lukeš, CEO of the partner company iotor, was our guest.
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/DP12RN9js88?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/DP12RN9js88?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## IoT inspiration for the agriculture

@@ -14,5 +14,5 @@ Začínáte pracovat s HARDWARIO Cloud? Zajímá vás, jaká je jeho datová top
 
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/S3Iiy3TM_oQ?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/S3Iiy3TM_oQ?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

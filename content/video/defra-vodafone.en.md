@@ -16,5 +16,5 @@ We talked about the implementation of NB-IoT technology, HARDWARIO CHESTER and E
 
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/eil_Na57h9I?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/eil_Na57h9I?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

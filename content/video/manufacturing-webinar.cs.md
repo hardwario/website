@@ -16,5 +16,5 @@ Díky novým technologiím internetu věcí je nyní možné monitorovat jakéko
 Během webináře jsme navíc představili jedinečný program zavedení systému kontinuálního sledování efektivity vaší výroby - vyrobni.report, ve kterém omezenému počtu firem bezplatně zavedeme monitoring efektivity 1 stroje na měsíční pilotní provoz.
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/y898_6andq0?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/y898_6andq0?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

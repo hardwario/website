@@ -15,7 +15,7 @@ author: lukas_fabik
 In June, we organized a webinar that dealt with the non-invasive deployment of production efficiency monitoring, which can be deployed within 15 minutes.
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/lRikM-F8R5I?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/lRikM-F8R5I?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
  	 	 
 ## With Adastra, we digitize retail
@@ -23,7 +23,7 @@ In June, we organized a webinar that dealt with the non-invasive deployment of p
 In June, together with Petr Blabla, we introduced two products with which we change retail. Our mobile smart scales and shelves are independently connected to the Internet and run on batteries for several years.
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/Zmpovb9czKo?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/Zmpovb9czKo?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## 10 Industrial IoT projects

@@ -14,5 +14,5 @@ Zjistěte, jak vytvořit svůj vlastní produkt IoT pomocí zařízení HARDWARI
 Po celém světě existují tisíce mostů, budov a dalších staveb s problematickou statikou. Příběh projektu STATOTEST ukazuje, jak mohou technologie IoT zabránit zhroucení mostů, budov nebo zdí. Neinvazivně, jednoduše a nákladově efektivně.
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/AJfJuwb--ow?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/AJfJuwb--ow?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

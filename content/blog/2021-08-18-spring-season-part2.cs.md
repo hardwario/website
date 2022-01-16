@@ -15,7 +15,7 @@ author: lukas_fabik
 Prvním letošním webinářem bylo představení projektu se společností Unifly. Pomohli jsme jim s návrhem, vývojem a výrobou zařízení pro e-identifikaci a sledování dronů, včetně mobilní aplikace.
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/1PIXicUXb4w?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/1PIXicUXb4w?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
  	 	 
 ## Má IoT smysl ve facility managementu?
@@ -23,7 +23,7 @@ Prvním letošním webinářem bylo představení projektu se společností Unif
 Podívejte se na záznam webináře o smysluplném využití internetu věcí ve facility managementu. Naším hostem byl Dalibor Lukeš, CEO partnerské společnosti iotor.
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/DP12RN9js88?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/DP12RN9js88?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## IoT inspirace pro zemědělství

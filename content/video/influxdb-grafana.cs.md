@@ -19,5 +19,5 @@ V Karlově experimentu jsme si ukázali, jak Grafanu a InfluxDB rozběhnout spol
 Praktická ukázka v podání Vojty Briestenského ukázala, jakým způsobem v FS Assets řeší problém vznikajících plísní v nájemních bytech za pomocí dat a tím ochraňují hodnotu nemovitosti. Více najdete v záznamu webináře.
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/Ukokzz34P3Y?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/Ukokzz34P3Y?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

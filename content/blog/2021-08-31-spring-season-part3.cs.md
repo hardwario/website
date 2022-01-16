@@ -15,7 +15,7 @@ author: lukas_fabik
 Neinvazivní monitoring efektivity výrobních strojů na 30 dnů zdarma. V červnu jsme spustili jedinečný program vyrobni.report a již na podzim připravujeme novinky. Těšte se.
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/y898_6andq0?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/y898_6andq0?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
  	 	 
 ## S Adastrou digitalizujeme retail
@@ -23,7 +23,7 @@ Neinvazivní monitoring efektivity výrobních strojů na 30 dnů zdarma. V čer
 V červnu jsme společně s Petrem Blablou představili 2 produkty, se kterými měníme retail. Naše mobilní chytré váhy a regály jsou nezávisle připojené k internetu a fungují na baterie několik let. 
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/UVzk9I8CV6M?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/UVzk9I8CV6M?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Martin napsal o Protocol buffers

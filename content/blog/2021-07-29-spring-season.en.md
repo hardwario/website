@@ -15,7 +15,7 @@ author: lukas_fabik
 Our partner STATOTEST uses IoT Hub CHESTER for continuous monitoring of statics of bridges, roofs and other structures. Thanks to this, they can prevent tragic events in time and for a fraction of the costs. We held a joint webinar in February.
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/AJfJuwb--ow?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/AJfJuwb--ow?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
  	 	 
 ## ZOO's monitoring and Microsoft technologies
@@ -23,7 +23,7 @@ Our partner STATOTEST uses IoT Hub CHESTER for continuous monitoring of statics 
 In March, we hosted a webinar with the director of the Liberec ZOO, David Nejedlo. Together, we presented several IoT projects that we deployed in the ZOO. We also included a demonstration of data visualization and evaluation in Microsoft Teams and Power BI.
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/XkHWVtBrHbs?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/XkHWVtBrHbs?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## IoT inspiration for the construction

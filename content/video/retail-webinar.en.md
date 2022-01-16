@@ -14,5 +14,5 @@ The rapid development of IoT connectivity, devices powered from battery for year
 Therefore, in ourpopular IoT webinar, we focused on digitizing retail using IoT technologies. Our partner company Adastra uses the HARDWARIO device in several types of projects - the most interesting ones are battery-operated pallet scales and smart, independent shelves. Adastra adds its vast knowledge and experience in retail, software development, artificial intelligence and business development.
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/Zmpovb9czKo?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/Zmpovb9czKo?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

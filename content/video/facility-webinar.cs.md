@@ -14,5 +14,5 @@ V našem dalším populárním IoT webináři jsme se věnovali IoT a facility m
 Společně vám ukážeme smysluplné využití IoT technologií pro jejich typické projekty, mezi které patří ochrana budov a technologií, hlídání zdravého prostředí, chytrá (prediktivní) údržba, efektivní odpadové hospodářství, hlídání spotřeby energií a její optimalizace a další.
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/DP12RN9js88?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/DP12RN9js88?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

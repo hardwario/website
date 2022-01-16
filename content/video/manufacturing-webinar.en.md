@@ -20,5 +20,5 @@ During the video you will learn:
 - What results did the deployment of the system after a month in ArcelorMittal Tubular Products Karvina bring?
 
 <div class = "video-container">
-<iframe src="https://www.youtube.com/embed/lRikM-F8R5I?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/lRikM-F8R5I?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
