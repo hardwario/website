@@ -1,7 +1,6 @@
 ---
-#title: Pulse Monitoring for Power Consumption and Output Power Metering
 title: Energy
-description: Remote monitoring of energy consumption such as electricity, water, gas or air with HARDWARIO devices.
+description: Remote monitoring of energy consumption - electricity, water, gas or compressed air with HARDWARIO devices.
 heading: Energy consumption monitoring
 subheading: IoT energy monitoring
 benefits: [['/_assets/images/benefits/simple.svg','Online consumption check','Get online information about current and long-term consumption, find anomalies.'],['/_assets/images/benefits/secure. svg','Optimizing consumption','Optimize your energy consumption based on the received data and reduce costs'],['/_assets/images/benefits/scalable.svg','Streamlining operations','By automatically reading energy, you save the costs of manual data collection.']]
@@ -14,7 +13,7 @@ cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
 category: ["agriculture","construction","indoor","manufacturing"]
 image_preview: /use-cases/pulse.png
-weight: 30
+weight: 40
 full: true
 ---
 

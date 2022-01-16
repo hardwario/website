@@ -6,7 +6,7 @@
         <div class="article__header">
           <div class="article__header__button">
 
-            <h1 class="article__title mt-20">{{ .Title | safeHTML }}</h1>
+            <h1 class="article__title mt-20">{{ .Params.heading | safeHTML }}</h1>
             <div class="text text--perex pt-20 ">
               {{ .Content }}
             </div>
@@ -76,8 +76,10 @@
 {{ $video:= .Params.video }}
 {{ $video_name:= .Params.video_name }}
 {{ $video_text:= .Params.video_text }}
+{{ $video_bg:= .Params.video_bg }}
 {{ with .Params.video }}
 <section>
+  <div class = "{{ $video_bg }}">
   <div class="container pt-80 pb-60">
     <div class="row align-items-center">
       <div class="col-12 col-lg-6 text-center text-lg-left">
@@ -90,6 +92,7 @@
           </div>
       </div>
   </div>
+</div>
 </div>
 
 <style>
@@ -123,6 +126,11 @@
                                 <div class="">
                                     <div class="container">
                                         <div class="articles articles--2 pt-10">
+                                          <div class="row">
+                                            <div class="col-12 col-lg-12 pb-30 text-center">
+                                                <h2 class="font-weight-black font-40 font-lnh44">{{ i18n "usage_examples" }}</h2>
+                                            </div>
+                                          </div>
                                             <div class="row d-flex align-content-stretch">
                                             
                                                   {{ $file := .File.TranslationBaseName }}

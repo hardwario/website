@@ -1,6 +1,6 @@
 ---
 title: Výkon
-description: Měřte jednoduše jedním číslem efektivnost vašich strojů a výroby. Digitalizujte vaši výrobu.
+description: Měřte jednoduše efektivnost vašich strojů a dalších zařízení ve výrobě, zemědělství a dalších odvětvích. 
 heading: Monitoring výkonu strojů se&nbsp;zařízeními HARDWARIO
 subheading: IoT monitoring výkonu
 benefits: [['/_assets/images/benefits/simple.svg','Dostupnost a přesnost dat','Přesná data z připojených strojů dostupná okamžitě online v telefonech a počítačích.'],['/_assets/images/benefits/secure.svg','Vyšší efektivnost','Informace o taktu, prostojích, produkci a její kvalitě vedou k vyšší efektivnosti výroby (OEE).'],['/_assets/images/benefits/scalable.svg','Dohled nad procesy a postupy','Přehled o průběhu výroby, dodržování přestávek a pracovních postupů.']]

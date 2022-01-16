@@ -1,6 +1,6 @@
 ---
 title: Performance
-description: Simply measure the efficiency of your machines and production with one number. Digitize your production.
+description: Easily measure the efficiency of your machines and other equipment in manufacturing, agriculture and other industries.
 heading: Machine performance monitoring with&nbsp;HARDWARIO devices
 subheading: IoT performance monitoring
 benefits: [['/_assets/images/benefits/simple.svg','Data availability and accuracy','Accurate data from connected machines available instantly online on phones and computers.'],['/_assets/images/benefits/secure.svg','Higher efficiency','Information on pace, downtime, production and quality leads to higher production efficiency (OEE).'],['/_assets/images/benefits/scalable.svg','Processes supervision','Overview of production flow, break times and workflows.']]

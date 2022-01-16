@@ -45,7 +45,7 @@
                             </div>
                             <div class = "col-9 col-md-3 pb-20 pb-md-0">
                                 <h3 class="font-20 font-weight-black font-lnh30">{{ index . 1 }}</h3>
-                                <p class="font-18 font-lnh26">{{ index . 2 }}</p>
+                                <p class="font-18 font-lnh26">{{ index . 2 | safeHTML }}</p>
                             </div>
                     {{ end }}
                 </div>

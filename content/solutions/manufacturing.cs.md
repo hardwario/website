@@ -1,7 +1,8 @@
 ---
 title: Výroba
 slug: vyroba
-description: Přinášíme výrobním firmám úspory, vyšší produktivitu a optimalizaci.
+heading: IoT ve výrobě
+description: Přinášíme výrobním firmám příležitost digitalizovat výrobu rychle a dostupně.
 meta_title: IoT řešení ve výrobě | Průmysl 4.0 
 meta_description: 
 image_preview: /case-studies/otk_grid-home.png
@@ -10,8 +11,8 @@ document_image: /case-studies/arcelor_grid-home.png
 document_form: 639542e0-1147-41f3-afc6-964b8785780e
 document_name: Jak IoT technologie usnadňují digitalizaci ve&nbsp;výrobě
 video: y898_6andq0
-video_name: Záznam webináře o IoT ve výrobě
-video_text: Díky novým technologiím internetu věcí je nyní možné monitorovat jakékoliv výrobní zařízení jednoduše, rychle a bez velkých nákladů, protože nepotřebujeme zasahovat do stroje, procesů, ani zavádět síťové připojení ke stroji.
+video_name: Záznam webináře o IoT ve&nbsp;výrobě
+video_text: Díky novým technologiím internetu věcí je nyní možné monitorovat jakékoliv výrobní zařízení jednoduše, rychle a bez velkých nákladů. Nepotřebujeme zasahovat do stroje, procesů, ani zavádět síťové připojení ke stroji.
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
@@ -20,4 +21,4 @@ menu:
         parent: 'Řešení'
 ---
 
-Naše IoT zařízení přinášejí výrobním a stavebním firmám úspory, vyšší produktivitu a optimalizaci. Snadno se instalují, provozují a integrují s dalšími systémy.
+Naše IoT zařízení přinášejí výrobním a stavebním firmám úspory, vyšší produktivitu a&nbsp;optimalizaci. Snadno se instalují, provozují a integrují s dalšími systémy.

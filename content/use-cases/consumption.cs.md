@@ -1,6 +1,6 @@
 ---
 title: Energie
-description: Vzdálený monitoring spotřeby energií, jako jsou elektřina, voda, plyn nebo vzduch se zařízeními HARDWARIO.
+description: Vzdálený monitoring spotřeby energií - elektřiny, vody, plynu nebo stlačeného vzduchu se zařízeními HARDWARIO.
 heading: Monitoring spotřeby energií
 subheading: IoT monitoring energií
 benefits: [['/_assets/images/benefits/simple.svg','Online kontrola spotřeby','Získáte online informace o aktuální i dlouhodobé spotřebě, najdete nestandardní situace.'],['/_assets/images/benefits/secure.svg','Optimalizace spotřeby','Na základě získanách dat můžete spotřebu energií optimalizovat a snížit tak energetické náklady'],['/_assets/images/benefits/scalable.svg','Zefektivnění operativy','Automatickým odečtem energií ušetříte náklady vynaložené za ruční sběr dat.']]

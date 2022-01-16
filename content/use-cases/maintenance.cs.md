@@ -1,6 +1,6 @@
 ---
 title: Údržba
-description: Sledujte dlouhodobě stav strojů, konstrukcí a jiných objektů a předejděte tak zastavení výroby, zřízené konstrukce a dalším problémům.
+description: Sledujte dlouhodobě stav strojů, konstrukcí a jiných objektů. Předejděte zastavení výroby, zřícení konstrukce a dalším problémům.
 heading: Preventivní a prediktivní údržba se&nbsp;zařízeními HARDWARIO
 subheading: IoT monitoring údržby
 benefits: [['/_assets/images/benefits/simple.svg','Méně výpadků','Kontinuální monitoring včas odhalí rizikové situace a předchází neočekávaným výpadkům.'],['/_assets/images/benefits/secure.svg','Nížší náklady údržby','Preventivní a prediktivní údržba přináší dlouhodobě nižší náklady než omezení a výpadky provozu.'],['/_assets/images/benefits/scalable.svg','100% přehled o provozu','24/7 přehled o provozu a stavu sledovaného prostředí, strojů, zařízení a konstrukcí.']]

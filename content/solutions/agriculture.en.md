@@ -1,11 +1,15 @@
 ---
 title: Agriculture and&nbsp;forestry
 slug: agriculture
+heading: IoT in agriculture and forestry
 description: Our devices are used in many projects in agriculture. 
 meta_title: IoT solutions in agriculture | Precise agriculture
 meta_description: 
 image_preview: /case-studies/iframix-grid-home.png
 weight: 20
+video: eil_Na57h9I
+video_name: Monitoring the impact of the climate change on tree growth
+video_text: Watch the recording of the IoT webinar about how, together with Vodafone UK, we had handled the challenge of the Department for Environment, Food and Rural Affairs of the United Kingdom and made it easier to collect data to research the impact of climate change on tree growth.
 document_image: /case-studies/defra_grid-home.png
 document_form: 22e7a186-0974-409b-8002-fbc235f64f88
 document_name: How IoT technologies facilitate digitization in agriculture and forestry

@@ -1,6 +1,6 @@
 ---
 title: Maintenance
-description: Monitor the condition of machines, structures and other objects over the long term to prevent production stoppages, set-ups and other problems.
+description: Monitor the condition of machines, structures and other objects over the long term. Prevent production stoppages, structure collapses and other problems.
 heading: Preventive and predictive maintenance with HARDWARIO
 subheading: IoT maintenance monitoring
 benefits: [['/_assets/images/benefits/simple.svg','Fewer outages','Continuous monitoring detects risky situations early and prevents unexpected outages.'],['/_assets/images/benefits/secure. svg','Lower maintenance costs','Preventive and predictive maintenance brings lower operational costs in the long term.'],['/_assets/images/benefits/scalable.svg','100% operational visibility','24/7 overview of the operation and condition of the environment, machines, structures.']]

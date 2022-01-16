@@ -1,6 +1,6 @@
 ---
 title: Notifications
-description: Devices with one or more buttons and online monitoring of their pressing. The solution is also suitable for demanding outdoor projects, healthcare industry.
+description: Devices with one or more buttons and online monitoring of their pressing. Notification solutions suitable for outdoor projects, industry and healthcare. 
 heading: Notification and escalation systems speed up and refine processes
 subheading: IoT notification systems
 benefits: [['/_assets/images/benefits/simple.svg','Refinement and speedup','By preprogramming the button, the information is transmitted instantly at expected quality.'],['/_assets/images/benefits/secure. svg','Time logging','For the purpose of event logging, process control and escalation systems.'],['/_assets/images/benefits/scalable.svg','Notification availability','Notifications can be sent natively, using whatsapp or Microsoft Teams for example.']]
@@ -13,7 +13,7 @@ cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
 category: ["agriculture","care","construction","indoor","manufacturing","retail"]
 image_preview: /use-cases/buttons.png
-weight: 90
+weight: 30
 full: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Podmínky
-description: Projekty kontroly klimatu ve vnitřních prostorech v zemědělství, průmyslu, potravinářství i pro projekty chytrých firem a domácností.
+description: Projekty kontroly klimatu ve vnitřních prostorech v&nbsp;zemědělství, průmyslu, potravinářství i pro projekty chytrých firem a domácností.
 heading: Tvořte systémy vzdáleného monitoringu prostředí
 subheading: IoT monitoring podmínek
 benefits: [['/_assets/images/benefits/simple.svg','Přenost a preciznost sběru dat','Sbírejte přesná data pravidelně a na mnoha místech. K dispozici je budete mít online, pro audit a analýzu.'],['/_assets/images/benefits/secure.svg','Zefektivnění a snížení nákladů','Vzdálený monitoring pracuje 24/7 a přináší snížení množství potřebných výjezdů a zefektivnění procesů.'],['/_assets/images/benefits/scalable.svg','Zkvalitnění prostředí','Optimalizace prostředí na základě dat zlepší prostředí pro skladování, výrobu, zemědělství nebo chov zvířat.']]

@@ -9,7 +9,7 @@ video_type: Webinář
 weight: 8
 ---
 
-Rychlý vývoj IoT konektivity, zařízení operující roky na baterie, neinvazivní přístup a dostupná cena umožňují v dnešní době rychlou digitalizaci mnoha odvětví. Jedním s nejperspektinějších oborů využití IoT je bezesporu retail.
+Rychlý vývoj IoT konektivity, zařízení operující roky na baterie, neinvazivní přístup a dostupná cena umožňují v dnešní době rychlou digitalizaci mnoha odvětví. Jedním z nejperspektinějších oborů využití IoT je bezesporu retail.
 
 Proto jsme se v našem IoT webináři věnovali právě digitalizaci retailu pomocí IoT technologií. Naše partnerská společnost Adastra využívá zařízení HARDWARIO v několika typech projektů - mezi ty nejzajímavější patří bateriové paletové váhy a chytrý nezávislý regál. K tomu společnost přidává své obrovské znalosti a zkušenosti z retailu, vývoje software, umělé inteligence a business developmentu.
 

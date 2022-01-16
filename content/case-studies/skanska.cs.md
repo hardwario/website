@@ -1,8 +1,8 @@
 ---
 title:  Monitorujeme výšku hladiny jímek bytových domů SKANSKA
 heading:  Monitorujeme výšku hladiny jímek bytových domů
-image_main: 
-image_grid:
+image_main: /case-studies/skanska_grid-home.png
+image_grid: /case-studies/skanska_grid-home.png
 image_grid_home: /case-studies/skanska_grid-home.png
 description:
 meta_title: Monitorujeme výšku hladiny jímek bytových domů SKANSKA | HARDWARIO případová studie

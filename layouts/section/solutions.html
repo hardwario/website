@@ -52,6 +52,36 @@
       </section>
       {{ end }}
 
+      {{ $uses := where .Site.RegularPages "Section" "use-cases" }}
+      {{ with $uses }}
+      <section>
+        <div class="bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="text-center font-weight-black font-36 font-md-48">{{ i18n "use_cases" }}</h2>
+              </div>
+              <div class="col-12">
+                <div class="articles articles--2 pt-10">
+                  <div class="row d-flex align-content-stretch">
+      
+                    {{ range $uses.ByWeight }}
+      
+                    
+                    {{ .Render "grid-small-row" }}
+      
+                    {{ end }}
+      
+                  </div>
+                </div>
+      
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {{ end }}
+
     {{ else }}
 
     <section>

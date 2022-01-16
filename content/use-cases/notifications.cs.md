@@ -1,6 +1,6 @@
 ---
 title: Notifikace
-description: Zařízením s jedním nebo více tlačítek a online monitoring jejich stisknutí. Řešení je vhodné i&nbsp;pro náročné venkovní projekty, průmysl zdravotní péči.
+description: Zařízení s jedním nebo více tlačíty a online monitoring jejich stisknutí. Řešení rychlých notifikací vhodné pro náročné venkovní projekty, průmysl i zdravotní péči.
 heading: Notifikační a eskalační systém urychlují a zpřesňují procesy
 subheading: IoT notifikační systémy
 benefits: [['/_assets/images/benefits/simple.svg','Zpřesnění a zrychlení','Předprogramovaným tlačítkem je informace předána okamžitě v&nbsp;očekávané kvalitě.'],['/_assets/images/benefits/secure.svg','Časová evidence záznamu','Pro účely evidence vzniku události, kontroly procesů a eskalační systémy.'],['/_assets/images/benefits/scalable.svg','Vairablita notifikací','Notifikace je možné odesílat nativně, pomocí whatsapp nebo například Microsoft Teams.']]
