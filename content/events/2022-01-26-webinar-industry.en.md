@@ -26,7 +26,7 @@ description: "Register to free HARDWARIO IoT Webinar"
 
 <p class = "pb-25">For January one, we have chosen <strong>Meaningful use of blockchain and NFT in Industrial IoT</strong></p> 
 
-<p class = "pb-25">Our guest will be Tomáš Svoboda, author of the VEFramework and PLFramework projects, focusing on blockchain's practical and straightforward use in industry. Tomáš also co-founded ELEDUS (now MICo Vision) and helped set the digitalisation strategy for Brano Group.</p>
+<p class = "pb-25">Our guest will be Tomáš Svoboda, author of the <a href = "https://veframework.com" target = "_blank">VEFramework</a> and <a href = "https://plframework.com" target = "_blank">PLFramework</a> projects, focusing on blockchain's practical and straightforward use in industry. Tomáš also co-founded ELEDUS (now <a href = "https://vision.mico.cz" target = "_blank">MICo Vision</a>) and helped set the digitalisation strategy for <a href = "https://brano.eu" target = "_blank">Brano Group</a>.</p>
 
 <h3 class = "font-weight-bold font-20 pb-10">In the webinar we will cover the following topics:</h3>
 <ul class = "pb-15">
