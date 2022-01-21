@@ -14,7 +14,7 @@ image_main: >-
   https://res.cloudinary.com/lukasfabik/image/upload/v1572976435/projects/detektor-jeziska/image15.png
 tags:
   - Projekt na doma
-modules: ["core","climate","mini_battery","usb_dongle"]
+modules: ["core","pir","mini_battery","usb_dongle"]
 ---
 
 ## Úvod
