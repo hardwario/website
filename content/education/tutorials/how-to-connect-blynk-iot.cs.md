@@ -90,7 +90,7 @@ Hned na úvodní stránce uvidíte vámi vytvořené zařízení.
 
 Otevřete jej kliknutím a nastavte si dashboard:
 
-1. Pod **klíčem** vpravo nahoře nastavovací stránku dashboardu.
+1. Pod **klíčem** vpravo nahoře najdete nastavovací stránku dashboardu.
 
 {{< middle >}}
 {{< img src = "https://res.cloudinary.com/lukasfabik/image/upload/v1641214289/academy/how-to-connect-blynk-iot/blynk-3.png" alt = "Blynk IoT mobile dashboard" >}}
