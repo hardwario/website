@@ -7,4 +7,4 @@ weight: 800
 meta_title: Stáhněte si HARDWARIO Playground
 ---
 
-**HARDWARIO Playground** je aplikace pro nahrávání firmware, párování sestav a programování funkcí IoT stavebnice HARDWARIO TOWER. Je dostupná pro počítače s operačními systémy Windows, Linux, Ubuntu a macOS.
+**HARDWARIO Playground** je aplikace pro nahrávání firmware, párování sestav a programování funkcí IoT stavebnice HARDWARIO TOWER. Je dostupná pro počítače s operačními systémy Windows, Ubuntu a macOS.
