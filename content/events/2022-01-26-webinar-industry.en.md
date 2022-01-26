@@ -3,7 +3,7 @@ date: "2022-01-26"
 time: "16:00 CET"
 price: "Free"
 publishdate: "2022-01-11"
-expirydate: "2022-01-27"
+expirydate: "2022-01-26"
 title: "Free webinar: Meaningful use of blockchain and NFT in Industrial IoT"
 hashtags: ["webinar","free"]
 category: industry

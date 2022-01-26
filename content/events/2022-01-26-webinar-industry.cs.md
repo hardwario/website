@@ -3,7 +3,7 @@ date: "2022-01-26"
 time: "16:00"
 price: "Zdarma"
 publishdate: "2022-01-11"
-expirydate: "2022-01-27"
+expirydate: "2022-01-26"
 title: "Webinář zdarma: Smysluplné využití blockchainu a NFT v&nbsp;průmyslovém IoT"
 hashtags: ["webinar","zdarma"]
 category: industry
