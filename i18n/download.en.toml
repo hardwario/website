@@ -11,7 +11,7 @@ other = "File"
 other = "Download"
 
 [download_for_macos]
-other = "Download Playground for MacOS"
+other = "Download Playground for macOS"
 
 [install]
 other = "install"

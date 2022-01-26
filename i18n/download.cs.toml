@@ -11,7 +11,7 @@ other = "Soubor"
 other = "Stáhnout"
 
 [download_for_macos]
-other = "Stáhnout Playground pro MacOS"
+other = "Stáhnout Playground pro macOS"
 
 [install]
 other = "s instalací"
