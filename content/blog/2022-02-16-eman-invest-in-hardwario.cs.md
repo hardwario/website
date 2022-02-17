@@ -2,7 +2,7 @@
 title: Do HARDWARIO vstupuje strategický partner eMan
 meta_title: Do HARDWARIO vstupuje strategický partner eMan
 meta_description: Do HARDWARIO vstupuje pražský softwarový dům eMan. Spojením našich sil chceme společně podpořit využití IoT technologií v oblasti energetiky a průmyslu, ve kterých má eMan dlouholeté zkušenosti.
-draft: false
+draft: true
 date: 2022-02-16
 description: Do HARDWARIO vstupuje pražský softwarový dům eMan. Spojením našich sil chceme společně podpořit využití IoT technologií v oblasti energetiky a průmyslu, ve kterých má eMan dlouholeté zkušenosti.
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1645032483/blog/2022-02-16-eman-invest-in-hardwario/eman_small.jpg
