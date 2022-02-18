@@ -15,10 +15,10 @@ end }} -->
 <main role="main">
 
   {{ block "breadcrumb" . }}
-  {{ if .IsHome }}
-  {{ else }}
-  {{ partial "breadcrumb.html" . }} 
-  {{ end }}
+    {{ if .IsHome }}
+    {{ else }}
+      {{ partial "breadcrumb.html" . }} 
+    {{ end }}
   {{ end }}
 
 {{ block "main" . }}

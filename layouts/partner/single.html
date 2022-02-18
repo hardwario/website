@@ -1,0 +1,68 @@
+{{ define "breadcrumb" . }}
+
+{{ end }}
+
+{{ define "main" }}
+
+<style>
+  .content-block{
+      background-image: linear-gradient(to bottom right, #ebb50e, #ffd966); 
+      background-size: 100%; 
+      border-radius: 7px;
+  }
+  .content-block--gray{
+      background-image: linear-gradient(to bottom right, #cccccc, #b1adad); 
+  }
+  .content-block--gray2{
+      background-image: linear-gradient(to bottom right, #ffffff, #ececec); 
+  }
+
+  .chester-1{
+      background-size: 90%; 
+      border-radius: 7px; 
+      background-position: 50% 30px; 
+      background-image: url('/_assets/images/chester/1.png');
+      background-repeat: no-repeat;
+  }
+  @media(max-width: 769px){
+      .chester-1{
+          height: 400px;
+          background-position: 50% 100%;
+      }
+
+  }
+  @media(max-width: 1281px){
+      .chester-1{
+          background-position: 50% 100%;
+      }
+
+  }
+</style>
+
+
+<section>
+  <div class = "container">
+      <div class = "row justify-content-center px-10">
+
+          <div class = "col-12 px-30 pl-md-60 mb-20 content-block content-block--gray">
+              <div class = "row">
+                  <div class = "col-12 col-md-6 pt-40 pt-md-90 pb-30 pb-md-120">
+                      <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30">{{ .Params.heading | safeHTML }}</h2>
+                      <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description }}</p>
+                      <a href = "{{ .Permalink }}" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
+                  </div>
+                  <div class = "col-12 col-md-6 pt-30 pr-0 chester-1">
+
+                  </div>
+              </div>
+          </div> 
+      </div>
+    </div>
+</section>
+
+<footer>
+{{ end }}
+
+{{ define "additional-scripts" }}
+
+{{ end }}
