@@ -2,7 +2,7 @@
 title: Strategic partner eMan enters HARDWARIO
 meta_title: Strategic partner eMan enters HARDWARIO
 meta_description: Prague-based software house eMan enters our company. By joining forces, we want to promote the use of IoT technologies in the energy and industrial sectors, in which eMan has many years of experience.
-draft: true
+draft: false
 date: 2022-02-18
 description: Prague-based software house eMan enters our company. By joining forces, we want to promote the use of IoT technologies in the energy and industrial sectors, in which eMan has many years of experience.
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1645206860/blog/2022-02-16-eman-invest-in-hardwario/hio-eman.png
