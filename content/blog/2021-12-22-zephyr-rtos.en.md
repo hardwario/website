@@ -8,7 +8,7 @@ description: Today, I would like to share our story about technology from the wo
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1645036472/blog/2021-12-22-zephyr-rtos.en/zephyr.png
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1581950249/blog/wide_placeholder.jpg
 image_meta: https://res.cloudinary.com/lukasfabik/image/upload/v1645032483/blog/2022-02-16-eman-invest-in-hardwario/eman_small.jpg
-author: lukas_fabik
+author: pavel_hubner
 ---
 
 Zephyr is an RTOS for resource-constrained devices (32-bit MCUs) which embraces portability, code reusability, functional safety, and security. Its development started more than five years ago, and its design principles inherit some excellent ideas from the Linux kernel (and yes, many Linux developers are working on Zephyr).
