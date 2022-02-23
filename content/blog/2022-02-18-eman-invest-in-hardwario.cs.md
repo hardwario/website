@@ -11,7 +11,7 @@ image_meta: https://res.cloudinary.com/lukasfabik/image/upload/v1645206860/blog/
 author: lukas_fabik
 ---
 
-V HARDWARIO budeme i nadále pokračovat v budování silné partnerské sítě. Investicí od eManu jsme získali pro tuto cestu silného partnera, který nám zároveň pomůže naše produkty doplnit o nástroje pro snadnou instalaci, konfiguraci a správu našich zařízení.
+Dlouholetí přátelé ze společnosti eMan stvrdili naši strategickou spolupráci kapitálovým vstupem do naší firmy. Tato investice nám pomůže zrychlit mezinárodní expanzi, rozšířit portfolio poskytovaných služeb a zkvalitnit naši technickou i obchodní podporu partnerům. Prvním společným produktem bude mobilní aplikace HARDWARIO Manager, která zpříjemní všem uživatelům nastavení a správu HW platforem. A další skvělé produkty budou následovat.
 
 Spojením obchodních i marketingových aktivit plánujeme společně upevnit své pozice nejen na českém trhu. Budeme sdílet naše pobočky ve Velké Británii a Spojených státech a pokračovat v expanzi na další trhy, mezi které patří nově otevřená pobočka v Polsku, Latinská Amerika, Austrálie a v neposlední řadě DACH region, kde jednáme o spolupráci s prvním významným partnerem.
 

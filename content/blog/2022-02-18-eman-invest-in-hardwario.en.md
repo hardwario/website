@@ -11,7 +11,7 @@ image_meta: https://res.cloudinary.com/lukasfabik/image/upload/v1645206860/blog/
 author: lukas_fabik
 ---
 
-At HARDWARIO, we will continue to build a strong partner network. With the investment from eMan, we have gained a strong partner for this journey who will also help us complement our products with tools for easy installation, configuration and management of our devices.
+Longtime friends from eMan have solidified our strategic collaboration with an equity investment in our company. This investment will help us accelerate our international expansion, expand our service portfolio and improve our technical and business support to our partners. The first joint product will be the HARDWARIO Manager mobile application, which will make it easier for all users to set up and manage HW our platforms. And other great products will follow.
 
 By combining our sales and marketing activities, both companies plan to strengthen their position not only in the Czech market. We will share our offices in the UK and the US and continue to expand into other markets, including the newly opened office in Poland, Latin America, Australia and last but not least, the DACH region, where we are negotiating with our first major partner.
 
