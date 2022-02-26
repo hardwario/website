@@ -1,0 +1,240 @@
+{{ define "main" }}
+
+<section>
+  <div class = "container">
+    <div class="row pb-50">
+        <div class="col">
+            <div class="row">
+              <div class="col-12 col-md-10 mx-auto text-center pt-30 pt-md-0">
+                  <h1 class="text-center font-weight-black font-48 font-md-64">{{ .Params.mainHeading | safeHTML }}</h1>
+                  <p class="text-center pt-20 font-24 font-lnh38">{{ .Params.perex | safeHTML }}</p>
+
+                  <!--<h3 class="text-center font-weight-black font-18 pt-60">{{ i18n "follow_us" }}</h3>
+                  <div class="addthis_inline_follow_toolbox d-inline-block text-center margin-auto pt-20"></div>-->
+
+
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+</section>
+
+<style>
+    @media(max-width: 769px){
+        .rotate{
+            transform: rotate(270deg); 
+        }
+    }
+    .content-block{
+        background-image: linear-gradient(to bottom right, #ebb50e, #ffd966); 
+        background-size: 100%; 
+        border-radius: 7px;
+    }
+    .content-block--gray{
+            background-image: linear-gradient(to bottom right, #cccccc, #b1adad); 
+        }
+    .content-block--gray2{
+        background-image: linear-gradient(to bottom right, #ffffff, #ececec); 
+    }
+
+    .chester-1{
+        background-size: 90%; 
+        border-radius: 7px; 
+        background-position: 50% 30px; 
+        background-image: url('/_assets/images/chester/1.png');
+        background-repeat: no-repeat;
+    }
+
+    @media(max-width: 769px){
+        .chester-1{
+            height: 400px;
+            background-position: 50% 100%;
+        }
+
+        .chester-2{
+            display:none;
+        }
+
+        .chester-3{
+            height: 200px;
+            background-position: 100% 50%; 
+        }
+
+        .chester-5, .chester-6{
+            height: 400px;
+            background-size: 60%; 
+            background-position: 100% 0%; 
+        }
+    }
+    @media(max-width: 1281px){
+        .chester-1{
+            background-position: 50% 100%;
+        }
+
+    }
+    .chester-2{
+        background-size: 100%; 
+        border-radius: 7px; 
+        background-position: 0% 50%; 
+        background-image: url('/_assets/images/chester/lpwan.png');
+        background-repeat: no-repeat;
+    }
+    .chester-3{
+        background-size: 90%; 
+        border-radius: 7px; 
+        background-position: 101% 50%; 
+        background-image: url('/_assets/images/chester/7.png');
+        background-repeat: no-repeat;
+    }
+    .chester-4{
+        background-image: url('/_assets/images/chester/use-agriculture.png'); 
+        background-size: cover; 
+        border-radius: 0px;
+    }
+    .chester-5{
+        background-size: 100%; 
+        background-position: 100% 50%; 
+        background-image: url('/_assets/images/chester/zephyr.png');
+        background-repeat: no-repeat;
+    }
+    .chester-6{
+        background-size: 100%; 
+        background-position: 100% 50%; 
+        background-image: url('/_assets/images/chester/hio-cloud.png');
+        background-repeat: no-repeat;
+    }
+</style>
+
+<section>
+    <div class = "container pt-0">
+        <div class = "row justify-content-center px-10">
+
+            <div class = "col-12 px-30 pl-md-60 mb-90 content-block content-block--gray">
+                <div class = "row">
+                    <div class = "col-12 col-md-6 pt-40 pt-md-90 pb-30 pb-md-120">
+                        <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO TOWER</span></div>
+                        <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30">Průmyslová IoT&nbsp;stavebnice</h2>
+                        <p class = "font-20 font-md-16 pb-10">
+                            Stavebnice obsahuje více než 50 modulů, ze kterých se snadno staví IoT zařízení pro průmysl 4.0, STEM vzdělávání a projekty chytré domácnosti. Vytvořené IoT prvky mají velmi nízkou spotřebu a dokáží běžet z baterií po dobu několika let. Stavebnice je open-source a v průmyslové kvalitě. Komunikuje hlavně bezdrátově, a to našim vlastním Sub-GHz rádiem nebo LPWAN sítí LoRaWAN.
+                        </p>
+                        <p>Vyhrkli jsme na vás moc zkratek a pojmů, které neznáte? Nebojte, se stavebnicí TOWER v tom budete mít pořádek.</p>
+                    </div>
+                    <div class = "col-12 col-md-6 pt-30 pr-0 chester-1">
+
+                    </div>
+                </div>
+            </div> 
+
+            <div class = "col-12 px-30 pl-md-15 pr-md-60 mb-90 content-block content-block--gray">
+                <div class = "row">
+                    <div class = "col-12 col-md-3 pl-0 chester-2">
+
+                    </div>
+                    <div class = "col-12 col-md-9 col-xl-8 px-md-60 pt-40 pt-md-90 pb-60 pb-md-120 text-center">
+                        <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30">Stáhněte si <span class = "font-gray2">HARDWARIO Playground</span></h2>
+                        <p class = "font-20 font-md-16 pb-20">Pro práci se stavebnicí budete potřebovat aplikaci HARDWARIO Playground. Funguje na všech běžných operačních systémech - Windows, macOS a Ubuntu.</p>
+                        <a href="{{ "download/" | absLangURL }}" target="_blank" class = "font-lnh24 py-15 px-20 px-md-40 d-inline-block font-weight-bold font-font2 font-white font-20 font-md-16 bg-red">Stáhnout Playground</a>
+                    </div>
+                </div>
+            </div> 
+
+                    <div class = "col-12 pt-40 pt-md-60 pb-30 text-center">
+                        <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-10">Jakou sadu máte v ruce?</h2>
+                        <p class="font-24 font-lnh38">
+                            Připravili jsme představení pro každou ze základních sad HARDWARIO TOWER.</p>
+                    </div>
+            <div class = "col-12 col-md-4 pl-0 pr-0 pr-md-10">
+                <div class = "col-12 px-30 mb-20 content-block content-block--gray">
+                <div class = "row">
+                    <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center">
+                        <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">Sada Start</h2>
+                        <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description }}</p>
+                        <a href = "{{ .Permalink }}" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
+                        <img src = "/_assets/images/products/tower.png" class = "mx-auto mt-20 w-100"/>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class = "col-12 col-md-4 pl-0 pr-0 pr-md-10">
+                <div class = "col-12 px-30 mb-20 content-block content-block--gray">
+                <div class = "row">
+                    <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center">
+                        <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">Sada Control</h2>
+                        <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description }}</p>
+                        <a href = "{{ .Permalink }}" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
+                        <img src = "/_assets/images/products/tower.png" class = "mx-auto mt-20 w-100"/>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class = "col-12 col-md-4 pl-0 pr-0 pr-md-10">
+                <div class = "col-12 px-30 mb-20 content-block content-block--gray">
+                <div class = "row">
+                    <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center">
+                        <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">Sada Sensor</h2>
+                        <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description }}</p>
+                        <a href = "{{ .Permalink }}" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
+                        <img src = "/_assets/images/products/tower.png" class = "mx-auto mt-20 w-100"/>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+  <div class = "container">
+    <div class="row pt-70 pb-50">
+        <div class="col">
+            <div class="row">
+              <div class="col-12 col-md-10 mx-auto text-center pt-30 pt-md-0">
+                  <h2 class="text-center font-weight-black font-36 font-md-48">{{ i18n "personal_support_start" }}</h2>
+                  <p class="text-center pt-20 font-24 font-lnh38">{{ i18n "personal_tech_support_text" | safeHTML}}</p>
+
+
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+<section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="contactbox">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <div class="contactbox__item">
+                                    <div class="contactbox__icon"></div>
+                                    <h3 class="contactbox__text">{{ i18n "modification_integration" | safeHTML }}</h3>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="contactbox__item">
+                                    <div class="contactbox__icon contactbox__icon--warranty"></div>
+                                    <h3 class="contactbox__text">{{ i18n "extended_warranty" | safeHTML }}</h3>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="contactbox__item contactbox__item--noborder">
+                                    <div class="contactbox__icon contactbox__icon--support"></div>
+                                    <h3 class="contactbox__text">{{ i18n "personal_tech_support" | safeHTML }}</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<footer>
+{{ end }}
+
+{{ define "additional-scripts" }}
+<!--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ce11373d4525996"></script>-->
+
+{{ end }}
