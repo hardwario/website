@@ -22,7 +22,7 @@
       background-size: 90%; 
       border-radius: 7px; 
       background-position: 50% 30px; 
-      background-image: url('/_assets/images/partner/woltair.png');
+      background-image: url('/_assets/images/partner/{{ .Params.chester }}');
       background-repeat: no-repeat;
   }
   @media(max-width: 769px){
@@ -68,9 +68,9 @@
             <div class="row">
                 <div class="col pb-30">
                     <div class="row justify-content-center align-items-center">
-                        <div class = "col-12 text-center">
+                       <!-- <div class = "col-12 text-center">
                             <p class="font-18 font-lnh26 pb-10 font-weight-bold">Device features</p>
-                        </div>
+                        </div>-->
                                         <div class = "col-3 col-md-2 text-right pb-20 pb-md-0">
                                             <img loading="lazy" src="/_assets/images/integration.svg" class="w-50 mt-20" alt="" />
                                         </div>
@@ -129,7 +129,7 @@
         <div class = "row justify-content-center align-items-center text-center">
                 <div class = "col-12 col-md-9 font-20 font-md-20">
                     <h3 class = "font-20 font-md-20 font-weight-black font-lnh24 pb-10">About HARDWARIO</h3>
-                    <p class = "pb-10">We make industrial IoT devices and, together with our partners, deploy them in companies like LEGO, TOYOTA or Vodafone. We strongly focus on low-power devices and LPWAN networks that belong to the 5G standard. Woltair could be a partner who uses IoT gateway to innovate its portfolio.</p>
+                    <p class = "pb-10">We make industrial IoT devices and, together with our partners, deploy them in companies like LEGO, TOYOTA or Vodafone. We strongly focus on low-power devices and LPWAN networks that belong to the 5G standard. <strong>{{ .Params.company }}</strong> could be a partner who uses IoT gateway to innovate its portfolio.</p>
                 </div>
         </div>
     </div>
@@ -144,7 +144,7 @@
                 <img loading="lazy" src="/_assets/images/{{ .Params.cons_img }}" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
             </div>
             <div class = "col-12 col-md-8 pt-30 pt-md-0 text-center text-md-left font-white">
-            <h3 class = "font-32 font-weight-bold pb-10">Let's discuss the opportunity, Daniel</h3>
+            <h3 class = "font-32 font-weight-bold pb-10">Let's discuss the opportunity, {{ .Params.name }}</h3>
             <p class = "font-16 pb-10">{{ .Params.consultation | safeHTML }}</p>
             <a href = "{{ .Params.cons_link }}" target="_blank" class="font-lnh24 py-15 px-md-50 mt-30 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">Book a meeting</a>
             <p class = "pt-10 font-16 pb-10">{{ i18n "or_email_me" }} <a href = "mailto:lukas.fabik@hardwario.com" class = "font-red">lukas.fabik@hardwario.com</a></p>

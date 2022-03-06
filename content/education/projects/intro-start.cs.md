@@ -1,6 +1,6 @@
 ---
-title: Úvodní projekt sady start
-meta_title: Úvodní projekt sady start
+title: Úvodní projekt sady Start
+meta_title: Úvodní projekt sady Start
 meta_description: 
 url: /projekty/sada-start
 draft: false
