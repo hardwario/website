@@ -1,0 +1,165 @@
+
+
+{{ define "main" }}
+
+<style>
+    .breadcrumb{
+        display: none;
+    }
+  .content-block{
+      background-image: linear-gradient(to bottom right, #ebb50e, #ffd966); 
+      background-size: 100%; 
+      border-radius: 7px;
+  }
+  .content-block--gray{
+      background-image: linear-gradient(to bottom right, #cccccc, #b1adad); 
+  }
+  .content-block--gray2{
+      background-image: linear-gradient(to bottom right, #ffffff, #ececec); 
+  }
+
+  .chester-1{
+      background-size: 90%; 
+      border-radius: 7px; 
+      background-position: 50% 30px; 
+      background-image: url('/_assets/images/partner/{{ .Params.chester }}');
+      background-repeat: no-repeat;
+  }
+  @media(max-width: 769px){
+      .chester-1{
+          height: 400px;
+          background-position: 50% 100%;
+      }
+
+  }
+  @media(max-width: 1281px){
+      .chester-1{
+          background-position: 50% 100%;
+      }
+
+  }
+</style>
+
+
+<section>
+  <div class = "container">
+      <div class = "row justify-content-center px-10">
+
+          <div class = "col-12 px-30 pl-md-60 mb-20 content-block content-block--gray">
+              <div class = "row">
+                  <div class = "col-12 col-md-7 pt-40 pt-md-60 pb-30 pb-md-60">
+                      <h1 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30">{{ .Params.heading | safeHTML }}</h1>
+                      <p class = "font-20 font-md-20 pb-10">{{ .Params.description | safeHTML }}</p>
+                      <a href = "#pillars" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">Learn more</a>
+                      <!--<a href = "{{ .Permalink }}" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>-->
+                  </div>
+                  <div class = "col-12 col-md-5 pt-30 pr-0 chester-1">
+
+                  </div>
+              </div>
+          </div> 
+      </div>
+    </div>
+</section>
+
+<section>
+    <div class="" id = "pillars">
+        <div class="container">
+            <div class="row">
+                <div class="col pb-30">
+                    <div class="row justify-content-center align-items-center">
+                       <!-- <div class = "col-12 text-center">
+                            <p class="font-18 font-lnh26 pb-10 font-weight-bold">Device features</p>
+                        </div>-->
+                                        <div class = "col-3 col-md-2 text-right pb-20 pb-md-0">
+                                            <img loading="lazy" src="/_assets/images/integration.svg" class="w-50 mt-20" alt="" />
+                                        </div>
+                                        <div class = "col-9 col-md-4 pb-20 pb-md-0">
+                                            <h3 class="font-20 font-weight-black font-lnh30">Remote data collection</h3>
+                                            <p class="font-18 font-lnh26">The device communicates to the Internet from anywhere and entirely independently.</p>
+                                        </div>
+
+                                        <div class = "col-3 col-md-2 text-right pb-20 pb-md-0">
+                                            <img loading="lazy" src="/_assets/images/benefits/batteries.svg" class="w-75 mt-20" alt="" />
+                                        </div>
+                                        <div class = "col-9 col-md-4 pb-20 pb-md-0">
+                                            <h3 class="font-20 font-weight-black font-lnh30">Battery device</h3>
+                                            <p class="font-18 font-lnh26">The batteries can power the device for several years.</p>
+                                        </div>
+
+                                        <div class = "col-3 col-md-2 text-right pb-20 pb-md-0">
+                                            <img loading="lazy" src="/_assets/images/benefits/devices.svg" class="w-50 mt-20" alt="" />
+                                        </div>
+                                        <div class = "col-9 col-md-4 pb-20 pb-md-0">
+                                            <h3 class="font-20 font-weight-black font-lnh30">Predictive maintenance and control</h3>
+                                            <p class="font-18 font-lnh26">Use data to learn more about processes, reduce maintenance costs and control central units.</p>
+                                        </div>
+
+                                        <div class = "col-3 col-md-2 text-right pb-20 pb-md-0">
+                                            <img loading="lazy" src="/_assets/images/multipurpose.svg" class="w-100 mt-20" alt="" />
+                                        </div>
+                                        <div class = "col-9 col-md-4 pb-20 pb-md-0">
+                                            <h3 class="font-20 font-weight-black font-lnh30">Integrations and extensions</h3>
+                                            <p class="font-18 font-lnh26">The device can be simply integrated with other systems and extended with sensors (temperature, humidity, on/off status,...).</p>
+                                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>    
+    <div class = "container pt-60">
+        <div class = "row justify-content-center align-items-center">
+                <div class = "col-12 col-md-10 text-center">
+                    <p class="font-18 font-lnh26 pb-40 font-weight-bold">I made a video describing the opportunity and gateway:</p>
+                    <div class = "video-container youtube">
+                        <iframe src="https://www.youtube-nocookie.com/embed/{{ .Params.video }}?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                </div>
+        </div>
+    </div>
+</section>
+
+<section>    
+    <div class = "container pt-60">
+        <div class = "row justify-content-center align-items-center text-center">
+                <div class = "col-12 col-md-9 font-20 font-md-20">
+                    <h3 class = "font-20 font-md-20 font-weight-black font-lnh24 pb-10">About HARDWARIO</h3>
+                    <p class = "pb-10">We make industrial IoT devices and, together with our partners, deploy them in companies like LEGO, TOYOTA or Vodafone. We strongly focus on low-power devices and LPWAN networks that belong to the 5G standard. <strong>{{ .Params.company }}</strong> could be a partner who uses IoT gateway to innovate its portfolio.</p>
+                </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class = "container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mt-30 mb-70">
+          <div class = "row align-items-center">
+            <div class = "col-12 col-md-4 px-50">
+                <img loading="lazy" src="/_assets/images/{{ .Params.cons_img }}" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
+            </div>
+            <div class = "col-12 col-md-8 pt-30 pt-md-0 text-center text-md-left font-white">
+            <h3 class = "font-32 font-weight-bold pb-10">Let's discuss the opportunity, {{ .Params.name }}</h3>
+            <p class = "font-16 pb-10">{{ .Params.consultation | safeHTML }}</p>
+            <a href = "{{ .Params.cons_link }}" target="_blank" class="font-lnh24 py-15 px-md-50 mt-30 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">Book a meeting</a>
+            <p class = "pt-10 font-16 pb-10">{{ i18n "or_email_me" }} <a href = "mailto:lukas.fabik@hardwario.com" class = "font-red">lukas.fabik@hardwario.com</a></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+
+  
+<footer>
+{{ end }}
+
+{{ define "additional-scripts" }}
+
+{{ end }}

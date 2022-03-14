@@ -1,0 +1,131 @@
+{{ $currentPage := . }}
+
+<header role="banner">
+    <div class="container pt-30 pt-md-60 position-relative">
+      <div class = "position-absolute" style = "right: 15px">
+      <ul class = "border-right d-none d-lg-inline-block text-center text-lg-left mb-30 mt-0 mt-lg-0 pr-lg-20 list-unstyled py-0 my-0 font-14 font-md-12 font-weight-medium font-font2 text-uppercase justify-content-center justify-content-md-end">
+        {{ range .Site.Menus.secondary }}
+          <li class = "d-inline-block">
+            <a href="{{ .URL }}" target = "{{ .Post }}" class=" d-block pb-10 pb-lg-0 pr-lg-10 {{ if or ($.IsMenuCurrent "secondary" .) ($.HasMenuCurrent "secondary" .) }} font-red {{ else }} font-gray {{ end }}">{{ .Name | safeHTML }}</a>
+          </li>
+        {{ end }}
+      </ul>
+      <ul class = "d-inline-block text-center text-lg-left mb-30 mt-0 mt-lg-0 pl-lg-20 list-unstyled py-0 my-0 font-14 font-md-12 font-weight-medium font-font2 text-uppercase justify-content-center justify-content-md-end">
+        <li class = "d-inline-block"><span class="d-block pb-10 pb-lg-0 pr-lg-10 font-red active" href="{{ .Permalink }}">{{ .Site.Language.LanguageName }}</span></li>
+        {{ if .IsTranslated }}
+          {{ range .Translations }}
+            <li class = "d-inline-block"><a class="font-gray d-block pb-10 pb-lg-0 pl-lg-10" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+          {{ end }}
+        {{ else }}
+          {{ range .Site.Languages }}
+            {{ if ne .Lang $.Page.Lang }}
+            <li class = "d-inline-block"><a class="font-gray d-block pb-10 pb-lg-0 pl-lg-10" href="/{{ .Lang }}">{{ .Params.LanguageName }}</a></li>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </ul>
+      </div>
+    </div>
+    <div class="container pt-30 pt-md-30 pb-0 pb-md-60">
+        <div class="row align-items-center">
+            <div class="col pt-20 pt-sm-0">
+                <a href="{{ .Site.Params.baseURL }}" class="icon icon--logo d-block text-hide mx-md-0">Hardwario</a>
+            </div>
+            <div class="col-auto d-block d-lg-none">
+                <div class="js-formenu">
+                    <div>MENU</div>
+                    <div class="bg-hamb rounded"></div>
+                    <div class="bg-hamb rounded"></div>
+                    <div class="bg-hamb rounded"></div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg pt-20 pt-md-0 d-none d-lg-block js-menu menu">
+
+                <ul class="d-lg-flex text-center text-lg-left mt-20 mt-lg-0 list-unstyled py-0 my-0 font-20 font-md-15 font-weight-medium font-font2 text-uppercase justify-content-center justify-content-md-end">
+                  {{ $solutions := where .Site.RegularPages "Section" "solutions" }}
+                  {{ $cases := where .Site.RegularPages "Section" "use-cases" }}
+
+                  {{ range .Site.Menus.main }}
+                    <li class = "pl-lg-30">
+                      <a href="{{ .URL }}" target = "{{ .Post }}" class='{{ .Pre }} font-gray d-block pt-lg-5 pb-10 pb-lg-5 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} active {{ end }}'>{{ .Name | safeHTML }}</a>
+
+                      {{ if in "Solutions Řešení" .KeyName }}
+
+                      <div class = "row submenu text-left" class = "">
+                        <div class = "col-5">
+                          <strong class = "pb-10 d-block font-12">{{ i18n "use_cases" }}</strong>
+                          {{ with $cases }}
+                          <ul class="navtop__submenu list-unstyled">
+                            {{ range $cases.ByWeight }}
+                              <li class = "pb-15 font-12 font-md-14 font-lnh12"><a href="{{ .Permalink }}"><img src = "{{ .Params.image_preview }}" style ="width: 45px"/> {{ .Title | safeHTML }}</a></li>
+                            {{ end }}
+                          </ul>
+                          {{ end }}
+                        </div>
+                        <div class = "col-7 text-left">
+                          <strong class = "pb-10 d-block font-12">{{ i18n "industries" }}</strong>
+                          {{ with $solutions }}
+                          <ul class="navtop__submenu list-unstyled">
+                            {{ range $solutions.ByWeight }}
+                              <li class = "pb-15 font-12 font-md-14 font-lnh12" ><a href="{{ .Permalink }}"><img src = "{{ .Params.image_preview }}" style ="width: 45px"/> {{ .Title | safeHTML }}</a></li>
+                            {{ end }}
+                          </ul>
+                          {{ end }}
+                        </div>
+                      </div>
+                      
+                      {{ end }}
+                    </li>
+                  {{ end }}
+                </ul>
+                <ul class="d-lg-none text-center mt-20 list-unstyled py-0 my-0 font-20 font-md-15 font-weight-medium font-font2 text-uppercase justify-content-center">
+                  {{ range .Site.Menus.secondary }}
+                    <li>
+                      <a href="{{ .URL }}" target = "{{ .Post }}" class="{{ .Pre }} font-gray d-block pb-10 pb-lg-0 {{ if or ($.IsMenuCurrent "secondary" .) ($.HasMenuCurrent "secondary" .) }} active {{ end }}">{{ .Name | safeHTML }}</a>
+                    </li>
+                  {{ end }}
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+</header>
+
+<style>
+ul li .submenu{
+  display: none;
+  position: absolute;
+  z-index: 9000;
+  border-radius: 4px; 
+  -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+  padding: 15px 10px;
+  width: 70%;
+}
+
+@media(max-width:768px){
+  ul li .submenu{
+    width: 100%;
+  }
+}
+
+ul li .submenu a{
+  display: block;
+  text-align: left;
+}
+ul li:hover .submenu{
+  display:flex;
+}
+
+ul li:hover .submenu a{
+  color: #252532;
+  text-transform:initial;
+}
+ul li:hover .submenu li:hover a{
+  color: #dc3545;
+}
+
+
+</style>
