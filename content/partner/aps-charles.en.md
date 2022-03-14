@@ -10,4 +10,5 @@ chester: apsct-omfkw.png
 video: j_9u7uS-DGQ
 cons_img: lukas.jpeg
 cons_link: https://meetings.hubspot.com/lukasfabik/booking
+noindex: true
 ---
