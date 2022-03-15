@@ -8,7 +8,7 @@ description: It's a <strong>AirTeam IoT gateway</strong> for <strong>remote moni
 consultation: Lukas Fabik, CMO HARDWARIO
 email: lukas.fabik@hardwario.com
 chester: airteam-sdasd.png
-video: j_9u7uS-DGQ
+video: xvn5SKTlKqY
 cons_img: lukas.jpeg
 cons_link: https://meetings.hubspot.com/lukasfabik/booking
 noindex: true

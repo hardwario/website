@@ -8,7 +8,7 @@ description: It's a <strong>APS of Central Texas IoT gateway</strong> for <stron
 consultation: Lukas Fabik, CMO HARDWARIO
 email: lukas.fabik@hardwario.com
 chester: apsct-omfkw.png
-video: j_9u7uS-DGQ
+video: mXSur1OM8I0
 cons_img: lukas.jpeg
 cons_link: https://meetings.hubspot.com/lukasfabik/booking
 noindex: true
