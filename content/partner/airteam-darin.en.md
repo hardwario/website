@@ -1,5 +1,6 @@
 ---
 title: AirTeam - HARDWARIO (Darin)
+meta_title: Opportunity for AirTeam
 company: AirTeam
 name: Darin
 url: /airteam/hfbwa

@@ -1,5 +1,6 @@
 ---
 title: GrayMechanical - HARDWARIO (Josh Harris)
+meta_title: Opportunity for GrayMechanical
 company: GrayMechanical
 name: Josh
 url: /graymechanical/pnqzj
