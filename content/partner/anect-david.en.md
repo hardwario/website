@@ -8,7 +8,7 @@ description: It's a <strong>ANECT IoT gateway</strong> for your internet of thin
 consultation: Alan Fabik, CEO HARDWARIO
 email: alan.fabik@hardwario.com
 chester: anect-ngueb.png
-video: j_9u7uS-DGQ
+video: XX1z7ZsQucA
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
 noindex: true
