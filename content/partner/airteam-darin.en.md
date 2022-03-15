@@ -6,6 +6,7 @@ url: /airteam/hfbwa
 heading: The device looks awesome, Darin!
 description: It's a <strong>AirTeam IoT gateway</strong> for <strong>remote monitoring of heat pumps and boilers</strong> and other IoT innovations.<br/><br/>Interested?
 consultation: Lukas Fabik, CMO HARDWARIO
+email: lukas.fabik@hardwario.com
 chester: airteam-sdasd.png
 video: j_9u7uS-DGQ
 cons_img: lukas.jpeg
