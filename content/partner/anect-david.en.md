@@ -4,7 +4,7 @@ company: AirTeam
 name: Darin
 url: /anect/lpzhc
 heading: The device looks awesome, David!
-description: It's a <strong>ANECT IoT gateway</strong> for <strong>your internet of thing innovations.</strong>.<br/><br/>Interested?
+description: It's a <strong>ANECT IoT gateway</strong> for your internet of thing innovations.<br/><br/>Interested?
 consultation: Alan Fabik, CEO HARDWARIO
 chester: anect-ngueb.png
 video: j_9u7uS-DGQ
