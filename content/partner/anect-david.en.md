@@ -1,7 +1,7 @@
 ---
 title: Anect - HARDWARIO (David)
-company: AirTeam
-name: Darin
+company: Anect
+name: David
 url: /anect/lpzhc
 heading: The device looks awesome, David!
 description: It's a <strong>ANECT IoT gateway</strong> for your internet of thing innovations.<br/><br/>Interested?
