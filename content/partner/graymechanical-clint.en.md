@@ -8,7 +8,7 @@ description: It's a <strong>GrayMechanical IoT gateway</strong> for <strong>remo
 consultation: Lukas Fabik, CMO HARDWARIO
 email: lukas.fabik@hardwario.com
 chester: graymechanical-spmrb.png
-video: j_9u7uS-DGQ
+video: dy9rZCHiwM4
 cons_img: lukas.jpeg
 cons_link: https://meetings.hubspot.com/lukasfabik/booking
 noindex: true
