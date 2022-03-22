@@ -22,22 +22,22 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 <strong>Kdy:</strong> 31. března od 15 hodin<br/>
 <strong>Cena:</strong> Zdarma</p>
 
-<p class = "pb-15">Současná doba vytváří tlak na optimalizaci spotřeby energií.<br/> Jejich IoT monitoring se proto stal během několika měsíců nejžádanější aplikací internetu věcí v domácnostech a především v průmyslu.</p>
+<p class = "pb-15">Současné extrémní zvýšení cen energií vytváří tlak na optimalizaci spotřeby a hledání možných úspor. IoT monitoring energií je díky tomu nyní nejžádanější aplikací internetu věcí, a to především v průmyslu.</p>
 
-<p class = "pb-25">V březnovém webináří se budeme věnovat nejen vzdálenému odečtu energií, ale také energetickým auditům a dalšímu využití monitoringu, například pro sledování taktu výroby.</p>
+<p class = "pb-25">V našem březnovém webináří se proto budeme tomuto tématu věnovat. Představíme možnosti vzdáleného odečtu energií a ukážeme si, jak lze snadno provádět energetické audity výroby a provozu.</p>
 
-<p class = "pb-25">Na praktických příkladech ukážeme aplikace pro nejběžněji sledované energie (elektřina, voda, plyn, vzduch) ve městech, restauracích, pivovarech a výrobních podnicích.</p>
+<p class = "pb-25">Na praktických příkladech ukážeme IoT aplikace pro nejběžněji sledované energie (elektřina, voda, plyn, vzduch) ve městech a výrobních podnicích.</p>
 
-<p class = "pb-25">Nezapomeneme ani na budoucnost IoT monitoringu a sledování fotovoltaik a tepelných čerpadel.</p>
+<p class = "pb-25">Nastíníme také trendy IoT monitoringu alternativních zdrojů energie, jako například tepelných čerpadel.</p>
 
 
 <h3 class = "font-weight-bold font-20 pb-10">Ve webináři se budeme věnovat těmto tématům:</h3>
 <ul class = "pb-15">
 <li class = "pb-0">Jaké energie se monitorují nejčastěji.</li>
 <li class = "pb-0">Jakými způsoby lze spotřebu energií měřit.</li>
-<li class = "pb-0">Optimalizace spotřeby na základě energetického auditu.</li>
+<li class = "pb-0">Jak optimalizovat spotřebu na základě energetického auditu.</li>
 <li class = "pb-0">Praktické ukázky využití ve městě, pivovaru, restauraci a výrobním podniku.</li>
-<li class = "pb-0">Sledování fotovoltaik a tepelných čerpadel.</li>
+<li class = "pb-0">Monitoring fotovoltaik a tepelných čerpadel.</li>
 </ul>
 
 <h3 class = "font-weight-bold font-20 pb-10">Řečníci:</h3>

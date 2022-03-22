@@ -23,13 +23,13 @@ description: "Register to free HARDWARIO IoT Webinar"
 <strong>Price:</strong> Free</p>
 
 
-<p class = "pb-15">The current times create pressure to optimize energy consumption.<br/> Therefore, their IoT smart metering has recently become the most demanded IoT application in households and especially in industry.</p>
+<p class = "pb-15">The current extreme increase in energy prices creates pressure to optimise consumption and find possible savings. As a result, IoT energy monitoring is now the most demanded IoT application, especially in industry.</p>
 
-<p class = "pb-25">In the March webinar, we will discuss remote energy metering and energy audits and other uses of monitoring, for example, production efficiency.</p>
+<p class = "pb-25">In our March webinar, we will therefore focus on this topic. We will present the possibilities of remote energy readings and show how to carry out production and operations energy audits efficiently.</p>
 
-<p class = "pb-25">Using practical examples, we will show applications for the most commonly monitored energies (electricity, water, gas, air) in cities, restaurants, breweries and manufacturing companies.</p>
+<p class = "pb-25">Using practical examples, we will demonstrate IoT applications for the most commonly monitored energies (electricity, water, gas, air) in cities and manufacturing plants.</p>
 
-<p class = "pb-25">We will not forget to mention the future of IoT monitoring and metering of photovoltaics and heat pumps.</p>
+<p class = "pb-25">We will also outline IoT monitoring trends for alternative energy sources such as heat pumps.</p>
 
 
 <h3 class = "font-weight-bold font-20 pb-10">In the webinar, we will cover the following topics:</h3>
