@@ -25,7 +25,7 @@ description: "Register to free HARDWARIO IoT Webinar"
 
 <p class = "pb-15">The current extreme increase in energy prices creates pressure to optimise consumption and find possible savings. As a result, IoT energy monitoring is now the most demanded IoT application, especially in industry.</p>
 
-<p class = "pb-25">In our March webinar, we will therefore focus on this topic. We will present the possibilities of remote energy readings and show how to carry out production and operations energy audits efficiently.</p>
+<p class = "pb-25">In our March webinar, we will therefore focus on this topic. We will present the possibilities of remote energy readings and show how energy audits of production and operations can be easily carried out.</p>
 
 <p class = "pb-25">Using practical examples, we will demonstrate IoT applications for the most commonly monitored energies (electricity, water, gas, air) in cities and manufacturing plants.</p>
 
