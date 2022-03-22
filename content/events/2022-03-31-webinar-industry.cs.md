@@ -22,7 +22,7 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 <strong>Kdy:</strong> 31. března od 15 hodin<br/>
 <strong>Cena:</strong> Zdarma</p>
 
-<p class = "pb-15">Současná doba vytváří tlak na optimalizaci spotřeby energií.<br/> Jejich IoT monitoring se proto stal v poslední době nejžádanější aplikací internetu věcí v domácnostech a především v průmyslu.</p>
+<p class = "pb-15">Současná doba vytváří tlak na optimalizaci spotřeby energií.<br/> Jejich IoT monitoring se proto stal během několika měsíců nejžádanější aplikací internetu věcí v domácnostech a především v průmyslu.</p>
 
 <p class = "pb-25">V březnovém webináří se budeme věnovat nejen vzdálenému odečtu energií, ale také energetickým auditům a dalšímu využití monitoringu, například pro sledování taktu výroby.</p>
 
