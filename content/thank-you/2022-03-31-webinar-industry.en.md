@@ -22,10 +22,10 @@ image_main: /upload/webinar-blockchain.png
 
 <h3 class = "font-weight-black mb-20">The topic</h3>
 
-<p class = "pb-25">In the March webinar, we will discuss remote energy metering and energy audits and other uses of monitoring, for example, production efficiency.</p>
+<p class = "pb-25">In our March webinar, we will therefore focus on this topic. We will present the possibilities of remote energy readings and show how to carry out production and operations energy audits efficiently.</p>
 
-<p class = "pb-25">Using practical examples, we will show applications for the most commonly monitored energies (electricity, water, gas, air) in cities, restaurants, breweries and manufacturing companies.</p>
+<p class = "pb-25">Using practical examples, we will demonstrate IoT applications for the most commonly monitored energies (electricity, water, gas, air) in cities and manufacturing plants.</p>
 
-<p class = "pb-25">We will not forget to mention the future of IoT monitoring and metering of photovoltaics and heat pumps.</p>
+<p class = "pb-25">We will also outline IoT monitoring trends for alternative energy sources such as heat pumps.</p>
 
 <img class = "w-100" src = "/upload/webinar-metering.png"/>

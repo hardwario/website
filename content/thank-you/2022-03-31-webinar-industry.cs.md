@@ -18,9 +18,9 @@ image_main: /upload/webinar-metering.png
 
 <hr class = "mb-30"/>
 <h3 class = "font-weight-black mb-20">O čem webinář bude</h3>
-<p class = "pb-25">V březnovém webináří se budeme věnovat nejen vzdálenému odečtu energií, ale také energetickým auditům a dalšímu využití monitoringu, například pro sledování taktu výroby.</p>
+<p class = "pb-25">V našem březnovém webináří se proto budeme tomuto tématu věnovat. Představíme možnosti vzdáleného odečtu energií a ukážeme si, jak lze snadno provádět energetické audity výroby a provozu.</p>
 
-<p class = "pb-25">Na praktických příkladech ukážeme aplikace pro nejběžněji sledované energie (elektřina, voda, plyn, vzduch) ve městech, restauracích, pivovarech a výrobních podnicích.</p>
+<p class = "pb-25">Na praktických příkladech ukážeme IoT aplikace pro nejběžněji sledované energie (elektřina, voda, plyn, vzduch) ve městech a výrobních podnicích.</p>
 
-<p class = "pb-25">Nezapomeneme ani na budoucnost IoT monitoringu a sledování fotovoltaik a tepelných čerpadel.</p>
+<p class = "pb-25">Nastíníme také trendy IoT monitoringu alternativních zdrojů energie, jako například tepelných čerpadel.</p>
 <img class = "w-100" src = "/upload/webinar-metering.png"/>
