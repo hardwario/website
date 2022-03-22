@@ -4,7 +4,7 @@ time: "3 pm CET"
 price: "Free"
 publishdate: "2022-03-21"
 expirydate: "2022-04-01"
-title: "Free webinar: How IoT smart metering helps businesses reduce consumption"
+title: "Free webinar: How IoT monitoring helps optimise energy consumption"
 hashtags: ["webinar","free"]
 category: industry
 image_main: /upload/webinar-metering.png
@@ -16,7 +16,7 @@ description: "Register to free HARDWARIO IoT Webinar"
 <div class = "row">
 <div class = "col pr-30 font-17 font-lnh30">
 <img class = "w-100" src = "/upload/webinar-metering.png"/>
- <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48 d-none" style = "">Free webinar: How IoT smart metering helps businesses reduce consumption</h1>
+ <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48 d-none" style = "">Free webinar: How IoT monitoring helps optimise energy consumption</h1>
 
 <p class = "pt-15 pb-15">
 <strong>When:</strong> 31 March at 3 pm CET<br/>

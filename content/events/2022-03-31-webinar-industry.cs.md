@@ -4,7 +4,7 @@ time: "15:00"
 price: "Zdarma"
 publishdate: "2022-03-21"
 expirydate: "2022-04-01"
-title: "Jak IoT monitoring spotřeby pomáhá podnikům snížit spotřebu"
+title: "Jak monitorování IoT pomáhá optimalizovat spotřebu energie"
 hashtags: ["webinar","zdarma"]
 category: industry
 image_main: /upload/webinar-metering.png
@@ -16,7 +16,7 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 <div class = "row">
 <div class = "col pr-30 font-17 font-lnh30">
 <img class = "w-100" src = "/upload/webinar-metering.png"/>
- <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48 d-none" style = "">Webinář zdarma: Jak IoT monitoring spotřeby pomáhá podnikům snížit spotřebu</h1>
+ <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48 d-none" style = "">Webinář zdarma: Jak monitorování IoT pomáhá optimalizovat spotřebu energie</h1>
 
 <p class = "pt-15 pb-15">
 <strong>Kdy:</strong> 31. března od 15 hodin<br/>
