@@ -13,7 +13,7 @@ image_main: /upload/webinar-metering.png
 <div class ="col">
 <p class = ""><strong>Pozvěte na webinář někoho dalšího:</strong></p>
 </div>
-<div class="col addthis_inline_share_toolbox pb-30" data-url="https://www.hardwario.com/cs/events/2022-03-31-webinar-industry/" data-title="[Webinář zdarma] Jak monitorování IoT pomáhá optimalizovat spotřebu energie" data-description="Zúčastním se bezplatného webináře na téma Jak monitorování IoT pomáhá optimalizovat spotřebu energie" ></div>
+<div class="col addthis_inline_share_toolbox pb-30" data-url="https://www.hardwario.com/cs/events/2022-03-31-webinar-industry/" data-title="[Webinář zdarma] Jak IoT monitoring pomáhá optimalizovat spotřebu energie" data-description="Zúčastním se bezplatného webináře na téma Jak IoT monitoring pomáhá optimalizovat spotřebu energie" ></div>
 </div>
 
 <hr class = "mb-30"/>
