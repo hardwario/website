@@ -7,7 +7,7 @@ heading: You are in!
 image_main: /upload/webinar-metering.png
 ---
 
-<p class = "pb-10">Your registration for the IoT webinar "<strong>How IoT smart metering helps businesses reduce consumption</strong>" has been successful.</p>
+<p class = "pb-10">Your registration for the IoT webinar "<strong>How IoT smart metering helps to businesses reduce consumption</strong>" has been successful.</p>
 
 <p class = "pb-10"><strong>Date:</strong> 31 March at 3 pm CET</p>
 
@@ -15,7 +15,7 @@ image_main: /upload/webinar-metering.png
 <div class ="col">
 <p class = ""><strong>Invite someone else to the webinar:</strong></p>
 </div>
-<div class="col addthis_inline_share_toolbox pt-0 pb-30" data-url="https://www.hardwario.com/events/2022-03-31-webinar-industry/" data-title="[Free webinar] How IoT monitoring helps optimise energy consumption" data-description="I'm attending free webinar on How IoT monitoring helps optimise energy consumption"></div>
+<div class="col addthis_inline_share_toolbox pt-0 pb-30" data-url="https://www.hardwario.com/events/2022-03-31-webinar-industry/" data-title="[Free webinar] How IoT monitoring helps to optimise energy consumption" data-description="I'm attending free webinar on How IoT monitoring helps to optimise energy consumption"></div>
 </div>
 
 <hr class = "mb-30"/>
