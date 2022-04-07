@@ -194,7 +194,7 @@ other = "seconds"
 other = "<span id = 'countdown'></span> until the revolution"
 
 [or_email_me]
-other = "or email me on"
+other = "or email me at"
 
 [home]
 other = "Home"

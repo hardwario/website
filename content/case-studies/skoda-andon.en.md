@@ -12,7 +12,7 @@ product: TOWER
 partner: Microsoft
 featured: false
 full: true
-testimonial_text: "HARDWARIO helped us to swiftly and smoothly enhance our production process with a solution to monitor the current state of production lines and easily check whether any operator needs help."
+testimonial_text: "HARDWARIO helped us swiftly and smoothly enhance our production process. Their solution monitors production lines' current state and quickly checks whether any operator needs help."
 testimonial_author: Jan Vlačiha
 testimonial_company: Expert Coordinator – Škoda Auto
 testimonial_image: vlaciha.jpg
@@ -34,9 +34,9 @@ menu:
 
 {{% content %}}
 
-The largest car manufacturer in the Czech Republic, established more than 100 years ago, produces cars for people all around the globe. Škoda’s production plants are located on three continents – in Europe, Asia and Africa.
+The largest car manufacturer in the Czech Republic, established more than 100 years ago, produces cars for people all around the globe. Škoda’s production plants are located in Europe, Asia, and Africa.
 
-Their production is based on precision, efficiency and minimization of errors. Therefore, they wished to better monitor and evaluate the production process and provide operators with the opportunity to quickly call for help, if necessary.
+Their production is based on precision, efficiency and minimization of errors. Therefore, they wished to monitor better and evaluate the production process and provide operators with the opportunity to call for help quickly.
 
 {{% /content %}}
 {{% /intro %}}

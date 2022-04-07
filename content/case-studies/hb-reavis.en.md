@@ -11,7 +11,7 @@ industry: Real estate
 product: COOPER
 featured: false
 full: true
-testimonial_text: Partial custom delivery of multi-sensors from HARDWARIO has fitted in our eco-system in HB REAVIS as a reliable data source built on a low power wireless infrastructure. We rely on it in monitoring, evaluating and optimizing the quality of the indoor ambient. We are looking forward to further iterations!
+testimonial_text: Partial custom delivery of multi-sensors from HARDWARIO has fitted our eco-system in HB REAVIS as a reliable data source built on a low power wireless infrastructure. We rely on it in monitoring, evaluating and optimizing the quality of the indoor ambient. We are looking forward to future iterations!
 testimonial_author: HB REAVIS
 testimonial_company:
 testimonial_image: hbreavis.png
@@ -31,9 +31,9 @@ menu:
 
 {{% content %}}
 
-The international developer HB REAVIS has internally set its mission: designing office premises where employees will feel good and enjoy spending time. They design premises around the world that support personal development, reduce stress and improve health.
+The international developer HB REAVIS has internally set its mission: designing office premises where employees feel good and enjoy spending time. The design premises worldwide support personal development, reduce stress and improve health.
 
-It is not possible to achieve optimum working environment without fresh air, and, therefore, they asked us to **develop an air quality meter**.
+It is impossible to achieve an optimum working environment without fresh air. Therefore, HB REAVIS asked us to **develop an air quality meter**.
 
 {{% /content %}}
 {{% /intro %}}

@@ -4,7 +4,7 @@
     </span>
     <div class="pl-30 pr-md-30 pr-lg-60 border-left py-10 py-md-30">
         <div class="font-gray3">{{ i18n "company" }}</div>
-        <span class="font-black" href="">{{ $.Page.Params.company }}</span>
+        <span class="font-black" href="">{{ $.Page.Params.company | safeHTML }}</span>
     </div>
     <div class="pl-30 pr-md-30 pr-lg-60 border-left py-10 py-md-30">
         <div class="font-gray3">{{ i18n "industry" }}</div>

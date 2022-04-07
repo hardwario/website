@@ -8,8 +8,8 @@ meta_description:
 image_preview: /solutions/retail.jpg
 weight: 30
 video: Zmpovb9czKo
-video_name: How IoT technologies facilitate digitization in Retail
-video_text: The rapid development of IoT connectivity, devices powered from battery for years, non-invasive approach and affordable prices today enable the rapid digitization of many industries. One of the most promising fields of use of IoT is undoubtedly retail.
+video_name: How IoT technologies facilitate digitization in retail
+video_text: The rapid development of IoT connectivity, devices powered from batteries for years, non-invasive approach and affordable prices today enable the rapid digitization of many industries. One of the most promising fields of use of IoT is undoubtedly retail.
 video_bg: bg-darkGray font-white mb-20
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
@@ -19,4 +19,4 @@ menu:
         parent: 'Solutions'
 ---
 
-Non-invasive approach to installation and communication to the Internet ensures the success of our IoT devices in a wide range of projects in Retail. They are easy to operate and integrate with other systems.
+A non-invasive approach to installation and communication to the Internet ensures the success of our IoT devices in a wide range of projects in retail. They are easy to operate and integrate with other systems.

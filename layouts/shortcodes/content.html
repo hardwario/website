@@ -2,6 +2,8 @@
   <div class = "col-12 col-md-7">
     {{ .Inner | safeHTML }}
   </div>
+
+  {{ if $.Page.Params.testimonial_text }}
   <div class = "col-12 col-md-5">
     
     <blockquote class="font-20 font-md-26 font-gray4 font-weight-bold text-center pb-20">
@@ -15,4 +17,5 @@
       </div>
     </span>
   </div>
+  {{ end}}
 </div>

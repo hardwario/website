@@ -12,7 +12,7 @@ document_form: ed0a18c7-5165-4a1a-b68f-c94e94bb0e5b
 document_name: How IoT technologies facilitate digitization in manufacturing
 video: lRikM-F8R5I
 video_name: Recording of the webinar IoT&nbsp;in&nbsp;manufacturing
-video_text: Thanks to the new technologies of the Internet of Things, it is now possible to monitor production easily, quickly and affordably. We do not need to change or replace the machine, processes or establish a network connection.
+video_text: Thanks to the new Internet of Things technologies, it is now possible to monitor production easily, quickly and affordably. You don't need to change or replace the machine, process or establish a new network.
 consultation: Alan Fabik, CEO HARDWARIO
 cons_img: alan.png
 cons_link: https://meetings.hubspot.com/alanfabik/booking
@@ -21,4 +21,4 @@ menu:
         parent: 'Solutions'
 ---
 
-Our IoT devices bring for manufacturing and construction companies savings, higher productivity and optimization. They are easy to install, operate and integrate with other systems.
+The Internet of things brings manufacturing and construction companies savings, higher productivity and optimization. HARDWARIO devices are easy to install, operate, and integrate with other systems.
