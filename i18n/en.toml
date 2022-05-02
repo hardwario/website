@@ -28,6 +28,9 @@ other = "CZECHIA"
 [poland]
 other = "POLAND"
 
+[usa]
+other = "UNITED STATES OF AMERICA"
+
 [id]
 other = "Company ID"
 
