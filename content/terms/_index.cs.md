@@ -9,7 +9,7 @@ meta_description:
 
 Účinné ke dni: 20.1.2020
 
-HARDWARIO s.r.o.   <br/>
+HARDWARIO a.s.   <br/>
 U Jezu 525/4<br/>
 460 01 Liberec<br/>
 Česká republika<br/>
@@ -96,6 +96,6 @@ V Liberci dne 	20.1.2020
 
 
 Ing. Alan Fabik
-jednatel HARDWARIO s.r.o.
+jednatel HARDWARIO a.s.
 
 Kontaktní adresa technické podpory pro řešení veškerých incidentů: [ask@hardwario.com](mailto:ask@hardwario.com)
