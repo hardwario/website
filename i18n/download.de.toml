@@ -1,0 +1,20 @@
+[for_all_os]
+other = "Versionen für alle Betriebssysteme"
+
+[os]
+other = "Betriebssystem"
+
+[file]
+other = "Datei"
+
+[download]
+other = "Herunterladen"
+
+[download_for_macos]
+other = "Playground für macOS herunterladen"
+
+[install]
+other = "install"
+
+[no_install]
+other = "without install"

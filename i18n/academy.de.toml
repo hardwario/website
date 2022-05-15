@@ -2,34 +2,43 @@
 other = "Dokumentation"
 
 [documentation_info]
-other = "Entwickler-Dokumentation zu allen unseren Modulen und Integrationen."
+other = "Entwicklerdokumentation von Modulen und Integrationen."
 
 [show_docs]
-other = "Dokumentation öffnen"
+other = "Dokumentation ansehen"
 
 [sdk]
 other = "SDK-Bibliothek"
 
 [sdk_info]
-other = "Möchten Sie Ihre eigene Firmware erstellen? Dann brauchen Sie eine SDK-Bibliothek."
+other = "Möchten Sie Ihre eigene Firmware schreiben? Sie werden diese SDK-Bibliothek brauchen."
 
 [show_sdk]
-other = "SDK-Bibliothek öffnen"
+other = "SDK anzeigen"
 
 [find_an_inspiration_projects]
-other = "Lassen Sie sich von Muster-Projekten mit&nbsp;Anleitung inspirieren."
+other = "Lassen Sie sich von Beispielprojekten mit Schritt-für-Schritt-Anleitungen inspirieren."
 
 [other_resources]
-other = "Weitere nützliche Materialien"
+other = "Andere nützliche Ressourcen"
 
 [events_list]
 other = "Veranstaltungen"
 
 [learning_materials]
-other = "Lehrmaterialien"
+other = "Lernressourcen"
 
 [materials_description]
-other = "Lernen Sie den Umgang mit dem HARDWARIO-Baukasten, mit Playground, mit der App Node-RED und mit weiteren nützlichen Integrationen."
+other = "Lernen Sie, wie man mit HARDWARIO Kit, Playground, Node-RED Anwendung und anderen nützlichen Integrationen arbeitet."
 
 [come_to_event]
-other = "Wir veranstalten persönliche sowie Online-Meetings, machen Sie mit."
+other = "Wir organisieren persönliche und Online-Veranstaltungen. Machen Sie mit."
+
+[videos]
+other = "Videos"
+
+[hardwario_videos]
+other = "Videos"
+
+[videos_description]
+other = "Lassen Sie sich von unseren Videos inspirieren. Wir machen Tutorials und teilen Webinar-Aufzeichnungen."

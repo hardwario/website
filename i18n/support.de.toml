@@ -1,0 +1,20 @@
+[iot_hub_start]
+other = "Der Schnellstart-Leitfaden"
+
+[iot_hub_start_description]
+other = "Lernen Sie in 5 Minuten, wie Sie IoT Hub CHESTER nutzen können."
+
+[iot_hub_dfu]
+other = "Geräte-Firmware-Update"
+
+[iot_hub_dfu_description]
+other = "Erfahren Sie, wie Sie die Firmware des IoT Hub CHESTER aktualisieren können."
+
+[tutorials]
+other = "Anleitungen"
+
+[tutorials_text]
+other = "Unsere Lernmaterialien werden Ihnen helfen, die Welt von IoT, Industrie 4.0 und IoT Kit TOWER schnell zu verstehen."
+
+[tutorials_link]
+other = "Zu den Anleitungen"

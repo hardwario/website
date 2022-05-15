@@ -144,3 +144,9 @@ other = "Buy on shop.hardwario.com"
 
 [buy_on_link]
 other = "https://shop.hardwario.com"
+
+[monitoring_quantities]
+other = "Monitoring of quantities"
+
+[lpwan_tester]
+other = "LPWAN Tester"

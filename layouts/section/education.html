@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ $currentLang := .Site.Language.Lang }}
 
 <section>
     <div class="bg-image10 pt-50 pt-lg-0 d-flex align-items-center">
@@ -97,7 +98,11 @@
         </div>
 
         <div class="col-12 col-lg-4">
+            {{ if ne $currentLang "de" }}
             <a href="{{ "education/projects/" | absLangURL }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+            {{ else }}
+            <a href="/education/projects/" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+            {{ end }}
                 <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "tower_projects" }}</h3>
                 <p class = "pb-20">{{ i18n "tower_projects_desc" }}</p>
                 <span class = "font-font2 font-red font-decoration-underline">{{ i18n "projects_link" | safeHTML }}</span>
@@ -121,7 +126,11 @@
         </div>
 
         <div class="col-12 col-lg-4">
+            {{ if ne $currentLang "de" }}
             <a href="{{ "education/tutorials/" | absLangURL }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+            {{ else }}
+            <a href="/education/tutorials/" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+            {{ end }}
                 <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "tower_intro" }}</h3>
                 <p class = "pb-20">{{ i18n "tower_intro_desc" }}</p>
                 <span class = "font-font2 font-red font-decoration-underline">{{ i18n "tutorials_link" | safeHTML }}</span>
@@ -149,7 +158,7 @@
     </div>
     </div>
   </section>
-
+  {{ if ne $currentLang "de" }}
 {{ $events := (where ($.Site.GetPage "section" "events").Pages "Params.category" "education") }}
 {{ with $events }}
 <section>
@@ -175,6 +184,7 @@
 </div>
 </div>
 </section>
+{{ end }}
 {{ end }}
 
         <section>

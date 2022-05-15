@@ -1,0 +1,71 @@
+[academy]
+other = "HARDWARIO-Akademie"
+
+[academy_text]
+other = "Wir vermitteln Ihnen die Grundlagen des Internets der Dinge und der Arbeit mit HARDWARIO Produkten. Wir organisieren auch Webinare und Seminare."
+
+[academy_link]
+other = "Offene Akademie"
+
+[projects]
+other = "IoT-Kit Beispielprojekte"
+
+[projects_text]
+other = "Projekte, die erstellt und beschrieben wurden, um Ihnen die Arbeit mit dem Bausatz zu zeigen. Beginnen Sie mit einfacheren, wir haben auch fortgeschrittene."
+
+[projects_link]
+other = "Projekte anzeigen"
+
+[kit_docs]
+other = "IoT Kit Dokumentation"
+
+[kit_docs_text]
+other = "Sind Sie an der Weiterentwicklung des Kits, an Projekten und Integration interessiert? Besuchen Sie die Entwicklerdokumentation."
+
+[kit_docs_link]
+other = "Zur Dokumentation"
+
+[hub_docs]
+other = "IoT Hub Dokumentation"
+
+[hub_docs_text]
+other = "Technische Informationen über das CHESTER-Gerät. Sie finden darin zum Beispiel eine Beschreibung der Schnittstelle und der AT-Befehle."
+
+[hub_docs_link]
+other = "Datenblatt öffnen"
+
+[industry_case_studies]
+other = "Industrielle Fallstudien"
+
+[industry_case_studies_text]
+other = "Wir verwenden das Kit und CHESTER hauptsächlich in der Industrie. Lassen Sie sich von unseren Fallstudien inspirieren."
+
+[industry_case_studies_link]
+other = "Fallstudien lesen"
+
+[sdk_lib_docs]
+other = "IoT Kit SDK Bibliothek"
+
+[sdk_lib_text]
+other = "Möchten Sie Ihre eigene Firmware für den Bausatz schreiben? Hier finden Sie alles, was Sie brauchen."
+
+[sdk_lib_link]
+other = "SDK-Bibliothek öffnen"
+
+[personal_support_start]
+other = "Persönlicher technischer Support"
+
+[personal_tech_support_text]
+other = "Wann immer Sie Rat brauchen, wenden Sie sich an unseren technischen Support. Schicken Sie uns eine E-Mail an <a href = 'mailto:ask@hardwario.com'>ask@hardwario.com</a> oder nutzen Sie den Online-Chat hier im Web."
+
+[videos_link]
+other = "Alle Videos"
+
+[download_playground]
+other = "Playground herunterladen"
+
+[playground_description]
+other = "Laden Sie ein Tool herunter, mit dem Ihr IoT Kit TOWER auf Sie hört. Es ist für Windows, Linux, Ubuntu und Apple macOS verfügbar."
+
+[download_link]
+other = "Weiter zum Download"

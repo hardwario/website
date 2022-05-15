@@ -1,56 +1,56 @@
 [build_smart_product]
-other = "Wir sind<br/> Hardware-Experten"
+other = "Wir sind Hardware-Experten"
 
 [its_easy_with_iot_kit]
-other = "Zusammen mit <a href = '/de/partners/'>unseren Partnern</a> fokussieren wir uns auf Projekte für das Internet der Dinge und für Geräte mit sehr niedrigem Stromverbrauch."
+other = "Gemeinsam mit <a href = '/partners/'>unseren Partnern</a> haben wir uns auf Projekte für das Internet der Dinge und Geräte mit sehr geringem Stromverbrauch spezialisiert."
 
 [products]
 other = "Produkte"
 
 [three_unique_products]
-other = "Wir haben 3&nbsp;einzigartige Produkte für Sie"
+other = "Wir haben 3&nbsp;einzigartige Produkte&nbsp;für&nbsp;Sie"
 
 [one_kit_for_all_projects]
-other = "Unsere Produkte kommen vor allem in&nbsp;folgenden Bereichen zur Anwendung"
+other = "Unsere Produkte werden hauptsächlich in&nbsp;diesen Bereichen eingesetzt"
 
 [active_stem_education]
-other = "STEM<br/>Ausbildung"
+other = "Aktives<br/> STEM-Lernen"
 
 [use_kit_for_edutaction]
-other = "Nutzen Sie den Baukasten, den pädagogischen Rahmen, die detaillierten Lektionen und Datenbanken mit realen Projekten für einen aktiven und&nbsp;spannenden STEM-Unterricht in der Schule und&nbsp;zu Hause."
+other = "Pädagoginnen und Pädagogen auf der ganzen Welt nutzen unsere Kits und den pädagogischen Rahmen, um Schülerinnen und Schüler in den aktiven MINT-Unterricht einzubinden. Mit einer umfassenden Datenbank von realen IoT-Projekten gestalten wir die Zukunft der Bildung."
 
 [more_about_education]
-other = "Mehr zum Thema Ausbildung"
+other = "Mehr erfahren"
 
 [industry40_pilots]
-other = "IoT für die Industrieanwendung"
+other = "Industrielles Internet der Dinge"
 
 [start_iot_innovations]
-other = "IoT-Innovationen ins Rollen bringen – schnell&nbsp;und&nbsp;kostengünstig. Erstellen Sie ein Gerät für prädiktive Wartung, Produktionsüberwachung oder Komfortüberwachung der Arbeitsumgebung."
+other = "Setzen Sie Ihre innovativen Ideen schnell und kostengünstig in die Tat um. Brauchen Sie Daten aus einer Produktionslinie oder müssen Sie auf eine unerwartete Situation reagieren? Mit unseren Geräten sind Sie auf der sicheren Seite. Fördern Sie Ihre IoT-Innovationen."
 
 [more_about_pilots]
-other = "Mehr zum Thema IIoT"
+other = "Mehr über IoT-Piloten"
 
 [smart_diy_projects]
 other = "DIY<br/> Smart Home"
 
 [build_own_device]
-other = "Bauen Sie sich einen Überschwemmungssensor, eine automatische Bewässerung, einen CO2-Monitor, ein Thermostat oder ein Spiel. Es stehen Ihnen unsere Akademie, Anleitungen und Projekte zur Verfügung, von denen Sie sich inspirieren lassen können."
+other = "Nutzen Sie unsere Online-Tutorials und inspirierenden Projekte, um intelligente vernetzte Gadgets zu erstellen. Bauen Sie Ihren Wasserleckdetektor, LCD-Thermostat, steuern Sie intelligente LED-Leisten und vieles mehr. Die IoT-Kits sind alle drahtlos und quelloffen!"
 
 [more_about_diy]
-other = "Mehr zum Thema DIY Smart Home"
+other = "Mehr über DIY Smart Home"
 
 [learn_and_start_making]
-other = "Entdecken Sie unseren IoT&nbsp;-Baukasten"
+other = "Mehr über unsere IoT-Kits erfahren"
 
 [we_prepared_academy_and_projects]
-other = "Entdecken Sie den Baukasten dank unserem <a href = \"/cs/handbook\">Handbuch</a>und&nbsp;unserer Akademie. Inspiration für Ihre STEM- und Industrieprojekte finden Sie in&nbsp;der Projekt-Datenbank. Jetzt kann es losgehen."
+other = "Lernen Sie das Kit mit unserem <a href = \"/handbook\">Handbuch</a> und der Akademie kennen. In der Projektdatenbank finden Sie Anregungen für Ihre STEM- und Industrieprojekte. Fahren Sie fort."
 
 [handbook]
 other = "Handbuch"
 
 [guide_for_starter]
-other = "Assistent für unser Starter-Kit"
+other = "Der Leitfaden für unser Starter Kit"
 
 [projects]
 other = "Projekte"
@@ -62,19 +62,106 @@ other = "Lassen Sie sich inspirieren"
 other = "Akademie"
 
 [get_to_know]
-other = "Wie funktioniert es?"
+other = "Entdecken Sie unser System"
 
 [get_handbook]
-other = "Handbuch durchlesen"
+other = "Handbuch ansehen"
 
 [show_me_projects]
-other = "Projekte anzeigen"
+other = "Projekte ansehen"
 
 [show_me_academy]
-other = "Akademie ansehen"
+other = "Akademie besuchen"
 
 [iot_events]
-other = "Lernen wir uns persönlich kennen"
+other = "Besuchen Sie uns persönlich"
 
 [come_to_event]
-other = "Besuchen Sie Events, die von uns oder unseren Partnern veranstaltet werden. Im Rahmen dieser Events teilen wir unsere Kenntnisse aus den Bereichen IoT und STEM-Unterricht mit Ihnen."
+other = "Erkunden Sie die wunderbare Welt der Technologie, während wir unser Wissen über IoT-Technologien und MINT-Bildung teilen."
+
+[design_manufacture]
+other = "Wir entwickeln und&nbsp;fertigen einzigartige&nbsp;IoT&nbsp;Geräte"
+
+[works_from_batteries]
+other = "<strong>Sie arbeiten mehrere Jahre lang mit Batterien</strong>, können <strong>von fast überall aus mit dem Internet verbunden werden</strong> und lassen sich <strong>einfach in andere Systeme integrieren</strong>."
+
+[together_with_partners]
+other = "<a href = '/de/partners/'>Gemeinsam mit unseren Partnern</a> setzen wir sie erfolgreich in Digitalisierungsprojekten in Industrie, Landwirtschaft, Handel, Gesundheitswesen oder Bildung ein."
+
+[from_strategy_to_implementation]
+other = "Von der Strategie zur&nbsp;Umsetzung"
+
+[strategy]
+other = "Strategie"
+
+[strategy_text]
+other = "Wir und unsere Partner helfen Ihnen, eine sinnvolle IoT-Strategie</strong> nach Ihren Vorstellungen zu definieren und umzusetzen."
+
+[hardware_text]
+other = "Wir entwickeln und produzieren <strong>sichere Hardware mit sehr geringem Stromverbrauch</strong> und einfacher Bedienung."
+
+[connectivity]
+other = "Konnektivität"
+
+[connectivity_text]
+other = "Wir sorgen für die Anbindung Ihrer Geräte an das Internet mit <strong>speziellen IoT-Technologien</strong>."
+
+[implementation]
+other = "Umsetzung"
+
+[implementation_text]
+other = "Gemeinsam mit Partnern installieren wir die Geräte und <strong>integrieren sie in Ihre Unternehmenssysteme</strong>."
+
+[education]
+other = "Bildung"
+
+[education_text]
+other = "Wir werden Ihnen die IoT-Technologie beibringen und Sie in die Arbeit mit Geräten und Daten einführen."
+
+[noninvasive]
+other = "Nicht-invasiv"
+
+[noninvasive_text]
+other = "Wir reduzieren die Komplexität, indem wir die Bereitstellung ohne Änderungen an den Rechnern und ohne Anschluss an das Unternehmensnetzwerk vornehmen."
+
+[easy]
+other = "Einfach"
+
+[easy_text]
+other = "Auch Nicht-IT-Fachleute können das System problemlos installieren und verwalten. Wir können auch die gesamte Lösung für Sie installieren und verwalten."
+
+[secure]
+other = "Sicher"
+
+[secure_text]
+other = "Die Geräte kommunizieren in getrennten Netzwerkschichten. Wir befolgen bewährte Verfahren, um die Sicherheit des gesamten Systems zu gewährleisten."
+
+[scalable]
+other = "Skalierbar"
+
+[scalable_text]
+other = "Unsere Lösung ermöglicht den Einsatz mehrerer Geräte als Proof-of-Concept-Piloten, aber auch von Hunderte von Einheiten in der Produktion."
+
+[economical]
+other = "Kostengünstig"
+
+[economical_text]
+other = "Wir können das IoT-System schon ab einigen zehn Dollar betreiben, was sich sofort bezahlt macht. Wir werden Ihnen helfen, das Projekt wirtschaftlich zu verteidigen."
+
+[comprehensive]
+other = "Umfassend"
+
+[comprehensive_text]
+other = "Gemeinsam werden wir eine IoT-Strategie definieren und umsetzen. Wir berücksichtigen Bildung, UX, Sicherheit, Daten, Konnektivität, Integration und Skalierbarkeit."
+
+[newest_from_hardwario]
+other = "Das Neueste von HARDWARIO"
+
+[noworriesiot]
+other = "Keine Sorgen IoT"
+
+[our_platforms]
+other = "Unsere Plattformen"
+
+[partners_projects]
+other = "Projekte unserer Partner"

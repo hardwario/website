@@ -1,8 +1,8 @@
 ---
-title: Produkte
-mainHeading: Produkte von HARDWARIO
-meta_title: Produkte von HARDWARIO – NB-IoT Hub, LoRa Hub, IoT-Baukasten
-menu: ["main","footer"]
+title: Produkte 
+mainHeading: HARDWARIO Produkte 
+meta_title: HARDWARIO Produkte - NB-IoT-Hub, LoRa-Hub, IoT-Kit 
+menu: ["main","footer"] 
 description:
 weight: 10
 ---

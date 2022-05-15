@@ -1,53 +1,53 @@
 [industrial_iot_kit]
-other = "IoT&nbsp;-Baukasten für die Industrieanwendung"
+other = "Industrielles IoT&nbsp; Kit"
 
 [about_kit]
-other = "Beschreibung des Baukastens"
+other = "Beschreibung"
 
 [high_quality_security]
-other = "Hohe Qualität und&nbsp;Sicherheit"
+other = "Stabilität und&nbsp;Sicherheit"
 
 [industry_applications]
-other = "Ein Industriebaukasten, mit dem ganz einfach IoT-Projekte umgesetzt werden können. Der Baukasten umfasst mehr als 40 verschiedene Module und findet vor allem in Industrie&nbsp;-4.0-Pilotprojekten, im Rahmen aktiver STEM-Ausbildung und&nbsp;auch in Smart-Home-Projekten Anwendung."
+other = "Industrieller Bausatz, mit dem Sie mühelos Internet-of-Things-Projekte erstellen können. Das Kit enthält über 40 verschiedene Module und die Hauptanwendungsfälle sind Industrie 4.0-Piloten, aktiver STEM-Unterricht sowie&nbsp;Smart Home DIY-Projekte."
 
 [wide_range_connectivity]
-other = "Breites Angebot im Bereich IoT&nbsp;-Konnektivität"
+other = "Breite IoT-Konnektivität"
 
 [radio_lpwan]
-other = "Zusammengebaute Geräte können lokal über ein Sub-GHZ-Funknetzwerk oder LPWAN-Technologien wie LoRaWAN, Sigfox und &nbsp;mittels <a href = '/cs/chester/'>IoT-Hub CHESTER</a> sowie&nbsp;NB-IoT kommunizieren. Das heißt, der Baukasten kann auch von Orten aus kommunizieren, an denen keine normale Internetverbindung zur Verfügung steht."
+other = "Aufgebaute Geräte können lokal mit proprietärem Sub-GHz-Funk und auch mit LPWAN-Technologien wie LoRaWAN, Sigfox oder NB-IoT (wenn Sie <a href = '/chester/'>IoT Hub CHESTER</a> verwenden) kommunizieren. Dadurch kann es sogar von Orten aus kommunizieren, an denen keine reguläre Internetverbindung zur Verfügung steht"
 
 [works_from_batteries_for_years]
-other = "Zusammengebaute Sensoren, Detektoren und Regler zeichnen sich durch einen niedrigen Stromverbrauch aus und&nbsp;können&nbsp;mit Batterien über mehrere Jahre hinweg versorgt werden. Eingeschlossen in ein Industriegehäuse kann der Baukasten auch im&nbsp;Außenbereich und&nbsp;in staubiger Umgebung betrieben werden."
+other = "Die eingebauten Sensoren, Detektoren und Steuergeräte haben einen geringen Stromverbrauch und können jahrelang mit Primärbatterien betrieben werden. Im&nbsp;Fall der&nbsp;Versiegelung in einem&nbsp;Industriegehäuse kann es auch im&nbsp;Freien und in staubigen Umgebungen funktionieren."
 
 [open_source_integarion]
-other = "Open Source"
+other = "Open-Source"
 
 [open_integration]
-other = "Beim ganzen Baukasten handelt es sich um eine Open-Source-Lösung, die&nbsp;Integrationen in&nbsp;beliebte Plattformen wie Node-RED, Microsoft Azure, AWS, Ubidots, Blynk, IFTTT, Amazon Alexa, Google Home oder Apple HomeKit unterstützt. Es ist ebenfalls möglich, den Baukasten über REST API und Webhooks in Ihren Endpoint zu integrieren."
+other = "Das gesamte Kit ist Open-Source und unterstützt die Integration mit gängigen Plattformen wie Node-RED, Microsoft Azure, Amazon AWS, Ubidots, Blynk, IFTTT, Amazon Alexa, Google Home oder Apple HomeKit. Es&nbsp;kann dank&nbsp;REST API und Webhooks auch mit Ihrem Endpunkt integriert werden."
 
 [academy_projects_docs]
 other = "Akademie, Projekte, Dokumentation"
 
 [academy_projects_docs_desc]
-other = "Dank <a href = '/cs/academy/co-je-to-bigclown-playground/'>Playground</a>, <a href = '/cs/academy/'>Akademie</a> und <a href = '/cs/projects'>Musterprojekten</a> ist es äußerst einfach, mit dem Baukasten zu arbeiten zu beginnen. Sie können das Gerät einfach einstellen, mit dem&nbsp;Computer paaren und dank visueller Programmierung auch vorgeben, wie der Baukasten funktionieren soll. Fortgeschrittenes Verhalten und Integrationen können mit Hilfe der <a href = 'https://tower.hardwario.com' target = '_blank'>Dokumentation</a> und <a href = 'https://sdk.hardwario.com'>SDK-Bibliothek umgesetzt werden</a>."
+other = "Vielen Dank <a href = '/academy/what-is-bigclown-playground/'>Playground</a>, <a href = '/academy/'>academy</a> and <a href = '/projects/'>example projects</a>, es ist einfach, mit dem Bausatz zu beginnen. Sie können das Gerät ganz einfach einrichten, es mit einem Computer koppeln und dank der visuellen Programmierung festlegen, wie es funktionieren soll. Sie können fortgeschrittenes Verhalten und Integration mit <a href = 'https://tower.hardwario.com' target = '_blank'>Dokumentation</a> und <a href = 'https://sdk.hardwario.com' target = '_blank'>SDK-Bibliothek</a> lösen."
 
 [get_kit]
-other = "Baukasten kaufen"
+other = "Industrie-Kit kaufen"
 
 [buy]
-other = "Kaufen"
+other = "Online kaufen"
 
 [pilots]
-other = "Schnelle IoT<br/>-Pilotprojekte"
+other = "Schnelles IoT-Prototyping"
 
 [concepts]
-other = "Überprüfung der Konzepte von&nbspIndustrie&nbsp;4.0"
+other = "Proofs&nbsp;of&nbsp;concepts for&nbsp;Industry&nbsp;4.0"
 
 [stem_edu]
-other = "Aktiver STEM-Unterricht"
+other = "Aktive STEM-Bildung"
 
 [radio_communication]
-other = "Radio communication"
+other = "Funkkommunikation"
 
 [memory]
 other = "Speicher"
@@ -56,85 +56,100 @@ other = "Speicher"
 other = "Spannungsbereich"
 
 [dimensions]
-other = "Maße"
+other = "Abmessungen"
 
 [interfaces]
-other = "Schnittstelle"
+other = "Interfaces"
 
 [to]
-other = "bis"
+other = "to"
+
+[or]
+other = "or"
 
 [width]
-other = "Breite"
+other = "width"
 
 [height]
-other = "Höhe"
+other = "height"
 
 [10pin_swd_connector]
-other = "10-Pin-SWD-Stecker für das Justieren"
+other = "10-poliger SWD-Anschluss für die Fehlersuche"
 
 [swd_connector]
-other = "SWD-Stecker"
+other = "SWD-Anschluss"
 
 [red_LED]
 other = "Rote LED"
 
 [hardwario_tag]
-other = "Position für HARDWARIO-Tag"
+other = "HARDWARIO Tag-Position"
 
 [button]
-other = "Taste"
+other = "Push button"
 
 [micro_usb]
-other = "Micro-USB für Kommunikation, Firmware-Upload oder Stromversorgung"
+other = "Micro-USB für Kommunikation, Firmware-Upload und/oder Stromversorgung"
 
 [go_to_shop]
-other = "Zum Shop wechseln"
+other = "Zum Shop"
 
 [climate]
-other = "Temperatur-, Feuchtigkeits-, Beleuchtungsintensitäts- und Luftdruckmessung"
+other = "Sensor für Temperatur, Luftfeuchtigkeit, Beleuchtungsstärke und Barometer"
 
 [co2]
-other = "Messung von Kohlendioxid in Büros, Schulen und Heimen"
+other = "Kohlendioxid-Überwachung in Büros, Schulen und Wohnungen"
 
 [voc]
-other = "Messung der Konzentration von flüchtigen organischen Verbindungen"
+other = "Erkennung flüchtiger organischer Verbindungen (VOC)"
 
 [gps]
-other = "Positionsüberwachung mittels GPS / Galileo / GLONASS"
+other = "Satellitenpositionsüberwachung (GPS / Galileo / GLONASS)"
 
 [pir]
-other = "Bewegungserkennung, unabhängiger Sicherheitsalarm"
+other = "Bewegungserkennung, unabhängiger Einbruchalarm"
 
 [infra_grid]
-other = "Wärmebildkamera"
+other = "Passiv-Infrarot-Thermokamera mit niedriger Auflösung"
 
 [lcd]
-other = "Display für Datenanzeige"
+other = "Display für Datenvisualisierung"
 
 [button_module]
-other = "Programmierbare Taste"
+other = "Programmierbare Drucktaste"
 
 [rfid]
-other = "RFID-Identifikation"
+other = "RFID kontaktlose Identifizierung"
 
 [relay]
-other = "Bedienung eines LED-Streifens, Ventilators oder Garagentors"
+other = "LED-Leiste, Ventilator, Fernbedienung für das Garagentor"
 
 [sensor]
 other = "Bis zu 4 universelle Ein-/Ausgänge, z. B. externes Thermometer"
 
 [buy_kit]
-other = "Den Baukasten können Sie per Internet in unserem Online-Shop kaufen. Anleitungen und&nbsp;Projekte werden online&nbsp;veröffentlicht."
+other = "Sie können den Kit online im&nbsp;ur&nbsp;Shop kaufen. Wir veröffentlichen Tutorials und&nbsp;Projekte online."
 
 [view_docs]
 other = "Dokumentation ansehen"
 
 [inspiration]
-other = "Projekte"
-
-[brain_of_kit]
-other = "Grundmodul, sozusagen der Kopf des ganzen Baukastens"
+other = "Beispielprojekte"
 
 [and_many_more]
-other = "+ viele weitere Module und anschließbare Sensoren"
+other = "+ viele weitere Module und verdrahtbare Sensoren"
+
+[buy_on]
+other = "Kaufen auf shop.hardwario.com"
+
+[buy_on_link]
+other = "https://shop.hardwario.com"
+
+[applications]
+other = "Anwendungen"
+
+[monitoring_quantities]
+other = "Überwachung der Mengen"
+
+[lpwan_tester]
+other = "LPWAN-Tester"

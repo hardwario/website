@@ -2,222 +2,7 @@
 
 
 {{ $currentLang := .Site.Language.Lang }}
-{{ if eq $currentLang "de" }}
-<section>
-    <div class="bg-image9 pt-50 pt-lg-0 d-flex align-items-center mb-20 mb-md-50">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6 text-center text-md-left">
-                    <h1 class="font-44 font-md-64 font-md-lnh68 font-weight-black pb-40">{{ i18n "build_smart_product" | safeHTML }}</h1>
-                    <p class="font-24 font-gray2 font-lnh37 pb-40 pr-md-100">{{ i18n "its_easy_with_iot_kit" | safeHTML }}</p>
-                    <div>
-                        <!--<a href="#products" class="cta-button font-lnh54 px-70 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "tell_me_more" }}</a>-->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!--section>
-  <div class = "container">
-  <div class="row justify-content-center">
-    <div class="col-12 col-md-12 col-lg-12 bg-gray py-20 mb-60">
-        <div class = "row align-items-center">
-          <div class = "col-12 col-md-8 pt-30 px-50 pt-md-0 text-center text-md-left">
-            <h2 class="font-28 font-md-40 pb-20 pb-xl-20 font-weight-black">Snadná průmyslová IoT řešení</h2>
-            <p class = "font-24 font-gray2 pb-20">Začněte s projekty IIoT a průmyslu 4.0 bez vstupních invetic. Pronajměte si kompletní řešení.</p>
-            <a href = "/cs/haas/" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">Zjistit více informací</a>
-          </div>
-          <div class = "col-12 col-md-4 px-50">
-              <img loading="lazy" src="/_assets/images/chester-device.svg" class="w-75 d-block mx-auto img-fluid" alt="" />
-          </div>
-      </div>
-  </div>
-  </div>
-  </div>
-</section>-->
-
-<section>
-    <div class="container">
-        <div class="row align-items-center pb-10 mb-md-30">
-            <div class="col-12 col-md-7 col-xl-4 mx-auto text-center">
-                <div class="font-redLined font-red mb-20 font-font2 font-weight-bold font-15"><span>{{ i18n "tech_partners" }}</span></div>
-            </div>
-            <div class="col-12 text-center partners">
-                <span class="px-10 px-xl-20 mb-10 mb-lg-0 d-inline-block">
-                    <img loading="lazy" width="140" src="/_assets/images/partners/vodafone.svg" alt="" />
-                </span>
-                <span class="px-10 px-xl-20 mb-10 mb-lg-0 d-inline-block">
-                    <img loading="lazy" width="100" src="/_assets/images/partners/cra.svg" alt="" />
-                </span>
-                <span class="px-10 px-xl-20 mb-10 mb-lg-0 d-inline-block">
-                    <img loading="lazy" width="140" src="/_assets/images/partners/microsoft.svg" alt="" />
-                </span>
-                <span class="px-10 px-xl-20 mb-10 mb-lg-0 d-inline-block">
-                    <img loading="lazy" width="70" src="/_assets/images/partners/aws.svg" alt="" />
-                </span>
-                <span class="px-10 px-xl-20 mb-10 mb-lg-0 d-inline-block">
-                    <img loading="lazy" width="130" src="/_assets/images/partners/ubidots.png" alt="" />
-                </span>
-                <span class="px-10 px-xl-20 mb-10 mb-lg-0 d-inline-block">
-                    <img loading="lazy" width="130" src="/_assets/images/partners/blynk.png" alt="" />
-                </span>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section>
-  <div class="container" id = "products">
-  <div class="row pt-60">
-      <div class="col">
-          <div class="row">
-            <div class="col-12 col-md-10 col-xl-8 mx-auto text-center">
-                <h2 class="text-center font-weight-black font-36 font-md-54">{{ i18n "three_unique_products" | safeHTML }}</h2>
-                <!--<p class="text-center font-24 font-lnh38">{{ .Params.description | safeHTML }}</p>-->
-            </div>
-          </div>
-      </div>
-  </div>
-  {{ partial "products.html" . }}
-  </div>
-</section>
-
-
-<section>
-    <div class="" id = "solutions">
-        <div class="container">
-            <div class="row pt-md-60 pb-60">
-                <div class="col">
-                    <div class="row pb-10 pb-md-30">
-                        <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
-                            <h2 class="text-center font-weight-black font-36 font-md-54 pb-30 pb-md-0">{{ i18n "one_kit_for_all_projects" | safeHTML }}</h2>
-                        </div>
-                    </div>
-                    {{ partial "solutions" . }}
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!--<section>
-    <div class="bg-gray text-center pt-70 pb-60 px-15">
-      <div class = "container">
-        <h2 class="font-40 font-md-64 font-md-lnh56 pb-30 mb-5 font-weight-black">{{ i18n "learn_and_start_making" | safeHTML }}</h2>
-        <div class = "row">
-        <div class = "col-12 col-md-4 pb-40 pb-md-0">
-          <h3 class="font-26 font-md-40 font-lnh38 font-md-lnh44 font-weight-black pb-0 pb-md-10">{{ i18n "handbook" }}</h3>
-          <p class="font-21 font-lnh24 px-15 pb-15">{{ i18n "guide_for_starter" }}</p>
-          <a href="{{ "handbook/" | absLangURL }}" class="cta-button font-lnh54 font-md-lnh24 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 font-gray text-decoration-none border-gray">{{ i18n "get_handbook" }}</a>
-        </div>
-
-      <div class = "col-12 col-md-4 pb-40 pb-md-0">
-          <h3 class="font-26 font-md-40 font-lnh38 font-md-lnh44 font-weight-black pb-0 pb-md-10">{{ i18n "projects" }}</h3>
-          <p class="font-21 font-lnh24 px-15 pb-15">{{ i18n "find_an_inspiration" }}</p>
-          <a href="{{ "projects/" | absLangURL }}" class="cta-button font-lnh54 font-md-lnh24 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 font-gray text-decoration-none border-gray">{{ i18n "show_me_projects" }}</a>
-        </div>
-
-      <div class = "col-12 col-md-4">
-          <h3 class="font-26 font-md-40 font-lnh38 font-md-lnh44 font-weight-black pb-0 pb-md-10">{{ i18n "academy" }}</h3>
-          <p class="font-21 font-lnh24 px-15 pb-15">{{ i18n "get_to_know" }}</p>
-          <a href="{{ "academy/" | absLangURL }}" class="cta-button font-lnh54 font-md-lnh24 font-lg-lnh54 px-40 d-inline-block font-weight-bold font-font2 font-gray text-decoration-none border-gray">{{ i18n "show_me_academy" }}</a>
-        </div>
-        </div>
-
-
-      </div>
-    </div>
-</section>-->
-
-
-{{ $events := ($.Site.GetPage "section" "events").Pages }}
-{{ with $events }}
-
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-8 col-xl-6 mx-auto text-center">
-                <div class="font-redLined font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "events" }}</span></div>
-            </div>
-        </div>
-        <div class="row pb-10 pb-md-30">
-            <div class="col-12 col-md-10 mx-auto text-center">
-                <h2 class="text-center font-weight-black font-36 font-md-54">{{ i18n "iot_events" | safeHTML }}</h2>
-                <p class="text-center font-24 font-lnh38">{{ i18n "come_to_event" }}</p>
-            </div>
-        </div>
-        <div class="row align-items-start pb-30 pt-30">
-
-            {{ range $events.ByDate }}
-            <div class="col-12 col-md-6 col-xl-4 pb-30">
-                {{ .Render "grid" }}
-            </div>
-            {{end}}
-
-        </div>
-</div>
-</section>
-{{ end }}
-
-<section>
-  <div class = "container">
-  <div class="row justify-content-center">
-    <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mb-60">
-        <div class = "row align-items-center">
-          <div class = "col-12 col-md-4 px-50">
-              <img loading="lazy" src="/_assets/images/{{ .Params.cons_img }}" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
-          </div>
-          <div class = "col-12 col-md-8 pt-30 pt-md-0 text-center text-md-left font-white">
-          <h3 class = "font-32 font-weight-bold pb-10">{{ i18n "free_consult" | safeHTML }}</h3>
-          <p class = "font-16 pb-10">{{ .Params.consultation | safeHTML }}</p>
-          <a href = "{{ .Params.cons_link }}" target="_blank" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">{{ i18n "make_an_appointment" }}</a>
-          </div>
-      </div>
-  </div>
-  </div>
-  </div>
-</section>
-
-<!--<section>
-  <div class="">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-            <div class="row pt-70">
-                <div class="col-12 col-md-4 mx-auto text-center">
-                    <div class="font-redLined font-redLined-gray font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "from_iot_blog" | safeHTML }}</span></div>
-                </div>
-            </div>
-            <div class="row pb-10 pb-md-30">
-                <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
-                    <h2 class="text-center pb-20 font-weight-black font-30 font-md-64">{{ i18n "read_about_iot" |safeHTML }}</h2>
-                    <p class="text-center font-24 font-lnh38">{{ i18n "we_share_knowledge" | safeHTML }}</p>
-                </div>
-            </div>
-          <div class="articles articles--2">
-            <div class="row d-flex align-content-stretch">
-              {{ range first 3 (where (where .Pages "Section" "blog" ) "Kind" "==" "page") }}
-              <div  class="col-12 col-md-6 col-lg-4 tf-filter-item tf-item show-item">
-                {{ .Render "grid" }}
-              </div>
-              {{ end }}
-
-            </div>
-            <div class="row d-flex align-content-stretch pb-50">
-              <a href="{{ "blog/" | absLangURL }}" class="cta-button font-lnh54 px-70 d-inline-block mx-auto font-weight-bold font-font2 font-red bg-white text-decoration-none border-red mt-20">{{ i18n "more_blog" }}</a>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>-->
-
-{{ else }}
 <section>
     <div class="bg-image23 fullBackground pt-50 pt-lg-0 d-flex align-items-center mb-20 mb-md-50" style = "background-image: none;">
         <div class="container">
@@ -411,7 +196,7 @@
                     <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center">
                         <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO TOWER</span></div>
                         <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">{{ .Params.category | safeHTML }}</h2>
-                        <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description }}</p>
+                        <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description | safeHTML }}</p>
                         <a href = "{{ .Permalink }}" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
                         <a href = '{{ i18n "buy_on_link" }}' target="_blank" class="pt-20 pt-md-0 ml-0 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "buy_on" | safeHTML }}</a>
                         <img src = "/_assets/images/products/tower.png" class = "mx-auto mt-20 w-100"/>
@@ -709,7 +494,7 @@
 
   </section>-->
 
-
+  {{ if ne $currentLang "de" }}
   <section>
     <div class="">
       <div class="container">
@@ -765,7 +550,6 @@
       </div>
     </div>
   </section>
-
 {{ end }}
 <footer>
 {{ end }}

@@ -1,248 +1,560 @@
-[multipurpose_hub]
-other = "Multipurpose IoT&nbsp;Hub"
+[watch_video]
+other = "Watch the video"
 
-[learn_more]
-other = "Learn more"
+[download_leaflet]
+other = "Download&nbsp;product&nbsp;leaflet"
 
-[low_power_consumption]
-other = "Low power consumption"
-
-[10years_from_batteries]
-other = "The device features low power consumption and offers a&nbsp;reliable operation from a&nbsp;battery for up to 10&nbsp;years. CHESTER&nbsp;can operate in outdoor and dusty environments."
-
-[multipurpose_use]
+[application_elasticity]
 other = "Application elasticity"
 
-[one_device_many_applications]
-other = "One modular device covering a wide range of IoT applications. CHESTER is used to data telemetry data of the connected systems, monitoring of a&nbsp;large variety of sensors, remote control and location tracking."
+[application_elasticity_desc]
+other = "One modular device covering a wide spectrum of IoT projects"
 
-[lpwan_connectivity]
+[LPWAN_connectivity]
 other = "LPWAN connectivity"
 
-[economical_internet_communication]
-other = "Communication to the internet from most distant places. CHESTER communicates through LPWAN technologies, such as&nbsp;NB-IoT or LoRaWAN, even from places where regular internet connectivity is not available."
+[LPWAN_connectivity_desc]
+other = "Communication to the internet from the most distant places"
 
-[integrate_device]
-other = "Ready for integration"
+[lowpower_design]
+other = "Low-power design"
 
-[hundreds_of_services]
-other = "CHESTER can by easy connected to the cloud, mobile applications and other services, such as Azure IoT Hub, Grafana, Ubidots or Blynk as well as it can be integrated with your endpoint through the REST API and Webhooks."
+[lowpower_design_desc]
+other = "Reliable operation from a primary cell battery for several years"
 
-[applications]
-other = "Applications"
+[ip67pl]
+other = "IP 67 protection level"
 
-[about_chester]
-other = "About CHESTER"
+[ip67pl_desc]
+other = "Enclosure to withstand harsh environmental conditions"
 
-[monitoring_quantities]
-other = "Sensor monitoring"
+[ble]
+other = "Bluetooth Low Energy"
 
-[telemetry]
-other = "Data telemetry"
+[ble_desc]
+other = "For diagnostics, parametrization, and device firmware upgrades"
 
-[tracking]
-other = "Position tracking"
+[branding]
+other = "Custom branding"
+
+[branding_desc]
+other = "Full OEM branding service, including custom color printing"
+
+[modular_device]
+other = "One modular device</span> Wide range of IoT applications"
+
+[modular_device_desc]
+other = "CHESTER is used to data telemetry data of the connected systems, monitoring of a large variety of sensors, remote control and location tracking. The device features a robust, waterproof, IP67-rated enclosure for harsh environmental conditions. In addition, its wide operating temperature range and battery-optimized power consumption enable outdoor deployment."
+
+[supported_interfaces]
+other = "Supported interfaces"
+
+[extensions_list]
+other = "List&nbsp;of&nbsp;extensions"
+
+[interfaces]
+other = "Interfaces"
+
+[digital_inputs]
+other = "Digital inputs"
+
+[digital_outputs]
+other = "Digital outputs"
+
+[analog_inputs]
+other = "Analog inputs"
+
+[communication]
+other = "Communication"
+
+[dry_contacts]
+other = "Dry contacts"
+
+[outputs]
+other = "outputs"
+
+[power_relays]
+other = "Power relays"
+
+[open_collector]
+other = "Open collector"
+
+[signal]
+other = "Signal"
+
+[reliable_connectivity]
+other = "Reliable connectivity</span> Data from distant and deep indoor places"
+
+[reliable_connectivity_desc]
+other = "CHESTER connects to the internet via LPWAN communication technologies (NB-IoT, LTE-M, and LoRaWAN are supported). Choose the built-in internal antenna or connect an external antenna for any of those options. For diagnostics, parametrization, and device firmware upgrades, CHESTER comes with a Bluetooth Low Energy interface available in modern smart devices and notebooks."
+
+[lowpower_device]
+other = "Designed from the ground up as a</span> low&#x2011;power&nbsp;device"
+
+[lowpower_device_desc]
+other = "CHESTER has been designed from the ground up as a low-power device and provides years of operation from the primary lithium cells. Another way to power the device is to use a rechargeable battery backup module with the optional solar photovoltaic panel input. For applications where batteries are not applicable, it is possible to energize the device from a standard 24 V DC line power or 230 V AC line."
+
+[lithium_cells]
+other = "Primary lithium cells"
+
+[rechargable_batteries]
+other = "Rechargable batteries"
+
+[solar_panels]
+other = "Photovoltaic solar panels"
+
+[applications_industries]
+other = "Applications<span class = 'font-gray2'><br/>industries and use cases</span>"
+
+[use_cases]
+other = "Use cases"
+
+[industries]
+other = "Industries"
+
+[read_case_studies]
+other = "Read case studies"
+
+[all_solutions]
+other = "All&nbsp;solutions&nbsp;and&nbsp;use&nbsp;cases"
+
+[machine_monitoring]
+other = "Machine monitoring"
+
+[predictive_maintenance]
+other = "Predictive maintenance"
+
+[event_alerting]
+other = "Event alerting"
+
+[smart_metering]
+other = "Smart metering"
+
+[sensor_telemetry]
+other = "Sensor telemetry"
+
+[asset_tracking]
+other = "Asset tracking"
+
+[air_quality_sensing]
+other = "Air quality sensing"
 
 [remote_control]
 other = "Remote control"
 
-[smart_home]
-other = "Smart home applications"
+[data_logging]
+other = "Data logging"
 
-[lpwan_tester]
-other = "LPWAN tester"
+[manufacturing]
+other = "Manufacturing"
 
-[power_voltage]
-other = "Operating input voltage"
+[facility_anagement]
+other = "Facility Management"
 
-[sleep_consumption]
-other = "Idle power consumption"
+[construction]
+other = "Construction"
 
-[maximum_consumption]
-other = "Peak power consumption"
+[agriculture]
+other = "Agriculture"
 
-[battery_capacity]
-other = "Battery capacity"
+[forestry]
+other = "Forestry"
 
-[temperature_accuracy]
-other = "Thermometer accuracy"
+[energy]
+other = "Energy"
 
-[humidity_accuracy]
-other = "Humidity sensor accuracy"
+[security]
+other = "Security"
 
-[working_temperature_range]
-other = "Operating temperature range"
+[health_care]
+other = "Health care"
 
-[storage_temperature_range]
-other = "Storage temperature range"
+[mining]
+other = "Mining"
 
-[degree_protection]
-other = "Protection level"
+[all_features]
+other = "Let's sum it up.</span><br/> What the most configurable means"
 
-[overview]
-other = "Overview"
+[f_1]
+other = "LPWAN connectivity"
 
-[tech_specs]
-other = "Tech Specs"
+[f_11_]
+other = "NB-IoT and LTE-M (Cat M1) with global bands support"
 
-[order]
-other = "Get CHESTER"
+[f_12]
+other = "SIM card for LTE as a SIM chip (eSIM) or Nano-SIM"
 
-[module]
-other = "Module"
+[f_13]
+other = "LoRaWAN with support for 868/915 MHz"
 
-[interface]
-other = "Interface"
+[f_2]
+other = "Dynamic antenna system"
 
-[description_examples]
-other = "Example usage"
+[f_21]
+other = "Software selection between internal and external antenna"
 
-[i2c]
-other = "External I2C devices"
+[f_22]
+other = "Software selection between LTE and LoRaWAN path"
 
-[ext_temp_hum]
-other = "External temperature/humidity sensors"
+[f_23]
+other = "External antenna connects via u.FL connector"
 
-[ultrasound]
-other = "Ultrasonic sensor"
+[f_3]
+other = "Bluetooth Low Energy 5.0"
 
-[level_measurement]
-other = "Water tank level monitoring"
+[f_31]
+other = "Device setup and diagnostics from smartphone"
 
-[4_ext_input]
-other = "4x external input"
+[f_32]
+other = "Communication with other BLE devices"
 
-[analog_digital]
-other = "Analog/digital; voltage range 0 to 28 V"
+[f_33]
+other = "Device firmware upgrades in the field"
 
-[4_switch]
-other = "4x external switch"
+[f_4]
+other = "GNSS positioning module"
 
-[buttons_etc]
-other = "Buttons, reed contacts, energy meters, etc."
+[f_41]
+other = "Support for GPS, Galileo, GLONASS"
 
-[1_wire]
-other = "1-Wire bus"
+[f_42]
+other = "High-sensitivity receiver chipset u-blox M8"
 
-[temp_soil]
-other = "Temperature or soil moisture sensor"
+[f_43]
+other = "Flexible power control for low-power tracking"
 
-[reading_data_devices]
-other = "Data read-out from various equipments"
+[f_5]
+other = "Flexible power management"
 
-[rs_485]
-other = "RS-485 interface"
+[f_51]
+other = "Power device from a replaceable primary 3.6 V Lithium cell"
 
-[modbus]
-other = "Communication via Modbus protocol"
+[f_52]
+other = "Rechargeable battery from CHESTER-Z top-cover module"
 
-[pt1000]
-other = "2x PT1000 interface"
+[f_53]
+other = "External power delivered via extension modules"
 
-[rtd_temp]
-other = "Wiring to industrial RTD themometers"
+[f_6]
+other = "Onboard 3-axis MEMS accelerometer"
 
-[thermocouples]
-other = "Support for thermocouples"
+[f_61]
+other = "Detection of device orientation and tilt event"
 
-[extrem_temp]
-other = "Extreme temperature measurement"
+[f_62]
+other = "Recognition of device vibration"
 
-[dc_dc]
-other = "DC/DC converter"
+[f_63]
+other = "Possibility to configure dynamic range and sensitivity"
 
-[ext_supply]
-other = "External power supply 5 to 28 V"
+[f_7]
+other = "Two slots for extension modules"
 
-[connect_industry_sensors]
-other = "Interfacing industrial current loop sensors"
+[f_71]
+other = "Supports combinations of modules for various project needs"
 
-[analog_input]
-other = "Analog input"
+[f_72]
+other = "Signals are routed to terminal blocks for full flexibility"
 
-[tension_accurate_measurement]
-other = "Precise voltage sensing; range ±30 V"
+[f_73]
+other = "Soldered from the bottom side for enhanced reliability"
 
-[strain_gauge]
-other = "4x strain gauge"
+[f_8]
+other = "Push-in style terminal blocks"
 
-[accurate_weight_measurement]
-other = "Accurate weight scale monitoring"
+[f_81]
+other = "Interface to various external I/O or power sources"
 
-[accurate_dc]
-other = "DC/DC + differential amplifier"
+[f_82]
+other = "All terminals feature a transient voltage protection"
 
-[dendrometer]
-other = "Dendrometer (tree growth sensor) sensing"
+[f_83]
+other = "Parallel terminal blocks for convenient wiring"
+
+[f_9]
+other = "Integrated 1-Wire bus interface"
+
+[f_91]
+other = "Support for multiple DS18B20 thermometers"
+
+[f_92]
+other = "Integration with HARDWARIO Machine Probe"
+
+[f_93]
+other = "Integration with HARDWARIO Soil Sensor"
+
+[f_10]
+other = "Other integrated peripherals"
+
+[f_101]
+other = "8 MB flash memory for data logging"
+
+[f_102]
+other = "Accurate digital temperature sensor"
+
+[f_103]
+other = "3-color LED for instant state recognition"
+
+[f_11]
+other = "Additional available interfaces"
+
+[f_111]
+other = "I2C communication bus on a terminal block and a connector"
+
+[f_112]
+other = "Optional external LED, push button, and tamper switch on a connector"
+
+[f_113]
+other = "System connector with I2C bus and power sink/source"
+
+[f_114]
+other = "Optional external battery pack on a connector"
+
+[f_115]
+other = "Two Sparkfun QWIIC connectors for a variety of 3rd party accessories"
+
+[peripherals]
+other = "Peripherals - <span class = 'font-gray2'>sensors, actors, devices</span>"
+
+[temperature_sensors]
+other = "Temperature sensors"
+
+[digital]
+other = "Digital"
+
+[thermocouple]
+other = "Thermocouple"
+
+[proximity_sensors]
+other = "Proximity sensors"
+
+[inductive]
+other = "Inductive"
+
+[capacitive]
+other = "Capacitive"
+
+[optical]
+other = "Optical"
+
+[magnetic]
+other = "Magnetic"
+
+[linear_sensors]
+other = "Linear sensors"
+
+[air_quality]
+other = "Air quality"
+
+[water_quality]
+other = "Water quality"
+
+[soil_parameters]
+other = "Soil parameters"
+
+[location_sensors]
+other = "Location sensors"
+
+[event_detectors]
+other = "Event detectors"
+
+[flow]
+other = "Flow"
+
+[pressure]
+other = "Pressure"
+
+[weight]
+other = "Weight"
+
+[distance]
+other = "Distance"
+
+[current]
+other = "Current"
+
+[voltage]
+other = "Voltage"
+
+[temperature]
+other = "Temperature"
+
+[dust_particles]
+other = "Dust particles"
+
+[carbon_dioxide]
+other = "Carbon dioxide"
+
+[conductivity]
+other = "Conductivity"
+
+[ph_level]
+other = "PH level"
+
+[oxygen]
+other = "Oxygen"
+
+[moisture]
+other = "Moisture"
+
+[position]
+other = "Position"
+
+[orientation]
+other = "Orientation (accelerometer)"
+
+[motion]
+other = "Motion"
+
+[push_button]
+other = "Push button"
+
+[shock_tilt]
+other = "Shock and tilt"
+
+[dendrometers]
+other = "Dendrometers"
+
+[open_sdk]
+other = "<span class = 'font-gray2'>Programmability</span> <br/>Open SDK for rapid firmware development"
+
+[open_sdk_desc]
+other = "Build your own application on top of nRF Connect SDK with the underlying Zephyr OS. With embedded C as a primary programming language and support for Visual Studio Code as the development IDE you can use Windows, macOS or Linux development environments."
+
+[hardwario_cloud]
+other = "<span class = 'font-gray2'>HARDWARIO Cloud</span> Easy integration with any system"
+
+[hardwario_cloud_desc]
+other = "Seamless management of your devices, user-defined Callbacks and REST API. Integration of CHESTER with Microsoft, Ubidots, Blynk or your own system is secure, fast and easy."
+
+[see_api]
+other = "REST API documentation"
+
+[cloud_more]
+other = "More about HARDWARIO Cloud"
 
 [get_chester]
 other = "Get CHESTER"
 
-[chester_price]
-other = "The price starts at €132 without VAT and depends on the configuration and quantity."
+[get_chester_desc]
+other = "Choose Hardware-as-a-Service model or a one-time purchase model. Get in touch with us to know more and build IoT projects for your customers today, together."
 
-[get_chester_pricelist]
-other = "Send&nbsp;me&nbsp;pricelist"
+[a0_1]
+other = "AC/DC power module"
 
-[buy_chester_tester]
-other = "Buy&nbsp;CHESTER&nbsp;now"
+[a0_2]
+other = "Power CHESTER from isolated AC/DC converter 230 V / 5 V"
 
-[buy_chester_tester_link]
-other = "https://shop.hardwario.com/hub/"
+[a2_1]
+other = "2x relay + CHESTER-A0"
 
-[interested_in_chester]
-other = "I'm interested in CHESTER"
+[a2_2]
+other = "Control 2x power relay 230 V / 16 A + see CHESTER-A0"
 
-[modification_integration]
-other = "Custom integrations and branding on customer's request"
+[g_1]
+other = "8x isol. input + isol. power"
 
-[extended_warranty]
-other = "Extended 3-year warranty and 100-day trial period"
+[g_2]
+other = "Isolate (galvanically) 8x digital input and power line"
 
-[personal_tech_support]
-other = "Personal technical support in the deployment phase"
+[k_1]
+other = "3x diff. input + 5 V boost"
 
-[extension_options]
-other = "Extensions"
+[k_2]
+other = "Measure 3x sensor w/ differential output requiring 5 V supply"
 
-[antenna_connector]
-other = "antenna connector"
+[z10_1]
+other = "Battery backup + DC/DC"
 
-[embedded]
-other = "Embedded"
+[z10_2]
+other = "Power CHESTER from rechargeable battery w/ DC/DC converter"
 
-[battery_holder]
-other = "Battery holder"
+[z1f_1]
+other = "4x button + CHESTER-Z1-0"
 
-[accelerometer]
-other = "Accelerometer"
+[z1f_2]
+other = "Scan 4x illuminated push-button w/ buzzer + see CHESTER-Z1-0"
 
-[cryptochip]
-other = "Cryptochip"
+[x0_1]
+other = "4x analog/digital input"
 
-[thermometer]
-other = "Thermometer"
+[x0_2]
+other = "Scan 4x DI from PLC; sense dry contact; measure 0-10 V"
 
-[humidity_meter]
-other = "Humidity sensor"
+[x1_1]
+other = "IOLink master interface"
 
-[therminal_blocks]
-other = "Terminals for external peripherals"
+[x1_2]
+other = "Communicate with modern IOLink sensors and actuators"
 
-[usage_examples]
-other = "Usage examples"
+[x2a_1]
+other = "TTL/UART interface"
 
-[usage]
-other = "Use Cases"
+[x2a_2]
+other = "Communicate with RFID reader with TTL/UART output"
 
-[extension]
-other = "Extension"
+[x2b_1]
+other = "RS-485 interface"
 
-[customer]
-other = "Customer"
+[x2b_2]
+other = "Communicate with RS-485/Modbus RTU sensor or PLC"
 
-[or]
-other = "or"
+[x3a_1]
+other = "1x 24b ADC for RTD"
 
-[to]
-other = "to"
+[x3a_2]
+other = "Measure industrial RTD thermometer Pt100/Pt1000"
+
+[x3b_1]
+other = "2x 24b ADC for RTD"
+
+[x3b_2]
+other = "Measure 2x industrial RTD thermometer Pt100/Pt1000"
+
+[x3c_1]
+other = "1x 24b ADC for thermocouple"
+
+[x3c_2]
+other = "Measure thermocouple - type B/C/E/J/K/N/R/S/T"
+
+[x3d_1]
+other = "2x 24b ADC for thermocouple"
+
+[x3d_2]
+other = "Measure 2x thermocouple - type B/C/E/J/K/N/R/S/T"
+
+[x4_1]
+other = "DC/DC converter 6 - 28 V DC"
+
+[x4_2]
+other = "Power CHESTER from industrial DC line (e.g. 24 V)"
+
+[x5_1]
+other = "±30 V analog input"
+
+[x5_2]
+other = "Measure differential voltage input with a wide DC range"
+
+[x6_1]
+other = "Bus interface + 5 V boost"
+
+[x6_2]
+other = "Communicate with many low-power nodes over a single wire"
+
+[x7_1]
+other = "1x diff. input + 5 V boost"
+
+[x7_2]
+other = "Measure sensor w/ differential output requiring 5 V supply"
+
+[x8_1]
+other = "Precise accelerometer"
+
+[x8_2]
+other = "Accurately measure tilt and inclination"
+
+[x9_1]
+other = "4x low-side switch"
+
+[x9_2]
+other = "Control external relays with protected low-side switches"

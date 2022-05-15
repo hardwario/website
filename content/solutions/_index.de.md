@@ -1,8 +1,8 @@
 ---
-title: Lösungen
-mainHeading: Anwendungsbereiche
+title: Lösungen 
+mainHeading: Anwendungsbereiche 
 description:
-meta_title: IoT-Lösungen, Industrie 4.0, IIoT – HARDWARIO
-menu: ["main","footer"]
+meta_title: IoT-Lösungen, Industrie 4.0,, IIoT 
+menu: ["main","footer"] 
 weight: 15
 ---

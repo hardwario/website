@@ -1,5 +1,5 @@
 {{ define "main" }}
-
+{{ $currentLang := .Site.Language.Lang }}
 
 <section>
   <div class="bg bg--gray">
@@ -19,7 +19,7 @@
   </div>
 </section>
 
-
+{{ if ne $currentLang "de" }}
 {{ $events := ($.Site.GetPage "section" "events").Pages }}
 {{ with $events }}
 <section>
@@ -38,7 +38,7 @@
                 </div>
             </div>
         </section>
-
+{{ end }}
 <section>
     <div class="container pt-60 pt-md-90" id = "overview">
         <div class="row">

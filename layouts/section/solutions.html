@@ -11,10 +11,7 @@
                                 <p class="text-center font-24 font-lnh38">{{ .Params.description | safeHTML }}</p>
                             </div>
                         </div>
-                        {{ $currentLang := .Site.Language.Lang }}
-                        {{ if eq $currentLang "de" }}
-                          {{ partial "solutions" . }}
-                        {{ end }}
+                        
                     </div>
                 </div>
             </div>
@@ -22,7 +19,6 @@
     </section>
 
 
-    {{ if ne $currentLang "de" }}
 
       {{ $solutions := where .Site.RegularPages "Section" "solutions" }}
       {{ with $solutions }}
@@ -82,35 +78,8 @@
       </section>
       {{ end }}
 
-    {{ else }}
-
-    <section>
-      <div class="">
-          <div class="container pt-50">
-              <div class="row">
-                <div class="col-12 col-lg-12 pb-30 text-center">
-                    <h2 class="font-weight-black font-40 font-lnh44">{{ i18n "usage_examples" }}</h2>
-                </div>
-              </div>
-              <div class="row d-flex align-content-stretch">
-                  
-
-                        {{ $cases := where .Site.RegularPages "Section" "use-cases" }}
-                        {{ with $cases }}
-                          {{ range $cases.ByWeight }}
-                          <div  class="col-12 col-md-6 col-lg-4">
-                            {{ .Render "grid" }}
-                          </div>
-                          {{ end }}
-                        {{ end }}
-                  </div>
-              </div>
-          </div>
-      </div>
-
-  </section>
     
-    {{ end }}
+    
 <footer>
 {{ end }}
 

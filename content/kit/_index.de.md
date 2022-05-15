@@ -1,5 +1,7 @@
 ---
 title: IoT-Baukasten für die Industrie
+category: IoT kit
+short_description: Open-Source-Kit für Industrie 4.0-Piloten, MINT-Bildung und Smart-Home-DIY-Projekte.
 description: Eine Baukasten-Lösung für Industrieanwendungen, mit der Sie ganz einfach Geräte für Industrie 4.0, Ausbildung und Smart-Home-Projekte zusammenstellen können.
 menu:
 weight: 100

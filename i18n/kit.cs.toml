@@ -144,3 +144,12 @@ other = "Koupit na obchod.hardwario.cz"
 
 [buy_on_link]
 other = "https://obchod.hardwario.cz"
+
+[applications]
+other = "Využití"
+
+[monitoring_quantities]
+other = "Monitoring<br/>veličin"
+
+[lpwan_tester]
+other = "Tester<br/>LPWAN"

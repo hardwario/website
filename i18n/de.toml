@@ -2,91 +2,100 @@
 other = "Fallstudie"
 
 [read_case_study_now]
-other = "Ich möchte eine Fallstudie lesen"
+other = "Lesen Sie jetzt die Fallstudie"
 
 [company]
-other = "Gesellschaft"
+other = "Unternehmen"
 
 [industry]
-other = "Industry"
+other = "Industrie"
 
 [product]
 other = "Produkt"
 
 [headquarters_sales]
-other = "Headquarters & Sales"
+other = "Hauptsitz & Vertrieb"
 
 [development_distribution]
 other = "R&D"
 
+[uk]
+other = "GROSSBRITANNIEN"
+
 [czechia]
 other = "TSCHECHIEN"
 
+[poland]
+other = "POLEN"
+
 [id]
-other = "Firmennummer"
+other = "Unternehmens-ID"
 
 [vat_id]
-other = "Ust-IdNr."
+other = "UST-IDNR"
 
 [send]
-other = "Absenden"
+other = "Senden "
 
 [write_us]
-other = "Schreiben Sie uns"
+other = "Schreiben Sie uns eine Nachricht"
 
 [trusted_by]
-other = "Sie vertrauen uns"
+other = "Vertraut von"
 
 [download_specification]
-other = "<br />Spezifikation [.pdf]herunterladen"
+other = "download<br />specification [.pdf]"
 
 [learn_more]
-other = "Ich will mehr erfahren"
+other = "Mehr erfahren"
 
 [min_read]
-other = "Min. Lesen"
+other = "min read"
 
 [buy_it_now]
-other = "In den Warenkorb"
+other = "In den Warenkorb legen"
 
 [recommended]
-other = "Am beliebtesten"
+other = "Meist beliebt"
 
 [get_document]
-other = "Ich möchte das Dokument lesen"
+other = "Dokument holen"
 
 [navigation]
 other = "Navigation"
 
 [from_iot_blog]
-other = "IoT-Blog"
+other = "IoT Blog"
 
 [more_blog]
-other = "Ich möchte weitere Artikel lesen"
+other = "Weitere Artikel von IoT Blog"
+
+[more_videos]
+other = "Mehr Videos"
 
 [read_about_iot]
-other = "Lesen Sie, was in der IoT-&nbsp;Welt&nbsp; los ist"
+other = "Neuigkeiten und Einblicke aus der Welt des IoT"
 
 [we_share_knowledge]
-other = "Wir teilen unsere Erfahrungen, Fallstudien und Inspiration aus der Welt von IoT, Industrie 4.0, STEM-Ausbildung und Smart-Lösungen für Haushalte."
+other = "Wir teilen unsere Erfahrungen, Fallstudien und Inspirationen aus der Welt von IoT, Industrie 4.0, STEM-Bildung und DIY-Smart-Home-Lösungen."
 
 [tell_me_more]
-other = "Ich will mehr erfahren"
-
-[events]
-other = "Unsere IoT- und STEM-Veranstaltungen"
+other = "Sag mir mehr"
 
 [read_more]
 other = "Mehr lesen"
 
+[events]
+other = "Unsere IoT- und STEM-Veranstaltungen"
+
 [event_detail]
-other = "Informationen zum Event"
+other = "Mehr über die Veranstaltung"
 
 [selected_kits]
-other = "IoT-Baukasten von HARDWARIO"
+other = "IoT-Kit HARDWARIO"
 
 [start_with_kit]
-other = "Wählen Sie Ihren ersten Baukasten"
+other = "Wählen Sie Ihr erstes Kit"
 
 [project]
 other = "Projekt"
@@ -95,28 +104,28 @@ other = "Projekt"
 other = "Akademie"
 
 [go_home]
-other = "Zur Homepage wechseln"
+other = "Zur Homepage gehen"
 
 [page_not_found]
 other = "Seite nicht gefunden"
 
 [404_message]
-other = "Tut uns leid. Die von Ihnen gesuchte Webseite existiert wahrscheinlich nicht. Keine Angst, unser Baukasten überwacht die Lage – sollte die Webseite existieren, lässt sie sich bald wieder aufrufen. Versuchen Sie es bitte später erneut."
+other = "Es tut uns leid. Es sieht so aus, als ob die Seite, die Sie suchen, wahrscheinlich im Urlaub ist oder nicht existiert. Keine Sorge, unser Kit passt darauf auf, und wenn die Seite existieren sollte, wird sie bald wieder da sein. Bitte versuchen Sie es später noch einmal."
 
 [twitter]
-other = "https://twitter.com/hardwario_cz"
+other = "https://twitter.com/hardwario_en"
 
 [toolbar_text]
-other = "Register to the newest webinar: Non-invasive monitoring of the efficiency of production - May 29"
+other = "Registrieren Sie sich für das neueste Webinar: Nicht-invasive Überwachung der Effizienz der Produktion - 29. Mai"
 
 [toolbar_link]
 other = "/events/2021-05-27-webinar-industry/"
 
 [download_leftlet]
-other = "Produkt-Flyer herunterladen"
+other = "Produktbroschüre herunterladen"
 
 [use_case]
-other = "Anwendungsbeispiel"
+other = "Anwendungsfall"
 
 [examples]
 other = "Beispiele von Projekten"
@@ -125,42 +134,42 @@ other = "Beispiele von Projekten"
 other = "Module und Schnittstellen"
 
 [make_an_appointment]
-other = "Treffen vereinbaren"
+other = "Termin vereinbaren"
 
 [free_consult]
-other = "Buchen Sie eine kostenlose 30-minütige Konsultation Ihres&nbsp;Projekts&nbsp;"
+other = "Buchen Sie eine kostenlose 30-minütige Beratung für Ihr Projekt"
 
 [tech_partners]
-other = "Partner für Technologien"
+other = "Technologiepartner"
 
 [useful_links]
 other = "Nützliche Links"
 
 [follow_us]
-other = "Folgen Sie uns auf unseren sozialen Netzwerken, damit Sie immer auf dem Laufenden bleiben"
+other = "Folgen Sie unseren sozialen Netzwerken. Verpassen Sie nichts"
 
 [do_not_miss]
-other = "Gibt es eine Revolution im industriellen IoT. Verpassen Sie sie nicht"
+other = "Die Revolution im industriellen IoT steht bevor. Verpassen Sie sie nicht"
 
 [revolution_sign_up]
-other = "Melden Sie sich an. Wir werden Sie kontinuierlich informieren und uns zur gegebenen Zeit bei Ihnen melden."
+other = "Jetzt registrieren und aktuelle Informationen erhalten"
 
-[Tag]
+[day]
 other = "Tag"
 
-[Stunde]
+[hour]
 other = "Stunde"
 
-[Minute]
+[minute]
 other = "Minute"
 
-[zweite]
-other = "second"
+[second]
+other = "Sekunde"
 
 [day_p]
 other = "Tage"
 
-[Stunde_p]
+[hour_p]
 other = "Stunden"
 
 [minute_p]
@@ -169,29 +178,50 @@ other = "Minuten"
 [second_p]
 other = "Sekunden"
 
-[Tage]
+[days]
 other = "Tage"
 
-[Std]
+[hours]
 other = "Stunden"
 
-[Protokoll]
+[minutes]
 other = "Minuten"
 
-[Sekunden]
+[seconds]
 other = "Sekunden"
 
 [until_revolution]
-other = "Bis zur Revolution bleiben nur noch <span id = 'countdown'></span>"
+other = "<span id = 'countdown'></span> bis zur Revolution"
 
 [or_email_me]
-other = "oder mailen Sie mir am"
-
-[register_now]
-other = "Register Now"
+other = "oder mailen Sie mir an"
 
 [home]
-other = "Startseite"
+other = "Home"
 
 [products]
 other = "Produkte"
+
+[register_now]
+other = "Jetzt registrieren"
+
+[iot_manufacturing]
+other = "Wie IoT-Technologien die Digitalisierung in der Fertigung erleichtern"
+
+[iot_manufacturing_desc]
+other = "Laden Sie ein Dokument mit 10 inspirierenden Beispielen für die Digitalisierung in der Fertigung und Empfehlungen für den Einstieg in die Digitalisierung herunter."
+
+[banner_1]
+other = "Kostenloses Webinar"
+
+[banner_2]
+other = "Donnerstag, 31. März (15 Uhr MEZ)"
+
+[banner_3]
+other = "Wie trägt die IoT-Überwachung zur Optimierung des Energieverbrauchs bei"
+
+[industries]
+other = "Industrien"
+
+[use_cases]
+other = "Anwendungsfälle"

@@ -67,45 +67,6 @@
 </section>
 <section>
 
-  {{ if eq .Params.idea true }}
-            <div class="livechat">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-4 col-md-2">
-                            <div class="livechat__icon livechat__icon__2"></div>
-                        </div>
-                        <div class="col-8 col-md-6">
-                            <h2 class="livechat__title">{{ i18n "get_100" | safeHTML }}</h2>
-                            <p class="livechat__text">{{ i18n "complete_project" | safeHTML }}</p>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <div class="livechat__button d-flex align-items-center">
-                                <a href="#" onclick="Intercom('showNewMessage');" class="button button--block button--fullred">{{ i18n "make_a_deal" }}</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        {{ end }}
-<!--<section>
-  <div class="bg bg--gray">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="thankyou__share d-flex justify-content-center align-items-center">
-            <span>{{ i18n "share_my_project" }}:</span>
-            <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | htmlEscape }}" target="_blank" class="thankyou__share__link text-hide" onclick="ga('send', 'event', 'share-project', 'facebook', '{{ .Permalink }}');">Facebook</a>
-            <a href="https://twitter.com/home?status={{ .Title | htmlEscape }}%20{{ .Permalink | htmlEscape }}" target="_blank" class="thankyou__share__link thankyou__share__link--twitter text-hide" onclick="ga('send', 'event', 'share-project', 'twitter', '{{ .Permalink }}');">twitter</a>
-            <a href="https://plus.google.com/share?url={{ .Permalink | htmlEscape }}" target="_blank" class="thankyou__share__link thankyou__share__link--google text-hide" onclick="ga('send', 'event', 'share-project', 'google', '{{ .Permalink }}');">google</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>-->
-
-<!--{ { partial "www/projects-newest.html" . }}-->
 <footer>
 {{ end }}
 
