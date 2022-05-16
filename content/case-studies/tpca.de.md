@@ -9,8 +9,8 @@ meta_title: Vorausschauende IoT-Wartung im TPCA-Automobilwerk | HARDWARIO Fallst
 company: TPCA 
 industry: Automotive 
 product: TOWER 
-featured: falsch 
-full: richtig 
+featured: false 
+full: true
 testimonial_text: Mit dem IoT Kit TOWER habe ich unsere Industrie 4.0-Piloten in nur wenigen Tagen eingerichtet und uns Zeit und Geld gespart. 
 testimonial_author: Marek Herda 
 testimonial_company: Spezialist - Sicherheit und Industrie 4.0 
@@ -18,7 +18,7 @@ testimonial_image: herda.jpg
 logo: /partners/color/tpca.svg 
 weight: 5 
 date: 2019-10-05 
-carousel: richtig 
+carousel: true
 carousel_status: 
 menu:
     main: 

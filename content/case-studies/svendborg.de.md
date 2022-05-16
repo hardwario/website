@@ -9,8 +9,8 @@ meta_title: Telemetrie des Bremssystems von Baggern für den Tagebau und Rationa
 company: Jan Mikyska 
 industry: Bergbau 
 product: CHESTER 
-featured: falsch 
-full: richtig 
+featured: false 
+full: true 
 testimonial_text: 
 testimonial_author: 
 testimonial_company: 

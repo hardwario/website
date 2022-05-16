@@ -9,8 +9,8 @@ meta_title: We monitor the air quality in the Liberec ZOO Wir überwachen die Lu
 company: ZOO Liberec 
 industry: Landwirtschaft 
 product: CHESTER 
-featured: falsch 
-full: falsch 
+featured: false 
+full: false 
 testimonial_text: 
 testimonial_author: 
 testimonial_company: 
