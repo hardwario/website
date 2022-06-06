@@ -25,6 +25,12 @@ other = "Are you interested in advanced development with the kit, projects and i
 [kit_docs_link]
 other = "Go to documentation"
 
+[gateway_faq]
+other = "FAQ"
+
+[gateway_faq_text]
+other = "We have prepared a list of frequently asked questions about CHESTER devices and LPWAN networks."
+
 [hub_docs]
 other = "IoT Hub documentation"
 

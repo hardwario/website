@@ -25,6 +25,12 @@ other = "Zajímá vás techničtější pohled na stavebnici, pokročilé projek
 [kit_docs_link]
 other = "Přejít do dokumentace"
 
+[gateway_faq]
+other = "Nejčastější dotazy"
+
+[gateway_faq_text]
+other = "Připravili jsme přehled nejčastějších dotazů týkajících se zařízení CHESTER a LPWAN sítí."
+
 [hub_docs]
 other = "Dokumentace IoT hubu"
 
