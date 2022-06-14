@@ -62,46 +62,108 @@
     </div>
 </section>
 
+<section>    
+    <div class = "container pt-60">
+        <div class = "row justify-content-center align-items-center text-center">
+                <div class = "col-12 col-md-9 font-20 font-md-20">
+                    <p class = "pb-10">We make industrial IoT devices which our partners deploy them under their brand in companies like LEGO, TOYOTA or Vodafone. We believe that the <strong>{{ .Params.company }}</strong> has the perfect fit for our partner network, and you can benefit from your own IoT device.</p>
+                </div>
+        </div>
+    </div>
+</section>
+
+<style>
+
+    .chester-2{
+        background-size: 90%; 
+        border-radius: 7px; 
+        background-position: 50% 30px; 
+        background-image: url('/_assets/images/chester/1.png');
+        background-repeat: no-repeat;
+    }
+
+    @media(max-width: 769px){
+        .chester-2{
+            height: 400px;
+            background-position: 50% 100%;
+        }
+
+    }
+    @media(max-width: 1281px){
+        .chester-2{
+            background-position: 50% 100%;
+        }
+
+    }
+</style>
+<!--<section>
+    <div class = "container pt-60 pt-md-120">
+        <div class = "row justify-content-center px-10">
+
+            <div class = "col-12 px-30 pl-md-60 mb-90 content-block">
+                <div class = "row">
+                    <div class = "col-12 col-md-6 pt-40 pt-md-90 pb-30 pb-md-120">
+                        <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30"><span class = "font-gray2">{{ i18n "modular_device" | safeHTML }}</h2>
+                        <p class = "font-20 font-md-16 pb-10">{{ i18n "modular_device_desc" | safeHTML }}</p>
+                        <a href = "#" data-target = "extensionsModal" class="openModal pt-20 pt-md-0 ml-0 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "extensions_list" | safeHTML }}</a>
+                    </div>
+                    <div class = "col-12 col-md-6 pt-30 pr-0 chester-2">
+
+                    </div>
+                </div>
+            </div> 
+
+
+        </div>
+    </div>
+</section>-->
+
+
 <section>
     <div class="" id = "pillars">
         <div class="container">
             <div class="row">
                 <div class="col pb-30">
                     <div class="row justify-content-center align-items-center">
+                        <div class = "col-12 text-center pt-40">
+                    <h3 class = "font-20 font-md-20 font-weight-black font-lnh24 pb-10">4 reason why to become our partner</h3>
+                    </div>
                        <!-- <div class = "col-12 text-center">
                             <p class="font-18 font-lnh26 pb-10 font-weight-bold">Device features</p>
                         </div>-->
-                                        <div class = "col-3 col-md-2 text-right pb-20 pb-md-0">
+                                        <div class = "col-3 col-md-2 text-center pb-20 pb-md-0">
                                             <img loading="lazy" src="/_assets/images/integration.svg" class="w-50 mt-20" alt="" />
                                         </div>
                                         <div class = "col-9 col-md-4 pb-20 pb-md-0">
-                                            <h3 class="font-20 font-weight-black font-lnh30">Remote data collection</h3>
-                                            <p class="font-18 font-lnh26">The device communicates to the Internet from anywhere and entirely independently.</p>
+                                            <h3 class="font-20 font-weight-black font-lnh30">The potential of IoT and LPWAN</h3>
+                                            <p class="font-18 font-lnh26">Your devices can communicate to the Internet from anywhere and entirely independently, even from batteries.</p>
                                         </div>
 
-                                        <div class = "col-3 col-md-2 text-right pb-20 pb-md-0">
-                                            <img loading="lazy" src="/_assets/images/benefits/batteries.svg" class="w-75 mt-20" alt="" />
-                                        </div>
-                                        <div class = "col-9 col-md-4 pb-20 pb-md-0">
-                                            <h3 class="font-20 font-weight-black font-lnh30">Battery device</h3>
-                                            <p class="font-18 font-lnh26">The batteries can power the device for several years.</p>
-                                        </div>
-
-                                        <div class = "col-3 col-md-2 text-right pb-20 pb-md-0">
+                                        <div class = "col-3 col-md-2 text-center pb-20 pb-md-0">
                                             <img loading="lazy" src="/_assets/images/benefits/devices.svg" class="w-50 mt-20" alt="" />
                                         </div>
                                         <div class = "col-9 col-md-4 pb-20 pb-md-0">
-                                            <h3 class="font-20 font-weight-black font-lnh30">Predictive maintenance and control</h3>
-                                            <p class="font-18 font-lnh26">Use data to learn more about processes, reduce maintenance costs and control central units.</p>
+                                            <h3 class="font-20 font-weight-black font-lnh30">Configurable device</h3>
+                                            <p class="font-18 font-lnh26">One device suits thousands of projects across industries. You can connect various sensors, controllers and PLCs with available interfaces.</p>
                                         </div>
 
-                                        <div class = "col-3 col-md-2 text-right pb-20 pb-md-0">
-                                            <img loading="lazy" src="/_assets/images/multipurpose.svg" class="w-100 mt-20" alt="" />
+                                        <div class = "col-3 col-md-2 text-center pb-20 pb-md-0">
+                                            <img loading="lazy" src="/_assets/images/benefits/simple.svg" class="w-25 mt-20" alt="" />
                                         </div>
                                         <div class = "col-9 col-md-4 pb-20 pb-md-0">
-                                            <h3 class="font-20 font-weight-black font-lnh30">Integrations and extensions</h3>
-                                            <p class="font-18 font-lnh26">The device can be simply integrated with other systems and extended with sensors (temperature, humidity, on/off status,...).</p>
+                                            <h3 class="font-20 font-weight-black font-lnh30">Full-stack support and training</h3>
+                                            <p class="font-18 font-lnh26">Our training includes firmware development with our SDK and Zephyr RTOS and sharing our approach to B2B sales and marketing.</p>
                                         </div>
+
+                                        <div class = "col-3 col-md-2 text-center pb-20 pb-md-0">
+                                            <img loading="lazy" src="/_assets/images/benefits/hardware.svg" class="w-50 mt-20" alt="" />
+                                        </div>
+                                        <div class = "col-9 col-md-4 pb-20 pb-md-0">
+                                            <h3 class="font-20 font-weight-black font-lnh30">It's your product</h3>
+                                            <p class="font-18 font-lnh26">Devices are delivered with full OEM branding. Knowledge of firmware development enables you to secure your intellectual property.</p>
+                                        </div>
+
+                                        
 
 
                     </div>
@@ -111,7 +173,7 @@
     </div>
 </section>
 
-<section>    
+<!--<section>    
     <div class = "container pt-60">
         <div class = "row justify-content-center align-items-center">
                 <div class = "col-12 col-md-10 text-center">
@@ -122,18 +184,9 @@
                 </div>
         </div>
     </div>
-</section>
+</section>-->
 
-<section>    
-    <div class = "container pt-60">
-        <div class = "row justify-content-center align-items-center text-center">
-                <div class = "col-12 col-md-9 font-20 font-md-20">
-                    <h3 class = "font-20 font-md-20 font-weight-black font-lnh24 pb-10">About HARDWARIO</h3>
-                    <p class = "pb-10">We make industrial IoT devices and, together with our partners, deploy them in companies like LEGO, TOYOTA or Vodafone. We strongly focus on low-power devices and LPWAN networks that belong to the 5G standard. <strong>{{ .Params.company }}</strong> could be a partner who uses IoT gateway to innovate its portfolio.</p>
-                </div>
-        </div>
-    </div>
-</section>
+
 
 <section>
     <div class = "container">
