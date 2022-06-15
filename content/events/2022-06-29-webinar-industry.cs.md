@@ -26,7 +26,7 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 
 <p class = "pb-25"><strong>Výhodami a technickými aspekty LPWAN a satelitních technologií se bude zabývat náš červnový webinář. Nezaměříme se pouze na teorii, ale také na praktické zkušenosti z našich úspěšných IoT projektů.</strong></p>
 
-<h3 class = "font-weight-bold font-20 pb-10">Během webináře se budemě věnovat těmto otázkám:</h3>
+<h3 class = "font-weight-bold font-20 pb-10">Během webináře se budeme věnovat těmto otázkám:</h3>
 <ul class = "pb-15">
 <li class = "pb-0">Jaké LPWAN technologie doposud uspěly?</li>
 <li class = "pb-0">Jaké LPWAN technologie vnímáme jako nejperspektivnější?</li>
