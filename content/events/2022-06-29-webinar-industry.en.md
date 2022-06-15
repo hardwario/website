@@ -19,7 +19,7 @@ description: "Register to free HARDWARIO IoT Webinar"
  <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48 d-none" style = "">Things connected from anywhere. Everything you need to know about LPWAN and satellite technologies</h1>
 
 <p class = "pt-15 pb-15">
-<strong>When:</strong> June 29, 3 pm CET (8 am CDT / 14 pm GMT+1)<br/>
+<strong>When:</strong> June 29, 3 pm CET (8 am CDT / 2 pm GMT+1)<br/>
 <strong>Price:</strong> Free</p>
 
 <p class = "pb-15">LPWAN transmission technologies allow us to connect things to the Internet from almost anywhere - thanks to high signal availability, low-cost connectivity and the possibility of several years of battery life. Moreover, with the advent of low-power satellite networks, we can drop the word "almost" from the previous statement and connect things from anywhere in the world. </p>
