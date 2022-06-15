@@ -4,7 +4,7 @@ expirydate: "2022-06-30"
 title: "Díky za zájem o náš IoT webinář"
 events: true
 heading: Díky za zájem o náš IoT webinář
-image_main: /upload/webinar-lpwan.png
+image_main: /upload/webinar-lpwan-cz.png
 ---
 
 <p class = "pb-10">Vaše registrace na IoT webinář "<strong>Věci připojené odkudkoliv. Vše, co potřebujete vědět o LPWAN a satelitních technologiích</strong>" proběhla úspěšně.</p>

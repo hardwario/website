@@ -4,7 +4,7 @@ time: "15:00"
 price: "Free"
 publishdate: "2022-06-13"
 expirydate: "2022-06-30"
-title: "Everything you need to know about LPWAN and satellite technologies."
+title: "Everything you need to know about LPWAN and satellite technologies"
 hashtags: ["webinar","free"]
 category: industry
 image_main: /upload/webinar-lpwan.png
