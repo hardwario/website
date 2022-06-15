@@ -22,9 +22,9 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 <strong>Kdy:</strong> 29. června od 15 hodin<br/>
 <strong>Cena:</strong> Zdarma</p>
 
-<p class = "pb-15">LPWAN sítě přináší, díky dostupnosti signálu, nizké cenně konektivity a nízkým nárokům na spotřebu elektrické energie, příležitost připojit věci do internetu takřka odkudkoliv. S příchodem satelitních low-power sítí můžeme navíc z předchozího tvrzení vypustit slovo "takřka" a připojit věci opravdu odkudkoliv.</p>
+<p class = "pb-15">LPWAN přenosové technologie nám umožňují připojit věci do internetu takřka odkudkoliv, a to díky vysoké dostupnosti signálu, nízké cenně konektivity a možnosti několikaletého provozu na baterie. S příchodem satelitních low-power sítí navíc můžeme z předchozího tvrzení vypustit slovo "takřka" a připojit věci opravdu z jakéhokoliv místa na světě.</p>
 
-<p class = "pb-25"><strong>V našem červnovém webináří se budeme věnovat LPWAN sítím a satelitním technologiím. Nezaměříme se pouze na teorii a srovnání technologií, ale také na praktické zkušenosti a projekty.</strong> Ve světě LPWAN se totiž celý tým HARDWARIO pohybuje už od samého začátku jejich existence a za tu dobu jsme byli až u stovek úspěšných i neúspěšných projektů.</p>
+<p class = "pb-25"><strong>Výhodami a technickými aspekty LPWAN a satelitních technologií se bude zabývat náš červnový webinář. Nezaměříme se pouze na teorii, ale také na praktické zkušenosti z našich úspěšných IoT projektů.</strong></p>
 
 <h3 class = "font-weight-bold font-20 pb-10">Během webináře se budemě věnovat těmto otázkám:</h3>
 <ul class = "pb-15">
@@ -35,7 +35,7 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 </ul>
 
 <h3 class = "font-weight-bold font-20 pb-10">Kdo webinář povede</h3>
-<p class = "pb-25">Webinářem vás provedou zakladatelé HARDWARIO: Alan Fabik a Pavel Hübner, kteří mají praktické zkušenosti s LPWAN technologiemi při zavádění se společnostech jako např. ŠKODA AUTO, E.ON nebo LEGO.</p>
+<p class = "pb-25">Webinářem vás provedou zakladatelé HARDWARIO: Alan Fabik a Pavel Hübner, kteří mají praktické zkušenosti s LPWAN technologiemi při zavádění se společnostech jako např. ASAHI, ŠKODA AUTO nebo LEGO.</p>
 </p>
 
 <p>Vysílání bude probíhat v <strong>angličtině</strong> na <a target = "_blank" href = "https://www.youtube.com/hardwario/">YouTube</a></p>
