@@ -8,7 +8,7 @@ title: "Everything you need to know about LPWAN and satellite technologies"
 hashtags: ["webinar","free"]
 category: industry
 image_main: /upload/webinar-lpwan.png
-event_type: "Webinář"
+event_type: "Webinar"
 place: "Online"
 description: "Register to free HARDWARIO IoT Webinar"
 ---

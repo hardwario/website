@@ -15,7 +15,7 @@ description: Přihlaste se na bezplatný HARDWARIO IoT Webinář
 
 <div class = "row">
 <div class = "col pr-30 font-17 font-lnh30">
-<img class = "w-100" src = "/upload/webinar-lpwan.png-cz"/>
+<img class = "w-100" src = "/upload/webinar-lpwan-cz.png"/>
  <h1 class="font-weight-black font-36 font-md-46 pb-20 pb-md-30 font-md-lnh48 d-none" style = "">Věci připojené odkudkoliv. Vše, co potřebujete vědět o LPWAN a satelitních technologiích</h1>
 
 <p class = "pt-15 pb-15">
