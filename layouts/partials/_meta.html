@@ -7,9 +7,9 @@
   <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO IoT Blog">
   <meta property="og:type" content="website">
     {{ if .Params.image_meta }}
-    <meta property="og:image" content="{{ .URL | absURL }}{{ .Params.image_meta }}">
+    <meta property="og:image" content="{{ .Params.image_meta }}">
     {{ else }}
-    <meta property="og:image" content="{{ .URL | absURL }}{{ .Params.image_main }}">
+    <meta property="og:image" content="{{ .Params.image_main }}">
     {{ end }}
   {{ else }}
   <title>{{ .Page.Title }} | HARDWARIO</title>
