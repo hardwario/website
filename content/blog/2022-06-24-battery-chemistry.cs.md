@@ -11,7 +11,7 @@ image_meta: https://res.cloudinary.com/lukasfabik/image/upload/v1656059620/blog/
 author: pavel_hubner
 ---
 
-__**Originál článku byl publikován Pavle v angličtině na [LinkedIn](https://www.linkedin.com/pulse/battery-chemistry-iot-lifetime-pavel-hübner/).**__
+__**Originál článku publikoval Pavel v angličtině na [LinkedIn](https://www.linkedin.com/pulse/battery-chemistry-iot-lifetime-pavel-hübner/).**__
 
 Je třeba posoudit mnoho faktorů - požadavek znovudobíjení, očekávanou životnost baterie, požadované rozpětí provozní teploty, omezení velikosti, schopnost impulzního proudu atd.
 
