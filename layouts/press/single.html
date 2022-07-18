@@ -1,0 +1,148 @@
+{{ define "main" }}
+
+{{ $author := index $.Site.Data.authors .Params.author }}
+<section>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-10">
+        <div class="article__header">
+          <div class="article__header__button">
+            <!--<a href="" class="button button--tag button--tag--bigger button--tag--blue button--tag--blue--active">Indiegogo</a>-->
+            <div class="article__header__info">
+              <span>
+                {{ if eq .Lang "cs" }}
+                  {{ .Date.Day }}. {{ index $.Site.Data.mesice (printf "%d" .Date.Month) }} {{ .Date.Year }}
+                {{ else }}
+                  {{ .Date.Format "2 January 2006" }}
+                {{ end }}
+              </span>
+              <span>{{ .ReadingTime }} {{ i18n "min_read" }}</span></div>
+            <h1 class="article__title">{{ .Title }}</h1>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="article__image pt-30">
+    <img src="{{ .Params.image_main }}" alt="{{ .Title }}" />
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+    
+      <div class="col-12 col-xl-8">
+        <div class="article__body">
+
+          {{ .Content }}
+
+        </div>
+
+        {{ if or .Params.pdf .Params.docx }}
+        <div class="row pb-60">
+          
+          <div class = "col-12">
+
+
+            
+            <h3 class = "pb-10">Ke stažení</h3>
+
+            {{ if .Params.pdf }}
+            <a href = "{{ .Params.pdf }}" target="_blank" class = "row align-content-center shadow py-10 mb-10">
+              <div class = "col-1">
+                <img src="/_assets/images/pdf_file.svg" alt="{{ .Title }}" height = "50" />
+              </div>
+              <div class = "col-10">
+                <strong><span>{{ .Title }}</span></strong><br/>
+                Tisková zpráva v PDF
+              </div>
+            </a>
+            {{ end }}
+
+            {{ if .Params.docx }}
+            <a href = "{{ .Params.docx }}" target="_blank" class = "row align-content-center shadow py-10 mb-10">
+              <div class = "col-1">
+                <img src="/_assets/images/docx_file.svg" alt="{{ .Title }}" height = "50" />
+              </div>
+              <div class = "col-10">
+                <strong><span>{{ .Title }}</span></strong><br/>
+                Tisková zpráva v DOCX
+              </div>
+            </a>
+            {{ end }}
+          </div>
+          
+      </div>
+      {{ end }}
+
+
+
+      <div class="row">
+          <div class="col-12 col-md d-flex justify-content-center justify-content-md-start">
+            <div class="article__author article__author--bottom d-flex flex-column justify-content-center">
+              <img src="/authors/{{ $author.image }}" alt="{{ $author.name }}" />
+              <strong>{{ $author.name }}</strong>
+              <span>{{ $author.post }}</span>
+            </div>
+          </div>
+          <div class="col-12 col-md d-flex justify-content-center justify-content-md-end">
+            <div class="addthis_inline_share_toolbox article__soc"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ $press := (where (where .Site.Pages "Section" "press" ) "Kind" "==" "page" ) }}
+
+{{ if gt (len $press) 1 }}
+<section>
+  <div class="container">
+    <div class="row">
+        <div class="pt-60 pb-40 col-12 text-center">
+            <h3 class="font-28 font-md-32 font-md-lnh30 font-weight-black">
+              {{ i18n "press" }}
+            </h3>
+        </div>
+        <div class="col-12 related">
+
+          {{ $current := .File }}
+
+          <div class="row d-flex align-content-stretch">
+                {{ range first 4 $press }}
+                {{ if ne .File $current }}
+                  {{ .Render "grid-small-row" }}
+                  {{ end }}
+                {{ end }}
+
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+{{ end }}
+{{ end }}
+
+{{ define "additional-scripts" }}
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ce11373d4525996"></script>
+
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v2.10&appId=147151422044678";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <script type="text/javascript">
+    (function() {
+        $('table').addClass('table table-striped');
+        $('thead').addClass('thead-default');
+        $( ".table" ).wrap( "<div class='table-responsive'></div>" );
+    })();
+  </script>
+
+
+{{ end }}
