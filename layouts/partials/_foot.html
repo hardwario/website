@@ -72,8 +72,16 @@
                           <li><a href="{{ .URL }}" target = "{{ .Post }}" class = "font-weight-medium font-white">{{ .Name | safeHTML }}</a></li>
                         {{ end }}
                         </ul>
-                    
-                </div>
+                    </div>
+
+                    <div class="font-font2 font-18 pt-30 pb-15 font-weight-medium">HARDWARIO</div>
+                    <div class="font-18">
+                        <ul class = "footernav">
+                        {{ range .Site.Menus.about.ByWeight }}
+                          <li><a href="{{ .URL }}" target = "{{ .Post }}" class = "font-weight-medium font-white">{{ .Name | safeHTML }}</a></li>
+                        {{ end }}
+                        </ul>
+                    </div>
               </div>
               <div class="col-12 col-md pb-xl-50">
                 <div class="font-font2 font-18 pb-25 font-weight-medium invisible">{{ i18n "navigation"}}</div>

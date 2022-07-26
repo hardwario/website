@@ -1,0 +1,99 @@
+{{ define "main" }}
+
+<section>
+  <div class="bg bg--gray">
+    <div class="container">
+      <div class="row pb-60">
+        <div class="col-12">
+          <div class="row pb-10">
+            <div class="col-12 col-md-10 mx-auto text-center pt-30 pt-md-0">
+                <h1 class="text-center font-weight-black font-48 font-md-64">{{ .Params.heading | safeHTML }}</h1>
+                <p class="text-center font-24 font-lnh38">{{ .Params.description | safeHTML }}</p>
+                <p class="text-center font-20 font-lnh24 pt-10"><a href = "#media">Média</a> - <a href = "#press">Tiskové zprávy</a> - <a href = "#contact">Kontakty</a></p>
+              </div>
+          </div>
+          
+          
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class = "container" id = "media">
+    <div class="row justify-content-center pb-20 pb-md-50">
+     <!-- <div class="col-12">
+        <h2 class="text-center font-weight-black font-36 font-md-48 pb-30"></h2>
+      </div>-->
+
+      <div class="col-12 col-lg-4">
+          <a href="https://drive.google.com/drive/folders/1ItEocVF-0z7iT7t9Df4Z-IzfZAp05KzA?usp=sharing" target="_blank" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+              <h3 class="font-26 font-weight-medium pt-30 pb-10">Fotky a obrázky</h3>
+              <p class = "pb-20">Připravili jsme set fotek našich produktů, projektů a členů týmu.</p>
+              <span class = "font-font2 font-red font-decoration-underline">Prohlédnout fotky</span>
+          </a>
+      </div>
+
+      <div class="col-12 col-lg-4">
+          <a href="{{ "ci/" | absLangURL }}" target="_blank" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+            <h3 class="font-26 font-weight-medium pt-30 pb-10">Loga a ilustrace</h3>
+            <p class = "pb-20">Stáhněte si loga a ilustrace v požadovaném formátu z naší corporate identity.</p>
+            <span class = "font-font2 font-red font-decoration-underline">Otevřít online CI</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class = "bg-gray pt-70 pb-60 px-15" id = "press">
+<section>
+  
+  <div class = "container">
+    <div class = "row">
+      <div class="text-center col-12">
+        <h2 class="pb-10 font-weight-black font-36 font-md-48 font-md-lnh56">Tiskové zprávy a&nbsp;novinky</h2>
+        <!--<p class="font-18 font-lnh24"></p>-->
+    </div>
+    </div>
+    <div class="articles articles--2 pt-20">
+
+        {{ $press := ($.Site.GetPage "section" "press").Pages }}
+        {{ range first 6 $press.ByPublishDate.Reverse }}
+        <div class="row d-flex align-content-stretch">
+            {{ .Render "grid-half" }}
+        </div>
+        {{ end }}
+
+    </div>
+  </div>
+</section>
+
+
+<section>
+  <div class = "container" id = "contact">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mt-30 mb-10">
+        <div class = "row align-items-center">
+          <div class = "col-12 col-md-4 px-50">
+              <img loading="lazy" src="/_assets/images/{{ .Params.photo }}" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
+          </div>
+          <div class = "col-12 col-md-8 pt-30 pt-md-0 text-center text-md-left font-white">
+          <h3 class = "font-32 font-weight-bold pb-10">Kontakt pro novináře</h3>
+          <p class = "font-16 pb-5">{{ .Params.name }}</p>
+          <p class = "font-16 pb-5">{{ .Params.post }}</p>
+          <p class = "font-16 pb-5"><a class = "font-white" href = "tel:{{ .Params.tel }}">{{ .Params.tel }}</a></p>
+          <p class = "font-16 pb-5"><a class = "font-white" href = "mailto:{{ .Params.email }}">{{ .Params.email }}</a></p>
+          </div>
+      </div>
+  </div>
+  </div>
+  </div>
+</section>
+</div>
+
+<footer>
+{{ end }}
+

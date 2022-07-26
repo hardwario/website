@@ -1,0 +1,157 @@
+{{ define "main" }}
+
+<section>
+  <div class="bg bg--gray">
+    <div class="container">
+      <div class="row pb-60">
+        <div class="col-12">
+          <div class="row pb-10">
+            <div class="col-12 col-md-10 mx-auto text-center pt-30 pt-md-0">
+                <h1 class="text-center font-weight-black font-48 font-md-64">{{ .Params.heading | safeHTML }}</h1>
+                <p class="text-center font-24 font-lnh38">{{ .Params.description | safeHTML }}</p>
+                <p class="text-center font-20 font-lnh24 pt-10"><a href = "#about">O HARDWARIO</a> - <a href = "#documents">Dokumenty</a> - <a href = "#press">Tiskové zprávy</a> - <a href = "#contact">Kontakty</a></p>
+              </div>
+          </div>
+          
+          
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class = "bg bg-darkGray py-60" id = "about">
+    <div class = "container">
+      <div class = "row font-white">
+        <div class = "col-12">
+          <h2 class="font-weight-black font-36 font-md-48 font-md-lnh56 pb-20">HARDWARIO</h2>
+        </div>
+        <div class = "col-12 col-md-6 pr-md-60 pb-60 pb-md-0">
+          <p class = "pb-10">HARDWARIO je ryze česká technologická společnost, která se zaměřuje na oblast IoT – internetu věcí. Její chytrá zařízení fungují na bezdrátové technologii, na bateriový provoz zvládnou fungovat několik let, připojí se k internetu téměř odkudkoliv a snadno se integrují s dalšími systémy. Hlavními vlastníky jsou spoluzakladatelé Alan Fabik a Pavel Hübner.</p>
+          <p>Své výrobky a služby nabízí prostřednictvím celosvětové sítě partnerů, kterým poskytuje technickou a obchodní podporu, včetně otevřené sady vývojových nástrojů umožňující vytváření vlastních aplikací. Svůj obchodní rozvoj společnost v minulosti významně podpořila založením poboček ve Velké Británii, Polsku a USA.</p>
+        </div>
+        <div class = "col-12 col-md-6 pl-md-60">
+          <table class = "company-info">
+            <tr><td>Název společnosti</td><td>HARDWARIO a.s.</td></tr>
+            <tr><td>Sídlo</td><td>U Jezu 525/4</br>460 01 Liberec</br>Česká republika</td></tr>
+            <tr><td>IČO</td><td>04998511</td></tr>
+            <tr><td>ISIN</td><td></td></tr>
+            <tr><td>LEI</td><td></td></tr>
+            <tr><td>Auditor společnosti</td><td></td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+  .company-info tr td{
+    padding: 5px 30px 5px 0;
+    vertical-align: top;
+    border-bottom: solid 0.5px black;
+  }
+</style>
+
+<section>
+  <div class="">
+      <div class="container pt-90" id = "documents">
+          <div class="row justify-content-center">
+              <div class="text-center col-12">
+                  <h2 class="pb-10 font-weight-black font-36 font-md-48 font-md-lnh56">Dokumenty</h2>
+              </div>
+              <div class="col-12 col-md-9">
+                  <div class="collapsor pt-0">
+                    <div class="collapsor__item">
+                      <h2 class="collapsor__header">Výroční zprávy</h2>
+                      <div class="collapsor__body">
+                          <!--<ul>
+                            <li><a href = "#">Výroční zpráva za rok 2021 (zveřejněno 31.5.2022)</a></li>
+                          </ul>-->
+                      </div>
+                    </div>
+
+                    <div class="collapsor__item">
+                      <h2 class="collapsor__header">Analytické zprávy</h2>
+                      <div class="collapsor__body">
+                          <!--<ul>
+                            <li><a href = "#">Analytická zpráva 2021 (zveřejněno 31.5.2022)</a></li>
+                          </ul>-->
+                      </div>
+                    </div>
+
+                    <div class="collapsor__item">
+                      <h2 class="collapsor__header">Stanovy společnosti</h2>
+                      <div class="collapsor__body">
+                          <!--<ul>
+                            <li><a href = "#">Analytická zpráva 2021 (zveřejněno 31.5.2022)</a></li>
+                          </ul>-->
+                      </div>
+                    </div>
+                  
+                    <div class="collapsor__item">
+                      <h2 class="collapsor__header">Prezentace společnosti</h2>
+                      <div class="collapsor__body">
+                          <!--<ul>
+                            <li><a href = "#">Analytická zpráva 2021 (zveřejněno 31.5.2022)</a></li>
+                          </ul>-->
+                      </div>
+                    </div>
+
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<div class = "bg-gray pt-70 pb-60 px-15" id = "press">
+<section>
+  
+  <div class = "container">
+    <div class = "row">
+      <div class="text-center col-12">
+        <h2 class="pb-10 font-weight-black font-36 font-md-48 font-md-lnh56">Tiskové zprávy a novinky</h2>
+        <!--<p class="font-18 font-lnh24"></p>-->
+    </div>
+    </div>
+    <div class="articles articles--2 pt-20">
+
+        {{ $press := ($.Site.GetPage "section" "press").Pages }}
+        {{ range first 6 $press.ByPublishDate.Reverse }}
+        <div class="row d-flex align-content-stretch">
+            {{ .Render "grid-half" }}
+        </div>
+        {{ end }}
+
+    </div>
+  </div>
+</section>
+
+
+<section>
+  <div class = "container" id = "contact">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mt-30 mb-10">
+        <div class = "row align-items-center">
+          <div class = "col-12 col-md-4 px-50">
+              <img loading="lazy" src="/_assets/images/{{ .Params.photo }}" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
+          </div>
+          <div class = "col-12 col-md-8 pt-30 pt-md-0 text-center text-md-left font-white">
+          <h3 class = "font-32 font-weight-bold pb-10">Kontakt pro investory</h3>
+          <p class = "font-16 pb-5">{{ .Params.name }}</p>
+          <p class = "font-16 pb-5">{{ .Params.post }}</p>
+          <p class = "font-16 pb-5"><a class = "font-white" href = "tel:{{ .Params.tel }}">{{ .Params.tel }}</a></p>
+          <p class = "font-16 pb-5"><a class = "font-white" href = "mailto:{{ .Params.email }}">{{ .Params.email }}</a></p>
+          </div>
+      </div>
+  </div>
+  </div>
+  </div>
+</section>
+</div>
+
+<footer>
+{{ end }}
+

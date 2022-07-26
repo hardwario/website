@@ -1,7 +1,7 @@
 ---
 title: Tiskové zprávy
-url: /tiskove-zpravy
-menu: ["footer"]
+url: /cs/tiskove-zpravy
+menu: 
 weight: 100
 heading: Tiskové zprávy
 ---

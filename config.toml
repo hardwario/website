@@ -8,7 +8,7 @@ pygmentsUseClasses = true
 csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
 
 [params]
-  menuNames = ["main","footer","secondary"]
+  menuNames = ["main","footer","about","secondary"]
   homeURL = "/"
   shopURL = "https://shop.hardwario.com/"
   productionURL = "https://www.hardwario.com"

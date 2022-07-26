@@ -1,6 +1,6 @@
 ---
 title: Press releases
-menu: ["footer"]
+menu: 
 weight: 100
 heading: Press Releases
 ---
