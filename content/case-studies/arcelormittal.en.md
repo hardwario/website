@@ -18,6 +18,8 @@ testimonial_image:
 logo: /partners/color/arcelormittal.svg
 weight: 750
 date: 2021-03-05
+carousel: true
+carousel_status: 
 menu:
     main:
         parent: 'Case&nbsp;Studies'

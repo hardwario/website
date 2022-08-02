@@ -25,7 +25,7 @@
           <div class = "col-12 py-30 py-md-60 px-60 shadow banner">
               <div class = "row justify-content-center text-white">
                   <div clas = "col-12 text-center">
-                      <h1 class = "font-weight-black font-white font-42 font-md-64">Měníme dnešek na&nbsp;digitální zítřek</strong></h1>
+                      <h1 class = "font-weight-black font-white font-42 font-md-64">{{ .Params.heading | safeHTML }}</strong></h1>
                   </div>
               </div>
               
@@ -41,8 +41,8 @@
         <img src = "/_assets/images/alan-pavel.jpg" class = "w-100" />
       </div>
       <div class = "col-12 col-md-6">
-        <p class ="pb-20 font-font2 font-24 font-lnh38">HARDWARE IS HARD<span class = "font-red">WARIO</span></p>
-        <p class ="font-16 font-md-18">První IoT zařízení jsme vyrobili a předali zákazníkům v roce 2016. Od té doby jsme dodali tisíce zařízení do více než 50 států po celém světě a budujeme globální síť partnerů. Máme stabilní tým a za sebou spoustu skvělých společných zážitků.</p>
+        <p class ="font-16 font-md-18 pb-10">Od založení v roce 2016 plníme každodenní prací naši misi transformovat dnešek na digitální zítřek. Jsme přesvědčeni, že digitalizace přinese lidstvu významné úspory energií a výrazně zlepší podmínky života na Zemi.</p>
+          <p class ="font-16 font-md-18">Proto budujeme naši partnerskou síť a sdílíme s ní nejlepší praktiky jak připojit co nejvíce zařízení a prostředí k internetu, jak je propojit s dalšími daty a jak z toho všeho vytvářet smysluplné projekty. Jsme zkušení vývojáři a obchodníci s globální ambicí být vedoucí firmou v oblasti dodávek průmyslových IoT zařízení.</p>
       </div>
       
     </div>
@@ -84,27 +84,30 @@
                 <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>HARDWARIO v médiích</span></div> 
             </div>
           <div class="col-12 text-center">
-              <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+              <a href = "https://forbes.cz/chytre-regaly-i-monitoring-dronu-byvaly-spin-off-jablotronu-slape-do-internetu-veci/" target = "_blank" class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
                   <img width="140" src="/_assets/images/media/forbes.svg" alt="" />
-              </span>
-              <span class="px-10 px-md-30 pt-10 mb-10 mb-md-0 d-inline-block">
+              </a>
+              <a href = "https://cc.cz/vyuzit-pristroje-ku-prospechu-lidstva-hardwario-alana-fabika-internetem-veci-zefektivnuje-vyrobu-i-chrani-africke-slony/" target = "_blank" class="px-10 px-md-30 pt-10 mb-10 mb-md-0 d-inline-block">
                   <img width="160" src="/_assets/images/media/czechcrunch.svg" alt="" />
-              </span>
-              <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                </a>
+              <a href = "https://www.iotforall.com/podcasts/e195-challenges-in-hardware-development" target = "_blank" class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
                   <img width="135" src="/_assets/images/media/IoT-For-All.jpg" alt="" />
-              </span>
-              <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                </a>
+              <a href = "https://www.seznamzpravy.cz/clanek/ekonomika-b2b-zmerime-uplne-vsechno-rika-alan-fabik-zakladatel-startupu-hardwario-195815" target = "_blank" class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
                   <img width="135" src="/_assets/images/media/seznam.svg" alt="" />
-              </span>
-              <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                </a>
+              <a href = "https://zpravy.aktualne.cz/ekonomika/alan-fabik/r~5354f7a63b9611ebb0f60cc47ab5f122/" target = "_blank" class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
                 <img width="135" src="/_assets/images/media/aktualne.png" alt="" />
-            </span>
-            <span class="px-10 px-md-30 mt-20 mb-20 mb-md-0 d-inline-block">
+              </a>
+            <a href = "https://www.lupa.cz/aktuality/cesti-vyvojari-eman-za-miliony-kupuji-podil-ve-firme-hardwario-zname-i-diky-bigclownu/" target = "_blank" class="px-10 px-md-30 mt-20 mb-20 mb-md-0 d-inline-block">
                 <img width="135" src="/_assets/images/media/lupa.svg" alt="" />
-            </span>
-              <span class="px-10 px-md-30 mt-20 mb-20 mb-md-0 d-inline-block">
+              </a>
+            <a href = "https://www.zive.cz/clanky/bigclown-cesti-konkurenti-arduina-vybrali-na-indiegogu-30-tisic-dolaru/sc-3-a-192350/default.aspx" target = "_blank" class="px-10 px-md-30 mt-20 mb-20 mb-md-0 d-inline-block">
                   <img width="85" src="/_assets/images/media/zive.svg" alt="" />
-              </span>
+                </a>
+            <a href = "https://www.deloitte.cz/dcast/#2022-03-15" target = "_blank" class="px-10 px-md-30 mt-20 mb-20 mb-md-0 d-inline-block">
+              <img width="85" src="/_assets/images/media/dcast.png" alt="" />
+            </a>
           </div>
         </div>
     </div>
@@ -157,6 +160,7 @@
 </div>
 </section>
 
+<!--
 <section>
 
     <div class="container">
@@ -217,18 +221,31 @@
         </div>
     </div>
 
-  </section>
+  </section>-->
 
 <section>
   
   <div class = "container">
     <div class = "row align-items-center">
-      <div class="text-center col-12 col-md-6">
-        <h2 class="pb-10 font-weight-black font-36 font-md-48 font-md-lnh56">Skvělé firmy jsou tvořeny skvělými lidmi. My máme ty nejlepší</h2>
+      <div class="col-12 col-md-8">
+        <h2 class="pb-10 font-weight-black font-36 font-md-48 font-md-lnh56">Skvělé firmy jsou tvořeny skvělými lidmi, stejně jako u nás</h2>
+      </div>
+      <div class = "col-6 col-md-4">
+        <img src = "/_assets/images/team/team1.jpg" class = "w-100 pb-30" />
+      </div>
+      <div class = "col-6 col-md-4">
+        <img src = "/_assets/images/team/team4.JPG" class = "w-100 pb-30 pb-md-0" />
+      </div>
+      <div class = "col-6 col-md-4">
+        <img src = "/_assets/images/team/team2.jpg" class = "w-100 pb-30 pb-md-0" />
+      </div>
+      <div class = "col-6 col-md-4">
+        <img src = "/_assets/images/team/team3.png" class = "w-100" />
       </div>
 
-      <div class = "col-12 col-md-6">
-        <div class = "row px-0 py-0 bg bg-darkGray ">
+      
+        
+        <!--<div class = "row px-0 py-0 bg bg-darkGray ">
           <div class = "col-3 px-0 py-0">
             <img src = "/_assets/images/team/5-alan.jpg" class = "w-100" />
           </div>
@@ -271,9 +288,8 @@
           <div class = "col-9 px-0 py-0 bg bg-darkGray font-white text-center my-auto">
             <span class = "font-24 ">+ několik dalších členů týmu</span>
           </div>
-        </div>
-        
-      </div>
+        </div>-->
+  
 
     </div>
     
