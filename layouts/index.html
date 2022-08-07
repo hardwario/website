@@ -3,6 +3,43 @@
 
 {{ $currentLang := .Site.Language.Lang }}
 
+
+<section>
+    <div class = "bg bg-test pb-60">
+        <div class = "container">
+            <div class = "row justify-content-center">
+                <div class = "col-10 text-center pt-90">
+                    <h1 class="font-44 font-md-64 font-md-lnh68 font-weight-black pb-40">Everything you need to deploy a&nbsp;successfull IoT project</h1>
+                    <p class="font-24 font-gray2 font-lnh37 pr-md-100">We provide our partners with highly configurable devices, connectivity, and APIs. Together we successfully implement digitization projects in manufacturing, agriculture, retail, healthcare and education.</p>
+                </div>
+                <div class = "col-12 text-center" style = "margin-top:-50px;">
+                    <object type="image/svg+xml" data="/_assets/images/hio.svg"></object>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .bg-test{
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(26,26,26,0.2) 100%);
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
 <section>
     <div class="bg-image23 fullBackground pt-50 pt-lg-0 d-flex align-items-center mb-20 mb-md-50" style = "background-image: none;">
         <div class="container">
@@ -11,9 +48,9 @@
                     <h1 class="font-44 font-md-64 font-md-lnh68 font-weight-black pb-40">{{ i18n "design_manufacture" | safeHTML }}</h1>
                     <p class="font-24 font-gray2 font-lnh37 pb-40 pr-md-100">{{ i18n "works_from_batteries" | safeHTML }}</p>
                     <p class="font-24 font-gray2 font-lnh37 pb-40 pr-md-100">{{ i18n "together_with_partners" | safeHTML }}</p>
-                    <!--<div>
+                    <--<div>
                         <a href="#products" class="cta-button font-lnh54 px-70 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "tell_me_more" }}</a>
-                    </div>-->
+                    </div>->
                 </div>
                 <div class="col-6 col-lg-4 text-center text-md-left px-0 productPhoto">
                     <img src="/_assets/images/chester-white-in.png" class="d-block w-100" alt="...">
@@ -23,7 +60,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <!--
 <style>
@@ -166,10 +203,12 @@
 
 
 <section>
-    <div class = "container" id = "products">
+    <div class = "container pt-90" id = "products">
         <div class = "row justify-content-center">
-            <div class="col-9 col-md-6 col-lg-4 pb-30 mx-auto text-center">
-                <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "our_platforms" }}</span></div>
+            <div class="col-8 pb-30 mx-auto text-center">
+                <h2 class = "font-40 font-lnh48 font-md-52 font-weight-black font-md-lnh56 pb-10">Meet our platforms</h2>
+                <p class="font-24 font-gray2 font-lnh37 pb-40 pr-md-100">They work on batteries for several years, with the ability to connect to the Internet from almost anywhere and can be easily integrated with other systems.</p>
+                <!--<div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "our_platforms" }}</span></div>-->
             </div>
         </div>
         <div class = "row justify-content-center px-10">
@@ -238,8 +277,9 @@
 <div class="container ">
     <div class="articles articles--2 pb-20">
         <div class = "row justify-content-center">
-            <div class="col-9 col-md-6 col-lg-5 pb-30 mx-auto text-center">
-                <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "partners_projects" }}</span></div>
+            <div class="col-9 pb-30 mx-auto text-center">
+                <h2 class = "font-40 font-lnh48 font-md-52 font-weight-black font-md-lnh56 pb-10">Partners' successful projects</h2>
+                <!--<div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "partners_projects" }}</span></div>-->
             </div>
         </div>
         <div class="row">
@@ -501,7 +541,7 @@
       <div class="container">
         <div class="row">
             <div class="pt-60 pb-40 col-12 text-center">
-                <h2 class="font-40 font-md-64 font-md-lnh56 font-weight-black">
+                <h2 class = "font-40 font-lnh48 font-md-52 font-weight-black font-md-lnh56">
                   {{ i18n "newest_from_hardwario" }}
                 </h2>
             </div>
