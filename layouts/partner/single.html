@@ -1,4 +1,6 @@
-
+{{ define "header" }}
+  {{ partial "header-oee.html" . }}
+{{ end }}
 
 {{ define "main" }}
 
@@ -50,7 +52,7 @@
                   <div class = "col-12 col-md-7 pt-40 pt-md-60 pb-30 pb-md-60">
                       <h1 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30">{{ .Params.heading | safeHTML }}</h1>
                       <p class = "font-20 font-md-20 pb-10">{{ .Params.description | safeHTML }}</p>
-                      <a href = "#pillars" class="font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">Learn more</a>
+                      <a href = "#more" class="smooth font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">Learn more</a>
                       <!--<a href = "{{ .Permalink }}" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>-->
                   </div>
                   <div class = "col-12 col-md-5 pt-30 pr-0 chester-1">
@@ -63,14 +65,21 @@
 </section>
 
 <section>    
-    <div class = "container pt-60">
+    <div class = "container pt-60" id = "more">
         <div class = "row justify-content-center align-items-center text-center">
-                <div class = "col-12 col-md-9 font-20 font-md-20">
-                    <p class = "pb-10">We make industrial IoT devices which our partners deploy them under their brand in companies like LEGO, TOYOTA or Vodafone. We believe that the <strong>{{ .Params.company }}</strong> has the perfect fit for our partner network, and you can benefit from your own IoT device.</p>
+                <div class = "col-12 col-md-10 font-20 font-md-20">
+                    <p class = "pb-10">HARDWARIO offers everything you need to deploy a successful IoT project - from hardware to cloud environments and APIs. Our devices are highly programmable and customisable using ZephyrRTOS and hardware extensions. We believe that the <strong>{{ .Params.company }}</strong> can benefit from your own IoT device.</p>
+                    <!--<p class = "pb-10">We make industrial IoT devices which our partners deploy them under their brand in companies like LEGO, TOYOTA or Vodafone. We believe that the <strong>{{ .Params.company }}</strong> has the perfect fit for our partner network, and you can benefit from your own IoT device.</p>-->
+                </div>
+
+                <div class = "col-12">
+                    <object type="image/svg+xml" data="/_assets/images/hio.svg"></object>
                 </div>
         </div>
     </div>
 </section>
+
+
 
 <style>
 
@@ -126,7 +135,7 @@
                 <div class="col pb-30">
                     <div class="row justify-content-center align-items-center">
                         <div class = "col-12 text-center pt-40">
-                    <h3 class = "font-20 font-md-20 font-weight-black font-lnh24 pb-10">4 reason why to become our partner</h3>
+                    <h3 class = "font-20 font-md-20 font-weight-black font-lnh24 pb-10">Reasons to become our partner</h3>
                     </div>
                        <!-- <div class = "col-12 text-center">
                             <p class="font-18 font-lnh26 pb-10 font-weight-bold">Device features</p>
@@ -143,7 +152,7 @@
                                             <img loading="lazy" src="/_assets/images/benefits/devices.svg" class="w-50 mt-20" alt="" />
                                         </div>
                                         <div class = "col-9 col-md-4 pb-20 pb-md-0">
-                                            <h3 class="font-20 font-weight-black font-lnh30">Configurable device</h3>
+                                            <h3 class="font-20 font-weight-black font-lnh30">Higly configurable devices</h3>
                                             <p class="font-18 font-lnh26">One device suits thousands of projects across industries. You can connect various sensors, controllers and PLCs with available interfaces.</p>
                                         </div>
 
@@ -159,7 +168,7 @@
                                             <img loading="lazy" src="/_assets/images/benefits/hardware.svg" class="w-50 mt-20" alt="" />
                                         </div>
                                         <div class = "col-9 col-md-4 pb-20 pb-md-0">
-                                            <h3 class="font-20 font-weight-black font-lnh30">It's your product</h3>
+                                            <h3 class="font-20 font-weight-black font-lnh30">Your product, your know-how</h3>
                                             <p class="font-18 font-lnh26">Devices are delivered with full OEM branding. Knowledge of firmware development enables you to secure your intellectual property.</p>
                                         </div>
 
@@ -189,7 +198,7 @@
 
 
 <section>
-    <div class = "container">
+    <div class = "container" id = "contact">
     <div class="row justify-content-center">
       <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mt-30 mb-70">
           <div class = "row align-items-center">
@@ -214,5 +223,12 @@
 {{ end }}
 
 {{ define "additional-scripts" }}
-
+<script>
+    $("a.smooth[href^=\\#]").click(function(e) {
+      e.preventDefault();
+      var dest = $(this).attr('href');
+      //console.log(dest);
+      $('html,body').animate({ scrollTop: ($(dest).offset().top - 100) }, 'slow');
+    });
+  </script>
 {{ end }}

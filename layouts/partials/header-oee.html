@@ -1,12 +1,12 @@
 {{ $currentPage := . }}
 
 <header role="banner">
-    <div class="container pt-30 pt-md-60 position-relative">
+    <div class="container pt-30 pt-md-30 position-relative">
       <div class = "position-absolute" style = "right: 15px">
  
       </div>
     </div>
-    <div class="container pt-30 pt-md-30 pb-0 pb-md-60">
+    <div class="container pt-30 pt-md-30 pb-0 pb-md-30">
         <div class="row align-items-center">
             <div class="col pt-20 pt-sm-0">
                 <a href="{{ .Site.Params.baseURL }}" class="icon icon--logo d-block text-hide mx-md-0">Hardwario</a>
@@ -23,7 +23,9 @@
             <div class="col-12 col-lg pt-20 pt-md-0 d-none d-lg-block js-menu menu">
 
                 <ul class="d-lg-flex text-center text-lg-left mt-20 mt-lg-0 list-unstyled py-0 my-0 font-20 font-md-15 font-weight-medium font-font2 text-uppercase justify-content-center justify-content-md-end">
-           
+                  <li class = "pl-lg-30">
+                    <a href="/" class='font-gray d-block pt-lg-5 pb-10 pb-lg-5'>back to homepage</a>
+                  </li>
                   {{ range .Site.Menus.oee }}
                     <li class = "pl-lg-30">
                       <a href="{{ .URL }}" target = "{{ .Post }}" class='{{ .Pre }} font-gray d-block pt-lg-5 pb-10 pb-lg-5 {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} active {{ end }}'>{{ .Name | safeHTML }}</a>
