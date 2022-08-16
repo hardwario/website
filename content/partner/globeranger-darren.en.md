@@ -1,6 +1,6 @@
 ---
 title: GlobeRanger - HARDWARIO (Darren Newman)
-meta_title: Opportunity for GlobeRanger
+meta_title: IoT opportunity for GlobeRanger
 company: GlobeRanger
 name: Darren
 url: /globeranger/yxqrj

@@ -1,6 +1,6 @@
 ---
 title: GlobeRanger - HARDWARIO (David Sutton)
-meta_title: Opportunity for GlobeRanger
+meta_title: IoT opportunity for GlobeRanger
 company: GlobeRanger
 name: David
 url: /globeranger/pxqzj
