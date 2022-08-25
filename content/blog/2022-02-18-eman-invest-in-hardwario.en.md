@@ -5,7 +5,7 @@ meta_description: Prague-based software house eMan enters our company. By joinin
 draft: false
 date: 2022-02-18
 description: Prague-based software house eMan enters our company. By joining forces, we want to promote the use of IoT technologies in the energy and industrial sectors, in which eMan has many years of experience.
-image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1645206860/blog/2022-02-16-eman-invest-in-hardwario/hio-eman.png
+image_preview: https://res.cloudinary.com/lukasfabik/image/upload/c_fill,h_900,w_900,x_144,y_204/v1645206860/blog/2022-02-16-eman-invest-in-hardwario/hio-eman.png
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1581950249/blog/wide_placeholder.jpg
 image_meta: https://res.cloudinary.com/lukasfabik/image/upload/v1645206860/blog/2022-02-16-eman-invest-in-hardwario/hio-eman.png
 author: lukas_fabik

@@ -5,7 +5,7 @@ meta_description: Během letošního jara jsme publikovali několik zajímavých
 draft: false
 date: 2021-08-18
 description: Během letošního jara jsme publikovali několik zajímavých materiálů - webináře, ebooky, články na blogu. Pro dnešek jsem pro vás připravil druhý díl jejich shrnutí.
-image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1576055326/blog/bigclown-renamed-hardwario/hardwario.jpg
+image_preview: https://res.cloudinary.com/lukasfabik/image/upload/c_fill,h_800,w_800/v1576055326/blog/bigclown-renamed-hardwario/hardwario.jpg
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1581950249/blog/wide_placeholder.jpg
 author: lukas_fabik
 ---

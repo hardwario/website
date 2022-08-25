@@ -3,6 +3,40 @@
 
 {{ $currentLang := .Site.Language.Lang }}
 
+
+<section>
+    <div class = "bg bg-test pb-60">
+        <div class = "container">
+            <div class = "row justify-content-center">
+                <div class = "col-12 col-md-10 text-center pt-30">
+                    <h1 class="font-40 font-md-64 font-md-lnh70 font-weight-black pb-40">{{ .Params.heading | safeHTML }}</h1>
+                    <p class="font-24 font-gray2 font-lnh37">{{ .Params.perex | safeHTML }} </p>
+                </div>
+                <div class = "col-12 text-center animation">
+                    <object type="image/svg+xml" data="/_assets/images/hio.svg"></object>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .animation{
+        margin-top: 30px;
+    }
+    @media(max-width:768px){
+        .animation{
+        
+    }      
+    }
+    .bg-test{
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(26,26,26,0.2) 100%);
+    }
+</style>
+
+
+<!--
 <section>
     <div class="bg-image23 fullBackground pt-50 pt-lg-0 d-flex align-items-center mb-20 mb-md-50" style = "background-image: none;">
         <div class="container">
@@ -11,9 +45,9 @@
                     <h1 class="font-44 font-md-64 font-md-lnh68 font-weight-black pb-40">{{ i18n "design_manufacture" | safeHTML }}</h1>
                     <p class="font-24 font-gray2 font-lnh37 pb-40 pr-md-100">{{ i18n "works_from_batteries" | safeHTML }}</p>
                     <p class="font-24 font-gray2 font-lnh37 pb-40 pr-md-100">{{ i18n "together_with_partners" | safeHTML }}</p>
-                    <!--<div>
+                    <--<div>
                         <a href="#products" class="cta-button font-lnh54 px-70 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "tell_me_more" }}</a>
-                    </div>-->
+                    </div>->
                 </div>
                 <div class="col-6 col-lg-4 text-center text-md-left px-0 productPhoto">
                     <img src="/_assets/images/chester-white-in.png" class="d-block w-100" alt="...">
@@ -23,7 +57,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <!--
 <style>
@@ -77,58 +111,9 @@
         </div>
     </div>
 </section>
-
-<section>
-    <div class="text-md-left pt-20 pb-20">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class = "col-12">
-                    <div class = "row align-items-center">
-                        <div class = "col-12 col-md-4 pb-30">
-                            <div class = "row align-items-center">
-                                <div class = "col-4">
-                                    <img loading="lazy" src="/_assets/images/benefits/batteries.svg" class="w-100 mt-20" alt="" />
-                                </div>
-                                <div class = "col">
-                                    <p class="font-24 font-lnh26">Work on batteries for several years</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class = "col-12 col-md-4 pb-30">
-                            <div class = "row align-items-center">
-                                <div class = "col-4">
-                                    <img loading="lazy" src="/_assets/images/benefits/complex.svg" class="w-100 mt-20" alt="" />
-                                </div>
-                                <div class = "col">
-                                    <p class="font-24 font-lnh26">Connect to the Internet from almost anywhere</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class = "col-12 col-md-4 pb-30">
-                            <div class = "row align-items-center">
-                                <div class = "col-4">
-                                    <img loading="lazy" src="/_assets/images/benefits/scalable.svg" class="w-100 mt-20" alt="" />
-                                </div>
-                                <div class = "col">
-                                    <p class="font-24 font-lnh26">Easily integrated with other systems</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class = "row justify-content-center">
-                    <div class = "col-10 pb-40 text-center">
-                        <p class="font-24 font-gray2 font-lnh37">{{ i18n "together_with_partners" | safeHTML }}</p>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 -->
+
+
 <style>
     .content-block{
         background-image: linear-gradient(to bottom right, #ebb50e, #ffd966); 
@@ -164,43 +149,55 @@
     }
 </style>
 
-
 <section>
-    <div class = "container" id = "products">
-        <div class = "row justify-content-center">
-            <div class="col-9 col-md-6 col-lg-4 pb-30 mx-auto text-center">
-                <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "our_platforms" }}</span></div>
+    <div class = "container">
+        <div class = "row justify-content-center pt-60">
+            <div class="col-12 col-md-8 pb-30 mx-auto text-center">
+                <h2 class = "font-40 font-lnh48 font-md-52 font-weight-black font-md-lnh56 pb-10">{{ i18n "meet_platforms" }}</h2>
+                <p class="font-24 font-gray2 font-lnh37 pb-10">{{ i18n "platforms_description" }}</p>
+                <!--<div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "our_platforms" }}</span></div>-->
             </div>
-        </div>
-        <div class = "row justify-content-center px-10">
-            
             {{ with .Site.GetPage "/chester" }}
-                <div class = "col-12 col-md-6 pl-0 pr-0 pr-md-10">
-                <div class = "col-12 px-30 mb-20 content-block ">
+            <div class = "col-12 px-30 pl-md-60 mb-20 content-block">
+                <div class = "row">
+                    <div class = "col-12 col-md-6 pt-40 pt-md-90 pb-30 pb-md-120">
+                        <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO CHESTER</span></div>
+                        <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh57 pb-30">{{ .Params.heading | safeHTML }}</h2>
+                        <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description }}</p>
+                        <a href = "{{ .Permalink }}" class="ml-0 mr-20 mt-10 font-20 font-md-16 font-lnh54 font-weight-bold font-font2 font-red cta-button px-40 d-inline-block font-weight-bold border-red">{{ i18n "learn_more" }}</a>
+                    </div>
+                    <div class = "col-12 col-md-6 pt-30 pr-0 chester-1">
+
+                    </div>
+                </div>
+            </div> 
+            {{ end }}
+            {{ with .Site.GetPage "/kit" }}
+            <div class = "col-12 col-md-6 pl-0 pr-0 pr-md-10">
+                <div class = "col-12 px-30 mb-20 content-block content-block--gray">
                 <div class = "row">
                     <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center">
-                        <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO CHESTER</span></div>
-                        <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">{{ .Params.category | safeHTML }}</h2>
-                        <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description }}</p>
-                        <a href = "{{ .Permalink }}" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
-                        <br/>
-                        <img src = "/_assets/images/products/chester.png" class = "mx-auto mt-20 w-100"/>
+                        <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO TOWER</span></div>
+                        <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh57 pb-30">{{ .Params.category }}</h2>
+                        <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description | safeHTML }}</p>
+                        <a href = "{{ .Permalink }}" class="ml-0 mr-20 mt-10 font-20 font-md-16 font-lnh54 font-weight-bold font-font2 font-red cta-button px-40 d-inline-block font-weight-bold border-red">{{ i18n "learn_more" }}</a>
+                        <img src = "/_assets/images/products/tower.png" class = "mx-auto mt-20 w-100"/>
                     </div>
                 </div>
                 </div>
             </div>
             {{ end }}
-            {{ with .Site.GetPage "/kit" }}
+            {{ with .Site.GetPage "/cloud" }}
             <div class = "col-12 col-md-6 pl-0 pl-md-10 pr-0">
-                <div class = "col-12 px-30 mb-90 content-block content-block--gray">
+                <div class = "col-12 px-30 mb-20 content-block content-block--gray">
                 <div class = "row">
                     <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center">
-                        <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO TOWER</span></div>
-                        <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">{{ .Params.category | safeHTML }}</h2>
-                        <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description | safeHTML }}</p>
-                        <a href = "{{ .Permalink }}" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
-                        <a href = '{{ i18n "buy_on_link" }}' target="_blank" class="pt-20 pt-md-0 ml-0 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "buy_on" | safeHTML }}</a>
-                        <img src = "/_assets/images/products/tower.png" class = "mx-auto mt-20 w-100"/>
+                        <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO CLOUD</span></div>
+                        <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh57 pb-30">{{ .Params.category }}</h2>
+                        <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description }}</p>
+                        <a href = "{{ .Permalink }}" class="ml-0 mr-20 mt-10 font-20 font-md-16 font-lnh54 font-weight-bold font-font2 font-red cta-button px-40 d-inline-block font-weight-bold border-red">{{ i18n "learn_more" }}</a>
+                        <br/>
+                        <img src = "/_assets/images/products/cloud.png" class = "mx-auto mt-20 w-100"/>
                     </div>
                 </div>
                 </div>
@@ -238,8 +235,8 @@
 <div class="container ">
     <div class="articles articles--2 pb-20">
         <div class = "row justify-content-center">
-            <div class="col-9 col-md-6 col-lg-5 pb-30 mx-auto text-center">
-                <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "partners_projects" }}</span></div>
+            <div class="col-12 col-md-8 pb-30 mx-auto text-center">
+                <h2 class = "font-40 font-lnh48 font-md-52 font-weight-black font-md-lnh57 pb-10">{{ i18n "partners_projects" | safeHTML }}</h2>
             </div>
         </div>
         <div class="row">
@@ -286,60 +283,12 @@
                     <img width="95" src="/_assets/images/partners/surun.svg" alt="" />
                 </span>
             </div>-->
-            <div class = "col-12 text-center pt-10">
-                <a href="{{ "case-studies/" | absLangURL }}" class="d-block d-md-inline-block font-lnh24 py-15 px-10 px-md-50 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "other_case_studies" }}</a>
+            <div class = "col-12 text-center">
+                <a href="{{ "case-studies/" | absLangURL }}" class="d-inline-block font-lnh24 d-inline-block font-weight-bold font-font2 font-red button__link">{{ i18n "other_case_studies" }}</a>
             </div>
         </div>
     </div>
 </section>
-
-<!--<section>
-    <div class = "container pt-70 pb-70">
-        <div class="row justify-content-center">
-            <div class="pb-60 col-12 text-center">
-                <h2 class="font-40 font-md-64 font-md-lnh56 font-weight-black">
-                  {{ i18n "from_strategy_to_implementation" | safeHTML }}
-                </h2>
-            </div>
-        </div>
-        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
-            <ul class="row justify-content-center list-unstyled text-center carousel-indicators">
-                <li data-target="#carousel" data-slide-to="0" class="active col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/strategy.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "strategy" }}</h3></li>
-                <li data-target="#carousel" data-slide-to="1" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/hardware.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">Hardware</h3></li>
-                <li data-target="#carousel" data-slide-to="2" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/connectivity.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "connectivity" }}</h3></li>
-                <li data-target="#carousel" data-slide-to="3" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/implement.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "implementation" }}</h3></li>
-                <li data-target="#carousel" data-slide-to="4" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/simple.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "education" }}</h3></li>
-            </ul>
-            <div class = "row justify-content-center">
-            <div class="col-10 carousel-inner bg-gray shadow mt-20 px-20 pt-40 pb-30 text-center">
-                <div class="carousel-item active">
-                  <p class = "font-18 font-lnh26">{{ i18n "strategy_text" | safeHTML }}</p>
-                </div>
-                <div class="carousel-item bg-gray">
-                    <p class = "font-18 font-lnh26">{{ i18n "hardware_text" | safeHTML }}</p>
-                </div>
-                <div class="carousel-item bg-gray">
-                    <p class = "font-18 font-lnh26">{{ i18n "connectivity_text" | safeHTML }}</p>
-                </div>
-                <div class="carousel-item bg-gray">
-                    <p class = "font-18 font-lnh26">{{ i18n "implementation_text" | safeHTML }}</p>
-                </div>
-                <div class="carousel-item bg-gray">
-                    <p class = "font-18 font-lnh26">{{ i18n "education_text" | safeHTML }}</p>
-                </div>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true">x</span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true">x</span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-    </div>
-</section>-->
 
 <section>
     <div class = "container">
@@ -449,51 +398,6 @@
     </div>
 </section>-->
 
-<!--
-<section>
-    <div class = "container" id = "iot-document">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mt-60 mb-60">
-          <div class = "row align-items-center justify-content-center">
-            <div class = "col-6 col-md-2 px-30">
-                <img loading="lazy" src="/_assets/images/checklist.svg" class="w-100 d-block mx-auto img-fluid" alt="" />
-            </div>
-            <div class = "col-12 col-md-10 pt-30 pt-md-0 text-center text-md-left font-white">
-            <h3 class = "font-32 font-weight-bold pb-10">{{ i18n "iot_manufacturing" }}</h3>
-            <p class = "font-22 pb-10">{{ i18n "iot_manufacturing_desc" }}</p>
-            <a href = "#iot-document" class="getPdf font-lnh24 py-15 px-md-50 d-block d-md-inline-block font-weight-bold font-font2 font-white bg-red" id="click-meeting">{{ i18n "get_document" }}</a>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div> 
-
-    <div id = "downloadCaseStudy" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-body">
-              <div class="container-fluid">
-                <div class="row justify-content-center">
-                  <div class="col-md-10">
-                    <h2 class = "font-30 font-md-42 pt-50 pb-50 font-weight-black text-center" data-toggle="modal" data-target=".bd-example-modal-lg">{{ i18n "iot_manufacturing" }}</h2>
-                  </div>
-                  <div class="col-md-8 text-center">
-                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-                    <script>
-                      hbspt.forms.create({
-                        portalId: "5453210",
-                        formId: "{{ .Params.form_id }}"
-                      });
-                    </script>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-  </section>-->
 
   {{ if ne $currentLang "de" }}
   <section>
@@ -501,7 +405,7 @@
       <div class="container">
         <div class="row">
             <div class="pt-60 pb-40 col-12 text-center">
-                <h2 class="font-40 font-md-64 font-md-lnh56 font-weight-black">
+                <h2 class = "font-40 font-lnh48 font-md-52 font-weight-black font-md-lnh57">
                   {{ i18n "newest_from_hardwario" }}
                 </h2>
             </div>

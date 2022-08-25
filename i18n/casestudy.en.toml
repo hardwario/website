@@ -14,7 +14,7 @@ other = "We'll send you<br/> all case studies<br/> to your inbox"
 other = "Case studies"
 
 [other_case_studies]
-other = "Other successful projects"
+other = "Load more projects"
 
 [successful_projects]
 other = "Successful projects"

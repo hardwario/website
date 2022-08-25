@@ -5,7 +5,7 @@ meta_description: If you ever face a challenge to design a battery-operated elec
 draft: false
 date: 2022-06-24
 description: If you ever face a challenge to design a battery-operated electronics device, one of the most crucial decisions is to select the correct battery type for the given project. Unfortunately, there is no silver bullet solution.
-image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1655906515/blog/2022-06-22-battery-chemistry/preview.png
+image_preview: https://res.cloudinary.com/lukasfabik/image/upload/c_crop,h_800,w_800,x_215/v1655906515/blog/2022-06-22-battery-chemistry/preview.png
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1655906514/blog/2022-06-22-battery-chemistry/header.png
 image_meta: https://res.cloudinary.com/lukasfabik/image/upload/v1655907545/blog/2022-06-22-battery-chemistry/meta.png
 author: pavel_hubner

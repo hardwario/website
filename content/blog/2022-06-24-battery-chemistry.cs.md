@@ -5,7 +5,7 @@ meta_description: Pokud jste někdy stáli před úkolem navrhnout elektronické
 draft: false
 date: 2022-06-24
 description: Pokud jste někdy stáli před úkolem navrhnout elektronické zařízení napájené z baterií, tak víte, že jedním z nejdůležitějších rozhodnutí je výběr správného typu baterie pro daný projekt. Bohužel neexistuje žádné univerzální řešení.
-image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1655906515/blog/2022-06-22-battery-chemistry/preview.png
+image_preview: https://res.cloudinary.com/lukasfabik/image/upload/c_crop,h_800,w_800,x_215/v1655906515/blog/2022-06-22-battery-chemistry/preview.png
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1655906514/blog/2022-06-22-battery-chemistry/header.png
 image_meta: https://res.cloudinary.com/lukasfabik/image/upload/v1656059620/blog/2022-06-22-battery-chemistry/meta-cz.png
 author: pavel_hubner

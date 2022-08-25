@@ -5,9 +5,9 @@ meta_description: Today, I would like to share our story about technology from t
 draft: false
 date: 2021-12-22
 description: Today, I would like to share our story about technology from the world of embedded programming. So many people are still unaware of this, and I think it is revolutionary in many aspects - its name is Zephyr.
-image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1645036472/blog/2021-12-22-zephyr-rtos.en/zephyr.png
+image_preview: https://res.cloudinary.com/lukasfabik/image/upload/c_fill,h_900,w_900/v1645036472/blog/2021-12-22-zephyr-rtos.en/zephyr.png
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1581950249/blog/wide_placeholder.jpg
-image_meta: https://res.cloudinary.com/lukasfabik/image/upload/v1645032483/blog/2022-02-16-eman-invest-in-hardwario/eman_small.jpg
+image_meta: https://res.cloudinary.com/lukasfabik/image/upload/c_fill,h_900,w_900/v1645036472/blog/2021-12-22-zephyr-rtos.en/zephyr.png
 author: pavel_hubner
 ---
 

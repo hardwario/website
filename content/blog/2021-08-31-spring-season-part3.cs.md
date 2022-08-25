@@ -5,7 +5,7 @@ meta_description: Třetí a finální shrnutí námi publikovaného obsahu z prv
 draft: false
 date: 2021-08-31
 description: Třetí a finální shrnutí námi publikovaného obsahu z první poloviny tohoto roku.
-image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1576055326/blog/bigclown-renamed-hardwario/hardwario.jpg
+image_preview: https://res.cloudinary.com/lukasfabik/image/upload/c_fill,h_800,w_800/v1576055326/blog/bigclown-renamed-hardwario/hardwario.jpg
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1581950249/blog/wide_placeholder.jpg
 author: lukas_fabik
 ---

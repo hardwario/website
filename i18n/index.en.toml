@@ -1,3 +1,5 @@
+
+
 [build_smart_product]
 other = "We are hardware experts"
 
@@ -164,4 +166,10 @@ other = "No Worries IoT"
 other = "Our platforms"
 
 [partners_projects]
-other = "Projects of our partners"
+other = "Successful projects of our&nbsp;partners"
+
+[meet_platforms]
+other = "Meet our platforms"
+
+[platforms_description]
+other = "They work on batteries for several years, with the ability to connect to the Internet from almost anywhere and can be easily integrated with other systems."

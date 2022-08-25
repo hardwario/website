@@ -1,3 +1,6 @@
+[all_you_need]
+other = "All you need to deploy Internet&#8209;of&#8209;Things"
+
 [build_smart_product]
 other = "Jsme experti na&nbsp;hardware"
 
@@ -164,4 +167,10 @@ other = "IoT bez starostí"
 other = "Naše platformy"
 
 [partners_projects]
-other = "Projekty našich partnerů"
+other = "Úspěšné projekty našich partnerů"
+
+[meet_platforms]
+other = "Představujeme naše platformy"
+
+[platforms_description]
+other = "Pracují na baterie několik let, mají možnost připojení k internetu téměř odkudkoli a lze je snadno integrovat s dalšími systémy."
