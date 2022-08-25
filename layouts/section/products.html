@@ -41,52 +41,51 @@
             <div class = "row justify-content-center px-10">
     
                 {{ with .Site.GetPage "/chester" }}
-                <div class = "col-12 px-30 pl-md-60 mb-20 content-block">
-                    <div class = "row">
-                        <div class = "col-12 col-md-6 pt-40 pt-md-90 pb-30 pb-md-120">
-                            <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO CHESTER</span></div>
-                            <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30">{{ .Params.heading | safeHTML }}</h2>
-                            <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description }}</p>
-                            <a href = "{{ .Permalink }}" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
-                        </div>
-                        <div class = "col-12 col-md-6 pt-30 pr-0 chester-1">
-    
-                        </div>
+            <div class = "col-12 px-30 pl-md-60 mb-20 content-block">
+                <div class = "row">
+                    <div class = "col-12 col-md-6 pt-40 pt-md-90 pb-30 pb-md-120">
+                        <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO CHESTER</span></div>
+                        <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30">{{ .Params.heading | safeHTML }}</h2>
+                        <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description }}</p>
+                        <a href = "{{ .Permalink }}" class="ml-0 mr-20 mt-10 font-20 font-md-16 font-lnh54 font-weight-bold font-font2 font-red cta-button px-40 d-inline-block font-weight-bold border-red">{{ i18n "learn_more" }}</a>
                     </div>
-                </div> 
-                {{ end }}
-                {{ with .Site.GetPage "/kit" }}
-                <div class = "col-12 col-md-6 pl-0 pr-0 pr-md-10">
-                    <div class = "col-12 px-30 mb-20 content-block content-block--gray">
-                    <div class = "row">
-                        <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center">
-                            <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO TOWER</span></div>
-                            <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">{{ .Params.category }}</h2>
-                            <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description | safeHTML }}</p>
-                            <a href = "{{ .Permalink }}" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
-                            <a href = '{{ i18n "buy_on_link" }}' target="_blank" class="pt-20 pt-md-0 ml-0 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "buy_on" | safeHTML }}</a>
-                            <img src = "/_assets/images/products/tower.png" class = "mx-auto mt-20 w-100"/>
-                        </div>
-                    </div>
+                    <div class = "col-12 col-md-6 pt-30 pr-0 chester-1">
+
                     </div>
                 </div>
-                {{ end }}
-                {{ with .Site.GetPage "/cloud" }}
-                <div class = "col-12 col-md-6 pl-0 pl-md-10 pr-0">
-                    <div class = "col-12 px-30 mb-90 content-block content-block--gray">
-                    <div class = "row">
-                        <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center">
-                            <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO CLOUD</span></div>
-                            <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">{{ .Params.category }}</h2>
-                            <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description }}</p>
-                            <a href = "{{ .Permalink }}" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
-                            <br/>
-                            <img src = "/_assets/images/products/cloud.png" class = "mx-auto mt-20 w-100"/>
-                        </div>
-                    </div>
+            </div> 
+            {{ end }}
+            {{ with .Site.GetPage "/kit" }}
+            <div class = "col-12 col-md-6 pl-0 pr-0 pr-md-10">
+                <div class = "col-12 px-30 mb-20 content-block content-block--gray">
+                <div class = "row">
+                    <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center">
+                        <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO TOWER</span></div>
+                        <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">{{ .Params.category }}</h2>
+                        <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description | safeHTML }}</p>
+                        <a href = "{{ .Permalink }}" class="ml-0 mr-20 mt-10 font-20 font-md-16 font-lnh54 font-weight-bold font-font2 font-red cta-button px-40 d-inline-block font-weight-bold border-red">{{ i18n "learn_more" }}</a>
+                        <img src = "/_assets/images/products/tower.png" class = "mx-auto mt-20 w-100"/>
                     </div>
                 </div>
-                {{ end }}
+                </div>
+            </div>
+            {{ end }}
+            {{ with .Site.GetPage "/cloud" }}
+            <div class = "col-12 col-md-6 pl-0 pl-md-10 pr-0">
+                <div class = "col-12 px-30 mb-90 content-block content-block--gray">
+                <div class = "row">
+                    <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center">
+                        <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>HARDWARIO CLOUD</span></div>
+                        <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">{{ .Params.category }}</h2>
+                        <p class = "font-20 font-md-20 pb-10">{{ .Params.short_description }}</p>
+                        <a href = "{{ .Permalink }}" class="ml-0 mr-20 mt-10 font-20 font-md-16 font-lnh54 font-weight-bold font-font2 font-red cta-button px-40 d-inline-block font-weight-bold border-red">{{ i18n "learn_more" }}</a>
+                        <br/>
+                        <img src = "/_assets/images/products/cloud.png" class = "mx-auto mt-20 w-100"/>
+                    </div>
+                </div>
+                </div>
+            </div>
+            {{ end }}
             </div>
         </div>
     </section>
