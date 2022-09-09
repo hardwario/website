@@ -36,8 +36,6 @@ menu:
 
 **Forest Research is the research agency of the Forestry Commission and part of the British Department for Environment, Food and Rural Affairs (Defra).** 
 
-It is Great Britain’s principal organisation for forestry and tree related research and is internationally renowned for the provision of evidence and scientific services in support of sustainable forestry.
-
 It is Great Britain’s principal organisation for forestry and tree-related research. It is internationally renowned for providing evidence and scientific services in support of sustainable forestry.
   
 **Therefore, we were pleased to be approached by Vodafone, our partner, concerning a project focused on monitoring the impact of climate change on tree growth in the UK.**

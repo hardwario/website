@@ -36,8 +36,6 @@ menu:
 
 **Forest Research ist die Forschungseinrichtung der Forestry Commission und Teil des britischen Ministeriums für Umwelt, Ernährung und ländliche Angelegenheiten (Defra).** 
 
-Sie ist Großbritanniens wichtigste Organisation für forstwirtschaftliche und baumspezifische Forschung und ist international bekannt für die Bereitstellung von Fakten und wissenschaftlichen Dienstleistungen zur Unterstützung einer nachhaltigen Forstwirtschaft.
-
 Sie ist Großbritanniens wichtigste Organisation für Forstwirtschaft und baumspezifische Forschung. Sie ist international bekannt für die Bereitstellung von Fakten und wissenschaftlichen Dienstleistungen zur Unterstützung einer nachhaltigen Forstwirtschaft.
   
 **Wir haben uns daher gefreut, dass unser Partner Vodafone sich an uns gewandt hat, um ein Projekt zur Überwachung der Auswirkungen des Klimawandels auf das Baumwachstum in Großbritannien durchzuführen.**
