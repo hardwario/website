@@ -29,7 +29,7 @@ other = "Das gesamte Kit ist Open-Source und unterstützt die Integration mit g�
 other = "Akademie, Projekte, Dokumentation"
 
 [academy_projects_docs_desc]
-other = "Vielen Dank <a href = '/academy/what-is-bigclown-playground/'>Playground</a>, <a href = '/academy/'>academy</a> and <a href = '/projects/'>example projects</a>, es ist einfach, mit dem Bausatz zu beginnen. Sie können das Gerät ganz einfach einrichten, es mit einem Computer koppeln und dank der visuellen Programmierung festlegen, wie es funktionieren soll. Sie können fortgeschrittenes Verhalten und Integration mit <a href = 'https://tower.hardwario.com' target = '_blank'>Dokumentation</a> und <a href = 'https://sdk.hardwario.com' target = '_blank'>SDK-Bibliothek</a> lösen."
+other = "Vielen Dank <a href = '/education/tutorials/what-is-bigclown-playground/'>Playground</a>, <a href = '/education/tutorials/'>academy</a> and <a href = '/education/projects/'>example projects</a>, es ist einfach, mit dem Bausatz zu beginnen. Sie können das Gerät ganz einfach einrichten, es mit einem Computer koppeln und dank der visuellen Programmierung festlegen, wie es funktionieren soll. Sie können fortgeschrittenes Verhalten und Integration mit <a href = 'https://tower.hardwario.com' target = '_blank'>Dokumentation</a> und <a href = 'https://sdk.hardwario.com' target = '_blank'>SDK-Bibliothek</a> lösen."
 
 [get_kit]
 other = "Industrie-Kit kaufen"
