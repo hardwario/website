@@ -1,0 +1,276 @@
+{{ define "main" }}
+
+<style>
+  .banner{
+      background-image: url(/upload/webinar-blockchain-banner.png); 
+      background-size:cover;
+      text-align: center;
+      border-radius: 7px; 
+  }
+  .tag{
+      background-color:#666666;
+      padding: 3px 5px;
+      font-weight: 900;
+  }
+  .banner:hover{
+    text-decoration: none;
+  }
+  .banner:hover{
+  }
+</style>
+
+<section>
+  <div class = "container">
+      <div class = "row pb-60 px-10 px-md-0">
+          <div class = "col-12 py-30 py-md-60 px-60 shadow banner">
+              <div class = "row justify-content-center text-white">
+                  <div clas = "col-12 text-center">
+                      <h1 class = "font-weight-black font-white font-42 font-md-64">{{ .Params.heading | safeHTML }}</strong></h1>
+                  </div>
+              </div>
+              
+            </div>
+      </div>
+  </div>
+</section>
+
+<section>
+  <div class="bg bg--gray">
+    <div class="container">
+      <div class="row pb-60">
+        <div class="col-12">
+          <div class="row pb-10">
+            <div class="col-12 col-md-10 mx-auto text-center pt-30 pt-md-0">
+                <p class="text-center font-20 font-lnh24 pt-10"><a href = "#invest">Jak investovat</a> - <a href = "#documents">Dokumenty</a> - <a href = "#press">Tiskové zprávy</a> - <a href = "#contact">Kontakty</a></p>
+              </div>
+          </div>
+          
+          
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class = "container pb-60">
+    <div class = "row align-items-center pb-30">
+      <div class = "col-12 col-md-6 pb-20 pb-md-0">
+        <img src = "/_assets/images/alan-pavel.jpg" class = "w-100" />
+      </div>
+      <div class = "col-12 col-md-6">
+        <p class ="font-16 font-md-18 pb-10">HARDWARIO je česká technologická společnost, která se zaměřuje na oblast internetu věcí. Svým partnerům dodává vše potřebné pro úspěšné IoT projekty – konfigurovatelná zařízení, konektivitu, cloudové služby a otevřené vývojové nástroje pro vývoj vlastních aplikací. Hlavními vlastníky jsou spoluzakladatelé Alan Fabik a Pavel Hübner.</p>
+        <p class ="font-16 font-md-18 pb-10">Na podzim 2022 se společnost chystá vstoupit na trh START pražské burzy cenných papírů s ambicí získat od investorů desítky milionů korun na další rozvoj. Během 14denního upisovacího období, které začně 4. října, <strong>nabídne celkem 2 870 000 kusů nových akcií</strong>.</p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class = "container">
+    <div class = "row">
+      <div class = "col-12 text-center">
+        <h2 class="font-weight-black font-36 font-md-48 font-md-lnh56">Do zahájení úpisu akcií zbývá</h2>
+        <ul class="countdown">
+          <li> <span class="days">00</span>
+          <p class="days_ref">dny</p>
+          </li>
+          <li class="seperator">&nbsp;</li>
+          <li> <span class="hours">00</span>
+          <p class="hours_ref">hodin</p>
+          </li>
+          <li class="seperator">:</li>
+          <li> <span class="minutes">00</span>
+          <p class="minutes_ref">minut</p>
+          </li>
+          <li class="seperator">:</li>
+          <li> <span class="seconds">00</span>
+          <p class="seconds_ref">vteřin</p>
+          </li>
+          </ul>
+          
+      </div>
+    </div>
+  </div>
+</section>
+
+<style type="text/css">
+  ul.countdown {
+  list-style: none;
+  margin: 35px 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+  }
+  ul.countdown li {
+  display: inline-block;
+  }
+  ul.countdown li span {
+  font-size: 80px;
+  font-weight: 300;
+  line-height: 80px;
+  }
+  ul.countdown li.seperator {
+  font-size: 80px;
+  line-height: 70px;
+  vertical-align: top;
+  }
+  ul.countdown li p {
+  color: #a7abb1;
+  font-size: 14px;
+  }
+  </style>
+
+<script type="text/javascript" src="/_assets/js/jquery.downCount.js"></script>
+
+<script class="source" type="text/javascript">
+  $('.countdown').downCount({
+      date: '10/04/2022 10:00:00',
+      offset: +10
+  }, function () {
+  });
+</script> 
+
+<section>
+  <div class = "bg bg-darkGray py-60" id = "about">
+    <div class = "container">
+      <div class = "row font-white">
+        <div class = "col-12">
+          <h2 class="font-weight-black font-36 font-md-48 font-md-lnh56 pb-20">Parametry emise</h2>
+        </div>
+        <div class = "col-12 col-md-7 pr-md-60 pb-60 pb-md-0">
+          <ul class = "font-20">
+          <li class = "pb-10">Primární úpis akcií proběhne od 4. října od 10 hodin do 18. října.</li>
+          <li class = "pb-10">Vydáno bude celkem 2 870 000 kusů nových akcií.</li>
+          <li class = "pb-10">Cenové rozpětí objednávek bylo stanoveno od 17 Kč až do 25 Kč za jednu akcii.</li>
+          <li class = "pb-10">Minimální velikost objednávky (LOT) činí 1.000 ks akcií, tedy 17 až 25 tisíc korun.</li>
+          <li class = "pb-10">Očekávaná valuace společnosti je 234 milionů Kč.</li>
+          <li class = "pb-10">Všechny získané peníze budou využity pro rozvoj společnosti - 40 % na globální expanzi, 40 % na navýšení skladu a 20 % na rozšíření týmu.</li>
+        </ul>
+        </div>
+        <div class = "col-12 col-md-5 pl-md-60">
+          <table class = "company-info">
+            <tr><td>Název společnosti</td><td>HARDWARIO a.s.</td></tr>
+            <tr><td>Sídlo</td><td>U Jezu 525/4</br>460 01 Liberec</br>Česká republika</td></tr>
+            <tr><td>IČO</td><td>04998511</td></tr>
+            <tr><td>ISIN</td><td>CZ0005138529</td></tr>
+            <tr><td>TICKER</td><td>HWIO.PR</td></tr>
+            <tr><td>LEI</td><td>315700SJDI4EU8DXF768</td></tr>
+            <tr><td>Auditor společnosti</td><td>V4 Audit, s.r.o</td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+  .company-info tr td{
+    padding: 5px 30px 5px 0;
+    vertical-align: top;
+    border-bottom: solid 0.5px black;
+  }
+</style>
+
+{{ partial "howtoinvest.html" }}
+
+{{ partial "investor-documents" }}
+
+<section>
+  <div class="">
+      <div class="container pt-30" id = "documents">
+          <div class="row justify-content-center">
+              <div class="text-center col-12">
+                  <h2 class="pb-30 font-weight-black font-36 font-md-48 font-md-lnh56">Videa k emisi</h2>
+              </div>
+              <div class="col-12 col-md-6 pb-30">
+                <div class = "video-container">
+                  <iframe src="https://www.youtube-nocookie.com/embed/jwH9qfdJDlw?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+
+          </div>
+      </div>
+  </div>
+</section>
+
+<style>
+  .video-container{
+    display: block;
+    margin:0;
+    width:auto;
+    margin-top: 0;
+    border-radius: 7px;
+    max-width: 100%;
+    height: 350px;
+    overflow: hidden;
+
+  }
+  .video-container iframe{
+      position: relative;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+  }
+</style>
+<div class = "bg-gray pt-70 pb-60 px-15" id = "press">
+<section>
+  
+  <div class = "container">
+    <div class = "row">
+      <div class="text-center col-12">
+        <h2 class="pb-10 font-weight-black font-36 font-md-48 font-md-lnh56">Tiskové zprávy a novinky</h2>
+        <!--<p class="font-18 font-lnh24"></p>-->
+    </div>
+    </div>
+    <div class="articles articles--2 pt-20">
+
+        {{ $press := ($.Site.GetPage "section" "press").Pages }}
+        <div class="row d-flex align-content-stretch">
+        {{ range first 6 $press.ByPublishDate.Reverse }}
+            {{ .Render "grid-half" }}
+        {{ end }}
+        </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section>
+  <div class = "container" id = "contact">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mt-30 mb-10">
+        <div class = "row align-items-center">
+          <div class = "col-12 col-md-4 px-50">
+              <img loading="lazy" src="/_assets/images/{{ .Params.photo }}" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
+          </div>
+          <div class = "col-12 col-md-8 pt-30 pt-md-0 text-center text-md-left font-white">
+          <h3 class = "font-32 font-weight-bold pb-10">Kontakt pro investory</h3>
+          <p class = "font-16 pb-5">{{ .Params.name }}</p>
+          <p class = "font-16 pb-5">{{ .Params.post }}</p>
+          <p class = "font-16 pb-5"><a class = "font-white" href = "tel:{{ .Params.tel }}">{{ .Params.tel }}</a></p>
+          <p class = "font-16 pb-5"><a class = "font-white" href = "mailto:{{ .Params.email }}">{{ .Params.email }}</a></p>
+          </div>
+      </div>
+  </div>
+  </div>
+  </div>
+</section>
+</div>
+
+<footer>
+{{ end }}
+
+{{ define "additional-scripts" }}
+<script type="text/javascript">
+  $('.openDocument').click(function(){
+    if (window.confirm("Níže uvedený informativní dokument je určen výhradně pro akcionáře společnosti jako podklad pro účely rozhodnutí o zvýšení základního kapitálu společnosti. Není určen veřejnosti.\nTento dokument v žádném ohledu neznamená nabídku nebo výzvu k prodeji nebo nákupu cenných papírů. Údaje zde obsažené mají čistě informativní charakter a jsou určeny výlučně stávajícím akcionářům a výlučně pro účely pozvánky na valnou hromadu společnosti, která bude rozhodovat o zvýšení základního kapitálu společnosti.\nPřípadná veřejná nabídka akcií bude v České republice zahájena až po schválení prospektu ze strany ČNB (očekává se do 4.10.2022) a jeho uveřejnění v souladu s Nařízením Evropského parlamentu a Rady (EU) 2017/1129 o prospektu, který má být uveřejněn při veřejné nabídce nebo přijetí cenných papírů k obchodování na regulovaném trhu. Pokud se veřejná nabídka uskuteční, bude schválený prospekt před zahájením nabídky k dispozici na webových stránkách Společnosti.")) {
+      window.open("/files/informativni-podklad-pro-akcionare-spolecnosti-HARDWARIO.pdf", "");
+    }
+  });
+
+</script>
+{{ end }}

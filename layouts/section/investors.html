@@ -1,9 +1,12 @@
 {{ define "main" }}
 
+
+
+
 <section>
   <div class="bg bg--gray">
     <div class="container">
-      <div class="row pb-60">
+      <div class="row pb-30">
         <div class="col-12">
           <div class="row pb-10">
             <div class="col-12 col-md-10 mx-auto text-center pt-30 pt-md-0">
@@ -21,6 +24,42 @@
   </div>
 </section>
 
+<style>
+  .banner{
+      background-image: url(/upload/webinar-blockchain-banner.png); 
+      background-size:cover;
+      text-align: center;
+      border-radius: 7px; 
+  }
+  .tag{
+      background-color:#666666;
+      padding: 3px 5px;
+      font-weight: 900;
+  }
+  .banner:hover{
+    text-decoration: none;
+  }
+  .banner:hover{
+  }
+</style>
+
+<section>
+  <div class = "container">
+      <div class = "row pb-30 px-10 px-md-0">
+          <a href = "/cs/ipo/" class = "col-12 py-30 py-md-60 px-30 shadow banner">
+              <div class = "row justify-content-center text-white">
+                  <div clas = "col-12 text-center">
+                      <p class = "fond-14 font-md-18 pb-15"><span class = "tag mr-10">{{ i18n "banner_1" }}</span> {{ i18n "banner_2" }}</p>
+                      <h2 class = "font-weight-black font-white font-24 font-md-36 font-md-lnh36 pb-25">{{ i18n "banner_3" | safeHTML }}</strong></h2>
+                      <span class="d-md-inline-block cta-button font-lnh54 px-40 px-md-70 font-weight-bold font-font2 font-white bg-darkGray">{{ i18n "tell_me_more" }}</span>
+                  </div>
+              </div>
+              
+          </a>
+      </div>
+  </div>
+</section>
+
 <section>
   <div class = "bg bg-darkGray py-60" id = "about">
     <div class = "container">
@@ -29,8 +68,9 @@
           <h2 class="font-weight-black font-36 font-md-48 font-md-lnh56 pb-20">HARDWARIO</h2>
         </div>
         <div class = "col-12 col-md-6 pr-md-60 pb-60 pb-md-0">
-          <p class = "pb-10">HARDWARIO je ryze česká technologická společnost, která se zaměřuje na oblast IoT – internetu věcí. Její chytrá zařízení fungují na bezdrátové technologii, na bateriový provoz zvládnou fungovat několik let, připojí se k internetu téměř odkudkoliv a snadno se integrují s dalšími systémy. Hlavními vlastníky jsou spoluzakladatelé Alan Fabik a Pavel Hübner.</p>
+          <p class = "pb-10">HARDWARIO je česká technologická společnost, která se zaměřuje na oblast internetu věcí. Svým partnerům dodává vše potřebné pro úspěšné IoT projekty – konfigurovatelná zařízení, konektivitu, cloudové služby a otevřené vývojové nástroje pro vývoj vlastních aplikací. Hlavními vlastníky jsou spoluzakladatelé Alan Fabik a Pavel Hübner.</p>
           <p>Své výrobky a služby nabízí prostřednictvím celosvětové sítě partnerů, kterým poskytuje technickou a obchodní podporu, včetně otevřené sady vývojových nástrojů umožňující vytváření vlastních aplikací. Svůj obchodní rozvoj společnost v minulosti významně podpořila založením poboček ve Velké Británii, Polsku a USA.</p>
+          <a href = "/cs/o-nas/" class="ml-0 mr-20 mt-10 font-20 font-md-16 font-lnh54 font-weight-bold font-font2 font-red cta-button px-40 d-inline-block font-weight-bold border-red">Více o společnosti</a>
         </div>
         <div class = "col-12 col-md-6 pl-md-60">
           <table class = "company-info">
@@ -54,69 +94,7 @@
   }
 </style>
 
-<section>
-  <div class="">
-      <div class="container pt-90" id = "documents">
-          <div class="row justify-content-center">
-              <div class="text-center col-12">
-                  <h2 class="pb-10 font-weight-black font-36 font-md-48 font-md-lnh56">Dokumenty</h2>
-              </div>
-              <div class="col-12 col-md-9">
-                  <div class="collapsor pt-0">
-                    <div class="collapsor__item">
-                      <h2 class="collapsor__header">Výroční zprávy a finanční výkazy</h2>
-                      <div class="collapsor__body">
-                          <ul>
-                            <li><a href = "/files/financni-vykazy-audit-HARDWARIO-2021.pdf" target="_blank">Auditované finanční výkazy za rok 2021 (PDF)</a></li>
-                            <li><a href = "/files/financni-vykazy-audit-HARDWARIO-2020.pdf" target="_blank">Auditované finanční výkazy za rok 2020 (PDF)</a></li>
-                          </ul>
-                      </div>
-                    </div>
-                    <!--<div class="collapsor__item">
-                      <h2 class="collapsor__header">Prospekt společnosti</h2>
-                      <div class="collapsor__body">
-                          
-                      </div>
-                    </div>-->
-                    <div class="collapsor__item">
-                      <h2 class="collapsor__header">Analytické zprávy</h2>
-                      <div class="collapsor__body">
-                        <p>Analytická zpráva bude zveřejněna po vydání prospektu.</p>
-                          <!--<ul>
-                            <li><a href = "#">Analytická zpráva 2021 (zveřejněno 31.5.2022)</a></li>
-                          </ul>-->
-                      </div>
-                    </div>
-                    <div class="collapsor__item">
-                      <h2 class="collapsor__header">Stanovy společnosti</h2>
-                      <div class="collapsor__body">
-                          <ul>
-                            <li><a href = "/files/HARDWARIO_Stanovy-220923.pdf" target="_blank">Stanovy společnosti HARDWARIO a.s. (PDF)</a></li>
-                          </ul>
-                      </div>
-                    </div>
-                  
-                    <div class="collapsor__item">
-                      <h2 class="collapsor__header">Valné hromady a další povinně zveřejněné informace</h2>
-                      <div class="collapsor__body">
-                          <ul>
-                            <li><a href = "/files/pozvanka-na-VH_HARDWARIO_20220930.pdf" target="_blank">Pozvánka na valnou hromadu 30.9.2022 (PDF)</a></li>
-                          </ul>
-                          <p class = "pb-10">Níže uvedený informativní dokument je určen výhradně pro akcionáře společnosti jako podklad pro účely rozhodnutí o zvýšení základního kapitálu společnosti. Není určen veřejnosti.</p>
-                          <p class = "pb-10">Tento dokument v žádném ohledu neznamená nabídku nebo výzvu k prodeji nebo nákupu cenných papírů. Údaje zde obsažené mají čistě informativní charakter a jsou určeny výlučně stávajícím akcionářům a výlučně pro účely pozvánky na valnou hromadu společnosti, která bude rozhodovat o zvýšení základního kapitálu společnosti.</p>
-                          <p class = "pb-10">Případná veřejná nabídka akcií bude v České republice zahájena až po schválení prospektu ze strany ČNB (očekává se do 4.10.2022) a jeho uveřejnění v souladu s Nařízením Evropského parlamentu a Rady (EU) 2017/1129 o prospektu, který má být uveřejněn při veřejné nabídce nebo přijetí cenných papírů k obchodování na regulovaném trhu. Pokud se veřejná nabídka uskuteční, bude schválený prospekt před zahájením nabídky k dispozici na webových stránkách Společnosti.</p>
-                          <ul>
-                            <li><a href = "#" class = "openDocument">Informativní podklad pro akcionáře společnosti HARDWARIO (PDF)</a></li>
-                          </ul>
-                      </div>
-                    </div>
-
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-</section>
+{{ partial "investor-documents" }}
 
 <div class = "bg-gray pt-70 pb-60 px-15" id = "press">
 <section>
@@ -131,11 +109,11 @@
     <div class="articles articles--2 pt-20">
 
         {{ $press := ($.Site.GetPage "section" "press").Pages }}
-        {{ range first 6 $press.ByPublishDate.Reverse }}
         <div class="row d-flex align-content-stretch">
+        {{ range first 6 $press.ByPublishDate.Reverse }}
             {{ .Render "grid-half" }}
-        </div>
         {{ end }}
+        </div>
 
     </div>
   </div>
