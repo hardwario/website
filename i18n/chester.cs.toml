@@ -64,7 +64,7 @@ other = "Digitální výstupy"
 [analog_inputs]
 other = "Analogové vstupy"
 
-[komunikace]
+[communication]
 other = "Komunikace"
 
 [dry_contacts]
