@@ -1,8 +1,13 @@
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
-media_folder: static/img
-public_folder: /img
+media_folder: static/upload
+public_folder: /upload
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: lukasfabik
+    api_key: 818759917278117
 collections:
   - name: 'blog'
     label: 'Blog'
@@ -13,6 +18,12 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Meta title', name: 'meta_title', widget: 'string' }
+      - { label: 'Meta description', name: 'meta_description', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: false }
+      - { label: 'Preview image', name: 'image_preview', widget: 'image', required: false, tagname: '' }
+      - { label: 'Preview main', name: 'image_main', widget: 'image', required: false, tagname: '' }
+      - { label: 'Preview meta', name: 'image_meta', widget: 'image', required: false, tagname: '' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
