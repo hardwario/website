@@ -56,7 +56,7 @@ A to je vše, co k programování v Node-RED potřebuješ vědět. Být program�
         {{< img-nm src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566159446/academy/what-is-node-red/image2.png" alt = "Notify Blynk node - Node-RED" >}}
     </div>
     <div class = "col-md-8">
-        <p>Node <strong>Notify</strong> má jasnou misi – odeslat notifikaci do mobilu. Ta se ti zobrazí v aplikaci [Blynk]({{< ref "/education/tutorials/how-to-connect-blynk.cs.md" >}}).</p>
+        <p>Node <strong>Notify</strong> má jasnou misi – odeslat notifikaci do mobilu. Ta se ti zobrazí v aplikaci [Blynk]({{< ref "/education/tutorials/how-to-connect-blynk-iot.cs.md" >}}).</p>
     </div>
 </div>
 

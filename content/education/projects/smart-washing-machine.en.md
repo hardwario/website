@@ -76,7 +76,7 @@ Confirm it with the **Done** button.
 
 ## Set up your mobile
 
-1. It’s time to steal your mom’s or dad’s mobile and set up their own Blynk. If you don’t know how to do it yet, [**check out the instructions**]({{< ref "/education/tutorials/how-to-connect-blynk.en.md" >}}).
+1. It’s time to steal your mom’s or dad’s mobile and set up their own Blynk. If you don’t know how to do it yet, [**check out the instructions**]({{< ref "/education/tutorials/how-to-connect-blynk-iot.en.md" >}}).
 2. Create a **new project** in Blynk. Now a token has been sent to your email, but don’t do anything with it just yet.
 3. On the Blynk desktop, **place the notification**.
 

@@ -61,7 +61,7 @@ Confirm it with the **Done** button.
 
 ## Get the app started on your mobile
 
-1. The box connects to your smartphone thanks to the **Blynk app**. 📱 [**Find out how to deal with Blynk**]({{< ref "/education/tutorials/how-to-connect-blynk.en.md" >}}).
+1. The box connects to your smartphone thanks to the **Blynk app**. 📱 [**Find out how to deal with Blynk**]({{< ref "/education/tutorials/how-to-connect-blynk-iot.en.md" >}}).
 2. Select **Gauge** (indicator) from the menu. So far, it looks like this:
 
 {{< middle >}}

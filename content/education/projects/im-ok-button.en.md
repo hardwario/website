@@ -69,7 +69,7 @@ Confirm it with the **Done** button and link both nodes by dragging the mouse fr
 
 ## Set up an app on your mobile
 
-1. Borrow a smartphone from your mom or dad and make it yet a bit smarter. 🤓 They must have the [**Blynk app**]({{< ref "/education/tutorials/how-to-connect-blynk.en.md" >}}) on their phone to be able to see your message.
+1. Borrow a smartphone from your mom or dad and make it yet a bit smarter. 🤓 They must have the [**Blynk app**]({{< ref "/education/tutorials/how-to-connect-blynk-iot.en.md" >}}) on their phone to be able to see your message.
 2. Select **Notification** in the new project. The notification will be added to your desktop.
 
 {{< middle >}}

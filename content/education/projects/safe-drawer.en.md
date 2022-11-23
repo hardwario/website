@@ -40,7 +40,7 @@ You only need a **box with a button** and a **Radio dongle**. That's why the bas
 
 ## Rozjeď appku na mobilu
 
-1. **Pokračuj na svém mobilu**. Krabička se propojí se smartphonem díky **appce Blynk**. 📱 [**Zjisti, jak na Blynk**]({{< ref "/education/tutorials/how-to-connect-blynk.en.md" >}}).
+1. **Pokračuj na svém mobilu**. Krabička se propojí se smartphonem díky **appce Blynk**. 📱 [**Zjisti, jak na Blynk**]({{< ref "/education/tutorials/how-to-connect-blynk-iot.en.md" >}}).
 
 2. Z nabídky zvol **Styled button** (vyšperkované tlačítko). 🚨 Tlačítko se ti umístí na plochu projektu.
 

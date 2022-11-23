@@ -61,7 +61,7 @@ And that’s all you need to know to programme in the Node-RED. Being a programm
         {{< img-nm src = "https://res.cloudinary.com/lukasfabik/image/upload/v1566159446/academy/what-is-node-red/image2.png" alt = "Notify Blynk node - Node-RED" >}}
     </div>
     <div class = "col-md-8">
-        <p>Node <strong>Notify</strong> node has a clear mission - to send a notification to a mobile. It will be displayed in the Blynk app. [Blynk]({{< ref "/education/tutorials/how-to-connect-blynk.en.md" >}}).</p>
+        <p>Node <strong>Notify</strong> node has a clear mission - to send a notification to a mobile. It will be displayed in the Blynk app. [Blynk]({{< ref "/education/tutorials/how-to-connect-blynk-iot.en.md" >}}).</p>
     </div>
 </div>
 
