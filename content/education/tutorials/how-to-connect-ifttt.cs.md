@@ -2,25 +2,21 @@
 title: Připojení IFTTT s Node-RED
 draft: false
 date: 2019-10-13T16:42:19.844Z
-weight: 100
-description: >-
-  Díky IFTTT propojíš Playground a různé appky, které používáš. A to už je dost
-  cool. Nauč se, jak na to.
 slug: propoj-ifttt-a-playground
+weight: 100
+description: Díky IFTTT propojíš Playground a různé appky, které používáš. A to
+  už je dost cool. Nauč se, jak na to.
 meta_title: Napoj IFTTT na svůj projekt v Playgroundu
-meta_description: >-
-  Díky IFTTT propojíš Playground a různé appky, které používáš. A to už je dost
-  cool. Nauč se, jak na to.
-image_preview: >-
-  https://res.cloudinary.com/lukasfabik/image/upload/v1570985210/academy/connect-ifttt-with-your-project-with-the-playground/image19.png
-image_main: >-
-  https://res.cloudinary.com/lukasfabik/image/upload/v1570985210/academy/connect-ifttt-with-your-project-with-the-playground/image19.png
+meta_description: Díky IFTTT propojíš Playground a různé appky, které používáš.
+  A to už je dost cool. Nauč se, jak na to.
+image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1570985210/academy/connect-ifttt-with-your-project-with-the-playground/image19.png
+image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1570985210/academy/connect-ifttt-with-your-project-with-the-playground/image19.png
 ---
 Díky IFTTT propojíš Playground a různé appky, které používáš. A to už je dost cool. Nauč se, jak na to.
 
 ## Co je to IFTTT?
 
-Tahle zkratka znamená _If This, Then That_. Tedy Pokud tohle, tak tamto. IFTTT je totiž online služba, která propojuje **akci a reakci**. Takže když se něco stane, automaticky se provede něco jiného na oplátku. A o všech těhle věcech rozhodneš ty sám, když si je naprogramuješ.
+Tahle zkratka znamená *If This, Then That*. Tedy Pokud tohle, tak tamto. IFTTT je totiž online služba, která propojuje **akci a reakci**. Takže když se něco stane, automaticky se provede něco jiného na oplátku. A o všech těhle věcech rozhodneš ty sám, když si je naprogramuješ.
 
 Jako bonus IFTTT propojuje **programy a appky**. 👌 Nastavíš si třeba zasílání SMS zpráv v určitou denní dobu, připomínání zahvězdičkovaných e-mailů ve své poště, dostaneš upozornění na nové tvíty holky nebo kluka, které tajně obdivuješ, a tak dál. Boží! 🤡
 
@@ -32,13 +28,13 @@ Svoje vlastní IFTTT vytvoříš přes speciální rozhraní [IFTTT.com](https:/
 
 ![IFTTT registrace](https://res.cloudinary.com/lukasfabik/image/upload/v1570985210/academy/connect-ifttt-with-your-project-with-the-playground/image18.png)
 
-2. Naběhne ti stránka s velkým textem _IF THIS THEN THAT_. **Klikni na to THIS**.
+2. Naběhne ti stránka s velkým textem *IF THIS THEN THAT*. **Klikni na to THIS**.
 
 ![IFTTT a playground](https://res.cloudinary.com/lukasfabik/image/upload/v1570985207/academy/connect-ifttt-with-your-project-with-the-playground/image13.png)
 
 3. Vyskočí na tebe spousta možností. Vyber si **WebHooks**. Díky službě Webhooks si vytvoříš svoje vlastní IFTTT projekty, které propojí Playground s různými online appkami.
 
-![WebHooks a IFTTT](https://res.cloudinary.com/lukasfabik/image/upload/v1570985204/academy/connect-ifttt-with-your-project-with-the-playground/image1.png)
+![WebHooky a IFTTT](https://res.cloudinary.com/lukasfabik/image/upload/v1570985204/academy/connect-ifttt-with-your-project-with-the-playground/image1.png)
 
 Postupně musíš odkliknout buttony **Connect a Receive a web request**.
 
@@ -89,7 +85,7 @@ Vidíš Connected? Seš tam! 👍
 
 … a dostaneš se na stránku se spoustou textu. Ale neděs se. 😱
 
-Klikni na políčko **Event** a přepiš ho na název svého eventu, jak jsi ho zadával dřív. V tomhle případě to bude _zmacknute_tlacitko_. Díky tomu se všechno identifikuje a propojí.
+Klikni na políčko **Event** a přepiš ho na název svého eventu, jak jsi ho zadával dřív. V tomhle případě to bude *zmacknute_tlacitko*. Díky tomu se všechno identifikuje a propojí.
 
 ![IFTTT v playgroundu](https://res.cloudinary.com/lukasfabik/image/upload/v1570985209/academy/connect-ifttt-with-your-project-with-the-playground/image17.png)
 
