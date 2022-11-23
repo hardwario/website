@@ -19,7 +19,7 @@
   "homepage": "https://github.com/hardwario/website#readme",
   "devDependencies": {
     "del": "^3.0.0",
-    "gulp-autoprefixer": "^4.0.0",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^3.9.2",
     "gulp-hash": "^4.1.1",
     "gulp-sass": "^5.0.0",
