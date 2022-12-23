@@ -1,5 +1,5 @@
 ---
-title: Společnosti ADASTRA a HARDWARIO uzavřeli strategické partnerství v&nbsp;oblasti digitalizace retailu. 
+title: Společnosti ADASTRA a HARDWARIO uzavřeli strategické partnerství v&nbsp;oblasti digitalizace retailu
 meta_title: Společnosti ADASTRA a HARDWARIO uzavřeli strategické partnerství v oblasti digitalizace retailu. V následujícím období se chtějí výrazně prosadit se svými integrovanými IoT produkty u významných světových značek a řetězců
 meta_description: Společnosti ADASTRA a HARDWARIO se po úspěšných společných pilotních projektech internetu věcí v oblasti retailu dohodly na pokračování strategické spolupráce. Součástí dohody je nové vymezení rolí obou subjektů, kdy HARDWARIO vystoupilo z dceřinné společnosti ADASTRA Lab, ve které bude skupina Adastra nadále rozvíjet ucelená IoT řešení pro retail a navazující oblasti dodavatelského řetězce. HARDWARIO zůstává pro ADASTRA Lab klíčovým dodavatelem IoT komponent . Obě společnosti se dohodly na úzké spolupráci s cílem dodávat na globální trh špičková a škálovatelná řešení zejména v oblasti chytrých regálů a vah. 
 draft: false
