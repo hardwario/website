@@ -120,7 +120,7 @@
           <div class="row d-flex align-content-stretch">
                 {{ range first 4 $press }}
                 {{ if ne .File $current }}
-                  {{ .Render "grid-small-row" }}
+                  {{ .Render "grid-half" }}
                   {{ end }}
                 {{ end }}
 
