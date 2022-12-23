@@ -52,7 +52,7 @@
                 <img src="/_assets/images/pdf_file.svg" alt="{{ .Title }}" height = "50" />
               </div>
               <div class = "col-10">
-                <strong><span>{{ .Title }}</span></strong><br/>
+                <strong><span>{{ .Title | safeHTML }}</span></strong><br/>
                 Tisková zpráva v PDF
               </div>
             </a>
@@ -64,7 +64,7 @@
                 <img src="/_assets/images/docx_file.svg" alt="{{ .Title }}" height = "50" />
               </div>
               <div class = "col-10">
-                <strong><span>{{ .Title }}</span></strong><br/>
+                <strong><span>{{ .Title | safeHTML }}</span></strong><br/>
                 Tisková zpráva v DOCX
               </div>
             </a>
