@@ -6,7 +6,7 @@
     </div>
 
     <div class="articles__content articles__content--2">
-      <h3 class="articles__title articles__title--2">{{ .Title }}</h3>
+      <h3 class="articles__title articles__title--2">{{ .Title | safeHTML }}</h3>
       <p class="articles__text articles__text--2">{{ .Params.description }}</p>
     </div>
   </a>
