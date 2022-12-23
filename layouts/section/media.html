@@ -49,27 +49,27 @@
 </section>
 
 <div class = "bg-gray pt-70 pb-60 px-15" id = "press">
-<section>
+  <section>
   
-  <div class = "container">
-    <div class = "row">
-      <div class="text-center col-12">
-        <h2 class="pb-10 font-weight-black font-36 font-md-48 font-md-lnh56">Tiskové zprávy a&nbsp;novinky</h2>
-        <!--<p class="font-18 font-lnh24"></p>-->
+    <div class = "container">
+      <div class = "row">
+        <div class="text-center col-12">
+          <h2 class="pb-10 font-weight-black font-36 font-md-48 font-md-lnh56">Tiskové zprávy a&nbsp;novinky</h2>
+          <!--<p class="font-18 font-lnh24"></p>-->
+      </div>
+      </div>
+      <div class="articles articles--2 pt-20">
+  
+          {{ $press := ($.Site.GetPage "section" "press").Pages }}
+          <div class="row d-flex align-content-stretch">
+          {{ range first 6 $press.ByPublishDate.Reverse }}
+              {{ .Render "grid-half" }}
+          {{ end }}
+          </div>
+  
+      </div>
     </div>
-    </div>
-    <div class="articles articles--2 pt-20">
-
-        {{ $press := ($.Site.GetPage "section" "press").Pages }}
-        {{ range first 6 $press.ByPublishDate.Reverse }}
-        <div class="row d-flex align-content-stretch">
-            {{ .Render "grid-half" }}
-        </div>
-        {{ end }}
-
-    </div>
-  </div>
-</section>
+  </section>
 
 
 <section>

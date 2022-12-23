@@ -1,5 +1,5 @@
 ---
-title: V rámci primární nabídky akcií na trhu START pražské burzy byla zveřejněna kniha objednávek liberecké společnosti HARDWARIO
+title: V rámci primární nabídky akcií na trhu START pražské burzy byla zveřejněna kniha objednávek společnosti HARDWARIO
 meta_title: V rámci primární nabídky akcií na trhu START pražské burzy byla zveřejněna kniha objednávek liberecké společnosti HARDWARIO
 meta_description: Česká firma HARDWARIO, která se zaměřuje na obor budoucnosti – internet věcí (IoT), dnes zveřejnila knihu objednávek na trhu START k veřejné nabídce akcií (IPO). V polovině úpisu již společnost prodala celkem 1.580.000 nabízených akcií.
 draft: false

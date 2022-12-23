@@ -1,5 +1,5 @@
 ---
-title: Společnost HARDWARIO úspěšně ukončila své IPO na trhu START pražské burzy, získaný kapitál investuje do své globální expanze
+title: Společnost HARDWARIO úspěšně ukončila své IPO na trhu START pražské burzy, získaný kapitál investuje do expanze
 meta_title: Společnost HARDWARIO úspěšně ukončila své IPO na trhu START pražské burzy, získaný kapitál investuje do své globální expanze
 meta_description: Veřejná nabídka akcií (IPO) liberecké společnosti HARDWARIO na trhu START pražské burzy cenných papírů skončila úspěšným upsáním 100 % nabízených akcií. Nový kapitál v hodnotě přesahující 48 mil. Kč společnost investuje zejména do budování celosvětové sítě partnerů.
 draft: false
