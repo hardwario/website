@@ -5,8 +5,8 @@ meta_description: Společnosti ADASTRA a HARDWARIO se po úspěšných společn�
 draft: false
 date: 2022-12-23
 description: Společnosti ADASTRA a HARDWARIO se po úspěšných společných pilotních projektech internetu věcí v oblasti retailu dohodly na pokračování strategické spolupráce. Součástí dohody je nové vymezení rolí obou subjektů, kdy HARDWARIO vystoupilo z dceřinné společnosti ADASTRA Lab, ve které bude skupina Adastra nadále rozvíjet ucelená IoT řešení pro retail a navazující oblasti dodavatelského řetězce. HARDWARIO zůstává pro ADASTRA Lab klíčovým dodavatelem IoT komponent . Obě společnosti se dohodly na úzké spolupráci s cílem dodávat na globální trh špičková a škálovatelná řešení zejména v oblasti chytrých regálů a vah. 
-docx: https://docs.google.com/document/d/1GQmnsKMuGtpaxucfuIzQR0uD8g13Lk8N/edit?usp=sharing&ouid=100979526148034723712&rtpof=true&sd=true
-pdf: https://drive.google.com/file/d/1ug14f8in5QF4ZQU7yuFz9OTk-vgetiDz/view?usp=sharing
+docx: https://docs.google.com/document/d/1NI2Db3jqUAYPon0TYMRo6mHYn1ysp51o/edit?usp=share_link&ouid=100979526148034723712&rtpof=true&sd=true
+pdf: https://drive.google.com/file/d/1eU2C2sz2AxpEvm9Yv2h2jmmRBTHnzvgz/view?usp=share_link
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1671814804/press/2022-12-23-adastra-partnership-preview.png
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1581950249/blog/wide_placeholder.jpg
 image_meta: https://res.cloudinary.com/lukasfabik/image/upload/v1671814179/press/2022-12-23-adastra-partnership.png
