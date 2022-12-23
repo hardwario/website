@@ -2,7 +2,7 @@
 title: Pro investory
 url: /cs/investori
 menu: ["about"]
-weight: 110
+weight: 95
 heading: Pro investory
 description: Investoři se nemalou měrou podílí na úspěšném příběhu HARDWARIO. Na této stránce najdete důležité informace, odkazy na zveřejněné dokumenty a&nbsp;novinky.
 meta_title: Informace pro investory HARDWARIO
