@@ -42,12 +42,12 @@ Součástí sady jsou 4 moduly, 2 AAA baterie, krabička z 3D tisku a upevňovac
 3. Vložte váš USB Radio Dongle do počítače. Objeví se vám v Playgroundu v roletce **Radio Dongle** nahoře.
 4. Klikněte na **Connect**, tím se vám automaticky spustí radiová síť. 
 
-## Připojte vaši Sadu Start
+## Připojte vaši sadu Start
 
 1. V seznamu devices v Playgroundu možná vidíte jedno zařízení Push Button. Smažte jej tlačítkem **Delete**, vyzkoušíme si jej připojit.
 2. Klikněte v Playground na tlačítko **Start pairing**.
 3. Vložte baterie zpět do sady Start. Tím automaticky **Core Module** vyšle signál a propojí se s vaším **Radio Donglem**.
-5. Pokud vše dopadlo dobře, uvidíte mezi zařízeními **Push Button**.
+4. Pokud vše dopadlo dobře, uvidíte mezi zařízeními **Push Button**.
 
 ## Sestavte sadu
 
