@@ -54,18 +54,17 @@ Zkontrolujte si, že máte vše potřebné pro tento projekt:
 
 P﻿okud již máte **Radio Dongle** z jiné sady, můžete tento krok přeskočit. 
 
-1. Otevřete na vašem počítači aplikaci HARDWARIO Plaground. Pokud ji ještě nemáte, vraťte se [zpět na úvodní stranu](/cs/start-tower/).
+1. Otevřete na vašem počítači aplikaci HARDWARIO Plaground. Pokud ji ještě nemáte, otevřete  si [tento](/cs/education/tutorials/co-je-to-bigclown-playground/) návod a postupujte podle něho. 
 2. V Playgroundu otevřete záložku **Devices**.
 3. Vložte váš USB Radio Dongle do počítače. Objeví se vám v Playgroundu v roletce **Radio Dongle** nahoře.
 4. Klikněte na **Connect**, tím se vám automaticky spustí radiová síť. 
 
 ## Připojte vaši Sadu Start
 
-1. V seznamu devices v Playgroundu možná vidíte jedno zařízení Push Button. Smažte jej tlačítkem **Delete**, vyzkoušíme si jej připojit.
-2. **Vyndejte** z vaší sady Start **baterie**.
-3. Klikněte v Playground na tlačítko **Start pairing**.
-4. Vložte baterie zpět do sady Start. Tím automaticky **Core Module** vyšle signál a propojí se s vaším **Radio Donglem**.
-5. Pokud vše dopadlo dobře, uvidíte mezi zařízeními **Push Button**.
+1. Pokud máte jen sadu Control a v seznamu devices (v Playgroundu) vidíte jedno zařízení Push Button, tak ho můžete smazat. Pokud máte i jinou sadu a chcete pracovat i s touto, nic nemažte.
+2. Klikněte v Playground na tlačítko **Start pairing**.
+4. Vezměte do ruky konektor pro sadu Control a zapojte jej do krabičky. Pote zapojte napájecí adaptér do zásuvky.  
+5. Po úspěšném spárování, byste měli mezi zařízeními vidět zařízení s názvem **Power Control**.
 
 ## Otestujte si komunikaci
 
