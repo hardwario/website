@@ -35,18 +35,9 @@ Základní funkcí tohoto balíčku je tlačítko. Ale protože je náš Core Mo
 Součástí sady jsou 4 moduly, 2 AAA baterie, krabička z 3D tisku a upevňovací gumičky. Zkontrolujte si, že máte vše potřebné:
 {{< modules >}}
 
-## Sestavte sadu
-
-1. Nasaďte černý **Button Module** na červený **Core Module**. Pro dodržení správné orientace je jeden pin na modulech vždy vynechán a jedna díra na konektoru zaslepená. Buďte při nasazování opatrní, ať se piny nezlomí. Ohnuté piny však můžete snadno narovnat.
-2. Do žlutého **Battery Modulu** vložte **baterie** a nasaďte ho na druhou stranu červeného Core Module.
-3. Celou sestavu vložte do **krabičky vytištěné na 3D tiskárně** a zajistěte **gumičkami**.
-4. Nakonec složte **USB Radio Dongle**. Destičku vložte do černé krabičky s logem HARDWARIO.
-
-![Sada HARDWARIO TOWER - sestavení](/_assets/images/starter-kit/skladacka.gif)
-
 ## Spusťte vlastní radiovou síť
 
-1. Otevřete na vašem počítači aplikaci HARDWARIO Plaground. Pokud ji ještě nemáte, otevřete si a postupujte podle [tohoto](/cs/education/tutorials/co-je-to-bigclown-playground/) návodu. 
+1. Otevřete na vašem počítači aplikaci HARDWARIO Plaground. Pokud ji ještě nemáte, otevřete  si [tento](/cs/education/tutorials/co-je-to-bigclown-playground/) návod a postupujte podle něho. 
 2. V Playgroundu otevřete záložku **Devices**.
 3. Vložte váš USB Radio Dongle do počítače. Objeví se vám v Playgroundu v roletce **Radio Dongle** nahoře.
 4. Klikněte na **Connect**, tím se vám automaticky spustí radiová síť. 
@@ -54,10 +45,17 @@ Součástí sady jsou 4 moduly, 2 AAA baterie, krabička z 3D tisku a upevňovac
 ## Připojte vaši Sadu Start
 
 1. V seznamu devices v Playgroundu možná vidíte jedno zařízení Push Button. Smažte jej tlačítkem **Delete**, vyzkoušíme si jej připojit.
-2. **Vyndejte** z vaší sady Start **baterie**.
-3. Klikněte v Playground na tlačítko **Start pairing**.
-4. Vložte baterie zpět do sady Start. Tím automaticky **Core Module** vyšle signál a propojí se s vaším **Radio Donglem**.
+2. Klikněte v Playground na tlačítko **Start pairing**.
+3. Vložte baterie zpět do sady Start. Tím automaticky **Core Module** vyšle signál a propojí se s vaším **Radio Donglem**.
 5. Pokud vše dopadlo dobře, uvidíte mezi zařízeními **Push Button**.
+
+## Sestavte sadu
+
+1. Nasaďte černý **Button Module** na červený **Core Module**. Pro dodržení správné orientace je jeden pin na modulech vždy vynechán a jedna díra na konektoru zaslepená. Buďte při nasazování opatrní, ať se piny nezlomí. Ohnuté piny však můžete snadno narovnat.
+2. Celou sestavu vložte do **krabičky vytištěné na 3D tiskárně** a zajistěte **gumičkami**. Žlutá destička se zasouvá do slotu na stranách krabičky.
+3. Nakonec složte **USB Radio Dongle**. Destičku vložte do černé krabičky s logem HARDWARIO.
+
+![Sada HARDWARIO TOWER - sestavení](/_assets/images/starter-kit/skladacka.gif)
 
 ## Otestujte si komunikaci
 
@@ -65,9 +63,9 @@ Jak už je uvedeno výše, sestava umí kromě zprávy o stisknutí tlačítka p
 
 1. Otevřete v Playgroundu záložku Messages.
 2. Na obrazovce uvidíte seznam zpráv, které vaše tlačítko odeslalo přes Radio Dongle do počítače.
-3. Stiskněte několikrát tlačítko a na obrazovce uvidíte, jak se postupně plní počítadlo stisků.
-4. Zkuste na zařízení dýchnout teplý vzduch z úst. Vzroste teplota a ta se vám objeví mezi zprávami.
-5. Poslední zprávou je informace o orientaci zařízení. Ta funguje jako klasická kostka, zkuste zařízením otáčet a zjistěte, kdy se objeví pozice 1, 2, 3...6.
+3. Stiskněte několikrát tlačítko a na obrazovce uvidíte, jak se postupně plní počítadlo stisků (`node/motion-detector:0/push-button/-/event-count`).
+4. Zkuste na zařízení dýchnout teplý vzduch z úst, ideálně zespoda nebo skrz USB port. Zvýšená teplota by se měla objevit ve zprávě (`node/motion-detector:0/thermometer/0:1/temperature`). 
+5. Poslední zprávou je informace o orientaci zařízení. Ta funguje jako klasická kostka, zkuste zařízením otáčet a zjistěte, kdy se objeví pozice 1 - 6 (`node/motion-detector:0/orientation`). 
 
 ![Rozjeď to v Node-RED](https://res.cloudinary.com/lukasfabik/image/upload/v1565632592/projects/button-for-mum/image3.png "Rozjeď to v Node-RED")
 
