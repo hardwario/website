@@ -1,31 +1,39 @@
 ---
-title: Úvodní projekt sady Control
-meta_title: Úvodní projekt sady Control
-meta_description: 
-url: /projekty/sada-control
 draft: false
+meta_description: Začíname se sadou Control
+image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1641305830/projects/button-for-mum/1-ilustrace-devce-pari-hru-ma-pauzu.png
+modules:
+  - core
+  - cover
+  - power
+  - led
+  - usb_dongle
+author: lukas_fabik
+slug: sada-control
+featured: true
 date: 2022-02-26
-description:
+url: /projekty/sada-control
+kit:
+  - starter-kit
+  - button-kit
+idea: false
+title: Úvodní projekt sady Control
+weight: 0
 tags:
   - Projekt na doma
-idea: false
-image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1641305830/projects/button-for-mum/1-ilustrace-devce-pari-hru-ma-pauzu.png
+description: Začíname se sadou Control
+meta_title: Úvodní projekt sady Control
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1641305830/projects/button-for-mum/1-ilustrace-devce-pari-hru-ma-pauzu.png
-author: lukas_fabik
-featured: true
-modules: ["core","cover","power","led","usb_dongle"]
-kit: ["starter-kit","button-kit"]
 ---
-
 ## Úvod
 
 {{< perex >}}
-Se sadou Clime dokážete díky integrovanému silovému relé (230V/16A) ovládat domácí spotřebiče, jako je například plynový kotel nebo řídit digitální LED pásek. 
+Se sadou Control dokážete díky integrovanému silovému relé (230V/16A) ovládat domácí spotřebiče, jako je například lampa, větrák nebo třeba vodní čerpadlo. Sadou Control lze také řídit digitální LED pásek. 
 {{< /perex >}}
 
-V tomto projektu budeme s pomocí relé ovládat programovatelný LED pásek. Projekt využijete pro chytré osvětlení doma, v kanceláři nebo pro vánoční stromek. 
+V tomto projektu budeme s pomocí relé ovládat stolní lampu a pomocí programovatelného LED pásku zobrazovat okolní teplotu. Projekt využijete pro chytré osvětlení doma, v kanceláři nebo pro vánoční stromek. 
 
-Součástí sady jsou 3 moduly, adaptér do zásuvky, krabička z 3D tisku, upevňovací gumičky a LED pásek. 
+Součástí sady jsou 3 moduly, adaptér do zásuvky, 3D tištěná krabicka, upevňovací gumičky a LED pásek s 72 pixely. 
 
 **Součástí sady není Radio Dongle, který budete potřebovat pro vytvoření sítě.** 
 
@@ -43,6 +51,8 @@ Zkontrolujte si, že máte vše potřebné pro tento projekt:
 ![Sada HARDWARIO TOWER - sestavení](/_assets/images/starter-kit/skladacka.gif)
 
 ## Spusťte vlastní radiovou síť
+
+P﻿okud již máte **Radio Dongle** z jiné sady, můžete tento krok přeskočit. 
 
 1. Otevřete na vašem počítači aplikaci HARDWARIO Plaground. Pokud ji ještě nemáte, vraťte se [zpět na úvodní stranu](/cs/start-tower/).
 2. V Playgroundu otevřete záložku **Devices**.
@@ -76,15 +86,15 @@ V mnoha tutoriálech je prvním projektem Hello World! Společně zvládmene ně
 1. V Playgroundu si otevřete záložku **Functions**.
 2. Jde o vloženou aplikaci **Node-RED**. Existuje k ní skvělá dokumentace, podpora i obrovská komunita uživatelů. Funguje na principu **vizuálního programování** - na plochu si přidáváte funkční bloky, kterým říkáme **nody**, a jejich spojením **vytvoříte funkční aplikaci** (flow).
 3. Smažte dva nody, které máte na ploše.
-3. Začneme přidáním nodu **mqtt in**. Najdete jej vlevo v sekci **network**. Přetáhněte jej na plochu a dvakrát na něj klikněte.
-4. Otevře se vám nastavovací okno nodu, ve kterém potřebujeme vyplnit pole **topic**. To určí, jaké zprávy chceme v této flow přijímat.
-5. Vraťte se v Playgroundu do záložky **Messages** a najděte zprávu s teplotou. Kromě hodnoty teploty vidíte vedle i identifikaci zprávy, vypadá takto: ``node/push-button:0/thermometer/0:1/temperature`` a jedná se o **topic**. 
-6. Zkopírujte si tento topic, přejděte zpět do sekce **Functions**, vložte jej do pole **Topic** a uložte nastavení tlačítkem **Done**.
-7. Nyní vložte na plochu node **Gauge**, ten najdete mezi nody v sekci **dashboard**.
-8. Dvakrát na něj klikněte, ať se otevře jeho nastavení. Nyní změníme jen hodnotu **max** v sekci **Range** na **50**. Uložte nastavení tlačítkem **Done**.
-9. Nyní oba nody propojte. Je to snadné, stačí stisknout šedý čtverec jednoho nodu a myší jej natáhnout k šedému čtverci druhého nodu.
-10. Tlačítkem **Deploy** vpravo nahoře nyní můžete spustit aplikaci a přepnout se do záložky **Dashboard** v Playgroundu.
-11. Dýchněte na zařízení, abyste vyvolali okamžitou zprávu o teplotě a IoT! V grafu uvidíte aktuální teplotu.
+4. Začneme přidáním nodu **mqtt in**. Najdete jej vlevo v sekci **network**. Přetáhněte jej na plochu a dvakrát na něj klikněte.
+5. Otevře se vám nastavovací okno nodu, ve kterém potřebujeme vyplnit pole **topic**. To určí, jaké zprávy chceme v této flow přijímat.
+6. Vraťte se v Playgroundu do záložky **Messages** a najděte zprávu s teplotou. Kromě hodnoty teploty vidíte vedle i identifikaci zprávy, vypadá takto: `node/push-button:0/thermometer/0:1/temperature` a jedná se o **topic**. 
+7. Zkopírujte si tento topic, přejděte zpět do sekce **Functions**, vložte jej do pole **Topic** a uložte nastavení tlačítkem **Done**.
+8. Nyní vložte na plochu node **Gauge**, ten najdete mezi nody v sekci **dashboard**.
+9. Dvakrát na něj klikněte, ať se otevře jeho nastavení. Nyní změníme jen hodnotu **max** v sekci **Range** na **50**. Uložte nastavení tlačítkem **Done**.
+10. Nyní oba nody propojte. Je to snadné, stačí stisknout šedý čtverec jednoho nodu a myší jej natáhnout k šedému čtverci druhého nodu.
+11. Tlačítkem **Deploy** vpravo nahoře nyní můžete spustit aplikaci a přepnout se do záložky **Dashboard** v Playgroundu.
+12. Dýchněte na zařízení, abyste vyvolali okamžitou zprávu o teplotě a IoT! V grafu uvidíte aktuální teplotu.
 
 **Tip na další experiment:** Zkuste vymyslet, jak na dashboardu zobrazit i informaci o orientaci zařízení a počtu stisknutí tlačítka, možnosti dashboardu v Playgroundu jsou neomezené!
 
