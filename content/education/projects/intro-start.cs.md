@@ -1,22 +1,29 @@
 ---
-title: Úvodní projekt sady Start
-meta_title: Úvodní projekt sady Start
-meta_description: 
-url: /projekty/sada-start
 draft: false
+meta_description: Začínáme se sadou Start
+image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1641305830/projects/button-for-mum/1-ilustrace-devce-pari-hru-ma-pauzu.png
+modules:
+  - core
+  - button
+  - mini_battery
+  - usb_dongle
+author: lukas_fabik
+slug: sada-start
+featured: true
 date: 2019-08-19
-description:
+url: /projekty/sada-start
+kit:
+  - starter-kit
+  - button-kit
+idea: false
+title: Úvodní projekt sady Start
+weight: 0
 tags:
   - Projekt na doma
-idea: false
-image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1641305830/projects/button-for-mum/1-ilustrace-devce-pari-hru-ma-pauzu.png
+description: Začínáme se sadou Start
+meta_title: Úvodní projekt sady Start
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1641305830/projects/button-for-mum/1-ilustrace-devce-pari-hru-ma-pauzu.png
-author: lukas_fabik
-featured: true
-modules: ["core","button","mini_battery","usb_dongle"]
-kit: ["starter-kit","button-kit"]
 ---
-
 ## Úvod
 
 {{< perex >}}
@@ -39,7 +46,7 @@ Součástí sady jsou 4 moduly, 2 AAA baterie, krabička z 3D tisku a upevňovac
 
 ## Spusťte vlastní radiovou síť
 
-1. Otevřete na vašem počítači aplikaci HARDWARIO Plaground. Pokud ji ještě nemáte, vraťte se [zpět na úvodní stranu](/cs/start-tower/).
+1. Otevřete na vašem počítači aplikaci HARDWARIO Plaground. Pokud ji ještě nemáte, otevřete si a postupujte podle [tohoto](/cs/education/tutorials/co-je-to-bigclown-playground/) návodu. 
 2. V Playgroundu otevřete záložku **Devices**.
 3. Vložte váš USB Radio Dongle do počítače. Objeví se vám v Playgroundu v roletce **Radio Dongle** nahoře.
 4. Klikněte na **Connect**, tím se vám automaticky spustí radiová síť. 
@@ -71,15 +78,15 @@ V mnoha tutoriálech je prvním projektem Hello World! Společně zvládmene ně
 1. V Playgroundu si otevřete záložku **Functions**.
 2. Jde o vloženou aplikaci **Node-RED**. Existuje k ní skvělá dokumentace, podpora i obrovská komunita uživatelů. Funguje na principu **vizuálního programování** - na plochu si přidáváte funkční bloky, kterým říkáme **nody**, a jejich spojením **vytvoříte funkční aplikaci** (flow).
 3. Smažte dva nody, které máte na ploše.
-3. Začneme přidáním nodu **mqtt in**. Najdete jej vlevo v sekci **network**. Přetáhněte jej na plochu a dvakrát na něj klikněte.
-4. Otevře se vám nastavovací okno nodu, ve kterém potřebujeme vyplnit pole **topic**. To určí, jaké zprávy chceme v této flow přijímat.
-5. Vraťte se v Playgroundu do záložky **Messages** a najděte zprávu s teplotou. Kromě hodnoty teploty vidíte vedle i identifikaci zprávy, vypadá takto: ``node/push-button:0/thermometer/0:1/temperature`` a jedná se o **topic**. 
-6. Zkopírujte si tento topic, přejděte zpět do sekce **Functions**, vložte jej do pole **Topic** a uložte nastavení tlačítkem **Done**.
-7. Nyní vložte na plochu node **Gauge**, ten najdete mezi nody v sekci **dashboard**.
-8. Dvakrát na něj klikněte, ať se otevře jeho nastavení. Nyní změníme jen hodnotu **max** v sekci **Range** na **50**. Uložte nastavení tlačítkem **Done**.
-9. Nyní oba nody propojte. Je to snadné, stačí stisknout šedý čtverec jednoho nodu a myší jej natáhnout k šedému čtverci druhého nodu.
-10. Tlačítkem **Deploy** vpravo nahoře nyní můžete spustit aplikaci a přepnout se do záložky **Dashboard** v Playgroundu.
-11. Dýchněte na zařízení, abyste vyvolali okamžitou zprávu o teplotě a IoT! V grafu uvidíte aktuální teplotu.
+4. Začneme přidáním nodu **mqtt in**. Najdete jej vlevo v sekci **network**. Přetáhněte jej na plochu a dvakrát na něj klikněte.
+5. Otevře se vám nastavovací okno nodu, ve kterém potřebujeme vyplnit pole **topic**. To určí, jaké zprávy chceme v této flow přijímat.
+6. Vraťte se v Playgroundu do záložky **Messages** a najděte zprávu s teplotou. Kromě hodnoty teploty vidíte vedle i identifikaci zprávy, vypadá takto: `node/push-button:0/thermometer/0:1/temperature` a jedná se o **topic**. 
+7. Zkopírujte si tento topic, přejděte zpět do sekce **Functions**, vložte jej do pole **Topic** a uložte nastavení tlačítkem **Done**.
+8. Nyní vložte na plochu node **Gauge**, ten najdete mezi nody v sekci **dashboard**.
+9. Dvakrát na něj klikněte, ať se otevře jeho nastavení. Nyní změníme jen hodnotu **max** v sekci **Range** na **50**. Uložte nastavení tlačítkem **Done**.
+10. Nyní oba nody propojte. Je to snadné, stačí stisknout šedý čtverec jednoho nodu a myší jej natáhnout k šedému čtverci druhého nodu.
+11. Tlačítkem **Deploy** vpravo nahoře nyní můžete spustit aplikaci a přepnout se do záložky **Dashboard** v Playgroundu.
+12. Dýchněte na zařízení, abyste vyvolali okamžitou zprávu o teplotě a IoT! V grafu uvidíte aktuální teplotu.
 
 **Tip na další experiment:** Zkuste vymyslet, jak na dashboardu zobrazit i informaci o orientaci zařízení a počtu stisknutí tlačítka, možnosti dashboardu v Playgroundu jsou neomezené!
 
