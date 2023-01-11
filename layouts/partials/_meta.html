@@ -3,7 +3,7 @@
   {{ if .IsPage }}
   <title>{{ $.Page.Params.meta_title }} | HARDWARIO IoT Blog</title>
   <meta name="description" content='{{ if isset $.Page.Params "meta_description" }} {{ $.Page.Params.meta_description }} {{ else }} {{ $.Page.Params.description }} {{ end }}'>
-  <meta property="og:url" content="{{ .URL | absURL }}" />
+  <meta property="og:url" content="{{ .Permalink | absURL }}" />
   <meta property='og:title' content="{{ .Params.meta_itle }} | HARDWARIO IoT Blog">
   <meta property='og:description' content="{{ .Params.meta_description }} | HARDWARIO IoT Blog">
   <meta property="og:type" content="article">
@@ -16,7 +16,7 @@
   {{ else }}
   <title>{{ .Page.Title }} | HARDWARIO</title>
   <meta name="description" content="{{ .Page.Summary }}">
-  <meta property="og:url" content="{{ .URL | absURL }}" />
+  <meta property="og:url" content="{{ .Permalink | absURL }}" />
   <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO">
   <meta property="og:type" content="website">
   <meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta.jpg">
@@ -27,7 +27,7 @@
   {{ if .IsPage }}
   <title>{{ $.Page.Params.meta_title }} | HARDWARIO IoT Blog</title>
   <meta name="description" content='{{ if isset $.Page.Params "meta_description" }} {{ $.Page.Params.meta_description }} {{ else }} {{ $.Page.Params.description }} {{ end }}'>
-  <meta property="og:url" content="{{ .URL | absURL }}" />
+  <meta property="og:url" content="{{ .Permalink | absURL }}" />
   <meta property='og:title' content="{{ .Params.meta_title }}">
   <meta property='og:description' content="{{ .Params.meta_description }}">
   <meta property="og:type" content="article">
@@ -40,7 +40,7 @@
   {{ else }}
   <title>{{ .Page.Title }} | HARDWARIO</title>
   <meta name="description" content="{{ .Page.Summary }}">
-  <meta property="og:url" content="{{ .URL | absURL }}" />
+  <meta property="og:url" content="{{ .Permalink | absURL }}" />
   <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO">
   <meta property="og:type" content="website">
   <meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta.jpg">
@@ -51,7 +51,7 @@
     {{ if .IsPage }}
     <title>{{ .Page.Title | safeHTML }} | HARDWARIO Events</title>
     <meta name="description" content="{{ .Page.Summary }}">
-    <meta property="og:url" content="{{ .URL | absURL }}" />
+    <meta property="og:url" content="{{ .Permalink | absURL }}" />
     <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO Events">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image_main }}">
@@ -59,7 +59,7 @@
     {{ else }}
     <title>{{ .Page.Title | safeHTML }} | HARDWARIO</title>
     <meta name="description" content="{{ .Page.Summary }}">
-    <meta property="og:url" content="{{ .URL | absURL }}" />
+    <meta property="og:url" content="{{ .Permalink | absURL }}" />
     <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta.jpg">
@@ -69,7 +69,7 @@
     <meta name="robots" content="noindex, nofollow">
     <title>{{ .Page.Title | safeHTML }} | HARDWARIO</title>
     <meta name="description" content="{{ .Page.Summary }}">
-    <meta property="og:url" content="{{ .URL | absURL }}" />
+    <meta property="og:url" content="{{ .Permalink | absURL }}" />
     <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image_main }}">
@@ -80,7 +80,7 @@
   {{ if .IsPage }}
   <title>{{ .Page.Title }} | HARDWARIO</title>
   <meta name="description" content="{{ .Page.Summary }}">
-  <meta property="og:url" content="{{ .URL | absURL }}" />
+  <meta property="og:url" content="{{ .Permalink | absURL }}" />
   <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO Projects">
   <meta property="og:type" content="website">
   <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image_main }}">
@@ -88,7 +88,7 @@
   {{ else }}
   <title>{{ .Page.Title }} | HARDWARIO</title>
   <meta name="description" content="{{ .Page.Summary }}">
-  <meta property="og:url" content="{{ .URL | absURL }}" />
+  <meta property="og:url" content="{{ .Permalink | absURL }}" />
   <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO">
   <meta property="og:type" content="website">
   <meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta.jpg">
@@ -99,7 +99,7 @@
     {{ if .IsPage }}
     <title>{{ .Page.Title }} | HARDWARIO Academy</title>
     <meta name="description" content="{{ .Page.Summary }}">
-    <meta property="og:url" content="{{ .URL | absURL }}" />
+    <meta property="og:url" content="{{ .Permalink | absURL }}" />
     <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO Academy">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image_main }}">
@@ -107,7 +107,7 @@
     {{ else }}
     <title>{{ .Page.Title }} | HARDWARIO</title>
     <meta name="description" content="{{ .Page.Summary }}">
-    <meta property="og:url" content="{{ .URL | absURL }}" />
+    <meta property="og:url" content="{{ .Permalink | absURL }}" />
     <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta.jpg">
@@ -118,7 +118,7 @@
     {{ if .IsPage }}
     <title>{{ $.Page.Params.meta_title | safeHTML }}</title>
     <meta name="description" content="{{ .Page.Summary }}">
-    <meta property="og:url" content="{{ .URL | absURL }}" />
+    <meta property="og:url" content="{{ .Permalink | absURL }}" />
     <meta property='og:title' content="{{ $.Page.Params.meta_title }}">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image_main }}">
@@ -126,7 +126,7 @@
     {{ else }}
     <title>{{ .Page.Title | safeHTML }} | HARDWARIO</title>
     <meta name="description" content="{{ .Page.Summary }}">
-    <meta property="og:url" content="{{ .URL | absURL }}" />
+    <meta property="og:url" content="{{ .Permalink | absURL }}" />
     <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta.jpg">
@@ -137,7 +137,7 @@
         {{ if .IsPage }}
         <title>{{ .Page.Title | safeHTML }} | HARDWARIO Use Case</title>
         <meta name="description" content="{{ .Page.Summary }}">
-        <meta property="og:url" content="{{ .URL | absURL }}" />
+        <meta property="og:url" content="{{ .Permalink | absURL }}" />
         <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO Use Case">
         <meta property="og:type" content="website">
         <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image_main }}">
@@ -145,7 +145,7 @@
         {{ else }}
         <title>{{ .Page.Title }} | HARDWARIO</title>
         <meta name="description" content="{{ .Page.Summary }}">
-        <meta property="og:url" content="{{ .URL | absURL }}" />
+        <meta property="og:url" content="{{ .Permalink | absURL }}" />
         <meta property='og:title' content="{{ .Page.Title }} | HARDWARIO">
         <meta property="og:type" content="website">
         <meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta.jpg">
@@ -154,7 +154,7 @@
 
 <title>{{ $.Page.Params.meta_title }}</title>
 <meta name="description" content="{{ .Params.meta_description }}">
-<meta property="og:url" content="{{ .URL | absURL }}" />
+<meta property="og:url" content="{{ .Permalink | absURL }}" />
 <meta property='og:title' content="{{ $.Page.Params.meta_title }}">
 <meta property="og:type" content="website">
 <meta property="og:image" content="{{ .Site.BaseURL }}_assets/images/meta.jpg">
