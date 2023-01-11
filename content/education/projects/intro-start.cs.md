@@ -35,6 +35,8 @@ Základní funkcí tohoto balíčku je tlačítko. Ale protože je náš Core Mo
 Součástí sady jsou 4 moduly, 2 AAA baterie, krabička z 3D tisku a upevňovací gumičky. Zkontrolujte si, že máte vše potřebné:
 {{< modules >}}
 
+![Sada Start](https://cdn.myshoptet.com/usr/obchod.hardwario.cz/user/shop/big/381-2_sada-start.jpg?61a290b7 "Sada Start")
+
 ## Spusťte vlastní radiovou síť
 
 1. Otevřete na vašem počítači aplikaci HARDWARIO Plaground. Pokud ji ještě nemáte, otevřete  si [tento](/cs/education/tutorials/co-je-to-bigclown-playground/) návod a postupujte podle něho. 
