@@ -27,15 +27,13 @@ image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1641305830/proje
 ## Úvod
 
 {{< perex >}}
-Sada Start je nejlepší způsob, jak začít pracovat se stavebnicí HARDWARIO TOWER. Umožní vám bezdrátově spouštět akce, posílat teplotu a polohu zařízení. 
+Sada Start je nejlepší způsob, jak začít pracovat se stavebnicí HARDWARIO TOWER. Umožní vám bezdrátově spouštět akce, posílat teplotu a polohu zařízení.
 {{< /perex >}}
 
 Základní funkcí tohoto balíčku je tlačítko. Ale protože je náš Core Module osazen i 3osým akcelerometrem a teploměrem, tak vám tato sestava vystačí na spoustu dalších projektů.
 
 Součástí sady jsou 4 moduly, 2 AAA baterie, krabička z 3D tisku a upevňovací gumičky. Zkontrolujte si, že máte vše potřebné:
 {{< modules >}}
-
-![Sada Start](https://cdn.myshoptet.com/usr/obchod.hardwario.cz/user/shop/big/381-2_sada-start.jpg?61a290b7 "Sada Start")
 
 ## Spusťte vlastní radiovou síť
 
