@@ -6,6 +6,8 @@ pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 pygmentsUseClasses = true
 csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
+[markup.goldmark.renderer]
+unsafe= true
 
 [params]
   menuNames = ["main","footer","about","secondary"]
