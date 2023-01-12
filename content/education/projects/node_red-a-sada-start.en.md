@@ -18,11 +18,11 @@ T﻿ento projekt přímo navazuje na [Úvodní projekt sady Start](url) takže b
 
 A﻿bychom mohli zobrazovat hodnotu stisknutí, musíme jí nejprve někde vzít.
 
-1. P﻿okud nemáme, tak si spustíme **HARDWARIO Playground**. Z předešlého návodu víme že se nám zobrazuje v **Messages** a pokud zde klikneme na řádek s topicem `node/motion-detector:0/push-button/-/event-count` tak se nám tento zkopíruje do schránky, což nám ještě potvrdí vyskakovací info panel.
+1. P﻿okud nemáme, tak si spustíme **HARDWARIO Playground**. Z předešlého návodu víme že se nám informace zobrazují v **Messages** a pokud zde klikneme na řádek s topicem `node/motion-detector:0/push-button/-/event-count` tak se nám tento zkopíruje do schránky, což nám ještě potvrdí vyskakovací info panel.
 
-> P﻿okud bychom měli spárovaných více **Push button** modulů, tak se nám budou lišit v čísle za \`motion-detector:\`
+P﻿okud bychom měli spárovaných více **Push button** modulů, tak se nám budou lišit v čísle za \`motion-detector:\`
 
-2. N﻿yní se přesunem do **Functions**. Jde o vloženou aplikaci **Node-RED**. Existuje k ní skvělá dokumentace, podpora i obrovská komunita uživatelů. Funguje na principu **vizuálního programování** - na plochu si přidáváte funkční bloky, kterým říkáme **nody**, a jejich spojením **vytvoříte funkční aplikaci** (flow).
+2. N﻿yní se přesunem do **Functions**. Jde o vloženou aplikaci **Node-RED**, existuje k ní skvělá dokumentace, podpora i obrovská komunita uživatelů. Funguje na principu **vizuálního programování** - na plochu si přidáváte funkční bloky, kterým říkáme **nody**, a jejich spojením **vytvoříte funkční aplikaci** (flow).
 3. Smažte dva nody, které máte na ploše.
 4. Začneme přidáním nodu **mqtt in**. Najdete jej vlevo v sekci **network**. Přetáhněte jej na plochu.
 
@@ -30,7 +30,14 @@ A﻿bychom mohli zobrazovat hodnotu stisknutí, musíme jí nejprve někde vzít
 
 5. Dvakrát na něj klikněte, otevře se vám nastavovací okno nodu, ve kterém potřebujeme vyplnit pole **topic**. To určí, jaké zprávy chceme v této flow přijímat.
 
-   ![](https://res.cloudinary.com/lukasfabik/image/upload/v1673529998/projects/shared_pictures/mqtt_inn_set_topic_button.png "Nastav topic")
+   ![Nastav topic](https://res.cloudinary.com/lukasfabik/image/upload/v1673529998/projects/shared_pictures/mqtt_inn_set_topic_button.png "Nastav topic")
+6. Nyní musíme tuto zprávu předat pro zobrazení do **dashboardu**. To uděláme tak, že si vlevo ze sekce _dashboard_ vybereme node **text** a předtáhmene ho vedle **mqtt in**. 
+7. Po rozkliknutí tohoto nodu si můžete zvolit **Label** například na **Tlačítko stisknuto: ** a zvolit zarovnání v sekci **Layout**. Potvrdíme nastavením kliknutím na tlačítko **Done**. Posledním krokem je propejení těchto 2 nodu dohromady. 
+7. Po překliknutí do záložky **Dashboard** by měl být vidět Vámi zvolený popisek a počet stisknutí. 
+
+
+------------------
+
 6. Vraťte se v Playgroundu do záložky **Messages** a najděte zprávu s teplotou. Kromě hodnoty teploty vidíte vedle i identifikaci zprávy, vypadá takto: `node/push-button:0/thermometer/0:1/temperature` a jedná se o **topic**. 
 7. Zkopírujte si tento topic, přejděte zpět do sekce **Functions**, vložte jej do pole **Topic** a uložte nastavení tlačítkem **Done**.
 8. Nyní vložte na plochu node **Gauge**, ten najdete mezi nody v sekci **dashboard**.
