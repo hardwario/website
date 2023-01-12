@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<section>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-10">
+        <div class="article__header">
+          <div class="article__header__button">
+            <!--<a href="" class="button button--tag button--tag--bigger button--tag--blue button--tag--blue--active">Indiegogo</a>-->
+            <div class="article__header__info"></div>
+            <h1 class="article__title">{{ .Params.heading }}</h1>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-8">
+        <div class="article__body">
+
+          {{ .Content }}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+{{ end }}

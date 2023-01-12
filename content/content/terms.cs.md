@@ -5,6 +5,8 @@ weight: 999
 heading: Všeobecné podmínky poskytování služeb
 meta_title: Všeobecné podmínky poskytování služeb HARDWARIO
 meta_description:
+url: /cs/podminky-sluzeb
+slug: podminky-sluzeb
 ---
 
 Účinné ke dni: 20.1.2020
