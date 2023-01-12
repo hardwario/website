@@ -8,12 +8,12 @@
 <section>
   <div class=" d-flex">
       <div class="container">
-            <div class="row pb-10 pb-md-30">
+            <div class="row pb-10">
                 <div class="col-12 col-md-10 col-xl-8 mx-auto text-center">
                     <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>{{ .Title }}</span></div>
                     <h1 class="text-center pb-20 font-weight-black font-44 font-md-64 font-xl-72 font-md-lnh68">{{ .Params.heading | safeHTML }}</h1>
                     <p class="font-24 font-gray2 font-lnh37 mb-20">{{ .Params.perex | safeHTML }}</p>
-                    <a href="#" class="font-lnh24 py-15 px-20 px-md-40 mb-20 d-inline-block font-weight-bold font-font2 font-white font-20 font-md-16 bg-red">Buy for €280</a>
+                    {{ with .Params.buy_link }}<a href="{{ .Params.buy_link }}" class="font-lnh24 py-15 px-20 px-md-40 mb-20 d-inline-block font-weight-bold font-font2 font-white font-20 font-md-16 bg-red">Buy in shop.hardwario.com <span class ="font-md-20">→</span></a>{{ end }}
                 </div>
             </div>
       </div>
@@ -23,8 +23,8 @@
 <section>
   <div class = "container">
       <div class = "row justify-content-center pb-md-30">
-          <div class = "col-12 col-md-8">
-              <img src = "/_assets/images/configurations/wmbus.png" class = "w-100"/>
+          <div class = "col-12 col-md-9">
+              <img src = "{{ .Params.image }}" class = "{{ .Params.image_w }}"/>
           </div>
       </div>
   </div>
@@ -76,65 +76,7 @@
   <div class = "container" id = "products">
       <div class = "row justify-content-center">
           
-              <div class = "col-12 col-md-8 px-10">
-              <div class = "col-12 px-30 mb-20 content-block content-block--gray">
-              <div class = "row">
-                  <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center" style = "height: 97%;">
-                      <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">Up to 300 wM-Bus meters connected to the Internet</h2>
-                      <p class = "font-20 font-md-20 pb-10">Single CHESTER device can gather data from up to 300 wM-Bus meters and send them encrypted to the Internet via NB-IoT or LTE-M network.</p>
-                      <br/>
-                      <img src = "/_assets/images/configurations/wmbus_1.svg" class = "mx-auto mt-20 mb-10 w-75"/>
-                  </div>
-              </div>
-              </div>
-          </div>
-          <div class = "col-12 col-md-4 px-10">
-              <div class = "col-12 px-30 mb-20 content-block content-block--battery" style = "height: 97%;">
-              <div class = "row align-items-center" style = "height: 100%;">
-                  <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center text-white">
-                      <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">10 years</h2>
-                      <p class = "font-20 font-md-20 pb-10">You can use up to 6 alkaline battery cells or 6 primary lithium cells to achieve 10 years battery life.</p>
-                      
-                  </div>
-              </div>
-              </div>
-          </div>
-
-          <div class = "col-12 col-md-4 px-10">
-            <div class = "col-12 px-30 mb-20 content-block content-block--gray" style = "height: 97%;">
-            <div class = "row">
-                <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center">
-                    <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">Remote configuration</h2>
-                    <p class = "font-20 font-md-20 pb-10">List of supported wM-Bus meters can be managed remotly from anywhere.</p>
-                    <img src = "/_assets/images/configurations/wmbus_2.svg" class = "mx-auto mt-20 mb-10 w-100"/>
-                </div>
-            </div>
-            </div>
-        </div>
-
-      <div class = "col-12 col-md-4 px-10">
-        <div class = "col-12 px-30 mb-90 content-block content-block--gray" style = "height: 97%;">
-        <div class = "row">
-            <div class = "col-12 col-md-12 pt-10 pt-md-10 text-center">
-              <img src = "/_assets/images/configurations/wmbus_3.svg" class = "mx-auto mt-20 mb-10 w-50"/>
-                <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">Three modes</h2>
-                <p class = "font-20 font-md-20 pb-10">All three available modes - S,T and C are supported.</p>
-            </div>
-        </div>
-        </div>
-    </div>
-
-    <div class = "col-12 col-md-4 px-10">
-      <div class = "col-12 px-30 mb-90 content-block content-block--gray" style = "height: 97%;">
-      <div class = "row">
-          <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center">
-              <h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">Rest API and Callbacks</h2>
-              <p class = "font-20 font-md-20 pb-10">Data are accessible with Rest API and Callbacks and can be easily integrated with your system.</p>
-              <img src = "/_assets/images/configurations/wmbus_5.svg" class = "mx-auto mt-20 mb-10 w-75"/>
-          </div>
-      </div>
-      </div>
-  </div>
+          {{ .Content }}
 
       </div>
   </div>
@@ -142,46 +84,22 @@
 
 <section>
   <div class = "container">
-    <div class = "row pt-60">
+    <div class = "row pt-60 align-items-center">
       <div class = "col-12 col-md-6 text-center">
-        <img src = "/_assets/images/configurations/wmbus2.png" class = "w-50 mx-auto"/>
+        <img src = "/_assets/images/configurations/wmbus2.png" class = "w-100 mx-auto"/>
       </div>
       <div class="col-12 col-md-6 pt-20 font-14 font-md-16 font-lnh18 specification">
         <h2 class="font-30 font-lnh36 font-md-36 font-weight-black font-md-lnh48 pb-20">Technical specification</h2>
         <div class = "table-responsive">
         <table class = "text-left">
+
+            {{ range .Params.specs }}
             <tr>
-                <td><strong>{{ i18n "power_voltage" }}</strong></td>
-                <td>3.6 V</td>
+                <td><strong>{{ index . 0 }}</strong></td>
+                <td>{{ index . 1 }}</td>
             </tr>
-            <tr>
-                <td><strong>{{ i18n "sleep_consumption" }}</strong></td>
-                <td>< 150 μA</td>
-            </tr>
-            <tr>
-                <td><strong>{{ i18n "working_temperature_range" }}</strong></td>
-                <td>-40 {{ i18n "to" }} +70 °C</td>
-            </tr>
-            <tr>
-                <td><strong>{{ i18n "maximum_consumption" }}</strong></td>
-                <td>500 mA</td>
-            </tr>
-            <tr>
-                <td><strong>{{ i18n "storage_temperature_range" }}</strong></td>
-                <td>-40 {{ i18n "to" }} +85 °C</td>
-            </tr>
-            <tr>
-                <td><strong>Max. {{ i18n "battery_capacity" }}</strong></td>
-                <td>46 200 mAh</td>
-              </tr>
-              <tr>
-                <td><strong>{{ i18n "degree_protection" }}</strong></td>
-                <td>IP67</td>
-            </tr>
-            <tr>
-                <td><strong>{{ i18n "temperature_accuracy" }}</strong></td>
-                <td>± 0.3 °C</td>
-            </tr>
+            {{ end }}
+            
         </table>
     </div>
 </div>

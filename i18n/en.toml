@@ -1,3 +1,1110 @@
+[documentation]
+other = "Documentation"
+
+[documentation_info]
+other = "Developers documetation of or modules and integrations."
+
+[show_docs]
+other = "View documentation"
+
+[sdk]
+other = "SDK library"
+
+[sdk_info]
+other = "Would you like to write your firmware? You will need this SDK library."
+
+[show_sdk]
+other = "Show SDK"
+
+[find_an_inspiration_projects]
+other = "Find inspration in sample projects with step-by-step tutorials."
+
+[other_resources]
+other = "Other useful resources"
+
+[events_list]
+other = "Events"
+
+[learning_materials]
+other = "Learning resources"
+
+[materials_description]
+other = "Learn how to work with HARDWARIO Kit, Playground, Node-RED application and other useful integrations."
+
+[come_to_event]
+other = "We organize personal and online events. Join us."
+
+[videos]
+other = "Videos"
+
+[hardwario_videos]
+other = "Videos"
+
+[videos_description]
+other = "Get inspired by our videos. We shoot tutorials and share webinar records."
+
+[read_full_study]
+other = "Read the full case study"
+
+[get_full_content]
+other = "Get this and other case studies now"
+
+[download_pdf]
+other = "Download Case Studies"
+
+[download_case_study]
+other = "We'll send you<br/> all case studies<br/> to your inbox"
+
+[case_studies]
+other = "Case studies"
+
+[other_case_studies]
+other = "Other successful projects"
+
+[successful_projects]
+other = "Successful projects"
+[iot_multisensor] 
+other = "Environmental IoT Multisensor"  
+
+[several_years_from_batteries] 
+other = "The sensor has very low power consumption and can run from AA&nbsp;batteries for several years."
+
+[compact_multisensor]
+other = "Compact multisensor"
+
+[one_device_nine_sensors]
+other = "An environmental multisensor equipped with 9 sensors for monitoring indoor environment quality - CO2, VOC, Temperature, Humidity, Illuminance, Motion, Acoustic noise, Atmosphehic Pressure."
+
+[variable_connectivity]
+other = "COOPER communicates through LPWAN technologies, such as&nbsp;NB-IoT or LoRaWAN and Bluetooth Low-Energy. Communication is secure and independent on your local network."
+
+[cooper_hundreds_of_services]
+other = "COOPER can by easy connected to the cloud, mobile applications and other services, such as Azure IoT Hub, Grafana, Ubidots or Blynk as well as it can be integrated with your endpoint through the REST API and Webhooks. "
+
+[customize_cooper]
+other = "Fully customizable"
+
+[full_customization]
+other = "Full customization of the device is possible - colours, logo printing, sensor assembly, application behaviour, and communication technology."
+
+[applications]
+other = "Applications"
+
+[environmental_monitoring]
+other = "Environmental monitoring"
+
+[hvac]
+other = "HVAC systems"
+
+[smart_home]
+other = "Smart home"
+
+[facility_management]
+other = "Facility management"
+
+[stem_education]
+other = "STEM education"
+
+[development_kit]
+other = "Development kit for IoT"
+
+[about_cooper]
+other = "About COOPER"
+
+[power_voltage]
+other = "Operating input voltage"
+
+[sleep_consumption]
+other = "Idle power consumption"
+
+[maximum_consumption]
+other = "Peak power consumption"
+
+[battery_capacity]
+other = "Battery capacity"
+
+[temperature_accuracy]
+other = "Thermometer accuracy"
+
+[humidity_accuracy]
+other = "Humidity sensor accuracy"
+
+[working_temperature_range]
+other = "Operating temperature range"
+
+[storage_temperature_range]
+other = "Storage temperature range"
+
+[degree_protection]
+other = "Protection level"
+
+[overview]
+other = "Overview"
+
+[tech_specs]
+other = "Tech Specs"
+
+[order_cooper]
+other = "Get COOPER"
+
+[get_cooper]
+other = "Get COOPER"
+
+[chester_price]
+other = "The price starts at €132 without VAT and depends on the configuration and quantity."
+
+[get_chester_pricelist]
+other = "Send&nbsp;me&nbsp;pricelist"
+
+[buy_chester_tester]
+other = "Buy&nbsp;CHESTER&nbsp;now"
+
+[buy_chester_tester_link]
+other = "https://shop.hardwario.com/hub/"
+
+[interested_in_chester]
+other = "I'm interested in CHESTER"
+
+[modification_integration]
+other = "Custom integrations and branding on customer's request"
+
+[extended_warranty]
+other = "Extended 3-year warranty and 100-day trial period"
+
+[personal_tech_support]
+other = "Personal technical support in the deployment phase"
+
+[extension_options]
+other = "Extensions"
+
+[antenna_connector]
+other = "antenna connector"
+
+[embedded]
+other = "Embedded"
+
+[battery_holder]
+other = "Battery holder"
+
+[accelerometer]
+other = "Accelerometer"
+
+[cryptochip]
+other = "Cryptochip"
+
+[thermometer]
+other = "Thermometer"
+
+[humidity_meter]
+other = "Humidity sensor"
+
+[therminal_blocks]
+other = "Terminals for external peripherals"
+
+[usage_examples]
+other = "Usage examples"
+
+[usage]
+other = "Use Cases"
+
+[extension]
+other = "Extension"
+
+[customer]
+other = "Customer"
+
+[push_button]
+other = "Push button"
+
+[lux_meter]
+other = "Lux meter"
+
+[microphone]
+other = "Microphone"
+
+[motion_detector]
+other = "Motion detector"
+
+[voc_sensor]
+other = "VOC sensor"
+
+[temperature_humidity]
+other = "Temperature and humidity sensor"
+
+[barometer]
+other = "Barometer"
+
+[co2_sensor]
+other = "CO2 sensor"
+
+[power_supply]
+other = "Power supply"
+
+[working_humidity_range]
+other = "Operating humidity range"
+
+[storage_humidity_range]
+other = "Storage humidity range"
+
+[sensing]
+other = "Sensing"
+
+[cooper_sensor]
+other = "Sensor"
+
+[unit]
+other = "Unit"
+
+[average]
+other = "Average"
+
+[samples]
+other = "samples"
+
+[none]
+other = "None"
+
+[always]
+other = "Always"
+
+[internal_iir]
+other = "Internal IIR"
+
+[acceleration]
+other = "Acceleration"
+
+[acoustic_noise]
+other = "Acoustic noise"
+
+[ambient_temperature]
+other = "Ambient temperature"
+
+[battery_voltage]
+other = "Battery voltage"
+
+[co2_concentration]
+other = "CO2 concentration"
+
+[illuminance]
+other = "Illuminance"
+
+[motion_detection]
+other = "Motion detection"
+
+[orientation]
+other = "Orientation"
+
+[relative_humidity]
+other = "Relative air humidity"
+
+[voc_concentration]
+other = "VOC concentration"
+
+[interested_in_cooper]
+other = "I'm interested in COOPER"
+[why_hardwario]
+other = "Why HARDWARIO"
+
+[prototype_product]
+other = "From prototyping to product"
+
+[discover_develop_deploy]
+other = "Discover, Develop and&nbsp;Deploy"
+
+[we_understand_requirements]
+other = "We understand your requirements before proposing the most effective solution.  Then we create and test a prototype fine-tuning this to perfection in collaboration with you."
+
+[minimum_maintanance]
+other = "Minimum maintenance required"
+
+[multiyear_battery_life]
+other = "Multi-year battery&nbsp;life"
+
+[our_lowpower_design]
+other = "Our specialist low-power design and optimised firmware is compatible with all large low-energy networks which ensure all devices function for many years on just one pack of replaceable AA or AAA batteries."
+
+[data_integration]
+other = "Data integration"
+
+[we_help_integrate]
+other = "We help integrate your device with hundreds of services"
+
+[easily_connect]
+other = "Easily connect devices to the cloud, mobile applications, other services and integrate with your internal systems through our API"
+
+[branded_cases]
+other = "Branded cases"
+
+[customize_device]
+other = "Customise the device case to fit your brand"
+
+[unique_device]
+other = "Your device will be unique device to you. Together, we will create the case fit your brand, with your company logo and colours."
+
+[90_days]
+other = "You could have all of<br/> this in just 90 days"
+
+[3_months]
+other = "Discover, develop and deploy within 3 months."
+
+[book_demo]
+other = "Book a demo"
+
+[contact_us]
+other = "Contact us"
+
+[our_platforms]
+other = "Our platforms"
+
+[our_story]
+other = "Our story"
+
+[we_believe]
+other = "We believe everything revolves around the Internet of Things (IoT). Our goal is to bring the benefits of this cutting-edge technology to companies and individuals around the globe. Our IoT devices help our clients in industry, safety, security, agriculture, education and everyday life."
+
+[dev_blog]
+other = "Latest articles for developers"
+
+[tower_text]
+other = "Resources for open-source industrial IoT Kit to build IoT projects effortlessly."
+
+[go_to_tower]
+other = "Go to tower.hardwario.com"
+
+[go_to_sdk]
+other = "Go to sdk.hardwario.com"
+
+[go_to_chester]
+other = "Go to chester.hardwario.com"
+
+[chester_text]
+other = "Resources for universal device with very low power consumption." 
+[watch_video]
+other = "Watch the video"
+
+[download_leaflet]
+other = "Download&nbsp;product&nbsp;leaflet"
+
+[application_elasticity]
+other = "Application elasticity"
+
+[application_elasticity_desc]
+other = "One modular device covering a wide spectrum of IoT projects"
+
+[LPWAN_connectivity]
+other = "LPWAN connectivity"
+
+[LPWAN_connectivity_desc]
+other = "Communication to the internet from the most distant places"
+
+[lowpower_design]
+other = "Low-power design"
+
+[lowpower_design_desc]
+other = "Reliable operation from a primary cell battery for several years"
+
+[ip67pl]
+other = "IP 67 protection level"
+
+[ip67pl_desc]
+other = "Enclosure to withstand harsh environmental conditions"
+
+[ble]
+other = "Bluetooth Low Energy"
+
+[ble_desc]
+other = "For diagnostics, parametrization, and device firmware upgrades"
+
+[branding]
+other = "Custom branding"
+
+[branding_desc]
+other = "Full OEM branding service, including custom color printing"
+
+[modular_device]
+other = "One modular device</span> Wide range of IoT applications"
+
+[modular_device_desc]
+other = "CHESTER is used to data telemetry data of the connected systems, monitoring of a large variety of sensors, remote control and location tracking. The device features a robust, waterproof, IP67-rated enclosure for harsh environmental conditions. In addition, its wide operating temperature range and battery-optimized power consumption enable outdoor deployment."
+
+[supported_interfaces]
+other = "Supported interfaces"
+
+[extensions_list]
+other = "List&nbsp;of&nbsp;extensions"
+
+[interfaces]
+other = "Interfaces"
+
+[digital_inputs]
+other = "Digital inputs"
+
+[digital_outputs]
+other = "Digital outputs"
+
+[analog_inputs]
+other = "Analog inputs"
+
+[communication]
+other = "Communication"
+
+[dry_contacts]
+other = "Dry contacts"
+
+[outputs]
+other = "outputs"
+
+[power_relays]
+other = "Power relays"
+
+[open_collector]
+other = "Open collector"
+
+[signal]
+other = "Signal"
+
+[reliable_connectivity]
+other = "Reliable connectivity</span> Data from distant and deep indoor places"
+
+[reliable_connectivity_desc]
+other = "CHESTER connects to the internet via LPWAN communication technologies (NB-IoT, LTE-M, and LoRaWAN are supported). Choose the built-in internal antenna or connect an external antenna for any of those options. For diagnostics, parametrization, and device firmware upgrades, CHESTER comes with a Bluetooth Low Energy interface available in modern smart devices and notebooks."
+
+[lowpower_device]
+other = "Designed from the ground up as a</span> low&#x2011;power&nbsp;device"
+
+[lowpower_device_desc]
+other = "CHESTER has been designed from the ground up as a low-power device and provides years of operation from the primary lithium cells. Another way to power the device is to use a rechargeable battery backup module with the optional solar photovoltaic panel input. For applications where batteries are not applicable, it is possible to energize the device from a standard 24 V DC line power or 230 V AC line."
+
+[lithium_cells]
+other = "Primary lithium cells"
+
+[rechargable_batteries]
+other = "Rechargable batteries"
+
+[solar_panels]
+other = "Photovoltaic solar panels"
+
+[applications_industries]
+other = "Applications<span class = 'font-gray2'><br/>industries and use cases</span>"
+
+[use_cases]
+other = "Use cases"
+
+[industries]
+other = "Industries"
+
+[read_case_studies]
+other = "Read case studies"
+
+[all_solutions]
+other = "All&nbsp;solutions&nbsp;and&nbsp;use&nbsp;cases"
+
+[machine_monitoring]
+other = "Machine monitoring"
+
+[predictive_maintenance]
+other = "Predictive maintenance"
+
+[event_alerting]
+other = "Event alerting"
+
+[smart_metering]
+other = "Smart metering"
+
+[sensor_telemetry]
+other = "Sensor telemetry"
+
+[asset_tracking]
+other = "Asset tracking"
+
+[air_quality_sensing]
+other = "Air quality sensing"
+
+[remote_control]
+other = "Remote control"
+
+[data_logging]
+other = "Data logging"
+
+[manufacturing]
+other = "Manufacturing"
+
+[facility_anagement]
+other = "Facility Management"
+
+[construction]
+other = "Construction"
+
+[agriculture]
+other = "Agriculture"
+
+[forestry]
+other = "Forestry"
+
+[energy]
+other = "Energy"
+
+[security]
+other = "Security"
+
+[health_care]
+other = "Health care"
+
+[mining]
+other = "Mining"
+
+[all_features]
+other = "Let's sum it up.</span><br/> What the most configurable means"
+
+[f_1]
+other = "LPWAN connectivity"
+
+[f_11_]
+other = "NB-IoT and LTE-M (Cat M1) with global bands support"
+
+[f_12]
+other = "SIM card for LTE as a SIM chip (eSIM) or Nano-SIM"
+
+[f_13]
+other = "LoRaWAN with support for 868/915 MHz"
+
+[f_2]
+other = "Dynamic antenna system"
+
+[f_21]
+other = "Software selection between internal and external antenna"
+
+[f_22]
+other = "Software selection between LTE and LoRaWAN path"
+
+[f_23]
+other = "External antenna connects via u.FL connector"
+
+[f_3]
+other = "Bluetooth Low Energy 5.0"
+
+[f_31]
+other = "Device setup and diagnostics from smartphone"
+
+[f_32]
+other = "Communication with other BLE devices"
+
+[f_33]
+other = "Device firmware upgrades in the field"
+
+[f_4]
+other = "GNSS positioning module"
+
+[f_41]
+other = "Support for GPS, Galileo, GLONASS"
+
+[f_42]
+other = "High-sensitivity receiver chipset u-blox M8"
+
+[f_43]
+other = "Flexible power control for low-power tracking"
+
+[f_5]
+other = "Flexible power management"
+
+[f_51]
+other = "Power device from a replaceable primary 3.6 V Lithium cell"
+
+[f_52]
+other = "Rechargeable battery from CHESTER-Z top-cover module"
+
+[f_53]
+other = "External power delivered via extension modules"
+
+[f_6]
+other = "Onboard 3-axis MEMS accelerometer"
+
+[f_61]
+other = "Detection of device orientation and tilt event"
+
+[f_62]
+other = "Recognition of device vibration"
+
+[f_63]
+other = "Possibility to configure dynamic range and sensitivity"
+
+[f_7]
+other = "Two slots for extension modules"
+
+[f_71]
+other = "Supports combinations of modules for various project needs"
+
+[f_72]
+other = "Signals are routed to terminal blocks for full flexibility"
+
+[f_73]
+other = "Soldered from the bottom side for enhanced reliability"
+
+[f_8]
+other = "Push-in style terminal blocks"
+
+[f_81]
+other = "Interface to various external I/O or power sources"
+
+[f_82]
+other = "All terminals feature a transient voltage protection"
+
+[f_83]
+other = "Parallel terminal blocks for convenient wiring"
+
+[f_9]
+other = "Integrated 1-Wire bus interface"
+
+[f_91]
+other = "Support for multiple DS18B20 thermometers"
+
+[f_92]
+other = "Integration with HARDWARIO Machine Probe"
+
+[f_93]
+other = "Integration with HARDWARIO Soil Sensor"
+
+[f_10]
+other = "Other integrated peripherals"
+
+[f_101]
+other = "8 MB flash memory for data logging"
+
+[f_102]
+other = "Accurate digital temperature sensor"
+
+[f_103]
+other = "3-color LED for instant state recognition"
+
+[f_11]
+other = "Additional available interfaces"
+
+[f_111]
+other = "I2C communication bus on a terminal block and a connector"
+
+[f_112]
+other = "Optional external LED, push button, and tamper switch on a connector"
+
+[f_113]
+other = "System connector with I2C bus and power sink/source"
+
+[f_114]
+other = "Optional external battery pack on a connector"
+
+[f_115]
+other = "Two Sparkfun QWIIC connectors for a variety of 3rd party accessories"
+
+[peripherals]
+other = "Peripherals - <span class = 'font-gray2'>sensors, actors, devices</span>"
+
+[temperature_sensors]
+other = "Temperature sensors"
+
+[digital]
+other = "Digital"
+
+[thermocouple]
+other = "Thermocouple"
+
+[proximity_sensors]
+other = "Proximity sensors"
+
+[inductive]
+other = "Inductive"
+
+[capacitive]
+other = "Capacitive"
+
+[optical]
+other = "Optical"
+
+[magnetic]
+other = "Magnetic"
+
+[linear_sensors]
+other = "Linear sensors"
+
+[air_quality]
+other = "Air quality"
+
+[water_quality]
+other = "Water quality"
+
+[soil_parameters]
+other = "Soil parameters"
+
+[location_sensors]
+other = "Location sensors"
+
+[event_detectors]
+other = "Event detectors"
+
+[flow]
+other = "Flow"
+
+[pressure]
+other = "Pressure"
+
+[weight]
+other = "Weight"
+
+[distance]
+other = "Distance"
+
+[current]
+other = "Current"
+
+[voltage]
+other = "Voltage"
+
+[temperature]
+other = "Temperature"
+
+[dust_particles]
+other = "Dust particles"
+
+[carbon_dioxide]
+other = "Carbon dioxide"
+
+[conductivity]
+other = "Conductivity"
+
+[ph_level]
+other = "PH level"
+
+[oxygen]
+other = "Oxygen"
+
+[moisture]
+other = "Moisture"
+
+[position]
+other = "Position"
+
+[motion]
+other = "Motion"
+
+[shock_tilt]
+other = "Shock and tilt"
+
+[dendrometers]
+other = "Dendrometers"
+
+[open_sdk]
+other = "<span class = 'font-gray2'>Programmability</span> <br/>Open SDK for rapid firmware development"
+
+[open_sdk_desc]
+other = "Build your own application on top of nRF Connect SDK with the underlying Zephyr OS. With embedded C as a primary programming language and support for Visual Studio Code as the development IDE you can use Windows, macOS or Linux development environments."
+
+[hardwario_cloud]
+other = "<span class = 'font-gray2'>HARDWARIO Cloud</span> Easy integration with any system"
+
+[hardwario_cloud_desc]
+other = "Seamless management of your devices, user-defined Callbacks and REST API. Integration of CHESTER with Microsoft, Ubidots, Blynk or your own system is secure, fast and easy."
+
+[see_api]
+other = "REST API documentation"
+
+[cloud_more]
+other = "More about HARDWARIO Cloud"
+
+[get_chester]
+other = "Get CHESTER"
+
+[get_chester_desc]
+other = "Choose Hardware-as-a-Service model or a one-time purchase model. Get in touch with us to know more and build IoT projects for your customers today, together."
+
+[a0_1]
+other = "AC/DC power module"
+
+[a0_2]
+other = "Power CHESTER from isolated AC/DC converter 230 V / 5 V"
+
+[a2_1]
+other = "2x relay + CHESTER-A0"
+
+[a2_2]
+other = "Control 2x power relay 230 V / 16 A + see CHESTER-A0"
+
+[g_1]
+other = "8x isol. input + isol. power"
+
+[g_2]
+other = "Isolate (galvanically) 8x digital input and power line"
+
+[k_1]
+other = "3x diff. input + 5 V boost"
+
+[k_2]
+other = "Measure 3x sensor w/ differential output requiring 5 V supply"
+
+[z10_1]
+other = "Battery backup + DC/DC"
+
+[z10_2]
+other = "Power CHESTER from rechargeable battery w/ DC/DC converter"
+
+[z1f_1]
+other = "4x button + CHESTER-Z1-0"
+
+[z1f_2]
+other = "Scan 4x illuminated push-button w/ buzzer + see CHESTER-Z1-0"
+
+[x0_1]
+other = "4x analog/digital input"
+
+[x0_2]
+other = "Scan 4x DI from PLC; sense dry contact; measure 0-10 V"
+
+[x1_1]
+other = "IOLink master interface"
+
+[x1_2]
+other = "Communicate with modern IOLink sensors and actuators"
+
+[x2a_1]
+other = "TTL/UART interface"
+
+[x2a_2]
+other = "Communicate with RFID reader with TTL/UART output"
+
+[x2b_1]
+other = "RS-485 interface"
+
+[x2b_2]
+other = "Communicate with RS-485/Modbus RTU sensor or PLC"
+
+[x3a_1]
+other = "1x 24b ADC for RTD"
+
+[x3a_2]
+other = "Measure industrial RTD thermometer Pt100/Pt1000"
+
+[x3b_1]
+other = "2x 24b ADC for RTD"
+
+[x3b_2]
+other = "Measure 2x industrial RTD thermometer Pt100/Pt1000"
+
+[x3c_1]
+other = "1x 24b ADC for thermocouple"
+
+[x3c_2]
+other = "Measure thermocouple - type B/C/E/J/K/N/R/S/T"
+
+[x3d_1]
+other = "2x 24b ADC for thermocouple"
+
+[x3d_2]
+other = "Measure 2x thermocouple - type B/C/E/J/K/N/R/S/T"
+
+[x4_1]
+other = "DC/DC converter 6 - 28 V DC"
+
+[x4_2]
+other = "Power CHESTER from industrial DC line (e.g. 24 V)"
+
+[x5_1]
+other = "±30 V analog input"
+
+[x5_2]
+other = "Measure differential voltage input with a wide DC range"
+
+[x6_1]
+other = "Bus interface + 5 V boost"
+
+[x6_2]
+other = "Communicate with many low-power nodes over a single wire"
+
+[x7_1]
+other = "1x diff. input + 5 V boost"
+
+[x7_2]
+other = "Measure sensor w/ differential output requiring 5 V supply"
+
+[x8_1]
+other = "Precise accelerometer"
+
+[x8_2]
+other = "Accurately measure tilt and inclination"
+
+[x9_1]
+other = "4x low-side switch"
+
+[x9_2]
+other = "Control external relays with protected low-side switches"
+[about_cloud]
+other = "Description of HARDWARIO Cloud"
+
+[device_management]
+other = "Seamless management of your devices"
+
+[device_management_text]
+other = "Have access to all your HARDWARIO devices through the web portal. Manage them all in one place undependently of communication technology, group them into organizations, groups and assign access to users."
+
+[callbacks]
+other = "Easy integration with Callbacks"
+
+[callbacks_text]
+other = "Create easily any number of Callbacks for each device group to integrate the device with your system or popular applications from Microsoft, Amazon, Ubidots, Blynk and others."
+
+[rest]
+other = "Documented REST&nbsp;API"
+
+[rest_text]
+other = "Use the REST API to integrate your device with your system. User-friendly documentation is available online - start integrating&nbsp;right away."
+
+[secure_robust]
+other = "Secure and robust solution"
+
+[secure_robust_text]
+other = "HARDWARIO Cloud is a scalable cloud solution that meets strict security requirements. Data is stored for you for at least 1 year and you can rely on personal support."
+
+[get_cloud]
+other = "HARDWARIO Cloud Offer"
+
+[get_cloud_text]
+other = "The price of HARDWARIO Cloud is 2 EUR / device / month. The price includes access to the web portal, the ability to set up callbacks and use the REST API, as well as IoT connectivity according to the selected technology."
+
+[play_intro]
+other = "Play video"
+[for_all_os]
+other = "Versions for all operating systems"
+
+[os]
+other = "Operating system"
+
+[file]
+other = "File"
+
+[download]
+other = "Download"
+
+[download_for_macos]
+other = "Download Playground for macOS"
+
+[install]
+other = "install"
+
+[no_install]
+other = "without install"
+
+[teach_engaging_way]
+other = "STEM education based on real IoT&nbsp;projects"
+
+[iot_kit_is_complex]
+other = "A comprehensive system of attractive STEM education for schools, hobby groups and corporate training based on working with real IoT projects."
+
+[comprehensive_solution_edu]
+other = "A Comprehensive System of Active&nbsp;Learning"
+
+[based_on_three_pilars]
+other = "Our active STEM learning has 3&nbsp;main pillars"
+
+[plug_and_make_kits]
+other = "IoT Kit TOWER"
+
+[open_souce_system]
+other = "Our industrial IoT kit allows you to build and connect any IoT device to the Internet."
+
+[pedagogical_framework]
+other = "STEM lessons"
+
+[with_experts]
+other = "We have prepared detailed STEM lessons for hands-on learning on real IoT projects."
+
+[practical_projects]
+other = "Projects from practice"
+
+[practical_projects_desc]
+other = "Using simple IoT projects, we show how to practically use IoT in various fields."
+
+[personal_support]
+other = "Technical support"
+
+[our_edu_package]
+other = "We offer professional technical support in the form of webinars, seminars, detailed tutorials and online chat."
+
+[whitepaper]
+other = "STEM education with HARDWARIO TOWER"
+
+[engaging_and_active_stem]
+other = "Our approach to STEM education with REAR pedagogical framework"
+
+[stem_events]
+other = "Our STEM education Events"
+
+[show_how_to_start_stem]
+other = "Find out ways to improve your STEM teaching and learning environments"
+
+[from_stem_blog]
+other = "What’s happening in STEM&nbsp;education"
+
+[iot_in_education]
+other = "Read about STEM education and active learning"
+
+[stem_blog]
+other = "We share our experiences, case studies and inspiration from the world of STEM education and IoT."
+
+[come_to_event_edu]
+other = "Join events organised by us and our partners. We love sharing our knowledge of IoT technologies and STEM education."
+
+[education_kits]
+other = "Most Popular IoT Kits for STEM education"
+
+[education_kit]
+other = "IoT Kits for Education"
+
+[free_edu_consult]
+other = "Book a free 30-minute consultation of your project"
+
+[edu_modification_integration]
+other = "Custom integrations and branding on customer's request"
+
+[edu_extended_warranty]
+other = "Extended 3-year warranty and 100-day trial period"
+
+[edu_personal_tech_support]
+other = "Personal technical support in the deployment phase"
+
+[tutorials]
+other = "Tutorials"
+
+[workshops]
+other = "Show offer"
+
+[workshops_link]
+other = "https://shop.hardwario.com/services/"
+
+[stem_lessons]
+other = "STEM lesson"
+
+[stem_lessons_desc]
+other = "View ready-made STEM lessons that you can use for teaching."
+
+[tower_projects]
+other = "TOWER intro projects"
+
+[tower_projects_desc]
+other = "Projects introduce the capabilities of the IoT kit and its uses in a fun way."
+
+[workshop_presentation]
+other = "Workshops"
+
+[workshop_presentation_desc]
+other = "Book a workshop or lecture on IoT innovation for your school or business."
+
+[shop]
+other = "Online shop"
+
+[shop_desc]
+other = "You can find all the prepared sets and modules of the kit in the online shop."
+
+[tower_intro]
+other = "Getting to know the kit"
+
+[tower_intro_desc]
+other = "We have prepared several tutorials for your first steps with the kit."
 [case_study]
 other = "Case Study"
 
@@ -223,14 +1330,608 @@ other = "Wednesday, June 29 (3 pm CET)"
 [banner_3]
 other = "Everything you need to know about LPWAN and satellite technologies"
 
-[industries]
-other = "Industries"
-
-[use_cases]
-other = "Use cases"
-
 [press]
 other = "Press Releases"
 
 [pressrelease]
 other = "Press release"
+[when]
+other = "When"
+
+[type]
+other = "Place"
+
+[category]
+other = "Category"
+
+[price]
+other = "Price"
+
+[other_events]
+other = "All events"
+
+[thank_you]
+other = "Thank you for your interest"
+
+[build_smart_product]
+other = "We are hardware experts"
+
+[its_easy_with_iot_kit]
+other = "Together with <a href = '/partners/'>our partners</a>, we specialize in projects for the Internet of Things and devices with very low power consumption."
+
+[three_unique_products]
+other = "We have 3&nbsp;unique products&nbsp;for&nbsp;you"
+
+[one_kit_for_all_projects]
+other = "Our products are mainly used in&nbsp;these areas"
+
+[active_stem_education]
+other = "Active<br/> STEM Learning"
+
+[use_kit_for_edutaction]
+other = "The educators around the world use our kits and the pedagogical framework to engage students during the active STEM lessons. With a comprehensive database of real IoT projects, we shape the future of education."
+
+[more_about_education]
+other = "Find out more"
+
+[industry40_pilots]
+other = "Industrial Internet of Things"
+
+[start_iot_innovations]
+other = "Turn your innovative ideas into reality in a fast and affordable way. Need gathering data from a production line or take action on an unexpected situation? Our devices have you covered. Boost your IoT innovations."
+
+[more_about_pilots]
+other = "More about IoT pilots"
+
+[smart_diy_projects]
+other = "DIY<br/> Smart Home"
+
+[build_own_device]
+other = "Use our online tutorials and inspirational projects to create smart connected gadgets. Build your water leakage detector, LCD thermostat, control smart LED strips, and more. The IoT Kits are all wireless and open-source!"
+
+[more_about_diy]
+other = "More about DIY smart home"
+
+[learn_and_start_making]
+other = "Find out about our IoT kits"
+
+[we_prepared_academy_and_projects]
+other = "Get to know the kit with our <a href = \"/handbook\">handbook</a> and academy. You can find inspiration for your STEM and industrial projects in the project database. Go ahead."
+
+[handbook]
+other = "Handbook"
+
+[guide_for_starter]
+other = "The guide for our Starter Kit"
+
+[projects]
+other = "Projects"
+
+[find_an_inspiration]
+other = "Get inspired"
+
+[get_to_know]
+other = "Discover our system"
+
+[get_handbook]
+other = "View handbook"
+
+[show_me_projects]
+other = "View projects"
+
+[show_me_academy]
+other = "Visit the Academy"
+
+[iot_events]
+other = "Come join us in person"
+
+[design_manufacture]
+other = "We design and&nbsp;manufacture unique&nbsp;IoT&nbsp;devices"
+
+[works_from_batteries]
+other = "<strong>They work on batteries for several years</strong>, with the ability to <strong>connect to the Internet from almost anywhere</strong> and can be <strong>easily integrated</strong> with other systems."
+
+[together_with_partners]
+other = "<a href = '/partners/'>Together with our partners</a>, we successfully implement them in digitization projects in industry, agriculture, retail, healthcare or education."
+
+[from_strategy_to_implementation]
+other = "From strategy to&nbsp;implementation"
+
+[strategy]
+other = "Strategy"
+
+[strategy_text]
+other = "We and our partners will help you <strong>define and implement a meaningful IoT strategy</strong> according to your ideas."
+
+[hardware_text]
+other = "We develop and manufacture <strong>secure hardware with very low power consumption</strong> and easy operation."
+
+[connectivity]
+other = "Connectivity"
+
+[connectivity_text]
+other = "We will ensure the connectivity of your devices to the Internet using <strong>special IoT technologies</strong>."
+
+[implementation]
+other = "Implementation"
+
+[implementation_text]
+other = "Together with partners, we will install the device and <strong>integrate them with your company systems</strong>."
+
+[education]
+other = "Education"
+
+[education_text]
+other = "We will teach you IoT technology and introduce you to work with devices and data."
+
+[noninvasive]
+other = "Non-invasive"
+
+[noninvasive_text]
+other = "We reduce complexity by deploying without modifying your machines and connecting to the corporate network."
+
+[easy]
+other = "Easy"
+
+[easy_text]
+other = "Even non-IT professionals can easily install and manage the system. We can also install and manage the entire solution for you."
+
+[secure]
+other = "Secure"
+
+[secure_text]
+other = "Devices communicate in separate network layers. We follow best practices to ensure the security of the entire system."
+
+[scalable]
+other = "Scalable"
+
+[scalable_text]
+other = "Our solution enables the deployment of several devices proof of concept pilots, but also hundreds of units in production."
+
+[economical]
+other = "Affordable"
+
+[economical_text]
+other = "We can operate the IoT system from tens of dollars with an immediate return on investment. We will help you defend the project economically."
+
+[comprehensive]
+other = "Comprehensive"
+
+[comprehensive_text]
+other = "Together we will define and implement an IoT strategy. We take into account education, UX, security, data, connectivity, integration, scalability."
+
+[newest_from_hardwario]
+other = "The latest from HARDWARIO"
+
+[noworriesiot]
+other = "No Worries IoT"
+
+[partners_projects]
+other = "Projects of our partners"
+[improve_company]
+other = "Fast non-invasive industry 4.0 proof&nbsp;of&nbsp;concepts"
+
+[fast_and_affordable_solution]
+other = "Our IoT Kit ecosystem allows you to quickly and affordably realise your Industry 4.0 pilot projects in areas of predictive maintenance, production monitoring or work environment comfort monitoring."
+
+[comprehensive_solution]
+other = "A comprehensive solution for IIoT"
+
+[unique_devices]
+other = "Devices designed for IIoT"
+
+[iot_kit_industry]
+other = "Easy to build, low-power, secure, industry quality, able to connect with other analogue and digital devices and multiple ways to connect to the internet."
+
+[ready_to_use_integrations]
+other = "Easy and Simple Integration"
+
+[integration_manuals]
+other = "Ready-made integrations with Google Apps, Microsoft Office 365, Amazon Alexa, Google Home, Apple HomeKit (Siri), Blynk and other IoT platforms."
+
+[support_docs_code]
+other = "Documentation, source codes"
+
+[support_docs]
+other = "Professional technical support, extended warranty, dozens of sample projects and complete documentation including source codes at your disposal."
+
+[soaked_from_start_to_finish]
+other = "Our non-invasive approach stands on 3&nbsp;main&nbsp;pillars"
+
+[iot_in_industry]
+other = "Read about IoT and Industry 4.0"
+
+[events_industry]
+other = "Our Industry 4.0 Events"
+
+[get_familiar_with_iot]
+other = "Meet us in person and discussion your IoT ideas"
+
+[come_to_industy_event]
+other = "Join our events organised by us and our partners. We love sharing our experience and knowledge of IoT technologies and STEM education."
+
+[bespoke_development]
+other = "Bespoke Development"
+
+[we_develop_your_product]
+other = "Allow us to design and produce your IoT&nbsp;device"
+
+[kit_not_enough]
+other = "Do you have something special in mind that will innovate and suit your bespoke needs? Whether you have completed your pilot and you need a tailor-made solution or you just want to start with something ambitious, we have the answers for you. We will take you through a details briefing and will supply IoT devices according to your needs from conception to completion."
+
+[industry_kits]
+other = "Our IIoT products for Industry&nbsp;4.0"
+
+[industry_kit]
+other = "IoT Kits for IoT Pilots"
+
+[from_industry_blog]
+other = "What’s happening in Industry 4.0"
+
+[we_share_industry]
+other = "We share our experience, case studies and inspiration from the world of IoT and industry 4.0."
+
+[kits_for_industry]
+other = "IoT Kits for Industry"
+
+[industrial_iot_kit]
+other = "Industrial IoT&nbsp;Kit"
+
+[about_kit]
+other = "Description"
+
+[high_quality_security]
+other = "Robustness and&nbsp;security"
+
+[industry_applications]
+other = "Industrial kit you can use to build Internet of Things projects effortlessly. Kit contains over 40 different modules and the core use-cases are Industry 4.0 pilots, active STEM education, as&nbsp;well as&nbsp;smart home DIY projects."
+
+[wide_range_connectivity]
+other = "Broad IoT connectivity"
+
+[radio_lpwan]
+other = "Built devices can communicate locally with proprietary sub-GHz radio and also with LPWAN technologies, such as LoRaWAN, Sigfox or NB-IoT (if you use <a href = '/chester/'>IoT Hub CHESTER</a>) . Thanks to this it can even communicate from places where regular internet connectivity is not available."
+
+[works_from_batteries_for_years]
+other = "Built sensors, detectors and controllers have low power consumption and can run on primary cell batteries for years. In&nbsp;case of&nbsp;sealing into an&nbsp;industrial box it can also operate in&nbsp;outdoor and dusty environments."
+
+[open_source_integarion]
+other = "Open‑source"
+
+[open_integration]
+other = "The whole kit is open-source and supports integration with popular platforms such as Node-RED, Microsoft Azure, Amazon AWS, Ubidots, Blynk, IFTTT, Amazon Alexa, Google Home, or&nbsp;Apple HomeKit. It&nbsp;can also be integrated with your endpoint thanks to&nbsp;REST API and webhooks."
+
+[academy_projects_docs]
+other = "Academy, Projects, Documentation"
+
+[academy_projects_docs_desc]
+other = "Thanks to the <a href = '/academy/what-is-bigclown-playground/'>Playground</a>, <a href = '/academy/'>academy</a> and <a href = '/projects/'>example projects</a>, getting started with the kit is easy. You can easily set up the device, pair it with a computer and, thanks to visual programming, define how it should work. You can solve advanced behavior and integration with <a href = 'https://tower.hardwario.com' target = '_blank'>documentation</a> and <a href = 'https://sdk.hardwario.com' target = '_blank'>SDK library</a>."
+
+[get_kit]
+other = "Buy Industrial Kit"
+
+[buy]
+other = "Buy online"
+
+[pilots]
+other = "Rapid IoT prototyping"
+
+[concepts]
+other = "Proofs&nbsp;of&nbsp;concepts for&nbsp;Industry&nbsp;4.0"
+
+[stem_edu]
+other = "Active STEM education"
+
+[radio_communication]
+other = "Radio communication"
+
+[memory]
+other = "Memory"
+
+[power_voltage_range]
+other = "Voltage range"
+
+[dimensions]
+other = "Dimensions"
+
+[to]
+other = "to"
+
+[or]
+other = "or"
+
+[width]
+other = "width"
+
+[height]
+other = "height"
+
+[10pin_swd_connector]
+other = "10-pin SWD connector for debugging"
+
+[swd_connector]
+other = "SWD connector"
+
+[red_LED]
+other = "Red LED"
+
+[hardwario_tag]
+other = "HARDWARIO tag position"
+
+[button]
+other = "Push button"
+
+[micro_usb]
+other = "Micro-USB for communication, firmware upload and/or power"
+
+[go_to_shop]
+other = "Go to shop"
+
+[climate]
+other = "Temperature, humidity, illuminance, and barometric sensor"
+
+[co2]
+other = "Carbon dioxide monitoring in offices, schools, and homes"
+
+[voc]
+other = "Volatile organic compounds (VOC) sensing"
+
+[gps]
+other = "Satellite position monitoring (GPS / Galileo / GLONASS)"
+
+[pir]
+other = "Motion detection, independent burglar alarm"
+
+[infra_grid]
+other = "Passive infrared low-resolution thermo camera"
+
+[lcd]
+other = "Display for data visualization"
+
+[button_module]
+other = "Programmable push button"
+
+[rfid]
+other = "RFID contactless identification"
+
+[relay]
+other = "LED strip, ventilation fan, garage door remote control"
+
+[sensor]
+other = "Up to 4 universal inputs/outputs, e.g. external thermometer"
+
+[buy_kit]
+other = "You can buy Kit online in&nbsp;ur&nbsp;shop. We publish tutorials and&nbsp;projects online."
+
+[view_docs]
+other = "View documentation"
+
+[inspiration]
+other = "Example projects"
+
+[and_many_more]
+other = "+ many more modules and wireable sensors"
+
+[buy_on]
+other = "Buy on shop.hardwario.com"
+
+[buy_on_link]
+other = "https://shop.hardwario.com"
+
+[monitoring_quantities]
+other = "Monitoring of quantities"
+
+[lpwan_tester]
+other = "LPWAN Tester"
+[partnerships_reasons]
+other = "3 main reasons"
+
+[why_became_partners]
+other = "Why become HARDWARIO partner"
+
+[inovative_products]
+other = "Innovative<br/> products"
+
+[work_with_hitech_products]
+other = "You will work with technologically advanced products that are easy to install and manage."
+
+[full_support]
+other = "Personal<br/> support"
+
+[help_with_tech_marketing_sales]
+other = "We will help you with technology, marketing and business."
+
+[guaranteed_reward]
+other = "Guaranteed<br/> margin"
+
+[agreed_margin]
+other = "As our partner, you know what you're up to. We actively manage the partner program in order to maintain the agreed margin."
+
+[your_products_your_projects]
+other = "Your products for&nbsp;your&nbsp;projects"
+
+[custom_solutions]
+other = "Thanks to our multifunctional modular system, you build <strong>your own solution</strong> for <strong>your projects in industry and households</strong>. They are most often used in the following areas:"
+
+[machine_people_productivity]
+other = "Monitoring the productivity of machines and people"
+
+[work_security_health]
+other = "Safety and Health protection during work"
+
+[logistics_purchasing]
+other = "Optimization in logistics and purchasing"
+
+[industry4_0]
+other = "Industry 4.0"
+
+[hardwario_academy]
+other = "HARDWARIO Academy"
+
+[educating_partners]
+other = "We educate our partners and the general public through learning materials, webinars and seminars. We present current trends and teach how to work with our products and integrations."
+
+[events_offer]
+other = "Go to Academy"
+
+[be_an_expert]
+other = "Be expert in IoT and LPWAN technologies with us"
+
+[fill_partners_form]
+other = "Fill out the form and we will send you the partnership procedure immediately."
+
+[multifunctional_kits]
+other = "Multifunctional Industrial IoT Kit"
+
+[easy_to_build_devices]
+other = "Easy-to-assemble low-energy devices with 50+ modules and many wireless and bus connection options."
+
+[multipurpose_hub]
+other = "Multipurpose IoT LPWAN Hub CHESTER"
+
+[process_transfer]
+other = "The device is designed for processing and transmission of data from external sensors and interfaces via NB-IoT or LoRa technologies."
+
+[cloud_services]
+other = "HARDWARIO<br/> Cloud"
+
+[connect_integrate]
+other = "Each LPWAN device can be connected to the cloud. All devices can be managed and integrated with other services from user interface."
+
+[partner_testimonial]
+other = "We build our innovative technological solutions that increase productivity and reduce production costs on HARDWARIO products. We appreciate the possibility of customization and personal technical support."
+
+[partner_customer]
+other = "CTO IQHUBS"
+
+[products_technologies]
+other = "Products and technologies HARDWARIO"
+
+[learn_more_kit]
+other = "More about IoT kit"
+
+[learn_more_hub]
+other = "More about IoT hub"
+
+[learn_more_bespoke]
+other = "More about bespoke"
+
+[show_all_projects]
+other = "Show all projects"
+
+[table_of_contents]
+other = "Table of Contents"
+
+[hackster_heading]
+other = "We share more projects on Hackster.io"
+
+[hackster_button]
+other = "Show me hackster.io projects"
+
+[academy_text]
+other = "We will teach you the basics of the Internet of Things and working with HARDWARIO products. We also organize webinars and seminars."
+
+[academy_link]
+other = "Open academy"
+
+[projects_text]
+other = "Projects created and described to teach you how to work with the kit. Start with simpler ones, we also have advanced ones."
+
+[projects_link]
+other = "Show projects"
+
+[kit_docs]
+other = "IoT Kit documentation"
+
+[kit_docs_text]
+other = "Are you interested in advanced development with the kit, projects and integration? Visit the developer documentation."
+
+[kit_docs_link]
+other = "Go to documentation"
+
+[gateway_faq]
+other = "FAQ"
+
+[gateway_faq_text]
+other = "We have prepared a list of frequently asked questions about CHESTER devices and LPWAN networks."
+
+[hub_docs]
+other = "IoT Hub documentation"
+
+[hub_docs_text]
+other = "Technical information about the CHESTER device. For example, you will find a description of the interface and AT commands."
+
+[hub_docs_link]
+other = "Open datasheet"
+
+[industry_case_studies]
+other = "Industrial Case Studies"
+
+[industry_case_studies_text]
+other = "We use the Kit and CHESTER mainly in industry. Get inspired by our case studies."
+
+[industry_case_studies_link]
+other = "Read case studies"
+
+[sdk_lib_docs]
+other = "IoT Kit SDK library"
+
+[sdk_lib_text]
+other = "Do you want to write your own firmware for the kit? Here you will find everything you need."
+
+[sdk_lib_link]
+other = "Open SDK library"
+
+[personal_support_start]
+other = "Personal technical support"
+
+[personal_tech_support_text]
+other = "Whenever you need advice, contact our technical support. Email us at <a href = 'mailto:ask@hardwario.com'>ask@hardwario.com</a> or use the online chat here on the web."
+
+[videos_link]
+other = "All videos"
+
+[download_playground]
+other = "Download Playground"
+
+[playground_description]
+other = "Download a tool that will make your IoT Kit TOWER listen to you. It's available for Windows, Linux, Ubuntu and Apple macOS."
+
+[download_link]
+other = "Go to download"
+[iot_hub_start]
+other = "The Quick Start Guide"
+
+[iot_hub_start_description]
+other = "Learn how to use IoT Hub CHESTER in 5 minutes."
+
+[iot_hub_dfu]
+other = "Device Firmware Update"
+
+[iot_hub_dfu_description]
+other = "Learn how to update firmware of IoT Hub CHESTER."
+
+[tutorials_text]
+other = "Our learning materials will help you quickly understand the world of IoT, Industry 4.0 and IoT Kit TOWER."
+
+[tutorials_link]
+other = "Go to tutorials"
+[example_use_cases]
+other = "Example use cases"
+
+[benefits_of]
+other = "Benefit of"
+
+[benefits_conditions]
+other = "With conditions monitoring you can improve visibility, reduce costs and increase productivity."
+
+[contact_sales]
+other = "Contact Sales"
+
+[hardwario_approach]
+other = "HARDWARIO approach"
+[play_video]
+other = "Play video"
+
+[more_articles]
+other = "More articles"
