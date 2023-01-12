@@ -13,7 +13,7 @@
                     <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>{{ .Title }}</span></div>
                     <h1 class="text-center pb-20 font-weight-black font-44 font-md-64 font-xl-72 font-md-lnh68">{{ .Params.heading | safeHTML }}</h1>
                     <p class="font-24 font-gray2 font-lnh37 mb-20">{{ .Params.perex | safeHTML }}</p>
-                    {{ with .Params.buy_link }}<a href="{{ .Params.buy_link }}" class="font-lnh24 py-15 px-20 px-md-40 mb-20 d-inline-block font-weight-bold font-font2 font-white font-20 font-md-16 bg-red">Buy in shop.hardwario.com <span class ="font-md-20">→</span></a>{{ end }}
+                    {{ with .Params.buy_link }}<a href="{{ . }}" class="font-lnh24 py-15 px-20 px-md-40 mb-20 d-inline-block font-weight-bold font-font2 font-white font-20 font-md-16 bg-red">Buy in shop.hardwario.com <span class ="font-md-20">→</span></a>{{ end }}
                 </div>
             </div>
       </div>

@@ -6,6 +6,7 @@ heading: NB-IoT/LTE-M/LoRaWAN Environmental sensor
 perex: CHESTER Clime is a configurable environmental sensor that samples, aggregates, and sends measured variables.
 image: /_assets/images/configurations/wmbus.png
 image_w: w-100
+buy_link: https://shop.hardwario.com
 specs: [
         ["Operating input voltage","3.6 V"],
         ["Idle power consumption","< 150 μA"],
@@ -16,7 +17,6 @@ specs: [
         ["Protection level","IP67"],
         ["Thermometer accuracy","± 0.3 °C"]
     ]
-#buy_link: 
 ---
 
 {{< capp/box1_2-a heading = "LPWAN Connectivity" text = "CHESTER Clime transits data over cellular NB-IoT and LTE-M networks or LoRaWAN and use internal or external LPWAN antenna." img_100 = "/_assets/images/configurations/connectivity.png">}}
