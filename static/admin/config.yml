@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: content-edits
 media_folder: static/upload
 public_folder: /upload
 slug:
