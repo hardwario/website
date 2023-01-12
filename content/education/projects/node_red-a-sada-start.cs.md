@@ -15,7 +15,7 @@ T﻿ento projekt přímo navazuje na [Úvodní projekt sady Start](url) takže b
 
 A﻿bychom mohli zobrazovat hodnotu stisknutí, musíme jí nejprve někde vzít.
 
-1. P﻿okud nemáme, tak si spustíme **HARDWARIO Playgroun**. Z předešlého návodu víme že se nám zobrazuje v **Messages** a pokud zde klikneme na řádek s topicem `node/motion-detector:0/push-button/-/event-count` tak se nám tento zkopíruje do schránky, což nám ještě potvrdí vyskakovací info panel.
+1. P﻿okud nemáme, tak si spustíme **HARDWARIO Playground**. Z předešlého návodu víme že se nám zobrazuje v **Messages** a pokud zde klikneme na řádek s topicem `node/motion-detector:0/push-button/-/event-count` tak se nám tento zkopíruje do schránky, což nám ještě potvrdí vyskakovací info panel.
 
 >P﻿okud bychom měli spárovaných více **Push button** modulů, tak se nám budou lišit v čísle za \`motion-detector:\`
 
