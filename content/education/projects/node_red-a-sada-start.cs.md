@@ -28,11 +28,15 @@ P﻿okud bychom měli spárovaných více **Push button** modulů, tak se nám b
 5. Dvakrát na něj klikněte, otevře se vám nastavovací okno nodu, ve kterém potřebujeme vyplnit pole **topic**. To určí, jaké zprávy chceme v této flow přijímat.
 
    ![Nastav topic](https://res.cloudinary.com/lukasfabik/image/upload/v1673529998/projects/shared_pictures/mqtt_inn_set_topic_button.png "Nastav topic")
-6. Nyní musíme tuto zprávu předat pro zobrazení do **dashboardu**. To uděláme tak, že si vlevo ze sekce _dashboard_ vybereme node **text** a předtáhmene ho vedle **mqtt in**. 
-7. Po rozkliknutí tohoto nodu si můžete zvolit **Label** například na **Tlačítko stisknuto: ** a zvolit zarovnání v sekci **Layout**. Potvrdíme nastavením kliknutím na tlačítko **Done**. Posledním krokem je propejení těchto 2 nodu dohromady. 
+
+
+6. Nyní musíme tuto zprávu předat pro zobrazení do **dashboardu**. To uděláme tak, že si vlevo ze sekce *dashboard* vybereme node **text** a předtáhmene ho vedle **mqtt in**. 
+7. Po rozkliknutí tohoto nodu si můžete zvolit **Label** například na **Tlačítko stisknuto:**  a zvolit zarovnání v sekci **Layout**. Potvrdíme nastavením kliknutím na tlačítko **Done**. Posledním krokem je propejení těchto 2 nodu dohromady. 
 8. Po překliknutí do záložky **Dashboard** by měl být vidět Vámi zvolený popisek a počet stisknutí. 
 
-------------------
+
+
+- - -
 
 6. Vraťte se v Playgroundu do záložky **Messages** a najděte zprávu s teplotou. Kromě hodnoty teploty vidíte vedle i identifikaci zprávy, vypadá takto: `node/push-button:0/thermometer/0:1/temperature` a jedná se o **topic**. 
 7. Zkopírujte si tento topic, přejděte zpět do sekce **Functions**, vložte jej do pole **Topic** a uložte nastavení tlačítkem **Done**.
