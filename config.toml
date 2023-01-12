@@ -1,4 +1,4 @@
-baseURL = "https://www.hardwario.com"
+baseURL = "https://tower--hardwario.netlify.app"
 homeURL = "/"
 DefaultContentLanguage = "en"
 pygmentsUseClassic = false
@@ -11,7 +11,7 @@ csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
   menuNames = ["main","footer","about","secondary"]
   homeURL = "/"
   shopURL = "https://shop.hardwario.com/"
-  productionURL = "https://www.hardwario.com"
+  productionURL = "https://tower--hardwario.netlify.app"
 
 [languages]
   [languages.en]
