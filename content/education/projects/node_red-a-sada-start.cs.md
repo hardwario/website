@@ -1,6 +1,9 @@
 ---
 title: Node_RED a sada Start
+draft: false
+date: 2023-01-12T12:57:30.783Z
 slug: node-red-start
+weight: 0
 description: Používáme Node-RED se sadou Start
 meta_title: Používáme Node-RED se sadou Star
 meta_description: Používáme Node-RED se sadou Start
