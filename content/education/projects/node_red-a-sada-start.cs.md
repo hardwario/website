@@ -30,7 +30,7 @@ P﻿okud bychom měli spárovaných více **Push button** modulů, tak se nám b
    ![Nastav topic](https://res.cloudinary.com/lukasfabik/image/upload/v1673529998/projects/shared_pictures/mqtt_inn_set_topic_button.png "Nastav topic")
 6. Nyní musíme tuto zprávu předat pro zobrazení do **dashboardu**. To uděláme tak, že si vlevo ze sekce _dashboard_ vybereme node **text** a předtáhmene ho vedle **mqtt in**. 
 7. Po rozkliknutí tohoto nodu si můžete zvolit **Label** například na **Tlačítko stisknuto: ** a zvolit zarovnání v sekci **Layout**. Potvrdíme nastavením kliknutím na tlačítko **Done**. Posledním krokem je propejení těchto 2 nodu dohromady. 
-7. Po překliknutí do záložky **Dashboard** by měl být vidět Vámi zvolený popisek a počet stisknutí. 
+8. Po překliknutí do záložky **Dashboard** by měl být vidět Vámi zvolený popisek a počet stisknutí. 
 
 ------------------
 
