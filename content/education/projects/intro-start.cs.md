@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 meta_description: Začínáme se sadou Start
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1641305830/projects/button-for-mum/1-ilustrace-devce-pari-hru-ma-pauzu.png
 modules:
