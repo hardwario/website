@@ -17,7 +17,11 @@ A﻿bychom mohli zobrazovat hodnotu stisknutí, musíme jí nejprve někde vzít
 
 1. P﻿okud nemáme, tak si spustíme **HARDWARIO Playground**. Z předešlého návodu víme že se nám informace zobrazují v **Messages** a pokud zde klikneme na řádek s topicem `node/motion-detector:0/push-button/-/event-count` tak se nám tento zkopíruje do schránky, což nám ještě potvrdí vyskakovací info panel.
 
-P﻿okud bychom měli spárovaných více **Push button** modulů, tak se nám budou lišit v čísle za \`motion-detector:\`
+P﻿okud bychom měli spárovaných více **Push button** modulů, tak se nám budou lišit v čísle za `*motion-detector:*`
+
+```
+> Test
+```
 
 2. N﻿yní se přesunem do **Functions**. Jde o vloženou aplikaci **Node-RED**, existuje k ní skvělá dokumentace, podpora i obrovská komunita uživatelů. Funguje na principu **vizuálního programování** - na plochu si přidáváte funkční bloky, kterým říkáme **nody**, a jejich spojením **vytvoříte funkční aplikaci** (flow).
 3. Smažte dva nody, které máte na ploše.
@@ -28,13 +32,9 @@ P﻿okud bychom měli spárovaných více **Push button** modulů, tak se nám b
 5. Dvakrát na něj klikněte, otevře se vám nastavovací okno nodu, ve kterém potřebujeme vyplnit pole **topic**. To určí, jaké zprávy chceme v této flow přijímat.
 
    ![Nastav topic](https://res.cloudinary.com/lukasfabik/image/upload/v1673529998/projects/shared_pictures/mqtt_inn_set_topic_button.png "Nastav topic")
-
-
 6. Nyní musíme tuto zprávu předat pro zobrazení do **dashboardu**. To uděláme tak, že si vlevo ze sekce *dashboard* vybereme node **text** a předtáhmene ho vedle **mqtt in**. 
 7. Po rozkliknutí tohoto nodu si můžete zvolit **Label** například na **Tlačítko stisknuto:**  a zvolit zarovnání v sekci **Layout**. Potvrdíme nastavením kliknutím na tlačítko **Done**. Posledním krokem je propejení těchto 2 nodu dohromady. 
 8. Po překliknutí do záložky **Dashboard** by měl být vidět Vámi zvolený popisek a počet stisknutí. 
-
-
 
 - - -
 
