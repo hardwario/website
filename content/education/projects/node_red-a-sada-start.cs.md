@@ -20,7 +20,7 @@ A﻿bychom mohli zobrazovat hodnotu stisknutí, musíme jí nejprve někde vzít
 P﻿okud bychom měli spárovaných více **Push button** modulů, tak se nám budou lišit v čísle za `*motion-detector:*`
 
 ```
-> Test
+![Test] Testovaci text
 ```
 
 2. N﻿yní se přesunem do **Functions**. Jde o vloženou aplikaci **Node-RED**, existuje k ní skvělá dokumentace, podpora i obrovská komunita uživatelů. Funguje na principu **vizuálního programování** - na plochu si přidáváte funkční bloky, kterým říkáme **nody**, a jejich spojením **vytvoříte funkční aplikaci** (flow).
