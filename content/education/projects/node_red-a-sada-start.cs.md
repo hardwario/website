@@ -36,7 +36,7 @@ A﻿bychom mohli zobrazovat hodnotu stisknutí, musíme jí nejprve někde vzít
 1. Vraťíme se do záložky **Messages** a najdeme zprávu s teplotou. Klikneme na tento řádek pro zkopírovánín topicu (`node/push-button:0/thermometer/0:1/temperature`) do schránky.
 2. Přejdeme zpět do sekce **Functions**, vložíme si nový **mqtt in** node, rozkliknutím ho otevřeme a vložíme pomocí **CTRL+V** obsah schránky do pole **Topic** a uložíme nastavení tlačítkem **Done**.
 3. Nyní vložíme na plochu node **Gauge**, najdeme ho mezi nody v sekci **dashboard**.
-4. Pro změnu jeho nastavení na něj dvakrát klikneme, a poté změníme hodnotu **max** v sekci **Range** na **50**. Uložíme nastavení tlačítkem **Done**.
+4. Pro změnu jeho nastavení na něj dvakrát klikneme, a poté změníme hodnotu **max** v sekci **Range** na **50**. Také si můžeme změnit **Label**, například na **Teplota:**, abychom věděli na co koukáme.  Uložíme nastavení tlačítkem **Done**.
 5. Nyní oba nody propojíme, stejně jako jsme to dělali v případě tlačítka. 
 6. Tlačítkem **Deploy** vpravo nahoře nyní můžeme spustit aplikaci a přepnout se do záložky **Dashboard** v Playgroundu.
 7. Dýchnutím na zařízení vyvoláme okamžité odeslání zprávy o teplotě a v dashboardu uvidíme aktuální teplotu spolu s počten stisknutí tlačítka.	
