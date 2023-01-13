@@ -15,14 +15,8 @@ T﻿ento projekt přímo navazuje na [Úvodní projekt sady Start](url) takže b
 
 A﻿bychom mohli zobrazovat hodnotu stisknutí, musíme jí nejprve někde vzít.
 
-1. P﻿okud nemáme, tak si spustíme **HARDWARIO Playground**. Z předešlého návodu víme že se nám informace zobrazují v **Messages** a pokud zde klikneme na řádek s topicem `node/motion-detector:0/push-button/-/event-count` tak se nám tento zkopíruje do schránky, což nám ještě potvrdí vyskakovací info panel.
-
-P﻿okud bychom měli spárovaných více **Push button** modulů, tak se nám budou lišit v čísle za `*motion-detector:*`
-
-```markdown
-![Test] Testovaci text
-```
-
+1. P﻿okud nemáme, tak si spustíme **HARDWARIO Playground**. Z předešlého návodu víme že se nám informace zobrazují v **Messages** a pokud zde klikneme na řádek s topicem `node/motion-detector:0/push-button/-/event-count` tak se nám tento zkopíruje do schránky, což nám ještě potvrdí vyskakovací info panel. 
+   P﻿okud bychom měli spárovaných více **Push button** modulů, tak se nám budou lišit v čísle za `*motion-detector:*`
 2. N﻿yní se přesunem do **Functions**. Jde o vloženou aplikaci **Node-RED**, existuje k ní skvělá dokumentace, podpora i obrovská komunita uživatelů. Funguje na principu **vizuálního programování** - na plochu si přidáváte funkční bloky, kterým říkáme **nody**, a jejich spojením **vytvoříte funkční aplikaci** (flow).
 3. Smažte dva nody, které máte na ploše.
 4. Začneme přidáním nodu **mqtt in**. Najdete jej vlevo v sekci **network**. Přetáhněte jej na plochu.
@@ -36,12 +30,12 @@ P﻿okud bychom měli spárovaných více **Push button** modulů, tak se nám b
 7. Po rozkliknutí tohoto nodu si můžete zvolit **Label** například na **Tlačítko stisknuto:**  a zvolit zarovnání v sekci **Layout**. Potvrdíme nastavením kliknutím na tlačítko **Done**. Posledním krokem je propejení těchto 2 nodu dohromady. 
 8. Po překliknutí do záložky **Dashboard** by měl být vidět Vámi zvolený popisek a počet stisknutí. 
 
-- - -
+## Jaká je tu teplota?
 
-6. Vraťte se v Playgroundu do záložky **Messages** a najděte zprávu s teplotou. Kromě hodnoty teploty vidíte vedle i identifikaci zprávy, vypadá takto: `node/push-button:0/thermometer/0:1/temperature` a jedná se o **topic**. 
-7. Zkopírujte si tento topic, přejděte zpět do sekce **Functions**, vložte jej do pole **Topic** a uložte nastavení tlačítkem **Done**.
-8. Nyní vložte na plochu node **Gauge**, ten najdete mezi nody v sekci **dashboard**.
-9. Dvakrát na něj klikněte, ať se otevře jeho nastavení. Nyní změníme jen hodnotu **max** v sekci **Range** na **50**. Uložte nastavení tlačítkem **Done**.
-10. Nyní oba nody propojte. Je to snadné, stačí stisknout šedý čtverec jednoho nodu a myší jej natáhnout k šedému čtverci druhého nodu.
-11. Tlačítkem **Deploy** vpravo nahoře nyní můžete spustit aplikaci a přepnout se do záložky **Dashboard** v Playgroundu.
-12. Dýchněte na zařízení, abyste vyvolali okamžitou zprávu o teplotě a IoT! V grafu uvidíte aktuální teplotu.
+1. Vraťte se v Playgroundu do záložky **Messages** a najděte zprávu s teplotou. Klikněte na řádek s teplotou pro zkopírovánín topicu (`node/push-button:0/thermometer/0:1/temperature`) do schránky.
+2. Přejdeme zpět do sekce **Functions**, vložíme si noví **mqtt in** node, rozkliknutím ho otevřeme a vložíme pomocí **CTRL+V** obsah schránky do pole **Topic** a uložte nastavení tlačítkem **Done**.
+3. Nyní vložte na plochu node **Gauge**, ten najdete mezi nody v sekci **dashboard**.
+4. Dvakrát na něj klikneme, pro otevře jeho nastavení a nyní změníme jen hodnotu **max** v sekci **Range** na **50**. Uložte nastavení tlačítkem **Done**.
+5. Nyní oba nody propojte, stejně jako jsme to dělali v případě tlačítka. 
+6. Tlačítkem **Deploy** vpravo nahoře nyní můžete spustit aplikaci a přepnout se do záložky **Dashboard** v Playgroundu.
+7. Dýchnutím na zařízení vyvoláme okamžité odeslání zprávy o teplotě a v grafu uvidíte aktuální teplotu.
