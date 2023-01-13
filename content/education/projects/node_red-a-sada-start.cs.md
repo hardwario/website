@@ -19,7 +19,7 @@ A﻿bychom mohli zobrazovat hodnotu stisknutí, musíme jí nejprve někde vzít
 
 P﻿okud bychom měli spárovaných více **Push button** modulů, tak se nám budou lišit v čísle za `*motion-detector:*`
 
-```
+```markdown
 ![Test] Testovaci text
 ```
 
