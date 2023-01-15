@@ -3,7 +3,7 @@ title: HAHN & Sohn si pro IoT inovace vybral HARDWARIO. Společně budou moderni
 meta_title: HAHN & Sohn si pro IoT inovace vybral HARDWARIO. Společně budou modernizovat elektrocentrály jejich připojením k internetu
 meta_description: Společnost HAHN & Sohn, která je předním evropským dodavatelem elektrocentrál, se domluvila na partnerství v oblasti internetu věcí se společností HARDWARIO. Ta svým partnerům poskytuje ucelené řešení hardwaru, služeb a odborné podpory usnadňující adopci IoT a HAHNu pomůže s implementací technologií internetu věcí do jeho produktů a služeb. 
 draft: false
-date: 2023-01-16
+date: 2023-01-15
 description: Společnost HAHN & Sohn, která je předním evropským dodavatelem elektrocentrál, se domluvila na partnerství v oblasti internetu věcí se společností HARDWARIO. Ta svým partnerům poskytuje ucelené řešení hardwaru, služeb a odborné podpory usnadňující adopci IoT a HAHNu pomůže s implementací technologií internetu věcí do jeho produktů a služeb.
 docx: https://docs.google.com/document/d/1-Q4rjkkoKRziw0pXuD7r-IlAntNK8YtO/edit?usp=sharing&ouid=100979526148034723712&rtpof=true&sd=true
 pdf: https://drive.google.com/file/d/1-QT8dsNs0BglodZL2NN2c23V1ULoiJbG/view?usp=sharing
