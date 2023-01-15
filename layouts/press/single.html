@@ -53,7 +53,7 @@
               </div>
               <div class = "col-10">
                 <strong><span>{{ .Title | safeHTML }}</span></strong><br/>
-                Tisková zpráva v PDF
+                {{ i18n "pressrelease" }} (PDF)
               </div>
             </a>
             {{ end }}
@@ -65,7 +65,7 @@
               </div>
               <div class = "col-10">
                 <strong><span>{{ .Title | safeHTML }}</span></strong><br/>
-                Tisková zpráva v DOCX
+                {{ i18n "pressrelease" }} (DOCX)
               </div>
             </a>
             {{ end }}
@@ -74,8 +74,8 @@
                 <img src="/_assets/images/checklist.svg" alt="{{ .Title }}" height = "80" />
               </div>
               <div class = "col-10">
-                <strong><span>Fotky, obrázky, loga a ilustrace</span></strong><br/>
-                Vizuální podklady pro spolupráci
+                <strong><span>{{ i18n "photos_pictures_logos" }}</span></strong><br/>
+                {{ i18n "visual_basis" }}
               </div>
             </a>
           </div>

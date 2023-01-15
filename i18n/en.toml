@@ -1300,6 +1300,13 @@ other = "Press Releases"
 
 [pressrelease]
 other = "Press release"
+
+[photos_pictures_logos]
+other = "Photos, pictures, logos and illustrations"
+
+[visual_basis]
+other = "The visual basis for cooperation"
+
 [when]
 other = "When"
 

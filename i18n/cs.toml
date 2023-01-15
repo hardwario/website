@@ -509,8 +509,15 @@ other = "Tiskové zprávy"
 
 [pressrelease]
 other = "Tisková zpráva"
+
+[photos_pictures_logos]
+other = "Fotky, obrázky, loga a ilustrace"
+
+[visual_basis]
+other = "Vizuální podklady pro spolupráci"
+
 [dev_blog]
-other = "Poslední články pro vývéjáře"
+other = "Poslední články pro vývojáře"
 
 [tower_text]
 other = "Zdroje informací pro průmyslovou IoT stavebnici, se kterou snadno postavíte zařízení pro průmysl 4.0."
