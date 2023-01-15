@@ -18,6 +18,7 @@ specs: [
         ["Thermometer accuracy","± 0.3 °C"]
     ]
 #buy_link: 
+draft: true
 ---
 
 

@@ -197,6 +197,9 @@ other = "min. čtení"
 [buy_it_now]
 other = "Do košíku"
 
+[buy_now]
+other = "KUP TEĎ"
+
 [recommended]
 other = "Nejpopulárnější"
 
@@ -1881,3 +1884,18 @@ other = "Koncentrace VOC"
 
 [interested_in_cooper]
 other = "Zajímá mě COOPER"
+
+[tech_specs]
+other = "Technická specifikace"
+
+[the_platform]
+other = "Platforma"
+
+[built_on_top_of]
+other = "Postaveno na"
+
+[configurable_gateway]
+other = "Konfigurovatelné IoT bráně CHESTER"
+
+[configurable_gateway_desc]
+other = "CHESTER je rozšiřitelná brána IoT pro aplikace Průmysl 4.0, chytrá města, elektronické měření a zemědělství. Je vysoce konfigurovatelná pomocí systému Zephyr RTOS a hardwarových rozšiřujících modulů."

@@ -142,7 +142,7 @@ other = "Protection level"
 other = "Overview"
 
 [tech_specs]
-other = "Tech Specs"
+other = "Technical specifications"
 
 [order_cooper]
 other = "Get COOPER"
@@ -1165,6 +1165,9 @@ other = "min read"
 [buy_it_now]
 other = "Add to cart"
 
+[buy_now]
+other = "BUY NOW"
+
 [recommended]
 other = "Most Popular"
 
@@ -1935,3 +1938,15 @@ other = "Play video"
 
 [more_articles]
 other = "More articles"
+
+[the_platform]
+other = "The platform"
+
+[built_on_top_of]
+other = "Built on top of the"
+
+[configurable_gateway]
+other = "Configurable IoT Gateway CHESTER"
+
+[configurable_gateway_desc]
+other = "CHESTER is an extensible IoT gateway for Industry 4.0, smart city, e-metering, and agricultural applications. It's highly configurable with Zephyr RTOS and hardware expansion modules."

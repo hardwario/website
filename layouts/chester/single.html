@@ -14,7 +14,7 @@
                     <h1 class="text-center pb-20 font-weight-black font-44 font-md-64 font-xl-72 font-md-lnh68">{{ .Title }}</h1>
                     <!--<div class="font-gray2 mb-30 font-font2 font-weight-bold font-24"><span>{{ .Params.heading | safeHTML }}</span></div>-->
                     <p class="font-24 font-gray2 font-lnh37 mb-20">{{ .Params.perex | safeHTML }}</p>
-                    {{ with .Params.buy_link }}<a href="{{ . }}" class="font-lnh24 py-15 px-20 px-md-40 mb-20 d-inline-block font-weight-bold font-font2 font-white font-20 font-md-16 bg-red">BUY NOW <span class ="font-md-20">→</span></a>{{ end }}
+                    {{ with .Params.buy_link }}<a href="{{ . }}" target="_blank" class="font-lnh24 py-15 px-20 px-md-40 mb-20 d-inline-block font-weight-bold font-font2 font-white font-20 font-md-16 bg-red">{{ i18n "buy_now" }} <span class ="font-md-20">→</span></a>{{ end }}
                 </div>
             </div>
       </div>
@@ -89,22 +89,22 @@
   }
 
   .chester-1{
-      background-size: 90%; 
+      background-size: 100%; 
       border-radius: 7px; 
-      background-position: 50% 30px; 
-      background-image: url('/_assets/images/chester/1.png');
+      background-position: 50% 50%; 
+      background-image: url('/_assets/images/configurations/configurable-gateway.png');
       background-repeat: no-repeat;
   }
   @media(max-width: 769px){
       .chester-1{
-          height: 400px;
+          height: 300px;
           background-position: 50% 100%;
       }
 
   }
   @media(max-width: 1281px){
       .chester-1{
-          background-position: 50% 100%;
+          background-position: 50% 50%;
       }
 
   }
@@ -128,7 +128,7 @@
         <img src = "{{ .Params.specs_img }}" class = "w-100 mx-auto"/>
       </div>
       <div class="col-12 col-md-6 pt-20 font-14 font-md-16 font-lnh18 specification">
-        <h2 class="font-30 font-lnh36 font-md-36 font-weight-black font-md-lnh48 pb-20">Technical specifications</h2>
+        <h2 class="font-30 font-lnh36 font-md-36 font-weight-black font-md-lnh48 pb-20">{{ i18n "tech_specs" }}</h2>
         <div class = "table-responsive">
         <table class = "text-left">
 
@@ -150,7 +150,7 @@
   <div class = "container" id = "products">
       <div class = "row justify-content-center pt-60">
           <div class="col-9 col-md-6 col-lg-4 pb-30 mx-auto text-center">
-              <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>The platform</span></div>
+              <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "the_platform" }}</span></div>
           </div>
       </div>
       <div class = "row justify-content-center px-10">
@@ -159,8 +159,9 @@
           <div class = "col-12 px-30 pl-md-60 mb-20 content-block">
           <div class = "row">
               <div class = "col-12 col-md-6 pt-40 pt-md-90 pb-30 pb-md-120">
-                  <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30">The device is one of the many CHESTER configurations</h2>
-                  <p class = "font-20 font-md-20 pb-10">CHESTER is an extensible IoT gateway for Industry 4.0, smart city, e-metering, and agricultural applications. It's highly configurable with ZephryRTOS.</p>
+                  <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>{{ i18n "built_on_top_of" }}</span></div>
+                  <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30">{{ i18n "configurable_gateway" }}</h2>
+                  <p class = "font-20 font-md-20 pb-10">{{ i18n "configurable_gateway_desc" }}</p>
                   <a href = "{{ .Permalink }}" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
               </div>
               <div class = "col-12 col-md-6 pt-30 pr-0 chester-1">
