@@ -1,0 +1,182 @@
+{{ define "header" }}
+  {{ partial "header.html" . }}
+{{ end }}
+
+
+{{ define "main" }}
+
+<div class = "chester-catalog">
+<section>
+  <div class=" d-flex">
+      <div class="container">
+            <div class="row pb-10">
+                <div class="col-12 col-md-10 col-xl-8 mx-auto text-center">
+                    <h1 class="text-center pb-20 font-weight-black font-44 font-md-64 font-xl-72 font-md-lnh68">{{ .Title }}</h1>
+                    <!--<div class="font-gray2 mb-30 font-font2 font-weight-bold font-24"><span>{{ .Params.heading | safeHTML }}</span></div>-->
+                    <p class="font-24 font-gray2 font-lnh37 mb-20">{{ .Params.perex | safeHTML }}</p>
+                    {{ with .Params.buy_link }}<a href="{{ . }}" target="_blank" class="font-lnh24 py-15 px-20 px-md-40 mb-20 d-inline-block font-weight-bold font-font2 font-white font-20 font-md-16 bg-red">{{ i18n "buy_now" }} <span class ="font-md-20">→</span></a>{{ end }}
+                </div>
+            </div>
+      </div>
+  </div>
+</section>
+
+<section>
+    <div class = "container">
+        <div class = "row justify-content-center pb-md-30">
+            <div class = "col-12 col-md-8">
+                <div class = "video-container">
+                    <iframe src="https://www.youtube-nocookie.com/embed/nxFmnek50LM?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+</div>
+<!--
+<section>
+  <div class = "container">
+      <div class = "row justify-content-center pb-md-30">
+          <div class = "col-12 col-md-9">
+              <img src = "{{ .Params.image }}" class = "{{ .Params.image_w }}"/>
+          </div>
+      </div>
+  </div>
+</section>-->
+
+<style>
+
+.chester-catalog{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(to bottom right, #caf1ff, #f3fcff); 
+}
+.video-container{
+    display: block;
+    margin:0;
+    width:auto;
+    margin-top: 0;
+    border-radius: 7px;
+    max-width: 100%;
+    height: 450px;
+    overflow: hidden;
+
+  }
+  .video-container iframe{
+      position: relative;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+  }
+
+  .content-block{
+      background-image: linear-gradient(to bottom right, #ebb50e, #ffd966); 
+      background-size: 100%; 
+      border-radius: 7px;
+  }
+  .content-block--gray{
+      background-image: linear-gradient(to bottom right, #cccccc, #b1adad); 
+  }
+  .content-block--gray2{
+      background-image: linear-gradient(to bottom right, #ffffff, #ececec); 
+  }
+
+  .content-block--battery{
+    background-image: url('/_assets/images/configurations/wmbus_4.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+  .chester-1{
+      background-size: 100%; 
+      border-radius: 7px; 
+      background-position: 50% 50%; 
+      background-image: url('/_assets/images/configurations/configurable-gateway.png');
+      background-repeat: no-repeat;
+  }
+  @media(max-width: 769px){
+      .chester-1{
+          height: 300px;
+          background-position: 50% 100%;
+      }
+
+  }
+  @media(max-width: 1281px){
+      .chester-1{
+          background-position: 50% 50%;
+      }
+
+  }
+</style>
+
+
+<section>
+  <div class = "container" id = "products">
+      <div class = "row justify-content-center">
+          
+          {{ .Content }}
+
+      </div>
+  </div>
+</section>
+
+<section>
+  <div class = "container">
+    <div class = "row pt-60 align-items-center">
+      <div class = "col-12 col-md-6 text-center">
+        <img src = "{{ .Params.specs_img }}" class = "w-100 mx-auto"/>
+      </div>
+      <div class="col-12 col-md-6 pt-20 font-14 font-md-16 font-lnh18 specification">
+        <h2 class="font-30 font-lnh36 font-md-36 font-weight-black font-md-lnh48 pb-20">{{ i18n "tech_specs" }}</h2>
+        <div class = "table-responsive">
+        <table class = "text-left">
+
+            {{ range .Params.specs }}
+            <tr>
+                <td><strong>{{ index . 0 }}</strong></td>
+                <td>{{ index . 1 }}</td>
+            </tr>
+            {{ end }}
+            
+        </table>
+    </div>
+</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class = "container" id = "products">
+      <div class = "row justify-content-center pt-60">
+          <div class="col-9 col-md-6 col-lg-4 pb-30 mx-auto text-center">
+              <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "the_platform" }}</span></div>
+          </div>
+      </div>
+      <div class = "row justify-content-center px-10">
+          
+          {{ with .Site.GetPage "/chester" }}
+          <div class = "col-12 px-30 pl-md-60 mb-20 content-block">
+          <div class = "row">
+              <div class = "col-12 col-md-6 pt-40 pt-md-90 pb-30 pb-md-120">
+                  <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>{{ i18n "built_on_top_of" }}</span></div>
+                  <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30">{{ i18n "configurable_gateway" }}</h2>
+                  <p class = "font-20 font-md-20 pb-10">{{ i18n "configurable_gateway_desc" }}</p>
+                  <a href = "{{ .Permalink }}" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
+              </div>
+              <div class = "col-12 col-md-6 pt-30 pr-0 chester-1">
+
+              </div>
+          </div>
+      </div> 
+          {{ end }}
+      </div>
+  </div>
+</section>
+
+<footer>
+{{ end }}
+
+{{ define "additional-scripts" }}
+
+{{ end }}

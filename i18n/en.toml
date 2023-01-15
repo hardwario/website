@@ -103,6 +103,27 @@ other = "Our story"
 [we_believe]
 other = "We believe everything revolves around the Internet of Things (IoT). Our goal is to bring the benefits of this cutting-edge technology to companies and individuals around the globe. Our IoT devices help our clients in industry, safety, security, agriculture, education and everyday life."
 
+[read_full_study]
+other = "Read the full case study"
+
+[get_full_content]
+other = "Get this and other case studies now"
+
+[download_pdf]
+other = "Download Case Studies"
+
+[download_case_study]
+other = "We'll send you<br/> all case studies<br/> to your inbox"
+
+[case_studies]
+other = "Case studies"
+
+[other_case_studies]
+other = "Other successful projects"
+
+[successful_projects]
+other = "Successful projects"
+
 [iot_multisensor] 
 other = "Environmental IoT Multisensor"  
 
@@ -182,7 +203,7 @@ other = "Protection level"
 other = "Overview"
 
 [tech_specs]
-other = "Tech Specs"
+other = "Technical specifications"
 
 [order_cooper]
 other = "Get COOPER"
@@ -339,26 +360,7 @@ other = "VOC concentration"
 
 [interested_in_cooper]
 other = "I'm interested in COOPER"
-[read_full_study]
-other = "Read the full case study"
 
-[get_full_content]
-other = "Get this and other case studies now"
-
-[download_pdf]
-other = "Download Case Studies"
-
-[download_case_study]
-other = "We'll send you<br/> all case studies<br/> to your inbox"
-
-[case_studies]
-other = "Case studies"
-
-[other_case_studies]
-other = "Load more projects"
-
-[successful_projects]
-other = "Successful projects"
 [dev_blog]
 other = "Latest articles for developers"
 
@@ -933,6 +935,43 @@ other = "4x low-side switch"
 
 [x9_2]
 other = "Control external relays with protected low-side switches"
+
+[about_cloud]
+other = "Description of HARDWARIO Cloud"
+
+[device_management]
+other = "Seamless management of your devices"
+
+[device_management_text]
+other = "Have access to all your HARDWARIO devices through the web portal. Manage them all in one place undependently of communication technology, group them into organizations, groups and assign access to users."
+
+[callbacks]
+other = "Easy integration with Callbacks"
+
+[callbacks_text]
+other = "Create easily any number of Callbacks for each device group to integrate the device with your system or popular applications from Microsoft, Amazon, Ubidots, Blynk and others."
+
+[rest]
+other = "Documented REST&nbsp;API"
+
+[rest_text]
+other = "Use the REST API to integrate your device with your system. User-friendly documentation is available online - start integrating&nbsp;right away."
+
+[secure_robust]
+other = "Secure and robust solution"
+
+[secure_robust_text]
+other = "HARDWARIO Cloud is a scalable cloud solution that meets strict security requirements. Data is stored for you for at least 1 year and you can rely on personal support."
+
+[get_cloud]
+other = "HARDWARIO Cloud Offer"
+
+[get_cloud_text]
+other = "The price of HARDWARIO Cloud is 2 EUR / device / month. The price includes access to the web portal, the ability to set up callbacks and use the REST API, as well as IoT connectivity according to the selected technology."
+
+[play_intro]
+other = "Play video"
+
 [for_all_os]
 other = "Versions for all operating systems"
 
@@ -1129,6 +1168,9 @@ other = "min read"
 
 [buy_it_now]
 other = "Add to cart"
+
+[buy_now]
+other = "BUY NOW"
 
 [recommended]
 other = "Most Popular"
@@ -1479,13 +1521,14 @@ other = "The latest from HARDWARIO"
 other = "No Worries IoT"
 
 [partners_projects]
-other = "Successful projects of our&nbsp;partners"
+other = "Projects of our partners"
 
 [meet_platforms]
 other = "Meet our platforms"
 
 [platforms_description]
 other = "They work on batteries for several years, with the ability to connect to the Internet from almost anywhere and can be easily integrated with other systems."
+
 [improve_company]
 other = "Fast non-invasive industry 4.0 proof&nbsp;of&nbsp;concepts"
 
@@ -1806,42 +1849,6 @@ other = "We share more projects on Hackster.io"
 [hackster_button]
 other = "Show me hackster.io projects"
 
-[about_cloud]
-other = "Description of HARDWARIO Cloud"
-
-[device_management]
-other = "Seamless management of your devices"
-
-[device_management_text]
-other = "Have access to all your HARDWARIO devices through the web portal. Manage them all in one place undependently of communication technology, group them into organizations, groups and assign access to users."
-
-[callbacks]
-other = "Easy integration with Callbacks"
-
-[callbacks_text]
-other = "Create easily any number of Callbacks for each device group to integrate the device with your system or popular applications from Microsoft, Amazon, Ubidots, Blynk and others."
-
-[rest]
-other = "Documented REST&nbsp;API"
-
-[rest_text]
-other = "Use the REST API to integrate your device with your system. User-friendly documentation is available online - start integrating&nbsp;right away."
-
-[secure_robust]
-other = "Secure and robust solution"
-
-[secure_robust_text]
-other = "HARDWARIO Cloud is a scalable cloud solution that meets strict security requirements. Data is stored for you for at least 1 year and you can rely on personal support."
-
-[get_cloud]
-other = "HARDWARIO Cloud Offer"
-
-[get_cloud_text]
-other = "The price of HARDWARIO Cloud is 2 EUR / device / month. The price includes access to the web portal, the ability to set up callbacks and use the REST API, as well as IoT connectivity according to the selected technology."
-
-[play_intro]
-other = "Play video"
-
 [academy_text]
 other = "We will teach you the basics of the Internet of Things and working with HARDWARIO products. We also organize webinars and seminars."
 
@@ -1950,3 +1957,15 @@ other = "Play video"
 
 [more_articles]
 other = "More articles"
+
+[the_platform]
+other = "The platform"
+
+[built_on_top_of]
+other = "Built on top of the"
+
+[configurable_gateway]
+other = "Configurable IoT Gateway CHESTER"
+
+[configurable_gateway_desc]
+other = "CHESTER is an extensible IoT gateway for Industry 4.0, smart city, e-metering, and agricultural applications. It's highly configurable with Zephyr RTOS and hardware expansion modules."

@@ -265,8 +265,8 @@ other = "Mittwoch, 29. Juni (15 Uhr MEZ)"
 [banner_3]
 other = "Alles, was Sie über LPWAN und Satellitentechnologien wissen müssen"
 
-[industries]
-other = "Industrien"
+[teach_engaging_way]
+other = "STEM-Bildung auf der Grundlage echter IoT&nbsp;-Projekte"
 
 [use_cases]
 other = "Anwendungsfälle"
@@ -889,8 +889,6 @@ other = "Der Preis für HARDWARIO Cloud beträgt 2 EUR / Gerät / Monat. Der Pre
 
 [play_intro]
 other = "Video abspielen"
-[teach_engaging_way]
-other = "STEM-Bildung auf der Grundlage echter IoT&nbsp;-Projekte"
 
 [iot_kit_is_complex]
 other = "Ein umfassendes System attraktiver STEM-Bildung für Schulen, Hobbygruppen und Firmenschulungen, das auf der Arbeit mit echten IoT-Projekten basiert."

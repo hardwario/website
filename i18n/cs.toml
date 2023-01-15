@@ -273,6 +273,46 @@ other = "Koncentrace VOC"
 
 [interested_in_cooper]
 other = "Zajímá mě COOPER"
+
+[dev_blog]
+other = "Poslední články pro vývéjáře"
+
+[tower_text]
+other = "Zdroje informací pro průmyslovou IoT stavebnici, se kterou snadno postavíte zařízení pro průmysl 4.0."
+
+[go_to_tower]
+other = "Otevřít tower.hardwario.com"
+
+[go_to_sdk]
+other = "Otevřít sdk.hardwario.com"
+
+[go_to_chester]
+other = "Otevřít chester.hardwario.com"
+
+[chester_text]
+other = "Zdroje informací pro univerzální zařízení s velmi nízkou spotřebou komunikují prostřednictvím LPWAN." 
+
+[read_full_study]
+other = "Přečtěte si celou případovou studii"
+
+[get_full_content]
+other = "Stáhněte si tuto a další případové studie."
+
+[download_pdf]
+other = "Stáhnout případovky"
+
+[download_case_study]
+other = "Zašleme vám<br/> všechny případové studie<br/> na váš e-mail"
+
+[case_studies]
+other = "Případové studie"
+
+[other_case_studies]
+other = "Další úspěšné projekty"
+
+[successful_projects]
+other = "Úspěšné projekty"
+
 [case_study]
 other = "Případová studie"
 
@@ -329,6 +369,9 @@ other = "min. čtení"
 
 [buy_it_now]
 other = "Do košíku"
+
+[buy_now]
+other = "KUP TEĎ"
 
 [recommended]
 other = "Nejpopulárnější"
@@ -516,23 +559,6 @@ other = "Fotky, obrázky, loga a ilustrace"
 [visual_basis]
 other = "Vizuální podklady pro spolupráci"
 
-[dev_blog]
-other = "Poslední články pro vývojáře"
-
-[tower_text]
-other = "Zdroje informací pro průmyslovou IoT stavebnici, se kterou snadno postavíte zařízení pro průmysl 4.0."
-
-[go_to_tower]
-other = "Otevřít tower.hardwario.com"
-
-[go_to_sdk]
-other = "Otevřít sdk.hardwario.com"
-
-[go_to_chester]
-other = "Otevřít chester.hardwario.com"
-
-[chester_text]
-other = "Zdroje informací pro univerzální zařízení s velmi nízkou spotřebou komunikují prostřednictvím LPWAN." 
 [for_all_os]
 other = "Verze pro všechny operační systémy"
 
@@ -845,13 +871,14 @@ other = "To nejnovější od HARDWARIO"
 other = "IoT bez starostí"
 
 [partners_projects]
-other = "Úspěšné projekty našich partnerů"
+other = "Projekty našich partnerů"
 
 [meet_platforms]
 other = "Představujeme naše platformy"
 
 [platforms_description]
 other = "Pracují na baterie několik let, mají možnost připojení k internetu téměř odkudkoli a lze je snadno integrovat s dalšími systémy."
+
 [improve_company]
 other = "Rychlé neinvazivní ověřování konceptů průmyslu&nbsp;4.0"
 
@@ -947,26 +974,7 @@ other = "Cena HARDWARIO Cloud je 50 Kč / zařízení / měsíc. Součástí cen
 
 [play_intro]
 other = "Přehrát video"
-[read_full_study]
-other = "Přečtěte si celou případovou studii"
 
-[get_full_content]
-other = "Stáhněte si tuto a další případové studie."
-
-[download_pdf]
-other = "Stáhnout případovky"
-
-[download_case_study]
-other = "Zašleme vám<br/> všechny případové studie<br/> na váš e-mail"
-
-[case_studies]
-other = "Případové studie"
-
-[other_case_studies]
-other = "Další úspěšné projekty"
-
-[successful_projects]
-other = "Úspěšné projekty"
 [industrial_iot_kit]
 other = "Průmyslová IoT&nbsp;stavebnice"
 
@@ -1122,6 +1130,124 @@ other = "Monitoring<br/>veličin"
 
 [lpwan_tester]
 other = "Tester<br/>LPWAN"
+
+[partnerships_reasons]
+other = "3 hlavní důvody"
+
+[why_became_partners]
+other = "Proč se stát partnerem HARDWARIO"
+
+[inovative_products]
+other = "Inovativní<br/> produkty"
+
+[work_with_hitech_products]
+other = "Budete pracovat s technologicky vyspělými produkty, které se jednoduše instalují a spravují."
+
+[full_support]
+other = "Osobní<br/> podpora"
+
+[help_with_tech_marketing_sales]
+other = "Pomůžeme vám s technologiemi, marketingem i obchodem."
+
+[guaranteed_reward]
+other = "Garantovaná<br/> odměna"
+
+[agreed_margin]
+other = "Jako náš partner víte, na čem jste. Aktivně spravujeme partnerský program s cílem držet dohodnutou marži."
+
+[your_products_your_projects]
+other = "Vaše produkty pro&nbsp;vaše&nbsp;projekty"
+
+[custom_solutions]
+other = "Díky našemu multifunkčnímu modulárnímu systému si stavíte <strong>vlastní řešení</strong> pro <strong>vaše projekty v průmyslu i domácnostech</strong>. Nejčastěji&nbsp;nacházejí uplatnění v těchto oblastech:"
+
+[predictive_maintenance]
+other = "Prediktivní údržba"
+
+[machine_people_productivity]
+other = "Monitoring produktivity strojů a&nbsp;lidí"
+
+[work_security_health]
+other = "Bezpečnost a ochrana zdraví při práci"
+
+[environmental_monitoring]
+other = "Monitoring environmentálních podmínek"
+
+[logistics_purchasing]
+other = "Optimalizace v&nbsp;logistice a&nbsp;nákupu"
+
+[industry4_0]
+other = "Průmysl 4.0"
+
+[hardwario_academy]
+other = "Akademie HARDWARIO"
+
+[educating_partners]
+other = "Naše partnery a&nbsp;širokou veřejnost vzděláváme prostřednictvím výukových materiálů, webinářů a&nbsp;seminářů. Představujeme aktuální trendy a&nbsp;učíme jak pracovat s&nbsp;našimi produkty a&nbsp;dostupnými integracemi."
+
+[events_offer]
+other = "Nabídka akcí"
+
+[be_an_expert]
+other = "Buďte s námi experty na IoT a LPWAN technologie"
+
+[fill_partners_form]
+other = "Vyplňte formulář a my vám obratem zašleme postup uzavření partnerství."
+
+[multifunctional_kits]
+other = "Multifunkční průmyslová IoT stavebnice"
+
+[easy_to_build_devices]
+other = "Snadno sestavitelná nízkoenergetická zařízení s 50+ moduly a mnoha možnostmi bezdrátového a sběrnicového připojení."
+
+[multipurpose_hub]
+other = "Víceúčelový IoT LPWAN hub CHESTER"
+
+[process_transfer]
+other = "Zařízení určeno ke zpracování a&nbsp;přenosu dat z&nbsp;externích senzorů a&nbsp;rozhraní prostřednictvím technologií NB-IoT nebo LoRa."
+
+[cloud_services]
+other = "HARDWARIO<br/> Cloud"
+
+[connect_integrate]
+other = "Každé LPWAN zařízení může být připojeno do cloudu. Odtud je možné všechna zařízení spravovat a&nbsp;integrovat s&nbsp;dalšími službami."
+
+[partner_testimonial]
+other = "Naše inovativní technologická řešení zvyšující produktivitu a&nbsp;zlevňující výrobu stavíme na produktech HARDWARIO. Oceňujeme možnost customizace a osobní technickou podporu."
+
+[partner_customer]
+other = "CTO IQHUBS"
+
+[products_technologies]
+other = "Produkty a technologie HARDWARIO"
+
+[learn_more_kit]
+other = "Více o IoT stavebnici"
+
+[learn_more_hub]
+other = "Více o IoT hubu"
+
+[learn_more_bespoke]
+other = "Více o zakázkovém vývoji"
+
+[show_all_projects]
+other = "Další projekty"
+
+[starter_projects]
+other = "Tak co, jakým projektem ovládneš svět dnes?"
+
+[table_of_contents]
+other = "Obsah"
+
+[hackster_heading]
+other = "Více projektů sdílíme na Hackster.io"
+
+[hackster_text]
+other = "Mnoho projektů zveřejňujeme nejen my, ale i další mejkři na platformě Hackster.io."
+
+[hackster_button]
+other = "Chci vidět projekty na hackster.io"
+
 [watch_video]
 other = "Podívejte se na video"
 
@@ -1235,9 +1361,6 @@ other = "Všechny&nbsp;příklady&nbsp;použití"
 
 [machine_monitoring]
 other = "Sledování strojů"
-
-[predictive_maintenance]
-other = "Prediktivní údržba"
 
 [event_alerting]
 other = "Upozornění na události"
@@ -1667,116 +1790,6 @@ other = "4x nízkfrekvenční switch"
 
 [x9_2]
 other = "Ovládání externích relé s chráněnými nízkostěnnými spínači"
-[partnerships_reasons]
-other = "3 hlavní důvody"
-
-[why_became_partners]
-other = "Proč se stát partnerem HARDWARIO"
-
-[inovative_products]
-other = "Inovativní<br/> produkty"
-
-[work_with_hitech_products]
-other = "Budete pracovat s technologicky vyspělými produkty, které se jednoduše instalují a spravují."
-
-[full_support]
-other = "Osobní<br/> podpora"
-
-[help_with_tech_marketing_sales]
-other = "Pomůžeme vám s technologiemi, marketingem i obchodem."
-
-[guaranteed_reward]
-other = "Garantovaná<br/> odměna"
-
-[agreed_margin]
-other = "Jako náš partner víte, na čem jste. Aktivně spravujeme partnerský program s cílem držet dohodnutou marži."
-
-[your_products_your_projects]
-other = "Vaše produkty pro&nbsp;vaše&nbsp;projekty"
-
-[custom_solutions]
-other = "Díky našemu multifunkčnímu modulárnímu systému si stavíte <strong>vlastní řešení</strong> pro <strong>vaše projekty v průmyslu i domácnostech</strong>. Nejčastěji&nbsp;nacházejí uplatnění v těchto oblastech:"
-
-[machine_people_productivity]
-other = "Monitoring produktivity strojů a&nbsp;lidí"
-
-[work_security_health]
-other = "Bezpečnost a ochrana zdraví při práci"
-
-[logistics_purchasing]
-other = "Optimalizace v&nbsp;logistice a&nbsp;nákupu"
-
-[industry4_0]
-other = "Průmysl 4.0"
-
-[hardwario_academy]
-other = "Akademie HARDWARIO"
-
-[educating_partners]
-other = "Naše partnery a&nbsp;širokou veřejnost vzděláváme prostřednictvím výukových materiálů, webinářů a&nbsp;seminářů. Představujeme aktuální trendy a&nbsp;učíme jak pracovat s&nbsp;našimi produkty a&nbsp;dostupnými integracemi."
-
-[events_offer]
-other = "Nabídka akcí"
-
-[be_an_expert]
-other = "Buďte s námi experty na IoT a LPWAN technologie"
-
-[fill_partners_form]
-other = "Vyplňte formulář a my vám obratem zašleme postup uzavření partnerství."
-
-[multifunctional_kits]
-other = "Multifunkční průmyslová IoT stavebnice"
-
-[easy_to_build_devices]
-other = "Snadno sestavitelná nízkoenergetická zařízení s 50+ moduly a mnoha možnostmi bezdrátového a sběrnicového připojení."
-
-[multipurpose_hub]
-other = "Víceúčelový IoT LPWAN hub CHESTER"
-
-[process_transfer]
-other = "Zařízení určeno ke zpracování a&nbsp;přenosu dat z&nbsp;externích senzorů a&nbsp;rozhraní prostřednictvím technologií NB-IoT nebo LoRa."
-
-[cloud_services]
-other = "HARDWARIO<br/> Cloud"
-
-[connect_integrate]
-other = "Každé LPWAN zařízení může být připojeno do cloudu. Odtud je možné všechna zařízení spravovat a&nbsp;integrovat s&nbsp;dalšími službami."
-
-[partner_testimonial]
-other = "Naše inovativní technologická řešení zvyšující produktivitu a&nbsp;zlevňující výrobu stavíme na produktech HARDWARIO. Oceňujeme možnost customizace a osobní technickou podporu."
-
-[partner_customer]
-other = "CTO IQHUBS"
-
-[products_technologies]
-other = "Produkty a technologie HARDWARIO"
-
-[learn_more_kit]
-other = "Více o IoT stavebnici"
-
-[learn_more_hub]
-other = "Více o IoT hubu"
-
-[learn_more_bespoke]
-other = "Více o zakázkovém vývoji"
-
-[show_all_projects]
-other = "Další projekty"
-
-[starter_projects]
-other = "Tak co, jakým projektem ovládneš svět dnes?"
-
-[table_of_contents]
-other = "Obsah"
-
-[hackster_heading]
-other = "Více projektů sdílíme na Hackster.io"
-
-[hackster_text]
-other = "Mnoho projektů zveřejňujeme nejen my, ale i další mejkři na platformě Hackster.io."
-
-[hackster_button]
-other = "Chci vidět projekty na hackster.io"
 
 [academy_text]
 other = "Naučíme vás základy internetu věcí i práce s produkty HARDWARIO. Pořádáme také webináře a semináře."
@@ -1849,6 +1862,7 @@ other = "Stáhněte si nástroj, se kterým budete ovládat IoT stavebnici TOWER
 
 [download_link]
 other = "Ke stažení" 
+
 [iot_hub_start]
 other = "The Quick Start Guide"
 
@@ -1886,8 +1900,24 @@ other = "Kontaktujte nás"
 
 [hardwario_approach]
 other = "Přístup HARDWARIO"
+
 [play_video]
 other = "Přehrát video"
 
 [more_articles]
 other = "Více článků"
+
+[tech_specs]
+other = "Technická specifikace"
+
+[the_platform]
+other = "Platforma"
+
+[built_on_top_of]
+other = "Postaveno na"
+
+[configurable_gateway]
+other = "Konfigurovatelné IoT bráně CHESTER"
+
+[configurable_gateway_desc]
+other = "CHESTER je rozšiřitelná brána IoT pro aplikace Průmysl 4.0, chytrá města, elektronické měření a zemědělství. Je vysoce konfigurovatelná pomocí systému Zephyr RTOS a hardwarových rozšiřujících modulů."
