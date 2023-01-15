@@ -10,7 +10,146 @@
 
 {{ end }}
 
-  {{ partial "header.html" . }}
+  <!--{ partial "header.html" . }-->
+
+
+<nav>
+
+<div class="top-nav">
+  <div class = "container">
+    <div class = "row">
+      <div class="col-2 text-left">
+        <a href="{{ .Site.Params.baseURL }}"><img src = "/_assets/images/hw-logo.svg"  style = "height: 36px; margin: 7px 0"/></a>
+      </div>
+      <div class = "col-10 text-left">
+        <ul class = "menu">
+          <li><a href = "#">Products</a></li>
+          <li><a href = "#">Solutions</a></li>
+          <li><a href = "#">Case Studies</a></li>
+          <li><a href = "#">Support</a></li>
+          <li><a href = "#">Blog</a></li>
+          <li><a href = "#">Company</a></li>
+          <li><a href = "#"><span class = "nav-cta">Book a meeting</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class = "second-nav">
+  <div class = "container">
+    <div class = "row">
+      <div class="col-2 text-left">
+       
+      </div>
+      <div class = "col-10 text-left">
+        <ul class = "menu">
+          <li><a href = "#">Overview</a></li>
+          <li><a href = "#">Catalog applications</a></li>
+          <li><a href = "#">For developers</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class = "second-nav" style = "top: 100px;"> 
+  <div class = "container">
+    <div class = "row">
+      <div class="col-2 text-left">
+       <span class = "second-nav-name">CHESTER Clime</span>
+      </div>
+      <div class = "col-10 text-right">
+        <ul class = "menu">
+          <li><a href = "#">Overview</a></li>
+          <li><a href = "#">Catalog applications</a></li>
+          <li><a href = "#">For developers</a></li>
+          <li><a href = "#"><span class = "nav-cta">Buy Now</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</nav>
+
+<style>
+  body{
+    padding-top: 100px;
+  }
+  .top-nav{
+    background: #f2f2f2;
+    background-image: linear-gradient(to bottom right, #ccc, #f2f2f2);
+    border-bottom: solid 0.25px #b3b3b3;
+    /*box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;*/
+    height: 50px;
+    margin-bottom: 45px;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9000;
+    opacity: 0.96;
+  }
+  .top-nav .menu{
+    list-style: none;
+  }
+  .top-nav .menu li{
+    display: inline-block;
+  }
+  .top-nav .menu li a{
+    padding: 0 15px;
+    height: 55px;
+    line-height: 55px;
+    display: block;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  .nav-cta{
+    background: #e30427;
+    color: white;
+    padding: 5px 7px;
+    border-radius: 7px;
+    font-weight: 700;
+  }
+
+  .second-nav{
+    background: #1a1a1a;
+    /*background-image: linear-gradient(to bottom right, #1a1a1a, #666666);*/
+    border-bottom: solid 0.25px #ccc;
+    /*box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;*/
+    height: 50px;
+    margin-bottom: 45px;
+    position:fixed;
+    top: 50px;
+    width: 100%;
+    z-index: 9000;
+    opacity: 0.96;
+  }
+
+  .second-nav .second-nav-name{
+    line-height: 55px;
+    font-size: 19px;
+    font-weight: 700;
+    text-align: right;
+    color: #fff;
+  }
+  .second-nav .menu{
+    list-style: none;
+  }
+  .second-nav .menu li{
+    display: inline-block;
+  }
+  .second-nav .menu li a{
+    padding: 0 15px;
+    height: 55px;
+    line-height: 55px;
+    display: block;
+    color: #fff;
+    font-size: 14px;
+  }
+</style>
+
+
 
 {{ end }}
 <script src="/_assets/js/{{ index .Site.Data.js.hash "jquery.min.js" }}"></script>

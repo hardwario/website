@@ -2,13 +2,13 @@ const gulp = require('gulp');
 const gutil = require('gulp-util');
 const autoprefixer = require('gulp-autoprefixer');
 const child = require('child_process');
-const sass = require("gulp-sass");
+const sass = require('gulp-sass')(require('sass'));
 const hash = require("gulp-hash");
 const del = require("del");
 const hugo = child.spawn('hugo', ['serve', '--bind=0.0.0.0']);
 var purify = require('gulp-purifycss');
 let cleanCSS = require('gulp-clean-css');
-
+const sass = require('gulp-sass')(require('sass'));
 gulp.task('hugo', () => {
   const hugo = child.spawn('hugo', ['serve']);
 
