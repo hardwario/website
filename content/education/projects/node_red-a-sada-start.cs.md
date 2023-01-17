@@ -58,7 +58,7 @@ Abychom si nevypisovali jen číselnou hodnotu, tak si vyzkoušíme node jménem
 
   ![](https://res.cloudinary.com/lukasfabik/image/upload/v1673622776/projects/node_red_start_set/node_red_start_change.png)
 
-5. Nastavte změnu číselné hodnoty takto: 
+5. Nastavte změnu číselných hodnot takto:  
 
    ```
    1 -> spodní straně.
@@ -68,3 +68,11 @@ Abychom si nevypisovali jen číselnou hodnotu, tak si vyzkoušíme node jménem
    5 -> levém boku.
    6 -> horní straně.
    ```
+U﻿ložte tlačítkem "Done".
+U﻿ložte tlačítkem "Done".
+
+6﻿. Poslední node který potřebujeme přidat je **text**, opět ze sekce **dashboard**. V tomto si můžeme změnit pole **Label**,například na _Krabička je na _, abychom tam neměli jen text na které straně je krabička položena. Další co si můžeme zvolit je to jak se k sobě bude **Label** a text zarovnávat. Toto nastavime zvolením políčka v sekci **Layout**. Náš příklad je zarovnán na střed (prostřední políčko v horním řádku). Opět naše nastavení potvrdíme tlačítkem **Done**.
+7. Naším posledním úkolem je propojení našich nodů a aplikace nasšeho nastavení kliknutím na tlačítko **Deploy**.
+8. Nyní by Váš dashboard měl vypadat zhruba takto:
+
+![](https://res.cloudinary.com/lukasfabik/image/upload/v1673961391/projects/node_red_start_set/node_red_start_finished_dashboard.png)
