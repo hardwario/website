@@ -57,10 +57,12 @@ Abychom si nevypisovali jen číselnou hodnotu, tak si vyzkoušíme node jménem
 * další podmínku přidáme tlačítkem **+ add** (**3**).
 
 5. Nastavte změnu číselné hodnoty takto: 
-   
-   1 -> spodní straně.
-   2 -> pravém boku.
-   3 -> zadní straně.
-   4 -> přední straně.
-   5 -> levém boku.
-   6 -> horní straně.
+
+   ```
+ 1 -> spodní straně.
+ 2 -> pravém boku.
+ 3 -> zadní straně.
+ 4 -> přední straně.
+ 5 -> levém boku.
+ 6 -> horní straně.
+   ```
