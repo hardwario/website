@@ -22,54 +22,28 @@
         <a href="{{ .Site.Params.baseURL }}"><img src = "/_assets/images/hw-logo.svg"  style = "height: 36px; margin: 7px 0"/></a>
       </div>
       <div class = "col-10 text-left">
+
+        {{ $solutions := where .Site.RegularPages "Section" "solutions" }}
+        {{ $cases := where .Site.RegularPages "Section" "use-cases" }}
         <ul class = "menu">
-          <li><a href = "#">Products</a></li>
-          <li><a href = "#">Solutions</a></li>
-          <li><a href = "#">Case Studies</a></li>
-          <li><a href = "#">Support</a></li>
-          <li><a href = "#">Blog</a></li>
-          <li><a href = "#">Company</a></li>
+
+          {{ range .Site.Menus.main }}
+          <li>
+            <a href = "{{ .URL }}" class = "{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} active {{ end }}">{{ .Name | safeHTML }}</a>
+          </li>
+          {{ end }}
           <li><a href = "#"><span class = "nav-cta">Book a meeting</span></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-<div class = "second-nav">
-  <div class = "container">
-    <div class = "row">
-      <div class="col-2 text-left">
-       
-      </div>
-      <div class = "col-10 text-left">
-        <ul class = "menu">
-          <li><a href = "#">Overview</a></li>
-          <li><a href = "#">Catalog applications</a></li>
-          <li><a href = "#">For developers</a></li>
+          
         </ul>
       </div>
     </div>
   </div>
 </div>
 
+{{ block "second-nav" . }}
 
-<div class = "second-nav" style = "top: 100px;"> 
-  <div class = "container">
-    <div class = "row">
-      <div class="col-2 text-left">
-       <span class = "second-nav-name">CHESTER Clime</span>
-      </div>
-      <div class = "col-10 text-right">
-        <ul class = "menu">
-          <li><a href = "#">Overview</a></li>
-          <li><a href = "#">Catalog applications</a></li>
-          <li><a href = "#">For developers</a></li>
-          <li><a href = "#"><span class = "nav-cta">Buy Now</span></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
+{{ end }}
+
 </nav>
 
 <style>
