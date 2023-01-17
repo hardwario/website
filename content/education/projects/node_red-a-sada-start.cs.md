@@ -56,13 +56,15 @@ Abychom si nevypisovali jen číselnou hodnotu, tak si vyzkoušíme node jménem
 * poté zadáme hodnotu kterou chceme porovnávat a jelikož je to v našem případě číslo, změníme toto v rozklikávacím menu které je v modrém rámečku (**2**). 
 * další podmínku přidáme tlačítkem **+ add** (**3**).
 
+  ![](https://res.cloudinary.com/lukasfabik/image/upload/v1673622776/projects/node_red_start_set/node_red_start_change.png)
+
 5. Nastavte změnu číselné hodnoty takto: 
 
    ```
- 1 -> spodní straně.
- 2 -> pravém boku.
- 3 -> zadní straně.
- 4 -> přední straně.
- 5 -> levém boku.
- 6 -> horní straně.
+   1 -> spodní straně.
+   2 -> pravém boku.
+   3 -> zadní straně.
+   4 -> přední straně.
+   5 -> levém boku.
+   6 -> horní straně.
    ```
