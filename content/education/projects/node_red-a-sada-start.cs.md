@@ -55,12 +55,10 @@ Abychom si nevypisovali jen číselnou hodnotu, tak si vyzkoušíme node jménem
 * nejdříve musíme u každého pravidla změnit porovnání ze **Set** na **Change** (**1**).
 * poté zadáme hodnotu kterou chceme porovnávat a jelikož je to v našem případě číslo, změníme toto v rozklikávacím menu které je v modrém rámečku (**2**). 
 * další podmínku přidáme tlačítkem **+ add** (**3**).
-
- Nastavte změnu číselné hodnoty takto: 
-
- 1 -> "spodní straně."
- 2 -> pravém boku.
- 3 -> zadní straně.
- 4 -> přední straně.
- 5 -> levém boku.
- 6 -> horní straně.
+*  Nastavte změnu číselné hodnoty takto: 
+*  1 -> "spodní straně."
+   2 -> pravém boku.
+   3 -> zadní straně.
+   4 -> přední straně.
+   5 -> levém boku.
+   6 -> horní straně.
