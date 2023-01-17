@@ -51,12 +51,15 @@ Abychom si nevypisovali jen číselnou hodnotu, tak si vyzkoušíme node jménem
 2. Pak si opět vložíme nový node **mqtt in** a do něj vložíme topic, který jsem si právě zkopírovali a uložíme. 
 3. Nyní budeme potřebovat node, kterým změníme číselnou hodnotu na text. Tohoto docílíme nodem který se jmenuje **change**. Tento najdeme v levém sloupci v části **function** a můžeme ho rovnou přetáhnout na plochu.
 4. Nyní tento node rozklikneme a budeme přidávat další pravidla, abychom obsáhly všechny varianty natočení. 
- - nejdříve musíme u každého pravidla změnit porovnání ze **Set** na **Change** (1).
- - poté zadáme hodnotu kterou chceme porovnávat a jelikož je to v našem případě číslo, změníme toto v rozklikávacím menu které je v modrém rámečku(2). 
- - další podmínku přidáme tlačítkem **+ add**, který je na obrázku pod číslem 3.
- 
+
+* nejdříve musíme u každého pravidla změnit porovnání ze **Set** na **Change** (1).
+* poté zadáme hodnotu kterou chceme porovnávat a jelikož je to v našem případě číslo, změníme toto v rozklikávacím menu které je v modrém rámečku(2). 
+* další podmínku přidáme tlačítkem **+ add**, který je na obrázku pod číslem 3.
+
  Nastavte změnu číselné hodnoty takto: 
- 1 -> spodní straně.
+
+
+ 1 -> "spodní straně."
  2 -> pravém boku.
  3 -> zadní straně.
  4 -> přední straně.
