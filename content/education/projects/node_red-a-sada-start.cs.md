@@ -78,3 +78,7 @@ Nastavení uložíme tlačítkem "Done".
 8. Nyní by Váš dashboard měl vypadat zhruba takto:
 
 ![](https://res.cloudinary.com/lukasfabik/image/upload/v1673961391/projects/node_red_start_set/node_red_start_finished_dashboard.png)
+
+#﻿# Zhodnocení
+
+Nyní už víme jak získáme data z naší sady a již je jen na Vás co s nimi podniknete. Věříme že byl tento návod užitečný a že Vám objasnil jak se sadou pracovat. Pokud by tomu tak nebylo a bylo by potřeba něco objasnit nebo doplnit, neváhejte nám napsat na ask@hardwario.com. 
