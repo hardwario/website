@@ -1,5 +1,5 @@
 ---
-title: Node_RED a sada Start
+title: Node-RED a sada Start
 draft: false
 date: 2023-01-12T12:57:30.783Z
 slug: node-red-start

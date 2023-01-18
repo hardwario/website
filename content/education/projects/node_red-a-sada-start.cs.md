@@ -8,17 +8,17 @@ meta_description: Používáme Node-RED se sadou Start
 ---
 ## Úvod
 
-N﻿ode-RED je jednoduchý, ale mocný nástroj a my si nyní ukážeme jak vytvořit jednoduchý dadshborad a zobrazovat v něm informace o počtu stisknutí tlačítka, teplotě a stavu naklonění. 
+N﻿ode-RED je jednoduchý, ale mocný nástroj a my si nyní ukážeme jak vytvořit jednoduchý dashboard a zobrazovat v něm informace o počtu stisknutí tlačítka, teplotě a stavu  otočení.
 
-T﻿ento projekt přímo navazuje na [Úvodní projekt sady Start](url) takže budeme potřebovat shodný HW. 
+Tento projekt přímo navazuje na [Úvodní projekt sady Start](url) takže budeme potřebovat shodný sadu.
 
-## K﻿olikrát jsem stiskl tlačítko?
+## Kolikrát jsem stiskl tlačítko?
 
-A﻿bychom mohli zobrazovat hodnotu stisknutí, musíme jí nejprve někde vzít.
+Abychom mohli zobrazovat hodnotu stisknutí, musíme jí nejprve někde vzít.
 
 1. P﻿okud nemáme, tak si spustíme **HARDWARIO Playground**. Z předešlého návodu víme že se nám informace zobrazují v **Messages** a pokud zde klikneme na řádek s topicem `node/motion-detector:0/push-button/-/event-count` tak se nám tento zkopíruje do schránky, což nám ještě potvrdí vyskakovací info panel. 
    P﻿okud bychom měli spárovaných více **Push button** modulů, tak se nám budou lišit v čísle za `*motion-detector:*`
-2. N﻿yní se přesuneme do **Functions**. Jde o vloženou aplikaci **Node-RED**, existuje k ní skvělá dokumentace, podpora i obrovská komunita uživatelů. Funguje na principu **vizuálního programování** - na plochu si přidáváme funkční bloky, kterým říkáme **nody**, a jejich spojením **vytvoříme funkční aplikaci** (flow).
+2. N﻿yní se přesuneme do **Functions**. Jde o vloženou aplikaci **Node-RED**, existuje k ní skvělá dokumentace, podpora i obrovská komunita uživatelů. Funguje na principu **vizuálního programování** - na plochu si přidáváme funkční bloky, kterým říkáme **nody**, a jejich propojením **vytvoříme funkční aplikaci** (flow). 
 3. Aby nás nic nepletlo, tak smažeme dva nody, které máme na ploše.
 4. Začneme přidáním nodu **mqtt in**. Najdeme jej vlevo v sekci **network**. Přetáhnutím jej vložíme na plochu.
 
