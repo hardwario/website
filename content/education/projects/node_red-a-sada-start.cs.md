@@ -10,7 +10,7 @@ meta_description: Používáme Node-RED se sadou Start
 
 N﻿ode-RED je jednoduchý, ale mocný nástroj a my si nyní ukážeme jak vytvořit jednoduchý dashboard a zobrazovat v něm informace o počtu stisknutí tlačítka, teplotě a stavu  otočení.
 
-Tento projekt přímo navazuje na [Úvodní projekt sady Start](url) takže budeme potřebovat shodný sadu.
+Tento projekt přímo navazuje na [Úvodní projekt sady Start](http://hardwario.com) takže budeme potřebovat shodný sadu.
 
 ## Kolikrát jsem stiskl tlačítko?
 
@@ -29,12 +29,12 @@ Abychom mohli zobrazovat hodnotu stisknutí, musíme jí nejprve někde vzít.
 ![Nastav topic](https://res.cloudinary.com/lukasfabik/image/upload/v1673529998/projects/shared_pictures/mqtt_inn_set_topic_button.png "Nastav topic")
 
 6. Nyní musíme tuto zprávu předat pro zobrazení do **dashboardu**. To uděláme tak, že si vlevo ze sekce *dashboard* vybereme node **text** a přetáhmene ho vedle **mqtt in**. 
-7. Po rozkliknutí tohoto nodu si můžeme změnit **Label** například na **Tlačítko stisknuto:**  a zvolit zarovnání v sekci **Layout**. Potvrdíme nastavení kliknutím na tlačítko **Done**. Posledním krokem je propejení těchto 2 nodu dohromady. Je to snadné, stačí stisknout šedý čtverec jednoho nodu a myší jej natáhnout k šedému čtverci druhého nodu. 
-8. Po překliknutí do záložky **Dashboard** bychom měli vidět zvolený popisek a počet stisknutí. 
+7. Po rozkliknutí tohoto nodu si můžeme změnit **Label** například na **Tlačítko stisknuto: **  a zvolit zarovnání v sekci **Layout**. Potvrdíme nastavení kliknutím na tlačítko **Done**. Posledním krokem je propojení těchto 2 nodu dohromady. Je to snadné, stačí stisknout šedý čtverec jednoho nodu a myší jej natáhnout k šedému čtverci druhého nodu. 
+8. Po kliknutí na záložku **Dashboard** bychom měli vidět zvolený popisek a počet stisknutí. 
 
 ## Jaká je tu teplota?
 
-1. Vraťíme se do záložky **Messages** a najdeme zprávu s teplotou. Klikneme na tento řádek pro zkopírovánín topicu (`node/push-button:0/thermometer/0:1/temperature`) do schránky.
+1. Vrátíme se do záložky **Messages** a najdeme zprávu s teplotou. Klikneme na její řádek pro zkopírovánín topicu (`node/push-button:0/thermometer/0:1/temperature`) do schránky.
 2. Přejdeme zpět do sekce **Functions**, vložíme si nový **mqtt in** node, rozkliknutím ho otevřeme a vložíme pomocí **CTRL+V** obsah schránky do pole **Topic** a uložíme nastavení tlačítkem **Done**.
 3. Nyní vložíme na plochu node **Gauge**, najdeme ho mezi nody v sekci **dashboard**.
 4. Pro změnu jeho nastavení na něj dvakrát klikneme, a poté změníme hodnotu **max** v sekci **Range** na **50**. Také si můžeme změnit **Label**, například na **Teplota:**, abychom věděli na co koukáme.  Uložíme nastavení tlačítkem **Done**.
