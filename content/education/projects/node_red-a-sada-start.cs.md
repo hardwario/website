@@ -44,7 +44,7 @@ A﻿bychom mohli zobrazovat hodnotu stisknutí, musíme jí nejprve někde vzít
 
 ![Teplota a tlačítko](https://res.cloudinary.com/lukasfabik/image/upload/v1673618638/projects/node_red_start_set/node_red_start_temp_button.png "Teplota a tlačítko")
 
-## Orientace jako poslední..
+## Jak máma položenou sadu?
 
 Abychom si nevypisovali jen číselnou hodnotu, tak si vyzkoušíme node jménem **switch**.
 
