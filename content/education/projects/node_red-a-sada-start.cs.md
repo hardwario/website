@@ -71,8 +71,11 @@ Abychom si nevypisovali jen číselnou hodnotu, tak si vyzkoušíme node jménem
    ```
 
    Nastavení uložíme tlačítkem "Done".
+
 6. Poslední node který potřebujeme přidat je **text**, opět ze sekce **Dashboard**. V tomto nodu si můžeme změnit pole **Label**, například na *"Krabička je na "*, abychom tam neměli jen text na které straně je krabička položena. Další co si můžeme zvolit je, to jak se k sobě bude **Label** a text zarovnávat. Toto nastavíme zvolením políčka v sekci **Layout**. Náš příklad je zarovnán na střed (prostřední políčko v horním řádku). Opět naše nastavení potvrdíme tlačítkem **Done**.
+
 7. Naším posledním úkolem je propojení našich nodů a aplikace našeho nastavení kliknutím na tlačítko **Deploy**.
+
 8. Nyní by Váš **Dashboard** měl vypadat zhruba takto:
 
    ![](https://res.cloudinary.com/lukasfabik/image/upload/v1673961391/projects/node_red_start_set/node_red_start_finished_dashboard.png)
