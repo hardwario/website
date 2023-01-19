@@ -29,7 +29,7 @@ Abychom mohli zobrazovat hodnotu stisknutí, musíme jí nejprve někde vzít.
 ![Nastav topic](https://res.cloudinary.com/lukasfabik/image/upload/v1673529998/projects/shared_pictures/mqtt_inn_set_topic_button.png "Nastav topic")
 
 6. Nyní musíme tuto zprávu předat pro zobrazení do **dashboardu**. To uděláme tak, že si vlevo ze sekce *dashboard* vybereme node **text** a přetáhmene ho vedle **mqtt in**. 
-7. Po rozkliknutí tohoto nodu si můžeme změnit **Label** například na **Tlačítko stisknuto: **  a zvolit zarovnání v sekci **Layout**. Potvrdíme nastavení kliknutím na tlačítko **Done**. Posledním krokem je propojení těchto 2 nodu dohromady. Je to snadné, stačí stisknout šedý čtverec jednoho nodu a myší jej natáhnout k šedému čtverci druhého nodu. 
+7. Po rozkliknutí tohoto nodu si můžeme změnit **Label** například na **Tlačítko stisknuto:**   a zvolit zarovnání v sekci **Layout**. Potvrdíme nastavení kliknutím na tlačítko **Done**. Posledním krokem je propojení těchto 2 nodu dohromady. Je to snadné, stačí stisknout šedý čtverec jednoho nodu a myší jej natáhnout k šedému čtverci druhého nodu. 
 8. Po kliknutí na záložku **Dashboard** bychom měli vidět zvolený popisek a počet stisknutí. 
 
 ## Jaká je tu teplota?
@@ -69,16 +69,14 @@ Abychom si nevypisovali jen číselnou hodnotu, tak si vyzkoušíme node jménem
    5 -> levém boku.
    6 -> horní straně.
    ```
-Nastavení uložíme tlačítkem "Done".
 
-6﻿. Poslední node který potřebujeme přidat je **text**, opět ze sekce **dashboard**. V tomto si můžeme změnit pole **Label**,například na _"Krabička je na "_, abychom tam neměli jen text na které straně je krabička položena. Další co si můžeme zvolit je, to jak se k sobě bude **Label** a text zarovnávat. Toto nastavíme zvolením políčka v sekci **Layout**. Náš příklad je zarovnán na střed (prostřední políčko v horním řádku). Opět naše nastavení potvrdíme tlačítkem **Done**.
+   Nastavení uložíme tlačítkem "Done".
+
+6﻿. Poslední node který potřebujeme přidat je **text**, opět ze sekce **dashboard**. V tomto si můžeme změnit pole **Label**,například na *"Krabička je na "*, abychom tam neměli jen text na které straně je krabička položena. Další co si můžeme zvolit je, to jak se k sobě bude **Label** a text zarovnávat. Toto nastavíme zvolením políčka v sekci **Layout**. Náš příklad je zarovnán na střed (prostřední políčko v horním řádku). Opět naše nastavení potvrdíme tlačítkem **Done**.
 
 7. Naším posledním úkolem je propojení našich nodů a aplikace našeho nastavení kliknutím na tlačítko **Deploy**.
-
 8. Nyní by Váš dashboard měl vypadat zhruba takto:
 
-![](https://res.cloudinary.com/lukasfabik/image/upload/v1673961391/projects/node_red_start_set/node_red_start_finished_dashboard.png)
+## Vyhodnocení
 
-#﻿# Vyhodnocení
-
-Nyní už víme jak získáme data z naší sady a již je jen na Vás co s nimi podniknete. Věříme že byl tento návod užitečný a že Vám objasnil jak se sadou pracovat. Pokud by tomu tak nebylo a bylo by potřeba něco objasnit nebo doplnit, neváhejte nám napsat na ask@hardwario.com. 
+Nyní už víme jak získáme data z naší sady a již je jen na Vás co s nimi podniknete. Věříme že byl tento návod užitečný a že Vám objasnil jak se sadou pracovat. Pokud by tomu tak nebylo a bylo by potřeba něco objasnit nebo doplnit, neváhejte nám napsat na ask@hardwario.com.
