@@ -3,9 +3,12 @@ title: CHESTER Clime
 meta_title: Senzor teploty a vlhkosti NB-IoT | Senzor teploty a vlhkosti LTE-M | Senzor teploty a vlhkosti LoRaWAN | s bránou IoT CHESTER
 meta_description:
 heading: 
-perex: Snímač teploty a vlhkosti s možností konfigurace, který vzorkuje, agreguje a hlásí teplotu a vlhkost.
-image: /_assets/images/configurations/chester-clime-horizontal.png
-image_w: w-100
+perex: NB-IoT/LTE-M/LoRaWAN snímač teploty a vlhkosti s možností konfigurace, který vzorkuje, agreguje a hlásí teplotu a vlhkost.
+#image: /_assets/images/configurations/chester-clime-horizontal.png
+#image_w: w-100
+bg1: "#caf1ff"
+bg2: "#f3fcff"
+video: nxFmnek50LM
 buy_link: https://shop.hardwario.com/chester-clime/
 specs_img: /_assets/images/configurations/chester-clime.png
 specs: [
@@ -20,7 +23,7 @@ specs: [
         ["Špičková spotřeba energie","< 250 mA"],
         ["Rozsah pracovních teplot","-30 až +70 °C"],
         ["Rozsah skladovacích teplot","-40 až +85 °C"],
-        ["Rozměry","130✕175✕45 mm"],
+        ["Rozměry","130×175×45 mm"],
         ["Stupeň krytí", "IP 67"]
     ]
 ---

@@ -2,8 +2,8 @@
     <div class = "col-12 px-30 mb-20 content-block content-block--gray">
     <div class = "row">
         <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center" style = "height: 97%;">
-            {{ with .Get "heading" }}<h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">{{ . }}</h2>{{ end }}
-            {{ with .Get "text" }}<p class = "font-20 font-md-20 pb-10">{{ . }}</p>{{ end }}
+            {{ with .Get "heading" }}<h2 class = "font-36 font-lnh44 font-md-46 font-weight-black font-md-lnh56 pb-30">{{ . | safeHTML }}</h2>{{ end }}
+            {{ with .Get "text" }}<p class = "font-20 font-md-20 pb-10">{{ . | safeHTML }}</p>{{ end }}
             <br/>
 
             {{ with .Get "img_25" }}<img src = "{{ . }}" class = "mx-auto mt-20 mb-10 w-25"/>{{ end }}

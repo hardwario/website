@@ -1962,10 +1962,16 @@ other = "More articles"
 other = "The platform"
 
 [built_on_top_of]
-other = "Built on top of the"
+other = "Truly configurable device"
 
 [configurable_gateway]
-other = "Configurable IoT Gateway CHESTER"
+other = "One CHESTER for so many configurations"
 
 [configurable_gateway_desc]
-other = "CHESTER is an extensible IoT gateway for Industry 4.0, smart city, e-metering, and agricultural applications. It's highly configurable with Zephyr RTOS and hardware expansion modules."
+other = "The CHESTER platform goes way beyond one specific application use case. The system design, integrated hardware technologies, firmware architecture, and the ecosystem of tools - all of this scales well to a wide range of applications - from Industry 4.0, smart city, e-metering, and environmental monitoring to some very special verticals such as digital retail and agriculture."
+
+[configurable_gateway_desc2]
+other = "The platform is very open, and developers can use the Zephyr operating system and CHESTER SDK to build their embedded applications and shorten the time-to-market. The source codes of the catalog applications are open-source too."
+
+[configurable_gateway_desc3]
+other = "Get your development kit now and become the next-gen embedded craftsman - you are always covered with extensive documentation, training resources, and personal technical support."

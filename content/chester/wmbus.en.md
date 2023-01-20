@@ -6,6 +6,8 @@ heading: wM-Bus to NB-IoT and LTE-M gateway
 perex: CHESTER wM-Bus is battery operated smart metering device connecting up to 300 wM-Bus meters to the Internet with NB-IoT and LTE-M networks.
 image: /_assets/images/configurations/wmbus.png
 image_w: w-100
+bg1: "#caf1ff"
+bg2: "#f3fcff"
 specs_img: /_assets/images/configurations/wmbus2.png
 specs: [
         ["Operating input voltage","3.6 V"],

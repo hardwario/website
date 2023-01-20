@@ -21,19 +21,22 @@
   </div>
 </section>
 
+{{ if .Params.video }}
 <section>
     <div class = "container">
         <div class = "row justify-content-center pb-md-30">
             <div class = "col-12 col-md-8">
                 <div class = "video-container">
-                    <iframe src="https://www.youtube-nocookie.com/embed/nxFmnek50LM?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube-nocookie.com/embed/{{ .Params.video }}?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </div>
   </section>
-</div>
-<!--
+
+{{ end }}
+
+{{ if .Params.image }}
 <section>
   <div class = "container">
       <div class = "row justify-content-center pb-md-30">
@@ -42,14 +45,15 @@
           </div>
       </div>
   </div>
-</section>-->
-
+</section>
+{{ end }}
+</div>
 <style>
 
 .chester-catalog{
     padding-top: 30px;
     margin-bottom: 30px;
-    background-image: linear-gradient(to bottom right, #caf1ff, #f3fcff); 
+    background-image: linear-gradient(to bottom right, {{ .Params.bg1 }}, {{ .Params.bg2 }}); 
 }
 .video-container{
     display: block;
@@ -89,7 +93,7 @@
   }
 
   .chester-1{
-      background-size: 100%; 
+      background-size: 80%; 
       border-radius: 7px; 
       background-position: 50% 50%; 
       background-image: url('/_assets/images/configurations/configurable-gateway.png');
@@ -162,6 +166,8 @@
                   <div class="font-gray2 mb-10 font-font2 font-weight-bold font-24"><span>{{ i18n "built_on_top_of" }}</span></div>
                   <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30">{{ i18n "configurable_gateway" }}</h2>
                   <p class = "font-20 font-md-20 pb-10">{{ i18n "configurable_gateway_desc" }}</p>
+                  <p class = "font-20 font-md-20 pb-10">{{ i18n "configurable_gateway_desc2" }}</p>
+                  <p class = "font-20 font-md-20 pb-10">{{ i18n "configurable_gateway_desc3" }}</p>
                   <a href = "{{ .Permalink }}" class="ml-0 mr-20 font-20 font-md-16 font-lnh24 font-weight-bold font-font2 font-red button__link">{{ i18n "learn_more" }}</a>
               </div>
               <div class = "col-12 col-md-6 pt-30 pr-0 chester-1">

@@ -3,9 +3,12 @@ title: CHESTER Clime
 meta_title: NB-IoT temperature and humidity sensor | LTE-M temperature and humidity sensor | LoRaWAN temperature and humidity sensor | with IoT Gateway CHESTER
 meta_description:
 heading: 
-perex: The configurable environmental sensor that samples, aggregates, and reports temperature and humidity.
-image: /_assets/images/configurations/chester-clime-horizontal.png
-image_w: w-100
+perex: The configurable NB-IoT/LTE-M/LoRaWAN environmental sensor that samples, aggregates, and reports temperature and humidity.
+#image: /_assets/images/configurations/chester-clime-horizontal.png
+#image_w: w-100
+bg1: "#caf1ff"
+bg2: "#f3fcff"
+video: nxFmnek50LM
 buy_link: https://shop.hardwario.com/chester-clime/
 specs_img: /_assets/images/configurations/chester-clime.png
 specs: [
@@ -20,7 +23,7 @@ specs: [
         ["Peak power consumption","< 250 mA"],
         ["Operating temperature range","-30 to +70 °C"],
         ["Storage temperature range","-40 to +85 °C"],
-        ["Dimensions","130✕175✕45 mm"],
+        ["Dimensions","130×175×45 mm"],
         ["Protection level","IP 67"]
     ]
 ---
