@@ -1967,6 +1967,9 @@ other = "Truly configurable device"
 [configurable_gateway]
 other = "One CHESTER for so many configurations"
 
+[configurable_gateway_subh]
+other = "Have you got an innovation of your own?"
+
 [configurable_gateway_desc]
 other = "The CHESTER platform goes way beyond one specific application use case. The system design, integrated hardware technologies, firmware architecture, and the ecosystem of tools - all of this scales well to a wide range of applications - from Industry 4.0, smart city, e-metering, and environmental monitoring to some very special verticals such as digital retail and agriculture."
 
