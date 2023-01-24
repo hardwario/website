@@ -1485,10 +1485,10 @@ other = "Wir haben eine Liste mit häufig gestellten Fragen zu CHESTER-Geräten 
 other = "IoT Hub Dokumentation"
 
 [hub_docs_text]
-other = "Technische Informationen über das CHESTER-Gerät. Sie finden darin zum Beispiel eine Beschreibung der Schnittstelle und der AT-Befehle."
+other = "Dokumentation des CHESTER IoT-Gateways - Kataloganwendungen, Schnittstellenbeschreibung, Erweiterungen und Firmware-Updates."
 
 [hub_docs_link]
-other = "Datenblatt öffnen"
+other = "Offene dokumentation"
 
 [industry_case_studies]
 other = "Industrielle Fallstudien"

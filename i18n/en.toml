@@ -1877,13 +1877,13 @@ other = "FAQ"
 other = "We have prepared a list of frequently asked questions about CHESTER devices and LPWAN networks."
 
 [hub_docs]
-other = "IoT Hub documentation"
+other = "Documentation"
 
 [hub_docs_text]
-other = "Technical information about the CHESTER device. For example, you will find a description of the interface and AT commands."
+other = "CHESTER IoT gateway documentation - catalog applications, interface description, extensions, and firmware updates."
 
 [hub_docs_link]
-other = "Open datasheet"
+other = "Open docs"
 
 [industry_case_studies]
 other = "Industrial Case Studies"

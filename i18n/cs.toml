@@ -1819,13 +1819,13 @@ other = "Nejčastější dotazy"
 other = "Připravili jsme přehled nejčastějších dotazů týkajících se zařízení CHESTER a LPWAN sítí."
 
 [hub_docs]
-other = "Dokumentace IoT hubu"
+other = "Dokumentace"
 
 [hub_docs_text]
-other = "Technické informace o zařízení CHESTER. Najdete zde například popis rozhraní a AT příkazů."
+other = "Dokumentace IoT brány CHESTER - katalogové aplikace, popis rozhraní, rozšíření a update firmwre."
 
 [hub_docs_link]
-other = "Otevřít datasheet"
+other = "Otevřít dokumentaci"
 
 [industry_case_studies]
 other = "Průmyslové případovky"
