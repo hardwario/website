@@ -11,10 +11,7 @@ image_meta: https://res.cloudinary.com/lukasfabik/image/upload/v1655907545/blog/
 author: lukas_fabik
 ---
 
-HARDWARIO is exhibiting at IoT Solutions World Congress in Barcelona from Jan 31 to Feb 2. You can find us at stand 315, Street C.
-We will introduce a new extension module for our IoT gateway CHESTER during the show. This new module will allow for Astrocast satellite communication, expanding the capabilities of the HARDWARIO CHESTER and providing new opportunities for IoT deployment in remote and hard-to-reach areas.
-
-CHESTER is a powerful IoT gateway that allows for easy connection and communication between various sensors and devices. With this new extension module, the HARDWARIO CHESTER will be able to connect to the Astrocast satellite network, allowing for data transmission from even the most remote locations.
+HARDWARIO is exhibiting at IoT Solutions World Congress in Barcelona from Jan 31 to Feb 2. You can find us at stand 315, Street C. We will introduce a new extension module CHESTER-V1 for our IoT gateway CHESTER during the show. CHESTER is a powerful IoT gateway that allows for easy connection and communication between various sensors and devices. With this new satellite module, our partners will be able to connect to the Astrocast satellite network, allowing for data transmission from even the most remote and hard-to-reach locations.
 
 ### About Astrocast 
 
