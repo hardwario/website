@@ -5,9 +5,9 @@ meta_description: HARDWARIO, a leading provider of IoT solutions, introduced a n
 draft: false
 date: 2023-01-27
 description: HARDWARIO, a leading provider of IoT solutions, introduced a new extension module for IoT gateway CHESTER at the IoT Solution World Congress in Barcelona.
-image_preview: https://res.cloudinary.com/lukasfabik/image/upload/c_fill,h_900,w_900,x_144,y_204/v1645206860/blog/2022-02-16-eman-invest-in-hardwario/hio-eman.png
+image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1674941056/blog/2023-01-30-astrocast/chester-w1.png
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1581950249/blog/wide_placeholder.jpg
-image_meta: https://res.cloudinary.com/lukasfabik/image/upload/v1655907545/blog/2022-06-22-battery-chemistry/meta.png
+image_meta: 
 author: lukas_fabik
 ---
 
@@ -20,3 +20,5 @@ Astrocast is a global satellite communications provider that offers low-cost and
 _“The IoT Solutions World Congress is the perfect platform to showcase this new technology, as it brings together the leading players in the IoT industry to discuss the latest developments and innovations in the field. HARDWARIO’s introduction of this new extension module for the HARDWARIO CHESTER IoT gateway at the congress highlights the company’s commitment to providing cutting-edge solutions for IoT deployment.”_, says Alan Fabik, CEO of HARDWARIO
 
 Overall, the new extension module for the HARDWARIO CHESTER IoT gateway, with support for Zephyr RTOS and open SDK, is a game changer for IoT deployment in remote and hard-to-reach areas. The partnership with Astrocast will open up new possibilities for IoT applications and developers and will be a major step forward in the field of IoT communications.
+
+![HARDWARIO CHESTER with Astrocast Module](https://res.cloudinary.com/lukasfabik/image/upload/v1674940743/blog/2023-01-30-astrocast/CHESTER_Astrocast.png)
