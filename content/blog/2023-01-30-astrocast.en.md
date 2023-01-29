@@ -1,10 +1,10 @@
 ---
 title: "HARDWARIO to introduce new Astrocast satellite module for CHESTER IoT gateway in Barcelona"
 meta_title: 
-meta_description: HARDWARIO, a leading provider of IoT solutions, introduced a new extension module for IoT gateway CHESTER at the IoT Solution World Congress in Barcelona.
+meta_description: HARDWARIO, a leading supplier of IoT solutions, will introduce a new expansion module for the IoT gateway CHESTER  at the IoT Solution World Congress in Barcelona.
 draft: false
-date: 2023-01-27
-description: HARDWARIO, a leading provider of IoT solutions, introduced a new extension module for IoT gateway CHESTER at the IoT Solution World Congress in Barcelona.
+date: 2023-01-29
+description: HARDWARIO, a leading supplier of IoT solutions, will introduce a new expansion module for the IoT gateway CHESTER  at the IoT Solution World Congress in Barcelona.
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1674941056/blog/2023-01-30-astrocast/chester-w1.png
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1581950249/blog/wide_placeholder.jpg
 image_meta: 
