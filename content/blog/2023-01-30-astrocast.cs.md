@@ -7,7 +7,7 @@ date: 2023-01-29
 description: Společnost HARDWARIO, přední dodavatel řešení IoT, představí na světovém kongresu IoT Solution World Congress v Barceloně nový rozšiřující modul pro IoT bránu CHESTER.
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1674941056/blog/2023-01-30-astrocast/chester-w1.png
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1581950249/blog/wide_placeholder.jpg
-image_meta: 
+image_meta: https://res.cloudinary.com/lukasfabik/image/upload/v1675020345/blog/2023-01-30-astrocast/hardwario-astrocast-meta.png
 author: lukas_fabik
 ---
 
