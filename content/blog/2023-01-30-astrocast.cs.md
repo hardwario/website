@@ -3,7 +3,7 @@ title: "HARDWARIO představí v Barceloně nový satelitní modul Astrocast pro 
 meta_title: HARDWARIO představí v Barceloně nový satelitní modul Astrocast pro IoT bránu CHESTER
 meta_description: Společnost HARDWARIO, přední dodavatel řešení IoT, představí na světovém kongresu IoT Solution World Congress v Barceloně nový rozšiřující modul pro IoT bránu CHESTER.
 draft: false
-date: 2023-01-29
+date: 2023-01-30
 description: Společnost HARDWARIO, přední dodavatel řešení IoT, představí na světovém kongresu IoT Solution World Congress v Barceloně nový rozšiřující modul pro IoT bránu CHESTER.
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1674941056/blog/2023-01-30-astrocast/chester-w1.png
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1581950249/blog/wide_placeholder.jpg
