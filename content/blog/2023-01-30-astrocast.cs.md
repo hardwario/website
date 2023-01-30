@@ -19,6 +19,8 @@ Společnost Astrocast je globálním poskytovatelem satelitní komunikace, kter�
 
 _“Světový kongres IoT Solutions je ideálním místem pro prezentaci této nové technologie, protože se zde setkávají přední hráči v oboru IoT, aby diskutovali o nejnovějším vývoji a inovacích v této oblasti. Představení nového modulu pro IoT bránu CHESTER na kongresu podtrhuje naše odhodlání poskytovat špičková řešení pro nasazení IoT.”_, říká Alan Fabik, CEO HARDWARIO.
 
+_"Naše spolupráce se společností HARDWARIO je ukázkovým příkladem toho, jak společně s našimi zákazníky pracujeme na rozvoji inovací v oblasti internetu věcí. Představení nového satelitního modulu Astrocast pro IoT bránu CHESTER v Barceloně je významným milníkem v naší misi přinášet globální konektivitu IoT podnikům a komunitám. Jsme hrdí na spolupráci se společností HARDWARIO a těšíme se na další úspěchy v budoucnosti."_ - Fabien Jordan, CEO Astrocast
+
 Nový rozšiřující modul pro IoT bránu HARDWARIO CHESTER s podporou systému Zephyr RTOS a otevřeného SDK celkově mění pravidla hry pro nasazení IoT ve vzdálených a těžko přístupných oblastech. Partnerství se společností Astrocast otevře nové možnosti pro IoT aplikace a vývojáře a bude znamenat významný krok vpřed v oblasti IoT komunikace.
 
 ![HARDWARIO CHESTER s Astrocast Modulem](https://res.cloudinary.com/lukasfabik/image/upload/v1674940743/blog/2023-01-30-astrocast/CHESTER_Astrocast.png)
