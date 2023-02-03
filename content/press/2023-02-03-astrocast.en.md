@@ -34,7 +34,8 @@ HARDWARIO is listed on Prague Stock Exchange.
 Astrocast SA operates a leading global nanosatellite IoT network, offering services in industries such as Agriculture & Livestock, Maritime, and Environment & Utilities, to name a few. The Astrocast network enables companies to monitor, track, and communicate with remote assets from anywhere in the world. It relies on superior L-band spectrum through a strategic alliance with Thuraya. In partnership with Airbus, CEA/LETI and ESA, Astrocast developed Astronode S, an ultra-low power and miniaturised module compatible with inexpensive L-band patch antennas. Founded in 2014 by a renowned team of experts, Astrocast develops and tests all its products in-house, from the satellites to the modules. Astrocast is listed on Euronext Growth Oslo.
 For more information, visit astrocast.com 
 
-
 ### Contact
 Lukas Fabik (CMO, HARDWARIO) - e-mail: lukas.fabik@hardwario.com / tel: +420 602 335 265
 Fatima Vigil (Head of Marketing, Astrocast) - e-mail: media@astrocast.com
+
+![HARDWARIO CHESTER with Astrocast Module](https://res.cloudinary.com/lukasfabik/image/upload/v1674940743/blog/2023-01-30-astrocast/CHESTER_Astrocast.png)
