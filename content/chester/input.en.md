@@ -21,8 +21,7 @@ specs: [
         ["Peak power consumption","< 250 mA"],
         ["Operating temperature range","-30 to +70 °C"],
         ["Storage temperature range","-40 to +85 °C"],
-        ["Dimensions","130×175×45 mm"],
-        ["Protection level","IP ??"]
+        ["Dimensions","130×175×45 mm"]
     ]
 ---
 

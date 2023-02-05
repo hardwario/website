@@ -1919,5 +1919,14 @@ other = "Postaveno na"
 [configurable_gateway]
 other = "Konfigurovatelné IoT bráně CHESTER"
 
+[configurable_gateway_subh]
+other = "Máte nápad na inovativní řešení?"
+
 [configurable_gateway_desc]
 other = "CHESTER je rozšiřitelná brána IoT pro aplikace Průmysl 4.0, chytrá města, elektronické měření a zemědělství. Je vysoce konfigurovatelná pomocí systému Zephyr RTOS a hardwarových rozšiřujících modulů."
+
+[configurable_gateway_desc2]
+other = "Platforma je velmi otevřená a vývojáři mohou používat operační systém Zephyr a CHESTER SDK k vytváření embedded aplikací ke zkrácení doby uvedení na trh. Zdrojové kódy katalogových aplikací jsou také open-source."
+
+[configurable_gateway_desc3]
+other = "Pořiďte si vývojovou sadu a staňte se embedded řemeslníkem nové generace - vždy máte k dispozici rozsáhlou dokumentaci, školicí zdroje a osobní technickou podporu."
