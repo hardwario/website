@@ -13,8 +13,8 @@ bg2: "#fffedc"
 specs_img: /_assets/images/configurations/chester-counter.png
 specs: [
         ["Number of inputs","4"],
-        ["Nominal backup battery voltage","3.7 V"],
-        ["Nominal backup battery capacity","3 350 mAh"],
+        ["Nominal battery voltage","3.7 V"],
+        ["Nominal battery capacity","3 350 mAh"],
         ["Operating voltage range","2.0 V to 5.0 V"],
         ["Idle power consumption","< 180 μA"],
         ["Peak power consumption","< 250 mA"],
@@ -25,10 +25,10 @@ specs: [
 ---
 
 
-{{< capp/box1_2-a heading = "Four digital input counters" text = "Use digital NPN/PNP inputs to count pulses from electricity meters, water meters, gas meters, or PLCs." img_75 = "/_assets/images/configurations/input-counters.svg" >}}
+{{< capp/box1_2-a heading = "Four digital<br/> input counters" text = "Use digital NPN/PNP inputs to count pulses from electricity meters, water meters, gas meters, or PLCs." img_75 = "/_assets/images/configurations/input-counters.svg" >}}
 
 {{< capp/box1_2-d heading = "Battery-friendly<br/> wireless connectivity" text = "The device transfers data over cellular networks (NB-IoT / LTE-M) or public/private LoRaWAN networks." img_100 = "/_assets/images/configurations/connectivity.png">}}
 
-{{< capp/box1_2-a heading = "Reliable operation from a single battery" text = "The device can operate on a single primary lithium cell for a long time." img_25 = "/_assets/images/configurations/saft.png" >}}
+{{< capp/box1_2-a heading = "Reliable operation from a&nbsp;single battery" text = "The device can operate on a single primary lithium cell for a long time." img_25 = "/_assets/images/configurations/saft.png" >}}
 
 {{< capp/box1_2-c heading = "Fast deployment and seamless integration" text = "Use the HARDWARIO Manager iOS/Android app to set the behavior of each input and integrate its data from HARDWARIO Cloud." img_75 = "/_assets/images/configurations/hardwario-manager.png" >}}

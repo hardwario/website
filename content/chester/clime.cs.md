@@ -30,8 +30,8 @@ specs: [
 
 {{< capp/box1_2-d heading = "Bezdrátové připojení šetrné k baterii<br/>" text = "Zařízení přenáší data prostřednictvím mobilních sítí (NB-IoT / LTE-M) nebo veřejných/soukromých sítí LoRaWAN." img_100 = "/_assets/images/configurations/connectivity.png">}}
 
-{{< capp/box1_2-c heading = "Digitální čidlo teploty a vlhkosti" text = "Díky ochranné membráně PTFE je přesné čidlo odolné proti prachu a stříkající vodě (IP65)." img_100 = "/_assets/images/configurations/clime-sensor.png" class = "mt-n10" >}}
+{{< capp/box1_2-c heading = "Digitální čidlo<br/> teploty a vlhkosti" text = "Díky ochranné membráně PTFE je přesné čidlo odolné proti prachu a stříkající vodě (IP65)." img_100 = "/_assets/images/configurations/clime-sensor.png" class = "mt-n10" >}}
 
-{{< capp/box1_2-a heading = "5 let životnosti baterie v extrémních venkovních podmínkách" text = "Zařízení může dlouhodobě fungovat v náročných podmínkách prostředí na jeden primární lithiový článek." img_25 = "/_assets/images/configurations/saft.png" >}}
+{{< capp/box1_2-a heading = "5 let na baterii ve venkovním prostředí" text = "Zařízení může dlouhodobě fungovat v náročných podmínkách prostředí na jeden primární lithiový článek." img_25 = "/_assets/images/configurations/saft.png" >}}
 
-{{< capp/box1_2-d heading = "Rychlé nasazení a bezproblémová integrace" text = "Pomocí aplikace HARDWARIO Manager pro iOS/Android nastavíte zařízení a integrujete jeho data z cloudu HARDWARIO." img_100 = "/_assets/images/configurations/hardwario-manager.png" >}}
+{{< capp/box1_2-d heading = "Rychlé nasazení a&nbsp;snadná&nbsp;integrace" text = "Pomocí aplikace HARDWARIO Manager (iOS/Android) nastavte zařízení a integrujte data z HARDWARIO Cloud" img_100 = "/_assets/images/configurations/hardwario-manager.png" >}}
