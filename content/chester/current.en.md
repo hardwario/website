@@ -12,17 +12,20 @@ bg2: "#fffedc"
 buy_link: https://shop.hardwario.com/chester-current/
 specs_img: /_assets/images/configurations/chester-input.png
 specs: [
-        ["Max. počet proudových senzorů", "4"],
-        ["Způsob napájení", "Baterie/síť + záložní baterie"],
-        ["Jmenovité napětí záložní baterie", "3,7 V"],
-        ["Jmenovitá kapacita záložní baterie", "3 350 mAh"],
-        ["Rozsah provozního napětí", "2,0 V až 5,0 V"],
-        ["Spotřeba energie při volnoběhu","< 180 μA"],
-        ["Špičková spotřeba energie","< 250 mA"],
-        ["Rozsah pracovních teplot","-30 až +70 °C"],
-        ["Rozsah skladovacích teplot","-40 až +85 °C"],
-        ["Rozměry", "130 × 175 × 45 mm"]
+        ["Max. number of current sensors", "4"],
+        ["Power supply method", "Battery, or main + backup battery"],
+        ["Nominal battery voltage","3.6 V"],
+        ["Nominal battery capacity","7 700 mAh"],
+        ["Nominal backup battery voltage","3.7 V"],
+        ["Nominal backup battery capacity","3 350 mAh"],
+        ["Operating voltage range","2.0 V to 5.0 V"],
+        ["Idle power consumption","< 180 μA"],
+        ["Peak power consumption","< 250 mA"],
+        ["Operating temperature range","-30 to +70 °C"],
+        ["Storage temperature range","-40 to +85 °C"],
+        ["Dimensions","130×175×45 mm"]
     ]
+
 ---
 
 {{< capp/box1_2-c heading = "4 input channels<br/> on one device" text = "You can connect up to four probes to a single CHESTER device for indirect AC and DC measurements." img_100 = "/_assets/images/configurations/chester-current-2.png" >}}

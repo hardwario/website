@@ -13,7 +13,9 @@ buy_link: https://obchod.hardwario.cz/chester-current/
 specs_img: /_assets/images/configurations/chester-input.png
 specs: [
         ["Max. počet proudových senzorů", "4"],
-        ["Způsob napájení", "Baterie/síť + záložní baterie"],
+        ["Způsob napájení", "Battery, nebo síť + záložní baterie"],
+        ["Jmenovité napětí baterie", "3,6 V"],
+        ["Jmenovitá kapacita baterie", "7 700 mAh"],
         ["Jmenovité napětí záložní baterie", "3,7 V"],
         ["Jmenovitá kapacita záložní baterie", "3 350 mAh"],
         ["Rozsah provozního napětí", "2,0 V až 5,0 V"],
