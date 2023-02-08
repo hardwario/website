@@ -9,7 +9,7 @@ perex: NB-IoT/LTE-M/LoRaWAN snímač teploty a vlhkosti s možností konfigurace
 bg1: "#caf1ff"
 bg2: "#f3fcff"
 video: nxFmnek50LM
-buy_link: https://shop.hardwario.com/chester-clime/
+buy_link: https://obchod.hardwario.cz/chester-clime/
 specs_img: /_assets/images/configurations/chester-clime.png
 specs: [
         ["Rozsah měření teploměru","-20 až +80 °C"],

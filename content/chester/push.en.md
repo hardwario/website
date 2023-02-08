@@ -9,7 +9,7 @@ image_w: w-50
 bg1: "#f7f6cd"
 bg2: "#fffedc"
 #video: nxFmnek50LM
-#buy_link: https://shop.hardwario.com/chester-clime/
+buy_link: https://shop.hardwario.com/chester-push/
 specs_img: /_assets/images/configurations/chester-push-1.png
 specs: [
         ["Number of ALU buttons","4"],

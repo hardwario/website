@@ -9,7 +9,7 @@ image_w: w-50
 bg1: "#f7f6cd"
 bg2: "#fffedc"
 #video: nxFmnek50LM
-#buy_link: https://shop.hardwario.com/chester-clime/
+buy_link: https://shop.hardwario.com/chester-counter/
 specs_img: /_assets/images/configurations/chester-counter.png
 specs: [
         ["Number of inputs","4"],

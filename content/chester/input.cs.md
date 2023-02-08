@@ -9,7 +9,7 @@ image_w: w-75
 bg1: "#f7f6cd"
 bg2: "#fffedc"
 #video: nxFmnek50LM
-#buy_link: https://shop.hardwario.com/chester-clime/
+buy_link: https://obchod.hardwario.cz/chester-input/
 specs_img: /_assets/images/configurations/chester-input.png
 specs: [
         ["Počet vstupů", "4"],
