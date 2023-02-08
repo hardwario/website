@@ -28,7 +28,7 @@ specs: [
     ]
 ---
 
-{{< capp/box1_2-d heading = "Bezdrátové připojení šetrné k baterii<br/>" text = "Zařízení přenáší data prostřednictvím mobilních sítí (NB-IoT / LTE-M) nebo veřejných/soukromých sítí LoRaWAN." img_100 = "/_assets/images/configurations/connectivity.png">}}
+{{< capp/box1_2-d heading = "Bezdrátové připojení<br/> šetrné ke spotřebě" text = "Zařízení přenáší data prostřednictvím mobilních sítí (NB-IoT / LTE-M) nebo veřejných/soukromých sítí LoRaWAN." img_100 = "/_assets/images/configurations/connectivity.png">}}
 
 {{< capp/box1_2-c heading = "Digitální čidlo<br/> teploty a vlhkosti" text = "Díky ochranné membráně PTFE je přesné čidlo odolné proti prachu a stříkající vodě (IP65)." img_100 = "/_assets/images/configurations/clime-sensor.png" class = "mt-n10" >}}
 

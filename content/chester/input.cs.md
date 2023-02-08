@@ -3,7 +3,7 @@ title: CHESTER Input
 meta_title: 
 meta_description:
 heading: 
-perex: Konfigurovatelné zařízení NB-IoT/LTE-M/LoRaWAN, které vzorkuje, agreguje, bufferuje a hlásí hodnoty na čtyřech digitálních/analogových vstupech a zachycuje změny na digitálních vstupech.
+perex: Konfigurovatelné NB-IoT/LTE-M/LoRaWAN zařízení, které vzorkuje, agreguje, bufferuje a hlásí hodnoty na čtyřech digitálních/analogových vstupech a zachycuje změny na digitálních vstupech.
 image: /_assets/images/configurations/chester-input.png
 image_w: w-75
 bg1: "#f7f6cd"
