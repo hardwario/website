@@ -27,7 +27,7 @@ specs: [
 
 {{< capp/box1_2-e heading = "4 durable buttons with LED indication on the printed lid" text = "On the front of the device are four durable buttons with LED indications for immediate feedback to the user. Actions can be marked with a customizable printed enclosure." img_class = "content-block--buttons" >}}
 
-{{< capp/box1_2-d heading = "Short and long press,<br/> or a toggle switch?" text = "ZYou can operate the device in two modes, the first distinguishes between the short and long press, and the second works as a state switch." img_100 = "/_assets/images/configurations/chester-push-3.webp" >}}
+{{< capp/box1_2-d heading = "Short and long press,<br/> or a toggle switch?" text = "You can operate the device in two modes. The first distinguishes between the short and long press and the second works as a state switch." img_100 = "/_assets/images/configurations/chester-push-3.webp" >}}
 
 {{< capp/box1_2-d heading = "Instant message sending by wireless connection" text = "The device runs from the mains with a backup battery and, immediately after pressing, transfers data over cellular networks (NB-IoT / LTE-M) or public/private LoRaWAN networks." 
 img_100 = "/_assets/images/configurations/connectivity.png">}}

@@ -29,7 +29,7 @@ specs: [
         
 {{< capp/box1_3-b heading = "4-20&nbsp;mA<br/>current loop transmitter" text = "Connect sensor, controller, or PLC and configure sampling and aggregation of data." img_25 = "/_assets/images/configurations/input-current.svg" >}}
 
-{{< capp/box1_3-a heading = "Digital input trigger and counter" text = "Use two digital NPN/PNP inputs. One for the trigger (switch, button, relay), one for the counter (S0 pulse output)." img_50 = "/_assets/images/configurations/input-trigger_counter.svg" >}}
+{{< capp/box1_3-a heading = "Digital input trigger and counter" text = "Use two digital NPN/PNP inputs. One for the trigger (switch, button, relay) and one for the counter (S0 pulse output)." img_50 = "/_assets/images/configurations/input-trigger_counter.svg" >}}
 
 {{< capp/box1_2-d heading = "Reliable operation<br/> + wireless connectivity" text = "The device runs from the mains with a backup battery and transfers data over cellular networks (NB-IoT / LTE-M) or public/private LoRaWAN networks." img_100 = "/_assets/images/configurations/connectivity.png">}}
 
