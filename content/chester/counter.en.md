@@ -6,8 +6,8 @@ heading:
 perex: A configurable battery-operated NB-IoT/LTE-M/LoRaWAN device that counts pulses on four digital inputs.
 image: /_assets/images/configurations/chester-counter.png
 image_w: w-50
-bg1: "#f7f6cd"
-bg2: "#fffedc"
+bg1: "#5caa7b"
+bg2: "#92e0ba"
 #video: nxFmnek50LM
 buy_link: https://shop.hardwario.com/chester-counter/
 specs_img: /_assets/images/configurations/chester-counter.png

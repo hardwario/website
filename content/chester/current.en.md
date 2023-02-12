@@ -6,8 +6,8 @@ heading:
 perex: Configurable NB-IoT/LTE-M/LoRaWAN device for non-invasive AC and DC current measurements operated from battery or mains and battery backup.
 image: /_assets/images/configurations/chester-current.png
 image_w: w-50
-bg1: "#f7f6cd"
-bg2: "#fffedc"
+bg1: "#eabb37"
+bg2: "#ffe18d"
 #video: nxFmnek50LM
 buy_link: https://shop.hardwario.com/chester-current/
 specs_img: /_assets/images/configurations/chester-input.png

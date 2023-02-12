@@ -13,7 +13,7 @@
                 <div class="col-12 col-md-10 col-xl-8 mx-auto text-center">
                     <h1 class="text-center pb-20 font-weight-black font-44 font-md-64 font-xl-72 font-md-lnh68">{{ .Title }}</h1>
                     <!--<div class="font-gray2 mb-30 font-font2 font-weight-bold font-24"><span>{{ .Params.heading | safeHTML }}</span></div>-->
-                    <p class="font-24 font-gray2 font-lnh37 mb-20">{{ .Params.perex | safeHTML }}</p>
+                    <p class="font-24 font-lnh37 mb-20">{{ .Params.perex | safeHTML }}</p>
                     {{ with .Params.buy_link }}<a href="{{ . }}" target="_blank" class="font-lnh24 py-15 px-20 px-md-40 mb-20 d-inline-block font-weight-bold font-font2 font-white font-20 font-md-16 bg-red">{{ i18n "buy_now" }} <span class ="font-md-20">→</span></a>{{ end }}
                 </div>
             </div>

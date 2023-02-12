@@ -6,8 +6,8 @@ heading:
 perex: Konfigurovatelné NB-IoT/LTE-M/LoRaWAN zařízení pro neinvazivní měření střídavého a stejnosměrného proudu provozované z baterie nebo ze sítě a záložní baterie.
 image: /_assets/images/configurations/chester-current.png
 image_w: w-50
-bg1: "#f7f6cd"
-bg2: "#fffedc"
+bg1: "#eabb37"
+bg2: "#ffe18d"
 #video: nxFmnek50LM
 buy_link: https://obchod.hardwario.cz/chester-current/
 specs_img: /_assets/images/configurations/chester-input.png

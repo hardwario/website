@@ -6,8 +6,8 @@ heading:
 perex: Konfigurovatelné NB-IoT/LTE-M/LoRaWAN zařízení se čtyřmi tlačítky pro okamžité odeslání zprávy po stisknutí.
 image: /_assets/images/configurations/chester-push.png
 image_w: w-50
-bg1: "#f7f6cd"
-bg2: "#fffedc"
+bg1: "#985bac"
+bg2: "#b17ebc"
 #video: nxFmnek50LM
 buy_link: https://obchod.hardwario.cz/chester-push/
 specs_img: /_assets/images/configurations/chester-push-1.png
