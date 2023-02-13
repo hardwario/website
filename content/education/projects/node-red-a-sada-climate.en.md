@@ -32,6 +32,6 @@ Nyní si nastavíme node **gauge**. Do pole **Label** jsem si nastavil **Relativ
 Naše prostředí v **Dashboard** by nyní mělo vypadat zhruba nějak takto: 
 ! Vložit foto dashboardu v Playgroundu. ! 
 
-##Pod jakým jsme tlakem? 
+## Pod jakým jsme tlakem? 
 
 1. Pro zobrazování informací o tlaku si v sekci **Messages** zkopírujeme řádek s topicem ‘node/climate-monitor:0/barometer/0:0/pressure‘. Opět si přidáme node **mqtt-in** a tento topic do něj vložíme.
