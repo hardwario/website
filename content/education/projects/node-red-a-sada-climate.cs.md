@@ -31,7 +31,7 @@ Naše prostředí v **Dashboard** by nyní mělo vypadat zhruba nějak takto:
 
 1. Pro zobrazování informací o tlaku si v sekci **Messages** zkopírujeme řádek s topicem `node/climate-monitor:0/barometer/0:0/pressure`. Opět si přidáme node **_mqtt-in_** a tento topic do něj vložíme. Tlak budeme zobrazovat jen textově, takže si přidáme node **_text_**. Rozklikneme si jej, abychom ho mohli upravovat a do pole **Label** vyplníme jeho název, například **"Aktuální tlak je:"**. Jelikož nám ale senzor vrací hodnoty v desítkách tisíc, přidáme si node s názvem **_function_**. Do pole **On Message** vložíme následujcí kód a potvrdíme tlačítkem **Done**.
 
-    ```
+    ```js
     var value = msg.payload;
     var numVar = Number(value);
     msg.payload = numVar/1000;
