@@ -37,3 +37,4 @@ Naše prostředí v **Dashboard** by nyní mělo vypadat zhruba nějak takto:
     msg.payload = numVar/1000;
     return msg;
     ```
+Tento kód nám zajišťuje přepočet na jednotky kPa, aby byli lépe čitelné.
