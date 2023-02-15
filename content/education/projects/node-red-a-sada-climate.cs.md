@@ -3,6 +3,8 @@ draft: false
 date: 2023-02-13T11:03:19.643Z
 weight: 0
 ---
+**Climate** modul je vhodným základem pro malou domácí meteostanici, jelikož obsahuje:
+
 - senzor teploty a relativní vlhkosti SHT30
 - tlakový senzor MP3115A2
 - světelný senzor OPT3001DNP
