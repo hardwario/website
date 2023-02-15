@@ -5,6 +5,8 @@ category: IoT brána
 short_description: Rozšiřitelná IoT brána pro aplikace Průmyslu 4.0, chytrá města, vzdálené odečty a zemědělství.
 description: Univerzální zařízení s velmi nízkou spotřebou komunikující prostřednictvím LPWAN. Umožňuje připojení dalších externích prvků pomocí celé řady rozhraní.
 menu:
+    main:
+        parent: 'Produkty'
 weight: 100
 meta_title: IoT gateway | NB-IoT gateway | LoRaWAN gateway | Nejkonfigurovatelnější IoT gateway CHESTER od HARDWARIO
 meta_description: CHESTER je nejlépe konfigurovatelná průmyslová IoT brána pro aplikace Průmyslu 4.0, chytrá města, vzdálené odečty a zemědělství. Zařízení připojuje senzory, akční členy, řídicí jednotky PLC a další zařízení k internetu prostřednictvím komunikačních technologií LPWAN. CHESTER je vybaven robustním, vodotěsným krytem se stupněm krytí IP67 pro náročné podmínky prostředí. Kromě toho jeho široký rozsah provozních teplot a velmi nízká spotřeba energie na baterie umožňuje nasazení ve venkovním prostředí. 
