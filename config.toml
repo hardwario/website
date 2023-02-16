@@ -103,39 +103,6 @@ unsafe= true
   name   = "E&#8209;shop"
   weight = 5
 
-[[languages.en.menu.main]]
-  url    = "https://shop.hardwario.com"
-  name   = "Shop"
-  pre = "shop_link pr-lg-30 mr-0"
-  post = "_blank"
-  weight = 95
-
-[[languages.de.menu.main]]
-  url    = "https://shop.hardwario.com"
-  name   = "Shop"
-  pre = "shop_link pr-lg-30 mr-0"
-  post = "_blank"
-  weight = 95
-
-[[languages.cs.menu.main]]
-  url    = "https://obchod.hardwario.cz"
-  name   = "E&#8209;shop"
-  pre = "shop_link pr-lg-30 mr-0"
-  post = "_blank"
-  weight = 95
-
-[[languages.cs.menu.oee]]
-  url    = "/cs/"
-  name   = "O HARDWARIO"
-  pre = ""
-  weight = 10
-
-[[languages.cs.menu.oee]]
-  url    = "/cs/contact/"
-  name   = "Kontakt"
-  pre = ""
-  weight = 20
-
 [blackfriday]
 smartypants = false
 
