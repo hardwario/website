@@ -34,9 +34,9 @@
     </div>
   </section>
 
-{{ end }}
 
-{{ if .Params.image }}
+
+{{ else if .Params.image }}
 <section>
   <div class = "container">
       <div class = "row justify-content-center pb-md-30">
@@ -46,6 +46,8 @@
       </div>
   </div>
 </section>
+
+
 {{ end }}
 </div>
 <style>
