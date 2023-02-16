@@ -4,8 +4,10 @@ meta_title: Senzor teploty a vlhkosti NB-IoT | Senzor teploty a vlhkosti LTE-M |
 meta_description:
 heading: 
 perex: NB-IoT/LTE-M/LoRaWAN snímač teploty a vlhkosti s možností konfigurace, který vzorkuje, agreguje a hlásí teplotu a vlhkost.
-#image: /_assets/images/configurations/chester-clime-horizontal.png
-#image_w: w-100
+perex_short: Snímač s možností konfigurace, který vzorkuje, agreguje a hlásí teplotu a vlhkost.
+image: /_assets/images/configurations/chester-clime.png
+image_w: w-75
+image_w2: w-100
 bg1: "#caf1ff"
 bg2: "#f3fcff"
 video: nxFmnek50LM

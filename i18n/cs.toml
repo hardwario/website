@@ -148,6 +148,9 @@ other = "Získejte COOPER"
 [get_cooper]
 other = "Získejte COOPER"
 
+[interested_in_chester]
+other = "Kontaktovat"
+
 [modification_integration]
 other = "Custom integrations and branding on customer's request"
 
@@ -1666,10 +1669,13 @@ other = "REST API dokumentace"
 other = "Více o HARDWARIO Cloud"
 
 [get_chester]
-other = "Mám zájem o&nbsp;CHESTER"
+other = "Máte zájem o CHESTER?"
 
 [get_chester_desc]
-other = 'Vyberte si model "Hardware jako služba" nebo model jednorázového nákupu. Ozvěte se nám a začněte tvořit IoT projekty pro své zákazníky ještě dnes.'
+other = "Vyberte si některou z katalogových sestav pro okamžité nasazení, nebo nás kontaktujte s vašimi specifickými požadavky. Ozvěte se nám a začněte tvořit IoT projekty pro své zákazníky ještě dnes."
+
+[see_catalog_applications]
+other = "Katalogové sestavy"
 
 [a0_1]
 other = "AC/DC napájecí modul"

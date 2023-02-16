@@ -1,11 +1,13 @@
 ---
 title: CHESTER Push
-meta_title: 
+meta_title: NB-IoT/LTE-M/LoRaWAN device with 4 buttons for instant action
 meta_description:
 heading: 
 perex: Configurable NB-IoT/LTE-M/LoRaWAN device with four buttons for instant message sending when pressed.
+perex_short: Configurable device with four buttons for instant message sending when pressed.
 image: /_assets/images/configurations/chester-push.png
 image_w: w-50
+image_w2: w-100
 bg1: "#985bac"
 bg2: "#b17ebc"
 #video: nxFmnek50LM

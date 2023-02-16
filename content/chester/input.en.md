@@ -1,11 +1,13 @@
 ---
 title: CHESTER Input
-meta_title: 
+meta_title: NB-IoT/LTE-M/LoRaWAN 4-20 mA current loop, 0-10 voltage input, pulse counter and trigger
 meta_description:
 heading: 
 perex: A configurable NB-IoT/LTE-M/LoRaWAN device that samples, aggregates, buffers, and reports values on four digital/analog inputs and captures changes on digital inputs.
+perex_short: A configurable device that samples, aggregates, buffers, and reports values on digital/analog inputs.
 image: /_assets/images/configurations/chester-input.png
 image_w: w-75
+image_w2: w-100
 bg1: "#b1adad"
 bg2: "#cccccc"
 #video: nxFmnek50LM

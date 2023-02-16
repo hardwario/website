@@ -1,11 +1,13 @@
 ---
 title: CHESTER Counter
-meta_title: 
+meta_title: NB-IoT/LTE-M/LoRaWAN pulse counter on four digital inputs
 meta_description:
 heading: 
 perex: A configurable battery-operated NB-IoT/LTE-M/LoRaWAN device that counts pulses on four digital inputs.
+perex_short: A configurable battery-operated device that counts pulses on four digital inputs.
 image: /_assets/images/configurations/chester-counter.png
 image_w: w-50
+image_w2: w-75
 bg1: "#5caa7b"
 bg2: "#92e0ba"
 #video: nxFmnek50LM

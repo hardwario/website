@@ -224,7 +224,7 @@ other = "Buy&nbsp;CHESTER&nbsp;now"
 other = "https://shop.hardwario.com/hub/"
 
 [interested_in_chester]
-other = "I'm interested in CHESTER"
+other = "Get in touch"
 
 [modification_integration]
 other = "Custom integrations and branding on customer's request"
@@ -814,7 +814,10 @@ other = "More about HARDWARIO Cloud"
 other = "Get CHESTER"
 
 [get_chester_desc]
-other = "Choose Hardware-as-a-Service model or a one-time purchase model. Get in touch with us to know more and build IoT projects for your customers today, together."
+other = "Choose one of the catalog applications for immediate deployment, or contact us with your specific needs. Get in touch with us to learn more and build IoT projects for your customers today, together."
+
+[see_catalog_applications]
+other = "See catalog applications"
 
 [a0_1]
 other = "AC/DC power module"

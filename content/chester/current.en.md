@@ -1,11 +1,13 @@
 ---
 title: CHESTER Current
-meta_title: 
+meta_title: NB-IoT/LTE-M/LoRaWAN AC/DC current measurement device with current clamps
 meta_description:
 heading: 
 perex: Configurable NB-IoT/LTE-M/LoRaWAN device for non-invasive AC and DC current measurements operated from battery or mains and battery backup.
+perex_short: Non-invasive AC and DC current measurements operated from battery or mains.
 image: /_assets/images/configurations/chester-current.png
 image_w: w-50
+image_w2: w-100
 bg1: "#eabb37"
 bg2: "#ffe18d"
 #video: nxFmnek50LM

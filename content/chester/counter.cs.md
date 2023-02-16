@@ -1,11 +1,13 @@
 ---
 title: CHESTER Counter
-meta_title: 
+meta_title: NB-IoT/LTE-M/LoRaWAN čítač půlzů na čtyřech digitálnách vstupech
 meta_description:
 heading: 
 perex: Konfigurovatelné NB-IoT/LTE-M/LoRaWAN zařízení napájené z baterie, které počítá impulsy na čtyřech digitálních vstupech.
+perex_short: Konfigurovatelné zařízení napájené z baterie, které počítá impulsy na čtyřech digitálních vstupech.
 image: /_assets/images/configurations/chester-counter.png
 image_w: w-50
+image_w2: w-75
 bg1: "#5caa7b"
 bg2: "#92e0ba"
 #video: nxFmnek50LM

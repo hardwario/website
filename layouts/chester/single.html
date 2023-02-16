@@ -136,7 +136,7 @@
   <div class = "container">
     <div class = "row pt-60 align-items-center">
       <div class = "col-12 col-md-6 text-center">
-        <img src = "{{ .Params.specs_img }}" class = "w-100 mx-auto"/>
+        <img src = "{{ .Params.specs_img }}" class = "{{ .Params.image_w2 }} mx-auto"/>
       </div>
       <div class="col-12 col-md-6 pt-20 font-14 font-md-16 font-lnh18 specification">
         <h2 class="font-30 font-lnh36 font-md-36 font-weight-black font-md-lnh48 pb-20">{{ i18n "tech_specs" }}</h2>
@@ -158,8 +158,39 @@
 </section>
 
 <section>
+    <div class="container pt-60">
+        <div class="row">
+            <div class="col">
+                <div class="contactbox">
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <div class="contactbox__item">
+                                <div class="contactbox__icon"></div>
+                                <h3 class="contactbox__text">{{ i18n "modification_integration" | safeHTML }}</h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="contactbox__item">
+                                <div class="contactbox__icon contactbox__icon--warranty"></div>
+                                <h3 class="contactbox__text">{{ i18n "extended_warranty" | safeHTML }}</h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="contactbox__item contactbox__item--noborder">
+                                <div class="contactbox__icon contactbox__icon--support"></div>
+                                <h3 class="contactbox__text">{{ i18n "personal_tech_support" | safeHTML }}</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
   <div class = "container" id = "products">
-      <div class = "row justify-content-center pt-60">
+      <div class = "row justify-content-center ">
           <div class="col-9 col-md-6 col-lg-4 pb-30 mx-auto text-center">
               <div class="font-redLined font-red font-font2 font-weight-bold font-15"><span>{{ i18n "the_platform" }}</span></div>
           </div>

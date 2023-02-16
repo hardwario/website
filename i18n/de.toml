@@ -846,6 +846,9 @@ other = "4x Low-Side-Schalter"
 [x9_2]
 other = "Steuerung externer Relais mit geschützten Low-Side-Schaltern"
 
+[interested_in_chester]
+other = "Kontakt aufnehmen"
+
 [modification_integration]
 other = "Kundenspezifische Integrationen und Branding auf Anfrage des Kunden"
 

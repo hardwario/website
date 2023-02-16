@@ -1,0 +1,14 @@
+<div class = "col-12 col-md-4 px-10">
+    <div class = "col-12 px-30 mb-20 content-block" style = "height: 97%; background-image: linear-gradient(to bottom right, {{ .Params.bg1 }}, {{ .Params.bg2 }});">
+    <div class = "row">
+        <div class = "col-12 col-md-12 pt-40 pt-md-60 text-center">
+            <div>
+            <h2 class = "font-36 font-lnh44 font-md-36 font-md-lnh46 font-weight-black pb-10">{{ .Title | safeHTML }}</h2>
+            <p class = "font-20 font-md-20 pb-20">{{ .Params.perex_short }}</p>
+            <a href="{{ .Permalink }}" class="font-lnh24 py-15 px-20 px-md-40 mb-20 d-inline-block font-weight-bold font-font2 font-white font-20 font-md-16 bg-red">{{ i18n "learn_more" }} <span class ="font-md-20">→</span></a>
+             </div>
+            <img src = "{{ .Params.image }}" class = "mx-auto mt-20 mb-10 {{ .Params.image_w }}"/>
+        </div>
+    </div>
+    </div>
+</div>

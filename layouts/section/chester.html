@@ -735,7 +735,7 @@
                 </div> 
                 
                 
-                <div class = "col-12 pl-30 pr-15 pl-md-60 pr-md-15 mb-md-90 content-block">
+                <div class = "col-12 pl-30 pr-15 pl-md-60 pr-md-15 mb-md-60 content-block">
                     <div class = "row">
                         <div class = "col-12 col-md-6 py-60 py-md-90 pb-10">
                             <h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30">{{ i18n "hardwario_cloud" | safeHTML }}</h2>
@@ -753,17 +753,22 @@
         </div>
 </section>
 
+
 <div id = "order">
 <section>
     <div id = "specification" class = "">
     <div class = "container" >
     <div class = "row justify-content-center"  >
         
-        <div class="col-12 col-md-8 specification text-center">
+        <div class="col-12 col-md-8 pb-20 specification text-center">
             <h2 class = "font-40 font-lnh48 font-md-52 font-weight-black font-md-lnh56">{{ i18n "get_chester" |safeHTML }}</h2>
-            <p class="font-20 font-md-16 pt-5 pb-30">
+            <p class="font-20 font-md-20 pt-5 pb-20">
                 {{ i18n "get_chester_desc" }}
             </p>
+
+            {{ if ne $currentLang "de" }}
+            <a href="{{ "chester/catalog-applications" | absLangURL }}" class="font-lnh24 py-15 px-20 px-md-40 d-inline-block font-weight-bold font-font2 font-white font-20 font-md-16 bg-red">{{ i18n "see_catalog_applications" }}</a>
+            {{ end }}
             <a href="#" data-target = "offerModal" class="openModal getOffer font-lnh24 py-15 px-20 px-md-40 d-inline-block font-weight-bold font-font2 font-white font-20 font-md-16 bg-red">{{ i18n "interested_in_chester" }}</a>
                     
         </div>

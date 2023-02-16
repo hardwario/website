@@ -4,8 +4,10 @@ meta_title: NB-IoT temperature and humidity sensor | LTE-M temperature and humid
 meta_description:
 heading: 
 perex: The configurable NB-IoT/LTE-M/LoRaWAN environmental sensor that samples, aggregates, and reports temperature and humidity.
-#image: /_assets/images/configurations/chester-clime-horizontal.png
-#image_w: w-100
+perex_short: Environmental sensor that samples, aggregates, and reports temperature and humidity.
+image: /_assets/images/configurations/chester-clime.png
+image_w: w-75
+image_w2: w-100
 bg1: "#caf1ff"
 bg2: "#f3fcff"
 video: nxFmnek50LM

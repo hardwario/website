@@ -5,6 +5,13 @@
     {{ if or (eq .Section "kit") (eq .Section "chester") (eq .Section "cooper") (eq .Section "cloud") }}
     <li class="breadcrumb-item"><a href="{{ .Site.Params.baseURL }}">{{ i18n "home" }}</a></li>
     <li class="breadcrumb-item"><a href="{{ "products/" | absLangURL }}">{{ i18n "products" }}</a></li>
+
+     {{ if .IsPage }}
+
+     {{ with .Parent }}
+     <li class="breadcrumb-item"><a href="{{ .Permalink }}">{{ .Title | safeHTML }}</a></li>
+     {{ end }}
+     {{ end }}
     <li class="breadcrumb-item active" aria-current="page">{{ .Title | safeHTML }}</li>
     {{ else }}
       {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}

@@ -1,11 +1,13 @@
 ---
 title: CHESTER Current
-meta_title: 
+meta_title: NB-IoT/LTE-M/LoRaWAN zařízení pro monitoring spotřeby proudu klešťovými ampermetry
 meta_description:
 heading: 
 perex: Konfigurovatelné NB-IoT/LTE-M/LoRaWAN zařízení pro neinvazivní měření střídavého a stejnosměrného proudu provozované z baterie nebo ze sítě a záložní baterie.
+perex_short: Neinvazivní měření střídavého a stejnosměrného proudu provozované z baterie nebo ze sítě.
 image: /_assets/images/configurations/chester-current.png
 image_w: w-50
+image_w2: w-100
 bg1: "#eabb37"
 bg2: "#ffe18d"
 #video: nxFmnek50LM
