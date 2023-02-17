@@ -5,6 +5,9 @@ meta_description:
 heading: 
 perex: The configurable NB-IoT/LTE-M/LoRaWAN environmental sensor that samples, aggregates, and reports temperature and humidity.
 perex_short: Environmental sensor that samples, aggregates, and reports temperature and humidity.
+menu:
+    main:
+        parent: 'CHESTER'
 image: /_assets/images/configurations/chester-clime.png
 image_w: w-75
 image_w2: w-100

@@ -7,8 +7,8 @@ short_description: Cloud services for device management and data handling - prov
 description: A set of cloud services for HARDWARIO device management and data handling - providing IoT connectivity, REST API and callback settings.
 menu:
     main:
-        parent: 'Products'
-weight: 100
+        name: Cloud
+weight: 14
 meta_title: HARDWARIO Cloud
 meta_description: 
 consultation: Alan Fabik, CEO HARDWARIO

@@ -5,6 +5,9 @@ meta_description:
 heading: 
 perex: NB-IoT/LTE-M/LoRaWAN snímač teploty a vlhkosti s možností konfigurace, který vzorkuje, agreguje a hlásí teplotu a vlhkost.
 perex_short: Snímač s možností konfigurace, který vzorkuje, agreguje a hlásí teplotu a vlhkost.
+menu:
+    main:
+        parent: 'CHESTER'
 image: /_assets/images/configurations/chester-clime.png
 image_w: w-75
 image_w2: w-100

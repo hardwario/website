@@ -59,7 +59,8 @@
         }
     </style>
     
-    
+    <div class = "pt-70">
+        {{ partial "breadcrumb.html" . }}  
     <section>
         <div class = "container">
             <div class = "row justify-content-center px-10">
@@ -79,7 +80,7 @@
                 </div>
             </div> 
             {{ end }}
-            {{ with .Site.GetPage "/kit" }}
+            {{ with .Site.GetPage "/tower" }}
             <div class = "col-12 col-md-6 pl-0 pr-0 pr-md-10">
                 <div class = "col-12 px-30 mb-20 content-block content-block--gray">
                 <div class = "row">
@@ -113,5 +114,7 @@
             </div>
         </div>
     </section>
+</div>
+
 <footer>
 {{ end }}

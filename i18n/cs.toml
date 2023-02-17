@@ -1,3 +1,9 @@
+[web_language]
+other = "Web je dostupný i v jiných jazycích"
+
+[select_language]
+other = "Vyberte si svůj jazyk"
+
 [documentation]
 other = "Dokumentace"
 
@@ -339,6 +345,9 @@ other = "R&D"
 
 [czechia]
 other = "ČESKO"
+
+[uk]
+other = "UNITED KINGDOM"
 
 [poland]
 other = "POLSKO"
@@ -1009,7 +1018,7 @@ other = "Celá stavebnice je open-source a&nbsp;podporuje integrace s&nbsp;popul
 other = "Akademie, Projekty, Dokumentace"
 
 [academy_projects_docs_desc]
-other = "Díky <a href = '/cs/education/tutorials/co-je-to-bigclown-playground/'>Playgroundu</a>, <a href = '/cs/education/tutorials/'>akademii</a> a <a href = '/cs/projects'>ukázkovým projektům</a> je začátek se stavebnicí jednoduchý. Snadno zařízení nastavíte, spárujete s&nbsp;počítačem a díky vizuálnímu programování určíte, jak má pracovat. Pokročilé chování a&nbsp;integrace vyřešíte s&nbsp;<a href = 'https://tower.hardwario.com' target = '_blank'>dokumentací</a> a&nbsp;<a href = 'https://sdk.hardwario.com'>SDK knihovnou</a>."
+other = "Díky <a href = '/cs/tower/tutorials/co-je-to-bigclown-playground/'>Playgroundu</a>, <a href = '/cs/tower/tutorials/'>akademii</a> a <a href = '/cs/projects'>ukázkovým projektům</a> je začátek se stavebnicí jednoduchý. Snadno zařízení nastavíte, spárujete s&nbsp;počítačem a díky vizuálnímu programování určíte, jak má pracovat. Pokročilé chování a&nbsp;integrace vyřešíte s&nbsp;<a href = 'https://tower.hardwario.com' target = '_blank'>dokumentací</a> a&nbsp;<a href = 'https://sdk.hardwario.com'>SDK knihovnou</a>."
 
 [get_kit]
 other = "Koupit stavebnici"
@@ -1913,8 +1922,14 @@ other = "Přehrát video"
 [more_articles]
 other = "Více článků"
 
+[overview]
+other = "Přehled"
+
+[features]
+other = "Vlastnosti"
+
 [tech_specs]
-other = "Technická specifikace"
+other = "Specifikace"
 
 [the_platform]
 other = "Platforma"
@@ -1936,3 +1951,24 @@ other = "Platforma je velmi otevřená a vývojáři mohou používat operační
 
 [configurable_gateway_desc3]
 other = "Pořiďte si vývojovou sadu a staňte se embedded řemeslníkem nové generace - vždy máte k dispozici rozsáhlou dokumentaci, školicí zdroje a osobní technickou podporu."
+
+[about_text_1]
+other = "Od založení v roce 2016 plníme každodenní prací naši misi transformovat dnešek na digitální zítřek. Jsme přesvědčeni, že digitalizace přinese lidstvu významné úspory energií a výrazně zlepší podmínky života na Zemi."
+
+[about_text_2]
+other = "Proto budujeme naši partnerskou síť a sdílíme s&nbsp;ní nejlepší praktiky jak připojit co nejvíce zařízení a prostředí k internetu, jak je propojit s&nbsp;dalšími daty a jak z toho všeho vytvářet smysluplné projekty. Jsme zkušení vývojáři a obchodníci s&nbsp;globální ambicí být vedoucí firmou v oblasti dodávek průmyslových IoT zařízení."
+
+[about_alan]
+other = "Alan působí na různých řídících a obchodních pozicích přes 25 let, většinou ve společnostech vyrábějících zabezpečovací a komunikační systémy. Byl obchodním ředitelem JABLOTRON ALARMS a výkonným ředitelem JABLOTRON PROJECTS."
+
+[about_pavel]
+other = "Pavel má více než 20 let zkušeností s vývojem elektroniky, embedded softwaru, řízením produktů, výrobou a sourcingem. Koordinoval několik významných hardwarových projektů v Číně. Pracoval jako vedoucí oddělení výzkumu a vývoje ve společnosti JABLOTRON ALARMS."
+
+[hardwario_media]
+other = "HARDWARIO v médiích"
+
+[four_branches]
+other = "Čtyři pobočky a desítky partnerů po celém světě"
+
+[extraordinary_company]
+other = "Skvělé firmy jsou tvořeny skvělými lidmi, stejně jako u&nbsp;nás"

@@ -15,10 +15,15 @@ $(function(){
 
     $('.js-formenu').click(function(){
         $('.js-menu').toggleClass('d-none')
-    })
+    });
+
+    $('.js-forsubmenu').click(function(){
+        $('.js-submenu').toggleClass('d-none')
+    });
 
     $(window).resize(function(){
-        $('.js-menu').addClass('d-none')
+        $('.js-menu').addClass('d-none');
+        $('.js-submenu').addClass('d-none');
     });
 
     $(".collapsor__item").length > 0 && $(".collapsor__item").each(function() {

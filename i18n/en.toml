@@ -1,3 +1,9 @@
+[web_language]
+other = "The website is also available in other languages"
+
+[select_language]
+other = "Select your language"
+
 [documentation]
 other = "Documentation"
 
@@ -202,8 +208,11 @@ other = "Protection level"
 [overview]
 other = "Overview"
 
+[features]
+other = "Features"
+
 [tech_specs]
-other = "Technical specifications"
+other = "Tech Specs"
 
 [order_cooper]
 other = "Get COOPER"
@@ -1629,7 +1638,7 @@ other = "The whole kit is open-source and supports integration with popular plat
 other = "Academy, Projects, Documentation"
 
 [academy_projects_docs_desc]
-other = "Thanks to the <a href = '/education/tutorials/what-is-bigclown-playground/'>Playground</a>, <a href = '/education/tutorials/'>tutorials</a> and <a href = '/education/projects/'>example projects</a>, getting started with the kit is easy. You can easily set up the device, pair it with a computer and, thanks to visual programming, define how it should work. You can solve advanced behavior and integration with <a href = 'https://tower.hardwario.com' target = '_blank'>documentation</a> and <a href = 'https://sdk.hardwario.com' target = '_blank'>SDK library</a>."
+other = "Thanks to the <a href = '/tower/tutorials/what-is-bigclown-playground/'>Playground</a>, <a href = '/tower/tutorials/'>tutorials</a> and <a href = '/tower/projects/'>example projects</a>, getting started with the kit is easy. You can easily set up the device, pair it with a computer and, thanks to visual programming, define how it should work. You can solve advanced behavior and integration with <a href = 'https://tower.hardwario.com' target = '_blank'>documentation</a> and <a href = 'https://sdk.hardwario.com' target = '_blank'>SDK library</a>."
 
 [get_kit]
 other = "Buy Industrial Kit"
@@ -1981,3 +1990,27 @@ other = "The platform is very open, and developers can use the Zephyr operating 
 
 [configurable_gateway_desc3]
 other = "Get your development kit now and become the next-gen embedded craftsman - you are always covered with extensive documentation, training resources, and personal technical support."
+
+[login]
+other = "Login"
+
+[about_text_1]
+other = "Since our founding in 2016, we have been working every day to fulfill our mission to transform today into a digital tomorrow. We are convinced that digitalization will bring significant energy savings to humanity and significantly improve the conditions of life on Earth."
+
+[about_text_2]
+other = "That's why we're building our partner network and sharing best practices on how to connect as many devices and environments as possible to the Internet, how to connect them to other data, and how to make meaningful projects out of it all. We are experienced developers and marketers with a global ambition to be the leading company in the delivery of Industrial IoT devices."
+
+[about_alan]
+other = "Alan has worked in a variety of management and commercial roles for over 25 years, mostly in companies manufacturing security and communications systems. He has been Sales Director of JABLOTRON ALARMS and Managing Director of JABLOTRON PROJECTS."
+
+[about_pavel]
+other = "Pavel has over 20 years of experience in electronics development, embedded software, product management, manufacturing and sourcing. He has coordinated several major hardware projects in China. He has worked as head of research and development at JABLOTRON ALARMS."
+
+[hardwario_media]
+other = "HARDWARIO in media"
+
+[four_branches]
+other = "Four branches and dozens of partners worldwide"
+
+[extraordinary_company]
+other = "Great companies are made up of great people, just like us"

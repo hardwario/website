@@ -15,13 +15,90 @@
 
 <nav>
 
-<div class="top-nav">
+<div class ="language-selector" id = "languagues">
+
+  <div class = "selector">
+    <div class = "container">
+      <div class = "row">
+        <div class = "col text-center">
+          <p class = "pt-10 pt-md-0 font-16 font-lnh24 font-md-22 font-md-lnh55 font-weight-bold d-inline-block">{{ i18n "web_language" }}: </p>
+          <ul class = "d-inline-block font-16 font-lnh24 font-md-18 font-md-lnh55 mb-0">
+            {{ if .IsTranslated }}
+              {{ range .Translations }}
+                <li class = "d-inline-block px-5 py-0"><a class="font-black" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+              {{ end }}
+            {{ else }}
+              {{ range .Site.Languages }}
+                {{ if ne .Lang $.Page.Lang }}
+                <li class = "d-inline-block px-5 py-0"><a class="font-black" href="/{{ .Lang }}">{{ .Params.LanguageName }}</a></li>
+                {{ end }}
+              {{ end }}
+            {{ end }}
+            <li class = "d-inline-block px-5 py-0"><span class="font-gray2 active" href="{{ .Permalink }}">{{ .Site.Language.LanguageName }}</span></li>
+            
+          </ul>
+          <span class = "close-selector" id = "close-selector">&nbsp;</span>
+        </div>
+    </div>
+    </div>
+    
+  </div>
+
+  <script src="/_assets/js/{{ index .Site.Data.js.hash "jquery.min.js" }}"></script>
+  <script src="/_assets/js/jquery.cookie.js"></script>
+  <script>
+
+    $.getJSON("https://ipinfo.io/json?token=0942c74d99a9fb", function(data) {
+         //console.log(data);
+         user_lang = data.country;
+     });
+
+  </script>
+
+<script>
+
+    $(document).ready(function(){
+      var is_lang = $.cookie('hio_lang'); 
+      var web_lang = "{{ $currentLang }}";
+      
+      if(web_lang == "en"){ web_lang = "EN"}
+      else if(web_lang == "cs"){ web_lang = "CZ"}
+      else if(web_lang == "de"){ web_lang = "DE"}
+
+      if(is_lang){
+        
+      } 
+      else if(user_lang == web_lang){
+       
+      }
+      else{
+        $('.language-selector').addClass('lang-visible');
+      }
+    });
+    $( ".close-selector" ).click(function() {
+      $('.language-selector .selector').hide();
+      $( "#languagues" ).removeClass("language-selector");
+      $.cookie('hio_lang', 'set', { expires: 30, path: '/' });
+    });
+</script>
+
+<div class="top-nav {{ if .IsHome }} fixed {{ end }}">
+
   <div class = "container">
+    
     <div class = "row">
-      <div class="col-2 text-left">
+      <div class="col-10 col-md-2 text-left">
         <a href="{{ .Site.Params.baseURL }}"><img src = "/_assets/images/hw-logo.svg"  style = "height: 36px; margin: 7px 0"/></a>
       </div>
-      <div class = "col-10 text-left">
+      <div class="col-2 d-block d-lg-none hamburger">
+        <div class="js-formenu">
+            <!--<div>MENU</div>-->
+            <div class="bg-hamb rounded"></div>
+            <div class="bg-hamb rounded"></div>
+            <div class="bg-hamb rounded"></div>
+        </div>
+    </div>
+      <div class = "col-12 col-md-10 text-left menu-container js-menu d-none d-md-block">
 
         {{ $solutions := where .Site.RegularPages "Section" "solutions" }}
         {{ $cases := where .Site.RegularPages "Section" "use-cases" }}
@@ -40,28 +117,87 @@
   </div>
 </div>
 
+
 {{ block "second-nav" . }}
 
 {{ end }}
-
+</div>
 </nav>
 
 <style>
-  body{
-    padding-top: 100px;
+  .language-selector.lang-visible{
+    padding-bottom: 50px;
   }
+  .language-selector .selector{
+    background: white;
+    position: fixed;
+    z-index: 9001;
+    width: 100%;
+    height: 50px;
+    display: none;
+  }
+  .language-selector.lang-visible .selector{
+    display:block;
+  }
+
+  .language-selector.lang-visible .top-nav{
+    top: 50px;
+  }
+  .language-selector.lang-visible .second-nav{
+    top: 100px;
+  }
+  .language-selector.lang-visible .second-nav.submenu--fixed{
+    top: 50px;
+  }
+
+  .language-selector .close-selector{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    background: url("/_assets/images/close.svg") no-repeat center center;
+    background-size: 50%;
+    display: inline-block;
+    line-height: 55px;
+  }
+  .language-selector .close-selector:hover{
+    cursor: pointer;
+  }
+
+  @media(max-width:800px){
+    .language-selector.lang-visible{
+      padding-bottom: 90px;
+    }
+    .language-selector .selector{
+      height: 90px;
+    }
+    .language-selector.lang-visible .top-nav{
+    top: 90px;
+    }
+    .language-selector.lang-visible .second-nav{
+      top: 140px;
+    }
+    .language-selector.lang-visible .second-nav.submenu--fixed{
+      top: 90px;
+    }
+  }
+
   .top-nav{
-    background: #f2f2f2;
+    /*background: #f2f2f2;
     background-image: linear-gradient(to bottom right, #ccc, #f2f2f2);
-    border-bottom: solid 0.25px #b3b3b3;
+    border-bottom: solid 0.25px #b3b3b3;*/
     /*box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;*/
+
     height: 50px;
     margin-bottom: 45px;
-    position:fixed;
+    position:absolute;
     top: 0;
     width: 100%;
     z-index: 9000;
     opacity: 0.96;
+  }
+  .top-nav.fixed{
+    position: fixed;
+    background-image: linear-gradient(to bottom right, #ccc, #f2f2f2);
   }
   .top-nav .menu{
     list-style: none;
@@ -75,8 +211,36 @@
     line-height: 55px;
     display: block;
     color: #1a1a1a;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-size: 14px;
+  }
+
+  @media(max-width: 768px){
+    .top-nav{
+      opacity: 1;
+    }
+    .hamburger{
+      padding-top: 7px;
+    }
+    .menu-container{
+      padding: 0;
+      background: #1a1a1a;
+      /*background-image: linear-gradient(to bottom right, #1a1a1a, #666666);*/
+    }
+    .top-nav .menu{
+    padding: 0;
+    margin: 0;
+    }
+    .top-nav .menu li{
+      display: block;
+      text-align: center;
+      width: 100%;
+      border-bottom: solid 0.5px #666666;
+    }
+    .top-nav .menu li a{
+      padding: 0 0;
+      color: white;
+    }
   }
   .nav-cta{
     background: #e30427;
@@ -89,15 +253,21 @@
   .second-nav{
     background: #1a1a1a;
     /*background-image: linear-gradient(to bottom right, #1a1a1a, #666666);*/
-    border-bottom: solid 0.25px #ccc;
+    /*border-bottom: solid 0.25px #ccc;*/
     /*box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;*/
-    height: 50px;
-    margin-bottom: 45px;
-    position:fixed;
+    /*height: 50px;*/
+    position:absolute;
     top: 50px;
     width: 100%;
-    z-index: 9000;
+    z-index: 8000;
     opacity: 0.96;
+  }
+  .second-nav.submenu{
+    border-bottom: none;
+  }
+  .second-nav.submenu--fixed{
+    position: fixed;
+    top: 0px;
   }
 
   .second-nav .second-nav-name{
@@ -109,6 +279,7 @@
   }
   .second-nav .menu{
     list-style: none;
+    margin: 0;
   }
   .second-nav .menu li{
     display: inline-block;
@@ -118,23 +289,40 @@
     height: 55px;
     line-height: 55px;
     display: block;
-    color: #fff;
+    color: #fafafa;
     font-size: 14px;
+  }
+  .second-nav .menu li a.active{
+    color: white;
+    font-weight: 600;
+    border-bottom: solid 3px #e30427;
+  }
+  .second-nav .toggle{
+    background: url("/_assets/images/icons/arrow-down-white2.svg") no-repeat center center;
+    background-size: 50%;
+    display: block;
+    height: 55px;
+    width: 55px;
+  }
+  @media(max-width: 768px){
+    .second-nav.submenu{
+      display: block;
+    }
+    .second-nav .menu{
+      padding: 0;
+    }
+    .second-nav .menu li{
+      display: block;
+    }
   }
 </style>
 
 
 
 {{ end }}
-<script src="/_assets/js/{{ index .Site.Data.js.hash "jquery.min.js" }}"></script>
+
 <main role="main">
 
-  {{ block "breadcrumb" . }}
-    {{ if .IsHome }}
-    {{ else }}
-      {{ partial "breadcrumb.html" . }} 
-    {{ end }}
-  {{ end }}
 
 {{ block "main" . }}
   {{ .Content }}

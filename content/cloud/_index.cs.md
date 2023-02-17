@@ -7,8 +7,8 @@ short_description: Cloudové služby pro správu zařízení a zpracování dat 
 description: Soubor cloudových služeb pro správu zařízení HARDWARIO a&nbsp;práci s&nbsp;daty - poskytování IoT konektivity, REST API a&nbsp;nastavení callbacků.
 menu:
     main:
-        parent: 'Produkty'
-weight: 100
+        name: Cloud
+weight: 14
 meta_title: HARDWARIO Cloud
 meta_description: 
 consultation: Alan Fabik, CEO HARDWARIO

@@ -1,7 +1,8 @@
 {{ define "main" }}
-
+<div class = "pt-70">
+    {{ partial "breadcrumb.html" . }}
 <section>
-    <div class="container pt-30 pt-md-0">
+    <div class="container pt-0">
         {{ $pages := .Data.Pages }}
         {{ range where $pages.ByPublishDate.Reverse ".Params.featured" true }}
           {{ .Render "grid-featured" }}
@@ -121,6 +122,6 @@
 
 </section>
 
-
-
+</div>
+<footer>
 {{ end }}

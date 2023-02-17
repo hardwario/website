@@ -1,8 +1,10 @@
+{{ define "second-nav" }}
+    {{ partial "submenu/about.html" . }} 
+{{ end }}
 {{ define "main" }}
 
-
-
-
+<div class = "pt-120">
+  {{ partial "breadcrumb.html" . }}
 <section>
   <div class="bg bg--gray">
     <div class="container">
@@ -105,7 +107,7 @@
   </div>
 </section>
 </div>
-
+</div>
 <footer>
 {{ end }}
 

@@ -1,3 +1,6 @@
+{{ define "second-nav" }}
+    {{ partial "submenu/about.html" . }} 
+{{ end }}
 {{ define "main" }}
 
 {{ $pages := .Data.Pages }}
@@ -10,7 +13,8 @@
   {{ with .Params.categories }}{{ else }}{{ $.Scratch.Add "uncategorized" 1 }}{{ end }}
 {{ end }}
 
-
+<div class = "pt-120">
+  {{ partial "breadcrumb.html" . }}
 <section>
   <div class="bg bg--gray">
     <div class="container">
@@ -71,7 +75,7 @@
     </div>
   </div>
 </section>
-
+</div>
 <footer>
 {{ end }}
 

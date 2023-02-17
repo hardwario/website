@@ -1,10 +1,25 @@
-{{ define "header" }}
-  {{ partial "header.html" . }}
+
+{{ define "second-nav" }}
+<div class = "second-nav">
+    <div class = "container">
+      <div class = "row">
+        <div class="col-2 text-left second-nav-name">
+        {{ .Title }}
+        </div>
+        <div class = "col-10 text-right">
+          <ul class = "menu">
+            <li><a href = "https://hardwario.cloud" target="_blank"><span class = "nav-cta">{{ i18n "login" }}</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
 {{ end }}
 
-
 {{ define "main" }}
-
+<div class = "pt-120">
+  {{ partial "breadcrumb.html" . }}
 <section>
     <div class="bg-image15 pt-50 pt-lg-0 d-flex align-items-center">
         <div class="container">
@@ -158,7 +173,7 @@
         </div>
 </section>
        
-
+</div>
         <footer>
 {{ end }}
 

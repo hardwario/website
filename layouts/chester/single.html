@@ -1,12 +1,39 @@
-{{ define "header" }}
-  {{ partial "header.html" . }}
+{{ define "second-nav" }}
+
+{{ $hasSubmenu := true }}
+<div class = "second-nav submenu">
+    <div class = "container">
+        <div class = "row  justify-content-between">
+        <div class="col-auto col-md-2 text-left second-nav-name">
+        {{ .Title }}
+        </div>
+        <div class="col-auto d-block d-lg-none px-0">
+            <div class="js-forsubmenu toggle">
+                
+            </div>
+        </div>
+        <div class = "col-12 col-md-10 text-md-right js-submenu d-none d-md-block">
+          <ul class = "menu">
+            <li><a href = "#overview">{{ i18n "overview" }}</a></li>
+            <li><a href = "#features">{{ i18n "features" }}</a></li>
+            <li><a href = "#specs">{{ i18n "tech_specs" }}</a></li>
+            {{ with .Params.buy_link }}<li><a href = "{{ . }}" target="_blank"><span class = "nav-cta">{{ i18n "buy_now" }}</span></a></li>{{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
 {{ end }}
 
 
 {{ define "main" }}
 
-<div class = "chester-catalog">
-<section>
+<div class = "chester-catalog pt-120" id = "overview">
+
+{{ partial "breadcrumb.html" . }} 
+
+<section >
   <div class=" d-flex">
       <div class="container">
             <div class="row pb-10">
@@ -123,7 +150,7 @@
   }
 </style>
 
-
+<div id = "features">
 <section>
   <div class = "container" id = "products">
       <div class = "row justify-content-center">
@@ -133,7 +160,9 @@
       </div>
   </div>
 </section>
+</div>
 
+<div id = "specs">
 <section>
   <div class = "container">
     <div class = "row pt-60 align-items-center">
@@ -158,7 +187,7 @@
     </div>
   </div>
 </section>
-
+</div>
 <section>
     <div class="container pt-60">
         <div class="row">

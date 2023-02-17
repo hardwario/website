@@ -1,0 +1,24 @@
+<div class = "second-nav submenu">
+    <div class = "container">
+      <div class = "row  justify-content-between">
+
+        <div class="col-2 text-left second-nav-name text-uppercase">
+         {{ .Page.Section }}
+        </div>
+        <div class="col-auto d-block d-lg-none px-0">
+          <div class="js-forsubmenu toggle">
+              
+          </div>
+      </div>
+        <div class = "col-12 col-md-10 text-left js-submenu d-none d-md-block">
+          <ul class = "menu">
+            {{ range .Site.Menus.chester.ByWeight }}
+            <li><a href = "{{ .URL }}" class = "{{ if $.IsMenuCurrent "chester" . }} active {{ end }}">{{ .Name | safeHTML }}</a></li>
+            {{ end }}
+            <li><a href = "https://docs.hardwario.com/chester/" target="_blank">{{ i18n "documentation" }} <img width = "15" src = "/_assets/images/icons/external-link.svg"></a></li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </div>

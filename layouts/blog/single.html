@@ -1,5 +1,10 @@
-{{ define "main" }}
+{{ define "second-nav" }}
+    {{ partial "submenu/about.html" . }} 
+{{ end }}
 
+{{ define "main" }}
+<div class = "pt-120">
+  {{ partial "breadcrumb.html" . }}
 {{ $author := index $.Site.Data.authors .Params.author }}
 <section>
   <div class="container">
@@ -80,6 +85,8 @@
 </div>
 </section>
 
+</div>
+<footer>
 {{ end }}
 
 {{ define "additional-scripts" }}

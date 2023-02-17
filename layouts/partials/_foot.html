@@ -1,5 +1,28 @@
+{{ $currentLang := .Site.Language.Lang }}
 
-              
+    <div class = "bg-gray">
+      <div class = "container">
+        <div class = "row">
+        <div class = "col text-center">
+          <p class = "font-22 font-lnh55 font-weight-bold d-inline-block">{{ i18n "select_language" }}: </p>
+          <ul class = "d-inline-block font-18 font-lnh55 mb-0 pl-0">
+            <li class = "d-inline-block px-5 py-0"><span class="font-gray2 active" href="{{ .Permalink }}">{{ .Site.Language.LanguageName }}</span></li>
+            {{ if .IsTranslated }}
+              {{ range .Translations }}
+                <li class = "d-inline-block px-5 py-0"><a class="font-black" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+              {{ end }}
+            {{ else }}
+              {{ range .Site.Languages }}
+                {{ if ne .Lang $.Page.Lang }}
+                <li class = "d-inline-block px-5 py-0"><a class="font-black" href="/{{ .Lang }}">{{ .Params.LanguageName }}</a></li>
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
     <div class="bg-darkGray bg-footer bg-footer--dark font-white pt-xl-50">
         <div class="container pt-30 text-center text-md-left">
             <div class = "row">

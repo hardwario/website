@@ -1,18 +1,18 @@
 <section>
-  <div class="container">
-    <nav aria-label="breadcrumb bg-white">
-      <ol class="breadcrumb bg-white">
-    {{ if or (eq .Section "kit") (eq .Section "chester") (eq .Section "cooper") (eq .Section "cloud") }}
+  <div class="container" style = "background: transparent;">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb" style = "background: transparent;">
+    {{ if or (eq .Section "tower") (eq .Section "chester") (eq .Section "cooper") (eq .Section "cloud") }}
     <li class="breadcrumb-item"><a href="{{ .Site.Params.baseURL }}">{{ i18n "home" }}</a></li>
     <li class="breadcrumb-item"><a href="{{ "products/" | absLangURL }}">{{ i18n "products" }}</a></li>
 
      {{ if .IsPage }}
 
      {{ with .Parent }}
-     <li class="breadcrumb-item"><a href="{{ .Permalink }}">{{ .Title | safeHTML }}</a></li>
+     <li class="breadcrumb-item"><a href="{{ .Permalink }}">{{ .Title | safeHTML | truncate 30 }}</a></li>
      {{ end }}
      {{ end }}
-    <li class="breadcrumb-item active" aria-current="page">{{ .Title | safeHTML }}</li>
+    <li class="breadcrumb-item active" aria-current="page">{{ .Title | safeHTML | truncate 30 }}</li>
     {{ else }}
       {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
     {{ end }}
@@ -27,11 +27,11 @@
 
   {{ if eq .p1 .p2 }}
   <li class="breadcrumb-item active" aria-current="page">
-    {{ .p1.Title | safeHTML }}
+    {{ .p1.Title | safeHTML | truncate 30 }}
   </li>
   {{ else }}
   <li class="breadcrumb-item">
-    <a href="{{ .p1.Permalink }}">{{ .p1.Title | safeHTML }}</a>
+    <a href="{{ .p1.Permalink }}">{{ .p1.Title | safeHTML | truncate 30 }}</a>
   </li>
     {{ end}}  
   {{ end }}

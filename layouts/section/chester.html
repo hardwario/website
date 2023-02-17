@@ -1,30 +1,12 @@
 {{ define "second-nav" }}
-<div class = "second-nav">
-    <div class = "container">
-      <div class = "row">
-        <div class="col-2 text-left">
-         
-        </div>
-        <div class = "col-10 text-left">
-          <ul class = "menu">
-            <li><a href = "#">Platform overview</a></li>
-            <li><a href = "#">Catalog applications</a></li>
-            <li><a href = "https://docs.hardwario.com/chester/">Documentation <img width = "15" src = "/_assets/images/icons/external-link.svg"></a></li>
-            <li><a href = "#"><span class = "nav-cta">Book a meeting</span></a></li>
-
-
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-
+    {{ partial "submenu/chester.html" . }} 
 {{ end }}
 
 
 {{ define "main" }}
 {{ $currentLang := .Site.Language.Lang }}
-
+<div class = "pt-120">
+    {{ partial "breadcrumb.html" . }}
 <section>
     <div class=" d-flex">
         <div class="container">
@@ -84,7 +66,7 @@
     </div>
   </div>
 
-<section>
+<!--<section>
     <div class="submenu">
         <div class="container">
             <div class="row">
@@ -99,7 +81,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <section>
     <div class="container" id = "overview">
@@ -906,7 +888,7 @@ formId: "{{ .Params.form_id }}"
             </div>
         </div>
 </section>
-
+</div>
 <footer>
 
 {{ end }}

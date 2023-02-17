@@ -1,10 +1,13 @@
-{{ define "header" }}
-  {{ partial "header.html" . }}
+{{ define "second-nav" }}
+
+    {{ partial "submenu/chester.html" . }} 
+
 {{ end }}
 
 
 {{ define "main" }}
-
+<div class = "pt-120">
+    {{ partial "breadcrumb.html" . }}
 <section>
   <div class=" d-flex">
       <div class="container">
@@ -41,6 +44,8 @@
     </div>
     </div>
 </section>
+</div>
+<footer>
 {{ end }}
 
 {{ end }}

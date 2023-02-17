@@ -1,33 +1,8 @@
-{{ define "second-nav" }}
-<div class = "second-nav">
-    <div class = "container">
-      <div class = "row">
-        <div class="col-2 text-left">
-         
-        </div>
-        <div class = "col-10 text-left">
-            <ul class = "menu">
-
-                {{ .Parent.Title }}
-                
-                            {{ range where site.Menus.main "Name" .Parent.Title }} 
-                            <li><a href = "{{ .URL }}">{{ .Name | safeHTML }}</a></li>
-                            {{ range .Children }}
-                            <li><a href = "{{ .URL }}">{{ .Name | safeHTML }}</a></li>
-                            {{ end }}
-                            {{ end }}
-                          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-
-{{ end }}
-
 {{ define "main" }}
 {{ $currentLang := .Site.Language.Lang }}
 
-{{ .Parent.Title }}
+<div class = "pt-70">
+    {{ partial "breadcrumb.html" . }}
 <section>
     <div class="bg-image10 pt-50 pt-lg-0 d-flex align-items-center">
         <div class="container">
@@ -128,7 +103,7 @@
             {{ if ne $currentLang "de" }}
             <a href="{{ "education/projects/" | absLangURL }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
             {{ else }}
-            <a href="/education/projects/" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+            <a href="/tower/projects/" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
             {{ end }}
                 <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "tower_projects" }}</h3>
                 <p class = "pb-20">{{ i18n "tower_projects_desc" }}</p>
@@ -156,7 +131,7 @@
             {{ if ne $currentLang "de" }}
             <a href="{{ "education/tutorials/" | absLangURL }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
             {{ else }}
-            <a href="/education/tutorials/" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+            <a href="/tower/tutorials/" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
             {{ end }}
                 <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "tower_intro" }}</h3>
                 <p class = "pb-20">{{ i18n "tower_intro_desc" }}</p>
@@ -244,6 +219,6 @@
                 </div>
             </div>
         </section>
-
+</div>
 <footer>
 {{ end }}

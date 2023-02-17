@@ -215,10 +215,10 @@ https://hardwar.io/ericsson-report* https://www.ericsson.com/49d3a0/assets/local
 
 
 # education section containing projects and tutorials
-https://www.hardwario.com/projects* https://www.hardwario.com/education/projects/:splat 301!
-https://www.hardwario.com/cs/projects* https://www.hardwario.com/cs/education/projects/:splat 301!
-https://www.hardwario.com/tutorials* https://www.hardwario.com/education/tutorials/:splat 301!
-https://www.hardwario.com/cs/tutorials* https://www.hardwario.com/cs/education/tutorials/:splat 301!
+https://www.hardwario.com/projects* https://www.hardwario.com/tower/projects/:splat 301!
+https://www.hardwario.com/cs/projects* https://www.hardwario.com/cs/tower/projects/:splat 301!
+https://www.hardwario.com/tutorials* https://www.hardwario.com/tower/tutorials/:splat 301!
+https://www.hardwario.com/cs/tutorials* https://www.hardwario.com/cs/tower/tutorials/:splat 301!
 
 # io shortcuts
 https://www.hardwar.io/skoda* https://www.hardwario.com/case-studies/skoda-andon/:splat 301!
