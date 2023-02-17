@@ -2,8 +2,11 @@
 title: Ke stažení
 mainHeading: Ke stažení
 slug: ke-stazeni
-menu: "footer_2"
-weight: 800
+menu: 
+    footer_2:
+        weight: 800
+    tower:
+        weight: 800
 meta_title: Stáhněte si HARDWARIO Playground
 ---
 

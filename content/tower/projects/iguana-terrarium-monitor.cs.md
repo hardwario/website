@@ -7,7 +7,7 @@ date: 2019-11-06T14:07:29.153Z
 description: >-
   Využij IoT ve svém pokojíku. Sestav s Climate Monitorem od HARDWARIOa zařízení,
   které ti ukáže, jestli má tvůj zelený kámoš správné klima v terárku.
-slug: monitor-teraria-pro-leguana
+url: tower/projekty/monitor-teraria-pro-leguana
 meta_title: 'IoT projekt: hlídač terária pro leguána a další plazy'
 meta_description: >-
   Využij IoT ve svém pokojíku. Sestav s Climate Monitorem od HARDWARIOa zařízení,

@@ -8,7 +8,7 @@ description: >-
   Rozšiř si digitální dovednosti s IoT projektem od HARDWARIO. Vyrob ze Starter
   Kitu vylepšený hlídač teploty do psí boudy. Vyšší level pro všechny, kdo se
   nebojí.
-slug: vylepseny-hlidac-teploty-psi-boudy
+url: tower/projekty/vylepseny-hlidac-teploty-psi-boudy
 meta_title: Vyrob si upgradovaný hlídač teploty do psí boudy
 meta_description: >-
   Rozšiř si digitální dovednosti s IoT projektem od HARDWARIO. Vyrob ze Starter

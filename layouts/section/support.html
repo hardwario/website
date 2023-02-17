@@ -53,6 +53,7 @@
           <h2 class="text-center font-weight-black font-36 font-md-48 pb-30">IoT Kit TOWER</h2>
         </div>
 
+        {{ with .Site.GetPage "/download" }}
         <div class="col-12 col-lg-4">
             <a href="{{ "download/" | absLangURL }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
                 <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "download_playground" }}</h3>
@@ -60,25 +61,30 @@
                 <span class = "font-font2 font-red font-decoration-underline">{{ i18n "download_link" | safeHTML }}</span>
             </a>
         </div>
+        {{ end }}
 
+        {{ with .Site.GetPage "/tower/tutorials" }}
         <div class="col-12 col-lg-4">
-            <a href="{{ "education/tutorials/" | absLangURL }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+            <a href="{{ .Permalink }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
                 <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "tutorials"}}</h3>
                 <p class = "pb-20">{{ i18n "tutorials_text" | safeHTML }}</p>
                 <span class = "font-font2 font-red font-decoration-underline">{{ i18n "tutorials_link"}}</span>
             </a>
         </div>
+        {{ end }}
 
+        {{ with .Site.GetPage "/tower/projects" }}
         <div class="col-12 col-lg-4">
-            <a href="{{ "education/projects/" | absLangURL }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+            <a href="{{ .Permalink }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
                 <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "projects" | safeHTML }}</h3>
                 <p class = "pb-20">{{ i18n "projects_text" | safeHTML }}</p>
                 <span class = "font-font2 font-red font-decoration-underline">{{ i18n "projects_link" | safeHTML }}</span>
             </a>
         </div>
+        {{ end }}
 
         <div class="col-12 col-lg-4">
-            <a href="https://tower.hardwario.com" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+            <a href="https://docs.hardwario.com/tower/" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
                 <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "kit_docs" | safeHTML }}</h3>
                 <p class = "pb-20">{{ i18n "kit_docs_text" | safeHTML }}</p>
                 <span class = "font-font2 font-red font-decoration-underline">{{ i18n "kit_docs_link" | safeHTML }}</span>

@@ -2,7 +2,7 @@
 title: Který z tvých kámošů je zenový kung-fu mástr? 🐉
 meta_title: Který z tvých kámošů je zenový kung-fu mástr? 🐉
 meta_description: Vytvoř si ze Starter Kitu od HARDWARIO IoT detektor změny pohybu s tímhle jednoduchým návodem. A nezapomeň ho s kámoši otestovat v cool hře.
-slug: kung-fu-mastr
+url: tower/projekty/kung-fu-mastr
 draft: false
 date: 2019-08-12
 description: Vytvoř si ze Starter Kitu od HARDWARIO IoT detektor změny pohybu s tímhle jednoduchým návodem. A nezapomeň ho s kámoši otestovat v cool hře.

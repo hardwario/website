@@ -8,5 +8,5 @@ meta_title: Katalogové sestavy CHESTER | Konfigurovatelná NB-IoT/LTE-M/LoRaWAN
 meta_description: 
 menu:
     chester:
-weight: 
+        weight: 50
 ---

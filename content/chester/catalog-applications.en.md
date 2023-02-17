@@ -8,5 +8,5 @@ meta_title: CHESTER catalog applications | Configurable NB-IoT/LTE-M/LoRaWAN dev
 meta_description: 
 menu:
     chester:
-weight: 
+        weight: 50
 ---

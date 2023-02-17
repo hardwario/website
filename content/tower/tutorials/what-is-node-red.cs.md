@@ -1,7 +1,7 @@
 ---
 date: "2019-08-12"
 title: "Co je to Node-RED a ukázka práce"
-slug: co-je-node-red
+url: tower/navody/co-je-node-red
 meta_title: Nauč se programovat v Node-RED
 meta_description: Svému HARDWARIO kitu zadáš příkazy v programovacím nástroji Node-RED. Ten je úžasně intuitivní a pracovat se v něm naučíš za pár minut. Přesvědč se sám.
 description: Svému HARDWARIO kitu zadáš příkazy v programovacím nástroji Node-RED. Ten je úžasně intuitivní a pracovat se v něm naučíš za pár minut. Přesvědč se sám.

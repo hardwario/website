@@ -7,7 +7,7 @@ date: 2019-08-12T00:00:00.000Z
 description: >-
   Vytvoř si ze Starter Kitu od HARDWARIO IoT tlačítko, se kterým vylosuješ
   náhodného člena vaší party.
-slug: party-hra-flaska
+url: tower/projekty/party-hra-flaska
 meta_title: Hraj párty hru „flaška” elektronicky díky IoT
 meta_description: >-
   Vytvoř si ze Starter Kitu od HARDWARIO IoT tlačítko, se kterým vylosuješ

@@ -7,7 +7,7 @@ date: 2019-11-09T14:36:10.628Z
 description: >-
   Vytvoř si ze Starter Kitu od HARDWARIO IoT věšteckou kostku neboli magic
   8-ball. Po zatřepání ti dá odpověď na všechno, co chceš vědět.
-slug: vestecka-koule
+url: tower/projekty/vestecka-koule
 meta_title: Vyvěšti si svůj osud s IoT
 meta_description: >-
   Vytvoř si ze Starter Kitu od HARDWARIO IoT věšteckou kostku neboli magic

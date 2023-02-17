@@ -1,6 +1,6 @@
 ---
-title: Is it possible to connect the CHESTER to a relay using a digital output (DO)?
+title: Je možné připojit CHESTER k relé pomocí digitálního výstupu (DO)?
 weight: 100
 ---
 
-Yes, you can. To offer a specific solution we need a specification of the required output (e.g. you want to switch a 230 VAC / 16A relay or you require an open collector switch).
+Ano, nabízíme rozšiřující modul CHESTER-X9, který dokáže ovládat až 4 relé. Alternativně lze CHESTER spojit s RS-485/Modbus reléovým modulem a ovládat výrazně vyšší počet výstupů. Pro nabídku konkrétního řešení potřebujeme specifikaci požadovaného výstupu (např. chcete spínat relé 230 VAC / 16A nebo požadujete spínač typu otevřený kolektor).

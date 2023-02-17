@@ -3,6 +3,7 @@ title: Kdo má největší odstředivou sílu? Vytvoř si IoT káču a změř to
 draft: false
 date: 2019-08-12T00:00:00.000Z
 description: "Poměř pak s kámoši, kdo z vás je odstředivě nejsilnější! \U0001F4AA Návod na to, jak si ze Starter Kitu od HARDWARIO postavíš chytrou káču."
+url: tower/projekty/odstrediva-sila
 tags:
   - Hra
 idea: false

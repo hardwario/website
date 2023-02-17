@@ -7,7 +7,7 @@ date: 2019-10-20T05:51:56.151Z
 description: >-
   IoT hra se Starter Kitem od HARDWARIO. Vytvoř dva typy soutěže v jednom
   projektu a přepínej mezi nimi. Nejvyšší level pro všechny, kteří se nebojí!
-slug: upgrade-iot-party-draci-ohen-mrazivy-dech
+url: tower/projekty/upgrade-iot-party-draci-ohen-mrazivy-dech
 meta_title: 'Upgrade IoT párty hry: máš v sobě dračí oheň, nebo mrazivý dech?'
 meta_description: >-
   IoT hra se Starter Kitem od HARDWARIO. Vytvoř dva typy soutěže v jednom

@@ -9,7 +9,7 @@ modules:
   - led
   - usb_dongle
 author: lukas_fabik
-slug: sada-control
+url: tower/projekty/sada-control
 featured: true
 date: 2022-02-26
 url: /projekty/sada-control

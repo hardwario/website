@@ -2,8 +2,11 @@
 title: Herunterladen 
 mainHeading: Herunterladen 
 slug: Herunterladen 
-menu: "footer_2" 
-weight: 800 
+menu: 
+    footer_2:
+        weight: 800
+    tower:
+        weight: 800
 meta_title: Herunterladen HARDWARIO Playground
 ---
 

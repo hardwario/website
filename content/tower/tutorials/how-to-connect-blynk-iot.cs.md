@@ -1,7 +1,7 @@
 ---
 date: "2022-01-03"
 title: "Jak připojit mobilní aplikace Blynk IoT"
-slug: jak-pripojit-blynk-iot
+url: tower/navody/jak-pripojit-blynk-iot
 meta_title: Jak propojit HARDWARIO s aplikací Blynk
 meta_description: Aby vám vaše IoT zařízení HARDWARIO posílalo informace na mobil, potřebujete ho spárovat s Blynkem. Koukněte na náš jednoduchý návod.
 description: Aby vám vaše IoT zařízení HARDWARIO posílalo informace na mobil, potřebujete ho spárovat s Blynkem. Koukněte na náš jednoduchý návod.

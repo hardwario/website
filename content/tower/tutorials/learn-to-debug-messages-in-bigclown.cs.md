@@ -6,7 +6,7 @@ weight: 60
 description: >-
   Abys svůj program pro IoT krabičku vyladil k dokonalosti, pomůže ti jednoduchý
   debugger, se kterým vychytáš mouchy. Poradíme ti, jak ho nastavíš a rozjedeš.
-slug: jak-debugovat
+url: tower/navody/jak-debugovat
 meta_title: Nauč se v HARDWARIOu debugovat zprávy
 meta_description: >-
   Abys svůj program pro IoT krabičku vyladil k dokonalosti, pomůže ti jednoduchý

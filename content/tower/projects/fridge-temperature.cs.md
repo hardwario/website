@@ -2,7 +2,7 @@
 title: Změř teplotu ve vaší lednici nebo mrazáku
 meta_title: IoT projekt, hlídač teploty pro domácí lednici
 meta_description: Nauč se jeden z IoT projektů na rozšíření digitálních dovedností. Sestav se Starter Kitem od HARDWARIOu zařízení, se kterým změříš, jak moc je u vás v mrazáku zima.
-slug: teplota-v-lednici
+url: tower/projekty/teplota-v-lednici
 draft: false
 date: 2019-08-12
 description: Nauč se jeden z IoT projektů na rozšíření digitálních dovedností. Sestav se Starter Kitem od HARDWARIOu zařízení, se kterým změříš, jak moc je u vás v mrazáku zima.
