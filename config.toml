@@ -10,7 +10,7 @@ csFormId = "4ada87e9-7bb4-43fa-8c3c-2677a72b675c"
 unsafe= true
 
 [params]
-  menuNames = ["main","footer","about","secondary","chester"]
+  menuNames = ["main","footer","about","secondary","chester","support"]
   homeURL = "/"
   shopURL = "https://shop.hardwario.com/"
   productionURL = "https://www.hardwario.com"

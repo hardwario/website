@@ -1562,6 +1562,9 @@ other = "Easy and Simple Integration"
 [integration_manuals]
 other = "Ready-made integrations with Google Apps, Microsoft Office 365, Amazon Alexa, Google Home, Apple HomeKit (Siri), Blynk and other IoT platforms."
 
+[support]
+other = "Support"
+
 [support_docs_code]
 other = "Documentation, source codes"
 
@@ -2014,3 +2017,54 @@ other = "Four branches and dozens of partners worldwide"
 
 [extraordinary_company]
 other = "Great companies are made up of great people, just like us"
+
+[support_step_1]
+other = "In case of technical questions, we recommend you first study our documentation, which allows a full-text search. We update the documentation regularly and welcome any suggestions you may have on its content."
+
+[support_step_2]
+other = "Another key channel of our technical support is the discussion forum, where members of the HARDWARIO team and our partners and customers can advise you."
+
+[support_step_3]
+other = "If you are still looking for an answer to your query, please email us at <a href = 'mailto:ask@hardwario.com' target='_blank'>ask@hardwario.com</a> or fill in the form below. Our response time for users without an SLA can be several days - thank you in advance for your patience."
+
+[forum]
+other = "Forum"
+
+[helpdesk]
+other = "Helpdesk"
+
+[go_documentation]
+other = "Go to documentation"
+
+[go_forum]
+other = "Go to forum"
+
+[go_helpdesk]
+other = "Helpdesk form"
+
+[require_sla]
+other = "If you require a guaranteed response time to answer your queries, you can enter a Service Level Agreement (SLA) with us. If you are interested, don't hesitate to get in touch with us at <a href = 'mailto:ask@hardwario.com' target='_blank'>ask@hardwario.com</a>."
+
+[basic_support]
+other = "Basic support"
+
+[extended_support]
+other = "Extended support"
+
+[premium_support]
+other = "Premium support"
+
+[response_time]
+other = "Opening hours"
+
+[cloud_availability]
+other = "Availability of cloud services"
+
+[email_support]
+other = "E-mail support"
+
+[phone_support]
+other = "Phone support"
+
+[opening_hours]
+other = "Mon-Fri 9-17 CET"

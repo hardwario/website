@@ -1,146 +1,124 @@
+{{ define "second-nav" }}
+    {{ partial "submenu/support.html" . }} 
+{{ end }}
+
+
 {{ define "main" }}
-<div class = "pt-70">
+<div class = "pt-120" id = "overview">
   {{ partial "breadcrumb.html" . }}
-<section>
-  <div class = "container">
-    <div class="row pb-50">
-        <div class="col">
-            <div class="row">
-              <div class="col-12 col-md-10 mx-auto text-center pt-30 pt-md-0">
-                  <h1 class="text-center font-weight-black font-48 font-md-64">{{ .Params.mainHeading | safeHTML }}</h1>
-              </div>
+  <section>
+    <div class="" id = "solutions">
+        <div class="container">
+            <div class="row pb-lg-60 pb-xl-0">
+                <div class="col">
+                    <div class="row pb-50">
+                        <div class="col-12 col-md-10 col-lg-9 mx-auto text-center pt-30 pt-md-0">
+                            <h1 class="text-center pb-30 font-weight-black font-48 font-md-64">{{ .Params.heading | safeHTML }}</h1>
+                            <p class="text-center font-24 font-lnh38">{{ .Params.description | safeHTML }}</p>
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
         </div>
     </div>
-  </div>
-
 </section>
+
 
 <section>
     <div class = "container">
-      <div class="row justify-content-center pb-20 pb-md-50">
-        <div class="col-12">
-          <h2 class="text-center font-weight-black font-36 font-md-48 pb-30">IoT Gateway CHESTER</h2>
-        </div>
-            
-        <div class="col-12 col-lg-4">
-            <a href="https://docs.hardwario.com/chester/" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
-                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "hub_docs" | safeHTML }}</h3>
-                <p class = "pb-20">{{ i18n "hub_docs_text" | safeHTML }}</p>
-                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "learn_more" | safeHTML }}</span>
+      <div class="row justify-content-center pb-20 pb-md-50">            
+        <div class="col-12 col-lg-8">
+            <div class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium">{{ i18n "documentation" | safeHTML }}</h3>
+                <p class = "py-20 font-18">{{ i18n "support_step_1" | safeHTML }}</p>
+                <a href = "https://docs.hardwario.com" target="_blank" class = "font-font2 font-red font-decoration-underline">{{ i18n "go_documentation" | safeHTML }}</a>
             </a>
+            </div>
         </div>
 
-            {{ with .Site.GetPage "/faq" }} 
-        <div class="col-12 col-lg-4">
-          <a href="{{ .Permalink }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
-              <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "gateway_faq" | safeHTML }}</h3>
-              <p class = "pb-20">{{ i18n "gateway_faq_text" | safeHTML }}</p>
-              <span class = "font-font2 font-red font-decoration-underline">{{ i18n "learn_more" | safeHTML }}</span>
-          </a>
-      </div>
-      {{ end }}
+        <div class="col-12 col-lg-8">
+            <div class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium">{{ i18n "forum" | safeHTML }}</h3>
+                <p class = "py-20 font-18">{{ i18n "support_step_2" | safeHTML }}</p>
+                <a href = "https://forum.hardwario.com" target="_blank" class = "font-font2 font-red font-decoration-underline">{{ i18n "go_forum" | safeHTML }}</a>
+            </a>
+            </div>
+        </div>
+
+        <div class="col-12 col-lg-8">
+            <div class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
+                <h3 class="font-26 font-weight-medium">{{ i18n "helpdesk" | safeHTML }}</h3>
+                <p class = "py-20 font-18">{{ i18n "support_step_3" | safeHTML }}</p>
+                {{ with .Site.GetPage "/helpdesk" }}
+                <a href = "{{ .Permalink }}" class = "font-font2 font-red font-decoration-underline">{{ i18n "go_helpdesk" | safeHTML }}</a>
+                {{ end }}
+            </div>
+        </div>
+
        
-
       </div>
-    </div>
-</section>
-
-<section>
-    <div class = "container">
-      <div class="row justify-content-center pb-20 pb-md-50">
-        <div class="col-12">
-          <h2 class="text-center font-weight-black font-36 font-md-48 pb-30">IoT Kit TOWER</h2>
+<style>
+    
+</style>
+      <div class = "row justify-content-center">
+        <div class="col-12 col-lg-10">
+            <p class = "py-20 font-18">{{ i18n "require_sla" | safeHTML }}</p>
         </div>
+        <div class="col-12 pricelist pricelist--bottom-3-5">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="pricelist__item">
+                        <div class="pricelist__content">
+                            <div class="logo logo--2"></div>
+                            <h3 class="pricelist__title">{{ i18n "basic_support" }}<br/><span class = "font-18 font-weight-normal">{{ i18n "opening_hours" }}</span></h3>
+                            <ul class="pricelist__items">
+                                <li class="pricelist__items__item">{{ i18n "response_time" }} 3 {{ i18n "days" }}</li>
+                                <li class="pricelist__items__item">{{ i18n "cloud_availability" }} 99%</li>
+                                <li class="pricelist__items__item">{{ i18n "email_support" }}</li>
+                                <li class="pricelist__items__item pricelist__items__item--disabled">{{ i18n "phone_support" }}</li>
+                            </ul>
 
-        {{ with .Site.GetPage "/download" }}
-        <div class="col-12 col-lg-4">
-            <a href="{{ "download/" | absLangURL }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
-                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "download_playground" }}</h3>
-                <p class = "pb-20">{{ i18n "playground_description" | safeHTML }}</p>
-                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "download_link" | safeHTML }}</span>
-            </a>
-        </div>
-        {{ end }}
-
-        {{ with .Site.GetPage "/tower/tutorials" }}
-        <div class="col-12 col-lg-4">
-            <a href="{{ .Permalink }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
-                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "tutorials"}}</h3>
-                <p class = "pb-20">{{ i18n "tutorials_text" | safeHTML }}</p>
-                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "tutorials_link"}}</span>
-            </a>
-        </div>
-        {{ end }}
-
-        {{ with .Site.GetPage "/tower/projects" }}
-        <div class="col-12 col-lg-4">
-            <a href="{{ .Permalink }}" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
-                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "projects" | safeHTML }}</h3>
-                <p class = "pb-20">{{ i18n "projects_text" | safeHTML }}</p>
-                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "projects_link" | safeHTML }}</span>
-            </a>
-        </div>
-        {{ end }}
-
-        <div class="col-12 col-lg-4">
-            <a href="https://docs.hardwario.com/tower/" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
-                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "kit_docs" | safeHTML }}</h3>
-                <p class = "pb-20">{{ i18n "kit_docs_text" | safeHTML }}</p>
-                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "kit_docs_link" | safeHTML }}</span>
-            </a>
-        </div>
-
-        <div class="col-12 col-lg-4">
-            <a href="https://sdk.hardwario.com" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
-                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "sdk_lib_docs" | safeHTML }}</h3>
-                <p class = "pb-20">{{ i18n "sdk_lib_text" | safeHTML }}</p>
-                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "sdk_lib_link" | safeHTML }}</span>
-            </a>
-        </div>
-
-      </div>
-    </div>
-</section>
-
-
-
-{{ $currentLang := .Site.Language.Lang }}
-{{ if eq $currentLang "cs" }}
-<section>
-    <div class = "container">
-      <div class="row justify-content-center pb-20 pb-md-50">
-        <div class="col-12">
-          <h2 class="text-center font-weight-black font-36 font-md-48 pb-30">HARDWARIO Cloud</h2>
-        </div>
-
-        <div class="col-12 col-lg-4">
-            <a href="/cs/video/hardwario-cloud-navod/" class="d-block bg-white shadow text-decoration-none rounded-20 font-black p-30 mb-10 mb-md-30 text-center">
-                <h3 class="font-26 font-weight-medium pt-30 pb-10">{{ i18n "cloud_tutorial" | safeHTML }}</h3>
-                <p class = "pb-20">{{ i18n "cloud_tutorial_description" | safeHTML }}</p>
-                <span class = "font-font2 font-red font-decoration-underline">{{ i18n "play_video" | safeHTML }}</span>
-            </a>
-        </div>
-
-      </div>
-    </div>
-</section>
-{{ end }}
-
-<section>
-    <div class = "container">
-      <div class="row pb-50">
-          <div class="col">
-              <div class="row">
-                <div class="col-12 col-md-10 mx-auto text-center pt-30 pt-md-0">
-                    <p class="text-center pt-20 font-24 font-lnh38">{{ .Params.perex | safeHTML }}</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-          </div>
+                <div class="col-12 col-md-4">
+                    <div class="pricelist__item">
+                        <div class="pricelist__content">
+                            <div class="logo logo--2"></div>
+                            <h3 class="pricelist__title">{{ i18n "extended_support" }}<br/><span class = "font-18 font-weight-normal">{{ i18n "opening_hours" }}</span></h3>
+                            <ul class="pricelist__items">
+                                <li class="pricelist__items__item">{{ i18n "response_time" }} 1 {{ i18n "day" }}</li>
+                                <li class="pricelist__items__item">{{ i18n "cloud_availability" }} 99.5%</li>
+                                <li class="pricelist__items__item">{{ i18n "email_support" }}</li>
+                                <li class="pricelist__items__item">{{ i18n "phone_support" }}</li>
+                          </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="pricelist__item">
+                        <div class="pricelist__content">
+                            <div class="logo logo--2"></div>
+                            <h3 class="pricelist__title">{{ i18n "premium_support" }}<br/><span class = "font-18 font-weight-normal">24/7</span></h3>
+
+                            <ul class="pricelist__items">
+                                <li class="pricelist__items__item">{{ i18n "response_time" }} 3 {{ i18n "hours" }}</li>
+                                <li class="pricelist__items__item">{{ i18n "cloud_availability" }} 99.7%</li>
+                                <li class="pricelist__items__item">{{ i18n "email_support" }}</li>
+                                <li class="pricelist__items__item">{{ i18n "phone_support" }}</li>
+                          </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
       </div>
     </div>
-  
-  </section>
+</section>
+
 </div>
 <footer>
 {{ end }}

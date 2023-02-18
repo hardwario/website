@@ -912,6 +912,9 @@ other = "Snadná<br/> integrace "
 [integration_manuals]
 other = "Předpřipravené integrace s Google Apps, Microsoft Office 365, Amazon Alexa, Google Home, Apple HomeKit (Siri), Blynk a dalšími IoT platformami."
 
+[support]
+other = "Podpora"
+
 [support_docs]
 other = "Profesionální technická podpora, rozšířená záruka, desítky ukázkových projektů a kompletní dokumentace včetně zdrojových kódů."
 
@@ -1972,3 +1975,54 @@ other = "Čtyři pobočky a desítky partnerů po celém světě"
 
 [extraordinary_company]
 other = "Skvělé firmy jsou tvořeny skvělými lidmi, stejně jako u&nbsp;nás"
+
+[support_step_1]
+other = "V případě technických dotazů vám doporučujeme nejdříve prostudovat naši dokumentaci, která umožňuje full-textové vyhledávání. Dokumentaci pravidelně aktualizujeme a budeme rádi za jakékoliv vaše podněty k jejímu obsahu."
+
+[support_step_2]
+other = "Dalším klíčovým kanálem naší technické podpory je diskuzní fórum, kde vám dokáží poradit nejen členové HARDWARIO týmu, ale i naši partneři a zákazníci."
+
+[support_step_3]
+other = "Pokud nenajdete odpověď na váš požadavek, pak nám prosím napište na <a href = 'mailto:ask@hardwario.com' target='_blank'>ask@hardwario.com</a> nebo vyplňte helpdesk formulář. Naše reakční doba pro uživatele bez uzavřené SLA může být i několik dnů - děkujeme předem za vaši trpělivost."
+
+[forum]
+other = "Fórum"
+
+[helpdesk]
+other = "Helpdesk"
+
+[go_documentation]
+other = "Přejít do dokumentace"
+
+[go_forum]
+other = "Přejít na fórum"
+
+[go_helpdesk]
+other = "Helpdesk formulář"
+
+[require_sla]
+other = "Pokud požadujete garantovanou reakční dobu zodpovězení vašich dotazů, pak s námi můžete uzavřít Smlouvu o úrovni poskytovaných služeb - SLA. V případě zájmu nás kontaktujte na <a href = 'mailto:ask@hardwario.com' target='_blank'>ask@hardwario.com</a>."
+
+[basic_support]
+other = "Základní podpora"
+
+[extended_support]
+other = "Rozšířená podpora"
+
+[premium_support]
+other = "Premium podpora"
+
+[response_time]
+other = "Reakční doba"
+
+[cloud_availability]
+other = "Dostupnost cloudových služeb"
+
+[email_support]
+other = "E-mailová podpora"
+
+[phone_support]
+other = "Telefonická podpora"
+
+[opening_hours]
+other = "Po-Pá, od 9 do 17 hodin CET"
