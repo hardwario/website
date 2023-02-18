@@ -8,5 +8,6 @@ menu:
         parent: 'Podpora'
     support:
         weight: 20
+        name: Helpdesk
 draft: false
 ---
