@@ -7,7 +7,7 @@ description: >-
   Aby tvé projekty běžely, i když budeš mít vypnutý notebook, potřebuješ pomoc
   Raspberry Pi. Tenhle článek ti poradí, jak do něj HARDWARIO Playground
   nainstaluješ.
-url: tower/navody/jak-nainstalovat-playground-na-rpi
+url: /cs/tower/navody/jak-nainstalovat-playground-na-rpi
 meta_title: Jak nainstalovat HARDWARIO Playground na Raspberry Pi
 meta_description: >-
   Aby tvé projekty běžely, i když budeš mít vypnutý notebook, potřebuješ pomoc

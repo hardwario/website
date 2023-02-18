@@ -2,7 +2,7 @@
 title: Připojení IFTTT s Node-RED
 draft: false
 date: 2019-10-13T16:42:19.844Z
-url: tower/navody/propoj-ifttt-a-playground
+url: /cs/tower/navody/propoj-ifttt-a-playground
 weight: 100
 description: Díky IFTTT propojíš Playground a různé appky, které používáš. A to
   už je dost cool. Nauč se, jak na to.

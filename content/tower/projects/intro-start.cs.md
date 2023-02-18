@@ -8,7 +8,7 @@ modules:
   - mini_battery
   - usb_dongle
 author: lukas_fabik
-url: tower/projekty/sada-start
+url: /cs/tower/projekty/sada-start
 featured: true
 date: 2019-08-19
 url: /projekty/sada-start

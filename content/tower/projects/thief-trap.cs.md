@@ -7,7 +7,7 @@ date: 2019-11-08T13:34:02.585Z
 description: >-
   Nastav si pomocí Motion Detector Kitu alarm proti zlodějům do svého pokojíčku.
   Připravili jsme pro tebe jednoduchý návod.
-url: tower/projekty/past-na-zlodeje
+url: /cs/tower/projekty/past-na-zlodeje
 meta_title: Vytvoř si IoT past na zloděje
 meta_description: >-
   Nastav si pomocí Motion Detector Kitu alarm proti zlodějům do svého pokojíčku.

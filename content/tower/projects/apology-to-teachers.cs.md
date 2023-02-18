@@ -7,7 +7,7 @@ date: 2019-11-09T15:06:49.642Z
 description: >-
   Návod na to, jak si ze Starter Kitu od HARDWARIO vytvoříš chytré tlačítko.
   Pošle tvému učiteli omluvenku, když tě náhodou zradí budík.
-url: tower/projekty/omluvenka-uciteli
+url: /cs/tower/projekty/omluvenka-uciteli
 meta_title: Zaspal jsi? Pošli učiteli omluvenku stisknutím tlačítka
 meta_description: >-
   Návod na to, jak si ze Starter Kitu od HARDWARIO vytvoříš chytré tlačítko.

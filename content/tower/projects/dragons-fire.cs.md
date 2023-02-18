@@ -2,7 +2,7 @@
 title: IoT párty hra, máš v sobě dračí oheň, nebo mrazivý dech?
 meta_title: IoT párty hra, máš v sobě dračí oheň, nebo mrazivý dech?
 meta_description: Jeden z IoT projektů na rozšíření tvých digitálních dovedností. Sestav se Starter Kitem od HARDWARIOu zařízení, se kterým si s kamarády změříte teplotu dechu. Jak si pomůžeš, abys vyhrál?
-url: tower/projekty/draci-dech
+url: /cs/tower/projekty/draci-dech
 draft: false
 date: 2019-08-12
 description: Jeden z IoT projektů na rozšíření tvých digitálních dovedností. Sestav se Starter Kitem od HARDWARIOu zařízení, se kterým si s kamarády změříte teplotu dechu. Jak si pomůžeš, abys vyhrál?

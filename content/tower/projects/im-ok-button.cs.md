@@ -2,7 +2,7 @@
 title: Pošli mámě do mobilu zprávu, že jsi v pohodě přišel domů
 meta_title: Vyrob si IoT tlačítko, se kterým pošleš mámě zprávu do mobilu
 meta_description: Návod na to, jak si ze Starter Kitu od HARDWARIO vytvoříš chytré tlačítko. To pošle do mobilu zprávu tvojí mámě, že jsi v pohodě dorazil domů.
-url: tower/projekty/jsem-ok-tlacitko
+url: /cs/tower/projekty/jsem-ok-tlacitko
 draft: false
 date: 2019-08-12
 description: Vytvoř si ze Starter Kitu od HARDWARIO IoT detektor změny pohybu s tímhle jednoduchým návodem. A nezapomeň ho s kámoši otestovat v cool hře.

@@ -2,7 +2,7 @@
 title: Chyť zvědavce, co ti leze do šuplíku
 meta_title:  Chyť zvědavce, co ti leze do šuplíku
 meta_description: Vytvoř si ze Starter Kitu od HARDWARIO IoT hlídač svého šuplíku a nechej si posílat upozornění do mobilu. Připravili jsme pro tebe jednoduchý návod.
-url: tower/projekty/ohlidej-tajny-suplik
+url: /cs/tower/projekty/ohlidej-tajny-suplik
 draft: false
 date: 2019-08-12
 description: Vytvoř si ze Starter Kitu od HARDWARIO IoT hlídač svého šuplíku a nechej si posílat upozornění do mobilu. Připravili jsme pro tebe jednoduchý návod.

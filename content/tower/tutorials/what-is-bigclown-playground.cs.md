@@ -1,7 +1,7 @@
 ---
 date: "2019-08-12"
 title: Co je to HARDWARIO Playground
-url: tower/navody/co-je-to-bigclown-playground
+url: /cs/tower/navody/co-je-to-bigclown-playground
 meta_title: Co je to HARDWARIO Playground a kde ho stáhneš
 meta_description: Tvá HARDWARIO krabička dokáže úžasné věci, ale musíš jí povědět, co má dělat. A právě k tomu slouží software HARDWARIO Playground. Mrkni na něj.
 description: Tvá HARDWARIO krabička dokáže úžasné věci, ale musíš jí povědět, co má dělat. A právě k tomu slouží software HARDWARIO Playground. Mrkni na něj.

@@ -5,7 +5,7 @@ weight: 30
 description: >-
   Bez firmware ti IoT krabička nebude fungovat správně. Díky tomuhle článku
   pochopíš, na co firmware slouží a správně si ho nastavíš.
-url: tower/navody/jak-nahrat-firmware
+url: /cs/tower/navody/jak-nahrat-firmware
 meta_title: Jak si do HARDWARIO nainstaluješ firmware
 meta_description: >-
   Bez firmware ti IoT krabička nebude fungovat správně. Díky tomuhle článku

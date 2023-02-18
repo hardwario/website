@@ -8,7 +8,7 @@ description: >-
   Vytvoř si ze Starter Kitu od HARDWARIO IoT tlačítko, kterým tě rodiče přivolají
   k snídani, obědu nebo večeři podle denní doby. Vyšší level pro všechny, kdo se
   nebojí!
-url: tower/projekty/vylepsene-tlacitko-pro-rodice
+url: /cs/tower/projekty/vylepsene-tlacitko-pro-rodice
 meta_title: 'Upgrade tlačítka, kterým tě rodiče zavolají k jídlu'
 meta_description: >-
   Vytvoř si ze Starter Kitu od HARDWARIO IoT tlačítko, kterým tě rodiče přivolají

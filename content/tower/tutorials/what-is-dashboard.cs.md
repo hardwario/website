@@ -5,7 +5,7 @@ weight: 50
 description: >-
   Chceš vidět data ze své HARDWARIO krabičky v barevných grafech a ukazatelích?
   Vytvoř pro ni šikovný dashboard. Poradíme ti, jak na to.
-url: tower/navody/co-je-dashboard
+url: /cs/tower/navody/co-je-dashboard
 meta_title: Vytvoř si pro HARDWARIO vlastní dashboard
 meta_description: >-
   Chceš vidět data ze své HARDWARIO krabičky v barevných grafech a ukazatelích?

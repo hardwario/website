@@ -9,10 +9,10 @@ modules:
   - led
   - usb_dongle
 author: lukas_fabik
-url: tower/projekty/sada-control
+url: /cs/tower/projekty/sada-control
 featured: true
 date: 2022-02-26
-url: /projekty/sada-control
+url: cs/projekty/sada-control
 kit:
   - starter-kit
   - button-kit

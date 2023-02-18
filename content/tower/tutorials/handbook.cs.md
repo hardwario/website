@@ -1,7 +1,7 @@
 ---
 layout: handbook
 title: Příručka k sadě Start
-url: tower/navody/prirucka-tower
+url: /cs/tower/navody/prirucka-tower
 description: Naučte se práci s IoT stavebnicí HARDWARIO TOWER
 meta_title: Rychlý návod k sadě Start IoT stavebnice HARDWARIO TOWER
 meta_description: Rychlý návod k sadě Start IoT stavebnice HARDWARIO TOWER - jak si sestavit zařízení a jak ho naprogramovat a spárovat v aplikaci Playground

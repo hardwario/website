@@ -2,7 +2,7 @@
 title: Hra pro celou třídu, Najděte nejchladnější a nejžhavější místo ve vaší škole
 meta_title: IoT hra pro celou třídu, Změřte teplotu ve vaší škole
 meta_description: Jeden z IoT projektů na rozšíření digitálních dovedností. Sestavte se Starter Kitem od HARDWARIOu zařízení, se kterým najdete nejchladnější a nejžhavější místo ve škole.
-url: tower/projekty/nejteplejsi-nejchladnejsi-misto
+url: /cs/tower/projekty/nejteplejsi-nejchladnejsi-misto
 draft: false
 date: 2019-08-12
 description: Jeden z IoT projektů na rozšíření digitálních dovedností. Sestavte se Starter Kitem od HARDWARIOu zařízení, se kterým najdete nejchladnější a nejžhavější místo ve škole.

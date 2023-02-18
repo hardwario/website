@@ -2,7 +2,7 @@
 title: Vyrob si IoT tlačítko, se kterým tě rodiče zavolají k večeři
 meta_title: Vyrob si IoT tlačítko, které ti pošle zprávu do mobilu
 meta_description: Návod na to, jak si ze Starter Kitu od HARDWARIO vytvoříš IoT tlačítko, se kterým tě rodiče zavolají k večeři, když zrovna paříš.
-url: tower/projekty/tlacitko-pro-rodice
+url: /cs/tower/projekty/tlacitko-pro-rodice
 draft: false
 date: 2019-08-19
 description: Návod na to, jak si ze Starter Kitu od HARDWARIO vytvoříš IoT tlačítko, se kterým tě rodiče zavolají k večeři, když zrovna paříš.

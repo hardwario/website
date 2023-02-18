@@ -2,7 +2,7 @@
 title: Přeměň vaši starou pračku na chytrou
 meta_title: Proměň vaši starou pračku na chytrou
 meta_description: Nechej rodiče žasnout. Postav ze Starter Kitu od HARDWARIO IoT detektor, který upozorní, až pračka dopere.
-url: tower/projekty/chytra-pracka
+url: /cs/tower/projekty/chytra-pracka
 draft: false
 date: 2019-08-12
 description: Nechej rodiče žasnout. Postav ze Starter Kitu od HARDWARIO IoT detektor, který upozorní, až pračka dopere.

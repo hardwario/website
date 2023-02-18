@@ -2,7 +2,7 @@
 title: Chyť nenasytného vykradače ledniček
 meta_title: Chyť nenasytného vykradače ledniček
 meta_description: Vytvoř si ze Starter Kitu od HARDWARIO IoT hlídač svého jídla v lednici. Připravili jsme pro tebe jednoduchý návod.
-url: tower/projekty/chyt-mlsouna
+url: /cs/tower/projekty/chyt-mlsouna
 draft: false
 date: 2019-08-12
 description: Vytvoř si ze Starter Kitu od HARDWARIO IoT hlídač svého jídla v lednici. Připravili jsme pro tebe jednoduchý návod.
