@@ -49,8 +49,9 @@
   <script>
 
     $.getJSON("https://ipinfo.io/json?token=0942c74d99a9fb", function(data) {
-         //console.log(data);
+         console.log(data);
          user_lang = data.country;
+         console.log(user_lang);
      });
 
   </script>
@@ -61,6 +62,9 @@
       var is_lang = $.cookie('hio_lang'); 
       var web_lang = "{{ $currentLang }}";
       
+      console.log(is_lang);
+      console.log(web_lang);
+
       if(web_lang == "en"){ web_lang = "EN"}
       else if(web_lang == "cs"){ web_lang = "CZ"}
       else if(web_lang == "de"){ web_lang = "DE"}
