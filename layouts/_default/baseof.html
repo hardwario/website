@@ -21,8 +21,8 @@
     <div class = "container">
       <div class = "row">
         <div class = "col text-center">
-          <p class = "pt-10 pt-md-0 font-16 font-lnh24 font-md-22 font-md-lnh55 font-weight-bold d-inline-block">{{ i18n "web_language" }}: </p>
-          <ul class = "d-inline-block font-16 font-lnh24 font-md-18 font-md-lnh55 mb-0">
+          <p class = "pt-10 pt-md-0 font-14 font-xs-16 font-lng-18 font-xs-lnh24 font-md-22 font-md-lnh55 font-weight-bold d-inline-block">{{ i18n "web_language" }}: </p>
+          <ul class = "d-inline-block font-14 font-xs-16 font-lng-18 font-xs-lnh24 font-md-18 mb-0">
             {{ if .IsTranslated }}
               {{ range .Translations }}
                 <li class = "d-inline-block px-5 py-0"><a class="font-black" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
@@ -48,27 +48,29 @@
   <script src="/_assets/js/jquery.cookie.js"></script>
   <script>
 
-    $.getJSON("https://ipinfo.io/json?token=0942c74d99a9fb", function(data) {
-         console.log(data);
-         user_lang = data.country;
-         console.log(user_lang);
-     });
+    
 
   </script>
 
 <script>
 
     $(document).ready(function(){
+      $.getJSON("https://ipinfo.io/json?token=0942c74d99a9fb", function(data) {
+         console.log(data);
+         user_lang = data.country;
+         console.log("user_lang: " + user_lang);
+     }).done(function() {
+        
       var is_lang = $.cookie('hio_lang'); 
       var web_lang = "{{ $currentLang }}";
       
-      console.log(is_lang);
-      console.log(web_lang);
+      console.log("is_lang: " + is_lang);
+      console.log("web_lang: " + web_lang);
 
       if(web_lang == "en"){ web_lang = "EN"}
       else if(web_lang == "cs"){ web_lang = "CZ"}
       else if(web_lang == "de"){ web_lang = "DE"}
-
+      
       if(is_lang){
         
       } 
@@ -78,6 +80,10 @@
       else{
         $('.language-selector').addClass('lang-visible');
       }
+
+
+      });
+      
     });
     $( ".close-selector" ).click(function() {
       $('.language-selector .selector').hide();
@@ -168,6 +174,11 @@
   }
 
   @media(max-width:960px){
+    .language-selector .close-selector{
+      width: 50px;
+    height: 50px;
+    }
+
     .language-selector.lang-visible{
       padding-bottom: 90px;
     }
