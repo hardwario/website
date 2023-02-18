@@ -87,10 +87,10 @@
   <div class = "container">
     
     <div class = "row">
-      <div class="col-10 col-md-2 text-left">
+      <div class="col-10 col-md-11 col-lg-2 text-left">
         <a href="{{ .Site.Params.baseURL }}"><img src = "/_assets/images/hw-logo.svg"  style = "height: 36px; margin: 7px 0"/></a>
       </div>
-      <div class="col-2 d-block d-lg-none hamburger">
+      <div class="col-2 col-md-1 d-block d-lg-none hamburger">
         <div class="js-formenu">
             <!--<div>MENU</div>-->
             <div class="bg-hamb rounded"></div>
@@ -98,7 +98,7 @@
             <div class="bg-hamb rounded"></div>
         </div>
     </div>
-      <div class = "col-12 col-md-10 text-left menu-container js-menu d-none d-md-block">
+      <div class = "col-12 col-lg-10 text-left menu-container js-menu d-none d-lg-block">
 
         {{ $solutions := where .Site.RegularPages "Section" "solutions" }}
         {{ $cases := where .Site.RegularPages "Section" "use-cases" }}
@@ -163,7 +163,7 @@
     cursor: pointer;
   }
 
-  @media(max-width:800px){
+  @media(max-width:960px){
     .language-selector.lang-visible{
       padding-bottom: 90px;
     }
@@ -215,7 +215,7 @@
     font-size: 14px;
   }
 
-  @media(max-width: 768px){
+  @media(max-width: 960px){
     .top-nav{
       opacity: 1;
     }
@@ -304,7 +304,7 @@
     height: 55px;
     width: 55px;
   }
-  @media(max-width: 768px){
+  @media(max-width: 960px){
     .second-nav.submenu{
       display: block;
     }
