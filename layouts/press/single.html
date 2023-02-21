@@ -1,5 +1,8 @@
+{{ define "second-nav" }}
+    {{ partial "submenu/about.html" . }} 
+{{ end }}
 {{ define "main" }}
-<div class = "pt-70">
+<div class = "pt-120">
   {{ partial "breadcrumb.html" . }}
 {{ $author := index $.Site.Data.authors .Params.author }}
 <section>
