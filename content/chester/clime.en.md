@@ -9,6 +9,7 @@ menu:
     main:
         parent: 'CHESTER'
 image: /_assets/images/configurations/chester-clime.png
+image_pb: pb-md-30
 image_w: w-75
 image_w2: w-100
 bg1: "#caf1ff"

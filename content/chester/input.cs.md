@@ -6,6 +6,7 @@ heading:
 perex: Konfigurovatelné NB-IoT/LTE-M/LoRaWAN zařízení, které vzorkuje, agreguje, bufferuje a hlásí hodnoty na čtyřech digitálních/analogových vstupech a zachycuje změny na digitálních vstupech.
 perex_short: Zařízení, které vzorkuje, agreguje, bufferuje a hlásí hodnoty na čtyřech digitálních/analogových vstupech.
 image: /_assets/images/configurations/chester-input.png
+image_pb: pb-md-30
 image_w: w-75
 image_w2: w-100
 bg1: "#b1adad"

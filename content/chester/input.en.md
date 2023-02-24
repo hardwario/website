@@ -6,6 +6,7 @@ heading:
 perex: A configurable NB-IoT/LTE-M/LoRaWAN device that samples, aggregates, buffers, and reports values on four digital/analog inputs and captures changes on digital inputs.
 perex_short: A configurable device that samples, aggregates, buffers, and reports values on digital/analog inputs.
 image: /_assets/images/configurations/chester-input.png
+image_pb: pb-md-30
 image_w: w-75
 image_w2: w-100
 bg1: "#b1adad"

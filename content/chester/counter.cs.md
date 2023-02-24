@@ -6,6 +6,7 @@ heading:
 perex: Konfigurovatelné NB-IoT/LTE-M/LoRaWAN zařízení napájené z baterie, které počítá impulsy na čtyřech digitálních vstupech.
 perex_short: Konfigurovatelné zařízení napájené z baterie, které počítá impulsy na čtyřech digitálních vstupech.
 image: /_assets/images/configurations/chester-counter.png
+image_pb: pb-md-30
 image_w: w-50
 image_w2: w-75
 bg1: "#5caa7b"

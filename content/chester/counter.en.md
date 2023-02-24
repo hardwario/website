@@ -6,6 +6,7 @@ heading:
 perex: A configurable battery-operated NB-IoT/LTE-M/LoRaWAN device that counts pulses on four digital inputs.
 perex_short: A configurable battery-operated device that counts pulses on four digital inputs.
 image: /_assets/images/configurations/chester-counter.png
+image_pb: pb-md-30
 image_w: w-50
 image_w2: w-75
 bg1: "#5caa7b"

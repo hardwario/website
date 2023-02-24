@@ -6,9 +6,10 @@ heading:
 perex: Configurable NB-IoT/LTE-M/LoRaWAN device with four buttons for instant message sending when pressed.
 perex_short: Configurable device with four buttons for instant message sending when pressed.
 image: /_assets/images/configurations/chester-push.png
+image_pb: pb-md-30
 image_w: w-50
 image_w2: w-100
-bg1: "#985bac"
+bg1: "#d8b1e0"
 bg2: "#b17ebc"
 #video: nxFmnek50LM
 buy_link: https://shop.hardwario.com/chester-push/
