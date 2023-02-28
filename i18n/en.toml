@@ -2055,7 +2055,7 @@ other = "Extended support"
 other = "Premium support"
 
 [response_time]
-other = "Opening hours"
+other = "Response time"
 
 [cloud_availability]
 other = "Availability of cloud services"
