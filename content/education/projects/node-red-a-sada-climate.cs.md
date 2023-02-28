@@ -42,14 +42,14 @@ return msg;
 
  Tento kód nám zajišťuje přepočet na jednotky **kPa**, aby byli lépe čitelné a funguje následovně:
 
-* hodnotu ze senzoru (***msg.payload***) si uložíme do proměnné **value**
-* do proměnné **numVar** si uložíme číslo z proměnné **value**, které jsme vydělily **1000**
-* do proměnné **msg.payload** opět vložíme hodnotu proměnné **numVar** zaokrouhlenou na jedno desetinné místo
-* zprávu předáme do dashboardu pomocí **return msg;**  
+ * hodnotu ze senzoru (***msg.payload***) si uložíme do proměnné **value**
+ * do proměnné **numVar** si uložíme číslo z proměnné **value**, které jsme vydělily **1000**
+ * do proměnné **msg.payload** opět vložíme hodnotu proměnné **numVar** zaokrouhlenou na jedno desetinné místo
+ * zprávu předáme do dashboardu pomocí **return msg;**  
 
-1. Tlak budeme zobrazovat jen textově, takže si přidáme node ***text***. Rozklikneme si jej, abychom ho mohli upravovat a do pole **Label** vyplníme jeho název, například **"Aktuální tlak je:"**. Za ***{{msg.payload}}***, v sekci **Value format**, si můžeme přidat **kPa**, abychom měli správné jednotky. Nastavení uložíme kliknutím na tlačítko **Done**.
-2. Pořadí nodu v Dashboardu by mělo být ***mqtt-in*** -> ***function*** -> ***text***. Případně je srovnáme do tohoto pořadí a propojíme mezi sebou, aby se informace předavali. 
-3. Pro zobrazení nadmořské výšky si přidáme node ***mqtt-in***. Do tohoto si z **Messages** zkopírujeme topic `node/climate-monitor:0/barometer/0:0/altitude` a po otevření našeho nodu ho vložíme do příslušního pole. Opět uložíme nastavení pomocí tlačítka **Done**. Pro zobrazení si přidáme node ***text***, v něm si upravíme **Label** například na **"Nadmořská výška: "** a za **{{msg.payload}}** v sekci **Value format** si můžeme přidat **m.n.m** .      
+2. Tlak budeme zobrazovat jen textově, takže si přidáme node ***text***. Rozklikneme si jej, abychom ho mohli upravovat a do pole **Label** vyplníme jeho název, například **"Aktuální tlak je:"**. Za ***{{msg.payload}}***, v sekci **Value format**, si můžeme přidat **kPa**, abychom měli správné jednotky. Nastavení uložíme kliknutím na tlačítko **Done**.
+3. Pořadí nodu v Dashboardu by mělo být ***mqtt-in*** -> ***function*** -> ***text***. Případně je srovnáme do tohoto pořadí a propojíme mezi sebou, aby se informace předavali. 
+4. Pro zobrazení nadmořské výšky si přidáme node ***mqtt-in***. Do tohoto si z **Messages** zkopírujeme topic `node/climate-monitor:0/barometer/0:0/altitude` a po otevření našeho nodu ho vložíme do příslušního pole. Opět uložíme nastavení pomocí tlačítka **Done**. Pro zobrazení si přidáme node ***text***, v něm si upravíme **Label** například na **"Nadmořská výška: "** a za **{{msg.payload}}** v sekci **Value format** si můžeme přidat **m.n.m** .      
 
 ### Jak intenzivní světlo máme kolem sebe?
 
