@@ -6,11 +6,11 @@ heading: ZAT and HARDWARIO bring IoT to cathodic protection of pipelines
 draft: false
 date: 2023-03-12
 description: ZAT supplies intelligent control systems for various industries worldwide. Since 2018, it has been developing the SimONet software platform for processing and visualizing data from IoT devices. It has now entered into a contract with HARDWARIO to develop an IoT monitoring system for the cathodic protection of pipelines. 
-docx: https://docs.google.com/document/d/1D7k-xpyQJQ0x9fDWwwDjsWLn7yIKS6Q7/edit?usp=sharing&ouid=100979526148034723712&rtpof=true&sd=true
-pdf: https://drive.google.com/file/d/1D80zmjlgqPIboiz7dKbF0JuRYtyGnteb/view?usp=sharing
-image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1659092017/press/AlanFabik_PavelHubner-1.jpg
+docx: https://docs.google.com/document/d/1DlQkRsEjGBaDCAOUn2twPdUofYAfa0r9/edit?usp=sharing&ouid=100979526148034723712&rtpof=true&sd=true
+pdf: https://drive.google.com/file/d/1DljUUrCWwiRsfFN_hLyhGIbTg_m9VCCv/view?usp=sharing
+image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1678643931/press/2023-03-13-zat-partnership.jpg
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1581950249/blog/wide_placeholder.jpg
-image_meta: https://res.cloudinary.com/lukasfabik/image/upload/v1676965098/press/2023-02-21-fs-assets.cs.png
+image_meta: https://res.cloudinary.com/lukasfabik/image/upload/v1678643771/press/2023-03-13-zat-partnership.en.jpg
 author: lukas_fabik
 ---
 

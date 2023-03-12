@@ -6,11 +6,11 @@ heading: ZAT a HARDWARIO přinášejí internet věcí do katodické ochrany pot
 draft: false
 date: 2023-03-12
 description: Společnost ZAT dodává inteligentní systémy řízení pro široké spektrum oborů do celého světa. Od roku 2018 vyvíjí softwarovou platformu SimONet, která je určena pro zpracování a vizualizaci dat z IoT zařízení. Nyní uzavřela smlouvu se společností HARDWARIO, která pro ni připraví systém IoT monitoringu katodové ochrany potrubí. 
-docx: https://docs.google.com/document/d/1D7k-xpyQJQ0x9fDWwwDjsWLn7yIKS6Q7/edit?usp=sharing&ouid=100979526148034723712&rtpof=true&sd=true
-pdf: https://drive.google.com/file/d/1D80zmjlgqPIboiz7dKbF0JuRYtyGnteb/view?usp=sharing
-image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1659092017/press/AlanFabik_PavelHubner-1.jpg
+docx: https://docs.google.com/document/d/1Dl_qiYpQRJydNAyjEYo5_opoI4GUsvlJ/edit?usp=sharing&ouid=100979526148034723712&rtpof=true&sd=true
+pdf: https://drive.google.com/file/d/1Dh7WVRRiQ7utX07G8GkEwSBNWBiu7ZSi/view?usp=sharing
+image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1678643931/press/2023-03-13-zat-partnership.jpg
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1581950249/blog/wide_placeholder.jpg
-image_meta: https://res.cloudinary.com/lukasfabik/image/upload/v1676965098/press/2023-02-21-fs-assets.cs.png
+image_meta: https://res.cloudinary.com/lukasfabik/image/upload/v1678643771/press/2023-03-13-zat-partnership.cs.jpg
 author: lukas_fabik
 ---
 
