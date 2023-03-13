@@ -1,131 +1,148 @@
 
 {{ define "second-nav" }}
-<div class = "second-nav">
-    <div class = "container">
-      <div class = "row">
-        <div class="col-4 text-left second-nav-name">
-        {{ .Title }}
-        </div>
-        <div class = "col-8 text-right">
-          <ul class = "menu">
-            <li><a href = "https://hardwario.cloud" target="_blank"><span class = "nav-cta">{{ i18n "login" }}</span></a></li>
-          </ul>
-        </div>
+
+<div class = "second-nav submenu">
+  <div class = "container">
+    <div class = "row  justify-content-between">
+      <div class="col-2 text-left second-nav-name text-uppercase">
+       Cloud
+       </div>
+       <div class="col-auto d-block d-lg-none px-0">
+         <div class="js-forsubmenu toggle">
+             
+         </div>
+     </div>
+     <div class = "col-12 col-lg-10 text-left js-submenu d-none d-lg-block">
+        <ul class = "menu">
+          <li><a href = "#" class = "active">{{ i18n "overview" }}</a></li>
+          <li><a href = "https://docs.hardwario.com/tower/" target="_blank">{{ i18n "documentation" }} <img width = "15" src = "/_assets/images/icons/external-link.svg"></a></li>
+          <li><a href = "https://api.hardwario.com/" target="_blank">API {{ i18n "documentation" }} <img width = "15" src = "/_assets/images/icons/external-link.svg"></a></li>
+          <li style = "float: right"><a href = "https://hardwario.cloud" target="_blank"><span class = "nav-cta">{{ i18n "login" }}</span></a></li>
+        </ul>
       </div>
     </div>
   </div>
+</div>
 
 {{ end }}
 
 {{ define "main" }}
 <div class = "pt-120">
   {{ partial "breadcrumb.html" . }}
-<section>
-    <div class="bg-image15 pt-50 pt-lg-0 d-flex align-items-center">
+
+
+  <section >
+    <div class=" d-flex">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-7 text-center text-md-left">
-                    <h1 class="font-40 font-md-64 font-md-lnh68 font-weight-black pb-40 pb-md-40">{{ .Params.heading | safeHTML }}</h1>
-                    <p class="font-24 font-gray2 font-lnh37 pb-30 mb-md-10 pr-md-100">{{ .Params.perex | safeHTML }}</p>
-                    <div>
-                        <a href="https://hardwario.cloud" target="_blank" class="cta-button font-lnh54 px-30 d-inline-block font-weight-bold font-font2 font-white bg-darkGray">{{ i18n "login" }}</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<div id = "offerModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-body px-0 py-0">
-          <div class="container-fluid px-0 py-0">
-            <div class="row justify-content-center">
-              <div class="col-12 text-center">
-                <div class = "video-container">
-                    <iframe src="https://www.youtube-nocookie.com/embed/S3Iiy3TM_oQ?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
+              <div class="row pb-10">
+                  <div class="col-12 col-md-10 col-xl-8 mx-auto text-center">
+                      <h1 class="text-center pb-20 font-weight-black font-44 font-md-64 font-xl-72 font-md-lnh68">{{ .Params.heading | safeHTML }}</h1>
+                      <p class="font-24 font-lnh37 mb-20">{{ .Params.perex | safeHTML }}</p>
+                  </div>
               </div>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
+  </section>
 
-<section>
-    <div class="container pb-50" id = "overview">
-        <div class="row mb-40">
-            <div class="col">
-                <div class="row">
-                    <div class="col-8 col-md-6 col-lg-5 col-xl-5 mx-auto text-center">
-                        <div class="font-redLined text-center font-red mb-10 font-font2 font-weight-bold font-15"><span>{{ i18n "about_cloud" }}</span></div>
-                    </div>
-                </div>
+  <section>
+    <div class = "container">
+        <div class = "row justify-content-center {{ .Params.image_pb }}">
+            <div class = "col-12 col-md-9 text-center">
+                <img src = "{{ .Params.image }}" class = "{{ .Params.image_w }}"/>
             </div>
         </div>
+    </div>
+  </section>
+  <style>
 
-        <div class="row pb-50 align-items-center">
-            <div class="order-2 order-lg-1 col-12 col-lg-6 text-center text-lg-left">
-                <!--<div class="pb-15 font-red font-font2 font-weight-bold font-15">{{ i18n "prototype_product" }}</div>-->
-                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-10 pb-md-30">{{ i18n "device_management" | safeHTML }}</h2>
-                <p class="font-20 font-lnh30">{{ i18n "device_management_text" | safeHTML }}</p>
-                <img loading="lazy" src="/_assets/images/lpwan_brands3.png" class="pt-30 w-100" alt="" />
-            </div>
-            <div class="order-1 order-lg-2 col-12 col-lg-6 text-center">
-                <img loading="lazy" src="/_assets/images/devices.svg" class="w-75 mt-10 movingObject movingObject--noShadow" alt="" />
-            </div>
-        </div>
-
-        <div class="row pb-50 align-items-center">
-            <div class="col-12 col-lg-6 text-center">
-                <img loading="lazy" src="/_assets/images/cloud.svg" class="w-50 movingObject movingObject--noShadow" alt="" />
-            </div>
-            <div class="col-12 col-lg-6 text-center text-lg-left">
-                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-30">{{ i18n "callbacks" | safeHTML }}</h2>
-                <p class="font-20 font-lnh30">{{ i18n "callbacks_text" | safeHTML }}</p>
-            </div>
-        </div>
-
-        <div class="row pb-0 align-items-center">
-            <div class="order-2 order-lg-1 col-12 col-lg-6 text-center text-lg-left">
-                <!--<div class="pb-15 font-red font-font2 font-weight-bold font-15">{{ i18n "low_power_consumption" | safeHTML }}</div>-->
-                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-30">{{ i18n "rest" | safeHTML }}</h2>
-                <p class="font-20 font-lnh30">{{ i18n "rest_text" | safeHTML }}</p>
-                <p class = "pt-20"><a href = "https://api.hardwario.cloud" target="_blank" class = "font-lnh24 font-weight-bold font-font2 font-red button__link pl-0 ml-0">api.hardwario.cloud</a></p>
-            </div>
-            <div class="order-1 order-lg-2 col-12 col-lg-6 text-center">
-                <img loading="lazy" src="/_assets/images/integrations.svg" class="w-50 movingObject movingObject--noShadow" alt="" />
-            </div>
-        </div>
-
-        <div class="row pb-50 align-items-center">
-            <div class="col-12 col-lg-6 text-center">
-                <img loading="lazy" src="/_assets/images/secure.svg" class="w-75 movingObject movingObject--noShadow" alt="" />
-            </div>
-            <div class="col-12 col-lg-6 text-center text-lg-left">
-                <h2 class="font-40 font-md-56 font-md-lnh56 font-weight-black pb-30">{{ i18n "secure_robust" | safeHTML }}</h2>
-                <p class="font-20 font-lnh30">{{ i18n "secure_robust_text" | safeHTML }}</p>
-            </div>
-        </div>
+    .chester-catalog{
+        padding-top: 30px;
+        margin-bottom: 30px;
+        background-image: linear-gradient(to bottom right, {{ .Params.bg1 }}, {{ .Params.bg2 }}); 
+    }
+    .video-container{
+        display: block;
+        margin:0;
+        width:auto;
+        margin-top: 0;
+        border-radius: 7px;
+        max-width: 100%;
+        height: 450px;
+        overflow: hidden;
+    
+      }
+      .video-container iframe{
+          position: relative;
+          width: 100%;
+          height: 100%;
+          left: 0;
+          top: 0;
+      }
+    
+      .content-block{
+          background-image: linear-gradient(to bottom right, #ebb50e, #ffd966); 
+          background-size: 100%; 
+          border-radius: 7px;
+      }
+      .content-block--gray{
+          background-image: linear-gradient(to bottom right, #cccccc, #b1adad); 
+      }
+      .content-block--gray2{
+          background-image: linear-gradient(to bottom right, #ffffff, #ececec); 
+      }
+    
+      .content-block--battery{
+        background-image: url('/_assets/images/configurations/wmbus_4.png');
+        background-repeat: no-repeat;
+        background-size:cover;
+      }
+    
+      .content-block--buttons{
+        background-image: url('/_assets/images/configurations/chester-push-2.png');
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: 50% 50%;
+      }
+    
+      .chester-1{
+          background-size: 80%; 
+          border-radius: 7px; 
+          background-position: 50% 50%; 
+          background-image: url('/_assets/images/configurations/configurable-gateway.png');
+          background-repeat: no-repeat;
+      }
+      @media(max-width: 1281px){
+          .chester-1{
+              background-position: 50% 50%;
+          }
+    
+      }
+      @media(max-width: 960px){
+          .chester-1{
+              height: 400px;
+              background-position: 50% 0%;
+              background-size: 70%;
+          }
+    
+      }
+    </style>
+  <div id = "features">
+    <section>
+      <div class = "container" id = "products">
+          <div class = "row justify-content-center">
+              
+              {{ .Content }}
+    
+          </div>
       </div>
-</section>
+    </section>
+    </div>
+
 
 <section>
   <div class = "container">
-    <div class="row text-center justify-content-center">
-      <div class="pt-10 col-12 col-md-8 text-center">
-          <h2 class="font-32 font-md-54 font-md-lnh56 font-weight-black">
-            {{ i18n "get_cloud" }}
-          </h2>
-          <p class="font-18 pt-5 pb-20">
-            {{ i18n "get_cloud_text" | safeHTML }}
-          </p>
-        </div>
-  </div>
   <div class="row justify-content-center">
-    <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mb-40">
+    <div class="col-12 col-md-12 col-lg-10 bg-darkGray py-30 mt-40 mb-40">
         <div class = "row align-items-center">
           <div class = "col-12 col-md-4 px-50">
               <img loading="lazy" src="/_assets/images/{{ .Params.cons_img }}" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
@@ -143,34 +160,34 @@
 
 
 <section>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="contactbox">
-                        <div class="row">
-                            <div class="col-12 col-md-4">
-                                <div class="contactbox__item">
-                                    <div class="contactbox__icon"></div>
-                                    <h3 class="contactbox__text">{{ i18n "modification_integration" | safeHTML }}</h3>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4">
-                                <div class="contactbox__item">
-                                    <div class="contactbox__icon contactbox__icon--warranty"></div>
-                                    <h3 class="contactbox__text">{{ i18n "extended_warranty" | safeHTML }}</h3>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4">
-                                <div class="contactbox__item contactbox__item--noborder">
-                                    <div class="contactbox__icon contactbox__icon--support"></div>
-                                    <h3 class="contactbox__text">{{ i18n "personal_tech_support" | safeHTML }}</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <div class="container pt-60">
+      <div class="row">
+          <div class="col">
+              <div class="contactbox">
+                  <div class="row">
+                      <div class="col-12 col-md-4">
+                          <div class="contactbox__item">
+                              <div class="contactbox__icon"></div>
+                              <h3 class="contactbox__text">{{ i18n "modification_integration" | safeHTML }}</h3>
+                          </div>
+                      </div>
+                      <div class="col-12 col-md-4">
+                          <div class="contactbox__item">
+                              <div class="contactbox__icon contactbox__icon--warranty"></div>
+                              <h3 class="contactbox__text">{{ i18n "extended_warranty" | safeHTML }}</h3>
+                          </div>
+                      </div>
+                      <div class="col-12 col-md-4">
+                          <div class="contactbox__item contactbox__item--noborder">
+                              <div class="contactbox__icon contactbox__icon--support"></div>
+                              <h3 class="contactbox__text">{{ i18n "personal_tech_support" | safeHTML }}</h3>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 </section>
        
 </div>

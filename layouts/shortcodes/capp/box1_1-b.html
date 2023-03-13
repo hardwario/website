@@ -1,0 +1,16 @@
+<div class = "col-12 px-10 pl-0">
+    <div class = "col-12 pr-30 pr-md-60 pl-30 pl-md-0 mb-20 pb-30 pb-md-0 content-block content-block--gray" style = "height: 97%;">
+    <div class = "row">
+        <div class = "d-none d-md-block col-12 col-md-6 pt-40 text-center">
+            {{ with .Get "img_25" }}<img src = "{{ . }}" class = "mx-auto mt-20 mb-10 w-25"/>{{ end }}
+            {{ with .Get "img_50" }}<img src = "{{ . }}" class = "mx-auto mt-20 mb-10 w-50"/>{{ end }}
+            {{ with .Get "img_75" }}<img src = "{{ . }}" class = "mx-auto mt-20 mb-10 w-75"/>{{ end }}
+            {{ with .Get "img_100" }}<img src = "{{ . }}" class = "mx-auto mt-20 mb-10 w-100"/>{{ end }}
+        </div>
+        <div class = "col-12 col-md-6 pt-40 pt-md-60">
+            {{ with .Get "heading" | safeHTML }}<h2 class = "font-36 font-lnh44 font-md-52 font-weight-black font-md-lnh56 pb-30">{{ . }}</h2>{{ end}}
+            {{ with .Get "text" | safeHTML }}<p class = "font-20 font-md-20 pb-10">{{ . }}</p>{{ end }}
+        </div>
+    </div>
+    </div>
+</div>
