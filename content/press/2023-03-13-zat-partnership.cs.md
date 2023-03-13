@@ -4,7 +4,7 @@ meta_title: ZAT a HARDWARIO přinášejí internet věcí do katodické ochrany 
 meta_description: Společnost ZAT dodává inteligentní systémy řízení pro široké spektrum oborů do celého světa. Od roku 2018 vyvíjí softwarovou platformu SimONet, která je určena pro zpracování a vizualizaci dat z IoT zařízení. Nyní uzavřela smlouvu se společností HARDWARIO, která pro ni připraví systém IoT monitoringu katodové ochrany potrubí.
 heading: ZAT a HARDWARIO přinášejí internet věcí do katodické ochrany potrubí
 draft: false
-date: 2023-03-12
+date: 2023-03-13
 description: Společnost ZAT dodává inteligentní systémy řízení pro široké spektrum oborů do celého světa. Od roku 2018 vyvíjí softwarovou platformu SimONet, která je určena pro zpracování a vizualizaci dat z IoT zařízení. Nyní uzavřela smlouvu se společností HARDWARIO, která pro ni připraví systém IoT monitoringu katodové ochrany potrubí. 
 docx: https://docs.google.com/document/d/1Dl_qiYpQRJydNAyjEYo5_opoI4GUsvlJ/edit?usp=sharing&ouid=100979526148034723712&rtpof=true&sd=true
 pdf: https://drive.google.com/file/d/1Dh7WVRRiQ7utX07G8GkEwSBNWBiu7ZSi/view?usp=sharing

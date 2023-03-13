@@ -4,7 +4,7 @@ meta_title: ZAT and HARDWARIO bring IoT to cathodic protection of pipelines
 meta_description: ZAT supplies intelligent control systems for various industries worldwide. Since 2018, it has been developing the SimONet software platform for processing and visualizing data from IoT devices. It has now entered into a contract with HARDWARIO to develop an IoT monitoring system for the cathodic protection of pipelines.
 heading: ZAT and HARDWARIO bring IoT to cathodic protection of pipelines
 draft: false
-date: 2023-03-12
+date: 2023-03-13
 description: ZAT supplies intelligent control systems for various industries worldwide. Since 2018, it has been developing the SimONet software platform for processing and visualizing data from IoT devices. It has now entered into a contract with HARDWARIO to develop an IoT monitoring system for the cathodic protection of pipelines. 
 docx: https://docs.google.com/document/d/1DlQkRsEjGBaDCAOUn2twPdUofYAfa0r9/edit?usp=sharing&ouid=100979526148034723712&rtpof=true&sd=true
 pdf: https://drive.google.com/file/d/1DljUUrCWwiRsfFN_hLyhGIbTg_m9VCCv/view?usp=sharing
