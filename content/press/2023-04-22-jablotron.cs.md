@@ -8,7 +8,7 @@ date: 2023-04-22
 description: HARDWARIO pokračuje v uzavírání strategických partnerství v oblasti dodávek IoT řešení a vývoje hardware. Novým významným zákazníkem IoT inovátora HARDWARIO se stává Jablotron. Společnost HARDWARIO bude s touto významnou českou firmu rozvíjet oblast zabezpečovací techniky.
 docx: https://docs.google.com/document/d/1E4fPF_P9j7c4IJwvQUNU6-vuxSZ9oe0G/edit?usp=sharing&ouid=100979526148034723712&rtpof=true&sd=true
 pdf: https://drive.google.com/file/d/1E1bKaFvFsbN7VFfYRtBn5Cg6kF_P0g9h/view?usp=sharing
-image_preview: https://res.cloudinary.com/lukasfabik/image/upload/v1682157757/press/2023-04-22-jablotron.cs.png
+image_preview: https://res.cloudinary.com/lukasfabik/image/upload/c_fill,h_800,w_800/v1576055326/blog/bigclown-renamed-hardwario/hardwario.jpg
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1581950249/blog/wide_placeholder.jpg
 image_meta: https://res.cloudinary.com/lukasfabik/image/upload/v1682157757/press/2023-04-22-jablotron.cs.png
 author: pavel_hubner
