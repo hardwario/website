@@ -8,9 +8,9 @@ examples_heading: Projektbeispiele
 examples: [["Überwachung von Produktions- und Lagerhallen", "Sicherstellung ordnungsgemäßer Produktions- und Lagerbedingungen - Daten für Online-Überwachung, Abweichungswarnungen und Audits."],["Überwachung der Tierumgebung", "Überwachung von Temperatur, Luftfeuchtigkeit, Stickoxiden und anderen Variablen zur Gewährleistung idealer Tierhaltungsbedingungen. "],["Intelligente Überwachung der Büroumgebung", "Überwachung von Temperatur, Luftfeuchtigkeit, Beleuchtung, CO2 und VOC zur Optimierung der Umgebung, der Produktivität und des Verbrauchs."],["Überwachung von Gefrier- und Kühlschränken", "Überwachung der Temperatur zur Einhaltung von Prozessen und zur Optimierung des Stromverbrauchs."],["Überwachung der Bedingungen in Weinbergen", "Überwachung von Wetterbedingungen, Niederschlag, Boden- und Lufttemperatur und -feuchtigkeit zur Verbesserung der Erntequalität und zur Kostensenkung."]] 
 approach: ["HARDWARIO liefert alles, was Sie für ein erfolgreiches IoT-Umweltüberwachungsprojekt benötigen - von Geräten bis hin zu Cloud-Umgebungen und APIs.", "Unsere Produkte und Dienstleistungen umfassen IoT-Geräte und -Sensoren, die von überall aus über LPWAN-Netzwerke leicht mit dem Internet verbunden werden können, Konnektivität, Cloud-basiertes Gerätemanagement und APIs für die Integration mit anderen Systemen."] 
 study: "/case-studies/defra" 
-consultation: Alan Fabik, CEO HARDWARIO 
-cons_img: alan.png 
-cons_link: https://meetings.hubspot.com/alanfabik/booking 
+consultation: Pavel Hübner, CEO HARDWARIO 
+cons_img: pavel.jpg 
+cons_link: https://meetings.hubspot.com/pavel-hubner 
 category: ["agriculture","care","construction","indoor","manufacturing","outdoor","retail"] 
 image_preview: /use-cases/indoor.png 
 weight: 10 

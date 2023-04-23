@@ -11,9 +11,9 @@ video: Zmpovb9czKo
 video_name: Wie IoT-Technologien die Digitalisierung im Einzelhandel erleichtern 
 video_text: Die rasante Entwicklung der IoT-Konnektivität, Geräte, die seit Jahren mit Batterien betrieben werden, ein nicht-invasiver Ansatz und erschwingliche Preise ermöglichen heute die schnelle Digitalisierung vieler Branchen. Einer der vielversprechendsten Anwendungsbereiche des IoT ist zweifellos der Einzelhandel. 
 video_bg: bg-darkGray font-white mb-20 
-consultation: Alan Fabik, CEO HARDWARIO 
-cons_img: alan.png 
-cons_link: https://meetings.hubspot.com/alanfabik/booking 
+consultation: Pavel Hübner, CEO HARDWARIO 
+cons_img: pavel.jpg 
+cons_link: https://meetings.hubspot.com/pavel-hubner 
 menu: 
     main: 
         parent: 'Lösungen'

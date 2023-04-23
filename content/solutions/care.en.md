@@ -11,9 +11,9 @@ video: -VhUh-Ea2OE
 video_name: Digitizing Care Services with IoT devices and LPWAN
 video_text: Our IoT webinar discussed how RGS Care uses our IoT multisensor COOPER as part of its product for care services. We talked not only about the COOPER multisensor, but we will also analyze used LPWAN technologies and introduce the Ubidots platform.
 video_bg: bg-darkGray font-white mb-20
-consultation: Alan Fabik, CEO HARDWARIO
-cons_img: alan.png
-cons_link: https://meetings.hubspot.com/alanfabik/booking
+consultation: Pavel Hübner, CEO HARDWARIO
+cons_img: pavel.jpg
+cons_link: https://meetings.hubspot.com/pavel-hubner
 menu:
     main:
         parent: 'Solutions'

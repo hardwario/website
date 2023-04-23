@@ -13,9 +13,9 @@ video_text: Watch the recording of the IoT webinar about how, together with Voda
 document_image: /case-studies/defra_grid-home.png
 document_form: 22e7a186-0974-409b-8002-fbc235f64f88
 document_name: How IoT technologies facilitate digitization in agriculture and forestry
-consultation: Alan Fabik, CEO HARDWARIO
-cons_img: alan.png
-cons_link: https://meetings.hubspot.com/alanfabik/booking
+consultation: Pavel Hübner, CEO HARDWARIO
+cons_img: pavel.jpg
+cons_link: https://meetings.hubspot.com/pavel-hubner
 menu:
     main:
         parent: 'Solutions'

@@ -13,9 +13,9 @@ video_text: Sehen Sie sich die Aufzeichnung des IoT-Webinars darüber an, wie wi
 document_image: /case-studies/defra_grid-home.png 
 document_form: a6a81f8c-aef6-4aed-94a4-465adbcd8c6b 
 document_name: Wie IoT-Technologien die Digitalisierung in der Land- und Forstwirtschaft erleichtern 
-consultation: Alan Fabik, CEO HARDWARIO 
-cons_img: alan.png 
-cons_link: https://meetings.hubspot.com/alanfabik/booking 
+consultation: Pavel Hübner, CEO HARDWARIO 
+cons_img: pavel.jpg 
+cons_link: https://meetings.hubspot.com/pavel-hubner 
 menu: 
     main: 
         parent: 'Lösungen'

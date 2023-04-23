@@ -13,9 +13,9 @@ document_name: Wie IoT-Technologien die Digitalisierung im Bauwesen erleichtern
 video: AJfJuwb--ow 
 video_name: STATOTEST Webinar-Aufzeichnung 
 video_text: Weltweit gibt es Tausende von Brücken, Gebäuden und anderen Bauwerken mit problematischer Statik. Die Geschichte des STATOTEST-Projekts zeigt, wie IoT-Technologien den Einsturz von Brücken, Gebäuden oder Mauern verhindern können. Nicht-invasiv, einfach und kostengünstig. 
-consultation: Alan Fabik, CEO HARDWARIO 
-cons_img: alan.png 
-cons_link: https://meetings.hubspot.com/alanfabik/booking 
+consultation: Pavel Hübner, CEO HARDWARIO 
+cons_img: pavel.jpg 
+cons_link: https://meetings.hubspot.com/pavel-hubner 
 menu: 
     main: 
         parent: 'Lösungen'

@@ -8,9 +8,9 @@ approach: ["HARDWARIO liefert alles, was Sie f체r ein erfolgreiches IoT-Energie�
 examples_heading: Projektbeispiele 
 examples: [["Strom", "Digitale Ausg채nge (ModBus, M-Bus, IO-Link), Impulsmessung, Stromsensoren"],["Gas", "Impulsmessung, digitale Ausg채nge (Modbus, IO-Link)"],["Wasser", "Impulsmessung, digitale Ausg채nge (Modbus, IO-Link)"],["Luft", "Impulsmessung, digitale Ausg채nge (Modbus, IO-Link)"]] 
 study: "/case-studies/surun" 
-consultation: Alan Fabik, CEO HARDWARIO 
-cons_img: alan.png 
-cons_link: https://meetings.hubspot.com/alanfabik/booking 
+consultation: Pavel H체bner, CEO HARDWARIO 
+cons_img: pavel.jpg 
+cons_link: https://meetings.hubspot.com/pavel-hubner 
 category: ["agriculture","construction","indoor","manufacturing"] 
 image_preview: /use-cases/pulse.png 
 weight: 40 

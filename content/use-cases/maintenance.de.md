@@ -8,9 +8,9 @@ approach: ["HARDWARIO liefert alles, was Sie für ein erfolgreiches IoT-Wartungs
 examples_heading: Beispiele für die Überwachung 
 examples: [["Temperatur","Motoren von Produktionsanlagen, Bremssysteme, Lagerbereiche"],["Impulse", "Messung von Strom-, Wasser-, Luft- und anderen Verbräuchen"],["Drehung"],["Abstand", "Füllstand von Auffangwannen und Silos"],["Vibration, Stoß und Neigung", "Brücken, Stahlkonstruktionen, Dächer, Maschinen"]] 
 study: "/case-studies/tpca" 
-consultation: Alan Fabik, CEO HARDWARIO 
-cons_img: alan.png 
-cons_link: https://meetings.hubspot.com/alanfabik/booking 
+consultation: Pavel Hübner, CEO HARDWARIO 
+cons_img: pavel.jpg 
+cons_link: https://meetings.hubspot.com/pavel-hubner 
 category: ["agriculture","construction","manufacturing"] 
 image_preview: /use-cases/predictive-maintenance.png 
 weight: 20 

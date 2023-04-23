@@ -9,9 +9,9 @@ study: "/case-studies/defra"
 examples_heading: Connection examples
 examples: [["Digital outputs","RS-485 (Modbus), IO-Link and others"],["PLC outputs","Dry contact, current loop and more"],["Non-invasive monitoring","Magnetic, optical and other sensors"]]
 study: "/case-studies/arcelormittal"
-consultation: Alan Fabik, CEO HARDWARIO
-cons_img: alan.png
-cons_link: https://meetings.hubspot.com/alanfabik/booking
+consultation: Pavel Hübner, CEO HARDWARIO
+cons_img: pavel.jpg
+cons_link: https://meetings.hubspot.com/pavel-hubner
 category: ["agriculture","construction","manufacturing"]
 image_preview: /use-cases/oee.png
 weight: 10

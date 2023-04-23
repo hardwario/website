@@ -13,9 +13,9 @@ document_name: Wie IoT-Technologien die Digitalisierung in der Fertigung erleich
 video: lRikM-F8R5I 
 video_name: Aufzeichnung des Webinars IoT in der Fertigung 
 video_text: Dank der neuen Internet der Dinge-Technologien ist es nun möglich, die Produktion einfach, schnell und kostengünstig zu überwachen. Sie müssen weder die Maschine noch den Prozess ändern oder ersetzen oder ein neues Netzwerk einrichten. 
-consultation: Alan Fabik, CEO HARDWARIO 
-cons_img: alan.png 
-cons_link: https://meetings.hubspot.com/alanfabik/booking 
+consultation: Pavel Hübner, CEO HARDWARIO 
+cons_img: pavel.jpg 
+cons_link: https://meetings.hubspot.com/pavel-hubner 
 menu: 
     main: 
         parent: 'Lösungen'

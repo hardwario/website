@@ -13,9 +13,9 @@ document_name: Jak IoT technologie usnadňují digitalizaci ve&nbsp;stavebnictv�
 video: AJfJuwb--ow
 video_name: Záznam webináře STATOTEST
 video_text: Po celém světě existují tisíce mostů, budov a dalších staveb s&nbsp;problematickou statikou. Příběh projektu STATOTEST ukazuje, jak mohou technologie IoT zabránit zhroucení mostů, budov nebo zdí. Neinvazivně, jednoduše a nákladově efektivně.
-consultation: Alan Fabik, CEO HARDWARIO
-cons_img: alan.png
-cons_link: https://meetings.hubspot.com/alanfabik/booking
+consultation: Pavel Hübner, CEO HARDWARIO
+cons_img: pavel.jpg
+cons_link: https://meetings.hubspot.com/pavel-hubner
 menu:
     main:
         parent: 'Řešení'

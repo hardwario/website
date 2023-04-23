@@ -8,9 +8,9 @@ approach: ["HARDWARIO přináší vše, co potřebujete k nasazení úspěšnéh
 examples_heading: Příklady sledování
 examples: [["Teplota","Motory výrobní linky, brzdné systémy, skladové prostory"],["Pulsy","Měření spotřeby elektrické energie, vody, vzduchu a dalších"],["Rotace"],["Vzdálenost","Výška hladiny jímek a sil"],["Vibrace, otřes a náklon","Mosty, ocelové konstrukce, střechy, stroje"]]
 study: "/case-studies/tpca"
-consultation: Alan Fabik, CEO HARDWARIO
-cons_img: alan.png
-cons_link: https://meetings.hubspot.com/alanfabik/booking
+consultation: Pavel Hübner, CEO HARDWARIO
+cons_img: pavel.jpg
+cons_link: https://meetings.hubspot.com/pavel-hubner
 category: ["agriculture","construction","manufacturing"]
 image_preview: /use-cases/predictive-maintenance.png
 weight: 20

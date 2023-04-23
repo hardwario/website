@@ -13,9 +13,9 @@ document_name: How IoT technologies facilitate digitization in construction
 video: AJfJuwb--ow
 video_name: STATOTEST webinar recording
 video_text: There are thousands of bridges, buildings and other structures with problematic statics worldwide. The STATOTEST project's story shows how IoT technologies can prevent collapsing bridges, buildings or walls. Non-invasively, simply and cost-effectively.
-consultation: Alan Fabik, CEO HARDWARIO
-cons_img: alan.png
-cons_link: https://meetings.hubspot.com/alanfabik/booking
+consultation: Pavel Hübner, CEO HARDWARIO
+cons_img: pavel.jpg
+cons_link: https://meetings.hubspot.com/pavel-hubner
 menu:
     main:
         parent: 'Solutions'

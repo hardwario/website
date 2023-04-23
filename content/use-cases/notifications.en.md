@@ -9,9 +9,9 @@ examples: [["ANDON system", "Build a system for recording the current status of 
 approach: ["HARDWARIO delivers everything you need to deploy a successful IoT notification project - from devices to cloud environments and APIs.
 Our products and services include IoT devices and sensors, easily connected from anywhere to the Internet via LPWAN networks, connectivity, cloud-based device management and APIs for integration with other systems."]
 study: "/case-studies/skoda-andon"
-consultation: Alan Fabik, CEO HARDWARIO
-cons_img: alan.png
-cons_link: https://meetings.hubspot.com/alanfabik/booking
+consultation: Pavel Hübner, CEO HARDWARIO
+cons_img: pavel.jpg
+cons_link: https://meetings.hubspot.com/pavel-hubner
 category: ["agriculture","care","construction","indoor","manufacturing","retail"]
 image_preview: /use-cases/buttons.png
 weight: 30

@@ -8,9 +8,9 @@ approach: ["HARDWARIO delivers everything you need to deploy a successful IoT en
 examples_heading: Project examples
 examples: [["Electricity", "Digital outputs (ModBus, M-Bus, IO-Link), pulse measurement, current sensors"],["Gas", "Pulse measurement, digital outputs (Modbus, IO-Link)"],["Water", "Pulse measurement, digital outputs (Modbus, IO-Link)"],["Air", "Pulse measurement, digital outputs (Modbus, IO-Link)"]]
 study: "/case-studies/surun"
-consultation: Alan Fabik, CEO HARDWARIO
-cons_img: alan.png
-cons_link: https://meetings.hubspot.com/alanfabik/booking
+consultation: Pavel Hübner, CEO HARDWARIO
+cons_img: pavel.jpg
+cons_link: https://meetings.hubspot.com/pavel-hubner
 category: ["agriculture","construction","indoor","manufacturing"]
 image_preview: /use-cases/pulse.png
 weight: 40

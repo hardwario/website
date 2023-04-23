@@ -8,9 +8,9 @@ approach: ["HARDWARIO liefert alles, was Sie für ein erfolgreiches IoT-Projekt 
 examples_heading: Beispiele für Integrationen 
 examples: [["Intelligente Skala", "Unabhängige Internetverbindung und Batteriestrom. Produktmengen- und Volumendaten oder Marketingdaten über das Kundenverhalten am Regal."],["Abstandsmessung","Die Ultraschall-Abstandsmessung bestimmt den Füllstand eines Sumpfes, Brunnens oder die Menge des Materials in einem Silo."],["Sicherheitssysteme","Die Erkennung von Bewegungen, Manipulationen, Türöffnungen, Gaslecks, Batteriebetrieb und Internetkonnektivität bietet viele neue Möglichkeiten."]] 
 study: "/case-studies/skanska" 
-consultation: Alan Fabik, CEO HARDWARIO 
-cons_img: alan.png 
-cons_link: https://meetings.hubspot.com/alanfabik/booking 
+consultation: Pavel Hübner, CEO HARDWARIO 
+cons_img: pavel.jpg 
+cons_link: https://meetings.hubspot.com/pavel-hubner 
 category: ["agriculture","construction","manufacturing","retail"] 
 image_preview: /use-cases/marketing.png 
 weight: 60 

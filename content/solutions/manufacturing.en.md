@@ -13,9 +13,9 @@ document_name: How IoT technologies facilitate digitization in manufacturing
 video: lRikM-F8R5I
 video_name: Recording of the webinar IoT&nbsp;in&nbsp;manufacturing
 video_text: Thanks to the new Internet of Things technologies, it is now possible to monitor production easily, quickly and affordably. You don't need to change or replace the machine, process or establish a new network.
-consultation: Alan Fabik, CEO HARDWARIO
-cons_img: alan.png
-cons_link: https://meetings.hubspot.com/alanfabik/booking
+consultation: Pavel Hübner, CEO HARDWARIO
+cons_img: pavel.jpg
+cons_link: https://meetings.hubspot.com/pavel-hubner
 menu:
     main:
         parent: 'Solutions'

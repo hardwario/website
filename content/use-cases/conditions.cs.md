@@ -8,9 +8,9 @@ examples_heading: Příklady projektů
 examples: [["Monitoring vnitřního klimatu výroby a&nbsp;skladů","Zajištění správných podmínek výroby a skladování. Data pro online monitoring, upozornění na odchylky a audit."],["Monitoring prostředí chovu zvířat","Sledování teploty, vlhkosti, oxidů dusíků a jiných veličin pro zajištění ideálních podmínek chovu."],["Monitoring v kancelářských prostorech","Sledování teploty, vlhkosti, osvětlení, koncetrace CO2 a VOC za účelem optimalizace prostředí, produktivity a spotřeby."],["Monitoring mrazáků a&nbsp;chladících boxů","Sledování teploty za účet dodržení procesů a pro optimalizaci spotřeby elektrické energie."],["Monitoring podmínek pěstování vinné révy","Sledování povětrnostních podmínek, úhrnu srážek, půdní a vzdušné teploty a vlhkosti pro zkvalitnění úrody a snížení nákladů."]]
 approach: ["HARDWARIO přináší vše, co potřebujete k nasazení úspěšného projektu IoT monitoringu prostředí - od zařízení po cloudové prostředí a API.","Naše nabídka produktů a služeb zahrnuje IoT zařízení a senzory, jednoduše připojitelné odkukoliv k internetu prostřednictvím LPWAN sítí, konektivitu, cloudové prostředí pro správu zařízení a&nbsp;API pro integraci s dalšími systémy."]
 study: "/case-studies/defra"
-consultation: Alan Fabik, CEO HARDWARIO
-cons_img: alan.png
-cons_link: https://meetings.hubspot.com/alanfabik/booking
+consultation: Pavel Hübner, CEO HARDWARIO
+cons_img: pavel.jpg
+cons_link: https://meetings.hubspot.com/pavel-hubner
 category: ["agriculture","care","construction","indoor","manufacturing","outdoor","retail"]
 image_preview: /use-cases/indoor.png
 weight: 10

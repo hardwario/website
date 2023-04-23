@@ -8,9 +8,9 @@ examples_heading: Beispiele
 examples: [["ANDON system", "Erstellen Sie ein System zur Erfassung des aktuellen Produktionsstatus am Arbeitsplatz."],[" Bediener anrufen","Das System ermöglicht es, einen Wartungsmitarbeiter anzurufen oder eine Störung zu melden."],["Notrufknopf","Das System des sofortigen Hilferufs für ältere Menschen oder Patienten."],["Anforderung/Aufgabenerfassung","Erfassen Sie einen Prozessschritt oder die Notwendigkeit, Material zu bevorraten."]] 
 approach: ["HARDWARIO liefert alles, was Sie für ein erfolgreiches IoT-Benachrichtigungsprojekt benötigen - von Geräten bis hin zu Cloud-Umgebungen und APIs. Unsere Produkte und Dienstleistungen umfassen IoT-Geräte und -Sensoren, die über LPWAN-Netzwerke, Konnektivität, cloudbasiertes Gerätemanagement und APIs für die Integration mit anderen Systemen von überall aus leicht mit dem Internet verbunden werden können."] 
 study: "/case-studies/skoda-andon" 
-consultation: Alan Fabik, CEO HARDWARIO 
-cons_img: alan.png 
-cons_link: https://meetings.hubspot.com/alanfabik/booking 
+consultation: Pavel Hübner, CEO HARDWARIO 
+cons_img: pavel.jpg 
+cons_link: https://meetings.hubspot.com/pavel-hubner 
 category: ["agriculture","care","construction","indoor","manufacturing","retail"] 
 image_preview: /use-cases/buttons.png 
 weight: 30 

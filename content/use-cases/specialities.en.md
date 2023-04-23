@@ -8,9 +8,9 @@ approach: ["HARDWARIO delivers everything you need to deploy a successful IoT pr
 examples_heading: Examples of integrations
 examples: [["Smart scale", "Independent internet connection and battery power. Product quantity and volume data or marketing data on customer behaviour at the shelf."],["Distance measurement", "Ultrasonic distance measurement determines the level of a sump, well or the amount of material in a silo."],["Security Systems", "Detection of motion, tampering, door openings, gas leaks, battery operation, and internet connectivity brings many new opportunities."]]
 study: "/case-studies/skanska"
-consultation: Alan Fabik, CEO HARDWARIO
-cons_img: alan.png
-cons_link: https://meetings.hubspot.com/alanfabik/booking
+consultation: Pavel Hübner, CEO HARDWARIO
+cons_img: pavel.jpg
+cons_link: https://meetings.hubspot.com/pavel-hubner
 category: ["agriculture","construction","manufacturing","retail"]
 image_preview: /use-cases/marketing.png
 weight: 60
