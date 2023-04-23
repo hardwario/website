@@ -7,7 +7,7 @@ draft: false
 date: 2023-04-22
 description: HARDWARIO pokračuje v uzavírání strategických partnerství v oblasti dodávek IoT řešení a vývoje hardware. Novým významným zákazníkem IoT inovátora HARDWARIO se stává Jablotron. Společnost HARDWARIO bude s touto významnou českou firmu rozvíjet oblast zabezpečovací techniky.
 docx: https://docs.google.com/document/d/1E4fPF_P9j7c4IJwvQUNU6-vuxSZ9oe0G/edit?usp=sharing&ouid=100979526148034723712&rtpof=true&sd=true
-pdf: https://drive.google.com/file/d/1E1bKaFvFsbN7VFfYRtBn5Cg6kF_P0g9h/view?usp=sharing
+pdf: https://drive.google.com/file/d/1E5VhfKd6HKfZPnidHSymhZAMjyyX1sBn/view?usp=sharing
 image_preview: https://res.cloudinary.com/lukasfabik/image/upload/c_fill,h_800,w_800/v1576055326/blog/bigclown-renamed-hardwario/hardwario.jpg
 image_main: https://res.cloudinary.com/lukasfabik/image/upload/v1581950249/blog/wide_placeholder.jpg
 image_meta: https://res.cloudinary.com/lukasfabik/image/upload/v1682157757/press/2023-04-22-jablotron.cs.png
@@ -16,7 +16,7 @@ author: pavel_hubner
 
 *24. dubna 2023* – **HARDWARIO pokračuje v uzavírání strategických partnerství v oblasti dodávek IoT řešení a vývoje hardware. Novým významným zákazníkem IoT inovátora HARDWARIO se stává Jablotron. Společnost HARDWARIO bude s touto významnou českou firmu rozvíjet oblast zabezpečovací techniky.**
 
-V souvislosti s touto unikátní příležitostí dochází ke změně na pozici CEO, kterou bude nyní zastávat  spoluzakladatel a dosavadní technický ředitel Pavel Hübner. Součástí této změny je rovněž koncentrace majoritního podílu, kdy se hlavním akcionářem stává Pavel Hübner, který z vlastních prostředků odkupuje podíly spoluzakladatelů Alana Fabika, Tomáše Moravy a Lukáše Fabika.
+V souvislosti s touto unikátní příležitostí dochází ke změně na pozici CEO, kterou bude nyní zastávat  spoluzakladatel a dosavadní technický ředitel Pavel Hübner. Součástí této změny je rovněž koncentrace majoritního podílu, kdy se hlavním akcionářem stává Pavel Hübner, který odkupuje podíly spoluzakladatelů Alana Fabika, Tomáše Moravy a Lukáše Fabika.
 
 *„Cíle HARDWARIO stanovené v rámci našeho vstupu na burzu zůstávají beze změny. Chceme nadále upevňovat svou pozici inovačního leadera v oblasti internetu věcí a pracovat na řešeních s vysokou přidanou hodnotou,* doplňuje Pavel Hübner, spoluzakladatel HARDWARIO a nový ředitel firmy.
 
