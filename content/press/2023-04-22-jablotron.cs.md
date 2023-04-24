@@ -22,6 +22,9 @@ V souvislosti s touto unikátní příležitostí dochází ke změně na pozici
 
 Společnosti HARDWARIO se dále daří využívat nových obchodních příležitostí plynoucích z růstu atraktivity IoT oboru. Mezi další nově sjednané strategické spolupráce v oblasti vývoje a dodávek IoT řešení patří projekty s firmami DCT Czech a VANEMA. U obou jde o perspektivní zakázky v rozsahu stovek zařízení ročně. Pro DCT Czech, předního světového výrobce a dodavatele mycích řešení pro elektrotechnický průmysl, mezi jehož zákazníky patří například Continental, Honeywell nebo Philips, HARDWARIO vyvine speciální komunikační moduly do jejich mycích strojů. Pro společnost VANEMA půjde o zařízení pro sběr dat o spotřebě tepla a vody v bytových domech.
 
+Odkup akcií nebyl financován z prostředků získaných z emise akcií.
+
+
 ### HARDWARIO
 
 HARDWARIO a.s. je česká technologická společnost, která se zaměřuje na oblast IoT – internetu věcí. Svým zákazníkům poskytuje konfigurovatelná IoT zařízení, konektivitu a cloudové služby. Společně s partnery úspěšně zavádí IoT projekty ve výrobě, energetice, zemědělství, maloobchodě, zdravotnictví nebo správě majetku. Detailnější informace naleznete na stránkách www.hardwario.cz.
