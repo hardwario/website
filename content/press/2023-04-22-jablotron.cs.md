@@ -16,7 +16,7 @@ author: pavel_hubner
 
 *24. dubna 2023* – **HARDWARIO pokračuje v uzavírání strategických partnerství v oblasti dodávek IoT řešení a vývoje hardware. Novým významným zákazníkem IoT inovátora HARDWARIO se stává Jablotron. Společnost HARDWARIO bude s touto významnou českou firmu rozvíjet oblast zabezpečovací techniky.**
 
-V souvislosti s touto unikátní příležitostí dochází ke změně na pozici CEO, kterou bude nyní zastávat  spoluzakladatel a dosavadní technický ředitel Pavel Hübner. Součástí této změny je rovněž koncentrace majoritního podílu, kdy se hlavním akcionářem stává Pavel Hübner, který odkupuje podíly spoluzakladatelů Alana Fabika, Tomáše Moravy a Lukáše Fabika.
+V souvislosti s touto unikátní příležitostí dochází ke změně na pozici CEO, kterou bude nyní zastávat  spoluzakladatel a dosavadní technický ředitel Pavel Hübner. Součástí této změny je rovněž koncentrace majoritního podílu, kdy se hlavním akcionářem stává Pavel Hübner, který odkupuje podíly spoluzakladatelů Alana Fabika, Tomáše Moravy a Lukáše Fabika z vlastních prostředků získaných půjčkou.
 
 *„Cíle HARDWARIO stanovené v rámci našeho vstupu na burzu zůstávají beze změny. Chceme nadále upevňovat svou pozici inovačního leadera v oblasti internetu věcí a pracovat na řešeních s vysokou přidanou hodnotou,* doplňuje Pavel Hübner, spoluzakladatel HARDWARIO a nový ředitel firmy.
 
