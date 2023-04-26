@@ -10,13 +10,13 @@ menu:
         name: Cloud
 weight: 14
 meta_title: HARDWARIO Cloud
-meta_description: 
+meta_description:
 image: /_assets/images/cloud/hio-cloud.png
 image_pb: pb-30
 image_w: w-100
-consultation: Pavel Hübner, CEO HARDWARIO
-cons_img: pavel.jpg
-cons_link: https://meetings.hubspot.com/pavel-hubner
+consultation: Antonio Mendes, CSO HARDWARIO
+cons_img: antonio.jpg
+cons_link: https://meetings.hubspot.com/antoniomendes/booking
 ---
 
 {{< capp/box1_1-a heading = "User-friendly<br/> device management" text = "Manage all your devices in an intuitive user interface, group them into organizations and groups, and assign access to other users.</p><img loading='lazy' src='/_assets/images/chester/lpwan_brands.png' class='w-100 w-md-75 mt-10' alt='' /><p>" img_100 = "/_assets/images/cloud/devices.png" >}}

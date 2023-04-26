@@ -8,9 +8,9 @@ examples_heading: Project examples
 examples: [["Monitoring of production and warehouses","Ensure proper production and storage conditions—data for online monitoring, deviation alerts and auditing."],["Animal environment monitoring","Monitor temperature, humidity, nitrogen oxides and other variables to ensure ideal livestock conditions."],["Smart office environment monitoring","Monitor temperature, humidity, lighting, CO2 and VOC to optimise the environment, productivity and consumption."],["Monitoring of freezers and&nbsp;coolers","Monitor temperature for process compliance and to optimise power consumption."],["Monitoring vineyard conditions","Monitor weather conditions, rainfall, soil and air temperature and humidity to improve crop quality and reduce costs."]]
 approach: ["HARDWARIO delivers everything you need to deploy a successful IoT environmental monitoring project - from devices to cloud environments and APIs.","Our products and services include IoT devices and sensors, easily connected from anywhere to the Internet via LPWAN networks, connectivity, cloud-based device management and APIs for integration with other systems."]
 study: "/case-studies/defra"
-consultation: Pavel Hübner, CEO HARDWARIO
-cons_img: pavel.jpg
-cons_link: https://meetings.hubspot.com/pavel-hubner
+consultation: Antonio Mendes, CSO HARDWARIO
+cons_img: antonio.jpg
+cons_link: https://meetings.hubspot.com/antoniomendes/booking
 category: ["agriculture","care","construction","indoor","manufacturing","outdoor","retail"]
 image_preview: /use-cases/indoor.png
 weight: 10

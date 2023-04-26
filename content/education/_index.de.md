@@ -1,12 +1,12 @@
 ---
-title: Bildung 
-menu: ["secondary","footer_2"] 
-weight: 30 
-categories: ["education"] 
-meta_title: STEM -Bildung anhand von realen IoT-Projekten mit HARDWARIO TOWER 
-meta_description: Eine Komplettlösung für den STEM-Unterricht mit einem auf Forschung basierenden pädagogischen Rahmen, dessen Attraktivität auf der Arbeit mit realen IoT-Projekten beruht. 
-whitepaper_form: 94ea07fb-5b00-4647-aead-583aba169b00 
-consultation: Pavel Hübner, CEO HARDWARIO 
-cons_img: pavel.jpg 
-cons_link: https://meetings.hubspot.com/pavel-hubner
+title: Bildung
+menu: ["secondary","footer_2"]
+weight: 30
+categories: ["education"]
+meta_title: STEM -Bildung anhand von realen IoT-Projekten mit HARDWARIO TOWER
+meta_description: Eine Komplettlösung für den STEM-Unterricht mit einem auf Forschung basierenden pädagogischen Rahmen, dessen Attraktivität auf der Arbeit mit realen IoT-Projekten beruht.
+whitepaper_form: 94ea07fb-5b00-4647-aead-583aba169b00
+consultation: Antonio Mendes, CSO HARDWARIO
+cons_img: antonio.jpg
+cons_link: https://meetings.hubspot.com/antoniomendes/booking
 ---

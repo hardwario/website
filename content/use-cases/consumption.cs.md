@@ -8,9 +8,9 @@ examples_heading: Příklady projektů
 examples: [["Elektřina","Digitální výstupy (ModBus, M-BUS, IO-Link), pulsní měření, proudové senzory"],["Plyn","Pulsní měření, digitální výstupy (ModBus, IO-Link)"],["Voda","Pulsní měření, digitální výstupy (ModBus, IO-Link)"],["Vzduch","Pulsní měření, digitální výstupy (ModBus, IO-Link)"]]
 approach: ["HARDWARIO přináší vše, co potřebujete k nasazení úspěšného projektu IoT monitoringu energií - od zařízení po cloudové prostředí a API.","Naše nabídka produktů a služeb zahrnuje IoT zařízení a senzory, jednoduše připojitelné odkukoliv k internetu prostřednictvím LPWAN sítí, konektivitu, cloudové prostředí pro správu zařízení a&nbsp;API pro integraci s dalšími systémy."]
 study: "/case-studies/surun"
-consultation: Pavel Hübner, CEO HARDWARIO
-cons_img: pavel.jpg
-cons_link: https://meetings.hubspot.com/pavel-hubner
+consultation: Antonio Mendes, CSO HARDWARIO
+cons_img: antonio.jpg
+cons_link: https://meetings.hubspot.com/antoniomendes/booking
 category: ["agriculture","construction","indoor","manufacturing"]
 image_preview: /use-cases/pulse.png
 weight: 40

@@ -8,9 +8,9 @@ approach: ["HARDWARIO přináší vše, co potřebujete k nasazení úspěšnéh
 examples_heading: Příklady integrací
 examples: [["Chytrá váha","Nezávislé připojení k internetu a bateriové napájení. Data o množství a objemu produktů nebo marketingová data o chování zákazníků u regálu."],["Měření vzdálenosti","Ultrazvukové měření vzdálenosti pro zjištění výšky hladiny jímky, studny nebo množství materiálu v silu. "],["Zabezpečovací systémy","Detekce pohybu, manipulace, otevření dveří nebo úniku plynů ve spojení s bateriovým provozem a připojením k internetu přináší mnoho nových příležitostí."]]
 study: "/case-studies/skanska"
-consultation: Pavel Hübner, CEO HARDWARIO
-cons_img: pavel.jpg
-cons_link: https://meetings.hubspot.com/pavel-hubner
+consultation: Antonio Mendes, CSO HARDWARIO
+cons_img: antonio.jpg
+cons_link: https://meetings.hubspot.com/antoniomendes/booking
 category: ["agriculture","construction","manufacturing","retail"]
 image_preview: /use-cases/marketing.png
 weight: 60

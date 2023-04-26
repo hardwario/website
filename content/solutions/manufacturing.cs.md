@@ -3,8 +3,8 @@ title: Výroba
 slug: vyroba
 heading: IoT ve výrobě
 description: Přinášíme výrobním firmám příležitost digitalizovat výrobu rychle a dostupně.
-meta_title: IoT řešení ve výrobě | Průmysl 4.0 
-meta_description: 
+meta_title: IoT řešení ve výrobě | Průmysl 4.0
+meta_description:
 image_preview: /case-studies/otk_grid-home.png
 weight: 1
 document_image: /case-studies/arcelor_grid-home.png
@@ -13,9 +13,9 @@ document_name: Jak IoT technologie usnadňují digitalizaci ve&nbsp;výrobě
 video: y898_6andq0
 video_name: Záznam webináře o IoT ve&nbsp;výrobě
 video_text: Díky novým technologiím internetu věcí je nyní možné monitorovat jakékoliv výrobní zařízení jednoduše, rychle a bez velkých nákladů. Nepotřebujeme zasahovat do stroje, procesů, ani zavádět síťové připojení ke stroji.
-consultation: Pavel Hübner, CEO HARDWARIO
-cons_img: pavel.jpg
-cons_link: https://meetings.hubspot.com/pavel-hubner
+consultation: Antonio Mendes, CSO HARDWARIO
+cons_img: antonio.jpg
+cons_link: https://meetings.hubspot.com/antoniomendes/booking
 menu:
     main:
         parent: 'Řešení'

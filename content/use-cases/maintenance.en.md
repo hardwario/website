@@ -8,9 +8,9 @@ approach: ["HARDWARIO delivers everything you need to deploy a successful IoT ma
 examples_heading: Examples of monitoring
 examples: [["Temperature", "Production line motors, braking systems, storage areas"],["Pulses", "Measurement of electricity, water, air and other consumption"],["Rotation"],["Distance", "Level of sumps and silos"],["Vibration, shock and tilt", "Bridges, steel structures, roofs, machines"]]
 study: "/case-studies/tpca"
-consultation: Pavel Hübner, CEO HARDWARIO
-cons_img: pavel.jpg
-cons_link: https://meetings.hubspot.com/pavel-hubner
+consultation: Antonio Mendes, CSO HARDWARIO
+cons_img: antonio.jpg
+cons_link: https://meetings.hubspot.com/antoniomendes/booking
 category: ["agriculture","construction","manufacturing"]
 image_preview: /use-cases/predictive-maintenance.png
 weight: 20

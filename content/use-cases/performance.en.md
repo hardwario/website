@@ -9,14 +9,14 @@ study: "/case-studies/defra"
 examples_heading: Connection examples
 examples: [["Digital outputs","RS-485 (Modbus), IO-Link and others"],["PLC outputs","Dry contact, current loop and more"],["Non-invasive monitoring","Magnetic, optical and other sensors"]]
 study: "/case-studies/arcelormittal"
-consultation: Pavel Hübner, CEO HARDWARIO
-cons_img: pavel.jpg
-cons_link: https://meetings.hubspot.com/pavel-hubner
+consultation: Antonio Mendes, CSO HARDWARIO
+cons_img: antonio.jpg
+cons_link: https://meetings.hubspot.com/antoniomendes/booking
 category: ["agriculture","construction","manufacturing"]
 image_preview: /use-cases/oee.png
 weight: 10
 full: true
 ---
 
-Get accurate online data on the availability, quality and performance of machines and other equipment. 
-Increase production efficiency. 
+Get accurate online data on the availability, quality and performance of machines and other equipment.
+Increase production efficiency.
