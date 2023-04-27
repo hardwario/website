@@ -8,9 +8,9 @@ approach: ["HARDWARIO přináší vše, co potřebujete k nasazení úspěšnéh
 examples_heading: Příklady napojení
 examples: [["Digitální výstupy","RS-485 (protokol ModBus), IO-Link a další"],["PLC výstupy","Suchý kontakt, proudová smyčka a další"],["Neinvazivní připojení","Magnetické, optické a další senzory"]]
 study: "/case-studies/arcelormittal"
-consultation: Antonio Mendes, CSO HARDWARIO
-cons_img: antonio.jpg
-cons_link: https://meetings.hubspot.com/antoniomendes/booking
+consultation: Pavel Hübner, CEO HARDWARIO
+cons_img: pavel.jpg
+cons_link: https://meetings.hubspot.com/pavel-hubner
 category: ["agriculture","construction","manufacturing"]
 image_preview: /use-cases/oee.png
 weight: 10

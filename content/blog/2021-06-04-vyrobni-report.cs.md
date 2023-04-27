@@ -13,7 +13,7 @@ author: lukas_fabik
 Od 1. června jsme ve spolupráci s Microsoftem spustili jedinečný program vyrobni.report. V něm s omezeným počtem vybraných firem bezplatně otestujeme systém monitoringu efektivity jednoho výrobního zařízení.
 ![HARDWARIO spustilo jedinečný program pro výrobní firmy](https://res.cloudinary.com/lukasfabik/image/upload/v1622801931/blog/2021-06-04-vyrobni-report/oee-banner.png)
 
-Zájemci o účast v programu můžou napsat přímo Antoniovi na [antonio.mendes@hardwario.com](mailto:antonio.mendes@hardwario.com), případně si rovnou domluvit online schůzku přes [jeho kalendář](https://meetings.hubspot.com/antoniomendes/booking). Více o programu najdete na stránce [www.vyrobni.report](https://www.vyrobni.report).
+Zájemci o účast v programu můžou napsat přímo Pavlovi na [pavel.hubner@hardwario.com](mailto:pavel.hubner@hardwario.com), případně si rovnou domluvit online schůzku přes [jeho kalendář](https://meetings.hubspot.com/pavel-hubner). Více o programu najdete na stránce [www.vyrobni.report](https://www.vyrobni.report).
 
 První představení programu proběhlo během webináře 27. května o neinvazivním monitoringu výrobních zařízení. Pusťte si jeho záznam:
 

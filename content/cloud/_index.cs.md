@@ -14,9 +14,9 @@ meta_description:
 image: /_assets/images/cloud/hio-cloud.png
 image_pb: pb-30
 image_w: w-100
-consultation: Antonio Mendes, CSO HARDWARIO
-cons_img: antonio.jpg
-cons_link: https://meetings.hubspot.com/antoniomendes/booking
+consultation: Pavel Hübner, CEO HARDWARIO
+cons_img: pavel.jpg
+cons_link: https://meetings.hubspot.com/pavel-hubner
 ---
 
 {{< capp/box1_1-a heading = "Uživatelsky přívětivá<br/> správa zařízení" text = "Spravujte všechna zařízení v intuitivním uživatelském rozhraní, seskupujte je do organizací a skupin a přidělujte přístup dalším uživatelům.</p><img loading='lazy' src='/_assets/images/chester/lpwan_brands.png' class='w-100 w-md-75 mt-10' alt='' /><p>" img_100 = "/_assets/images/cloud/devices.png" >}}
