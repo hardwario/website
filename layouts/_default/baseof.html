@@ -83,13 +83,14 @@
 
 
       });
-
     });
     $( ".close-selector" ).click(function() {
       $('.language-selector .selector').hide();
       $( "#languagues" ).removeClass("language-selector");
       $.cookie('hio_lang', 'set', { expires: 30, path: '/' });
     });
+
+
 </script>
 
 <div class="top-nav {{ if .IsHome }} fixed {{ end }}">
@@ -119,7 +120,7 @@
             <a href = "{{ .URL }}" class = "{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} active {{ end }}">{{ .Name | safeHTML }}</a>
           </li>
           {{ end }}
-          <li><a href = "https://shop.hardwario.com" target="_blank"><span class = "nav-cta">E-Shop</span></a></li>
+          <li><a href = "{{ .Site.Params.shopURL }}" target="_blank"><span class = "nav-cta">E-Shop</span></a></li>
 
         </ul>
       </div>
