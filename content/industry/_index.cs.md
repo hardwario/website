@@ -7,7 +7,7 @@ meta_title: Zařízení pro průmyslový internet věcí | HARDWARIO
 meta_description: Ekosystém naší stavebnice vám umožní rychle a s nízkými náklady zrealizovat pilotní projekty průmyslu 4.0 v oblastech prediktivní údržby, monitoringu výroby nebo například sledování komfortu pracovního prostředí.
 mainHeading: Zařízení pro průmyslový internet věcí
 description: Naše zařízení vám umožní rychle a&nbsp;s&nbsp;nízkými náklady zrealizovat projekty průmyslu 4.0 v oblastech prediktivní údržby, monitoringu výroby nebo například sledování komfortu pracovního prostředí.
-consultation: Pavel Hübner, CEO HARDWARIO
-cons_img: pavel.jpg
-cons_link: https://meetings.hubspot.com/pavel-hubner
+consultation: René Gubančok, CSO HARDWARIO
+cons_img: rene.jpg
+cons_link: https://meetings.hubspot.com/rene-gubancok
 ---

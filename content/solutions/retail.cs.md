@@ -11,9 +11,9 @@ video: UVzk9I8CV6M
 video_name: Záznam webináře o IoT v&nbsp;Retailu
 video_text: Rychlý vývoj IoT konektivity, zařízení operující roky na baterie, neinvazivní přístup a dostupná cena umožňují v dnešní době rychlou digitalizaci mnoha odvětví. Jedním z nejperspektinějších oborů využití IoT je bezesporu retail.
 video_bg: bg-darkGray font-white mb-20
-consultation: Pavel Hübner, CEO HARDWARIO
-cons_img: pavel.jpg
-cons_link: https://meetings.hubspot.com/pavel-hubner
+consultation: René Gubančok, CSO HARDWARIO
+cons_img: rene.jpg
+cons_link: https://meetings.hubspot.com/rene-gubancok
 menu:
     main:
         parent: 'Řešení'
