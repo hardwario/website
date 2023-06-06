@@ -2,7 +2,7 @@
 title: Projekt Dálkové odečty
 draft: false
 menu: ["footer_2"]
-weight: 999
+weight: 990
 heading: Projekt dálkové odečty byl podpořen z rozpočtu Libereckého kraje
 meta_title: Projekt dálkové odečty byl podpořen z rozpočtu Libereckého kraje
 meta_description:
