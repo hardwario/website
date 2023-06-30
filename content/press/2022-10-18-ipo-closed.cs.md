@@ -24,7 +24,7 @@ V rámci IPO se upsalo všech 2.870.000 kusů nabízených akcií, a to za cenu 
 Obchodní příležitosti pro své výrobky a služby nachází HARDWARIO v mnoha průmyslových oborech – ve výrobě, retailu, správě budov, zemědělství, lesnictví nebo zdravotnictví. Mezi koncové uživatele produktů HARDWARIO patří již dnes celá řada významných firem, jako například ŠKODA AUTO, ASAHI, ArcelorMittal, Siemens nebo Coca-Cola. Mezi technologické partnery pak patří operátoři mobilních sítí a společnost Microsoft. Společnost má pobočky ve Velké Británii, Polsku a USA. Plánuje také otevřít pobočku v Austrálii, která obslouží stávající i nové partnery v oblasti Pacifiku a jihovýchodní Asie.
 
 
-### O HARDWARIO 
+### O HARDWARIO
 
 HARDWARIO je česká technologická společnost, která se zaměřuje na oblast internetu věcí. Svým partnerům dodává vše potřebné pro úspěšné IoT projekty – konfigurovatelná zařízení, konektivitu, cloudové služby a otevřené vývojové nástroje pro vývoj vlastních aplikací. Hlavními vlastníky jsou spoluzakladatelé Alan Fabik a Pavel Hübner.
 
@@ -33,5 +33,4 @@ Díky funkčnímu obchodnímu modelu, propracovanému systému rozvíjení partn
 
 ### Kontakty
 
-- Alan Fabik (CEO) – e-mail: alan.fabik@hardwario.com / tel: +420 725 190 630
-- Tomáš Morava (CFO) – e-mail: tomas.morava@hardwario.com / tel: +420 737 250 187
+- Pavel Hübner (CEO) – e-mail: pavel.hubner@hardwario.com / tel: +420 775 159 734
