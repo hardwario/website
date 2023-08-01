@@ -22,7 +22,7 @@ specs: [
         ["Přesnost teploměru (od 0 do 65 °C)","± 0,2 °C"],
         ["Rozsah měření vlhkoměru", "0 až 100 %"],
         ["Přesnost vlhkoměru (od 10 do 90 %)","± 2 %"],
-        ["Rozlišení srážek","3 mm"],
+        ["Rozlišení srážek","0,28 mm"],
         ["Rozlišení rychlosti větru","0,33 m/s"],
         ["Jmenovité napětí baterie", "3,6 V"],
         ["Jmenovitá kapacita baterie", "7 700 mAh"],
